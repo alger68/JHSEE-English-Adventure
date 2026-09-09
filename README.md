@@ -1,4 +1,4 @@
-# JHSEE English Adventure — V2
+# JHSEE English Adventure — V2.1
 
 國三會考英文每日 10 分鐘闖關。純 HTML / CSS / JavaScript，不需安裝套件或設定資料庫。介面使用繁體中文，手機與電腦皆可閱讀、作答。
 
@@ -42,11 +42,11 @@
 可直接以瀏覽器開啟 `index.html`，或使用任何靜態網站主機。核心功能不需要網路或 API 金鑰；本機 `file://` 的保存能力依瀏覽器而異。
 
 ```sh
-node --test tests/core.test.cjs
+node --test tests/core.test.cjs tests/content.test.mjs
 node scripts/build.mjs
 ```
 
-需要 Node.js 22 以上。內容的唯一編輯來源是 `content/week-*.json`；`data.js` 由 build 產生，請勿手動編輯。build 驗證關卡連號、字數、單字、選項、答案與題目 ID，產生根目錄 `data.js`，並將五個網站檔案複製至 `dist/`。`dist/` 為可發布、已追蹤的靜態資產。
+需要 Node.js 22 以上。內容的編輯來源是種子週檔 `content/week-*.json` 與日更檔 `content/daily/YYYY-MM-DD.json`；`data.js` 由 build 產生，請勿手動編輯。build 驗證關卡連號、字數、單字、選項、答案與題目 ID，產生根目錄 `data.js`，並將五個網站檔案複製至 `dist/`。`dist/` 為可發布、已追蹤的靜態資產。
 
 | 檔案 | 用途 |
 | --- | --- |
@@ -75,12 +75,24 @@ node scripts/build.mjs
 
 未啟用 Pages 時，流程仍建置與測試，但跳過發布，避免把尚未建立的網址當成已上線網站。
 
-## 每日推送與 250 天擴充
+## 每日推送與自動同步
 
-既有「會考英文每日闖關」ChatGPT 任務設定為每天台灣時間 20:00。**這個任務的新文章尚未自動寫入本儲存庫。** 本版本提供已完整編寫的第一週；不以重複或空白內容冒充 250 天。
+正式日更網址：[會考英文每日冒險](https://alger68.github.io/JHSEE-English-Adventure/)。
 
-新增內容時建立 `content/week-02.json`（`lessons` 陣列、Day 8 起，格式同第一週），再執行 build、提交並推送。UI 會讀取全部已建置的課程，並以相同規則解鎖。將來可加上排程產稿、內容驗證與審閱、GitHub 更新及部署的完整同步流程；前端不可放置 API 金鑰。若總課程數增加，章節分組與長期統計介面仍需後續擴充。
+現有「會考英文每日闖關」ChatGPT 任務會沿用台灣時間 20:00 的排程，新增下列同步步驟：
+
+1. 讀取已發布文章，按當日星期產生一篇新內容。
+2. 在 `content/daily/` 新增日期命名的 JSON；同一天不重複新增。
+3. GitHub Actions 檢查內容結構、字數、選項、答案、原文證據和 Day 連續性。
+4. 通過後重新建置並發布 GitHub Pages；失敗則保留先前已發布的網站。
+5. ChatGPT 任務回報同步結果，並提供當日任務。排程 20:00 是開始時間，實際上線需再等生成與發布。
+
+這個方案使用已連接的 GitHub，不需在網站或 Actions 另放 AI API 金鑰。未來仍依賴 ChatGPT 排程、GitHub 連線權限與 Actions 可用；失敗時要在任務通知如實回報，不能把僅產生文字當成同步成功。排程指令與維護規格見 [AUTOMATION.md](AUTOMATION.md)。
+
+網站按每 7 關分章，能持續收錄到 Day 250。首頁顯示篇數與最新補給日期；新內容發布後，已開啟的網頁會提示可更新，點按後載入課程並保留原瀏覽器進度。**新文章收錄與個人的每日解鎖是兩回事**：Day 8 仍在學習起始日的第八天 20:00 開放。
+
+GitHub Actions 在發布時產生最新 `data.js`、`dist/` 與內容版號。每日任務只須新增 JSON，不回寫大型產物檔；若下載原始碼直接開啟，先執行 build 才會包含全部日更內容。舊私人 Sites 網址不包含這條 GitHub Pages 日更部署，請收藏上方正式網址。
 
 ## 本版驗證範圍
 
-已執行核心規則測試、JavaScript 語法檢查與本地資產參照檢查。本輪未執行真實 Safari／Chrome 的畫面與語音操作測試；語音支援仍依裝置而定。
+已執行核心規則與日更資料驗證測試、JavaScript 語法檢查與本地資產參照檢查。本輪未執行真實 Safari／Chrome 的畫面與語音操作測試；語音支援仍依裝置而定。

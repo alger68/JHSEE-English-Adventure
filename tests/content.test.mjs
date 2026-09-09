@@ -1,0 +1,13 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {validateContent,loadContent} from '../scripts/content.mjs';
+const root=new URL('../',import.meta.url).pathname;
+const seed={filename:'week-01.json',data:JSON.parse(fs.readFileSync(new URL('../content/week-01.json',import.meta.url),'utf8'))};
+const daily={filename:'daily/2026-09-09.json',data:JSON.parse(fs.readFileSync(new URL('./fixtures/day-008.json',import.meta.url),'utf8'))};
+const docs=()=>structuredClone([seed,daily]);
+test('Seed week and date-based content combine without replacing old lessons',()=>{const c=validateContent(docs());assert.equal(c.lessons.length,8);assert.equal(c.lessons[0].title,'The Missing Wallet');assert.equal(c.lastPublishDate,'2026-09-09');assert.equal(c.questionCount,51);});
+test('Missing days, duplicate dates and duplicate stories block publishing',()=>{let d=docs();d[1].data.lessons[0].day=9;assert.throws(()=>validateContent(d),/consecutive/);d=docs();d.push(structuredClone(d[1]));assert.throws(()=>validateContent(d),/duplicate publication/);d=docs();d[1].data.lessons[0].story=d[0].data.lessons[0].story;assert.throws(()=>validateContent(d),/duplicate title or story/);});
+test('Unsupported answer choices and invented evidence block publishing',()=>{let d=docs();d[1].data.lessons[0].questions[0].answer=4;assert.throws(()=>validateContent(d),/invalid question/);d=docs();d[1].data.lessons[0].questions[0].evidence='A sentence that does not appear in the passage.';assert.throws(()=>validateContent(d),/evidence/);});
+test('Publication date, filename, weekday topic and difficulty counts are enforced',()=>{let d=docs();d[1].data.publishDate='2026-09-10';assert.throws(()=>validateContent(d),/filename/);d=docs();d[1].data.lessons[0].type='校園故事';assert.throws(()=>validateContent(d),/topic/);d=docs();d[1].data.lessons[0].questions.pop();assert.throws(()=>validateContent(d),/question counts/);});
+test('Identical source files produce a stable content revision',()=>{const a=loadContent(root),b=loadContent(root);assert.equal(a.revision,b.revision);assert.match(a.revision,/^[a-f0-9]{16}$/);});

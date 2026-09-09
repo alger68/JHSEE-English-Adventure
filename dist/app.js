@@ -21,6 +21,9 @@ function readState() {
 let state = readState();
 let active = null, quizResult = null, currentAnswers = {}, startedAt = 0;
 let wordSession = null, wrongSession = null, toastTimer;
+let selectedChapter = null;
+const bossLesson = l => l.type === "每週 Boss";
+const reviewLesson = l => l.type === "單字與錯題復活";
 let lastCalendarDay = C.dateKey(), lastUnlocked = 0;
 function save() {
   if (blocked) { showStorage(); return; }
@@ -60,16 +63,21 @@ function home() {
   const todayDone = state.activityDates.includes(C.dateKey());
   const upcoming = lessons.find(l => !C.isUnlocked(state,l.day));
   const due = C.dueWords(lessons,state).length;
+  const totalChapters = Math.ceil(lessons.length / 7);
+  const chapter = Math.max(1, Math.min(totalChapters, selectedChapter || Math.ceil(featured.day / 7)));
+  const chapterLessons = lessons.filter(l => Math.ceil(l.day / 7) === chapter);
+  const chapterDone = chapterLessons.filter(l => done.includes(l.day)).length;
+  $('#sidebarChapter').textContent = `第 ${chapter} 章`;
   main.innerHTML = `<div class="page-heading"><div><div class="eyebrow">YOUR DAILY ADVENTURE</div><h1>${done.length ? '歡迎回來，繼續冒險。' : '今天，從一個小故事開始。'}</h1><p>讀一篇、找線索、闖一關。把 10 分鐘留給英文。</p></div><span class="date">${new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',month:'long',day:'numeric',weekday:'long'}).format(new Date())}</span></div>
   <div class="home-top"><section class="mission"><span class="mission-num" aria-hidden="true">${String(featured.day).padStart(2,'0')}</span><div class="eyebrow">${next ? 'YOUR NEXT MISSION' : 'KEEP THE ADVENTURE GOING'}</div><span class="chip">DAY ${featured.day} · ${esc(featured.type)}</span><h2 lang="en">${esc(featured.title)}</h2><p>${esc(featured.goal)} · 約 ${featured.minutes} 分鐘</p><a class="primary-link" href="#lesson/${featured.day}">${next ? '開始今天的冒險' : '再挑戰一次'} <span aria-hidden="true">→</span></a></section>
   <section class="panel daily-goal"><div class="eyebrow">DAILY CHECK-IN</div><h2>今天的小目標</h2><div class="goal-main"><div class="ring" style="--progress:${todayDone?100:0}"><div>${todayDone?1:0}<small>/ 1 次學習</small></div></div><div><strong>${todayDone?'今日已打卡':'完成一次練習'}</strong><p>${todayDone?'閱讀或複習，都算進步。':'交卷或複習一張單字。'}</p></div></div><p class="goal-note">${due ? `還有 ${due} 個單字等你複習。` : '今日到期單字已複習完成。'} <a class="text-link" href="#words">前往補給站 →</a></p></section></div>
-  <div class="section-heading"><div class="chapter-meta"><h2>第一章 · 日常裡的發現</h2><span class="chip">${done.length} / ${lessons.length} 已完成</span></div><p>七天旅程，一次前進一小步。</p></div>
-  <div class="lesson-grid">${lessons.map(l => {
+  <div class="section-heading"><div class="chapter-meta"><h2>第 ${chapter} 章 · ${chapter === 1 ? "日常裡的發現" : "新的線索，新的發現"}</h2><span class="chip">${chapterDone} / ${chapterLessons.length} 已完成</span></div><div class="settings-row"><label for="chapterSelect">冒險章節</label><select id="chapterSelect">${Array.from({length:totalChapters},(_,i)=>`<option value="${i+1}" ${chapter===i+1?"selected":""}>第 ${i+1} 章 · Day ${i*7+1}–${Math.min((i+1)*7,lessons.length)}</option>`).join("")}</select></div></div>
+  <div class="lesson-grid">${chapterLessons.map(l => {
     const locked = !C.isUnlocked(state,l.day), complete = done.includes(l.day), isNext = l.day===next?.day;
     const best = state.completions[l.day]?.best;
-    return `<article class="lesson-card ${locked?'locked':''} ${complete?'completed':''} ${isNext?'current':''} ${l.day===6?'boss-card':''} ${l.day===7?'week-finish':''}"><div class="lesson-card-head"><span class="day-square">${complete?'✓':String(l.day).padStart(2,'0')}</span>${l.day!==7?`<span class="chip">${l.day===6?'BOSS':esc(l.type)}</span>`:''}</div><div class="${l.day===7?'finish-content':''}"><h3 lang="en">${esc(l.title)}</h3><p>${esc(l.goal)}</p></div><div class="card-foot"><span>${complete?(best===undefined?'V1 已完成':`最佳 ${best}%`):`約 ${l.minutes} 分鐘`}</span>${locked?`<span>${unlockLabel(l)}</span>`:`<a class="card-action" href="#lesson/${l.day}">${complete?'再練一次':'進入關卡'} →</a>`}</div></article>`;
+    return `<article class="lesson-card ${locked?'locked':''} ${complete?'completed':''} ${isNext?'current':''} ${bossLesson(l)?'boss-card':''} ${reviewLesson(l)?'week-finish':''}"><div class="lesson-card-head"><span class="day-square">${complete?'✓':String(l.day).padStart(2,'0')}</span>${!reviewLesson(l)?`<span class="chip">${bossLesson(l)?'BOSS':esc(l.type)}</span>`:''}</div><div class="${reviewLesson(l)?'finish-content':''}"><h3 lang="en">${esc(l.title)}</h3><p>${esc(l.goal)}</p></div><div class="card-foot"><span>${complete?(best===undefined?'V1 已完成':`最佳 ${best}%`):`約 ${l.minutes} 分鐘`}</span>${locked?`<span>${unlockLabel(l)}</span>`:`<a class="card-action" href="#lesson/${l.day}">${complete?'再練一次':'進入關卡'} →</a>`}</div></article>`;
   }).join('')}</div>
-  <div class="info-strip"><p>${upcoming ? `下一關 ${unlockLabel(upcoming)}（台灣時間）。錯過也沒關係，已解鎖關卡會一直保留。` : '第一週已全部開放。完成 Boss 後，別忘了用錯題復活賽找回失分。'}</p><a class="text-link nowrap" href="#dashboard">查看學習紀錄 →</a></div>`;
+  <div class="info-strip"><p>${upcoming ? `下一關 ${unlockLabel(upcoming)}（台灣時間）。錯過也沒關係，已解鎖關卡會一直保留。` : '目前收錄的關卡都已開放。完成 Boss 後，別忘了用錯題復活賽找回失分。'}</p><a class="text-link nowrap" href="#dashboard">查看學習紀錄 →</a></div><p class="difficulty-note">已收錄 ${lessons.length} 篇${lessonMeta.lastPublishDate ? ` · 最新補給 ${esc(lessonMeta.lastPublishDate)}` : ""}。新文章依你的學習起始日逐日解鎖。</p>`;
 }
 function renderQuestion(q,index,answers,result) {
   const item = result?.items.find(i => i.questionId === q.id);
@@ -87,8 +95,8 @@ function lessonView(day,showLast=false,reset=false) {
   const qs = C.questions(l,active.tier);
   main.innerHTML=`<a class="back-link" href="#home">← 返回冒險地圖</a><div class="lesson-header"><div><span class="chip">DAY ${l.day} · ${esc(l.type)}</span><h1 lang="en">${esc(l.title)}</h1><p>${esc(l.goal)} · ${l.story.split(/\s+/).length} 字 · 約 ${l.minutes} 分鐘</p></div><div class="lesson-tools"><button data-action="speak-story">朗讀文章</button><button data-action="stop-speech" aria-label="停止朗讀">停止</button><label class="small" for="speechRate">速度</label><select id="speechRate"><option value="0.85">0.85×</option><option value="1">1×</option><option value="0.7">0.7×</option></select></div></div>
   <div class="reading-layout"><section class="panel reading-panel"><div class="eyebrow">READ & DISCOVER</div><div class="story" lang="en">${storyHTML(l)}</div></section><aside class="reading-side"><section class="panel"><h3>今日核心單字</h3><div class="word-list">${l.words.map(w=>`<div class="word-row"><strong lang="en">${esc(w.word)}</strong><span>${esc(w.meaning)}</span></div>`).join('')}</div></section><section class="panel"><h3>好用片語</h3>${l.phrases.map(p=>`<div class="phrase"><b lang="en">${esc(p.phrase)}</b><p>${esc(p.meaning)}</p></div>`).join('')}</section><div class="tip">先看懂大意，再回文章找支持答案的那一句。交卷後才會揭曉答案與解析。</div></aside></div>
-  <section class="panel quiz-panel"><div class="quiz-intro"><div><h2>${l.day===6?'每週 Boss Challenge':'輪到你找線索了'}</h2><p class="muted small">${qs.length} 題 · 每題只有一個最佳答案</p></div><div class="settings-row"><label for="lessonTier">練習難度</label><select id="lessonTier" ${quizResult?'disabled':''}>${[1,2,3].map(t=>`<option value="${t}" ${active.tier===t?'selected':''}>${tiers[t]}</option>`).join('')}</select></div></div><p class="difficulty-note">A：核心題＋字義偵探；A+：加一題進階；A++：再加一題綜合挑戰。這是本站練習分級，並非會考成績預測。</p>
-  <form id="quizForm">${qs.map((q,i)=>renderQuestion(q,i,currentAnswers,quizResult)).join('')}<div id="quizError" class="error-text" role="alert"></div><div class="quiz-actions">${quizResult?`<button type="button" data-action="retry">再挑戰一次</button><a class="primary-link" href="${l.day===7?'#mistakes':'#home'}">${l.day===7?'前往錯題復活賽':'回到冒險地圖'} →</a>`:`<button type="submit" class="primary">提交答案，查看解析 →</button><p>已完成 <span id="answerCount">${qs.filter(q=>Number.isInteger(currentAnswers[q.id])).length}</span> / ${qs.length} 題</p>`}</div></form>
+  <section class="panel quiz-panel"><div class="quiz-intro"><div><h2>${bossLesson(l)?'每週 Boss Challenge':'輪到你找線索了'}</h2><p class="muted small">${qs.length} 題 · 每題只有一個最佳答案</p></div><div class="settings-row"><label for="lessonTier">練習難度</label><select id="lessonTier" ${quizResult?'disabled':''}>${[1,2,3].map(t=>`<option value="${t}" ${active.tier===t?'selected':''}>${tiers[t]}</option>`).join('')}</select></div></div><p class="difficulty-note">A：核心題＋字義偵探；A+：加一題進階；A++：再加一題綜合挑戰。這是本站練習分級，並非會考成績預測。</p>
+  <form id="quizForm">${qs.map((q,i)=>renderQuestion(q,i,currentAnswers,quizResult)).join('')}<div id="quizError" class="error-text" role="alert"></div><div class="quiz-actions">${quizResult?`<button type="button" data-action="retry">再挑戰一次</button><a class="primary-link" href="${reviewLesson(l)?'#mistakes':'#home'}">${reviewLesson(l)?'前往錯題復活賽':'回到冒險地圖'} →</a>`:`<button type="submit" class="primary">提交答案，查看解析 →</button><p>已完成 <span id="answerCount">${qs.filter(q=>Number.isInteger(currentAnswers[q.id])).length}</span> / ${qs.length} 題</p>`}</div></form>
   ${quizResult?`<div class="result-banner" id="result" role="status"><div class="result-score">${quizResult.score}<span class="small"> / ${quizResult.total}</span></div><div><h3>${quizResult.percent===100?'全部答對，線索找得很準！':quizResult.percent>=60?'有進步！再看看漏掉的線索。':'先別急，一題一題找回線索。'}</h3><p>${quizResult.reviewOnly?'上次作答紀錄':quizResult.gain?`首次完成 +${quizResult.gain} EXP`:'複習完成 · 本關 EXP 已領取'} · ${quizResult.total-quizResult.score} 題需加強</p></div><a class="text-link" href="#mistakes">前往錯題復活賽 →</a></div>`:''}</section>`;
   const form=$('#quizForm');
   if(!quizResult)form.addEventListener('submit',e=>{e.preventDefault();try{quizResult=C.submit(state,l,currentAnswers,active.tier,new Date(),(Date.now()-startedAt)/1000);save();syncStats();lessonView(day);$('#result').scrollIntoView({behavior:'smooth',block:'center'});}catch(err){$('#quizError').textContent=err.message;const q=qs.find(q=>!Number.isInteger(currentAnswers[q.id]));if(q)$(`#question-${q.id} input`)?.focus();}});
@@ -122,7 +130,7 @@ function dashboard(){
   <section class="panel"><h2>閱讀能力觀察</h2>${Object.keys(skillData).length?Object.entries(skillData).map(([name,v])=>`<div class="skill-row"><div><span>${esc(name)}</span><span>${v.right} / ${v.total}</span></div><div class="progress"><i style="width:${v.right/v.total*100}%"></i></div></div>`).join(''):'<p class="muted small">完成閱讀題後，這裡會顯示細節理解、推論與字義等題型的表現。</p>'}<p class="difficulty-note">僅統計本站首次作答，不代表正式會考能力量尺。</p></section></div>
   <section class="panel" style="margin-top:24px"><div class="section-heading" style="margin-top:0"><h2>關卡成績</h2><span class="muted small">首答與最佳分數分開保留</span></div><div class="table-wrap"><table><thead><tr><th>關卡</th><th>首次</th><th>最佳</th><th>難度</th><th>解析</th></tr></thead><tbody>${lessons.map(l=>{const c=state.completions[l.day];return `<tr><td><b>Day ${l.day}</b> <span lang="en">${esc(l.title)}</span></td><td>${c?`${c.first.score}/${c.first.total}`:done.includes(l.day)?'V1 未記錄':'—'}</td><td>${c?c.best+'%':'—'}</td><td>${c?tiers[c.last.tier]:'—'}</td><td>${c?`<a class="text-link" href="#result/${l.day}">上次解析</a>`:'—'}</td></tr>`;}).join('')}</tbody></table></div></section>
   <section class="panel" style="margin-top:24px"><h2>下一步怎麼練？</h2><p class="small">目前建議：<b>${tiers[suggestion]}</b>。${suggestion===1?'先穩定完成核心題，練習用文章證據回答。':suggestion===2?'核心題已漸漸穩定，可以增加一題推論挑戰。':'試試跨句整合與綜合挑戰，並繼續複習失分題。'}</p><div class="settings-row"><label for="defaultTier">預設練習難度</label><select id="defaultTier">${[1,2,3].map(t=>`<option value="${t}" ${state.difficulty===t?'selected':''}>${tiers[t]}</option>`).join('')}</select><button data-action="use-suggestion">使用建議難度</button></div><p class="difficulty-note">完成 3 關且首次總正確率 ≥80%，建議 A+；完成 5 關且 ≥90%，建議 A++。也可自行選擇。分級只調整本站題目，不推估會考級分。</p></section>
-  <section class="panel" style="margin-top:24px"><h2>保存你的冒險</h2><p class="muted small">進度保存在這個瀏覽器。換手機、換網址或清除瀏覽資料前，先匯出備份，再到新裝置匯入。</p><div class="data-actions"><button data-action="export">匯出學習備份</button><button data-action="import">匯入學習備份</button><input id="importFile" type="file" accept="application/json,.json" hidden></div><p class="difficulty-note">第一週已收錄 ${lessons.length} 篇。網站內容與 ChatGPT 每日新文章尚未自動同步；新增內容需更新專案。${state.legacyDone.length?' V1 的 EXP 與完成關卡已保留；V1 沒有記錄日期與逐題答案，因此無法還原舊連續天數和錯題。':''}</p></section>`;
+  <section class="panel" style="margin-top:24px"><h2>保存你的冒險</h2><p class="muted small">進度保存在這個瀏覽器。換手機、換網址或清除瀏覽資料前，先匯出備份，再到新裝置匯入。</p><div class="data-actions"><button data-action="export">匯出學習備份</button><button data-action="import">匯入學習備份</button><input id="importFile" type="file" accept="application/json,.json" hidden></div><p class="difficulty-note">目前收錄 ${lessons.length} 篇。每日補給排程為台灣時間 20:00；最新補給日期：${esc(lessonMeta.lastPublishDate || "尚無每日補給")}。新關卡仍依你的學習起始日解鎖。${state.legacyDone.length?' V1 的 EXP 與完成關卡已保留；V1 沒有記錄日期與逐題答案，因此無法還原舊連續天數和錯題。':''}</p></section>`;
   $('#importFile').addEventListener('change',importBackup);
 }
 async function importBackup(e){
@@ -144,6 +152,7 @@ main.addEventListener('change',e=>{
   if(t.matches('#quizForm input[type=radio]')&&!quizResult){currentAnswers[t.name]=Number(t.value);state.drafts[`${active.day}:${active.tier}`]={...currentAnswers};save();$('#answerCount').textContent=C.questions(lessons.find(l=>l.day===active.day),active.tier).filter(q=>Number.isInteger(currentAnswers[q.id])).length;}
   if(t.matches('#wrongForm input[type=radio]')&&wrongSession)wrongSession.selected=Number(t.value);
   if(t.id==='lessonTier'){state.difficulty=Number(t.value);save();lessonView(active.day,false,true);}
+  if(t.id==='chapterSelect'){selectedChapter=Number(t.value);home();}
   if(t.id==='defaultTier'){state.difficulty=Number(t.value);save();toast('已更新預設練習難度。');}
 });
 main.addEventListener('click',e=>{
@@ -167,3 +176,20 @@ function refreshDate(){const day=C.dateKey(),open=lessons.filter(l=>C.isUnlocked
 window.addEventListener('focus',refreshDate);setInterval(refreshDate,30000);
 save();route();lastUnlocked=lessons.filter(l=>C.isUnlocked(state,l.day)).length;
 if(migrated)toast('已保留 V1 的 EXP 與完成關卡，新的每日紀錄從今天開始。');
+
+// Check for new content without interrupting an unfinished quiz.
+let contentCheckInFlight = false;
+async function checkContentUpdate(){
+  if(location.protocol === 'file:' || contentCheckInFlight || document.visibilityState === 'hidden') return;
+  contentCheckInFlight = true;
+  try {
+    const response = await fetch('catalog.json', {cache:'no-store'});
+    if(!response.ok) return;
+    const remote = await response.json();
+    if(typeof remote.revision === 'string' && remote.revision !== lessonMeta.revision) $('#contentUpdate').hidden = false;
+  } catch {} finally {contentCheckInFlight = false;}
+}
+$('#refreshLessons').addEventListener('click',()=>{save();location.reload();});
+window.addEventListener('focus',checkContentUpdate);
+setInterval(checkContentUpdate,300000);
+checkContentUpdate();

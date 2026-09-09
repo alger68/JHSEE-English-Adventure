@@ -1,4 +1,5 @@
-// Generated from content/week-*.json by scripts/build.mjs.
+// Generated from content/week-*.json and content/daily/*.json.
+const lessonMeta = {"version":"2.1","revision":"97e38fab58292075","lessonCount":7,"lastPublishDate":null};
 const lessons = [
   {
     "day": 1,
