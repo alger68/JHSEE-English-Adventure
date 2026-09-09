@@ -59,7 +59,7 @@ function syncStats() {
   showStorage();
 }
 function setNav(view) {
-  const labels = {home:'冒險地圖',words:'單字補給站',mistakes:'錯題復活賽',dashboard:'學習紀錄'};
+  const labels = {home:'冒險地圖',words:'單字補給站',mistakes:'錯題復活賽',dashboard:'學習紀錄',exams:'官方歷屆試題'};
   document.querySelectorAll('#nav a').forEach(a => {const yes = a.dataset.view === view; a.classList.toggle('active',yes); if (yes) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');});
   $('#breadcrumb').textContent = '我的學習基地 / ' + (labels[view] || '閱讀闖關');
 }
@@ -149,11 +149,12 @@ async function importBackup(e){
 }
 function exportBackup(){const blob=new Blob([JSON.stringify({app:'JHSEE-English-Adventure',exportedAt:new Date().toISOString(),state},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`JHSEE-progress-${C.dateKey()}.json`;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);toast('已產生學習備份，請保存下載的 JSON 檔。');}
 function route(){
-  stopSpeech();const [view,id]=(location.hash.slice(1)||'home').split('/');
-  setNav(['lesson','result'].includes(view)?'home':view);syncStats();
+  stopSpeech();ExamPage.leave();const [view,id,examMode,examAttempt]=(location.hash.slice(1)||'home').split('/');
+  setNav(['lesson','result'].includes(view)?'home':view==='exam'?'exams':view);syncStats();
   if(!['lesson','result'].includes(view)){active=null;quizResult=null;}
   if(view!=='words')wordSession=null;if(view!=='mistakes')wrongSession=null;
-  if(view==='lesson'||view==='result')lessonView(Number(id),view==='result');
+  if(view==='exams'||view==='exam')ExamPage.render(main,Number(id),examMode,examAttempt?decodeURIComponent(examAttempt):undefined);
+  else if(view==='lesson'||view==='result')lessonView(Number(id),view==='result');
   else if(view==='words')wordsView();else if(view==='mistakes')mistakesView();else if(view==='dashboard')dashboard();else home();
   window.scrollTo({top:0,behavior:'instant'});main.focus({preventScroll:true});
 }
@@ -197,7 +198,7 @@ async function checkContentUpdate(){
     const response = await fetch('catalog.json', {cache:'no-store'});
     if(!response.ok) return;
     const remote = await response.json();
-    if(typeof remote.revision === 'string' && remote.revision !== lessonMeta.revision) $('#contentUpdate').hidden = false;
+    if(typeof remote.revision === 'string' && (remote.revision !== lessonMeta.revision || remote.version !== lessonMeta.version)) $('#contentUpdate').hidden = false;
   } catch {} finally {contentCheckInFlight = false;}
 }
 $('#refreshLessons').addEventListener('click',()=>{save();location.reload();});

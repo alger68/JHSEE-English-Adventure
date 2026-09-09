@@ -1,0 +1,94 @@
+{
+  "version": 1,
+  "publisher": "國立臺灣師範大學心理與教育測驗研究發展中心／國中教育會考",
+  "exams": [
+    {
+      "id": "cap-115-reading",
+      "year": 115,
+      "adYear": 2026,
+      "title": "115 年會考英語閱讀",
+      "questionCount": 43,
+      "durationMinutes": 60,
+      "paperUrl": "https://drive.google.com/file/d/1pzRZpkZEBg4x7GNTAIrdfGJCxNSKgok-/view?usp=drive_link",
+      "answerUrl": "https://drive.google.com/file/d/1fxfOLQPMdCEMSuziD1qsQZg3vVOGt8df/view?usp=drive_link",
+      "listeningUrl": "https://drive.google.com/file/d/1zRjsoyQhLRJfmmHtBJfi5qJa6ND1uVJ6/view?usp=drive_link",
+      "officialIndex": "https://cap.rcpet.edu.tw/examination.html",
+      "correctionUrl": "https://cap.rcpet.edu.tw/115doubt.html",
+      "checkedAt": "2026-09-09",
+      "answers": "BABCCDCACACADDAADBDCDDBDDCDCAABDCAABBCBBBBC",
+      "creditAll": [],
+      "note": ""
+    },
+    {
+      "id": "cap-114-reading",
+      "year": 114,
+      "adYear": 2025,
+      "title": "114 年會考英語閱讀",
+      "questionCount": 43,
+      "durationMinutes": 60,
+      "paperUrl": "https://drive.google.com/file/d/1Or0bC16Jn2hA0uAF2zrryHoY46ywIQjK/view?usp=drive_link",
+      "answerUrl": "https://drive.google.com/file/d/175hz0lHG4GTDNxYet9lrRDu0lmC_G08o/view?usp=drive_link",
+      "listeningUrl": "https://drive.google.com/file/d/1NQNXowVBpE4N7i790_88YXZ03zt2ktFn/view?usp=drive_link",
+      "officialIndex": "https://cap.rcpet.edu.tw/examination.html",
+      "correctionUrl": "https://cap.rcpet.edu.tw/114doubt.html",
+      "checkedAt": "2026-09-09",
+      "answers": "DDCBDAABDCADDAADBABBBACDCCADCDBDABCCCBCCABA",
+      "creditAll": [],
+      "note": ""
+    },
+    {
+      "id": "cap-113-reading",
+      "year": 113,
+      "adYear": 2024,
+      "title": "113 年會考英語閱讀",
+      "questionCount": 43,
+      "durationMinutes": 60,
+      "paperUrl": "https://drive.google.com/file/d/1ZU8SG-4jdV1DGvPzpgzoi_hhRiD4NT3S/view?usp=drive_link",
+      "answerUrl": "https://drive.google.com/file/d/1cWlogP9FBRX1eD5kjgVDP2_6f8VCLSB4/view?usp=drive_link",
+      "listeningUrl": "https://drive.google.com/file/d/1iAZySLpGHqKdwyIlriM58ve8vW9aMV0Q/view?usp=drive_link",
+      "officialIndex": "https://cap.rcpet.edu.tw/examination.html",
+      "correctionUrl": "https://cap.rcpet.edu.tw/113doubt.html",
+      "checkedAt": "2026-09-09",
+      "answers": "ACBBDDBDCDCAAACDCDACBDCCBADBBADAABABBCCABBD",
+      "creditAll": [],
+      "note": ""
+    },
+    {
+      "id": "cap-112-reading",
+      "year": 112,
+      "adYear": 2023,
+      "title": "112 年會考英語閱讀",
+      "questionCount": 43,
+      "durationMinutes": 60,
+      "paperUrl": "https://drive.google.com/file/d/1SXbjT6B_F8eQh2GZEvB6KmgR0k2lDK8A/view?usp=drive_link",
+      "answerUrl": "https://drive.google.com/file/d/1OT5r0que_0bXSy0kwLEOEJMssce2OnL0/view?usp=drive_link",
+      "listeningUrl": "https://drive.google.com/file/d/119yW4wSJXxczoMJqGihwXOsu94p8cmXU/view?usp=drive_link",
+      "officialIndex": "https://cap.rcpet.edu.tw/examination.html",
+      "correctionUrl": "https://cap.rcpet.edu.tw/112doubt.html",
+      "checkedAt": "2026-09-09",
+      "answers": "BDDBABACCDDCCCDCCBDCABDBBAACDBAADCBDDBBCBAA",
+      "creditAll": [
+        1
+      ],
+      "note": "官方公告：閱讀第 1 題一律給分；本站依此計分。"
+    },
+    {
+      "id": "cap-111-reading",
+      "year": 111,
+      "adYear": 2022,
+      "title": "111 年會考英語閱讀",
+      "questionCount": 43,
+      "durationMinutes": 60,
+      "paperUrl": "https://drive.google.com/file/d/1IyJBtIjySeyVAisE1YiCclYsSldQpHBf/view?usp=drive_link",
+      "answerUrl": "https://drive.google.com/file/d/1IeMHI4BmTpC_2Oc1lQ1Qj6XWHDf9qwGd/view?usp=drive_link",
+      "listeningUrl": "https://drive.google.com/file/d/1EVRfZmxfQQMTQ-2ksTmb1i5sozNM819a/view?usp=drive_link",
+      "officialIndex": "https://cap.rcpet.edu.tw/examination.html",
+      "correctionUrl": "https://cap.rcpet.edu.tw/111doubt.html",
+      "checkedAt": "2026-09-09",
+      "answers": "AACCBABBADCBDCBCDCADCCDCACADBDADDBDBCBADCAA",
+      "creditAll": [],
+      "note": ""
+    }
+  ]
+}
+

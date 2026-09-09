@@ -1,4 +1,4 @@
-# JHSEE English Adventure — V2.1
+# JHSEE English Adventure — V2.2
 
 國三會考英文每日 10 分鐘闖關。純 HTML / CSS / JavaScript，不需安裝套件或設定資料庫。介面使用繁體中文，手機與電腦皆可閱讀、作答。
 
@@ -42,7 +42,7 @@
 可直接以瀏覽器開啟 `index.html`，或使用任何靜態網站主機。核心功能不需要網路或 API 金鑰；本機 `file://` 的保存能力依瀏覽器而異。
 
 ```sh
-node --test tests/core.test.cjs tests/content.test.mjs
+node --test tests/core.test.cjs tests/content.test.mjs tests/exams.test.cjs
 node scripts/build.mjs
 ```
 
@@ -96,3 +96,14 @@ GitHub Actions 在發布時產生最新 `data.js`、`dist/` 與內容版號。�
 ## 本版驗證範圍
 
 已執行核心規則與日更資料驗證測試、JavaScript 語法檢查與本地資產參照檢查。本輪未執行真實 Safari／Chrome 的畫面與語音操作測試；語音支援仍依裝置而定。
+
+## 官方歷屆試題分頁
+
+從導覽列的「歷屆試題」進入，選 111–115 年的正式會考英語閱讀。每年 43 題，共 215 題。
+
+- **我要測驗**：看官方原題本、填本站答案卡，交卷後揭曉對錯並保存成績。
+- **只看題本，不測驗**：自由閱讀，按需展開答案，不計時、不計分。
+- 112 年第 1 題依官方公告一律給分。
+- 歷屆成績與每日冒險分開保存；不影響 EXP、Streak 或解鎖。
+- 來源核對、資料格式、特殊計分與備份方式見 [OFFICIAL_EXAMS.md](OFFICIAL_EXAMS.md)。
+- 題本以官方提供的 Google Drive 原檔呈現；預覽無法顯示時可另開題本。本站此分頁只計分英語閱讀。

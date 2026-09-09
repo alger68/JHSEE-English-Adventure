@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: '22'
       - name: Validate learning rules
-        run: node --test tests/core.test.cjs tests/content.test.mjs
+        run: node --test tests/core.test.cjs tests/content.test.mjs tests/exams.test.cjs
       - name: Build complete content
         run: node scripts/build.mjs
       - name: Check Pages setup

@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#182443"><meta name="description" content="國三會考英文每天十分鐘：閱讀闖關、單字複習、錯題復活與學習紀錄。">
-  <title>會考英文每日冒險 · V2.1</title>
-  <link rel="stylesheet" href="style.css?v=61db5717ff73">
-  <script src="data.js?v=bcc06b877b54" defer></script><script src="core.js?v=332d75916dcf" defer></script><script src="app.js?v=3a6a25651cf0" defer></script>
+  <title>會考英文每日冒險 · V2.2</title>
+  <link rel="stylesheet" href="style.css?v=b1ec3ffc8cf9">
+  <script src="data.js?v=dc247b6be1ab" defer></script><script src="core.js?v=332d75916dcf" defer></script><script src="exam-data.js?v=8a4efb490c83" defer></script><script src="exam-core.js?v=da12ee2e0d61" defer></script><script src="exams.js?v=ce6f62ed228c" defer></script><script src="app.js?v=80d679c77c07" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">跳至學習內容</a>
@@ -16,6 +16,7 @@
       <a href="#home" data-view="home"><span aria-hidden="true">◈</span>冒險地圖</a>
       <a href="#words" data-view="words"><span aria-hidden="true">Aa</span>單字補給站<span id="wordBadge" class="count"></span></a>
       <a href="#mistakes" data-view="mistakes"><span aria-hidden="true">↻</span>錯題復活賽<span id="mistakeBadge" class="count"></span></a>
+      <a href="#exams" data-view="exams"><span aria-hidden="true">▤</span>歷屆試題</a>
       <a href="#dashboard" data-view="dashboard"><span aria-hidden="true">▥</span>學習紀錄</a>
     </nav>
     <div class="sidebar-bottom"><span class="tiny-tag" id="sidebarChapter">第一章</span><strong>Small acts.<br>Big discoveries.</strong><p>先讀懂，再往前一步。</p><div class="mini-progress"><i id="sidebarProgress"></i></div><small id="sidebarDone">0 / 7 關完成</small></div>
@@ -25,7 +26,7 @@
     <div id="storageWarning" class="notice" role="status" hidden></div>
     <div id="contentUpdate" class="notice" role="status" hidden>有新課程了。<button id="refreshLessons">更新冒險地圖</button></div>
     <main id="main" tabindex="-1"></main>
-    <footer>JHSEE English Adventure <span>V2.1 · 每天一點，慢慢變強。</span></footer>
+    <footer>JHSEE English Adventure <span>V2.2 · 每天一點，慢慢變強。</span></footer>
   </div>
   <div id="toast" role="status" aria-live="polite" hidden></div>
   <noscript><p>請開啟 JavaScript，才能閱讀、作答與保存進度。</p></noscript>
