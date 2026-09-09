@@ -60,7 +60,13 @@ node scripts/build.mjs
 
 ## GitHub Pages
 
-儲存庫原先尚未啟用 Pages。已準備好自動部署流程，但 GitHub 連接器目前沒有修改儲存庫 Pages 設定的操作。
+本專案已啟用 Pages，並使用自動部署流程。推送 `main` 後會驗證、建置並發布；網站網址請以最新成功部署的結果為準。
+
+需要手動重新發布時，開啟 [部署流程](https://github.com/alger68/JHSEE-English-Adventure/actions/workflows/pages.yml)，點選 **Run workflow**，保留 `main` 再執行即可。
+
+每次建置會使用包含執行 ID 與重試次數的獨立發布檔案名稱，並把名稱傳給部署工作，避免重跑流程時因同名檔案產生衝突。只重跑部署工作時，會沿用對應建置產生的檔案。
+
+若將專案複製到新的儲存庫，首次啟用方式如下：
 
 1. 到 [Settings → Pages](https://github.com/alger68/JHSEE-English-Adventure/settings/pages)。
 2. 在 Build and deployment 的 Source 選擇 **GitHub Actions**。
