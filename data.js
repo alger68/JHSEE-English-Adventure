@@ -1,5 +1,5 @@
 // Generated from content/week-*.json and content/daily/*.json.
-const lessonMeta = {"version":"2.2","revision":"eb674fe10cc6e785","lessonCount":8,"lastPublishDate":"2026-09-09"};
+const lessonMeta = {"version":"3.0","revision":"eb674fe10cc6e785","lessonCount":8,"lastPublishDate":"2026-09-09"};
 const lessons = [
   {
     "day": 1,

@@ -9,7 +9,7 @@
   const dateKey = (now = new Date()) => new Date(new Date(now).getTime() + 8 * 3600000).toISOString().slice(0, 10);
   const validDate = s => typeof s === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(s) && Number.isFinite(Date.parse(s)) && new Date(s).toISOString().slice(0, 10) === s;
   const addDays = (s, days) => new Date(Date.parse(s + 'T00:00:00Z') + days * DAY).toISOString().slice(0, 10);
-  const fresh = (now = new Date()) => ({ version: 2, startDate: dateKey(now), xp: 0, legacyDone: [], activityDates: [], completions: {}, attempts: [], wrong: {}, wordProgress: {}, drafts: {}, difficulty: 1 });
+  const fresh = (now = new Date()) => ({ version: 2, startDate: dateKey(now), xp: 0, legacyDone: [], activityDates: [], completions: {}, attempts: [], wrong: {}, wordProgress: {}, drafts: {}, transfer: {}, difficulty: 1 });
   const questions = (lesson, tier = 1) => lesson.questions.filter(q => q.tier <= tier);
   function migrate(legacy, now = new Date()) {
     const s = fresh(now);
@@ -49,8 +49,8 @@
     if (s.attempts.length > 2000) s.attempts = s.attempts.slice(-2000);
     result.items.forEach(item => {
       const key = lesson.day + ':' + item.questionId;
-      if (item.correct) delete s.wrong[key];
-      else s.wrong[key] = { day: lesson.day, questionId: item.questionId, misses: (s.wrong[key]?.misses || 0) + 1 };
+      if (!item.correct) markMistake(s, lesson.day, item.questionId, now);
+      // Lesson retries preserve the spaced-review schedule and first score.
     });
     s.xp += gain; addActivity(s, now);
     delete s.drafts[lesson.day + ':' + tier];
@@ -60,10 +60,30 @@
     const q = lesson.questions.find(q => q.id === questionId);
     if (!q || !Number.isInteger(selected) || selected < 0 || selected >= q.options.length) throw new Error('請先選一個答案。');
     const key = lesson.day + ':' + questionId, correct = selected === q.answer;
-    if (correct) delete s.wrong[key];
-    else s.wrong[key] = { day: lesson.day, questionId, misses: (s.wrong[key]?.misses || 0) + 1 };
+    if (!correct) markMistake(s, lesson.day, questionId, now);
+    else if (s.wrong[key]) {
+      const w = s.wrong[key], today = dateKey(now);
+      if (w.stage < 5 && w.due <= today && w.last !== today) {
+        w.stage++; w.last = today;
+        w.due = addDays(today, [0,1,3,7,14,14][w.stage]);
+      }
+    }
     addActivity(s, now);
     return correct;
+  }
+  function markMistake(s, day, questionId, now) {
+    const key = day + ':' + questionId, old = s.wrong[key];
+    s.wrong[key] = { day, questionId, misses:(old?.misses || 0)+1, stage:0, due:dateKey(now), last:old?.last || null };
+  }
+  function reviewQueue(s, now = new Date(), all = false) {
+    return Object.values(s.wrong).filter(w => all || (w.stage < 5 && w.due <= dateKey(now)))
+      .sort((a,b) => a.due.localeCompare(b.due) || b.misses-a.misses);
+  }
+  function transferAnswer(s, q, selected, now = new Date()) {
+    if (!q || !Number.isInteger(selected) || selected<0 || selected>=q.options.length) throw new Error('請先選一個答案。');
+    const correct = selected===q.answer, old=s.transfer[q.id];
+    s.transfer[q.id]={skill:q.skill,attempts:(old?.attempts||0)+1,first:old?old.first:correct,last:correct,at:new Date(now).toISOString()};
+    addActivity(s,now); return correct;
   }
   const wordKey = w => w.word.toLowerCase();
   function vocabulary(lessons, state, now = new Date()) {
@@ -115,12 +135,22 @@
     });
     s.attempts = raw.attempts.slice(-2000).map(cleanAttempt);
     if (!raw.wrong || typeof raw.wrong!=='object' || !raw.wordProgress || typeof raw.wordProgress!=='object') throw new Error('備份缺少複習紀錄。');
-    Object.values(raw.wrong).forEach(w=>{const l=lessons.find(l=>l.day===w?.day);if(!l?.questions.some(q=>q.id===w.questionId))throw new Error('備份錯題資料無效。');s.wrong[w.day+':'+w.questionId]={day:w.day,questionId:w.questionId,misses:Number.isInteger(w.misses)?Math.max(1,w.misses):1};});
+    Object.values(raw.wrong).forEach(w=>{
+      const l=lessons.find(l=>l.day===w?.day);
+      if(!l?.questions.some(q=>q.id===w.questionId))throw new Error('備份錯題資料無效。');
+      const stage=w.stage===undefined?0:w.stage, due=w.due===undefined?dateKey():w.due, last=w.last??null;
+      if(!Number.isInteger(stage)||stage<0||stage>5||!validDate(due)||(last!==null&&!validDate(last)))throw new Error('備份複習日期無效。');
+      s.wrong[w.day+':'+w.questionId]={day:w.day,questionId:w.questionId,misses:Number.isInteger(w.misses)?Math.max(1,w.misses):1,stage,due,last};
+    });
+    for(const [id,t] of Object.entries(raw.transfer||{})) {
+      if(!/^transfer-[a-z]+-[1-9][0-9]*$/.test(id)||!t||typeof t.skill!=='string'||t.skill.length>30||!Number.isInteger(t.attempts)||t.attempts<1||typeof t.first!=='boolean'||typeof t.last!=='boolean'||!Number.isFinite(Date.parse(t.at)))throw new Error('備份相似題紀錄無效。');
+      s.transfer[id]={skill:t.skill,attempts:t.attempts,first:t.first,last:t.last,at:new Date(t.at).toISOString()};
+    }
     const words=new Set(lessons.flatMap(l=>l.words.map(wordKey)));
     Object.entries(raw.wordProgress).forEach(([k,w])=>{if(!words.has(k)||!Number.isInteger(w?.stage)||w.stage<0||w.stage>3||!validDate(w.due)||!validDate(w.last))throw new Error('備份單字資料無效。');s.wordProgress[k]={stage:w.stage,due:w.due,last:w.last};});
     // Drafts are optional and are reconstructed only from known question IDs.
     for(const l of lessons)for(const tier of [1,2,3]){const key=l.day+':'+tier,d=raw.drafts?.[key];if(d&&typeof d==='object'){const clean={};for(const q of questions(l,tier))if(Number.isInteger(d[q.id])&&d[q.id]>=0&&d[q.id]<q.options.length)clean[q.id]=d[q.id];s.drafts[key]=clean;}}
     return s;
   }
-  return { dateKey, validDate, addDays, fresh, migrate, questions, unlockAt, isUnlocked, completedDays, streak, grade, submit, reviewQuestion, vocabulary, dueWords, reviewWord, firstAccuracy, recommendation, validateState };
+  return { dateKey, validDate, addDays, fresh, migrate, questions, unlockAt, isUnlocked, completedDays, streak, grade, submit, reviewQuestion, reviewQueue, transferAnswer, vocabulary, dueWords, reviewWord, firstAccuracy, recommendation, validateState };
 });
