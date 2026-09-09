@@ -32,13 +32,23 @@ function save() {
 }
 function showStorage() { const box = $('#storageWarning'); box.hidden = !storageMessage; box.textContent = storageMessage; }
 function toast(message) { clearTimeout(toastTimer); $('#toast').textContent = message; $('#toast').hidden = false; toastTimer = setTimeout(() => $('#toast').hidden = true, 4000); }
-function stopSpeech() { if ('speechSynthesis' in window) window.speechSynthesis.cancel(); }
-function say(text, rate = .85) {
+let readingRate = .85, currentSpeech = null;
+function stopSpeech() { currentSpeech = null; if ('speechSynthesis' in window) window.speechSynthesis.cancel(); }
+function say(text, rate = readingRate, kind = 'word') {
   if (!('speechSynthesis' in window) || !('SpeechSynthesisUtterance' in window)) { toast('此瀏覽器不支援英文朗讀，請使用 Safari、Chrome 或 Edge。'); return; }
   stopSpeech(); const u = new SpeechSynthesisUtterance(text); u.lang = 'en-US'; u.rate = rate;
   const voice = window.speechSynthesis.getVoices().find(v => v.lang === 'en-US'); if (voice) u.voice = voice;
-  u.onerror = event => { if (!['interrupted','canceled'].includes(event.error)) toast('朗讀暫時無法播放，請確認裝置音量與語音服務。'); };
+  currentSpeech = {utterance:u,text,kind};
+  u.onend = () => { if(currentSpeech?.utterance === u) currentSpeech = null; };
+  u.onerror = event => { if(currentSpeech?.utterance !== u) return; currentSpeech = null; if (!['interrupted','canceled'].includes(event.error)) toast('朗讀暫時無法播放，請確認裝置音量與語音服務。'); };
   window.speechSynthesis.speak(u);
+}
+function changeReadingRate(rate) {
+  if(![.6,.85,1,1.25].includes(rate)) return;
+  readingRate = rate;
+  const story = currentSpeech?.kind === 'story' ? currentSpeech.text : null;
+  if(story) { say(story,rate,'story'); toast(`已改為 ${rate}×，從文章開頭重新朗讀。`); }
+  else toast(`朗讀速度已設為 ${rate}×，按「朗讀文章」即可播放。`);
 }
 function syncStats() {
   const done = C.completedDays(state).filter(d => lessons.some(l => l.day === d)).length;
@@ -93,9 +103,9 @@ function lessonView(day,showLast=false,reset=false) {
     currentAnswers = {...(quizResult?.answers || state.drafts[`${day}:${active.tier}`] || {})}; startedAt = Date.now();
   }
   const qs = C.questions(l,active.tier);
-  main.innerHTML=`<a class="back-link" href="#home">← 返回冒險地圖</a><div class="lesson-header"><div><span class="chip">DAY ${l.day} · ${esc(l.type)}</span><h1 lang="en">${esc(l.title)}</h1><p>${esc(l.goal)} · ${l.story.split(/\s+/).length} 字 · 約 ${l.minutes} 分鐘</p></div><div class="lesson-tools"><button data-action="speak-story">朗讀文章</button><button data-action="stop-speech" aria-label="停止朗讀">停止</button><label class="small" for="speechRate">速度</label><select id="speechRate"><option value="0.85">0.85×</option><option value="1">1×</option><option value="0.7">0.7×</option></select></div></div>
+  main.innerHTML=`<a class="back-link" href="#home">← 返回冒險地圖</a><div class="lesson-header"><div><span class="chip">DAY ${l.day} · ${esc(l.type)}</span><h1 lang="en">${esc(l.title)}</h1><p>${esc(l.goal)} · ${l.story.split(/\s+/).length} 字 · 約 ${l.minutes} 分鐘</p></div><div class="lesson-tools"><button data-action="speak-story">朗讀文章</button><button data-action="stop-speech" aria-label="停止朗讀">停止</button><label class="small" for="speechRate">速度</label><select id="speechRate" aria-describedby="speechRateHint">${[[.6,"0.6× 慢速"],[.85,"0.85× 稍慢"],[1,"1× 正常"],[1.25,"1.25× 快速"]].map(([r,label])=>`<option value="${r}" ${readingRate===r?"selected":""}>${label}</option>`).join("")}</select><span id="speechRateHint" class="small">播放中調速，會從頭重播。</span></div></div>
   <div class="reading-layout"><section class="panel reading-panel"><div class="eyebrow">READ & DISCOVER</div><div class="story" lang="en">${storyHTML(l)}</div></section><aside class="reading-side"><section class="panel"><h3>今日核心單字</h3><div class="word-list">${l.words.map(w=>`<div class="word-row"><strong lang="en">${esc(w.word)}</strong><span>${esc(w.meaning)}</span></div>`).join('')}</div></section><section class="panel"><h3>好用片語</h3>${l.phrases.map(p=>`<div class="phrase"><b lang="en">${esc(p.phrase)}</b><p>${esc(p.meaning)}</p></div>`).join('')}</section><div class="tip">先看懂大意，再回文章找支持答案的那一句。交卷後才會揭曉答案與解析。</div></aside></div>
-  <section class="panel quiz-panel"><div class="quiz-intro"><div><h2>${bossLesson(l)?'每週 Boss Challenge':'輪到你找線索了'}</h2><p class="muted small">${qs.length} 題 · 每題只有一個最佳答案</p></div><div class="settings-row"><label for="lessonTier">練習難度</label><select id="lessonTier" ${quizResult?'disabled':''}>${[1,2,3].map(t=>`<option value="${t}" ${active.tier===t?'selected':''}>${tiers[t]}</option>`).join('')}</select></div></div><p class="difficulty-note">A：核心題＋字義偵探；A+：加一題進階；A++：再加一題綜合挑戰。這是本站練習分級，並非會考成績預測。</p>
+  <section class="panel quiz-panel"><div class="quiz-intro"><div><h2>${bossLesson(l)?'每週 Boss Challenge':'輪到你找線索了'}</h2><p class="muted small">${qs.length} 題 · 每題只有一個最佳答案</p></div><div class="settings-row"><label for="lessonTier">練習難度</label><select id="lessonTier" ${quizResult?'disabled':''}>${[1,2,3].map(t=>`<option value="${t}" ${active.tier===t?'selected':''}>${tiers[t]} · ${C.questions(l,t).length} 題</option>`).join('')}</select></div></div><p class="difficulty-note">各級使用同一篇文章；切換後會在文末增加題目。A：核心題＋字義偵探；A+：加一題進階；A++：再加一題綜合挑戰。這是本站練習分級，並非會考成績預測。</p>
   <form id="quizForm">${qs.map((q,i)=>renderQuestion(q,i,currentAnswers,quizResult)).join('')}<div id="quizError" class="error-text" role="alert"></div><div class="quiz-actions">${quizResult?`<button type="button" data-action="retry">再挑戰一次</button><a class="primary-link" href="${reviewLesson(l)?'#mistakes':'#home'}">${reviewLesson(l)?'前往錯題復活賽':'回到冒險地圖'} →</a>`:`<button type="submit" class="primary">提交答案，查看解析 →</button><p>已完成 <span id="answerCount">${qs.filter(q=>Number.isInteger(currentAnswers[q.id])).length}</span> / ${qs.length} 題</p>`}</div></form>
   ${quizResult?`<div class="result-banner" id="result" role="status"><div class="result-score">${quizResult.score}<span class="small"> / ${quizResult.total}</span></div><div><h3>${quizResult.percent===100?'全部答對，線索找得很準！':quizResult.percent>=60?'有進步！再看看漏掉的線索。':'先別急，一題一題找回線索。'}</h3><p>${quizResult.reviewOnly?'上次作答紀錄':quizResult.gain?`首次完成 +${quizResult.gain} EXP`:'複習完成 · 本關 EXP 已領取'} · ${quizResult.total-quizResult.score} 題需加強</p></div><a class="text-link" href="#mistakes">前往錯題復活賽 →</a></div>`:''}</section>`;
   const form=$('#quizForm');
@@ -130,7 +140,7 @@ function dashboard(){
   <section class="panel"><h2>閱讀能力觀察</h2>${Object.keys(skillData).length?Object.entries(skillData).map(([name,v])=>`<div class="skill-row"><div><span>${esc(name)}</span><span>${v.right} / ${v.total}</span></div><div class="progress"><i style="width:${v.right/v.total*100}%"></i></div></div>`).join(''):'<p class="muted small">完成閱讀題後，這裡會顯示細節理解、推論與字義等題型的表現。</p>'}<p class="difficulty-note">僅統計本站首次作答，不代表正式會考能力量尺。</p></section></div>
   <section class="panel" style="margin-top:24px"><div class="section-heading" style="margin-top:0"><h2>關卡成績</h2><span class="muted small">首答與最佳分數分開保留</span></div><div class="table-wrap"><table><thead><tr><th>關卡</th><th>首次</th><th>最佳</th><th>難度</th><th>解析</th></tr></thead><tbody>${lessons.map(l=>{const c=state.completions[l.day];return `<tr><td><b>Day ${l.day}</b> <span lang="en">${esc(l.title)}</span></td><td>${c?`${c.first.score}/${c.first.total}`:done.includes(l.day)?'V1 未記錄':'—'}</td><td>${c?c.best+'%':'—'}</td><td>${c?tiers[c.last.tier]:'—'}</td><td>${c?`<a class="text-link" href="#result/${l.day}">上次解析</a>`:'—'}</td></tr>`;}).join('')}</tbody></table></div></section>
   <section class="panel" style="margin-top:24px"><h2>下一步怎麼練？</h2><p class="small">目前建議：<b>${tiers[suggestion]}</b>。${suggestion===1?'先穩定完成核心題，練習用文章證據回答。':suggestion===2?'核心題已漸漸穩定，可以增加一題推論挑戰。':'試試跨句整合與綜合挑戰，並繼續複習失分題。'}</p><div class="settings-row"><label for="defaultTier">預設練習難度</label><select id="defaultTier">${[1,2,3].map(t=>`<option value="${t}" ${state.difficulty===t?'selected':''}>${tiers[t]}</option>`).join('')}</select><button data-action="use-suggestion">使用建議難度</button></div><p class="difficulty-note">完成 3 關且首次總正確率 ≥80%，建議 A+；完成 5 關且 ≥90%，建議 A++。也可自行選擇。分級只調整本站題目，不推估會考級分。</p></section>
-  <section class="panel" style="margin-top:24px"><h2>保存你的冒險</h2><p class="muted small">進度保存在這個瀏覽器。換手機、換網址或清除瀏覽資料前，先匯出備份，再到新裝置匯入。</p><div class="data-actions"><button data-action="export">匯出學習備份</button><button data-action="import">匯入學習備份</button><input id="importFile" type="file" accept="application/json,.json" hidden></div><p class="difficulty-note">目前收錄 ${lessons.length} 篇。每日補給排程為台灣時間 20:00；最新補給日期：${esc(lessonMeta.lastPublishDate || "尚無每日補給")}。新關卡仍依你的學習起始日解鎖。${state.legacyDone.length?' V1 的 EXP 與完成關卡已保留；V1 沒有記錄日期與逐題答案，因此無法還原舊連續天數和錯題。':''}</p></section>`;
+  <section class="panel" style="margin-top:24px"><h2>保存你的冒險</h2><p class="muted small">目前沒有登入帳號；這個網站把作答、錯題與 EXP 保存在你目前使用的瀏覽器，沒有上傳學習紀錄，也不會讀取你的 ChatGPT 個人資料。共用同一個瀏覽器的人會共用進度；換手機或瀏覽器不會自動同步。換裝置、換網址或清除瀏覽資料前，先匯出備份，再到新裝置匯入。</p><div class="data-actions"><button data-action="export">匯出學習備份</button><button data-action="import">匯入學習備份</button><input id="importFile" type="file" accept="application/json,.json" hidden></div><p class="difficulty-note">目前收錄 ${lessons.length} 篇。每日補給排程為台灣時間 20:00；最新補給日期：${esc(lessonMeta.lastPublishDate || "尚無每日補給")}。新關卡仍依你的學習起始日解鎖。${state.legacyDone.length?' V1 的 EXP 與完成關卡已保留；V1 沒有記錄日期與逐題答案，因此無法還原舊連續天數和錯題。':''}</p></section>`;
   $('#importFile').addEventListener('change',importBackup);
 }
 async function importBackup(e){
@@ -151,13 +161,14 @@ main.addEventListener('change',e=>{
   const t=e.target;
   if(t.matches('#quizForm input[type=radio]')&&!quizResult){currentAnswers[t.name]=Number(t.value);state.drafts[`${active.day}:${active.tier}`]={...currentAnswers};save();$('#answerCount').textContent=C.questions(lessons.find(l=>l.day===active.day),active.tier).filter(q=>Number.isInteger(currentAnswers[q.id])).length;}
   if(t.matches('#wrongForm input[type=radio]')&&wrongSession)wrongSession.selected=Number(t.value);
-  if(t.id==='lessonTier'){state.difficulty=Number(t.value);save();lessonView(active.day,false,true);}
+  if(t.id==='lessonTier'){state.difficulty=Number(t.value);save();lessonView(active.day,false,true);toast(`已切換為 ${tiers[active.tier]} · ${C.questions(lessons.find(l=>l.day===active.day),active.tier).length} 題；文章相同，請往下看題目。`);}
+  if(t.id==='speechRate')changeReadingRate(Number(t.value));
   if(t.id==='chapterSelect'){selectedChapter=Number(t.value);home();}
   if(t.id==='defaultTier'){state.difficulty=Number(t.value);save();toast('已更新預設練習難度。');}
 });
 main.addEventListener('click',e=>{
   const button=e.target.closest('[data-action]');if(!button)return;const action=button.dataset.action;
-  if(action==='speak-story')say(lessons.find(l=>l.day===active.day).story,Number($('#speechRate').value));
+  if(action==='speak-story')say(lessons.find(l=>l.day===active.day).story,readingRate,'story');
   else if(action==='stop-speech')stopSpeech();
   else if(action==='retry'){const day=active.day;delete state.drafts[day+':'+active.tier];save();if(location.hash.startsWith('#result/'))location.hash='lesson/'+day;else{lessonView(day,false,true);$('#quizForm').scrollIntoView({behavior:'smooth'});}}
   else if(action==='words-due')wordsView(true,false);else if(action==='words-all')wordsView(true,true);
