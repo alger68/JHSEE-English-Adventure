@@ -1,0 +1,143 @@
+{
+  "version": 2,
+  "publishDate": "2026-09-09",
+  "lessons": [
+    {
+      "day": 8,
+      "title": "A Map for Everyone",
+      "type": "對話／訊息",
+      "goal": "找出問題，判斷哪個修改真正有幫助",
+      "minutes": 10,
+      "story": "[Library volunteer chat, Wednesday]\nNina: Our new library map is ready. I used green for the reading area and red for the computer area. What do you think?\nEric: The colors look nice, but I printed the map in black and white. Both areas look almost the same.\nNina: I did not think about that. Should I use brighter colors?\nEric: Colors alone may not solve it. Could we add a book symbol to the reading area and a computer symbol to the computer area?\nNina: Yes, and I can write the area names below the symbols.\nEric: Great. My little brother is still learning to read. The pictures will help him too.\nNina: I will update the map before we put it near the entrance tomorrow.\nEric: Let’s print one more copy in black and white first. That way, we can check whether everyone can follow it.",
+      "words": [
+        {
+          "word": "area",
+          "meaning": "區域",
+          "example": "The library has a quiet reading area."
+        },
+        {
+          "word": "symbol",
+          "meaning": "符號",
+          "example": "A book symbol marks the reading area."
+        },
+        {
+          "word": "entrance",
+          "meaning": "入口",
+          "example": "The map is near the entrance."
+        },
+        {
+          "word": "solve",
+          "meaning": "解決",
+          "example": "Brighter colors may not solve the problem."
+        },
+        {
+          "word": "follow",
+          "meaning": "看懂並依循",
+          "example": "The symbols make the map easier to follow."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "in black and white",
+          "meaning": "以黑白呈現"
+        },
+        {
+          "phrase": "that way",
+          "meaning": "那樣一來"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d8-q1",
+          "skill": "細節理解",
+          "prompt": "What problem does Eric notice?",
+          "options": [
+            "The library has no computers.",
+            "The two areas look similar on a black-and-white copy.",
+            "The map is too small to print.",
+            "The entrance is in the wrong place."
+          ],
+          "answer": 1,
+          "explanation": "Eric 印成黑白後，原本不同顏色的兩區看起來很像，這才是要解決的問題。",
+          "evidence": "Both areas look almost the same.",
+          "tier": 1
+        },
+        {
+          "id": "d8-q2",
+          "skill": "細節理解",
+          "prompt": "What changes will Nina make to the map?",
+          "options": [
+            "Remove every color and picture.",
+            "Move the computer area outside.",
+            "Print it only in green.",
+            "Add symbols and area names."
+          ],
+          "answer": 3,
+          "explanation": "Eric 建議圖示，Nina 接著補上區域名稱；兩個修改合起來就是 D。",
+          "evidence": "Yes, and I can write the area names below the symbols.",
+          "tier": 1
+        },
+        {
+          "id": "d8-q3",
+          "skill": "推論判讀",
+          "prompt": "Why does Eric want another black-and-white copy before using the map?",
+          "options": [
+            "To check whether the changes solve the original problem.",
+            "To count how many books the library owns.",
+            "To keep Nina from finishing the map.",
+            "To make the colors even brighter."
+          ],
+          "answer": 0,
+          "explanation": "第一次的問題是在黑白列印後才出現，所以用同樣方式再測一次，能確認修正有沒有用。",
+          "evidence": "Let’s print one more copy in black and white first.",
+          "tier": 1
+        },
+        {
+          "id": "d8-q4",
+          "skill": "字義推測",
+          "prompt": "Detective: What does “follow” mean in the last sentence?",
+          "options": [
+            "Walk behind a volunteer.",
+            "Copy the same colors.",
+            "Understand the map and use its directions.",
+            "Wait for someone at the entrance."
+          ],
+          "answer": 2,
+          "explanation": "前文在討論地圖是否好懂，因此 follow it 指看懂並依照地圖找路。",
+          "evidence": "That way, we can check whether everyone can follow it.",
+          "tier": 1
+        },
+        {
+          "id": "d8-q5",
+          "skill": "推論判讀",
+          "prompt": "Who else may benefit from the picture symbols, according to Eric?",
+          "options": [
+            "People who want to buy a printer.",
+            "Young children who are still learning to read.",
+            "Students who want a larger computer screen.",
+            "Volunteers who already know every room."
+          ],
+          "answer": 1,
+          "explanation": "Eric 提到弟弟正在學閱讀，圖示也會幫到他；圖示能補足文字閱讀能力的限制。",
+          "evidence": "My little brother is still learning to read. The pictures will help him too.",
+          "tier": 2
+        },
+        {
+          "id": "d8-q6",
+          "skill": "主旨統整",
+          "prompt": "Which idea best describes the team’s approach?",
+          "options": [
+            "A beautiful map never needs to be tested.",
+            "Only experienced readers should use library maps.",
+            "Printing more copies always fixes a design problem.",
+            "Useful information should remain clear in different situations."
+          ],
+          "answer": 3,
+          "explanation": "他們考量黑白列印和還不熟文字的小讀者，改善符號與文字，再檢驗成果，重點是不同使用情況下都要清楚。",
+          "evidence": "Colors alone may not solve it.",
+          "tier": 3
+        }
+      ]
+    }
+  ]
+}
