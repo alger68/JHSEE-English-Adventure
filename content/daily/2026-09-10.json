@@ -1,0 +1,143 @@
+{
+  "version": 2,
+  "publishDate": "2026-09-10",
+  "lessons": [
+    {
+      "day": 9,
+      "title": "The Invisible Road of Ants",
+      "type": "科普閱讀",
+      "goal": "理解螞蟻如何利用氣味訊號選擇並改變路線",
+      "minutes": 10,
+      "story": "Have you ever watched ants move in a line toward a piece of food? An ant that discovers food does not call its friends. On its way back to the nest, it leaves a chemical scent called a pheromone on the ground. Other ants can detect the scent with their antennae and follow the trail. When they find the food, they add more scent as they return. A shorter path is usually traveled more often, so its scent becomes stronger. This helps the group choose an efficient route.\n\nHowever, the scent does not last forever. It gradually fades. If the food is gone or a path becomes unsafe, fewer ants use that trail, and its signal weakens. The colony can then switch to another route. This simple system has inspired computer programs that compare many possible paths. Ants do not need a leader or a map; repeated small actions allow the whole colony to solve a problem together.",
+      "words": [
+        {
+          "word": "discover",
+          "meaning": "發現",
+          "example": "An ant may discover food near the nest."
+        },
+        {
+          "word": "scent",
+          "meaning": "氣味",
+          "example": "The ants follow a scent on the ground."
+        },
+        {
+          "word": "detect",
+          "meaning": "察覺；偵測到",
+          "example": "Ants detect the signal with their antennae."
+        },
+        {
+          "word": "efficient",
+          "meaning": "有效率的",
+          "example": "The shorter road may be a more efficient route."
+        },
+        {
+          "word": "gradually",
+          "meaning": "逐漸地",
+          "example": "The scent gradually becomes weaker."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "on one's way back",
+          "meaning": "在返回途中"
+        },
+        {
+          "phrase": "switch to",
+          "meaning": "改換成；轉向"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d9-q1",
+          "skill": "細節理解",
+          "prompt": "What does an ant leave on the ground after finding food?",
+          "options": [
+            "A chemical scent.",
+            "A piece of its food.",
+            "A drawing of the nest.",
+            "A sound from its antennae."
+          ],
+          "answer": 0,
+          "explanation": "找到食物的螞蟻在回巢途中留下化學氣味，供其他螞蟻辨認路線。",
+          "evidence": "On its way back to the nest, it leaves a chemical scent called a pheromone on the ground.",
+          "tier": 1
+        },
+        {
+          "id": "d9-q2",
+          "skill": "細節理解",
+          "prompt": "Why does the scent on a shorter path usually become stronger?",
+          "options": [
+            "Rain keeps washing the path.",
+            "More ants travel it and add scent.",
+            "The food moves closer to the nest.",
+            "One ant stays there all day."
+          ],
+          "answer": 1,
+          "explanation": "較短的路線通常被走得更頻繁，而每隻返回的螞蟻都會再補上氣味，所以訊號會變強。",
+          "evidence": "A shorter path is usually traveled more often, so its scent becomes stronger.",
+          "tier": 1
+        },
+        {
+          "id": "d9-q3",
+          "skill": "推論判讀",
+          "prompt": "What will probably happen to a trail after all the food is gone?",
+          "options": [
+            "Its signal will weaken because fewer ants use it.",
+            "It will immediately turn into a map.",
+            "Its scent will become stronger forever.",
+            "A leader ant will guard it."
+          ],
+          "answer": 0,
+          "explanation": "食物消失後，使用該路線的螞蟻減少，不再持續補上氣味，因此訊號會逐漸變弱。",
+          "evidence": "If the food is gone or a path becomes unsafe, fewer ants use that trail, and its signal weakens.",
+          "tier": 1
+        },
+        {
+          "id": "d9-q4",
+          "skill": "字義推測",
+          "prompt": "Detective: What does “fades” most likely mean in the passage?",
+          "options": [
+            "Becomes weaker over time.",
+            "Changes into food.",
+            "Makes a loud noise.",
+            "Moves below the ground."
+          ],
+          "answer": 0,
+          "explanation": "前句說氣味不會永遠存在，後文又說訊號會減弱，因此 fades 表示逐漸變淡、變弱。",
+          "evidence": "It gradually fades.",
+          "tier": 1
+        },
+        {
+          "id": "d9-q5",
+          "skill": "資訊整合",
+          "prompt": "Which situation is most likely to make the colony choose a different route?",
+          "options": [
+            "The nest becomes slightly warmer.",
+            "An ant finds its antennae useful.",
+            "A popular trail becomes unsafe.",
+            "The colony follows a stronger old trail."
+          ],
+          "answer": 2,
+          "explanation": "路線若不安全，使用的螞蟻會減少，原訊號變弱，群體便可能轉向另一條路。",
+          "evidence": "If the food is gone or a path becomes unsafe, fewer ants use that trail, and its signal weakens.",
+          "tier": 2
+        },
+        {
+          "id": "d9-q6",
+          "skill": "主旨統整",
+          "prompt": "What is the main idea of the passage?",
+          "options": [
+            "Ant colonies need one leader to draw every route.",
+            "Ants use changing scent signals to solve route problems as a group.",
+            "Computer programs taught ants how to search for food.",
+            "Ants can follow only the shortest path available."
+          ],
+          "answer": 1,
+          "explanation": "全文說明螞蟻如何留下、加強或放棄氣味路線，並在沒有領袖的情況下共同找出合適路徑。",
+          "evidence": "Ants do not need a leader or a map; repeated small actions allow the whole colony to solve a problem together.",
+          "tier": 3
+        }
+      ]
+    }
+  ]
+}
