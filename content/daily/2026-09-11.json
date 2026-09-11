@@ -1,0 +1,143 @@
+{
+  "version": 2,
+  "publishDate": "2026-09-11",
+  "lessons": [
+    {
+      "day": 10,
+      "title": "Books After Closing Time",
+      "type": "公告／資訊閱讀",
+      "goal": "整合公告中的日期、時間限制與借還書規則",
+      "minutes": 10,
+      "story": "AFTER-HOURS LIBRARY LOCKERS\n\nNeed a book but cannot visit before the library closes? Starting September 21, students can collect reserved books from blue lockers beside the sports center.\n\nHOW IT WORKS\n1. Search the online catalog and choose “Locker Pickup.”\n2. Wait for a text message containing a six-digit code. A request is not ready until this message arrives.\n3. Enter the code within 48 hours. The locker door will open automatically.\n\nIMPORTANT\nThe lockers are available from 6:00 a.m. to 10:00 p.m. every day. Books borrowed from lockers have the same return date as books collected inside the library. Return books through the silver box next to the lockers; do not leave them inside an empty locker.\n\nFrom September 21 to 27, the service is only for student cards. Family cards will be accepted beginning September 28. If a code fails twice, do not keep trying. Call the number on the locker screen or visit the help desk during library hours.",
+      "words": [
+        {
+          "word": "collect",
+          "meaning": "領取；收集",
+          "example": "Students can collect their books from a locker."
+        },
+        {
+          "word": "reserve",
+          "meaning": "預約；保留",
+          "example": "I reserved the book through the online catalog."
+        },
+        {
+          "word": "available",
+          "meaning": "可使用的；有空的",
+          "example": "The lockers are available every day."
+        },
+        {
+          "word": "automatically",
+          "meaning": "自動地",
+          "example": "The door opens automatically after you enter the code."
+        },
+        {
+          "word": "accept",
+          "meaning": "接受",
+          "example": "The service will accept family cards later."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "within 48 hours",
+          "meaning": "在 48 小時內"
+        },
+        {
+          "phrase": "next to",
+          "meaning": "在……旁邊"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d10-q1",
+          "skill": "細節理解",
+          "prompt": "When is a locker request ready for collection?",
+          "options": [
+            "As soon as a student searches the catalog.",
+            "After the text message with a code arrives.",
+            "Only when the library building opens.",
+            "Before the student chooses Locker Pickup."
+          ],
+          "answer": 1,
+          "explanation": "公告明確表示，在收到含六位數密碼的簡訊之前，預約尚未備妥。",
+          "evidence": "A request is not ready until this message arrives.",
+          "tier": 1
+        },
+        {
+          "id": "d10-q2",
+          "skill": "細節理解",
+          "prompt": "Where should a user return a book borrowed from a locker?",
+          "options": [
+            "Inside any empty locker.",
+            "At the sports center office.",
+            "Through the silver box beside the lockers.",
+            "Under the locker screen."
+          ],
+          "answer": 2,
+          "explanation": "還書要投入置物櫃旁的銀色箱子，不能放進空置物櫃。",
+          "evidence": "Return books through the silver box next to the lockers; do not leave them inside an empty locker.",
+          "tier": 1
+        },
+        {
+          "id": "d10-q3",
+          "skill": "資訊整合",
+          "prompt": "What is true about a family card on September 25?",
+          "options": [
+            "It cannot be used for Locker Pickup yet.",
+            "It works only before 6:00 a.m.",
+            "It opens a locker without a code.",
+            "It must be changed into a student card."
+          ],
+          "answer": 0,
+          "explanation": "9 月 21 至 27 日只有學生證可用；家庭卡要到 9 月 28 日才開始接受。",
+          "evidence": "From September 21 to 27, the service is only for student cards.",
+          "tier": 1
+        },
+        {
+          "id": "d10-q4",
+          "skill": "字義推測",
+          "prompt": "Detective: What does “reserved books” most likely mean?",
+          "options": [
+            "Books requested and held for someone.",
+            "Books that may never leave the library.",
+            "Books written by student athletes.",
+            "Books placed in the return box."
+          ],
+          "answer": 0,
+          "explanation": "使用者先在目錄選書並選擇取件方式，等收到密碼後領取，因此 reserved 指已預約並保留的書。",
+          "evidence": "Starting September 21, students can collect reserved books from blue lockers beside the sports center.",
+          "tier": 1
+        },
+        {
+          "id": "d10-q5",
+          "skill": "資訊整合",
+          "prompt": "Lina receives her code at 7:00 p.m. on Wednesday. What is the latest listed time she can collect the book?",
+          "options": [
+            "7:00 p.m. on Thursday.",
+            "10:00 p.m. on Thursday.",
+            "6:00 a.m. on Friday.",
+            "7:00 p.m. on Friday."
+          ],
+          "answer": 3,
+          "explanation": "密碼可在收到後 48 小時內使用；星期三晚間 7 點加 48 小時是星期五晚間 7 點，且仍在每日開放時段內。",
+          "evidence": "Enter the code within 48 hours.",
+          "tier": 2
+        },
+        {
+          "id": "d10-q6",
+          "skill": "主旨統整",
+          "prompt": "What is the main purpose of this notice?",
+          "options": [
+            "To compare the prices of different library cards.",
+            "To explain how to use a new locker service and its rules.",
+            "To invite families to work at the sports center.",
+            "To announce that the library will stop lending books."
+          ],
+          "answer": 1,
+          "explanation": "公告集中說明置物櫃取書服務的操作步驟、可用時間、卡片限制、還書方式與故障處理。",
+          "evidence": "HOW IT WORKS\n1. Search the online catalog and choose “Locker Pickup.”",
+          "tier": 3
+        }
+      ]
+    }
+  ]
+}
