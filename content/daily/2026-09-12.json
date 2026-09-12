@@ -1,0 +1,188 @@
+{
+  "version": 2,
+  "publishDate": "2026-09-12",
+  "lessons": [
+    {
+      "day": 11,
+      "title": "Boss: The Ice-Cup Challenge",
+      "type": "每週 Boss",
+      "goal": "整合實驗步驟、數據與討論，判斷證據能支持到什麼程度",
+      "minutes": 10,
+      "story": "THE ICE-CUP CHALLENGE\n\n[Experiment plan]\nFour students wanted to learn which covering slowed ice from melting. They placed equal masses of ice in four identical cups. Each cup was wrapped with one layer of a different material: paper, cotton cloth, aluminum foil, or nothing. All cups stood on the same classroom table. After thirty minutes, the students measured the melted water.\n\n[Results]\nPaper: 32 mL\nCotton cloth: 18 mL\nAluminum foil: 24 mL\nNo covering: 40 mL\n\n[Team discussion]\nMina: Cotton cloth produced the least water, so it kept the ice coldest.\nLeo: Yes, under these test conditions. We should not claim that cloth is always best.\nKai: Why not?\nLeo: We tested only one layer in one classroom. Sunlight, material thickness, or a longer test might change the result.\nMina: Then our report should include the exact numbers and the limits of our test.\nKai: Next time, let's compare the materials in sunlight and shade, but keep the cup type and amount of ice the same.",
+      "words": [
+        {
+          "word": "identical",
+          "meaning": "完全相同的",
+          "example": "The students used four identical cups."
+        },
+        {
+          "word": "material",
+          "meaning": "材料",
+          "example": "Each cup had a different covering material."
+        },
+        {
+          "word": "measure",
+          "meaning": "測量",
+          "example": "They measured the melted water after thirty minutes."
+        },
+        {
+          "word": "claim",
+          "meaning": "聲稱；主張",
+          "example": "Do not claim more than the results show."
+        },
+        {
+          "word": "exact",
+          "meaning": "精確的；確切的",
+          "example": "The report should include the exact numbers."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "under these conditions",
+          "meaning": "在這些條件下"
+        },
+        {
+          "phrase": "keep ... the same",
+          "meaning": "使……保持相同"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d11-q1",
+          "skill": "細節理解",
+          "prompt": "What did the students change among the four cups?",
+          "options": [
+            "The type of covering material.",
+            "The amount of ice.",
+            "The testing time.",
+            "The classroom table."
+          ],
+          "answer": 0,
+          "explanation": "四個杯子的冰量、杯型、位置與時間相同，刻意改變的是外層材料。",
+          "evidence": "Each cup was wrapped with one layer of a different material: paper, cotton cloth, aluminum foil, or nothing.",
+          "tier": 1
+        },
+        {
+          "id": "d11-q2",
+          "skill": "細節理解",
+          "prompt": "When did the students measure the melted water?",
+          "options": [
+            "After one layer was removed.",
+            "After eighteen minutes.",
+            "After thirty minutes.",
+            "After moving the cups outside."
+          ],
+          "answer": 2,
+          "explanation": "實驗計畫明確指出三十分鐘後測量融化的水量。",
+          "evidence": "After thirty minutes, the students measured the melted water.",
+          "tier": 1
+        },
+        {
+          "id": "d11-q3",
+          "skill": "資訊整合",
+          "prompt": "Which cup had the least melted water?",
+          "options": [
+            "The paper-covered cup.",
+            "The cotton-cloth-covered cup.",
+            "The foil-covered cup.",
+            "The uncovered cup."
+          ],
+          "answer": 1,
+          "explanation": "結果表中棉布杯為 18 mL，是四組中最低的數值。",
+          "evidence": "Cotton cloth: 18 mL",
+          "tier": 1
+        },
+        {
+          "id": "d11-q4",
+          "skill": "資訊整合",
+          "prompt": "How much more water melted in the uncovered cup than in the cotton-cloth-covered cup?",
+          "options": [
+            "8 mL.",
+            "14 mL.",
+            "18 mL.",
+            "22 mL."
+          ],
+          "answer": 3,
+          "explanation": "無覆蓋為 40 mL，棉布為 18 mL，兩者相差 40−18＝22 mL。",
+          "evidence": "Cotton cloth: 18 mL\nAluminum foil: 24 mL\nNo covering: 40 mL",
+          "tier": 1
+        },
+        {
+          "id": "d11-q5",
+          "skill": "推論判讀",
+          "prompt": "Why were all four cups placed on the same table?",
+          "options": [
+            "To make differences in location less likely to affect the results.",
+            "To make every covering the same material.",
+            "To melt all the ice before measuring it.",
+            "To prove that classroom tables stay cold."
+          ],
+          "answer": 0,
+          "explanation": "把杯子放在相同位置可減少光線、氣流或溫度位置差異，使材料比較較公平。",
+          "evidence": "All cups stood on the same classroom table.",
+          "tier": 1
+        },
+        {
+          "id": "d11-q6",
+          "skill": "推論判讀",
+          "prompt": "Why does Leo avoid saying that cotton cloth is always best?",
+          "options": [
+            "The cloth cup contained more ice than the others.",
+            "The group forgot to record any numbers.",
+            "Only limited conditions were tested.",
+            "Aluminum foil produced less water."
+          ],
+          "answer": 2,
+          "explanation": "這次只測一層材料與一個教室環境，證據不足以推廣到所有情況。",
+          "evidence": "We tested only one layer in one classroom.",
+          "tier": 1
+        },
+        {
+          "id": "d11-q7",
+          "skill": "字義推測",
+          "prompt": "Detective: What does “identical” most likely mean in the experiment plan?",
+          "options": [
+            "Exactly the same.",
+            "Easy to break.",
+            "Covered with cloth.",
+            "Filled at different times."
+          ],
+          "answer": 0,
+          "explanation": "為了公平比較覆蓋材料，四個杯子本身必須完全相同，因此 identical 是「完全相同的」。",
+          "evidence": "They placed equal masses of ice in four identical cups.",
+          "tier": 1
+        },
+        {
+          "id": "d11-q8",
+          "skill": "主旨統整",
+          "prompt": "Which conclusion is best supported by this experiment?",
+          "options": [
+            "Cotton cloth prevents ice from ever melting.",
+            "Aluminum foil is the best covering in every place.",
+            "Under the tested classroom conditions, cotton cloth produced the least melted water after thirty minutes.",
+            "Any cup without a covering will produce exactly 40 mL of water."
+          ],
+          "answer": 2,
+          "explanation": "正確結論需包含本次條件、時間與量測結果，不能把單次實驗誇大成永遠或所有地點都成立。",
+          "evidence": "Mina: Cotton cloth produced the least water, so it kept the ice coldest.\nLeo: Yes, under these test conditions.",
+          "tier": 2
+        },
+        {
+          "id": "d11-q9",
+          "skill": "資訊整合",
+          "prompt": "Which new plan would best test whether sunlight changes the results?",
+          "options": [
+            "Use different cup sizes and different amounts of ice in one place.",
+            "Repeat the test with equal sets in sunlight and shade while keeping other conditions the same.",
+            "Place only the cloth-covered cup in sunlight and measure it next week.",
+            "Ask students which material looks coolest without melting any ice."
+          ],
+          "answer": 1,
+          "explanation": "要檢查日照影響，應只改變日照／陰影條件，其餘杯型、冰量、材料與時間維持一致並進行對照。",
+          "evidence": "Next time, let's compare the materials in sunlight and shade, but keep the cup type and amount of ice the same.",
+          "tier": 3
+        }
+      ]
+    }
+  ]
+}
