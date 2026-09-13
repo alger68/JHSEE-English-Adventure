@@ -1,0 +1,143 @@
+{
+  "version": 2,
+  "publishDate": "2026-09-13",
+  "lessons": [
+    {
+      "day": 12,
+      "title": "The Five-Card Word Rescue",
+      "type": "單字與錯題復活",
+      "goal": "利用上下文證據複習近期單字，並練習說明修正答案的理由",
+      "minutes": 10,
+      "story": "At the community center, Ms. Lin placed five clue cards around a room. Each card used a word from the week: follow, gradually, reserved, claim, or exact. Teams had to read mini-situations and carry the right word to a final message.\n\nFirst, Zoe read, “The light became weaker little by little.” She chose gradually. At another station, Ken saw a library book with a student’s name and picked reserved. The hardest clue said, “Do not say something is always true after one small test.” Ken first chose exact, but Zoe asked him to look for evidence. He changed it to claim.\n\nWhen all five cards were placed correctly, the letters on their back sides formed FOCUS. Ms. Lin did not simply mark wrong choices. She asked each team to explain which words around a blank supported its answer. Before leaving, students rewrote one confusing clue in their own words. Their goal was not to memorize five definitions for one night, but to build a method they could follow in future reading.",
+      "words": [
+        {
+          "word": "follow",
+          "meaning": "依循；理解並照著做",
+          "example": "This method is easy to follow."
+        },
+        {
+          "word": "gradually",
+          "meaning": "逐漸地",
+          "example": "The light gradually became weaker."
+        },
+        {
+          "word": "reserved",
+          "meaning": "已預約或保留的",
+          "example": "The reserved book had a student’s name on it."
+        },
+        {
+          "word": "claim",
+          "meaning": "聲稱；主張",
+          "example": "Do not claim that one test proves everything."
+        },
+        {
+          "word": "exact",
+          "meaning": "精確的；確切的",
+          "example": "Please write down the exact number."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "look for evidence",
+          "meaning": "尋找證據"
+        },
+        {
+          "phrase": "in one’s own words",
+          "meaning": "用自己的話"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d12-q1",
+          "skill": "細節理解",
+          "prompt": "Where did Ms. Lin place the clue cards?",
+          "options": [
+            "Around a room.",
+            "Inside a library locker.",
+            "Under four ice cups.",
+            "Beside an ant trail."
+          ],
+          "answer": 0,
+          "explanation": "文章開頭直接說明她把五張線索卡放在房間各處。",
+          "evidence": "Ms. Lin placed five clue cards around a room.",
+          "tier": 1
+        },
+        {
+          "id": "d12-q2",
+          "skill": "細節理解",
+          "prompt": "Which word did Zoe choose for “became weaker little by little”?",
+          "options": [
+            "Follow.",
+            "Gradually.",
+            "Reserved.",
+            "Exact."
+          ],
+          "answer": 1,
+          "explanation": "Zoe 把「一點一點變弱」與 gradually 配對。",
+          "evidence": "She chose gradually.",
+          "tier": 1
+        },
+        {
+          "id": "d12-q3",
+          "skill": "資訊整合",
+          "prompt": "What word appeared after all five cards were placed correctly?",
+          "options": [
+            "CLAIM.",
+            "LIGHT.",
+            "FOCUS.",
+            "NIGHT."
+          ],
+          "answer": 2,
+          "explanation": "五張卡正確排列後，卡片背面的字母組成 FOCUS。",
+          "evidence": "When all five cards were placed correctly, the letters on their back sides formed FOCUS.",
+          "tier": 1
+        },
+        {
+          "id": "d12-q4",
+          "skill": "字義推測",
+          "prompt": "Detective: What does “claim” most likely mean in the hardest clue?",
+          "options": [
+            "State that something is true.",
+            "Measure something carefully.",
+            "Make something weaker slowly.",
+            "Keep a book for someone."
+          ],
+          "answer": 0,
+          "explanation": "線索談的是不能因一次小實驗就說某事永遠正確，因此 claim 是「聲稱某事為真」。",
+          "evidence": "Do not say something is always true after one small test.",
+          "tier": 1
+        },
+        {
+          "id": "d12-q5",
+          "skill": "推論判讀",
+          "prompt": "Why did Ken change his answer from “exact” to “claim”?",
+          "options": [
+            "He noticed that the clue was about stating something as true.",
+            "Ms. Lin told every team the correct answer.",
+            "The word exact was missing from all five cards.",
+            "He wanted the first station to become easier."
+          ],
+          "answer": 0,
+          "explanation": "Zoe 請他查看證據後，他理解線索的核心是「聲稱某事永遠成立」，所以改選 claim。",
+          "evidence": "Ken first chose exact, but Zoe asked him to look for evidence. He changed it to claim.",
+          "tier": 2
+        },
+        {
+          "id": "d12-q6",
+          "skill": "主旨統整",
+          "prompt": "Which statement best describes Ms. Lin’s learning method?",
+          "options": [
+            "Memorize definitions without reading any sentences.",
+            "Accept the first answer and never change it.",
+            "Use context, explain evidence, and rewrite confusing ideas.",
+            "Study only the words that already feel easy."
+          ],
+          "answer": 2,
+          "explanation": "活動要求從上下文選字、說明支持線索並改寫難懂內容，目的是建立可重複使用的閱讀方法。",
+          "evidence": "She asked each team to explain which words around a blank supported its answer.",
+          "tier": 3
+        }
+      ]
+    }
+  ]
+}
