@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-28",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 180,
+      "goal": "複習揭露限制、標籤與送件規則，避免擴大文字含義。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "至少",
+          "phrase": "at least"
+        },
+        {
+          "meaning": "送達評審",
+          "phrase": "reach the judges"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "During review, Lila circles five words: reveal, neutral, revise, excluding, and confirmation. She notices that several recent passages warn readers against giving a word more power than it has. A confirmation number, for example, says a form arrived; it does not announce a prize.",
+          "explanation": "首段明說確認號碼不是獲獎通知。",
+          "id": "d180-q1",
+          "options": [
+            "Every rule was satisfied.",
+            "The form arrived.",
+            "The story won.",
+            "The title has no errors."
+          ],
+          "prompt": "What does the confirmation number establish?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Her first task is to recommend a mystery without revealing its surprise. She describes the writing and leaves the answer to the mystery untouched. For the juice activity, she chooses neutral labels rather than names that suggest one cup should taste better.",
+          "explanation": "她只介紹寫作方式，保留謎底。",
+          "id": "d180-q2",
+          "options": [
+            "She shares the last surprise first.",
+            "She gives a complete plot summary.",
+            "She discusses the writing without revealing the answer.",
+            "She names the missing person."
+          ],
+          "prompt": "How does Lila avoid spoiling the mystery?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Next, she helps a fictional student revise a story. The body contains 182 words, excluding a three-word title. Lila says at least two body words must go to reach a 180-word limit. Deleting only the title would not solve the problem.",
+          "explanation": "182 − 180 = 2；標題原本已排除。",
+          "id": "d180-q3",
+          "options": [
+            "At least two.",
+            "At least three.",
+            "At least five.",
+            "None if the title is deleted."
+          ],
+          "prompt": "How many body words must be removed from 182 to meet a 180-word maximum?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Her first task is to recommend a mystery without revealing its surprise. She describes the writing and leaves the answer to the mystery untouched. For the juice activity, she chooses neutral labels rather than names that suggest one cup should taste better.",
+          "explanation": "中性名稱避免預先暗示優劣。",
+          "id": "d180-q4",
+          "options": [
+            "Showing the winning student's name.",
+            "Promising a fresher taste.",
+            "Not suggesting one sample is better.",
+            "Containing an extra flavor name."
+          ],
+          "prompt": "What does 'neutral' mean for the juice labels?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "She finishes by checking whether the revised entry was actually submitted. A good edit saved on a computer may never reach the judges. Lila's review rule is simple: after understanding a sentence, ask exactly what it establishes and what still requires another action or piece of evidence.",
+          "explanation": "儲存與提交是兩個動作，最後版本需實際送出。",
+          "id": "d180-q5",
+          "options": [
+            "Judges refuse revised stories.",
+            "A locally saved revision may not have reached the judges.",
+            "The body word limit applies only to drafts.",
+            "Editing always creates automatic submission."
+          ],
+          "prompt": "Why must Lila check submission after editing?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "During review, Lila circles five words: reveal, neutral, revise, excluding, and confirmation. She notices that several recent passages warn readers against giving a word more power than it has. A confirmation number, for example, says a form arrived; it does not announce a prize.\n\nHer first task is to recommend a mystery without revealing its surprise. She describes the writing and leaves the answer to the mystery untouched. For the juice activity, she chooses neutral labels rather than names that suggest one cup should taste better.\n\nNext, she helps a fictional student revise a story. The body contains 182 words, excluding a three-word title. Lila says at least two body words must go to reach a 180-word limit. Deleting only the title would not solve the problem.\n\nShe finishes by checking whether the revised entry was actually submitted. A good edit saved on a computer may never reach the judges. Lila's review rule is simple: after understanding a sentence, ask exactly what it establishes and what still requires another action or piece of evidence.",
+          "explanation": "各任務都要求確認文字真正能支持什麼，以及還缺什麼。",
+          "id": "d180-q6",
+          "options": [
+            "Treat a useful word as a guarantee of success.",
+            "Delete every title before counting any words.",
+            "Check the exact scope of a claim and any remaining steps.",
+            "Use attractive labels to strengthen evidence."
+          ],
+          "prompt": "Which habit unites Lila's tasks?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "During review, Lila circles five words: reveal, neutral, revise, excluding, and confirmation. She notices that several recent passages warn readers against giving a word more power than it has. A confirmation number, for example, says a form arrived; it does not announce a prize.\n\nHer first task is to recommend a mystery without revealing its surprise. She describes the writing and leaves the answer to the mystery untouched. For the juice activity, she chooses neutral labels rather than names that suggest one cup should taste better.\n\nNext, she helps a fictional student revise a story. The body contains 182 words, excluding a three-word title. Lila says at least two body words must go to reach a 180-word limit. Deleting only the title would not solve the problem.\n\nShe finishes by checking whether the revised entry was actually submitted. A good edit saved on a computer may never reach the judges. Lila's review rule is simple: after understanding a sentence, ask exactly what it establishes and what still requires another action or piece of evidence.",
+      "title": "What the Confirmation Cannot Promise",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "During review, Lila circles five words: reveal, neutral, revise, excluding, and confirmation.",
+          "meaning": "透露",
+          "word": "reveal"
+        },
+        {
+          "example": "During review, Lila circles five words: reveal, neutral, revise, excluding, and confirmation.",
+          "meaning": "中性的",
+          "word": "neutral"
+        },
+        {
+          "example": "During review, Lila circles five words: reveal, neutral, revise, excluding, and confirmation.",
+          "meaning": "修訂",
+          "word": "revise"
+        },
+        {
+          "example": "During review, Lila circles five words: reveal, neutral, revise, excluding, and confirmation.",
+          "meaning": "不包括",
+          "word": "excluding"
+        },
+        {
+          "example": "During review, Lila circles five words: reveal, neutral, revise, excluding, and confirmation.",
+          "meaning": "確認",
+          "word": "confirmation"
+        }
+      ]
+    }
+  ]
+}

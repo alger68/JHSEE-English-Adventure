@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-23",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 175,
+      "goal": "整合視角與行動，避免以片段觀察判定動機。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在後方叫住",
+          "phrase": "call after"
+        },
+        {
+          "meaning": "與……分開",
+          "phrase": "separate from"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "In a small grocery shop, Wei sees a customer leave a full shopping bag beside the register and walk outside. The cashier does not call after her. Wei wonders whether the customer has forgotten the bag or left without paying.",
+          "explanation": "第一段描述顧客留下袋子後出去。",
+          "id": "d175-q1",
+          "options": [
+            "A customer leaves a full bag and goes outside.",
+            "A customer takes an unpaid bag home.",
+            "A cashier hides a bicycle.",
+            "A bicycle falls onto the register."
+          ],
+          "prompt": "What does Wei see first?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "He starts to warn the cashier, who explains that the customer has already paid. She is bringing her bicycle from the rack so the heavy bag can be placed directly in its basket. They agreed on this before Wei entered the shop.",
+          "explanation": "她移自行車以便將重袋放入籃子。",
+          "id": "d175-q2",
+          "options": [
+            "To complain to another shop.",
+            "To find money for an unpaid bill.",
+            "To leave the bag as a gift.",
+            "To bring her bicycle closer."
+          ],
+          "prompt": "Why did the customer go outside?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "He starts to warn the cashier, who explains that the customer has already paid. She is bringing her bicycle from the rack so the heavy bag can be placed directly in its basket. They agreed on this before Wei entered the shop.",
+          "explanation": "約定在 Wei 進店前已談妥，因此他缺少背景。",
+          "id": "d175-q3",
+          "options": [
+            "The location of the register.",
+            "The customer's earlier agreement with the cashier.",
+            "The customer's return a minute later as an earlier event.",
+            "The fact that the bag was full."
+          ],
+          "prompt": "What information did Wei initially lack?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A minute later, the customer returns with the bicycle. The cashier helps lift the bag, and the customer thanks her. Wei notices that the scene looks different once he knows the earlier conversation. His observation was accurate, but his possible explanations were incomplete.",
+          "explanation": "他所見行動無誤，但原因解釋尚不完整。",
+          "id": "d175-q4",
+          "options": [
+            "Repeated by many customers.",
+            "Correct about what was observed.",
+            "Complete in every explanation.",
+            "Certain about a person's intention."
+          ],
+          "prompt": "What does 'accurate' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "In a small grocery shop, Wei sees a customer leave a full shopping bag beside the register and walk outside. The cashier does not call after her. Wei wonders whether the customer has forgotten the bag or left without paying.\n\nHe starts to warn the cashier, who explains that the customer has already paid. She is bringing her bicycle from the rack so the heavy bag can be placed directly in its basket. They agreed on this before Wei entered the shop.\n\nA minute later, the customer returns with the bicycle. The cashier helps lift the bag, and the customer thanks her. Wei notices that the scene looks different once he knows the earlier conversation. His observation was accurate, but his possible explanations were incomplete.\n\nOn the walk home, he remembers that he asked instead of accusing anyone. He does not conclude that every strange situation has a harmless explanation. He learns to describe what he saw, keep possibilities separate from facts, and seek missing information before making a confident judgment.",
+          "explanation": "留下袋子是觀察，原因當時未知；其餘皆額外推断。",
+          "id": "d175-q5",
+          "options": [
+            "The cashier forgot her duty.",
+            "The customer tried to avoid paying.",
+            "The bag was certainly abandoned.",
+            "The customer left a bag; Wei did not yet know why."
+          ],
+          "prompt": "Which description best separates observation from inference?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "On the walk home, he remembers that he asked instead of accusing anyone. He does not conclude that every strange situation has a harmless explanation. He learns to describe what he saw, keep possibilities separate from facts, and seek missing information before making a confident judgment.",
+          "explanation": "末段明說保留多種可能，補足資訊再下判斷。",
+          "id": "d175-q6",
+          "options": [
+            "Treat a correct observation as proof of its first explanation.",
+            "Never mention something confusing to staff.",
+            "Ask for missing information before judging intentions confidently.",
+            "Assume every unusual event is harmless."
+          ],
+          "prompt": "Which lesson does Wei take from the event?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a small grocery shop, Wei sees a customer leave a full shopping bag beside the register and walk outside. The cashier does not call after her. Wei wonders whether the customer has forgotten the bag or left without paying.\n\nHe starts to warn the cashier, who explains that the customer has already paid. She is bringing her bicycle from the rack so the heavy bag can be placed directly in its basket. They agreed on this before Wei entered the shop.\n\nA minute later, the customer returns with the bicycle. The cashier helps lift the bag, and the customer thanks her. Wei notices that the scene looks different once he knows the earlier conversation. His observation was accurate, but his possible explanations were incomplete.\n\nOn the walk home, he remembers that he asked instead of accusing anyone. He does not conclude that every strange situation has a harmless explanation. He learns to describe what he saw, keep possibilities separate from facts, and seek missing information before making a confident judgment.",
+      "title": "The Bag Left Beside the Register",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "In a small grocery shop, Wei sees a customer leave a full shopping bag beside the register and walk outside.",
+          "meaning": "收銀臺",
+          "word": "register"
+        },
+        {
+          "example": "The cashier does not call after her.",
+          "meaning": "收銀員",
+          "word": "cashier"
+        },
+        {
+          "example": "She is bringing her bicycle from the rack so the heavy bag can be placed directly in its basket.",
+          "meaning": "停放架",
+          "word": "rack"
+        },
+        {
+          "example": "His observation was accurate, but his possible explanations were incomplete.",
+          "meaning": "準確的",
+          "word": "accurate"
+        },
+        {
+          "example": "On the walk home, he remembers that he asked instead of accusing anyone.",
+          "meaning": "指責",
+          "word": "accusing"
+        }
+      ]
+    }
+  ]
+}

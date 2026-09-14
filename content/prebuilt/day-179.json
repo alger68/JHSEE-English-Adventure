@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-27",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 179,
+      "goal": "結合競賽規定與個別紀錄，判定資格及修訂結果。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "與……共同撰寫",
+          "phrase": "written with"
+        },
+        {
+          "meaning": "仍有時間",
+          "phrase": "still time"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "[Rules] The story contest accepts one student's original English fiction of 120 to 180 words, excluding the title. Entries close Friday at 5:00. A confirmation number proves submission. Revised entries keep the same number; the latest version submitted before closing is judged.\n\n[Entry records] Amy submits a 165-word story at 4:40 and receives A12. Bo saves a 150-word draft at 4:45 but does not submit it. Chen submits a 175-word story written with a friend at 4:30 and receives C08.\n\n[Amy's revision] At 4:55, Amy submits a 178-word version using A12. [Dora's entry] Dora submits her own 181-word story at 4:50 and receives D03. Her four-word title is additional to those 181 words. All four texts are original English fiction.\n\nAt 4:56, the library helper reviews these records. She reminds students that confirmation proves the form arrived, not that every rule was met. There is still time to correct an entry, but a saved change must be submitted before 5:00 to count.",
+          "explanation": "4:55 用原號碼提交的新版是截止前最新版本。",
+          "id": "d179-q1",
+          "options": [
+            "Her 165-word version.",
+            "Both versions as separate entries.",
+            "Neither version because revisions are forbidden.",
+            "Her 178-word version."
+          ],
+          "prompt": "Which version of Amy's story should be judged?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Entry records] Amy submits a 165-word story at 4:40 and receives A12. Bo saves a 150-word draft at 4:45 but does not submit it. Chen submits a 175-word story written with a friend at 4:30 and receives C08.",
+          "explanation": "Bo 只有儲存草稿，未提交。",
+          "id": "d179-q2",
+          "options": [
+            "His title has four words.",
+            "He saved a draft without submitting.",
+            "He wrote with a friend.",
+            "His story is too short."
+          ],
+          "prompt": "Why is Bo not yet entered?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Rules] The story contest accepts one student's original English fiction of 120 to 180 words, excluding the title. Entries close Friday at 5:00. A confirmation number proves submission. Revised entries keep the same number; the latest version submitted before closing is judged.\n\n[Entry records] Amy submits a 165-word story at 4:40 and receives A12. Bo saves a 150-word draft at 4:45 but does not submit it. Chen submits a 175-word story written with a friend at 4:30 and receives C08.\n\n[Amy's revision] At 4:55, Amy submits a 178-word version using A12. [Dora's entry] Dora submits her own 181-word story at 4:50 and receives D03. Her four-word title is additional to those 181 words. All four texts are original English fiction.\n\nAt 4:56, the library helper reviews these records. She reminds students that confirmation proves the form arrived, not that every rule was met. There is still time to correct an entry, but a saved change must be submitted before 5:00 to count.",
+          "explanation": "Chen 與朋友合寫，不符一人投稿規定。",
+          "id": "d179-q3",
+          "options": [
+            "It was written by more than one student.",
+            "It has fewer than 120 words.",
+            "It was submitted after five.",
+            "It is not English fiction."
+          ],
+          "prompt": "What rule does Chen's story fail?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Amy's revision] At 4:55, Amy submits a 178-word version using A12. [Dora's entry] Dora submits her own 181-word story at 4:50 and receives D03. Her four-word title is additional to those 181 words. All four texts are original English fiction.",
+          "explanation": "正文 181 字，最多 180 字，至少刪一字；標題本就另計。",
+          "id": "d179-q4",
+          "options": [
+            "At least four.",
+            "At least five.",
+            "None.",
+            "At least one."
+          ],
+          "prompt": "How many story words must Dora remove to reach the maximum?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "At 4:56, the library helper reviews these records. She reminds students that confirmation proves the form arrived, not that every rule was met. There is still time to correct an entry, but a saved change must be submitted before 5:00 to count.",
+          "explanation": "最後一段明說號碼只證明表單送達。",
+          "id": "d179-q5",
+          "options": [
+            "The writer has won.",
+            "The title was included in the word count.",
+            "The story meets every rule.",
+            "The form was submitted."
+          ],
+          "prompt": "What does a confirmation number establish?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Rules] The story contest accepts one student's original English fiction of 120 to 180 words, excluding the title. Entries close Friday at 5:00. A confirmation number proves submission. Revised entries keep the same number; the latest version submitted before closing is judged.\n\n[Entry records] Amy submits a 165-word story at 4:40 and receives A12. Bo saves a 150-word draft at 4:45 but does not submit it. Chen submits a 175-word story written with a friend at 4:30 and receives C08.\n\n[Amy's revision] At 4:55, Amy submits a 178-word version using A12. [Dora's entry] Dora submits her own 181-word story at 4:50 and receives D03. Her four-word title is additional to those 181 words. All four texts are original English fiction.\n\nAt 4:56, the library helper reviews these records. She reminds students that confirmation proves the form arrived, not that every rule was met. There is still time to correct an entry, but a saved change must be submitted before 5:00 to count.",
+          "explanation": "截止五點，4:56 還有四分鐘。",
+          "id": "d179-q6",
+          "options": [
+            "Four minutes.",
+            "Ten minutes.",
+            "Five minutes.",
+            "Six minutes."
+          ],
+          "prompt": "How much time remains at 4:56?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Rules] The story contest accepts one student's original English fiction of 120 to 180 words, excluding the title. Entries close Friday at 5:00. A confirmation number proves submission. Revised entries keep the same number; the latest version submitted before closing is judged.",
+          "explanation": "標題不納入正文字數。",
+          "id": "d179-q7",
+          "options": [
+            "Replacing with.",
+            "Not including.",
+            "Dividing equally.",
+            "Adding together."
+          ],
+          "prompt": "What does 'excluding' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Rules] The story contest accepts one student's original English fiction of 120 to 180 words, excluding the title. Entries close Friday at 5:00. A confirmation number proves submission. Revised entries keep the same number; the latest version submitted before closing is judged.\n\n[Entry records] Amy submits a 165-word story at 4:40 and receives A12. Bo saves a 150-word draft at 4:45 but does not submit it. Chen submits a 175-word story written with a friend at 4:30 and receives C08.\n\n[Amy's revision] At 4:55, Amy submits a 178-word version using A12. [Dora's entry] Dora submits her own 181-word story at 4:50 and receives D03. Her four-word title is additional to those 181 words. All four texts are original English fiction.\n\nAt 4:56, the library helper reviews these records. She reminds students that confirmation proves the form arrived, not that every rule was met. There is still time to correct an entry, but a saved change must be submitted before 5:00 to count.",
+          "explanation": "Bo 文字本身符合條件，欠缺正式送件與確認。",
+          "id": "d179-q8",
+          "options": [
+            "Submit it before five and obtain confirmation.",
+            "Wait for the helper to submit all drafts automatically.",
+            "Only rename the saved file.",
+            "Add a second writer to the title."
+          ],
+          "prompt": "Which action would make Bo's existing draft eligible if completed in time?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "[Rules] The story contest accepts one student's original English fiction of 120 to 180 words, excluding the title. Entries close Friday at 5:00. A confirmation number proves submission. Revised entries keep the same number; the latest version submitted before closing is judged.\n\n[Entry records] Amy submits a 165-word story at 4:40 and receives A12. Bo saves a 150-word draft at 4:45 but does not submit it. Chen submits a 175-word story written with a friend at 4:30 and receives C08.\n\n[Amy's revision] At 4:55, Amy submits a 178-word version using A12. [Dora's entry] Dora submits her own 181-word story at 4:50 and receives D03. Her four-word title is additional to those 181 words. All four texts are original English fiction.\n\nAt 4:56, the library helper reviews these records. She reminds students that confirmation proves the form arrived, not that every rule was met. There is still time to correct an entry, but a saved change must be submitted before 5:00 to count.",
+          "explanation": "Chen 有收件證明卻仍因合寫而不符合資格。",
+          "id": "d179-q9",
+          "options": [
+            "Bo's saved draft proves receipt.",
+            "Chen has confirmation but fails the single-writer rule.",
+            "Dora's confirmation automatically removes the word limit.",
+            "Every confirmed entry is eligible."
+          ],
+          "prompt": "Which statement correctly distinguishes receipt from eligibility?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "[Rules] The story contest accepts one student's original English fiction of 120 to 180 words, excluding the title. Entries close Friday at 5:00. A confirmation number proves submission. Revised entries keep the same number; the latest version submitted before closing is judged.\n\n[Entry records] Amy submits a 165-word story at 4:40 and receives A12. Bo saves a 150-word draft at 4:45 but does not submit it. Chen submits a 175-word story written with a friend at 4:30 and receives C08.\n\n[Amy's revision] At 4:55, Amy submits a 178-word version using A12. [Dora's entry] Dora submits her own 181-word story at 4:50 and receives D03. Her four-word title is additional to those 181 words. All four texts are original English fiction.\n\nAt 4:56, the library helper reviews these records. She reminds students that confirmation proves the form arrived, not that every rule was met. There is still time to correct an entry, but a saved change must be submitted before 5:00 to count.",
+      "title": "Boss: Four Entries at the Deadline",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "[Rules] The story contest accepts one student's original English fiction of 120 to 180 words, excluding the title.",
+          "meaning": "不包括",
+          "word": "excluding"
+        },
+        {
+          "example": "[Entry records] Amy submits a 165-word story at 4:40 and receives A12.",
+          "meaning": "紀錄",
+          "word": "records"
+        },
+        {
+          "example": "Her four-word title is additional to those 181 words.",
+          "meaning": "額外的",
+          "word": "additional"
+        },
+        {
+          "example": "There is still time to correct an entry, but a saved change must be submitted before 5:00 to count.",
+          "meaning": "修正",
+          "word": "correct"
+        },
+        {
+          "example": "There is still time to correct an entry, but a saved change must be submitted before 5:00 to count.",
+          "meaning": "算數",
+          "word": "count"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-26",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 178,
+      "goal": "整合投稿資格、字數與完成送件的明確條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "計入",
+          "phrase": "count toward"
+        },
+        {
+          "meaning": "參加",
+          "phrase": "taking part"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "SMALL STORY COMPETITION: Write an original fictional story of 120 to 180 words. Entries must be in English and submitted by one student, not a team. Give your story a title; the title does not count toward the word limit.",
+          "explanation": "公告明說標題不計入字數。",
+          "id": "d178-q1",
+          "options": [
+            "No.",
+            "Yes, in every case.",
+            "Only after judging.",
+            "Only for team entries."
+          ],
+          "prompt": "Does the title count toward the word limit?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Submit through the school form by five on Friday. A saved draft is not an entry. Press 'Submit' and check for a confirmation number. If no number appears, ask the library desk for help before the deadline.",
+          "explanation": "按提交後應取得確認號碼。",
+          "id": "d178-q2",
+          "options": [
+            "Ask a friend to read it.",
+            "Check for a confirmation number.",
+            "Write a complicated plot.",
+            "Save a draft."
+          ],
+          "prompt": "How can a student confirm an entry was submitted?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "You may revise a submitted story before the deadline using the same confirmation number. Only the latest submitted version will be judged. Do not create another entry to replace the first, because each student may enter only once.",
+          "explanation": "同一確認號碼可在截止前修訂，最後提交版本受評。",
+          "id": "d178-q3",
+          "options": [
+            "Revise it using the same confirmation number before the deadline.",
+            "Create a second entry after the deadline.",
+            "Send a team entry instead.",
+            "Change the title without submitting again."
+          ],
+          "prompt": "How should a student replace an early version?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Judges will consider clear meaning, an engaging story, and effective use of language. A complicated plot is not required. The winning entries will be displayed with the writers' permission. Taking part allows judging, but public display will require a separate agreement.",
+          "explanation": "評分重視能吸引讀者的故事。",
+          "id": "d178-q4",
+          "options": [
+            "Holding the reader's interest.",
+            "Containing the maximum number of words.",
+            "Written by several students.",
+            "Impossible to understand."
+          ],
+          "prompt": "What does 'engaging' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "SMALL STORY COMPETITION: Write an original fictional story of 120 to 180 words. Entries must be in English and submitted by one student, not a team. Give your story a title; the title does not count toward the word limit.",
+          "explanation": "須一人原創英文虛構故事，正文 120–180 字。",
+          "id": "d178-q5",
+          "options": [
+            "A two-student fictional story of 150 words.",
+            "A student's original English fiction with 150 words plus a title.",
+            "An original English report of facts with 150 words.",
+            "An English fictional story of 190 words without its title."
+          ],
+          "prompt": "Which submission meets the basic content rules?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Judges will consider clear meaning, an engaging story, and effective use of language. A complicated plot is not required. The winning entries will be displayed with the writers' permission. Taking part allows judging, but public display will require a separate agreement.",
+          "explanation": "參賽只同意評審，公開展示另需同意。",
+          "id": "d178-q6",
+          "options": [
+            "The writer's separate permission.",
+            "A longer version of the story.",
+            "A team signature on the title.",
+            "A second competition entry."
+          ],
+          "prompt": "What extra step is needed before a winning story is displayed?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "SMALL STORY COMPETITION: Write an original fictional story of 120 to 180 words. Entries must be in English and submitted by one student, not a team. Give your story a title; the title does not count toward the word limit.\n\nSubmit through the school form by five on Friday. A saved draft is not an entry. Press 'Submit' and check for a confirmation number. If no number appears, ask the library desk for help before the deadline.\n\nYou may revise a submitted story before the deadline using the same confirmation number. Only the latest submitted version will be judged. Do not create another entry to replace the first, because each student may enter only once.\n\nJudges will consider clear meaning, an engaging story, and effective use of language. A complicated plot is not required. The winning entries will be displayed with the writers' permission. Taking part allows judging, but public display will require a separate agreement.",
+      "title": "The Small Story Competition",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "SMALL STORY COMPETITION: Write an original fictional story of 120 to 180 words.",
+          "meaning": "虛構的",
+          "word": "fictional"
+        },
+        {
+          "example": "Entries must be in English and submitted by one student, not a team.",
+          "meaning": "已提交的",
+          "word": "submitted"
+        },
+        {
+          "example": "Press 'Submit' and check for a confirmation number.",
+          "meaning": "確認",
+          "word": "confirmation"
+        },
+        {
+          "example": "You may revise a submitted story before the deadline using the same confirmation number.",
+          "meaning": "修訂",
+          "word": "revise"
+        },
+        {
+          "example": "Judges will consider clear meaning, an engaging story, and effective use of language.",
+          "meaning": "引人入勝的",
+          "word": "engaging"
+        }
+      ]
+    }
+  ]
+}

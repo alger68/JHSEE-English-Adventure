@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-25",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 177,
+      "goal": "辨識主觀評價、標籤影響及小型活動的推論限制。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "直到之後",
+          "phrase": "until afterward"
+        },
+        {
+          "meaning": "後續活動",
+          "phrase": "follow-up"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "In a fictional classroom activity, a teacher pours the same apple juice into two identical cups. She labels one 'Garden Choice' and the other 'Regular Juice.' Students know they are joining a lesson about descriptions, but they are not told that both cups contain the same drink until afterward.",
+          "explanation": "活動設定同種果汁與相同杯子，只標籤不同。",
+          "id": "d177-q1",
+          "options": [
+            "The source of the liquid.",
+            "The kind of juice.",
+            "The cup size.",
+            "Their labels."
+          ],
+          "prompt": "What differs between the two cups?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Several students say Garden Choice tastes fresher. Others notice no difference, and a few prefer Regular Juice. The class records these reports without treating one person's taste as a mistake. The labels, rather than the liquid, were different.",
+          "explanation": "有人偏好另一杯，也有人沒感覺差異。",
+          "id": "d177-q2",
+          "options": [
+            "Yes; every student chose it.",
+            "No; preferences varied.",
+            "No; everyone preferred Regular Juice.",
+            "The class recorded no preferences."
+          ],
+          "prompt": "Did all students prefer Garden Choice?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "After explaining the setup, the teacher asks whether the activity proves that everyone is influenced by labels in the same way. The students say no. Their small class gave varied answers, and the order of tasting may also have affected the reports.",
+          "explanation": "學生發現順序也可能影響感受，尚不能排除。",
+          "id": "d177-q3",
+          "options": [
+            "It proves the liquids were different.",
+            "It is another possible influence on reports.",
+            "It determines every shopper's choice.",
+            "It replaces the need to explain the setup."
+          ],
+          "prompt": "Why is tasting order mentioned?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "For a follow-up, they suggest using neutral labels and changing the tasting order between groups. Their goal is to separate possible influences more carefully, not to turn one classroom activity into a rule about all shoppers.",
+          "explanation": "中性標籤避免先用好壞描述引導評價。",
+          "id": "d177-q4",
+          "options": [
+            "Avoiding descriptions that favor one sample.",
+            "Promising a fresher taste.",
+            "Printed only in green.",
+            "Naming the more expensive juice."
+          ],
+          "prompt": "What does 'neutral' mean for the new labels?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "In a fictional classroom activity, a teacher pours the same apple juice into two identical cups. She labels one 'Garden Choice' and the other 'Regular Juice.' Students know they are joining a lesson about descriptions, but they are not told that both cups contain the same drink until afterward.\n\nSeveral students say Garden Choice tastes fresher. Others notice no difference, and a few prefer Regular Juice. The class records these reports without treating one person's taste as a mistake. The labels, rather than the liquid, were different.\n\nAfter explaining the setup, the teacher asks whether the activity proves that everyone is influenced by labels in the same way. The students say no. Their small class gave varied answers, and the order of tasting may also have affected the reports.\n\nFor a follow-up, they suggest using neutral labels and changing the tasting order between groups. Their goal is to separate possible influences more carefully, not to turn one classroom activity into a rule about all shoppers.",
+          "explanation": "只能報告本班此安排下不同反應，不能推及全部人或宣稱果汁不同。",
+          "id": "d177-q5",
+          "options": [
+            "Tasting order had no possible effect.",
+            "All shoppers prefer a garden label.",
+            "Students gave different opinions about identical juice under different labels.",
+            "The Garden Choice liquid was chemically fresher."
+          ],
+          "prompt": "Which conclusion stays within the reported results?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "For a follow-up, they suggest using neutral labels and changing the tasting order between groups. Their goal is to separate possible influences more carefully, not to turn one classroom activity into a rule about all shoppers.",
+          "explanation": "後續設計試圖分開標籤與品嚐順序等可能影響。",
+          "id": "d177-q6",
+          "options": [
+            "To repeat an advertising claim as a fact.",
+            "To prove students who disagree have bad taste.",
+            "To distinguish possible influences more carefully.",
+            "To eliminate all differences among people."
+          ],
+          "prompt": "Why does the class plan a follow-up?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a fictional classroom activity, a teacher pours the same apple juice into two identical cups. She labels one 'Garden Choice' and the other 'Regular Juice.' Students know they are joining a lesson about descriptions, but they are not told that both cups contain the same drink until afterward.\n\nSeveral students say Garden Choice tastes fresher. Others notice no difference, and a few prefer Regular Juice. The class records these reports without treating one person's taste as a mistake. The labels, rather than the liquid, were different.\n\nAfter explaining the setup, the teacher asks whether the activity proves that everyone is influenced by labels in the same way. The students say no. Their small class gave varied answers, and the order of tasting may also have affected the reports.\n\nFor a follow-up, they suggest using neutral labels and changing the tasting order between groups. Their goal is to separate possible influences more carefully, not to turn one classroom activity into a rule about all shoppers.",
+      "title": "The Two Cups with Different Labels",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "In a fictional classroom activity, a teacher pours the same apple juice into two identical cups.",
+          "meaning": "完全相同的",
+          "word": "identical"
+        },
+        {
+          "example": "Several students say Garden Choice tastes fresher.",
+          "meaning": "更新鮮的",
+          "word": "fresher"
+        },
+        {
+          "example": "After explaining the setup, the teacher asks whether the activity proves that everyone is influenced by labels in the same way.",
+          "meaning": "活動安排",
+          "word": "setup"
+        },
+        {
+          "example": "Their small class gave varied answers, and the order of tasting may also have affected the reports.",
+          "meaning": "多樣的",
+          "word": "varied"
+        },
+        {
+          "example": "For a follow-up, they suggest using neutral labels and changing the tasting order between groups.",
+          "meaning": "中性的",
+          "word": "neutral"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-21",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 173,
+      "goal": "複習誤傳、量測、檢查與調查範圍的閱讀線索。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "說明並非如此",
+          "phrase": "says otherwise"
+        },
+        {
+          "meaning": "省略",
+          "phrase": "leaves out"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "Rui draws two columns headed 'What the text says' and 'What I added.' He uses five recent words to check his reading: mistaken, rounded, inspection, broader, and conclusion. His teacher asks him to place each claim in the correct column.",
+          "explanation": "兩欄分別記文本內容與自己額外加入的想法。",
+          "id": "d173-q1",
+          "options": [
+            "Art students and science teachers.",
+            "Easy words and long words.",
+            "Morning events and evening events.",
+            "Textual information and ideas he added."
+          ],
+          "prompt": "What are Rui's two columns about?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Rui first writes that a mistaken shirt reminder created a science dress rule. Then he notices the correction and moves his claim to the second column. He also removes the idea that two rounded water readings prove exactly equal amounts.",
+          "explanation": "更正已否認科學组服裝規定，原判斷屬額外推想。",
+          "id": "d173-q2",
+          "options": [
+            "The science group confirmed the rule.",
+            "Every shirt reminder belongs to science.",
+            "The correction shows it was his unsupported interpretation.",
+            "The two columns must have equal entries."
+          ],
+          "prompt": "Why does he move the dress-rule claim?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A visible game box seems ready to borrow, but its inspection label says otherwise. Rui keeps the label's information in the first column. From the art survey, he records sixteen yes answers among twenty visitors and leaves out a claim about all four hundred students.",
+          "explanation": "他保留實際受訪人數及回答。",
+          "id": "d173-q3",
+          "options": [
+            "No opinions from art students.",
+            "Sixteen yes answers among twenty visitors.",
+            "Four hundred surveyed visitors.",
+            "Eighty percent of all students."
+          ],
+          "prompt": "What survey result does Rui retain?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "To form a broader conclusion, he would need information from a wider range of students. Rui realizes that his second column is not a list of foolish ideas. It is a place to notice assumptions and ask which ones have support before using them as answers.",
+          "explanation": "更廣泛的結論需要更廣泛學生的資訊。",
+          "id": "d173-q4",
+          "options": [
+            "Including only yes answers.",
+            "Using fewer words.",
+            "Written across two columns.",
+            "Applying to a wider group."
+          ],
+          "prompt": "What does 'broader' mean in the last paragraph?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Rui draws two columns headed 'What the text says' and 'What I added.' He uses five recent words to check his reading: mistaken, rounded, inspection, broader, and conclusion. His teacher asks him to place each claim in the correct column.\n\nRui first writes that a mistaken shirt reminder created a science dress rule. Then he notices the correction and moves his claim to the second column. He also removes the idea that two rounded water readings prove exactly equal amounts.\n\nA visible game box seems ready to borrow, but its inspection label says otherwise. Rui keeps the label's information in the first column. From the art survey, he records sixteen yes answers among twenty visitors and leaves out a claim about all four hundred students.\n\nTo form a broader conclusion, he would need information from a wider range of students. Rui realizes that his second column is not a list of foolish ideas. It is a place to notice assumptions and ask which ones have support before using them as answers.",
+          "explanation": "檢查標籤明確指出尚不可借，其他選項超出證據。",
+          "id": "d173-q5",
+          "options": [
+            "A box under inspection is not ready to borrow.",
+            "The whole school answered the exhibition survey.",
+            "Rounded readings establish identical amounts.",
+            "A visible box must be complete."
+          ],
+          "prompt": "Which claim belongs in the text-supported column?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "To form a broader conclusion, he would need information from a wider range of students. Rui realizes that his second column is not a list of foolish ideas. It is a place to notice assumptions and ask which ones have support before using them as answers.",
+          "explanation": "Rui 用第二欄辨識假設，再檢查是否有依據。",
+          "id": "d173-q6",
+          "options": [
+            "To identify assumptions that still need support.",
+            "To forbid every form of inference.",
+            "To replace the original text with guesses.",
+            "To collect answers that are always correct."
+          ],
+          "prompt": "What is the purpose of the second column?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Rui draws two columns headed 'What the text says' and 'What I added.' He uses five recent words to check his reading: mistaken, rounded, inspection, broader, and conclusion. His teacher asks him to place each claim in the correct column.\n\nRui first writes that a mistaken shirt reminder created a science dress rule. Then he notices the correction and moves his claim to the second column. He also removes the idea that two rounded water readings prove exactly equal amounts.\n\nA visible game box seems ready to borrow, but its inspection label says otherwise. Rui keeps the label's information in the first column. From the art survey, he records sixteen yes answers among twenty visitors and leaves out a claim about all four hundred students.\n\nTo form a broader conclusion, he would need information from a wider range of students. Rui realizes that his second column is not a list of foolish ideas. It is a place to notice assumptions and ask which ones have support before using them as answers.",
+      "title": "The Review with Two Columns",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "' He uses five recent words to check his reading: mistaken, rounded, inspection, broader, and conclusion.",
+          "meaning": "弄錯的",
+          "word": "mistaken"
+        },
+        {
+          "example": "' He uses five recent words to check his reading: mistaken, rounded, inspection, broader, and conclusion.",
+          "meaning": "取近似值的",
+          "word": "rounded"
+        },
+        {
+          "example": "' He uses five recent words to check his reading: mistaken, rounded, inspection, broader, and conclusion.",
+          "meaning": "檢查",
+          "word": "inspection"
+        },
+        {
+          "example": "' He uses five recent words to check his reading: mistaken, rounded, inspection, broader, and conclusion.",
+          "meaning": "更廣泛的",
+          "word": "broader"
+        },
+        {
+          "example": "' He uses five recent words to check his reading: mistaken, rounded, inspection, broader, and conclusion.",
+          "meaning": "結論",
+          "word": "conclusion"
+        }
+      ]
+    }
+  ]
+}

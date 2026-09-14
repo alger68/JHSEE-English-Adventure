@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-22",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 174,
+      "goal": "由補救行動判斷道歉的誠意與敘事重點。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "彷彿",
+          "phrase": "as if"
+        },
+        {
+          "meaning": "把海報放回",
+          "phrase": "put the poster back"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "When a class poster disappears, Mina tells two friends that she thinks Sam took it. She has seen him near the noticeboard, but she has not asked him anything. By lunch, several classmates are repeating the claim as if it were a fact.",
+          "explanation": "她只見 Sam 在布告欄附近，未看到拿走。",
+          "id": "d174-q1",
+          "options": [
+            "The teacher named him as responsible.",
+            "She saw him near the noticeboard.",
+            "She saw him hide the poster.",
+            "Sam admitted taking the poster."
+          ],
+          "prompt": "What was Mina's original evidence against Sam?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The teacher later finds the poster in a storage drawer. A helper had moved it while cleaning the board. Mina apologizes to Sam in a private message. Sam replies, 'Thank you, but the others still think I took it.'",
+          "explanation": "教師在收納抽屜找到海報。",
+          "id": "d174-q2",
+          "options": [
+            "Under Mina's desk.",
+            "In a storage drawer.",
+            "Outside the school.",
+            "In Sam's bag."
+          ],
+          "prompt": "Where was the poster found?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The teacher later finds the poster in a storage drawer. A helper had moved it while cleaning the board. Mina apologizes to Sam in a private message. Sam replies, 'Thank you, but the others still think I took it.'",
+          "explanation": "錯誤說法已傳給他人，只私下道歉不能更正那些人的看法。",
+          "id": "d174-q3",
+          "options": [
+            "The poster is still missing.",
+            "Mina has not bought a replacement.",
+            "Other classmates still hold the false belief.",
+            "Sam never received the message."
+          ],
+          "prompt": "Why is the private apology insufficient?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Some friends tell her to stop mentioning an embarrassing mistake. Mina answers that she is not repeating the rumor; she is correcting it. Sam does not immediately become cheerful, but the next day he asks her to help put the poster back. Trust begins to return through a concrete action.",
+          "explanation": "文中的傳言是未證實就流傳的指控。",
+          "id": "d174-q4",
+          "options": [
+            "A message that only reports measurements.",
+            "A spreading story without proper confirmation.",
+            "A promise to replace a poster.",
+            "An official cleaning schedule."
+          ],
+          "prompt": "What does 'rumor' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Some friends tell her to stop mentioning an embarrassing mistake. Mina answers that she is not repeating the rumor; she is correcting it. Sam does not immediately become cheerful, but the next day he asks her to help put the poster back. Trust begins to return through a concrete action.",
+          "explanation": "邀她合作是信任逐步恢复的具体线索。",
+          "id": "d174-q5",
+          "options": [
+            "It proves he was responsible for moving the poster.",
+            "It suggests a small return of willingness to work with Mina.",
+            "It shows he has forgotten everything immediately.",
+            "It means a private apology would have been enough."
+          ],
+          "prompt": "Why does Sam's invitation matter at the end?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "When a class poster disappears, Mina tells two friends that she thinks Sam took it. She has seen him near the noticeboard, but she has not asked him anything. By lunch, several classmates are repeating the claim as if it were a fact.\n\nThe teacher later finds the poster in a storage drawer. A helper had moved it while cleaning the board. Mina apologizes to Sam in a private message. Sam replies, 'Thank you, but the others still think I took it.'\n\nMina realizes that a private apology has not corrected a public misunderstanding. With Sam's agreement, she tells the classmates who heard her claim what actually happened. She says clearly that she had no evidence Sam removed the poster.\n\nSome friends tell her to stop mentioning an embarrassing mistake. Mina answers that she is not repeating the rumor; she is correcting it. Sam does not immediately become cheerful, but the next day he asks her to help put the poster back. Trust begins to return through a concrete action.",
+          "explanation": "她需向原先聽到指控的人說明真相，才能修補影響。",
+          "id": "d174-q6",
+          "options": [
+            "An apology requires the other person to feel cheerful immediately.",
+            "A correction should reach people affected by the original false claim.",
+            "Being near a missing object establishes responsibility.",
+            "An embarrassing mistake should always be hidden."
+          ],
+          "prompt": "What does Mina learn about correcting harm?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "When a class poster disappears, Mina tells two friends that she thinks Sam took it. She has seen him near the noticeboard, but she has not asked him anything. By lunch, several classmates are repeating the claim as if it were a fact.\n\nThe teacher later finds the poster in a storage drawer. A helper had moved it while cleaning the board. Mina apologizes to Sam in a private message. Sam replies, 'Thank you, but the others still think I took it.'\n\nMina realizes that a private apology has not corrected a public misunderstanding. With Sam's agreement, she tells the classmates who heard her claim what actually happened. She says clearly that she had no evidence Sam removed the poster.\n\nSome friends tell her to stop mentioning an embarrassing mistake. Mina answers that she is not repeating the rumor; she is correcting it. Sam does not immediately become cheerful, but the next day he asks her to help put the poster back. Trust begins to return through a concrete action.",
+      "title": "The Apology on the Noticeboard",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "By lunch, several classmates are repeating the claim as if it were a fact.",
+          "meaning": "說法",
+          "word": "claim"
+        },
+        {
+          "example": "The teacher later finds the poster in a storage drawer.",
+          "meaning": "抽屜",
+          "word": "drawer"
+        },
+        {
+          "example": "Mina apologizes to Sam in a private message.",
+          "meaning": "道歉",
+          "word": "apologizes"
+        },
+        {
+          "example": "Mina answers that she is not repeating the rumor; she is correcting it.",
+          "meaning": "傳言",
+          "word": "rumor"
+        },
+        {
+          "example": "Trust begins to return through a concrete action.",
+          "meaning": "信任",
+          "word": "trust"
+        }
+      ]
+    }
+  ]
+}

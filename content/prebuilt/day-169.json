@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-17",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 169,
+      "goal": "根據對話追蹤訊息對象與更正後的安排。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "區分",
+          "phrase": "tell apart"
+        },
+        {
+          "meaning": "直接回覆",
+          "phrase": "reply directly"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "[Drama group] Mei: Please bring your blue shirt on Friday. We need it for the final scene. Aaron: Done. I sent the reminder to everyone. [Science group, five minutes later] Aaron: Sorry, the blue-shirt message was meant for the drama group.",
+          "explanation": "最初提醒是戲劇演出服裝需求。",
+          "id": "d169-q1",
+          "options": [
+            "Only Jo.",
+            "Every science student.",
+            "Both groups' teachers.",
+            "Members of the drama group."
+          ],
+          "prompt": "Who needs a blue shirt?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Lily: So our science presentation has no clothing rule? Aaron: Correct. Keep the science plan we agreed on yesterday. Lily: I'll tell Jo, who already went to look for a blue shirt. Aaron: Thanks. I'll reply directly below the mistaken message too.",
+          "explanation": "Aaron 確認科學組沿用原計畫。",
+          "id": "d169-q2",
+          "options": [
+            "Wait for Mei to choose clothing.",
+            "Keep its previously agreed plan.",
+            "Adopt a new blue-shirt rule.",
+            "Cancel Friday's performance."
+          ],
+          "prompt": "What should the science group do?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Back in the drama chat, Mei asks whether the correct group received the reminder. Aaron checks and discovers that he never sent it there. He posts it, names Friday's performance, and asks members to react after reading so he can check who still needs the information.",
+          "explanation": "Aaron 查後發現正確群組尚未收到。",
+          "id": "d169-q3",
+          "options": [
+            "The science group requires two shirt colors.",
+            "Mei asked to remove all reminders.",
+            "The drama group still needs the original reminder.",
+            "Jo has already joined the drama group."
+          ],
+          "prompt": "Why is correcting the science chat not enough?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Sending a correction to the wrong audience would not have solved the whole problem. Aaron needed to remove confusion in one group and deliver the missing instruction to another. He changes the two chat icons so their similar names are easier to tell apart.",
+          "explanation": "文中指訊息傳達的對象。",
+          "id": "d169-q4",
+          "options": [
+            "The clothes worn on stage.",
+            "The people receiving a message.",
+            "The time a reminder is sent.",
+            "The device used for a chat."
+          ],
+          "prompt": "What does 'audience' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Drama group] Mei: Please bring your blue shirt on Friday. We need it for the final scene. Aaron: Done. I sent the reminder to everyone. [Science group, five minutes later] Aaron: Sorry, the blue-shirt message was meant for the drama group.\n\nLily: So our science presentation has no clothing rule? Aaron: Correct. Keep the science plan we agreed on yesterday. Lily: I'll tell Jo, who already went to look for a blue shirt. Aaron: Thanks. I'll reply directly below the mistaken message too.\n\nBack in the drama chat, Mei asks whether the correct group received the reminder. Aaron checks and discovers that he never sent it there. He posts it, names Friday's performance, and asks members to react after reading so he can check who still needs the information.\n\nSending a correction to the wrong audience would not have solved the whole problem. Aaron needed to remove confusion in one group and deliver the missing instruction to another. He changes the two chat icons so their similar names are easier to tell apart.",
+          "explanation": "錯誤接收者需釐清，原接收者仍需收到資訊。",
+          "id": "d169-q5",
+          "options": [
+            "Delete the science plan and rename the performance.",
+            "Change the icons without sending any messages.",
+            "Ask Jo to buy shirts for both groups.",
+            "Clarify the science plan and send the drama reminder."
+          ],
+          "prompt": "Which pair of actions solves both communication problems?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Sending a correction to the wrong audience would not have solved the whole problem. Aaron needed to remove confusion in one group and deliver the missing instruction to another. He changes the two chat icons so their similar names are easier to tell apart.",
+          "explanation": "圖示差異有助辨別兩個相似名稱群組。",
+          "id": "d169-q6",
+          "options": [
+            "To reduce confusion between similar group names.",
+            "To prevent members from reading earlier messages.",
+            "To cancel the need for future confirmations.",
+            "To show which shirt is most popular."
+          ],
+          "prompt": "Why does Aaron change the chat icons?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "[Drama group] Mei: Please bring your blue shirt on Friday. We need it for the final scene. Aaron: Done. I sent the reminder to everyone. [Science group, five minutes later] Aaron: Sorry, the blue-shirt message was meant for the drama group.\n\nLily: So our science presentation has no clothing rule? Aaron: Correct. Keep the science plan we agreed on yesterday. Lily: I'll tell Jo, who already went to look for a blue shirt. Aaron: Thanks. I'll reply directly below the mistaken message too.\n\nBack in the drama chat, Mei asks whether the correct group received the reminder. Aaron checks and discovers that he never sent it there. He posts it, names Friday's performance, and asks members to react after reading so he can check who still needs the information.\n\nSending a correction to the wrong audience would not have solved the whole problem. Aaron needed to remove confusion in one group and deliver the missing instruction to another. He changes the two chat icons so their similar names are easier to tell apart.",
+      "title": "The Reply Sent to the Wrong Group",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "[Science group, five minutes later] Aaron: Sorry, the blue-shirt message was meant for the drama group.",
+          "meaning": "原本打算",
+          "word": "meant"
+        },
+        {
+          "example": "Lily: So our science presentation has no clothing rule?",
+          "meaning": "簡報",
+          "word": "presentation"
+        },
+        {
+          "example": "I'll reply directly below the mistaken message too.",
+          "meaning": "弄錯的",
+          "word": "mistaken"
+        },
+        {
+          "example": "Sending a correction to the wrong audience would not have solved the whole problem.",
+          "meaning": "接收訊息的人",
+          "word": "audience"
+        },
+        {
+          "example": "Lily: I'll tell Jo, who already went to look for a blue shirt.",
+          "meaning": "辨別",
+          "word": "tell"
+        }
+      ]
+    }
+  ]
+}

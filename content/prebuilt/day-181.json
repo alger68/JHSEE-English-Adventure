@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-01",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 181,
+      "goal": "由教學互動推論人物策略及學習成效的證據。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "沒有協助地",
+          "phrase": "without help"
+        },
+        {
+          "meaning": "把他引向",
+          "phrase": "pull him toward"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "During peer tutoring, Neil points to a reading question and asks his partner, Ada, for the answer. Ada sees the correct option immediately, but she asks, 'Which sentence made you choose yours?' Neil shrugs and says the option contains a word from the passage.",
+          "explanation": "Neil 只因選項含原文字詞而選。",
+          "id": "d181-q1",
+          "options": [
+            "He understood the final plan.",
+            "It was the shortest option.",
+            "Ada had already confirmed it.",
+            "It contained a word from the passage."
+          ],
+          "prompt": "Why did Neil first choose his option?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Ada asks him to read the whole sentence around that word. It says the club considered a picnic but chose an indoor visit because of rain. Neil's option names the picnic, which appears in the text but is not the final plan.",
+          "explanation": "文章說考慮野餐，但因雨選室內參訪。",
+          "id": "d181-q2",
+          "options": [
+            "A train ride.",
+            "A family meal.",
+            "A picnic.",
+            "An indoor visit."
+          ],
+          "prompt": "What did the club finally choose?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Together they underline 'considered' and 'but chose.' Ada then gives Neil a different short example in which a family first discusses a train and finally takes a bus. This time, he identifies the chosen transport and explains the contrast without help.",
+          "explanation": "新情境能檢查是否理解方法並遷移使用。",
+          "id": "d181-q3",
+          "options": [
+            "To make him memorize two transport words.",
+            "To see whether Neil can apply the reading method elsewhere.",
+            "To repeat exactly the same answer.",
+            "To avoid discussing his first mistake."
+          ],
+          "prompt": "Why does Ada use a second example?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Together they underline 'considered' and 'but chose.' Ada then gives Neil a different short example in which a family first discusses a train and finally takes a bus. This time, he identifies the chosen transport and explains the contrast without help.",
+          "explanation": "先討論與最後選擇是需辨識的對比關係。",
+          "id": "d181-q4",
+          "options": [
+            "A question without a passage.",
+            "A list of identical answers.",
+            "A difference between two ideas.",
+            "A repeated spelling pattern."
+          ],
+          "prompt": "What does 'contrast' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Together they underline 'considered' and 'but chose.' Ada then gives Neil a different short example in which a family first discusses a train and finally takes a bus. This time, he identifies the chosen transport and explains the contrast without help.",
+          "explanation": "獨立解釋新例子的轉折，比單題改對更能顯示學會。",
+          "id": "d181-q5",
+          "options": [
+            "He completes the worksheet faster than everyone.",
+            "He explains the final choice in a new example without help.",
+            "He recognizes a word appearing in an option.",
+            "He finishes the first question after being told a letter."
+          ],
+          "prompt": "What gives the strongest evidence that Neil learned something?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "During peer tutoring, Neil points to a reading question and asks his partner, Ada, for the answer. Ada sees the correct option immediately, but she asks, 'Which sentence made you choose yours?' Neil shrugs and says the option contains a word from the passage.\n\nAda asks him to read the whole sentence around that word. It says the club considered a picnic but chose an indoor visit because of rain. Neil's option names the picnic, which appears in the text but is not the final plan.\n\nTogether they underline 'considered' and 'but chose.' Ada then gives Neil a different short example in which a family first discusses a train and finally takes a bus. This time, he identifies the chosen transport and explains the contrast without help.\n\nNeil leaves with one corrected answer and a method he can try again. Ada has not made him finish the entire worksheet faster. She has helped him notice the relationship between ideas, so a familiar word is less likely to pull him toward the wrong option.",
+          "explanation": "Ada 引導讀完整句及關係，再根據證據作答。",
+          "id": "d181-q6",
+          "options": [
+            "Tell Neil never to choose an option with a repeated word.",
+            "Replace reading questions with vocabulary lists.",
+            "Give all correct letters as quickly as possible.",
+            "Help Neil connect evidence and relationships before choosing."
+          ],
+          "prompt": "What is Ada's main teaching approach?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "During peer tutoring, Neil points to a reading question and asks his partner, Ada, for the answer. Ada sees the correct option immediately, but she asks, 'Which sentence made you choose yours?' Neil shrugs and says the option contains a word from the passage.\n\nAda asks him to read the whole sentence around that word. It says the club considered a picnic but chose an indoor visit because of rain. Neil's option names the picnic, which appears in the text but is not the final plan.\n\nTogether they underline 'considered' and 'but chose.' Ada then gives Neil a different short example in which a family first discusses a train and finally takes a bus. This time, he identifies the chosen transport and explains the contrast without help.\n\nNeil leaves with one corrected answer and a method he can try again. Ada has not made him finish the entire worksheet faster. She has helped him notice the relationship between ideas, so a familiar word is less likely to pull him toward the wrong option.",
+      "title": "The Tutor Who Asked One More Question",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "During peer tutoring, Neil points to a reading question and asks his partner, Ada, for the answer.",
+          "meaning": "課業輔導",
+          "word": "tutoring"
+        },
+        {
+          "example": "' Neil shrugs and says the option contains a word from the passage.",
+          "meaning": "聳肩",
+          "word": "shrugs"
+        },
+        {
+          "example": "It says the club considered a picnic but chose an indoor visit because of rain.",
+          "meaning": "考慮過",
+          "word": "considered"
+        },
+        {
+          "example": "This time, he identifies the chosen transport and explains the contrast without help.",
+          "meaning": "對比",
+          "word": "contrast"
+        },
+        {
+          "example": "She has helped him notice the relationship between ideas, so a familiar word is less likely to pull him toward the wrong option.",
+          "meaning": "關係",
+          "word": "relationship"
+        }
+      ]
+    }
+  ]
+}

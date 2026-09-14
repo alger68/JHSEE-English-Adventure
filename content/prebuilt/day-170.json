@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-18",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 170,
+      "goal": "比較測量精度，分辨相同讀數與完全相同的量。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "指向",
+          "phrase": "points to"
+        },
+        {
+          "meaning": "在限制範圍內",
+          "phrase": "within the limits"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "In a classroom activity, two groups measure water in small cups. Group A uses a jug with marks every ten milliliters. Group B uses a narrow measuring cylinder with marks every milliliter. Both groups report that their cups contain about thirty milliliters.",
+          "explanation": "第二組量筒每一毫升一格。",
+          "id": "d170-q1",
+          "options": [
+            "Both tools.",
+            "Group B's cylinder.",
+            "Group A's jug.",
+            "Neither tool."
+          ],
+          "prompt": "Which tool has marks every milliliter?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Yuri says the amounts must be exactly equal because the written numbers match. His partner points to the different scales. The jug cannot show small differences as clearly as the cylinder. The same rounded report can hide differences between actual amounts.",
+          "explanation": "相同近似讀數可能遮蔽實際差異。",
+          "id": "d170-q2",
+          "options": [
+            "Rounding and different scales can hide small differences.",
+            "The groups measured different liquids according to the passage.",
+            "Thirty is not a usable measurement.",
+            "Both groups refused to use tools."
+          ],
+          "prompt": "Why do matching reports not prove exactly equal amounts?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The teacher asks the groups to describe their tools beside their results. She also reminds them to view the liquid level consistently. A tool with smaller marks can help, but careless reading can still introduce error.",
+          "explanation": "教師要求在結果旁描述測量工具。",
+          "id": "d170-q3",
+          "options": [
+            "Descriptions of their measuring tools.",
+            "Only the larger group's names.",
+            "The price of every cup.",
+            "A claim that all errors are impossible."
+          ],
+          "prompt": "What does the teacher ask students to include?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The students revise their claim to say that both readings are near thirty milliliters within the limits of their methods. They have not made their work less useful by mentioning limits. They have made it easier for another reader to understand what the numbers can, and cannot, establish.",
+          "explanation": "末段討論數字能確立哪些結論。",
+          "id": "d170-q4",
+          "options": [
+            "Pour into a new container.",
+            "Round a number upward.",
+            "Show to be supported or true.",
+            "Choose a classroom partner."
+          ],
+          "prompt": "What does 'establish' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The teacher asks the groups to describe their tools beside their results. She also reminds them to view the liquid level consistently. A tool with smaller marks can help, but careless reading can still introduce error.",
+          "explanation": "更細的刻度仍不能排除操作或讀取錯誤。",
+          "id": "d170-q5",
+          "options": [
+            "A cylinder cannot hold thirty milliliters.",
+            "The user can still read the liquid level carelessly.",
+            "Small marks always make tools inaccurate.",
+            "Both groups must use the same cup color."
+          ],
+          "prompt": "Why are smaller scale marks alone insufficient for reliable reading?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "In a classroom activity, two groups measure water in small cups. Group A uses a jug with marks every ten milliliters. Group B uses a narrow measuring cylinder with marks every milliliter. Both groups report that their cups contain about thirty milliliters.\n\nYuri says the amounts must be exactly equal because the written numbers match. His partner points to the different scales. The jug cannot show small differences as clearly as the cylinder. The same rounded report can hide differences between actual amounts.\n\nThe teacher asks the groups to describe their tools beside their results. She also reminds them to view the liquid level consistently. A tool with smaller marks can help, but careless reading can still introduce error.\n\nThe students revise their claim to say that both readings are near thirty milliliters within the limits of their methods. They have not made their work less useful by mentioning limits. They have made it easier for another reader to understand what the numbers can, and cannot, establish.",
+          "explanation": "文章以不同刻度說明需連同方法限制解讀數據。",
+          "id": "d170-q6",
+          "options": [
+            "Mentioning uncertainty makes a measurement useless.",
+            "Identical written numbers always mean identical amounts.",
+            "Results should be interpreted with the limits of the measurement method.",
+            "A more detailed tool removes every source of error."
+          ],
+          "prompt": "What is the main point of the activity?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a classroom activity, two groups measure water in small cups. Group A uses a jug with marks every ten milliliters. Group B uses a narrow measuring cylinder with marks every milliliter. Both groups report that their cups contain about thirty milliliters.\n\nYuri says the amounts must be exactly equal because the written numbers match. His partner points to the different scales. The jug cannot show small differences as clearly as the cylinder. The same rounded report can hide differences between actual amounts.\n\nThe teacher asks the groups to describe their tools beside their results. She also reminds them to view the liquid level consistently. A tool with smaller marks can help, but careless reading can still introduce error.\n\nThe students revise their claim to say that both readings are near thirty milliliters within the limits of their methods. They have not made their work less useful by mentioning limits. They have made it easier for another reader to understand what the numbers can, and cannot, establish.",
+      "title": "How Much Water Left the Cup?",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "Group B uses a narrow measuring cylinder with marks every milliliter.",
+          "meaning": "量筒",
+          "word": "cylinder"
+        },
+        {
+          "example": "His partner points to the different scales.",
+          "meaning": "刻度",
+          "word": "scales"
+        },
+        {
+          "example": "The same rounded report can hide differences between actual amounts.",
+          "meaning": "四捨五入後的",
+          "word": "rounded"
+        },
+        {
+          "example": "She also reminds them to view the liquid level consistently.",
+          "meaning": "一致地",
+          "word": "consistently"
+        },
+        {
+          "example": "They have made it easier for another reader to understand what the numbers can, and cannot, establish.",
+          "meaning": "確立",
+          "word": "establish"
+        }
+      ]
+    }
+  ]
+}

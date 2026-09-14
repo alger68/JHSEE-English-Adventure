@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-24",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 176,
+      "goal": "從讀者回應推論訊息應保留及省略的內容。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "值得閱讀",
+          "phrase": "worth reading"
+        },
+        {
+          "meaning": "到什麼進度",
+          "phrase": "how far"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "[Book club chat] Dani: Is The Red Door worth reading? Please don't reveal the ending. Sol: Yes! The part where the missing brother returns is amazing. Dani: I was only on chapter two. I didn't know he was alive.",
+          "explanation": "Dani 明說不要透露結局。",
+          "id": "d176-q1",
+          "options": [
+            "Recommending any story.",
+            "Revealing the ending.",
+            "Naming the book.",
+            "Discussing the writing style."
+          ],
+          "prompt": "What did Dani ask Sol to avoid?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Book club chat] Dani: Is The Red Door worth reading? Please don't reveal the ending. Sol: Yes! The part where the missing brother returns is amazing. Dani: I was only on chapter two. I didn't know he was alive.",
+          "explanation": "弟弟回來且仍活著是 Dani 尚未讀到的轉折。",
+          "id": "d176-q2",
+          "options": [
+            "It gives no information about the story.",
+            "It incorrectly says the book has no chapters.",
+            "It removes a surprise Dani had not reached.",
+            "It refuses to answer the question."
+          ],
+          "prompt": "Why does Sol's first reply upset Dani?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Sol removes the detail from his recommendation for other readers. He writes, 'The story gradually changes how we understand the family. Small objects mentioned early become important later.' He labels a separate discussion thread 'Finished readers only' before posting details about the ending there.",
+          "explanation": "Sol 另設已讀完者的討論串。",
+          "id": "d176-q3",
+          "options": [
+            "In the book's first sentence.",
+            "In Dani's chapter-two notes.",
+            "In every public recommendation.",
+            "In a thread labeled for finished readers."
+          ],
+          "prompt": "Where does Sol place detailed ending discussion later?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Dani continues reading, although one surprise has been spoiled. At their next meeting, Sol asks how far each person has read before discussing the plot. He learns that an accurate description can still be unsuitable when the reader has asked for a particular limit.",
+          "explanation": "提早知道轉折，破壞了驚喜。",
+          "id": "d176-q4",
+          "options": [
+            "Made less enjoyable by early knowledge.",
+            "Printed on damaged paper.",
+            "Removed from the published book.",
+            "Written with incorrect spelling."
+          ],
+          "prompt": "What does 'spoiled' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Sol removes the detail from his recommendation for other readers. He writes, 'The story gradually changes how we understand the family. Small objects mentioned early become important later.' He labels a separate discussion thread 'Finished readers only' before posting details about the ending there.",
+          "explanation": "新版談寫作安排與閱讀感受，保留具體轉折。",
+          "id": "d176-q5",
+          "options": [
+            "It avoids saying anything about the book.",
+            "It describes the story's approach without giving away its answers.",
+            "It promises that every reader will enjoy the book.",
+            "It reveals the ending using fewer words."
+          ],
+          "prompt": "Why is the revised recommendation more suitable?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "[Book club chat] Dani: Is The Red Door worth reading? Please don't reveal the ending. Sol: Yes! The part where the missing brother returns is amazing. Dani: I was only on chapter two. I didn't know he was alive.\n\nSol: I'm sorry. I thought you meant not to reveal the final sentence. Dani: I meant information that would remove the surprise. You could tell me about the writing or the kinds of questions the story raises without answering them.\n\nSol removes the detail from his recommendation for other readers. He writes, 'The story gradually changes how we understand the family. Small objects mentioned early become important later.' He labels a separate discussion thread 'Finished readers only' before posting details about the ending there.\n\nDani continues reading, although one surprise has been spoiled. At their next meeting, Sol asks how far each person has read before discussing the plot. He learns that an accurate description can still be unsuitable when the reader has asked for a particular limit.",
+          "explanation": "內容即使正確，也應符合讀者要求的揭露範圍。",
+          "id": "d176-q6",
+          "options": [
+            "Useful information should respect a reader's stated boundaries.",
+            "An ending is only the final sentence of a book.",
+            "A recommendation must explain all major surprises.",
+            "Accuracy alone makes every description appropriate."
+          ],
+          "prompt": "What does Sol learn?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Book club chat] Dani: Is The Red Door worth reading? Please don't reveal the ending. Sol: Yes! The part where the missing brother returns is amazing. Dani: I was only on chapter two. I didn't know he was alive.\n\nSol: I'm sorry. I thought you meant not to reveal the final sentence. Dani: I meant information that would remove the surprise. You could tell me about the writing or the kinds of questions the story raises without answering them.\n\nSol removes the detail from his recommendation for other readers. He writes, 'The story gradually changes how we understand the family. Small objects mentioned early become important later.' He labels a separate discussion thread 'Finished readers only' before posting details about the ending there.\n\nDani continues reading, although one surprise has been spoiled. At their next meeting, Sol asks how far each person has read before discussing the plot. He learns that an accurate description can still be unsuitable when the reader has asked for a particular limit.",
+      "title": "Don't Tell Me How It Ends",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Please don't reveal the ending.",
+          "meaning": "透露",
+          "word": "reveal"
+        },
+        {
+          "example": "Dani: I was only on chapter two.",
+          "meaning": "章",
+          "word": "chapter"
+        },
+        {
+          "example": "Sol removes the detail from his recommendation for other readers.",
+          "meaning": "推薦",
+          "word": "recommendation"
+        },
+        {
+          "example": "Dani continues reading, although one surprise has been spoiled.",
+          "meaning": "被破壞的",
+          "word": "spoiled"
+        },
+        {
+          "example": "At their next meeting, Sol asks how far each person has read before discussing the plot.",
+          "meaning": "情節",
+          "word": "plot"
+        }
+      ]
+    }
+  ]
+}

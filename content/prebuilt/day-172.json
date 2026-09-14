@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-20",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 172,
+      "goal": "結合調查方法、數據與提案，評估主張是否合理。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "沒有前往",
+          "phrase": "stayed away"
+        },
+        {
+          "meaning": "全校的",
+          "phrase": "school-wide"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "[Survey summary] The art club asked twenty students leaving its exhibition whether the school should hold more art events. Sixteen said yes, three said no, and one was unsure. The club's draft report states, 'Eighty percent of all students want more art events.'",
+          "explanation": "摘要列出十六人贊成。",
+          "id": "d172-q1",
+          "options": [
+            "Three.",
+            "Sixteen.",
+            "Four hundred.",
+            "Twenty."
+          ],
+          "prompt": "How many surveyed visitors answered yes?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Method note] Students were questioned only at the exhibition exit between three and four. No students who stayed away from the exhibition were contacted. The school has four hundred students. The report's missing second page contains these details.",
+          "explanation": "方法頁交代只在展覽出口調查。",
+          "id": "d172-q2",
+          "options": [
+            "At the exhibition exit.",
+            "At all club meetings.",
+            "Outside the school on two weekends.",
+            "At every classroom door."
+          ],
+          "prompt": "Where were participants questioned?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Method note] Students were questioned only at the exhibition exit between three and four. No students who stayed away from the exhibition were contacted. The school has four hundred students. The report's missing second page contains these details.",
+          "explanation": "方法頁提供全校四百人。",
+          "id": "d172-q3",
+          "options": [
+            "Eighty.",
+            "Sixteen.",
+            "Four hundred.",
+            "Twenty."
+          ],
+          "prompt": "How many students attend the school?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Method note] Students were questioned only at the exhibition exit between three and four. No students who stayed away from the exhibition were contacted. The school has four hundred students. The report's missing second page contains these details.",
+          "explanation": "未去展覽者沒有被接觸。",
+          "id": "d172-q4",
+          "options": [
+            "Every student who liked art.",
+            "The sixteen yes respondents.",
+            "Students who did not attend the exhibition.",
+            "Visitors leaving between three and four."
+          ],
+          "prompt": "Who was excluded by the survey location?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Survey summary] The art club asked twenty students leaving its exhibition whether the school should hold more art events. Sixteen said yes, three said no, and one was unsure. The club's draft report states, 'Eighty percent of all students want more art events.'",
+          "explanation": "16 ÷ 20 × 100% = 80%。",
+          "id": "d172-q5",
+          "options": [
+            "Four percent.",
+            "Sixteen percent.",
+            "Five percent.",
+            "Eighty percent."
+          ],
+          "prompt": "What percentage of the twenty respondents said yes?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Council response] The result tells us about these twenty visitors. It does not establish the views of the whole school. Please include the method page and seek responses from students with different activities before making a school-wide claim.",
+          "explanation": "校務代表要求補上調查方法頁。",
+          "id": "d172-q6",
+          "options": [
+            "Only the yes responses.",
+            "An unchanged school-wide claim.",
+            "A promise of weekly events.",
+            "The method page."
+          ],
+          "prompt": "What does the council ask the club to include?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The art club keeps the original numbers but changes its wording. It proposes one small trial event while collecting broader feedback. Its members learn that a limited survey can still be useful when the group described by the conclusion matches the group actually questioned.",
+          "explanation": "新的回饋需涵蓋更多不同活動背景的學生。",
+          "id": "d172-q7",
+          "options": [
+            "Printed in larger letters.",
+            "Covering a wider range of students.",
+            "Collected over a shorter minute.",
+            "Containing only stronger support."
+          ],
+          "prompt": "What does 'broader' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Survey summary] The art club asked twenty students leaving its exhibition whether the school should hold more art events. Sixteen said yes, three said no, and one was unsure. The club's draft report states, 'Eighty percent of all students want more art events.'\n\n[Method note] Students were questioned only at the exhibition exit between three and four. No students who stayed away from the exhibition were contacted. The school has four hundred students. The report's missing second page contains these details.\n\n[Council response] The result tells us about these twenty visitors. It does not establish the views of the whole school. Please include the method page and seek responses from students with different activities before making a school-wide claim.\n\nThe art club keeps the original numbers but changes its wording. It proposes one small trial event while collecting broader feedback. Its members learn that a limited survey can still be useful when the group described by the conclusion matches the group actually questioned.",
+          "explanation": "只有受訪的二十位觀展者能直接由資料描述。",
+          "id": "d172-q8",
+          "options": [
+            "Eighty percent of all four hundred students wanted more events.",
+            "Students who missed the exhibition had no opinion.",
+            "Sixteen of the twenty surveyed exhibition visitors wanted more art events.",
+            "Only four students in the school opposed more art events."
+          ],
+          "prompt": "Which revised sentence is supported?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "The art club keeps the original numbers but changes its wording. It proposes one small trial event while collecting broader feedback. Its members learn that a limited survey can still be useful when the group described by the conclusion matches the group actually questioned.",
+          "explanation": "修正結論範圍可保留有限但真實的受訪結果。",
+          "id": "d172-q9",
+          "options": [
+            "The missing method page cancels every recorded response.",
+            "A high percentage always represents the whole school.",
+            "A trial event proves the survey was representative.",
+            "Its conclusion can be limited to the people actually questioned."
+          ],
+          "prompt": "Why can the original survey still be useful?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Survey summary] The art club asked twenty students leaving its exhibition whether the school should hold more art events. Sixteen said yes, three said no, and one was unsure. The club's draft report states, 'Eighty percent of all students want more art events.'\n\n[Method note] Students were questioned only at the exhibition exit between three and four. No students who stayed away from the exhibition were contacted. The school has four hundred students. The report's missing second page contains these details.\n\n[Council response] The result tells us about these twenty visitors. It does not establish the views of the whole school. Please include the method page and seek responses from students with different activities before making a school-wide claim.\n\nThe art club keeps the original numbers but changes its wording. It proposes one small trial event while collecting broader feedback. Its members learn that a limited survey can still be useful when the group described by the conclusion matches the group actually questioned.",
+      "title": "Boss: The Missing Page in the Report",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "[Survey summary] The art club asked twenty students leaving its exhibition whether the school should hold more art events.",
+          "meaning": "展覽",
+          "word": "exhibition"
+        },
+        {
+          "example": "Sixteen said yes, three said no, and one was unsure.",
+          "meaning": "不確定的",
+          "word": "unsure"
+        },
+        {
+          "example": "No students who stayed away from the exhibition were contacted.",
+          "meaning": "被聯絡",
+          "word": "contacted"
+        },
+        {
+          "example": "It proposes one small trial event while collecting broader feedback.",
+          "meaning": "更廣泛的",
+          "word": "broader"
+        },
+        {
+          "example": "Its members learn that a limited survey can still be useful when the group described by the conclusion matches the group actually questioned.",
+          "meaning": "結論",
+          "word": "conclusion"
+        }
+      ]
+    }
+  ]
+}

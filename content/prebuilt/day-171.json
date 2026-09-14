@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-19",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 171,
+      "goal": "整合借用清單、缺件通報與歸還程序。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "最多",
+          "phrase": "up to"
+        },
+        {
+          "meaning": "檢查中",
+          "phrase": "under inspection"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "BOARD GAME BORROWING DESK: Students may borrow one game for up to three school days. The box contains a piece list and a return card. Before leaving, compare the contents with the list and tell the desk helper about anything already missing.",
+          "explanation": "借用前要照清單核對並通報缺件。",
+          "id": "d171-q1",
+          "options": [
+            "Replace every missing piece themselves.",
+            "Assume a closed box is complete.",
+            "Compare the pieces with the list.",
+            "Put the return card on the shelf."
+          ],
+          "prompt": "What should borrowers do before leaving?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The helper will note existing missing pieces on the return card. This record prevents the next borrower from being blamed for an earlier problem. Do not assume that a closed box has been checked; returned games may be waiting for inspection.",
+          "explanation": "記錄原有缺件可避免後來借用者被誤責。",
+          "id": "d171-q2",
+          "options": [
+            "To distinguish earlier problems from the new borrower's responsibility.",
+            "To prevent anyone from playing the game.",
+            "To avoid ever checking the box again.",
+            "To shorten every loan to one day."
+          ],
+          "prompt": "Why record pieces that were already missing?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Games must be returned to the desk, not placed directly on the borrowing shelf. A game marked 'under inspection' is unavailable even when its box is visible. Ask the helper to recommend another game while you wait for the checked set to return.",
+          "explanation": "末段要求交回櫃檯。",
+          "id": "d171-q3",
+          "options": [
+            "Directly to the shelf.",
+            "To the borrowing desk.",
+            "To the next player's classroom.",
+            "Anywhere beside a visible box."
+          ],
+          "prompt": "Where should a game be returned?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Games must be returned to the desk, not placed directly on the borrowing shelf. A game marked 'under inspection' is unavailable even when its box is visible. Ask the helper to recommend another game while you wait for the checked set to return.",
+          "explanation": "檢查中的遊戲尚未可借。",
+          "id": "d171-q4",
+          "options": [
+            "A new purchase.",
+            "A careful check.",
+            "A private competition.",
+            "A longer loan."
+          ],
+          "prompt": "What does 'inspection' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "If a piece disappears during your loan, report it when returning the game. A clear report is more helpful than replacing it with an object that may confuse the next players. Staff will decide how to repair the set.",
+          "explanation": "當次遺失須告知，由員工決定修復方式。",
+          "id": "d171-q5",
+          "options": [
+            "Report it to staff when returning the game.",
+            "Put the box straight on the shelf.",
+            "Hide the loss by adding a different object.",
+            "Erase earlier notes on the return card."
+          ],
+          "prompt": "Which borrower follows the procedure after losing a piece?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Games must be returned to the desk, not placed directly on the borrowing shelf. A game marked 'under inspection' is unavailable even when its box is visible. Ask the helper to recommend another game while you wait for the checked set to return.",
+          "explanation": "公告明示實物可見但仍可能在檢查中。",
+          "id": "d171-q6",
+          "options": [
+            "Visible boxes are only for teachers.",
+            "It may still be waiting for inspection.",
+            "Every shelf game has already been reserved.",
+            "The piece list replaces the availability label."
+          ],
+          "prompt": "Why does seeing a box not mean it can be borrowed?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "BOARD GAME BORROWING DESK: Students may borrow one game for up to three school days. The box contains a piece list and a return card. Before leaving, compare the contents with the list and tell the desk helper about anything already missing.\n\nThe helper will note existing missing pieces on the return card. This record prevents the next borrower from being blamed for an earlier problem. Do not assume that a closed box has been checked; returned games may be waiting for inspection.\n\nIf a piece disappears during your loan, report it when returning the game. A clear report is more helpful than replacing it with an object that may confuse the next players. Staff will decide how to repair the set.\n\nGames must be returned to the desk, not placed directly on the borrowing shelf. A game marked 'under inspection' is unavailable even when its box is visible. Ask the helper to recommend another game while you wait for the checked set to return.",
+      "title": "Borrow a Board Game, Keep the Pieces Together",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "Before leaving, compare the contents with the list and tell the desk helper about anything already missing.",
+          "meaning": "內容物",
+          "word": "contents"
+        },
+        {
+          "example": "The helper will note existing missing pieces on the return card.",
+          "meaning": "原有的",
+          "word": "existing"
+        },
+        {
+          "example": "This record prevents the next borrower from being blamed for an earlier problem.",
+          "meaning": "被責怪",
+          "word": "blamed"
+        },
+        {
+          "example": "Do not assume that a closed box has been checked; returned games may be waiting for inspection.",
+          "meaning": "檢查",
+          "word": "inspection"
+        },
+        {
+          "example": "Ask the helper to recommend another game while you wait for the checked set to return.",
+          "meaning": "推薦",
+          "word": "recommend"
+        }
+      ]
+    }
+  ]
+}

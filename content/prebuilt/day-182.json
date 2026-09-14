@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-02",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 182,
+      "goal": "追蹤時間線，推論實體物件與即時訊息的不同意義。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "立刻",
+          "phrase": "at once"
+        },
+        {
+          "meaning": "在……很久之後",
+          "phrase": "long after"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "On a weekend trip, Iona sends her grandmother a postcard with a drawing of the coast. She also sends a phone photograph that evening. Her grandmother replies to the photograph at once, so Iona wonders whether the postcard was unnecessary.\n\nThe postcard arrives nine days later, after Iona is already home. Her grandmother places it beside a much older card from Iona's first school trip. The two drawings show the same sea in very different ways, and the handwriting has changed too.\n\nWhen Iona visits, they compare the cards. The older message says only that the bus ride was fun. The new one describes a quiet moment watching fishing boats return. Her grandmother says she enjoys seeing not just where Iona went, but what she noticed.\n\nIona still sends quick photographs when she travels. She also understands why a slower message can matter. The postcard did not compete with the phone for speed; it became something they could hold, keep, and revisit together long after the immediate news was known.",
+          "explanation": "祖母當晚已回覆手機照片，明信片九天後才到。",
+          "id": "d182-q1",
+          "options": [
+            "The phone photograph.",
+            "The card from the next trip.",
+            "The new postcard.",
+            "A letter from the bus driver."
+          ],
+          "prompt": "Which message reaches the grandmother first?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The postcard arrives nine days later, after Iona is already home. Her grandmother places it beside a much older card from Iona's first school trip. The two drawings show the same sea in very different ways, and the handwriting has changed too.",
+          "explanation": "祖母把新卡放在首次校外旅行寄的舊卡旁。",
+          "id": "d182-q2",
+          "options": [
+            "A card from Iona's first school trip.",
+            "A blank drawing sheet.",
+            "The phone used on the trip.",
+            "A fishing boat ticket."
+          ],
+          "prompt": "What does the grandmother place beside the new postcard?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "When Iona visits, they compare the cards. The older message says only that the bus ride was fun. The new one describes a quiet moment watching fishing boats return. Her grandmother says she enjoys seeing not just where Iona went, but what she noticed.",
+          "explanation": "祖母重視 Iona 注意到什麼，以及描述和筆跡的改變。",
+          "id": "d182-q3",
+          "options": [
+            "Which bus company was cheaper.",
+            "How Iona's attention and expression have changed.",
+            "Which card traveled faster.",
+            "Whether Iona stopped using a phone."
+          ],
+          "prompt": "What interests the grandmother in comparing the messages?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Iona still sends quick photographs when she travels. She also understands why a slower message can matter. The postcard did not compete with the phone for speed; it became something they could hold, keep, and revisit together long after the immediate news was known.",
+          "explanation": "卡片可長久保留並一起再次回味。",
+          "id": "d182-q4",
+          "options": [
+            "Return to a memory or message again.",
+            "Travel back to the coast immediately.",
+            "Correct every handwritten word.",
+            "Send the same news more quickly."
+          ],
+          "prompt": "What does 'revisit' mean in the final sentence?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "On a weekend trip, Iona sends her grandmother a postcard with a drawing of the coast. She also sends a phone photograph that evening. Her grandmother replies to the photograph at once, so Iona wonders whether the postcard was unnecessary.\n\nThe postcard arrives nine days later, after Iona is already home. Her grandmother places it beside a much older card from Iona's first school trip. The two drawings show the same sea in very different ways, and the handwriting has changed too.\n\nWhen Iona visits, they compare the cards. The older message says only that the bus ride was fun. The new one describes a quiet moment watching fishing boats return. Her grandmother says she enjoys seeing not just where Iona went, but what she noticed.\n\nIona still sends quick photographs when she travels. She also understands why a slower message can matter. The postcard did not compete with the phone for speed; it became something they could hold, keep, and revisit together long after the immediate news was known.",
+          "explanation": "它作為可收藏的實物與過往連結，價值不限於傳新消息。",
+          "id": "d182-q5",
+          "options": [
+            "It made the first school trip happen again.",
+            "It offered a lasting object linked with earlier memories.",
+            "It arrived before any phone message.",
+            "It proved that photographs were inaccurate."
+          ],
+          "prompt": "Why was the postcard still meaningful after the news was known?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "On a weekend trip, Iona sends her grandmother a postcard with a drawing of the coast. She also sends a phone photograph that evening. Her grandmother replies to the photograph at once, so Iona wonders whether the postcard was unnecessary.\n\nThe postcard arrives nine days later, after Iona is already home. Her grandmother places it beside a much older card from Iona's first school trip. The two drawings show the same sea in very different ways, and the handwriting has changed too.\n\nWhen Iona visits, they compare the cards. The older message says only that the bus ride was fun. The new one describes a quiet moment watching fishing boats return. Her grandmother says she enjoys seeing not just where Iona went, but what she noticed.\n\nIona still sends quick photographs when she travels. She also understands why a slower message can matter. The postcard did not compete with the phone for speed; it became something they could hold, keep, and revisit together long after the immediate news was known.",
+          "explanation": "即時照片與可保存回味的卡片各有用途。",
+          "id": "d182-q6",
+          "options": [
+            "The fastest message is always the most valuable.",
+            "Older postcards should replace every new photograph.",
+            "A message matters only before a traveler returns home.",
+            "Different forms of communication can serve different purposes."
+          ],
+          "prompt": "Which idea best fits the story?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "On a weekend trip, Iona sends her grandmother a postcard with a drawing of the coast. She also sends a phone photograph that evening. Her grandmother replies to the photograph at once, so Iona wonders whether the postcard was unnecessary.\n\nThe postcard arrives nine days later, after Iona is already home. Her grandmother places it beside a much older card from Iona's first school trip. The two drawings show the same sea in very different ways, and the handwriting has changed too.\n\nWhen Iona visits, they compare the cards. The older message says only that the bus ride was fun. The new one describes a quiet moment watching fishing boats return. Her grandmother says she enjoys seeing not just where Iona went, but what she noticed.\n\nIona still sends quick photographs when she travels. She also understands why a slower message can matter. The postcard did not compete with the phone for speed; it became something they could hold, keep, and revisit together long after the immediate news was known.",
+      "title": "The Postcard That Took the Long Way",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "On a weekend trip, Iona sends her grandmother a postcard with a drawing of the coast.",
+          "meaning": "海岸",
+          "word": "coast"
+        },
+        {
+          "example": "Her grandmother replies to the photograph at once, so Iona wonders whether the postcard was unnecessary.",
+          "meaning": "不必要的",
+          "word": "unnecessary"
+        },
+        {
+          "example": "The two drawings show the same sea in very different ways, and the handwriting has changed too.",
+          "meaning": "筆跡",
+          "word": "handwriting"
+        },
+        {
+          "example": "The postcard did not compete with the phone for speed; it became something they could hold, keep, and revisit together long after the immediate news was known.",
+          "meaning": "即時的",
+          "word": "immediate"
+        },
+        {
+          "example": "The postcard did not compete with the phone for speed; it became something they could hold, keep, and revisit together long after the immediate news was known.",
+          "meaning": "再度回味",
+          "word": "revisit"
+        }
+      ]
+    }
+  ]
+}
