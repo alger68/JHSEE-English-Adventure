@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-28",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 57,
+      "goal": "核對照片用途與拍攝時間，分辨證據與宣傳。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "開始之前",
+          "phrase": "before we begin"
+        },
+        {
+          "meaning": "作為替代",
+          "phrase": "instead"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "Cleanup team chat: Please take one photo before we begin and another after we finish. Keep the camera facing the same corner of the playground. The pictures will help us compare the amount of litter, not count how many students worked.",
+          "explanation": "第一段說要比較垃圾量，不是數學生。",
+          "id": "d57-q1",
+          "options": [
+            "The size of the stairs.",
+            "Which camera costs most.",
+            "Changes in litter on the ground.",
+            "The number of students working."
+          ],
+          "prompt": "What are the comparison photos mainly meant to show?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Rena: Can I take the second photo from the stairs? The playground looks bigger there. Leader: Use the original spot for the comparison. You may take an extra wide photo for the club poster, but label its purpose clearly.",
+          "explanation": "為可比性須使用同一拍攝位置。",
+          "id": "d57-q2",
+          "options": [
+            "From a different school.",
+            "From behind the rubbish bags.",
+            "From the stairs.",
+            "From the original camera spot."
+          ],
+          "prompt": "Where should Rena take the second comparison photo?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Cleanup team chat: Please take one photo before we begin and another after we finish. Keep the camera facing the same corner of the playground. The pictures will help us compare the amount of litter, not count how many students worked.\n\nRena: Can I take the second photo from the stairs? The playground looks bigger there. Leader: Use the original spot for the comparison. You may take an extra wide photo for the club poster, but label its purpose clearly.\n\nBen: Should everyone stand beside the rubbish bags? Leader: No. The comparison photos should show the ground. Ask before including someone's face in a poster photo. Anyone who prefers to stay out can help behind the camera instead.\n\nRena: I will mark the camera spot with chalk and keep the two kinds of photos in separate folders. Leader: Great. Also write down the time of each comparison photo, so readers know what happened between the two views.",
+          "explanation": "宣傳與固定視角比較用途不同。",
+          "id": "d57-q3",
+          "options": [
+            "They must never contain any people.",
+            "Only the leader may open that folder.",
+            "Their purpose differs from the fixed-view comparison.",
+            "The playground disappears in them."
+          ],
+          "prompt": "Why keep poster photos in another folder?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Rena: Can I take the second photo from the stairs? The playground looks bigger there. Leader: Use the original spot for the comparison. You may take an extra wide photo for the club poster, but label its purpose clearly.",
+          "explanation": "明確標示照片用來做什麼。",
+          "id": "d57-q4",
+          "options": [
+            "The date a student was born.",
+            "The price of a camera.",
+            "The reason something is used.",
+            "The length of the playground."
+          ],
+          "prompt": "What does 'purpose' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Cleanup team chat: Please take one photo before we begin and another after we finish. Keep the camera facing the same corner of the playground. The pictures will help us compare the amount of litter, not count how many students worked.\n\nRena: Can I take the second photo from the stairs? The playground looks bigger there. Leader: Use the original spot for the comparison. You may take an extra wide photo for the club poster, but label its purpose clearly.\n\nBen: Should everyone stand beside the rubbish bags? Leader: No. The comparison photos should show the ground. Ask before including someone's face in a poster photo. Anyone who prefers to stay out can help behind the camera instead.\n\nRena: I will mark the camera spot with chalk and keep the two kinds of photos in separate folders. Leader: Great. Also write down the time of each comparison photo, so readers know what happened between the two views.",
+          "explanation": "固定比較角度；海報露臉另問同意。",
+          "id": "d57-q5",
+          "options": [
+            "Keep the comparison angle fixed and ask before showing faces on a poster.",
+            "Move the second camera higher and count faces as litter.",
+            "Put every student in a photo without asking.",
+            "Use any poster photo as the before picture without a time."
+          ],
+          "prompt": "Which plan follows all the instructions?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Cleanup team chat: Please take one photo before we begin and another after we finish. Keep the camera facing the same corner of the playground. The pictures will help us compare the amount of litter, not count how many students worked.\n\nRena: Can I take the second photo from the stairs? The playground looks bigger there. Leader: Use the original spot for the comparison. You may take an extra wide photo for the club poster, but label its purpose clearly.\n\nBen: Should everyone stand beside the rubbish bags? Leader: No. The comparison photos should show the ground. Ask before including someone's face in a poster photo. Anyone who prefers to stay out can help behind the camera instead.\n\nRena: I will mark the camera spot with chalk and keep the two kinds of photos in separate folders. Leader: Great. Also write down the time of each comparison photo, so readers know what happened between the two views.",
+          "explanation": "拍法、標示與同意都取決於照片用途。",
+          "id": "d57-q6",
+          "options": [
+            "Use rubbish bags to measure the camera height.",
+            "Plan pictures according to what they need to communicate.",
+            "Avoid taking any photos during school activities.",
+            "Choose the biggest-looking playground in every photo."
+          ],
+          "prompt": "What is the main point of the chat?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Cleanup team chat: Please take one photo before we begin and another after we finish. Keep the camera facing the same corner of the playground. The pictures will help us compare the amount of litter, not count how many students worked.\n\nRena: Can I take the second photo from the stairs? The playground looks bigger there. Leader: Use the original spot for the comparison. You may take an extra wide photo for the club poster, but label its purpose clearly.\n\nBen: Should everyone stand beside the rubbish bags? Leader: No. The comparison photos should show the ground. Ask before including someone's face in a poster photo. Anyone who prefers to stay out can help behind the camera instead.\n\nRena: I will mark the camera spot with chalk and keep the two kinds of photos in separate folders. Leader: Great. Also write down the time of each comparison photo, so readers know what happened between the two views.",
+      "title": "A Photo Before the Cleanup",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "The pictures will help us compare the amount of litter, not count how many students worked.",
+          "meaning": "垃圾",
+          "word": "litter"
+        },
+        {
+          "example": "Leader: Use the original spot for the comparison.",
+          "meaning": "原本的",
+          "word": "original"
+        },
+        {
+          "example": "You may take an extra wide photo for the club poster, but label its purpose clearly.",
+          "meaning": "用途",
+          "word": "purpose"
+        },
+        {
+          "example": "Leader: Use the original spot for the comparison.",
+          "meaning": "比較",
+          "word": "comparison"
+        },
+        {
+          "example": "Rena: I will mark the camera spot with chalk and keep the two kinds of photos in separate folders.",
+          "meaning": "分開的",
+          "word": "separate"
+        }
+      ]
+    }
+  ]
+}

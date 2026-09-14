@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-31",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 60,
+      "goal": "把預算、飲食需求及配送門檻一起納入選擇。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "或以上",
+          "phrase": "or more"
+        },
+        {
+          "meaning": "包含配送",
+          "phrase": "including delivery"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "LUNCH MENU: Rice boxes cost fifty dollars each; vegetable wraps cost forty. Every rice box contains chicken. Wraps contain no meat. Orders of four hundred dollars or more receive free delivery. Smaller orders have a thirty-dollar delivery fee, with no other charges.",
+          "explanation": "菜单明說 wraps 無肉，飯盒含雞肉。",
+          "id": "d60-q1",
+          "options": [
+            "The vegetable wrap.",
+            "Neither meal.",
+            "Both meals.",
+            "Every rice box."
+          ],
+          "prompt": "Which meal contains no meat?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "GROUP LIST: Eight students need lunch. Three do not eat meat; the other five prefer rice boxes but can also eat wraps. The class has four hundred and twenty dollars. Each student needs exactly one meal, and extra food cannot be stored at school.",
+          "explanation": "名單中三位不吃肉。",
+          "id": "d60-q2",
+          "options": [
+            "Five.",
+            "Eight.",
+            "Four.",
+            "Three."
+          ],
+          "prompt": "How many students do not eat meat?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "LUNCH MENU: Rice boxes cost fifty dollars each; vegetable wraps cost forty. Every rice box contains chicken. Wraps contain no meat. Orders of four hundred dollars or more receive free delivery. Smaller orders have a thirty-dollar delivery fee, with no other charges.\n\nGROUP LIST: Eight students need lunch. Three do not eat meat; the other five prefer rice boxes but can also eat wraps. The class has four hundred and twenty dollars. Each student needs exactly one meal, and extra food cannot be stored at school.\n\nKen suggests five rice boxes and three wraps. Ana calculates the food total before adding delivery. Another student suggests eight rice boxes to reach the free-delivery amount, but the group checks the meal requirements before deciding that a lower delivery fee solves everything.\n\nThey order Ken's combination and write each student's choice beside their name. The food stand confirms the final amount, including delivery, before accepting payment. Ana saves the message so the class can compare the received meals with what it actually ordered.",
+          "explanation": "5×50＋3×40＝370。",
+          "id": "d60-q3",
+          "options": [
+            "Four hundred dollars.",
+            "Three hundred and seventy dollars.",
+            "Four hundred and twenty dollars.",
+            "Three hundred and fifty dollars."
+          ],
+          "prompt": "What is the food cost of Ken's order?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "LUNCH MENU: Rice boxes cost fifty dollars each; vegetable wraps cost forty. Every rice box contains chicken. Wraps contain no meat. Orders of four hundred dollars or more receive free delivery. Smaller orders have a thirty-dollar delivery fee, with no other charges.\n\nGROUP LIST: Eight students need lunch. Three do not eat meat; the other five prefer rice boxes but can also eat wraps. The class has four hundred and twenty dollars. Each student needs exactly one meal, and extra food cannot be stored at school.\n\nKen suggests five rice boxes and three wraps. Ana calculates the food total before adding delivery. Another student suggests eight rice boxes to reach the free-delivery amount, but the group checks the meal requirements before deciding that a lower delivery fee solves everything.\n\nThey order Ken's combination and write each student's choice beside their name. The food stand confirms the final amount, including delivery, before accepting payment. Ana saves the message so the class can compare the received meals with what it actually ordered.",
+          "explanation": "八個雞肉飯盒無法滿足三位素食需求。",
+          "id": "d60-q4",
+          "options": [
+            "Three students need meat-free meals.",
+            "Rice boxes cannot be delivered.",
+            "The group would receive only seven meals.",
+            "The order would exceed the budget even before delivery."
+          ],
+          "prompt": "Why are eight rice boxes unsuitable?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "They order Ken's combination and write each student's choice beside their name. The food stand confirms the final amount, including delivery, before accepting payment. Ana saves the message so the class can compare the received meals with what it actually ordered.",
+          "explanation": "末段保存店家確認訊息。",
+          "id": "d60-q5",
+          "options": [
+            "A recipe for chicken rice.",
+            "The stand's order confirmation.",
+            "The driver's school timetable.",
+            "A list of unrelated restaurants."
+          ],
+          "prompt": "What information does Ana save?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "LUNCH MENU: Rice boxes cost fifty dollars each; vegetable wraps cost forty. Every rice box contains chicken. Wraps contain no meat. Orders of four hundred dollars or more receive free delivery. Smaller orders have a thirty-dollar delivery fee, with no other charges.\n\nGROUP LIST: Eight students need lunch. Three do not eat meat; the other five prefer rice boxes but can also eat wraps. The class has four hundred and twenty dollars. Each student needs exactly one meal, and extra food cannot be stored at school.\n\nKen suggests five rice boxes and three wraps. Ana calculates the food total before adding delivery. Another student suggests eight rice boxes to reach the free-delivery amount, but the group checks the meal requirements before deciding that a lower delivery fee solves everything.\n\nThey order Ken's combination and write each student's choice beside their name. The food stand confirms the final amount, including delivery, before accepting payment. Ana saves the message so the class can compare the received meals with what it actually ordered.",
+          "explanation": "食物 370 元低於免運門檻 400，運費 30。",
+          "id": "d60-q6",
+          "options": [
+            "Forty dollars.",
+            "Thirty dollars.",
+            "Fifty dollars.",
+            "Zero dollars."
+          ],
+          "prompt": "How much delivery does Ken's order require?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "GROUP LIST: Eight students need lunch. Three do not eat meat; the other five prefer rice boxes but can also eat wraps. The class has four hundred and twenty dollars. Each student needs exactly one meal, and extra food cannot be stored at school.",
+          "explanation": "每人恰好一份，不多不少。",
+          "id": "d60-q7",
+          "options": [
+            "No more and no less than.",
+            "Whenever possible instead of.",
+            "At least twice as many as.",
+            "About the same price as."
+          ],
+          "prompt": "What does 'exactly' mean in the group list?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "LUNCH MENU: Rice boxes cost fifty dollars each; vegetable wraps cost forty. Every rice box contains chicken. Wraps contain no meat. Orders of four hundred dollars or more receive free delivery. Smaller orders have a thirty-dollar delivery fee, with no other charges.\n\nGROUP LIST: Eight students need lunch. Three do not eat meat; the other five prefer rice boxes but can also eat wraps. The class has four hundred and twenty dollars. Each student needs exactly one meal, and extra food cannot be stored at school.\n\nKen suggests five rice boxes and three wraps. Ana calculates the food total before adding delivery. Another student suggests eight rice boxes to reach the free-delivery amount, but the group checks the meal requirements before deciding that a lower delivery fee solves everything.\n\nThey order Ken's combination and write each student's choice beside their name. The food stand confirms the final amount, including delivery, before accepting payment. Ana saves the message so the class can compare the received meals with what it actually ordered.",
+          "explanation": "420－370－30＝20。",
+          "id": "d60-q8",
+          "options": [
+            "Zero dollars.",
+            "Fifty dollars.",
+            "Thirty dollars.",
+            "Twenty dollars."
+          ],
+          "prompt": "How much money remains after Ken's delivered order?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "LUNCH MENU: Rice boxes cost fifty dollars each; vegetable wraps cost forty. Every rice box contains chicken. Wraps contain no meat. Orders of four hundred dollars or more receive free delivery. Smaller orders have a thirty-dollar delivery fee, with no other charges.\n\nGROUP LIST: Eight students need lunch. Three do not eat meat; the other five prefer rice boxes but can also eat wraps. The class has four hundred and twenty dollars. Each student needs exactly one meal, and extra food cannot be stored at school.\n\nKen suggests five rice boxes and three wraps. Ana calculates the food total before adding delivery. Another student suggests eight rice boxes to reach the free-delivery amount, but the group checks the meal requirements before deciding that a lower delivery fee solves everything.\n\nThey order Ken's combination and write each student's choice beside their name. The food stand confirms the final amount, including delivery, before accepting payment. Ana saves the message so the class can compare the received meals with what it actually ordered.",
+          "explanation": "適合需求且總額可負擔，比單看免運重要。",
+          "id": "d60-q9",
+          "options": [
+            "It gives everyone their first choice at no cost.",
+            "It buys extra meals just to reach a threshold.",
+            "It meets every student's meal need within the total budget.",
+            "It guarantees free delivery for any number of meals."
+          ],
+          "prompt": "What is the best basis for choosing this order?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "LUNCH MENU: Rice boxes cost fifty dollars each; vegetable wraps cost forty. Every rice box contains chicken. Wraps contain no meat. Orders of four hundred dollars or more receive free delivery. Smaller orders have a thirty-dollar delivery fee, with no other charges.\n\nGROUP LIST: Eight students need lunch. Three do not eat meat; the other five prefer rice boxes but can also eat wraps. The class has four hundred and twenty dollars. Each student needs exactly one meal, and extra food cannot be stored at school.\n\nKen suggests five rice boxes and three wraps. Ana calculates the food total before adding delivery. Another student suggests eight rice boxes to reach the free-delivery amount, but the group checks the meal requirements before deciding that a lower delivery fee solves everything.\n\nThey order Ken's combination and write each student's choice beside their name. The food stand confirms the final amount, including delivery, before accepting payment. Ana saves the message so the class can compare the received meals with what it actually ordered.",
+      "title": "Boss: A Lunch Order That Fits",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "LUNCH MENU: Rice boxes cost fifty dollars each; vegetable wraps cost forty.",
+          "meaning": "捲餅",
+          "word": "wraps"
+        },
+        {
+          "example": "Every rice box contains chicken.",
+          "meaning": "含有",
+          "word": "contains"
+        },
+        {
+          "example": "Orders of four hundred dollars or more receive free delivery.",
+          "meaning": "配送",
+          "word": "delivery"
+        },
+        {
+          "example": "Each student needs exactly one meal, and extra food cannot be stored at school.",
+          "meaning": "恰好",
+          "word": "exactly"
+        },
+        {
+          "example": "They order Ken's combination and write each student's choice beside their name.",
+          "meaning": "組合",
+          "word": "combination"
+        }
+      ]
+    }
+  ]
+}

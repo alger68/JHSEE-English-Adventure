@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-25",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 54,
+      "goal": "練習先找時間關係，再解釋選項。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "收好工具",
+          "phrase": "put the tools away"
+        },
+        {
+          "meaning": "將兩物分開",
+          "phrase": "keeping two things apart"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "The review club creates a short puzzle with the words slot, afterward, directly, separate, and remain. A student reads this instruction: Put the tools away after painting, then return the key to the office. Everyone must explain which action happens first.",
+          "explanation": "指示是繪畫後再收工具。",
+          "id": "d54-q1",
+          "options": [
+            "Returning the key.",
+            "Writing the final review.",
+            "Painting.",
+            "Taking the bus."
+          ],
+          "prompt": "What happens before putting tools away in the puzzle?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Rui chooses afterward for a blank describing the cleanup. She almost selects directly for another blank about storing lunch money away from bus money. Her partner asks whether the sentence is about a route or about keeping two things apart.",
+          "explanation": "她差點把 directly 放進兩種錢分開的語境。",
+          "id": "d54-q2",
+          "options": [
+            "Afterward and key.",
+            "Slot and painting.",
+            "Remain and office.",
+            "Directly and separate."
+          ],
+          "prompt": "What does Rui initially confuse?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Rui chooses afterward for a blank describing the cleanup. She almost selects directly for another blank about storing lunch money away from bus money. Her partner asks whether the sentence is about a route or about keeping two things apart.",
+          "explanation": "分辨路徑與分離關係可選合適字。",
+          "id": "d54-q3",
+          "options": [
+            "The distinction helps choose the meaning that fits.",
+            "The partner has forgotten the word list.",
+            "Both ideas always have the same meaning.",
+            "The question cancels the cleanup."
+          ],
+          "prompt": "Why does her partner ask about routes and keeping things apart?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Rui changes directly to separate. The group then uses directly for a trip to the office with no stop elsewhere. A booked thirty-minute period is a slot. The last sentence asks how many minutes remain before the bus leaves.",
+          "explanation": "問公車離開前還剩多少分鐘。",
+          "id": "d54-q4",
+          "options": [
+            "Travel without stopping.",
+            "Be left before something happens.",
+            "Change a booking time.",
+            "Put money in one pocket."
+          ],
+          "prompt": "What does 'remain' mean in the last puzzle sentence?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Rui changes directly to separate. The group then uses directly for a trip to the office with no stop elsewhere. A booked thirty-minute period is a slot. The last sentence asks how many minutes remain before the bus leaves.",
+          "explanation": "第三段給出 slot 與 directly 的具體語境。",
+          "id": "d54-q5",
+          "options": [
+            "Remain—booked time; slot—lunch money.",
+            "Slot—booked time; directly—without another stop.",
+            "Separate—without another stop; afterward—before painting.",
+            "Directly—keeping money apart; separate—returning late."
+          ],
+          "prompt": "Which pairing correctly uses two review words?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Each student writes one question that could trick a hurried reader. They exchange questions and underline time words before answering. The club's goal is to notice relationships between actions, not simply recognize words from the same week's lessons.",
+          "explanation": "時間語有助追蹤先後與關係。",
+          "id": "d54-q6",
+          "options": [
+            "Find answers without reading any verbs.",
+            "Understand the order and relationships of actions.",
+            "Avoid explaining their choices.",
+            "Make every task take less time."
+          ],
+          "prompt": "What does underlining time words help students do?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The review club creates a short puzzle with the words slot, afterward, directly, separate, and remain. A student reads this instruction: Put the tools away after painting, then return the key to the office. Everyone must explain which action happens first.\n\nRui chooses afterward for a blank describing the cleanup. She almost selects directly for another blank about storing lunch money away from bus money. Her partner asks whether the sentence is about a route or about keeping two things apart.\n\nRui changes directly to separate. The group then uses directly for a trip to the office with no stop elsewhere. A booked thirty-minute period is a slot. The last sentence asks how many minutes remain before the bus leaves.\n\nEach student writes one question that could trick a hurried reader. They exchange questions and underline time words before answering. The club's goal is to notice relationships between actions, not simply recognize words from the same week's lessons.",
+      "title": "The Timetable Detective",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "The review club creates a short puzzle with the words slot, afterward, directly, separate, and remain.",
+          "meaning": "時段",
+          "word": "slot"
+        },
+        {
+          "example": "The review club creates a short puzzle with the words slot, afterward, directly, separate, and remain.",
+          "meaning": "之後",
+          "word": "afterward"
+        },
+        {
+          "example": "The review club creates a short puzzle with the words slot, afterward, directly, separate, and remain.",
+          "meaning": "直接",
+          "word": "directly"
+        },
+        {
+          "example": "The review club creates a short puzzle with the words slot, afterward, directly, separate, and remain.",
+          "meaning": "分開的",
+          "word": "separate"
+        },
+        {
+          "example": "The review club creates a short puzzle with the words slot, afterward, directly, separate, and remain.",
+          "meaning": "剩下",
+          "word": "remain"
+        }
+      ]
+    }
+  ]
+}

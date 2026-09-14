@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-23",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 52,
+      "goal": "從場地公告整理時段、用途與準備時間。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "隔壁",
+          "phrase": "next door"
+        },
+        {
+          "meaning": "而不是",
+          "phrase": "rather than"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "MULTIPURPOSE ROOM NOTICE: The room is available for student groups after classes. Quiet activities may run from four to five. Music practice is allowed from five to six because the study room next door closes at five. All groups must leave by six.",
+          "explanation": "隔壁自習室五點關閉後才可練樂器。",
+          "id": "d52-q1",
+          "options": [
+            "Only before classes.",
+            "From five to six.",
+            "From four to five.",
+            "After six."
+          ],
+          "prompt": "When is music practice allowed?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Book a thirty-minute or sixty-minute slot through the school office. Your slot includes setup and cleanup. A group that books from four to four thirty must finish moving its chairs and checking the floor before four thirty, not afterward.",
+          "explanation": "預約時間包括布置及清潔。",
+          "id": "d52-q2",
+          "options": [
+            "Setup and cleanup.",
+            "A free meal.",
+            "Extra hallway time.",
+            "Only the main activity."
+          ],
+          "prompt": "What is included in a booking slot?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The student leader should collect the key ten minutes before the slot begins and return it immediately after the group leaves. If the next group has already arrived, do not pass the key directly to them; the office records each return.",
+          "explanation": "辦公室需記錄歸還，不可直接交下一組。",
+          "id": "d52-q3",
+          "options": [
+            "The office records every return.",
+            "The next group never needs it.",
+            "Every key breaks after one use.",
+            "Only teachers can carry it."
+          ],
+          "prompt": "Why must the key return to the office?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Book a thirty-minute or sixty-minute slot through the school office. Your slot includes setup and cleanup. A group that books from four to four thirty must finish moving its chairs and checking the floor before four thirty, not afterward.",
+          "explanation": "搭配三十或六十分鐘，指預約時段。",
+          "id": "d52-q4",
+          "options": [
+            "A musical instrument.",
+            "A type of water bottle.",
+            "A hole in a broken chair.",
+            "A reserved period of time."
+          ],
+          "prompt": "What does 'slot' mean in this notice?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "MULTIPURPOSE ROOM NOTICE: The room is available for student groups after classes. Quiet activities may run from four to five. Music practice is allowed from five to six because the study room next door closes at five. All groups must leave by six.\n\nBook a thirty-minute or sixty-minute slot through the school office. Your slot includes setup and cleanup. A group that books from four to four thirty must finish moving its chairs and checking the floor before four thirty, not afterward.\n\nFood is not allowed, but covered water bottles are welcome. Groups may use the chairs already in the room. Heavy tables must stay where they are. Report a broken chair to the office rather than moving it into the hallway.\n\nThe student leader should collect the key ten minutes before the slot begins and return it immediately after the group leaves. If the next group has already arrived, do not pass the key directly to them; the office records each return.",
+          "explanation": "提前十分鐘取鑰匙；清潔須在時段內完成。",
+          "id": "d52-q5",
+          "options": [
+            "Collect at 4:10 and clean after 4:30.",
+            "Play loud music at 4:15 and leave at 5:00.",
+            "Collect the key at 3:50 and finish cleanup by 4:30.",
+            "Move heavy tables into the study room."
+          ],
+          "prompt": "For a 4:00–4:30 booking, which plan is correct?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "MULTIPURPOSE ROOM NOTICE: The room is available for student groups after classes. Quiet activities may run from four to five. Music practice is allowed from five to six because the study room next door closes at five. All groups must leave by six.\n\nBook a thirty-minute or sixty-minute slot through the school office. Your slot includes setup and cleanup. A group that books from four to four thirty must finish moving its chairs and checking the floor before four thirty, not afterward.\n\nFood is not allowed, but covered water bottles are welcome. Groups may use the chairs already in the room. Heavy tables must stay where they are. Report a broken chair to the office rather than moving it into the hallway.\n\nThe student leader should collect the key ten minutes before the slot begins and return it immediately after the group leaves. If the next group has already arrived, do not pass the key directly to them; the office records each return.",
+          "explanation": "規則協調用途、時段及交接。",
+          "id": "d52-q6",
+          "options": [
+            "To advertise a new restaurant.",
+            "To keep every student group out.",
+            "To replace the school office with a key box.",
+            "To help different groups share the room smoothly."
+          ],
+          "prompt": "Why does the notice give detailed rules?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "MULTIPURPOSE ROOM NOTICE: The room is available for student groups after classes. Quiet activities may run from four to five. Music practice is allowed from five to six because the study room next door closes at five. All groups must leave by six.\n\nBook a thirty-minute or sixty-minute slot through the school office. Your slot includes setup and cleanup. A group that books from four to four thirty must finish moving its chairs and checking the floor before four thirty, not afterward.\n\nFood is not allowed, but covered water bottles are welcome. Groups may use the chairs already in the room. Heavy tables must stay where they are. Report a broken chair to the office rather than moving it into the hallway.\n\nThe student leader should collect the key ten minutes before the slot begins and return it immediately after the group leaves. If the next group has already arrived, do not pass the key directly to them; the office records each return.",
+      "title": "A Room for Two Activities",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "MULTIPURPOSE ROOM NOTICE: The room is available for student groups after classes.",
+          "meaning": "可使用的",
+          "word": "available"
+        },
+        {
+          "example": "Book a thirty-minute or sixty-minute slot through the school office.",
+          "meaning": "預約時段",
+          "word": "slot"
+        },
+        {
+          "example": "Your slot includes setup and cleanup.",
+          "meaning": "布置",
+          "word": "setup"
+        },
+        {
+          "example": "Food is not allowed, but covered water bottles are welcome.",
+          "meaning": "有蓋的",
+          "word": "covered"
+        },
+        {
+          "example": "If the next group has already arrived, do not pass the key directly to them; the office records each return.",
+          "meaning": "直接地",
+          "word": "directly"
+        }
+      ]
+    }
+  ]
+}

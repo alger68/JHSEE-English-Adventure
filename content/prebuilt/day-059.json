@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-30",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 59,
+      "goal": "整合物品交換規則與票券使用限制。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "每一個",
+          "phrase": "for each"
+        },
+        {
+          "meaning": "作為替代",
+          "phrase": "instead"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "SCHOOL SWAP DAY: Bring clean books or complete board games to the hall between eight and nine on Friday. Volunteers check every item. For each accepted item, you receive one swap ticket. Broken games, loose game pieces, and written-in workbooks cannot be accepted.",
+          "explanation": "完整桌遊符合收件條件。",
+          "id": "d59-q1",
+          "options": [
+            "A complete board game.",
+            "A broken game.",
+            "A written-in workbook.",
+            "Loose game pieces."
+          ],
+          "prompt": "Which item can receive a ticket?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The swap table opens at ten. Each ticket may be exchanged for one item. Tickets have no cash value and cannot be used at the food stand. You may give an unused ticket to another student, but you may not sell it.",
+          "explanation": "八至九點收件，十點開始交換。",
+          "id": "d59-q2",
+          "options": [
+            "At eight.",
+            "At nine.",
+            "At ten.",
+            "At eleven thirty."
+          ],
+          "prompt": "When does the swap table open?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "At eleven thirty, the remaining items will be offered to the school library. If you want an unclaimed item returned to you instead, tell the volunteers when you first bring it. Write your name clearly on the return list.",
+          "explanation": "需先登記，區分捐贈圖書館與取回的未換出物。",
+          "id": "d59-q3",
+          "options": [
+            "Volunteers need to know which leftovers should not go to the library.",
+            "Tickets expire before the table opens.",
+            "All books must be sold before ten.",
+            "Visitors may never reclaim their own items."
+          ],
+          "prompt": "Why must return requests be made at drop-off?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "You do not have to bring an item to visit the event. Visitors without tickets may browse and join the free board-game demonstration. The demonstration starts at ten thirty, and the volunteer will explain the rules before anyone begins playing.",
+          "explanation": "無票仍能參觀查看物品。",
+          "id": "d59-q4",
+          "options": [
+            "Write in every workbook.",
+            "Look around at available items.",
+            "Repair a broken game.",
+            "Exchange cash for a ticket."
+          ],
+          "prompt": "What does 'browse' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The swap table opens at ten. Each ticket may be exchanged for one item. Tickets have no cash value and cannot be used at the food stand. You may give an unused ticket to another student, but you may not sell it.",
+          "explanation": "票可轉贈，但不可販售、換現金或買食物。",
+          "id": "d59-q5",
+          "options": [
+            "Exchanging it for cash.",
+            "Selling it to a visitor.",
+            "Buying food with it.",
+            "Giving it to another student."
+          ],
+          "prompt": "Which use of an unused ticket is allowed?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "You do not have to bring an item to visit the event. Visitors without tickets may browse and join the free board-game demonstration. The demonstration starts at ten thirty, and the volunteer will explain the rules before anyone begins playing.",
+          "explanation": "最後一段列出無物品、無票者也能參加的活動。",
+          "id": "d59-q6",
+          "options": [
+            "They may take any item without a ticket.",
+            "They can browse and join a free demonstration.",
+            "They can sell workbooks at the food stand.",
+            "They automatically receive ten swap tickets."
+          ],
+          "prompt": "What makes the event accessible to visitors without items?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "SCHOOL SWAP DAY: Bring clean books or complete board games to the hall between eight and nine on Friday. Volunteers check every item. For each accepted item, you receive one swap ticket. Broken games, loose game pieces, and written-in workbooks cannot be accepted.\n\nThe swap table opens at ten. Each ticket may be exchanged for one item. Tickets have no cash value and cannot be used at the food stand. You may give an unused ticket to another student, but you may not sell it.\n\nAt eleven thirty, the remaining items will be offered to the school library. If you want an unclaimed item returned to you instead, tell the volunteers when you first bring it. Write your name clearly on the return list.\n\nYou do not have to bring an item to visit the event. Visitors without tickets may browse and join the free board-game demonstration. The demonstration starts at ten thirty, and the volunteer will explain the rules before anyone begins playing.",
+      "title": "The Swap Table Rules",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "For each accepted item, you receive one swap ticket.",
+          "meaning": "接受的",
+          "word": "accepted"
+        },
+        {
+          "example": "Each ticket may be exchanged for one item.",
+          "meaning": "交換",
+          "word": "exchanged"
+        },
+        {
+          "example": "You may give an unused ticket to another student, but you may not sell it.",
+          "meaning": "未使用的",
+          "word": "unused"
+        },
+        {
+          "example": "If you want an unclaimed item returned to you instead, tell the volunteers when you first bring it.",
+          "meaning": "無人領取的",
+          "word": "unclaimed"
+        },
+        {
+          "example": "Visitors without tickets may browse and join the free board-game demonstration.",
+          "meaning": "瀏覽",
+          "word": "browse"
+        }
+      ]
+    }
+  ]
+}

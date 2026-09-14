@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-27",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 56,
+      "goal": "追蹤處理衣物的步驟與事後修正。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "適用於",
+          "phrase": "apply to"
+        },
+        {
+          "meaning": "依照保養說明",
+          "phrase": "by their care instructions"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "She checks the care label inside the sweater. It says to dry the garment flat. She explains that the label gives instructions for this particular item. The instructions on the cotton shirts do not automatically apply to the sweater too.",
+          "explanation": "標籤寫這件毛衣須平放晾乾。",
+          "id": "d56-q1",
+          "options": [
+            "Hang it beside every shirt.",
+            "Dry it flat.",
+            "Dry all clothes the same way.",
+            "Leave it in water overnight."
+          ],
+          "prompt": "What does the sweater's label say?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Together, they move the sweater onto a clean towel on a flat drying rack. Leo writes a small reminder and clips it above the washing machine. He does not write all clothes dry flat; he writes check each care label first.",
+          "explanation": "第三段描述移到平架上的乾淨毛巾。",
+          "id": "d56-q2",
+          "options": [
+            "Back into the washing water.",
+            "Into a basketball bag.",
+            "Onto a towel on a flat rack.",
+            "Over the classroom window."
+          ],
+          "prompt": "Where do they move the sweater?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Leo helps with the washing on Sunday. He places all the clean clothes on the line, including his sister's wool sweater. The sweater is heavy with water, and its sleeves stretch lower than the shirts beside it. His sister notices before leaving for basketball.\n\nShe checks the care label inside the sweater. It says to dry the garment flat. She explains that the label gives instructions for this particular item. The instructions on the cotton shirts do not automatically apply to the sweater too.\n\nTogether, they move the sweater onto a clean towel on a flat drying rack. Leo writes a small reminder and clips it above the washing machine. He does not write all clothes dry flat; he writes check each care label first.\n\nA week later, Leo washes another load and sorts the items by their care instructions. He finishes a little more slowly, but nobody has to move wet clothes twice. The reminder helps because it directs him to information instead of making an oversized rule.",
+          "explanation": "它提醒查個別資訊，避免全部一體適用。",
+          "id": "d56-q3",
+          "options": [
+            "Every garment must be washed twice.",
+            "Reading labels makes every load finish faster.",
+            "Different items may have different instructions.",
+            "Labels always give the same instruction."
+          ],
+          "prompt": "Why is 'check each care label first' a better reminder?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "She checks the care label inside the sweater. It says to dry the garment flat. She explains that the label gives instructions for this particular item. The instructions on the cotton shirts do not automatically apply to the sweater too.",
+          "explanation": "此處 garment 指正在查看的毛衣。",
+          "id": "d56-q4",
+          "options": [
+            "A washing machine.",
+            "A sports activity.",
+            "A wooden clip.",
+            "A piece of clothing."
+          ],
+          "prompt": "What does 'garment' refer to?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "A week later, Leo washes another load and sorts the items by their care instructions. He finishes a little more slowly, but nobody has to move wet clothes twice. The reminder helps because it directs him to information instead of making an oversized rule.",
+          "explanation": "最後一段改依每件的保養說明分類。",
+          "id": "d56-q5",
+          "options": [
+            "His sister rewrites all the shirt labels.",
+            "Leo hangs every item without reading.",
+            "Nobody washes any clothes.",
+            "Leo sorts items using their own instructions."
+          ],
+          "prompt": "Which change happens the following week?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Leo helps with the washing on Sunday. He places all the clean clothes on the line, including his sister's wool sweater. The sweater is heavy with water, and its sleeves stretch lower than the shirts beside it. His sister notices before leaving for basketball.\n\nShe checks the care label inside the sweater. It says to dry the garment flat. She explains that the label gives instructions for this particular item. The instructions on the cotton shirts do not automatically apply to the sweater too.\n\nTogether, they move the sweater onto a clean towel on a flat drying rack. Leo writes a small reminder and clips it above the washing machine. He does not write all clothes dry flat; he writes check each care label first.\n\nA week later, Leo washes another load and sorts the items by their care instructions. He finishes a little more slowly, but nobody has to move wet clothes twice. The reminder helps because it directs him to information instead of making an oversized rule.",
+          "explanation": "故事由錯誤通則轉為查個別說明。",
+          "id": "d56-q6",
+          "options": [
+            "A shirt label describes every sweater.",
+            "Check the relevant instructions before applying a general rule.",
+            "All wet clothing must hang as low as possible.",
+            "A slow task always needs to be repeated."
+          ],
+          "prompt": "Which idea best fits the story?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Leo helps with the washing on Sunday. He places all the clean clothes on the line, including his sister's wool sweater. The sweater is heavy with water, and its sleeves stretch lower than the shirts beside it. His sister notices before leaving for basketball.\n\nShe checks the care label inside the sweater. It says to dry the garment flat. She explains that the label gives instructions for this particular item. The instructions on the cotton shirts do not automatically apply to the sweater too.\n\nTogether, they move the sweater onto a clean towel on a flat drying rack. Leo writes a small reminder and clips it above the washing machine. He does not write all clothes dry flat; he writes check each care label first.\n\nA week later, Leo washes another load and sorts the items by their care instructions. He finishes a little more slowly, but nobody has to move wet clothes twice. The reminder helps because it directs him to information instead of making an oversized rule.",
+      "title": "The Sweater on the Line",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "The sweater is heavy with water, and its sleeves stretch lower than the shirts beside it.",
+          "meaning": "袖子",
+          "word": "sleeves"
+        },
+        {
+          "example": "The sweater is heavy with water, and its sleeves stretch lower than the shirts beside it.",
+          "meaning": "拉長",
+          "word": "stretch"
+        },
+        {
+          "example": "It says to dry the garment flat.",
+          "meaning": "衣物",
+          "word": "garment"
+        },
+        {
+          "example": "She explains that the label gives instructions for this particular item.",
+          "meaning": "特定的",
+          "word": "particular"
+        },
+        {
+          "example": "A week later, Leo washes another load and sorts the items by their care instructions.",
+          "meaning": "分類",
+          "word": "sorts"
+        }
+      ]
+    }
+  ]
+}

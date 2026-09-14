@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-21",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 50,
+      "goal": "辨認訊息中的版本與更正，排除舊檔。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "及時",
+          "phrase": "in time"
+        },
+        {
+          "meaning": "後接",
+          "phrase": "followed by"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Drama club chat: Please practice with the recording named Scene Three Final. I uploaded it this morning after changing the last two lines. The older recording is still in the folder, but its title ends with Draft and its ending is different.",
+          "explanation": "檔名 Draft 的舊錄音結尾不同。",
+          "id": "d50-q1",
+          "options": [
+            "Final Audio Fix.",
+            "Scene Three Draft.",
+            "The October twenty-first script.",
+            "Scene Three Final."
+          ],
+          "prompt": "Which file contains an older ending?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Mia: The new recording is quieter than the old one. Director: I will raise the volume this afternoon without changing any words. The new copy will still have Final in its name, followed by Audio Fix.",
+          "explanation": "下午只提高音量，不改文字。",
+          "id": "d50-q2",
+          "options": [
+            "The last two lines again.",
+            "The volume.",
+            "The script date.",
+            "The rehearsal location."
+          ],
+          "prompt": "What will the director change in the afternoon?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Noah: I downloaded a file last night and listened to it on the bus. Should I delete it? Director: Keep it only if you want to compare the versions. For rehearsal, use today's final recording and the script dated October twenty-first.",
+          "explanation": "導演允許保留舊版做比較。",
+          "id": "d50-q3",
+          "options": [
+            "To replace tomorrow's meeting.",
+            "To compare versions.",
+            "To use its ending in the next rehearsal.",
+            "To avoid reading the final script."
+          ],
+          "prompt": "Why might Noah keep the old file?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Noah: Then the words in Final and Final Audio Fix will match? Director: Exactly. The draft is the one with different lines. Please tell me about any unclear sound before tomorrow's rehearsal, so I can fix it in time.",
+          "explanation": "問兩份正式錄音文字是否一致。",
+          "id": "d50-q4",
+          "options": [
+            "Be the same.",
+            "Become quieter.",
+            "Arrive late.",
+            "Disappear."
+          ],
+          "prompt": "What does 'match' mean in Noah's question?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Drama club chat: Please practice with the recording named Scene Three Final. I uploaded it this morning after changing the last two lines. The older recording is still in the folder, but its title ends with Draft and its ending is different.\n\nNoah: I downloaded a file last night and listened to it on the bus. Should I delete it? Director: Keep it only if you want to compare the versions. For rehearsal, use today's final recording and the script dated October twenty-first.\n\nMia: The new recording is quieter than the old one. Director: I will raise the volume this afternoon without changing any words. The new copy will still have Final in its name, followed by Audio Fix.\n\nNoah: Then the words in Final and Final Audio Fix will match? Director: Exactly. The draft is the one with different lines. Please tell me about any unclear sound before tomorrow's rehearsal, so I can fix it in time.",
+          "explanation": "Audio Fix 只修音量；Draft 才是不同台詞。",
+          "id": "d50-q5",
+          "options": [
+            "Draft and Final.",
+            "Final and Final Audio Fix.",
+            "Draft and last night's bus message.",
+            "Every recording mentioned."
+          ],
+          "prompt": "Which two recordings have the same words?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Drama club chat: Please practice with the recording named Scene Three Final. I uploaded it this morning after changing the last two lines. The older recording is still in the folder, but its title ends with Draft and its ending is different.\n\nNoah: I downloaded a file last night and listened to it on the bus. Should I delete it? Director: Keep it only if you want to compare the versions. For rehearsal, use today's final recording and the script dated October twenty-first.\n\nMia: The new recording is quieter than the old one. Director: I will raise the volume this afternoon without changing any words. The new copy will still have Final in its name, followed by Audio Fix.\n\nNoah: Then the words in Final and Final Audio Fix will match? Director: Exactly. The draft is the one with different lines. Please tell me about any unclear sound before tomorrow's rehearsal, so I can fix it in time.",
+          "explanation": "需區分改台詞與調音量兩種版本差異。",
+          "id": "d50-q6",
+          "options": [
+            "Ignoring the script date.",
+            "Separating content changes from sound changes.",
+            "Choosing whichever file was downloaded first.",
+            "Assuming every new file changes the ending."
+          ],
+          "prompt": "What skill is most useful for following this chat?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Drama club chat: Please practice with the recording named Scene Three Final. I uploaded it this morning after changing the last two lines. The older recording is still in the folder, but its title ends with Draft and its ending is different.\n\nNoah: I downloaded a file last night and listened to it on the bus. Should I delete it? Director: Keep it only if you want to compare the versions. For rehearsal, use today's final recording and the script dated October twenty-first.\n\nMia: The new recording is quieter than the old one. Director: I will raise the volume this afternoon without changing any words. The new copy will still have Final in its name, followed by Audio Fix.\n\nNoah: Then the words in Final and Final Audio Fix will match? Director: Exactly. The draft is the one with different lines. Please tell me about any unclear sound before tomorrow's rehearsal, so I can fix it in time.",
+      "title": "Which Recording Is the Final One?",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Drama club chat: Please practice with the recording named Scene Three Final.",
+          "meaning": "錄音",
+          "word": "recording"
+        },
+        {
+          "example": "The older recording is still in the folder, but its title ends with Draft and its ending is different.",
+          "meaning": "草稿",
+          "word": "Draft"
+        },
+        {
+          "example": "For rehearsal, use today's final recording and the script dated October twenty-first.",
+          "meaning": "排練",
+          "word": "rehearsal"
+        },
+        {
+          "example": "Director: I will raise the volume this afternoon without changing any words.",
+          "meaning": "音量",
+          "word": "volume"
+        },
+        {
+          "example": "Noah: Then the words in Final and Final Audio Fix will match?",
+          "meaning": "相符",
+          "word": "match"
+        }
+      ]
+    }
+  ]
+}

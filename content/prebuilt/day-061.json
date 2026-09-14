@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-01",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 61,
+      "goal": "使用具體線索複習字義與避免重複錯誤。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而不是",
+          "phrase": "instead of"
+        },
+        {
+          "meaning": "同樣合適",
+          "phrase": "just as well"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "After a week of practice, the reading club reviews five words: purpose, damp, exchanged, exactly, and combination. Instead of copying each meaning five times, students write one short situation and underline the words that make the meaning clear to another reader.",
+          "explanation": "底線畫在能釐清詞义的線索上。",
+          "id": "d61-q1",
+          "options": [
+            "Words that clarify the intended meaning.",
+            "Only the first word of each sentence.",
+            "The titles of all their textbooks.",
+            "Every word longer than five letters."
+          ],
+          "prompt": "What do students underline?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Yun describes a towel that still feels a little wet. Her partner chooses damp. For exchanged, she writes about giving one ticket and receiving one book. A sentence about precisely eight meals helps the pair choose exactly rather than combination.",
+          "explanation": "第二段用仍有些濕的毛巾說明。",
+          "id": "d61-q2",
+          "options": [
+            "A towel that is still a little wet.",
+            "A photo taken for a reason.",
+            "Eight meals counted precisely.",
+            "One ticket traded for a book."
+          ],
+          "prompt": "Which situation helps explain damp?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "One ambiguous sentence is rewritten before the club keeps it in the review folder. The teacher explains that a useful practice question should contain enough clues for one best answer. Students leave with five situations they can explain, not only five translations they can repeat.",
+          "explanation": "題目需足夠線索支持唯一最佳答案。",
+          "id": "d61-q3",
+          "options": [
+            "More than one choice could appear reasonable.",
+            "The folder has no room for long words.",
+            "Every sentence must contain a price.",
+            "The teacher wants students to stop explaining."
+          ],
+          "prompt": "Why does the club rewrite an ambiguous sentence?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The combination card goes beside a description of rice boxes together with vegetable wraps. The last situation asks why a photo was taken, so its blank needs purpose. Each student checks whether a different card could fit just as well.",
+          "explanation": "飯盒與捲餅放在一起形成組合。",
+          "id": "d61-q4",
+          "options": [
+            "A towel that has not dried.",
+            "A reason for taking a photo.",
+            "One meal counted precisely.",
+            "Different meal types put together."
+          ],
+          "prompt": "What does 'combination' refer to here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "After a week of practice, the reading club reviews five words: purpose, damp, exchanged, exactly, and combination. Instead of copying each meaning five times, students write one short situation and underline the words that make the meaning clear to another reader.\n\nYun describes a towel that still feels a little wet. Her partner chooses damp. For exchanged, she writes about giving one ticket and receiving one book. A sentence about precisely eight meals helps the pair choose exactly rather than combination.\n\nThe combination card goes beside a description of rice boxes together with vegetable wraps. The last situation asks why a photo was taken, so its blank needs purpose. Each student checks whether a different card could fit just as well.\n\nOne ambiguous sentence is rewritten before the club keeps it in the review folder. The teacher explains that a useful practice question should contain enough clues for one best answer. Students leave with five situations they can explain, not only five translations they can repeat.",
+          "explanation": "目的問 why；確切數量對應 exactly。",
+          "id": "d61-q5",
+          "options": [
+            "A traded ticket—exactly; eight meals—exchanged.",
+            "Why a photo was taken—combination; still wet—exchanged.",
+            "Why a photo was taken—purpose; precisely eight—exactly.",
+            "Still wet—purpose; rice boxes with wraps—damp."
+          ],
+          "prompt": "Which pair correctly connects clues and words?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "After a week of practice, the reading club reviews five words: purpose, damp, exchanged, exactly, and combination. Instead of copying each meaning five times, students write one short situation and underline the words that make the meaning clear to another reader.\n\nYun describes a towel that still feels a little wet. Her partner chooses damp. For exchanged, she writes about giving one ticket and receiving one book. A sentence about precisely eight meals helps the pair choose exactly rather than combination.\n\nThe combination card goes beside a description of rice boxes together with vegetable wraps. The last situation asks why a photo was taken, so its blank needs purpose. Each student checks whether a different card could fit just as well.\n\nOne ambiguous sentence is rewritten before the club keeps it in the review folder. The teacher explains that a useful practice question should contain enough clues for one best answer. Students leave with five situations they can explain, not only five translations they can repeat.",
+          "explanation": "透過情境線索解釋字義及辨別選項。",
+          "id": "d61-q6",
+          "options": [
+            "The ability to explain meanings from context.",
+            "The ability to memorize folder names.",
+            "The habit of ignoring alternative choices.",
+            "The speed of copying translations repeatedly."
+          ],
+          "prompt": "What is the review method mainly trying to build?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "After a week of practice, the reading club reviews five words: purpose, damp, exchanged, exactly, and combination. Instead of copying each meaning five times, students write one short situation and underline the words that make the meaning clear to another reader.\n\nYun describes a towel that still feels a little wet. Her partner chooses damp. For exchanged, she writes about giving one ticket and receiving one book. A sentence about precisely eight meals helps the pair choose exactly rather than combination.\n\nThe combination card goes beside a description of rice boxes together with vegetable wraps. The last situation asks why a photo was taken, so its blank needs purpose. Each student checks whether a different card could fit just as well.\n\nOne ambiguous sentence is rewritten before the club keeps it in the review folder. The teacher explains that a useful practice question should contain enough clues for one best answer. Students leave with five situations they can explain, not only five translations they can repeat.",
+      "title": "A Better Way to Keep Notes",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "After a week of practice, the reading club reviews five words: purpose, damp, exchanged, exactly, and combination.",
+          "meaning": "用途",
+          "word": "purpose"
+        },
+        {
+          "example": "After a week of practice, the reading club reviews five words: purpose, damp, exchanged, exactly, and combination.",
+          "meaning": "潮濕的",
+          "word": "damp"
+        },
+        {
+          "example": "After a week of practice, the reading club reviews five words: purpose, damp, exchanged, exactly, and combination.",
+          "meaning": "交換",
+          "word": "exchanged"
+        },
+        {
+          "example": "After a week of practice, the reading club reviews five words: purpose, damp, exchanged, exactly, and combination.",
+          "meaning": "恰好",
+          "word": "exactly"
+        },
+        {
+          "example": "After a week of practice, the reading club reviews five words: purpose, damp, exchanged, exactly, and combination.",
+          "meaning": "組合",
+          "word": "combination"
+        }
+      ]
+    }
+  ]
+}

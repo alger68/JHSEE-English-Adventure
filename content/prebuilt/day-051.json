@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-22",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 51,
+      "goal": "依觀察表判斷變化，區別紀錄與推論。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "整個活動期間",
+          "phrase": "throughout the activity"
+        },
+        {
+          "meaning": "繳交",
+          "phrase": "handing in"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "The recorded lengths are sixty, thirty-five, thirty, and fifty centimeters. At each check, they also draw an arrow showing which way the shadow points. The teacher asks them to keep the stick and the measuring method the same throughout the activity.",
+          "explanation": "四筆中三十公分最短，時間是一點。",
+          "id": "d51-q1",
+          "options": [
+            "At eleven.",
+            "At one.",
+            "At three.",
+            "At nine."
+          ],
+          "prompt": "When is the shortest recorded shadow measured?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The recorded lengths are sixty, thirty-five, thirty, and fifty centimeters. At each check, they also draw an arrow showing which way the shadow points. The teacher asks them to keep the stick and the measuring method the same throughout the activity.",
+          "explanation": "箭頭用來表示影子的方向。",
+          "id": "d51-q2",
+          "options": [
+            "Shadow direction.",
+            "Ground temperature.",
+            "Stick color.",
+            "The number of students."
+          ],
+          "prompt": "What do the arrows record?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Yuri first writes that the shadow keeps getting shorter all day. Her partner notices the last measurement. Fifty centimeters is longer than thirty, so the sentence does not describe all four observations. Yuri corrects it before handing in the report.",
+          "explanation": "下午三點變長，不符合『整天一直變短』。",
+          "id": "d51-q3",
+          "options": [
+            "Her partner prefers longer reports.",
+            "The last measurement contradicts her first description.",
+            "The stick was removed at eleven.",
+            "No measurement was recorded."
+          ],
+          "prompt": "Why does Yuri change her report?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Yuri first writes that the shadow keeps getting shorter all day. Her partner notices the last measurement. Fifty centimeters is longer than thirty, so the sentence does not describe all four observations. Yuri corrects it before handing in the report.",
+          "explanation": "這裡指实际量得與看見的紀錄。",
+          "id": "d51-q4",
+          "options": [
+            "Rules they invented before looking.",
+            "Recorded things the students noticed.",
+            "Arrows printed on a textbook.",
+            "Places where new sticks are sold."
+          ],
+          "prompt": "What are 'observations' in this report?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The recorded lengths are sixty, thirty-five, thirty, and fifty centimeters. At each check, they also draw an arrow showing which way the shadow points. The teacher asks them to keep the stick and the measuring method the same throughout the activity.",
+          "explanation": "50－30＝20 公分。",
+          "id": "d51-q5",
+          "options": [
+            "Ten centimeters.",
+            "Fifty centimeters.",
+            "Thirty centimeters.",
+            "Twenty centimeters."
+          ],
+          "prompt": "How much does the shadow grow from one to three?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "A science club makes a shadow log in the schoolyard. Students place one upright stick in a flat patch of ground and mark its position so it will not move. They measure its shadow at nine, eleven, one, and three on a clear day.\n\nThe recorded lengths are sixty, thirty-five, thirty, and fifty centimeters. At each check, they also draw an arrow showing which way the shadow points. The teacher asks them to keep the stick and the measuring method the same throughout the activity.\n\nYuri first writes that the shadow keeps getting shorter all day. Her partner notices the last measurement. Fifty centimeters is longer than thirty, so the sentence does not describe all four observations. Yuri corrects it before handing in the report.\n\nThe club plans to repeat the activity on another clear day. They will compare the records without assuming that every date produces exactly the same lengths. Their log describes this stick, this location, and these particular times.",
+          "explanation": "須讓敘述符合全部紀錄，避免無限推廣。",
+          "id": "d51-q6",
+          "options": [
+            "A description must account for all recorded measurements.",
+            "Shadows get shorter at every time of day.",
+            "The longest shadow must occur at three.",
+            "One measurement predicts all later days exactly."
+          ],
+          "prompt": "Which conclusion fits the activity?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "A science club makes a shadow log in the schoolyard. Students place one upright stick in a flat patch of ground and mark its position so it will not move. They measure its shadow at nine, eleven, one, and three on a clear day.\n\nThe recorded lengths are sixty, thirty-five, thirty, and fifty centimeters. At each check, they also draw an arrow showing which way the shadow points. The teacher asks them to keep the stick and the measuring method the same throughout the activity.\n\nYuri first writes that the shadow keeps getting shorter all day. Her partner notices the last measurement. Fifty centimeters is longer than thirty, so the sentence does not describe all four observations. Yuri corrects it before handing in the report.\n\nThe club plans to repeat the activity on another clear day. They will compare the records without assuming that every date produces exactly the same lengths. Their log describes this stick, this location, and these particular times.",
+      "title": "Reading a Shadow Log",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "Students place one upright stick in a flat patch of ground and mark its position so it will not move.",
+          "meaning": "直立的",
+          "word": "upright"
+        },
+        {
+          "example": "They measure its shadow at nine, eleven, one, and three on a clear day.",
+          "meaning": "測量",
+          "word": "measure"
+        },
+        {
+          "example": "The recorded lengths are sixty, thirty-five, thirty, and fifty centimeters.",
+          "meaning": "長度",
+          "word": "lengths"
+        },
+        {
+          "example": "At each check, they also draw an arrow showing which way the shadow points.",
+          "meaning": "箭頭",
+          "word": "arrow"
+        },
+        {
+          "example": "Fifty centimeters is longer than thirty, so the sentence does not describe all four observations.",
+          "meaning": "觀察紀錄",
+          "word": "observations"
+        }
+      ]
+    }
+  ]
+}

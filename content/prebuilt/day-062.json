@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-02",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 62,
+      "goal": "辨別被看見的成果與幕後貢獻。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "前提是每一位",
+          "phrase": "provided every"
+        },
+        {
+          "meaning": "公開肯定",
+          "phrase": "public credit"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "After a school quiz competition, the winning team poses beside the scoreboard. The school website names the four students who answered questions on stage. Tessa is happy for them, but she notices that three classmates who prepared practice cards are missing from the report.",
+          "explanation": "原報導只列上台答題的四人。",
+          "id": "d62-q1",
+          "options": [
+            "All seven helpers and players.",
+            "The four stage players.",
+            "Only Tessa.",
+            "The teacher and the website editor."
+          ],
+          "prompt": "Who is named in the first report?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "After a school quiz competition, the winning team poses beside the scoreboard. The school website names the four students who answered questions on stage. Tessa is happy for them, but she notices that three classmates who prepared practice cards are missing from the report.\n\nShe asks the teacher whether the team may add a short thank-you note. The teacher agrees, provided every named student is comfortable appearing on the website. Tessa checks with the helpers before writing anything, and one asks to be thanked without a name.\n\nThe revised report keeps the original score and the names of the stage players. It adds a sentence thanking two named helpers and one classmate who prefers to stay unnamed. It also describes their work preparing questions and checking answers.\n\nAt the next meeting, the team divides jobs before practice begins and records who wants public credit. Tessa learns that accurate recognition includes both what people did and how they wish their contribution to be shared.",
+          "explanation": "幕後工作是準備題卡與核對答案。",
+          "id": "d62-q2",
+          "options": [
+            "Practice cards and answer checking.",
+            "The final stage score.",
+            "The competition hall's chairs.",
+            "A new school website."
+          ],
+          "prompt": "What do the three classmates contribute?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "She asks the teacher whether the team may add a short thank-you note. The teacher agrees, provided every named student is comfortable appearing on the website. Tessa checks with the helpers before writing anything, and one asks to be thanked without a name.",
+          "explanation": "已徵詢意願，其中一人選擇不具名。",
+          "id": "d62-q3",
+          "options": [
+            "The helper did no work.",
+            "The score was incorrect.",
+            "That helper prefers private recognition.",
+            "The team forgot to ask anyone."
+          ],
+          "prompt": "Why does one helper remain unnamed?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "At the next meeting, the team divides jobs before practice begins and records who wants public credit. Tessa learns that accurate recognition includes both what people did and how they wish their contribution to be shared.",
+          "explanation": "文意是對努力與貢獻給予肯定。",
+          "id": "d62-q4",
+          "options": [
+            "Acknowledgment of someone's work.",
+            "Identification of a broken scoreboard.",
+            "A second round of the quiz.",
+            "A change in the winning score."
+          ],
+          "prompt": "What does 'recognition' mean in this passage?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The revised report keeps the original score and the names of the stage players. It adds a sentence thanking two named helpers and one classmate who prefers to stay unnamed. It also describes their work preparing questions and checking answers.",
+          "explanation": "保留原得分與選手資料，新增符合意願的幕後致謝。",
+          "id": "d62-q5",
+          "options": [
+            "It raises the team's score by three.",
+            "It publishes every name against the helpers' wishes.",
+            "It adds credit for preparation while keeping the actual result.",
+            "It replaces the stage players with the helpers."
+          ],
+          "prompt": "What changes in the revised report?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "After a school quiz competition, the winning team poses beside the scoreboard. The school website names the four students who answered questions on stage. Tessa is happy for them, but she notices that three classmates who prepared practice cards are missing from the report.\n\nShe asks the teacher whether the team may add a short thank-you note. The teacher agrees, provided every named student is comfortable appearing on the website. Tessa checks with the helpers before writing anything, and one asks to be thanked without a name.\n\nThe revised report keeps the original score and the names of the stage players. It adds a sentence thanking two named helpers and one classmate who prefers to stay unnamed. It also describes their work preparing questions and checking answers.\n\nAt the next meeting, the team divides jobs before practice begins and records who wants public credit. Tessa learns that accurate recognition includes both what people did and how they wish their contribution to be shared.",
+          "explanation": "同時重視實際工作及公開方式的意願。",
+          "id": "d62-q6",
+          "options": [
+            "Only stage performance deserves acknowledgment.",
+            "All contributors must be named publicly.",
+            "Describe real contributions and respect sharing preferences.",
+            "A thank-you note should change the score."
+          ],
+          "prompt": "What does Tessa learn about giving credit?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "After a school quiz competition, the winning team poses beside the scoreboard. The school website names the four students who answered questions on stage. Tessa is happy for them, but she notices that three classmates who prepared practice cards are missing from the report.\n\nShe asks the teacher whether the team may add a short thank-you note. The teacher agrees, provided every named student is comfortable appearing on the website. Tessa checks with the helpers before writing anything, and one asks to be thanked without a name.\n\nThe revised report keeps the original score and the names of the stage players. It adds a sentence thanking two named helpers and one classmate who prefers to stay unnamed. It also describes their work preparing questions and checking answers.\n\nAt the next meeting, the team divides jobs before practice begins and records who wants public credit. Tessa learns that accurate recognition includes both what people did and how they wish their contribution to be shared.",
+      "title": "The Team Behind the Scoreboard",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "After a school quiz competition, the winning team poses beside the scoreboard.",
+          "meaning": "計分板",
+          "word": "scoreboard"
+        },
+        {
+          "example": "Tessa is happy for them, but she notices that three classmates who prepared practice cards are missing from the report.",
+          "meaning": "準備了",
+          "word": "prepared"
+        },
+        {
+          "example": "The revised report keeps the original score and the names of the stage players.",
+          "meaning": "修訂後的",
+          "word": "revised"
+        },
+        {
+          "example": "Tessa learns that accurate recognition includes both what people did and how they wish their contribution to be shared.",
+          "meaning": "肯定",
+          "word": "recognition"
+        },
+        {
+          "example": "Tessa learns that accurate recognition includes both what people did and how they wish their contribution to be shared.",
+          "meaning": "貢獻",
+          "word": "contribution"
+        }
+      ]
+    }
+  ]
+}

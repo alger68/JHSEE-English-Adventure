@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-24",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 53,
+      "goal": "跨乘車表與任務條件計算可行時程。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "單程",
+          "phrase": "each way"
+        },
+        {
+          "meaning": "抵達時",
+          "phrase": "on arrival"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "BUS BOARD: Bus A leaves school at eight ten and reaches the community garden at eight thirty-five. Bus B leaves at eight twenty and arrives at eight fifty. Both have enough seats for the volunteer group, and the fare is twenty dollars each way.",
+          "explanation": "Bus A 的到站時間是 8:35。",
+          "id": "d53-q1",
+          "options": [
+            "At 8:35.",
+            "At 9:50.",
+            "At 8:50.",
+            "At 8:10."
+          ],
+          "prompt": "When does Bus A arrive at the garden?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "WORK PLAN: Volunteers must receive a ten-minute safety introduction before beginning. Planting takes forty minutes. Cleaning tools takes fifteen minutes afterward. The garden gate opens at eight thirty, and the group must catch a return bus leaving the garden at nine fifty.",
+          "explanation": "工作前須先聽十分鐘安全說明。",
+          "id": "d53-q2",
+          "options": [
+            "Tool cleanup.",
+            "The safety introduction.",
+            "Buying lunch.",
+            "The return ride."
+          ],
+          "prompt": "Which task must come before planting?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "WORK PLAN: Volunteers must receive a ten-minute safety introduction before beginning. Planting takes forty minutes. Cleaning tools takes fifteen minutes afterward. The garden gate opens at eight thirty, and the group must catch a return bus leaving the garden at nine fifty.",
+          "explanation": "10＋40＋15＝65 分鐘。",
+          "id": "d53-q3",
+          "options": [
+            "Fifty minutes.",
+            "Sixty-five minutes.",
+            "Seventy-five minutes.",
+            "Fifty-five minutes."
+          ],
+          "prompt": "How long do the introduction, planting, and cleanup take?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "MESSAGE: Please bring gloves and a filled water bottle. A late arrival cannot skip the introduction. Students who finish planting early must still wait for the group cleanup. The return driver will not wait because another group needs the bus later.",
+          "explanation": "訊息明說遲到也不可省略。",
+          "id": "d53-q4",
+          "options": [
+            "The driver teaches the introduction on the bus.",
+            "The garden charges extra for early arrivals.",
+            "The instructions require every volunteer to receive it.",
+            "Only Bus B passengers may plant."
+          ],
+          "prompt": "Why can't a late student save time by skipping the introduction?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "MESSAGE: Please bring gloves and a filled water bottle. A late arrival cannot skip the introduction. Students who finish planting early must still wait for the group cleanup. The return driver will not wait because another group needs the bus later.",
+          "explanation": "攜帶手套及裝好水的水瓶。",
+          "id": "d53-q5",
+          "options": [
+            "A bus timetable for another group.",
+            "A new garden gate key.",
+            "An empty tool box.",
+            "A filled water bottle."
+          ],
+          "prompt": "What should students bring besides gloves?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "BUS BOARD: Bus A leaves school at eight ten and reaches the community garden at eight thirty-five. Bus B leaves at eight twenty and arrives at eight fifty. Both have enough seats for the volunteer group, and the fare is twenty dollars each way.\n\nWORK PLAN: Volunteers must receive a ten-minute safety introduction before beginning. Planting takes forty minutes. Cleaning tools takes fifteen minutes afterward. The garden gate opens at eight thirty, and the group must catch a return bus leaving the garden at nine fifty.\n\nMESSAGE: Please bring gloves and a filled water bottle. A late arrival cannot skip the introduction. Students who finish planting early must still wait for the group cleanup. The return driver will not wait because another group needs the bus later.\n\nThe students choose Bus A. On arrival, they start the introduction immediately. Their teacher sets a timer for each job and includes the cleanup in the plan. Each student brings forty dollars for transport and keeps lunch money separate.",
+          "explanation": "8:35 加六十五分鐘＝9:40。",
+          "id": "d53-q6",
+          "options": [
+            "At 10:00.",
+            "At 9:40.",
+            "At 9:50.",
+            "At 9:25."
+          ],
+          "prompt": "When will the group finish if it takes Bus A and follows the plan?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "WORK PLAN: Volunteers must receive a ten-minute safety introduction before beginning. Planting takes forty minutes. Cleaning tools takes fifteen minutes afterward. The garden gate opens at eight thirty, and the group must catch a return bus leaving the garden at nine fifty.",
+          "explanation": "工具清理在種植活動之後。",
+          "id": "d53-q7",
+          "options": [
+            "On a different day.",
+            "After the previous activity.",
+            "Before any instruction.",
+            "At the same time as arrival."
+          ],
+          "prompt": "What does 'afterward' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "BUS BOARD: Bus A leaves school at eight ten and reaches the community garden at eight thirty-five. Bus B leaves at eight twenty and arrives at eight fifty. Both have enough seats for the volunteer group, and the fare is twenty dollars each way.\n\nWORK PLAN: Volunteers must receive a ten-minute safety introduction before beginning. Planting takes forty minutes. Cleaning tools takes fifteen minutes afterward. The garden gate opens at eight thirty, and the group must catch a return bus leaving the garden at nine fifty.\n\nMESSAGE: Please bring gloves and a filled water bottle. A late arrival cannot skip the introduction. Students who finish planting early must still wait for the group cleanup. The return driver will not wait because another group needs the bus later.\n\nThe students choose Bus A. On arrival, they start the introduction immediately. Their teacher sets a timer for each job and includes the cleanup in the plan. Each student brings forty dollars for transport and keeps lunch money separate.",
+          "explanation": "8:50 加六十五分鐘＝9:55，超過 9:50。",
+          "id": "d53-q8",
+          "options": [
+            "It lacks enough seats.",
+            "Its fare is twice Bus A's.",
+            "It arrives before the garden opens.",
+            "Its arrival plus sixty-five minutes reaches 9:55, after the return departure."
+          ],
+          "prompt": "Why is Bus B unsuitable for completing all tasks?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "BUS BOARD: Bus A leaves school at eight ten and reaches the community garden at eight thirty-five. Bus B leaves at eight twenty and arrives at eight fifty. Both have enough seats for the volunteer group, and the fare is twenty dollars each way.\n\nWORK PLAN: Volunteers must receive a ten-minute safety introduction before beginning. Planting takes forty minutes. Cleaning tools takes fifteen minutes afterward. The garden gate opens at eight thirty, and the group must catch a return bus leaving the garden at nine fifty.\n\nMESSAGE: Please bring gloves and a filled water bottle. A late arrival cannot skip the introduction. Students who finish planting early must still wait for the group cleanup. The return driver will not wait because another group needs the bus later.\n\nThe students choose Bus A. On arrival, they start the introduction immediately. Their teacher sets a timer for each job and includes the cleanup in the plan. Each student brings forty dollars for transport and keeps lunch money separate.",
+          "explanation": "安排納入不可省略工作與固定回程時間。",
+          "id": "d53-q9",
+          "options": [
+            "It includes every required task and the fixed return time.",
+            "It treats lunch money as the bus fare.",
+            "It omits cleanup when planting ends early.",
+            "It assumes the return driver will wait."
+          ],
+          "prompt": "What makes the selected plan realistic?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "BUS BOARD: Bus A leaves school at eight ten and reaches the community garden at eight thirty-five. Bus B leaves at eight twenty and arrives at eight fifty. Both have enough seats for the volunteer group, and the fare is twenty dollars each way.\n\nWORK PLAN: Volunteers must receive a ten-minute safety introduction before beginning. Planting takes forty minutes. Cleaning tools takes fifteen minutes afterward. The garden gate opens at eight thirty, and the group must catch a return bus leaving the garden at nine fifty.\n\nMESSAGE: Please bring gloves and a filled water bottle. A late arrival cannot skip the introduction. Students who finish planting early must still wait for the group cleanup. The return driver will not wait because another group needs the bus later.\n\nThe students choose Bus A. On arrival, they start the introduction immediately. Their teacher sets a timer for each job and includes the cleanup in the plan. Each student brings forty dollars for transport and keeps lunch money separate.",
+      "title": "Boss: The Volunteer Bus",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "Both have enough seats for the volunteer group, and the fare is twenty dollars each way.",
+          "meaning": "志工",
+          "word": "volunteer"
+        },
+        {
+          "example": "WORK PLAN: Volunteers must receive a ten-minute safety introduction before beginning.",
+          "meaning": "安全",
+          "word": "safety"
+        },
+        {
+          "example": "WORK PLAN: Volunteers must receive a ten-minute safety introduction before beginning.",
+          "meaning": "說明",
+          "word": "introduction"
+        },
+        {
+          "example": "Cleaning tools takes fifteen minutes afterward.",
+          "meaning": "之後",
+          "word": "afterward"
+        },
+        {
+          "example": "Each student brings forty dollars for transport and keeps lunch money separate.",
+          "meaning": "分開的",
+          "word": "separate"
+        }
+      ]
+    }
+  ]
+}

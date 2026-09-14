@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-26",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 55,
+      "goal": "從同意與修改流程理解作品分享。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "完全",
+          "phrase": "at all"
+        },
+        {
+          "meaning": "相同大小",
+          "phrase": "the same size"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "A class wants to display drawings from its art project in the school hallway. Jess collects everyone's pictures and begins a poster with each artist's full name underneath. She thinks names will make the display feel more personal and celebrate everybody's work.",
+          "explanation": "最初她打算標上每位作者全名。",
+          "id": "d55-q1",
+          "options": [
+            "Only the project date.",
+            "A visitor's nickname.",
+            "The artist's full name.",
+            "A price tag."
+          ],
+          "prompt": "What does Jess initially put under each drawing?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Jess makes three choices on a form: full name, nickname, or no name. She also asks permission to display each drawing. A student may keep a drawing out of the hallway without losing credit for completing the class project.",
+          "explanation": "全名、暱稱、不署名，共三種。",
+          "id": "d55-q2",
+          "options": [
+            "Two.",
+            "Four.",
+            "Five.",
+            "Three."
+          ],
+          "prompt": "How many naming choices are on the form?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Jess makes three choices on a form: full name, nickname, or no name. She also asks permission to display each drawing. A student may keep a drawing out of the hallway without losing credit for completing the class project.",
+          "explanation": "課業完成與公開展示同意是兩回事。",
+          "id": "d55-q3",
+          "options": [
+            "Public display is separate from completing the assignment.",
+            "The teacher has canceled the art project.",
+            "The student receives credit without doing any work.",
+            "Hallway drawings are never checked."
+          ],
+          "prompt": "Why can a student keep work out of the hallway without losing credit?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Jess makes three choices on a form: full name, nickname, or no name. She also asks permission to display each drawing. A student may keep a drawing out of the hallway without losing credit for completing the class project.",
+          "explanation": "展示前詢問作者是否同意。",
+          "id": "d55-q4",
+          "options": [
+            "Agreement allowing something.",
+            "A score for a drawing.",
+            "The length of a label.",
+            "A copy of someone's nickname."
+          ],
+          "prompt": "What does 'permission' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The final poster uses labels of the same size but different naming choices. Jess adds a small card inviting visitors to enjoy the artwork. She discovers that a shared display can look organized while still respecting individual decisions.",
+          "explanation": "標籤尺寸統一，但署名方式依個人選擇。",
+          "id": "d55-q5",
+          "options": [
+            "She uses equal-size labels while allowing different name choices.",
+            "She requires full names from everyone.",
+            "She removes all drawings with nicknames.",
+            "She changes every student's choice herself."
+          ],
+          "prompt": "How does Jess keep the final display organized?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "A class wants to display drawings from its art project in the school hallway. Jess collects everyone's pictures and begins a poster with each artist's full name underneath. She thinks names will make the display feel more personal and celebrate everybody's work.\n\nOne classmate asks to use a nickname instead. Another is happy to show the drawing but prefers no name at all. Jess worries that different labels will look untidy. The teacher suggests asking each artist how they want their work identified.\n\nJess makes three choices on a form: full name, nickname, or no name. She also asks permission to display each drawing. A student may keep a drawing out of the hallway without losing credit for completing the class project.\n\nThe final poster uses labels of the same size but different naming choices. Jess adds a small card inviting visitors to enjoy the artwork. She discovers that a shared display can look organized while still respecting individual decisions.",
+          "explanation": "共同展示與個人意願可兼顧。",
+          "id": "d55-q6",
+          "options": [
+            "Permission is needed only after public display.",
+            "A tidy poster requires everyone's full name.",
+            "Students without labels should receive no credit.",
+            "A shared project can respect individual choices."
+          ],
+          "prompt": "What does Jess learn?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "A class wants to display drawings from its art project in the school hallway. Jess collects everyone's pictures and begins a poster with each artist's full name underneath. She thinks names will make the display feel more personal and celebrate everybody's work.\n\nOne classmate asks to use a nickname instead. Another is happy to show the drawing but prefers no name at all. Jess worries that different labels will look untidy. The teacher suggests asking each artist how they want their work identified.\n\nJess makes three choices on a form: full name, nickname, or no name. She also asks permission to display each drawing. A student may keep a drawing out of the hallway without losing credit for completing the class project.\n\nThe final poster uses labels of the same size but different naming choices. Jess adds a small card inviting visitors to enjoy the artwork. She discovers that a shared display can look organized while still respecting individual decisions.",
+      "title": "The Poster with No Names",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "A class wants to display drawings from its art project in the school hallway.",
+          "meaning": "展示",
+          "word": "display"
+        },
+        {
+          "example": "One classmate asks to use a nickname instead.",
+          "meaning": "暱稱",
+          "word": "nickname"
+        },
+        {
+          "example": "The teacher suggests asking each artist how they want their work identified.",
+          "meaning": "辨識",
+          "word": "identified"
+        },
+        {
+          "example": "She also asks permission to display each drawing.",
+          "meaning": "同意",
+          "word": "permission"
+        },
+        {
+          "example": "She discovers that a shared display can look organized while still respecting individual decisions.",
+          "meaning": "個人的",
+          "word": "individual"
+        }
+      ]
+    }
+  ]
+}

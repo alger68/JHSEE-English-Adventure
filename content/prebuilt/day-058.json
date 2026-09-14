@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-29",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 58,
+      "goal": "找出實驗中的混淆條件與改善方法。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "並排",
+          "phrase": "side by side"
+        },
+        {
+          "meaning": "單憑它自己",
+          "phrase": "by itself"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Three students want to compare drying times for two kinds of cloth. They wet one cotton square and one thick towel, then hang both in the classroom. The cotton square is small, while the towel is four times larger and holds much more water.",
+          "explanation": "第一段指出大小與含水量均不同。",
+          "id": "d58-q1",
+          "options": [
+            "They are identical in every way.",
+            "In size and how much water they hold.",
+            "Only in the hour they start.",
+            "Only in the classroom they use."
+          ],
+          "prompt": "How do the original test objects differ?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "After an hour, the square feels dry and the towel is still damp. One student announces that cotton always dries faster than every towel. The others ask whether the test really compared just the material, since several conditions were different.",
+          "explanation": "第二段記載的觸感結果如此。",
+          "id": "d58-q2",
+          "options": [
+            "Both objects are completely dry.",
+            "Neither object has been checked.",
+            "The small square feels dry and the towel is damp.",
+            "The towel has lost its label."
+          ],
+          "prompt": "What is true after the first hour?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Three students want to compare drying times for two kinds of cloth. They wet one cotton square and one thick towel, then hang both in the classroom. The cotton square is small, while the towel is four times larger and holds much more water.\n\nAfter an hour, the square feels dry and the towel is still damp. One student announces that cotton always dries faster than every towel. The others ask whether the test really compared just the material, since several conditions were different.\n\nThey decide to try equal-size pieces and add equal amounts of water. They will hang them side by side in the same room and check both at fixed intervals. They also plan to repeat the test before making a stronger statement.\n\nThe first result still belongs in their notebook. It describes what happened to those two wet objects. However, it cannot by itself show which single difference caused the drying times. A better question leads to a fairer comparison.",
+          "explanation": "多個條件同時不同，不能歸因單一材料。",
+          "id": "d58-q3",
+          "options": [
+            "The notebook cannot hold two measurements.",
+            "Cloth can never be tested indoors.",
+            "The students recorded no result at all.",
+            "Several differences could explain the result."
+          ],
+          "prompt": "Why is the first broad claim weak?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "After an hour, the square feels dry and the towel is still damp. One student announces that cotton always dries faster than every towel. The others ask whether the test really compared just the material, since several conditions were different.",
+          "explanation": "與乾燥對比，指仍帶有水分。",
+          "id": "d58-q4",
+          "options": [
+            "Completely missing.",
+            "Very colorful.",
+            "Folded into a square.",
+            "Still slightly wet."
+          ],
+          "prompt": "What does 'damp' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "They decide to try equal-size pieces and add equal amounts of water. They will hang them side by side in the same room and check both at fixed intervals. They also plan to repeat the test before making a stronger statement.",
+          "explanation": "讓大小、含水及環境等條件可比較。",
+          "id": "d58-q5",
+          "options": [
+            "A different room and starting time for each piece.",
+            "A tiny piece near a fan and a large towel in a cupboard.",
+            "One dry piece compared with one wet piece.",
+            "Equal-size pieces with equal water, checked together."
+          ],
+          "prompt": "Which revised setup is fairer?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "The first result still belongs in their notebook. It describes what happened to those two wet objects. However, it cannot by itself show which single difference caused the drying times. A better question leads to a fairer comparison.",
+          "explanation": "結果可保留，但須限制結論範圍。",
+          "id": "d58-q6",
+          "options": [
+            "Erase it because it is not a perfect test.",
+            "Use it to prove the material is always best.",
+            "Keep it but state its limits.",
+            "Change the recorded time to match their guess."
+          ],
+          "prompt": "What should students do with the first result?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Three students want to compare drying times for two kinds of cloth. They wet one cotton square and one thick towel, then hang both in the classroom. The cotton square is small, while the towel is four times larger and holds much more water.\n\nAfter an hour, the square feels dry and the towel is still damp. One student announces that cotton always dries faster than every towel. The others ask whether the test really compared just the material, since several conditions were different.\n\nThey decide to try equal-size pieces and add equal amounts of water. They will hang them side by side in the same room and check both at fixed intervals. They also plan to repeat the test before making a stronger statement.\n\nThe first result still belongs in their notebook. It describes what happened to those two wet objects. However, it cannot by itself show which single difference caused the drying times. A better question leads to a fairer comparison.",
+      "title": "The Towel Drying Test",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "Three students want to compare drying times for two kinds of cloth.",
+          "meaning": "布",
+          "word": "cloth"
+        },
+        {
+          "example": "After an hour, the square feels dry and the towel is still damp.",
+          "meaning": "潮濕的",
+          "word": "damp"
+        },
+        {
+          "example": "The others ask whether the test really compared just the material, since several conditions were different.",
+          "meaning": "材料",
+          "word": "material"
+        },
+        {
+          "example": "They will hang them side by side in the same room and check both at fixed intervals.",
+          "meaning": "間隔",
+          "word": "intervals"
+        },
+        {
+          "example": "However, it cannot by itself show which single difference caused the drying times.",
+          "meaning": "造成",
+          "word": "caused"
+        }
+      ]
+    }
+  ]
+}

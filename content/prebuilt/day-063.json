@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-03",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 63,
+      "goal": "從候位與服務長度安排日常時間。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "排進",
+          "phrase": "fit into"
+        },
+        {
+          "meaning": "改天",
+          "phrase": "another day"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "At a small hair salon, Dani asks for a haircut before meeting her aunt at noon. It is eleven ten. The stylist says the next appointment starts at eleven forty, but a simple haircut can fit into the empty half hour if Dani is ready now.",
+          "explanation": "後一位預約從 11:40 開始。",
+          "id": "d63-q1",
+          "options": [
+            "At 11:10.",
+            "At noon.",
+            "At 11:40.",
+            "At 11:30."
+          ],
+          "prompt": "When does the next appointment start?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Dani also wants a wash and a careful new style. Together, those services would take fifty minutes. The stylist explains that accepting the longer request now would delay the customer who already booked eleven forty. Dani cannot reserve someone else's time by arriving earlier.",
+          "explanation": "洗髮加新造型共五十分鐘。",
+          "id": "d63-q2",
+          "options": [
+            "Thirty minutes.",
+            "Ten minutes.",
+            "Fifty minutes.",
+            "Twenty minutes."
+          ],
+          "prompt": "How long would the longer service take?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "At a small hair salon, Dani asks for a haircut before meeting her aunt at noon. It is eleven ten. The stylist says the next appointment starts at eleven forty, but a simple haircut can fit into the empty half hour if Dani is ready now.\n\nDani also wants a wash and a careful new style. Together, those services would take fifty minutes. The stylist explains that accepting the longer request now would delay the customer who already booked eleven forty. Dani cannot reserve someone else's time by arriving earlier.\n\nShe chooses the simple haircut, which takes twenty minutes, and plans the new style for another day. Before sitting down, she confirms that the price is for the haircut alone. The stylist writes the service and price on a small card.\n\nDani finishes at eleven thirty and has time for the ten-minute walk to meet her aunt. She is pleased that the salon explained the choices clearly. A free chair does not always mean a worker has an unlimited opening.",
+          "explanation": "空檔三十分鐘，不足完整五十分鐘服務。",
+          "id": "d63-q3",
+          "options": [
+            "It would overlap the next customer's booked time.",
+            "The aunt is waiting inside the salon.",
+            "Dani has already paid for another day.",
+            "The salon has no chairs."
+          ],
+          "prompt": "Why does the stylist refuse the full service now?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Dani finishes at eleven thirty and has time for the ten-minute walk to meet her aunt. She is pleased that the salon explained the choices clearly. A free chair does not always mean a worker has an unlimited opening.",
+          "explanation": "結語指出空椅不代表時段無上限。",
+          "id": "d63-q4",
+          "options": [
+            "Shorter than ten minutes.",
+            "Paid for in advance.",
+            "Available only to family.",
+            "Without a fixed limit."
+          ],
+          "prompt": "What does 'unlimited' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Dani finishes at eleven thirty and has time for the ten-minute walk to meet her aunt. She is pleased that the salon explained the choices clearly. A free chair does not always mean a worker has an unlimited opening.",
+          "explanation": "11:30 完成，再走十分鐘到 11:40。",
+          "id": "d63-q5",
+          "options": [
+            "At 12:10.",
+            "At 11:40.",
+            "At noon exactly.",
+            "At 11:20."
+          ],
+          "prompt": "When can Dani reach the meeting place after her simple haircut?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "At a small hair salon, Dani asks for a haircut before meeting her aunt at noon. It is eleven ten. The stylist says the next appointment starts at eleven forty, but a simple haircut can fit into the empty half hour if Dani is ready now.\n\nDani also wants a wash and a careful new style. Together, those services would take fifty minutes. The stylist explains that accepting the longer request now would delay the customer who already booked eleven forty. Dani cannot reserve someone else's time by arriving earlier.\n\nShe chooses the simple haircut, which takes twenty minutes, and plans the new style for another day. Before sitting down, she confirms that the price is for the haircut alone. The stylist writes the service and price on a small card.\n\nDani finishes at eleven thirty and has time for the ten-minute walk to meet her aunt. She is pleased that the salon explained the choices clearly. A free chair does not always mean a worker has an unlimited opening.",
+          "explanation": "核對服務、時間及費用後才能選可行方案。",
+          "id": "d63-q6",
+          "options": [
+            "Ignoring the difference between a haircut and a wash.",
+            "Choosing the longest service regardless of time.",
+            "Knowing service lengths, the next booking, and the price.",
+            "Assuming arrival order cancels all appointments."
+          ],
+          "prompt": "What helps Dani make a suitable choice?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At a small hair salon, Dani asks for a haircut before meeting her aunt at noon. It is eleven ten. The stylist says the next appointment starts at eleven forty, but a simple haircut can fit into the empty half hour if Dani is ready now.\n\nDani also wants a wash and a careful new style. Together, those services would take fifty minutes. The stylist explains that accepting the longer request now would delay the customer who already booked eleven forty. Dani cannot reserve someone else's time by arriving earlier.\n\nShe chooses the simple haircut, which takes twenty minutes, and plans the new style for another day. Before sitting down, she confirms that the price is for the haircut alone. The stylist writes the service and price on a small card.\n\nDani finishes at eleven thirty and has time for the ten-minute walk to meet her aunt. She is pleased that the salon explained the choices clearly. A free chair does not always mean a worker has an unlimited opening.",
+      "title": "The Last Seat at the Salon",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "The stylist says the next appointment starts at eleven forty, but a simple haircut can fit into the empty half hour if Dani is ready now.",
+          "meaning": "預約",
+          "word": "appointment"
+        },
+        {
+          "example": "The stylist says the next appointment starts at eleven forty, but a simple haircut can fit into the empty half hour if Dani is ready now.",
+          "meaning": "髮型師",
+          "word": "stylist"
+        },
+        {
+          "example": "The stylist explains that accepting the longer request now would delay the customer who already booked eleven forty.",
+          "meaning": "延誤",
+          "word": "delay"
+        },
+        {
+          "example": "Before sitting down, she confirms that the price is for the haircut alone.",
+          "meaning": "確認",
+          "word": "confirms"
+        },
+        {
+          "example": "A free chair does not always mean a worker has an unlimited opening.",
+          "meaning": "無限制的",
+          "word": "unlimited"
+        }
+      ]
+    }
+  ]
+}
