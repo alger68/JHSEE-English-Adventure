@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-25",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 146,
+      "goal": "理解學習工具差異與相同任務目標。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "較大的字體",
+          "phrase": "larger print"
+        },
+        {
+          "meaning": "學習目標",
+          "phrase": "learning goal"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "During a reading activity, the teacher gives Nico a larger-print copy of the same story the class is using. His classmates have standard-size pages. One student asks whether the bigger sheet includes easier questions or extra hints, because it looks different from everyone else's worksheet.\n\nThe teacher shows that the text and questions are the same. The larger print changes how the material is presented, not what students are asked to understand. Nico can also move his page closer without affecting another student's work.\n\nAfter the activity, the class discusses other tools that help people read: a quiet seat, a line marker, or a clear copy without blurred letters. The teacher does not ask anyone to explain private reasons for using a particular aid.\n\nThe students compare answers by citing the story rather than the size of their pages. The discussion helps them focus on the learning goal. Different ways of accessing the same material need not mean that the thinking task has been changed.",
+          "explanation": "改字體大小，文章與題目相同。",
+          "id": "d146-q1",
+          "options": [
+            "Every question's answer.",
+            "The number of required ideas.",
+            "The print size.",
+            "The story's meaning."
+          ],
+          "prompt": "What differs in Nico's copy?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The students compare answers by citing the story rather than the size of their pages. The discussion helps them focus on the learning goal. Different ways of accessing the same material need not mean that the thinking task has been changed.",
+          "explanation": "最後一段以原文證據核對答案。",
+          "id": "d146-q2",
+          "options": [
+            "By citing the story.",
+            "By choosing whoever has the largest sheet.",
+            "By asking for private explanations.",
+            "By measuring page sizes."
+          ],
+          "prompt": "How do students compare answers?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The teacher shows that the text and questions are the same. The larger print changes how the material is presented, not what students are asked to understand. Nico can also move his page closer without affecting another student's work.",
+          "explanation": "呈現形式與理解任務可分開。",
+          "id": "d146-q3",
+          "options": [
+            "Presentation can change without changing the text or questions.",
+            "Nico has no questions to answer.",
+            "Every student uses a different story.",
+            "Larger paper automatically gives correct answers."
+          ],
+          "prompt": "Why can the task remain the same despite different pages?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "After the activity, the class discusses other tools that help people read: a quiet seat, a line marker, or a clear copy without blurred letters. The teacher does not ask anyone to explain private reasons for using a particular aid.",
+          "explanation": "安靜座位或行標等協助閱讀的工具。",
+          "id": "d146-q4",
+          "options": [
+            "A secret answer sheet.",
+            "An exam score prediction.",
+            "A different story ending.",
+            "Something that helps a person perform a task."
+          ],
+          "prompt": "What does 'aid' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "After the activity, the class discusses other tools that help people read: a quiet seat, a line marker, or a clear copy without blurred letters. The teacher does not ask anyone to explain private reasons for using a particular aid.",
+          "explanation": "第三段明确不要求說私人原因。",
+          "id": "d146-q5",
+          "options": [
+            "The teacher does not require students to explain private reasons for aids.",
+            "Only Nico may use any reading tool.",
+            "Every student must disclose a personal history.",
+            "Page size reveals the full reason for an aid."
+          ],
+          "prompt": "Which statement is supported about privacy?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "During a reading activity, the teacher gives Nico a larger-print copy of the same story the class is using. His classmates have standard-size pages. One student asks whether the bigger sheet includes easier questions or extra hints, because it looks different from everyone else's worksheet.\n\nThe teacher shows that the text and questions are the same. The larger print changes how the material is presented, not what students are asked to understand. Nico can also move his page closer without affecting another student's work.\n\nAfter the activity, the class discusses other tools that help people read: a quiet seat, a line marker, or a clear copy without blurred letters. The teacher does not ask anyone to explain private reasons for using a particular aid.\n\nThe students compare answers by citing the story rather than the size of their pages. The discussion helps them focus on the learning goal. Different ways of accessing the same material need not mean that the thinking task has been changed.",
+          "explanation": "聚焦共同閱讀目標，而非以形式差異判任務難易。",
+          "id": "d146-q6",
+          "options": [
+            "The assumption that different formatting means easier thinking.",
+            "The shared understanding goal and evidence in the text.",
+            "A ranking based on paper size.",
+            "Private reasons unrelated to the reading answers."
+          ],
+          "prompt": "What does the class learn to focus on?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "During a reading activity, the teacher gives Nico a larger-print copy of the same story the class is using. His classmates have standard-size pages. One student asks whether the bigger sheet includes easier questions or extra hints, because it looks different from everyone else's worksheet.\n\nThe teacher shows that the text and questions are the same. The larger print changes how the material is presented, not what students are asked to understand. Nico can also move his page closer without affecting another student's work.\n\nAfter the activity, the class discusses other tools that help people read: a quiet seat, a line marker, or a clear copy without blurred letters. The teacher does not ask anyone to explain private reasons for using a particular aid.\n\nThe students compare answers by citing the story rather than the size of their pages. The discussion helps them focus on the learning goal. Different ways of accessing the same material need not mean that the thinking task has been changed.",
+      "title": "A Larger Page for the Same Story",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "His classmates have standard-size pages.",
+          "meaning": "標準的",
+          "word": "standard"
+        },
+        {
+          "example": "The larger print changes how the material is presented, not what students are asked to understand.",
+          "meaning": "呈現的",
+          "word": "presented"
+        },
+        {
+          "example": "After the activity, the class discusses other tools that help people read: a quiet seat, a line marker, or a clear copy without blurred letters.",
+          "meaning": "模糊的",
+          "word": "blurred"
+        },
+        {
+          "example": "The teacher does not ask anyone to explain private reasons for using a particular aid.",
+          "meaning": "輔助工具",
+          "word": "aid"
+        },
+        {
+          "example": "The students compare answers by citing the story rather than the size of their pages.",
+          "meaning": "引用",
+          "word": "citing"
+        }
+      ]
+    }
+  ]
+}

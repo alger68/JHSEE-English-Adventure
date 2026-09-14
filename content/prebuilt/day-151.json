@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-30",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 151,
+      "goal": "跨書目特徵與讀者需求做選擇。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "不介意",
+          "phrase": "does not mind"
+        },
+        {
+          "meaning": "沒有插圖",
+          "phrase": "without illustrations"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "BOOK CARDS: Harbor Secret is an illustrated mystery story with eighty pages. Animals Nearby is a factual guide with one hundred and twenty pages, maps, and animal photographs. Beyond the Clouds is a ninety-page factual space guide with no pictures. All three are available from the library.",
+          "explanation": "第一書卡為附插圖推理故事。",
+          "id": "d151-q1",
+          "options": [
+            "All three titles.",
+            "Beyond the Clouds.",
+            "Harbor Secret.",
+            "Animals Nearby."
+          ],
+          "prompt": "Which title is a mystery story?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "BOOK CARDS: Harbor Secret is an illustrated mystery story with eighty pages. Animals Nearby is a factual guide with one hundred and twenty pages, maps, and animal photographs. Beyond the Clouds is a ninety-page factual space guide with no pictures. All three are available from the library.",
+          "explanation": "動物指南120頁。",
+          "id": "d151-q2",
+          "options": [
+            "One hundred pages.",
+            "Ninety pages.",
+            "Eighty pages.",
+            "One hundred and twenty pages."
+          ],
+          "prompt": "How long is Animals Nearby?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "BOOK CARDS: Harbor Secret is an illustrated mystery story with eighty pages. Animals Nearby is a factual guide with one hundred and twenty pages, maps, and animal photographs. Beyond the Clouds is a ninety-page factual space guide with no pictures. All three are available from the library.\n\nREADER NOTES: Jo wants fiction under one hundred pages with pictures. Ren wants factual information about local animals and does not mind a longer book. Lin wants a factual book under one hundred pages and is comfortable reading without illustrations.\n\nGROUP REQUEST: The three first hope to borrow one title that satisfies all their needs. Their teacher asks them to compare the cards before assuming such a title exists. They may instead borrow separate books and share one interesting idea at next week's reading circle.\n\nJo selects Harbor Secret, Ren chooses Animals Nearby, and Lin takes Beyond the Clouds. Each writes which features supported the choice. A book can suit one reader without meeting another reader's current purpose, so the group does not label the unchosen titles bad.",
+          "explanation": "Jo要虛構、少於100頁、有圖；Harbor符合。",
+          "id": "d151-q3",
+          "options": [
+            "None of them.",
+            "Animals Nearby.",
+            "Beyond the Clouds.",
+            "Harbor Secret."
+          ],
+          "prompt": "Which book meets Jo's stated requirements?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "READER NOTES: Jo wants fiction under one hundred pages with pictures. Ren wants factual information about local animals and does not mind a longer book. Lin wants a factual book under one hundred pages and is comfortable reading without illustrations.",
+          "explanation": "Ren重動物實際知識且不介意較長。",
+          "id": "d151-q4",
+          "options": [
+            "Ren wants only fiction.",
+            "Its subject and factual content match, and Ren accepts a longer book.",
+            "The page count is unknown.",
+            "Ren requires every book to be under one hundred pages."
+          ],
+          "prompt": "Why is the longer animal book still suitable for Ren?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "BOOK CARDS: Harbor Secret is an illustrated mystery story with eighty pages. Animals Nearby is a factual guide with one hundred and twenty pages, maps, and animal photographs. Beyond the Clouds is a ninety-page factual space guide with no pictures. All three are available from the library.",
+          "explanation": "太空指南明載no pictures。",
+          "id": "d151-q5",
+          "options": [
+            "Harbor Secret.",
+            "Beyond the Clouds.",
+            "Animals Nearby.",
+            "None of the books."
+          ],
+          "prompt": "Which book has no pictures?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "BOOK CARDS: Harbor Secret is an illustrated mystery story with eighty pages. Animals Nearby is a factual guide with one hundred and twenty pages, maps, and animal photographs. Beyond the Clouds is a ninety-page factual space guide with no pictures. All three are available from the library.\n\nREADER NOTES: Jo wants fiction under one hundred pages with pictures. Ren wants factual information about local animals and does not mind a longer book. Lin wants a factual book under one hundred pages and is comfortable reading without illustrations.\n\nGROUP REQUEST: The three first hope to borrow one title that satisfies all their needs. Their teacher asks them to compare the cards before assuming such a title exists. They may instead borrow separate books and share one interesting idea at next week's reading circle.\n\nJo selects Harbor Secret, Ren chooses Animals Nearby, and Lin takes Beyond the Clouds. Each writes which features supported the choice. A book can suit one reader without meeting another reader's current purpose, so the group does not label the unchosen titles bad.",
+          "explanation": "需求本身不同，書卡沒有一書同時滿足。",
+          "id": "d151-q6",
+          "options": [
+            "The library forbids group reading.",
+            "All readers want exactly the same title.",
+            "Jo needs fiction, while Ren and Lin require factual books with different subjects and length needs.",
+            "Every book is already borrowed."
+          ],
+          "prompt": "Why is there no single book satisfying all three sets of needs?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "BOOK CARDS: Harbor Secret is an illustrated mystery story with eighty pages. Animals Nearby is a factual guide with one hundred and twenty pages, maps, and animal photographs. Beyond the Clouds is a ninety-page factual space guide with no pictures. All three are available from the library.",
+          "explanation": "與pictures/illustrations語境对应有插圖。",
+          "id": "d151-q7",
+          "options": [
+            "Written only as a list of facts.",
+            "Unavailable for borrowing.",
+            "Longer than a hundred pages.",
+            "Containing pictures."
+          ],
+          "prompt": "What does 'illustrated' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "BOOK CARDS: Harbor Secret is an illustrated mystery story with eighty pages. Animals Nearby is a factual guide with one hundred and twenty pages, maps, and animal photographs. Beyond the Clouds is a ninety-page factual space guide with no pictures. All three are available from the library.\n\nREADER NOTES: Jo wants fiction under one hundred pages with pictures. Ren wants factual information about local animals and does not mind a longer book. Lin wants a factual book under one hundred pages and is comfortable reading without illustrations.\n\nGROUP REQUEST: The three first hope to borrow one title that satisfies all their needs. Their teacher asks them to compare the cards before assuming such a title exists. They may instead borrow separate books and share one interesting idea at next week's reading circle.\n\nJo selects Harbor Secret, Ren chooses Animals Nearby, and Lin takes Beyond the Clouds. Each writes which features supported the choice. A book can suit one reader without meeting another reader's current purpose, so the group does not label the unchosen titles bad.",
+          "explanation": "太空無圖；動物超頁數；Harbor虛構，皆不符合全條件。",
+          "id": "d151-q8",
+          "options": [
+            "None.",
+            "Harbor Secret.",
+            "Animals Nearby.",
+            "Beyond the Clouds."
+          ],
+          "prompt": "If Lin adds a strict requirement for pictures while keeping all other needs, which listed book fits?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Jo selects Harbor Secret, Ren chooses Animals Nearby, and Lin takes Beyond the Clouds. Each writes which features supported the choice. A book can suit one reader without meeting another reader's current purpose, so the group does not label the unchosen titles bad.",
+          "explanation": "選擇是符合個別目的，不是把未選者判為差。",
+          "id": "d151-q9",
+          "options": [
+            "The shortest book must be best for everyone.",
+            "Evaluate fit for a reader's purpose rather than treating one choice as universally best.",
+            "A factual book cannot be discussed in a circle.",
+            "Unchosen books are poor books."
+          ],
+          "prompt": "What does the group learn about choosing books?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "BOOK CARDS: Harbor Secret is an illustrated mystery story with eighty pages. Animals Nearby is a factual guide with one hundred and twenty pages, maps, and animal photographs. Beyond the Clouds is a ninety-page factual space guide with no pictures. All three are available from the library.\n\nREADER NOTES: Jo wants fiction under one hundred pages with pictures. Ren wants factual information about local animals and does not mind a longer book. Lin wants a factual book under one hundred pages and is comfortable reading without illustrations.\n\nGROUP REQUEST: The three first hope to borrow one title that satisfies all their needs. Their teacher asks them to compare the cards before assuming such a title exists. They may instead borrow separate books and share one interesting idea at next week's reading circle.\n\nJo selects Harbor Secret, Ren chooses Animals Nearby, and Lin takes Beyond the Clouds. Each writes which features supported the choice. A book can suit one reader without meeting another reader's current purpose, so the group does not label the unchosen titles bad.",
+      "title": "Boss: A Book for Each Reader",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "BOOK CARDS: Harbor Secret is an illustrated mystery story with eighty pages.",
+          "meaning": "附插圖的",
+          "word": "illustrated"
+        },
+        {
+          "example": "Animals Nearby is a factual guide with one hundred and twenty pages, maps, and animal photographs.",
+          "meaning": "寫實資訊的",
+          "word": "factual"
+        },
+        {
+          "example": "READER NOTES: Jo wants fiction under one hundred pages with pictures.",
+          "meaning": "虛構作品",
+          "word": "fiction"
+        },
+        {
+          "example": "GROUP REQUEST: The three first hope to borrow one title that satisfies all their needs.",
+          "meaning": "滿足",
+          "word": "satisfies"
+        },
+        {
+          "example": "Each writes which features supported the choice.",
+          "meaning": "特色",
+          "word": "features"
+        }
+      ]
+    }
+  ]
+}

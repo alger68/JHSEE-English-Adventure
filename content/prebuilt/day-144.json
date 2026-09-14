@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-23",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 144,
+      "goal": "整合桌位、人數與候補狀態的不同計數。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "與……分開",
+          "phrase": "separately from"
+        },
+        {
+          "meaning": "單憑它自己",
+          "phrase": "by itself"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "RESERVATION LIST: Ten tables seat four people each. Eight families have confirmed one table each. Their group sizes are four, four, three, three, two, two, four, and three. Two more families are on the waiting list, each hoping for a table.",
+          "explanation": "10桌×4人＝40。",
+          "id": "d144-q1",
+          "options": [
+            "Thirty-two people.",
+            "Forty people.",
+            "Twenty-five people.",
+            "Ten people."
+          ],
+          "prompt": "What is the room's maximum seated capacity?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "RESERVATION LIST: Ten tables seat four people each. Eight families have confirmed one table each. Their group sizes are four, four, three, three, two, two, four, and three. Two more families are on the waiting list, each hoping for a table.",
+          "explanation": "八家庭各訂一桌，故八桌。",
+          "id": "d144-q2",
+          "options": [
+            "Ten.",
+            "Eight.",
+            "Four.",
+            "Two."
+          ],
+          "prompt": "How many tables are initially confirmed?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "RESERVATION LIST: Ten tables seat four people each. Eight families have confirmed one table each. Their group sizes are four, four, three, three, two, two, four, and three. Two more families are on the waiting list, each hoping for a table.",
+          "explanation": "4＋4＋3＋3＋2＋2＋4＋3＝25。",
+          "id": "d144-q3",
+          "options": [
+            "Twenty-four.",
+            "Twenty-six.",
+            "Thirty-two.",
+            "Twenty-five."
+          ],
+          "prompt": "How many visitors are initially confirmed?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "ROOM RULE: Empty seats at a confirmed family's table are not automatically separate bookable places. Staff may combine families only with their agreement. The event may still offer tables that have never been reserved, so the desk must track tables separately from people.",
+          "explanation": "未滿桌不等於可直接拆售，須同意併桌。",
+          "id": "d144-q4",
+          "options": [
+            "Waiting families never need chairs.",
+            "Tables can hold only one person.",
+            "Combining families requires staff action and agreement.",
+            "Every empty seat is physically broken."
+          ],
+          "prompt": "Why aren't empty seats automatically available for another family?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "DESK UPDATE: One confirmed family of three cancels before Thursday noon. Staff offer that table to the first waiting family, which has four people and accepts. The second waiting family has two people and has not yet received an offer.",
+          "explanation": "第一候補四人且接受。",
+          "id": "d144-q5",
+          "options": [
+            "Three people.",
+            "Four people.",
+            "Two people.",
+            "One person."
+          ],
+          "prompt": "What size family accepts the canceled table?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "RESERVATION LIST: Ten tables seat four people each. Eight families have confirmed one table each. Their group sizes are four, four, three, three, two, two, four, and three. Two more families are on the waiting list, each hoping for a table.\n\nDESK UPDATE: One confirmed family of three cancels before Thursday noon. Staff offer that table to the first waiting family, which has four people and accepts. The second waiting family has two people and has not yet received an offer.\n\nROOM RULE: Empty seats at a confirmed family's table are not automatically separate bookable places. Staff may combine families only with their agreement. The event may still offer tables that have never been reserved, so the desk must track tables separately from people.\n\nThe organizer asks an assistant to count confirmed tables, confirmed visitors, and unreserved tables after the accepted replacement. The assistant first calls every empty seat available, then corrects the report. A room's physical capacity does not by itself describe the current reservation status.",
+          "explanation": "25－取消3＋新4＝26。",
+          "id": "d144-q6",
+          "options": [
+            "Twenty-five.",
+            "Twenty-two.",
+            "Twenty-six.",
+            "Twenty-eight."
+          ],
+          "prompt": "How many confirmed visitors are there after the replacement?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "ROOM RULE: Empty seats at a confirmed family's table are not automatically separate bookable places. Staff may combine families only with their agreement. The event may still offer tables that have never been reserved, so the desk must track tables separately from people.",
+          "explanation": "尚未被預約的桌位。",
+          "id": "d144-q7",
+          "options": [
+            "Not assigned by a booking.",
+            "Physically unable to hold seats.",
+            "Reserved by two families at once.",
+            "Already canceled after the event."
+          ],
+          "prompt": "What does 'unreserved' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "RESERVATION LIST: Ten tables seat four people each. Eight families have confirmed one table each. Their group sizes are four, four, three, three, two, two, four, and three. Two more families are on the waiting list, each hoping for a table.\n\nDESK UPDATE: One confirmed family of three cancels before Thursday noon. Staff offer that table to the first waiting family, which has four people and accepts. The second waiting family has two people and has not yet received an offer.\n\nROOM RULE: Empty seats at a confirmed family's table are not automatically separate bookable places. Staff may combine families only with their agreement. The event may still offer tables that have never been reserved, so the desk must track tables separately from people.\n\nThe organizer asks an assistant to count confirmed tables, confirmed visitors, and unreserved tables after the accepted replacement. The assistant first calls every empty seat available, then corrects the report. A room's physical capacity does not by itself describe the current reservation status.",
+          "explanation": "確認桌數仍八，十桌中剩二未預約。",
+          "id": "d144-q8",
+          "options": [
+            "Two.",
+            "One.",
+            "Zero.",
+            "Three."
+          ],
+          "prompt": "How many tables remain unreserved after the accepted replacement?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "RESERVATION LIST: Ten tables seat four people each. Eight families have confirmed one table each. Their group sizes are four, four, three, three, two, two, four, and three. Two more families are on the waiting list, each hoping for a table.\n\nDESK UPDATE: One confirmed family of three cancels before Thursday noon. Staff offer that table to the first waiting family, which has four people and accepts. The second waiting family has two people and has not yet received an offer.\n\nROOM RULE: Empty seats at a confirmed family's table are not automatically separate bookable places. Staff may combine families only with their agreement. The event may still offer tables that have never been reserved, so the desk must track tables separately from people.\n\nThe organizer asks an assistant to count confirmed tables, confirmed visitors, and unreserved tables after the accepted replacement. The assistant first calls every empty seat available, then corrects the report. A room's physical capacity does not by itself describe the current reservation status.",
+          "explanation": "須分開桌數、人數與候補狀態，不能由空椅直接推訂位。",
+          "id": "d144-q9",
+          "options": [
+            "All fourteen empty seats are automatically separate confirmed bookings.",
+            "Eight tables and twenty-six visitors are confirmed; two tables remain unreserved.",
+            "The cancellation permanently reduced total room capacity.",
+            "Ten tables are confirmed because two families joined the waiting list."
+          ],
+          "prompt": "Which report is accurate?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "RESERVATION LIST: Ten tables seat four people each. Eight families have confirmed one table each. Their group sizes are four, four, three, three, two, two, four, and three. Two more families are on the waiting list, each hoping for a table.\n\nDESK UPDATE: One confirmed family of three cancels before Thursday noon. Staff offer that table to the first waiting family, which has four people and accepts. The second waiting family has two people and has not yet received an offer.\n\nROOM RULE: Empty seats at a confirmed family's table are not automatically separate bookable places. Staff may combine families only with their agreement. The event may still offer tables that have never been reserved, so the desk must track tables separately from people.\n\nThe organizer asks an assistant to count confirmed tables, confirmed visitors, and unreserved tables after the accepted replacement. The assistant first calls every empty seat available, then corrects the report. A room's physical capacity does not by itself describe the current reservation status.",
+      "title": "Boss: Ten Tables for the Evening",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "A room's physical capacity does not by itself describe the current reservation status.",
+          "meaning": "容量上限",
+          "word": "capacity"
+        },
+        {
+          "example": "The organizer asks an assistant to count confirmed tables, confirmed visitors, and unreserved tables after the accepted replacement.",
+          "meaning": "未預約的",
+          "word": "unreserved"
+        },
+        {
+          "example": "The organizer asks an assistant to count confirmed tables, confirmed visitors, and unreserved tables after the accepted replacement.",
+          "meaning": "替換",
+          "word": "replacement"
+        },
+        {
+          "example": "Eight families have confirmed one table each.",
+          "meaning": "確認的",
+          "word": "confirmed"
+        },
+        {
+          "example": "A room's physical capacity does not by itself describe the current reservation status.",
+          "meaning": "實體的",
+          "word": "physical"
+        }
+      ]
+    }
+  ]
+}

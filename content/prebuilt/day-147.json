@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-26",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 147,
+      "goal": "理解裝置紀錄缺漏與實際行程的差異。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "前後",
+          "phrase": "before and after"
+        },
+        {
+          "meaning": "每一步",
+          "phrase": "every step"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "After a family walk, Lio checks the route drawn by a phone app. Most of the path follows the river, but one section cuts straight across a block of buildings. He knows the family walked around those buildings on the public path and never crossed through them.",
+          "explanation": "那段直穿建築，與實走公共路徑不符。",
+          "id": "d147-q1",
+          "options": [
+            "It cuts through buildings the family walked around.",
+            "It ends before the walk begins.",
+            "It shows no river anywhere.",
+            "It labels every footstep perfectly."
+          ],
+          "prompt": "What is unusual about the app's route line?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The app's signal was weak during that part of the trip. The displayed line connects two recorded points without showing every step between them. Lio first considers telling his friend that the app proved a shortcut exists, then compares the line with his own notes.",
+          "explanation": "第二段寫該處訊號弱。",
+          "id": "d147-q2",
+          "options": [
+            "It became a printed map.",
+            "It was weak.",
+            "It was checked by all neighbors.",
+            "It recorded every step twice."
+          ],
+          "prompt": "What happened to the signal during that section?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The app's signal was weak during that part of the trip. The displayed line connects two recorded points without showing every step between them. Lio first considers telling his friend that the app proved a shortcut exists, then compares the line with his own notes.",
+          "explanation": "記錄缺漏時連點線段不一定是可行路線。",
+          "id": "d147-q3",
+          "options": [
+            "It may simply connect recorded points across a missing section.",
+            "Lio has no other information.",
+            "Every straight line is a road.",
+            "The family actually crossed the buildings."
+          ],
+          "prompt": "Why doesn't the line prove a shortcut exists?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "When sharing the walk, Lio describes the path they actually used and notes the recording gap. A digital line can be a helpful record without being a perfect map of every movement. Checking it against other evidence makes the shared route more trustworthy.",
+          "explanation": "指路線資料未完整記到的部分。",
+          "id": "d147-q4",
+          "options": [
+            "The start of a new river.",
+            "The exact distance of the whole walk.",
+            "A missing part of the record.",
+            "An opening in every building."
+          ],
+          "prompt": "What does 'gap' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "After a family walk, Lio checks the route drawn by a phone app. Most of the path follows the river, but one section cuts straight across a block of buildings. He knows the family walked around those buildings on the public path and never crossed through them.\n\nThe app's signal was weak during that part of the trip. The displayed line connects two recorded points without showing every step between them. Lio first considers telling his friend that the app proved a shortcut exists, then compares the line with his own notes.\n\nHe marks the uncertain section and keeps the time-stamped photos taken before and after it. The total distance shown by the app may be affected by the missing route detail. He does not replace the number with a guess and call it a measurement.\n\nWhen sharing the walk, Lio describes the path they actually used and notes the recording gap. A digital line can be a helpful record without being a perfect map of every movement. Checking it against other evidence makes the shared route more trustworthy.",
+          "explanation": "利用實際記憶與照片核對，標示記錄限制。",
+          "id": "d147-q5",
+          "options": [
+            "Delete every photo because the app must be perfect.",
+            "Present the straight segment as a verified shortcut.",
+            "Describe the actual public path and note the uncertain recording section.",
+            "Change the distance to a guess labeled measured."
+          ],
+          "prompt": "Which sharing method is best supported?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "After a family walk, Lio checks the route drawn by a phone app. Most of the path follows the river, but one section cuts straight across a block of buildings. He knows the family walked around those buildings on the public path and never crossed through them.\n\nThe app's signal was weak during that part of the trip. The displayed line connects two recorded points without showing every step between them. Lio first considers telling his friend that the app proved a shortcut exists, then compares the line with his own notes.\n\nHe marks the uncertain section and keeps the time-stamped photos taken before and after it. The total distance shown by the app may be affected by the missing route detail. He does not replace the number with a guess and call it a measurement.\n\nWhen sharing the walk, Lio describes the path they actually used and notes the recording gap. A digital line can be a helpful record without being a perfect map of every movement. Checking it against other evidence makes the shared route more trustworthy.",
+          "explanation": "工具有用但非完美，與其他證據比對更可靠。",
+          "id": "d147-q6",
+          "options": [
+            "Every app line is a flawless physical route.",
+            "Useful digital records still need interpretation and checks.",
+            "A missing signal makes the whole walk fictional.",
+            "Human notes must be ignored when an app exists."
+          ],
+          "prompt": "What is the passage's main idea?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "After a family walk, Lio checks the route drawn by a phone app. Most of the path follows the river, but one section cuts straight across a block of buildings. He knows the family walked around those buildings on the public path and never crossed through them.\n\nThe app's signal was weak during that part of the trip. The displayed line connects two recorded points without showing every step between them. Lio first considers telling his friend that the app proved a shortcut exists, then compares the line with his own notes.\n\nHe marks the uncertain section and keeps the time-stamped photos taken before and after it. The total distance shown by the app may be affected by the missing route detail. He does not replace the number with a guess and call it a measurement.\n\nWhen sharing the walk, Lio describes the path they actually used and notes the recording gap. A digital line can be a helpful record without being a perfect map of every movement. Checking it against other evidence makes the shared route more trustworthy.",
+      "title": "The Walk with a Gap in the Line",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "The app's signal was weak during that part of the trip.",
+          "meaning": "訊號",
+          "word": "signal"
+        },
+        {
+          "example": "The displayed line connects two recorded points without showing every step between them.",
+          "meaning": "記錄的",
+          "word": "recorded"
+        },
+        {
+          "example": "He marks the uncertain section and keeps the time-stamped photos taken before and after it.",
+          "meaning": "不確定的",
+          "word": "uncertain"
+        },
+        {
+          "example": "When sharing the walk, Lio describes the path they actually used and notes the recording gap.",
+          "meaning": "缺口",
+          "word": "gap"
+        },
+        {
+          "example": "Checking it against other evidence makes the shared route more trustworthy.",
+          "meaning": "可信的",
+          "word": "trustworthy"
+        }
+      ]
+    }
+  ]
+}

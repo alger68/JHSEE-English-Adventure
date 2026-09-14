@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-01",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 153,
+      "goal": "從讀者反應調整標示，區別熟悉與清楚。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "清楚直白的說明",
+          "phrase": "plain explanation"
+        },
+        {
+          "meaning": "而非猜測",
+          "phrase": "instead of guessing"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "The school opens a new room for fixing small household objects and learning simple craft skills. Club members call it the Spark Lab, a name they have used for months. Their opening poster says Visit the Spark Lab at lunch, but several younger students walk past without understanding what happens there.",
+          "explanation": "首段說小物修理與簡單手作。",
+          "id": "d153-q1",
+          "options": [
+            "Only chemistry experiments.",
+            "Repairing small objects and learning craft skills.",
+            "Replacing every household appliance.",
+            "Selling school lunches."
+          ],
+          "prompt": "What activities does the new room support?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The revised poster reads Spark Lab: repair small objects, learn basic tools, and ask before borrowing equipment. It also lists the room number and opening days. Younger students begin asking specific questions about broken pencil cases and loose buttons instead of guessing whether the room teaches chemistry.",
+          "explanation": "修訂加入用途、位置、開放日。",
+          "id": "d153-q2",
+          "options": [
+            "A rule that younger students cannot enter.",
+            "Only a larger Spark Lab logo.",
+            "A plain activity description, room number, and opening days.",
+            "Every member's private contact information."
+          ],
+          "prompt": "What does the revised poster add?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Luan suggests adding a plain explanation under the name. Some members worry that explaining the familiar name will make the poster less exciting. Their teacher asks whether the intended visitors share the group's background knowledge. A name can feel obvious to insiders and still be unclear to others.",
+          "explanation": "內部熟悉的名稱不一定向外清楚。",
+          "id": "d153-q3",
+          "options": [
+            "Plain language always removes interest.",
+            "They may lack the members' shared background knowledge.",
+            "Every visitor already attends the club.",
+            "The name has no letters."
+          ],
+          "prompt": "Why is the original name not enough for new visitors?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Luan suggests adding a plain explanation under the name. Some members worry that explaining the familiar name will make the poster less exciting. Their teacher asks whether the intended visitors share the group's background knowledge. A name can feel obvious to insiders and still be unclear to others.",
+          "explanation": "已在團體內且熟悉背景的人。",
+          "id": "d153-q4",
+          "options": [
+            "Visitors from every nearby town.",
+            "Anyone holding a chemistry textbook.",
+            "People already familiar with the club and its name.",
+            "Students who only pass the door once."
+          ],
+          "prompt": "Who are 'insiders' here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The revised poster reads Spark Lab: repair small objects, learn basic tools, and ask before borrowing equipment. It also lists the room number and opening days. Younger students begin asking specific questions about broken pencil cases and loose buttons instead of guessing whether the room teaches chemistry.",
+          "explanation": "問題開始對應實際服務，顯示理解改善。",
+          "id": "d153-q5",
+          "options": [
+            "All visitors already knew the name before revision.",
+            "Nobody enters or asks questions.",
+            "The club changes its name every day.",
+            "Students ask about relevant repair tasks instead of guessing chemistry."
+          ],
+          "prompt": "What evidence suggests the revised poster helps?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "The members keep their name and add useful information. Luan learns that clarity need not remove personality: it helps readers connect an unfamiliar label with an action they understand.",
+          "explanation": "名稱特色與清楚說明可兼具。",
+          "id": "d153-q6",
+          "options": [
+            "Keep a distinctive name while explaining its useful meaning to newcomers.",
+            "A logo is a substitute for activity information.",
+            "Insider knowledge can be assumed for all readers.",
+            "Every interesting name must be removed."
+          ],
+          "prompt": "What does Luan learn?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The school opens a new room for fixing small household objects and learning simple craft skills. Club members call it the Spark Lab, a name they have used for months. Their opening poster says Visit the Spark Lab at lunch, but several younger students walk past without understanding what happens there.\n\nLuan suggests adding a plain explanation under the name. Some members worry that explaining the familiar name will make the poster less exciting. Their teacher asks whether the intended visitors share the group's background knowledge. A name can feel obvious to insiders and still be unclear to others.\n\nThe revised poster reads Spark Lab: repair small objects, learn basic tools, and ask before borrowing equipment. It also lists the room number and opening days. Younger students begin asking specific questions about broken pencil cases and loose buttons instead of guessing whether the room teaches chemistry.\n\nThe members keep their name and add useful information. Luan learns that clarity need not remove personality: it helps readers connect an unfamiliar label with an action they understand.",
+      "title": "The Club Name Nobody Understood",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "The school opens a new room for fixing small household objects and learning simple craft skills.",
+          "meaning": "家用的",
+          "word": "household"
+        },
+        {
+          "example": "Their teacher asks whether the intended visitors share the group's background knowledge.",
+          "meaning": "預期的",
+          "word": "intended"
+        },
+        {
+          "example": "A name can feel obvious to insiders and still be unclear to others.",
+          "meaning": "圈內人",
+          "word": "insiders"
+        },
+        {
+          "example": "Their teacher asks whether the intended visitors share the group's background knowledge.",
+          "meaning": "背景",
+          "word": "background"
+        },
+        {
+          "example": "Luan learns that clarity need not remove personality: it helps readers connect an unfamiliar label with an action they understand.",
+          "meaning": "個性",
+          "word": "personality"
+        }
+      ]
+    }
+  ]
+}

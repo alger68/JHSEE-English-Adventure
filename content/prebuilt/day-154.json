@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-02",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 154,
+      "goal": "用位置與時機推論提醒效果。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "正要離開",
+          "phrase": "about to leave"
+        },
+        {
+          "meaning": "只依賴記憶",
+          "phrase": "relying on memory alone"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "After forgetting her reusable lunch box twice, Miki writes Bring the Box on a note above her bedroom desk. She sees it while doing homework, but by the time she leaves for school the next morning, the lunch box is still drying in the kitchen.",
+          "explanation": "第一張紙在臥室書桌上方。",
+          "id": "d154-q1",
+          "options": [
+            "Above her bedroom desk.",
+            "At the bus stop.",
+            "Inside the classroom printer.",
+            "On the schoolbag handle."
+          ],
+          "prompt": "Where is Miki's first reminder?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "She still checks that the box is clean and closed rather than treating the note as proof that everything is ready. When the box is drying, she turns the note over to show Not packed yet. This makes the preparation status visible instead of relying on memory alone.",
+          "explanation": "反面顯示尚未裝包，表明進度。",
+          "id": "d154-q2",
+          "options": [
+            "No lunch today.",
+            "Everything is ready.",
+            "Not packed yet.",
+            "Leave the box forever."
+          ],
+          "prompt": "What does the reversed note say when the box is still drying?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Her brother suggests moving the reminder to a place connected with the action. Miki puts a clean box beside her schoolbag each evening and leaves a small note on the bag's handle. The next morning, the note appears at the moment she is about to leave.",
+          "explanation": "提醒位置與準備離家的行動時間相連。",
+          "id": "d154-q3",
+          "options": [
+            "It removes every need to check the box.",
+            "She sees it when performing the relevant leaving action.",
+            "It guarantees success for every student.",
+            "It makes the kitchen dry faster."
+          ],
+          "prompt": "Why might the schoolbag reminder work better for Miki?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "After a week, Miki has remembered the box each day. This does not prove the method works for everyone. Her reminder fits her own routine by linking the message, place, and time of action.",
+          "explanation": "日常固定做事方式或作息。",
+          "id": "d154-q4",
+          "options": [
+            "A usual pattern of daily activities.",
+            "A written proof of every future action.",
+            "A single unusual school holiday.",
+            "A box that never needs cleaning."
+          ],
+          "prompt": "What does 'routine' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "She still checks that the box is clean and closed rather than treating the note as proof that everything is ready. When the box is drying, she turns the note over to show Not packed yet. This makes the preparation status visible instead of relying on memory alone.",
+          "explanation": "紙條提醒要查狀態，本身不代表已完成準備。",
+          "id": "d154-q5",
+          "options": [
+            "The box may still need cleaning, drying, or packing.",
+            "The box is always packed before homework.",
+            "A handle never belongs to a schoolbag.",
+            "The note cannot contain readable words."
+          ],
+          "prompt": "Why isn't a reminder proof of readiness?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "After forgetting her reusable lunch box twice, Miki writes Bring the Box on a note above her bedroom desk. She sees it while doing homework, but by the time she leaves for school the next morning, the lunch box is still drying in the kitchen.\n\nHer brother suggests moving the reminder to a place connected with the action. Miki puts a clean box beside her schoolbag each evening and leaves a small note on the bag's handle. The next morning, the note appears at the moment she is about to leave.\n\nShe still checks that the box is clean and closed rather than treating the note as proof that everything is ready. When the box is drying, she turns the note over to show Not packed yet. This makes the preparation status visible instead of relying on memory alone.\n\nAfter a week, Miki has remembered the box each day. This does not prove the method works for everyone. Her reminder fits her own routine by linking the message, place, and time of action.",
+          "explanation": "將訊息、地點與行動時刻連起來更能幫助自己。",
+          "id": "d154-q6",
+          "options": [
+            "Preparation status should never be made visible.",
+            "One successful note proves the best method for everyone.",
+            "A reminder can work better when placed at the right point in a routine.",
+            "Seeing a note once guarantees tomorrow's memory."
+          ],
+          "prompt": "What is the main idea?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "After forgetting her reusable lunch box twice, Miki writes Bring the Box on a note above her bedroom desk. She sees it while doing homework, but by the time she leaves for school the next morning, the lunch box is still drying in the kitchen.\n\nHer brother suggests moving the reminder to a place connected with the action. Miki puts a clean box beside her schoolbag each evening and leaves a small note on the bag's handle. The next morning, the note appears at the moment she is about to leave.\n\nShe still checks that the box is clean and closed rather than treating the note as proof that everything is ready. When the box is drying, she turns the note over to show Not packed yet. This makes the preparation status visible instead of relying on memory alone.\n\nAfter a week, Miki has remembered the box each day. This does not prove the method works for everyone. Her reminder fits her own routine by linking the message, place, and time of action.",
+      "title": "The Second Reminder at the Door",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "After forgetting her reusable lunch box twice, Miki writes Bring the Box on a note above her bedroom desk.",
+          "meaning": "可重複使用的",
+          "word": "reusable"
+        },
+        {
+          "example": "Her brother suggests moving the reminder to a place connected with the action.",
+          "meaning": "提醒",
+          "word": "reminder"
+        },
+        {
+          "example": "Her reminder fits her own routine by linking the message, place, and time of action.",
+          "meaning": "日常作息",
+          "word": "routine"
+        },
+        {
+          "example": "This makes the preparation status visible instead of relying on memory alone.",
+          "meaning": "看得見的",
+          "word": "visible"
+        },
+        {
+          "example": "She still checks that the box is clean and closed rather than treating the note as proof that everything is ready.",
+          "meaning": "證明",
+          "word": "proof"
+        }
+      ]
+    }
+  ]
+}

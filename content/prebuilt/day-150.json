@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-29",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 150,
+      "goal": "辨識服務調整與一般入場规则的關係。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "無階梯路線",
+          "phrase": "step-free routes"
+        },
+        {
+          "meaning": "事先",
+          "phrase": "in advance"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "QUIET MORNING AT THE MUSEUM: On the first Sunday of each month, the museum reduces background music from nine to eleven. Some moving displays run without sound during that period. Visitors who prefer a calmer setting are welcome, but ordinary entry tickets are still required.",
+          "explanation": "指定每月首週日九至十一點。",
+          "id": "d150-q1",
+          "options": [
+            "Every weekday all day.",
+            "Only after normal closing.",
+            "From nine to eleven on the first Sunday.",
+            "From eleven to nine at night."
+          ],
+          "prompt": "When is background music reduced?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Book the quiet-morning time slot online. The booking reserves an arrival period, not a private room or a personal guide. If you need information about step-free routes, contact the desk before visiting. A route map can be sent in advance.",
+          "explanation": "預约只保留抵達時段。",
+          "id": "d150-q2",
+          "options": [
+            "A personal guide.",
+            "A private room.",
+            "A free lifetime ticket.",
+            "An arrival period."
+          ],
+          "prompt": "What does the time-slot booking reserve?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The session does not mean the building will be completely silent. People may speak softly, and the front doors will open and close as usual. A small rest room is available beside the map desk. Please ask staff before entering because its capacity is limited.",
+          "explanation": "公告指出門開關與小聲交談仍存在。",
+          "id": "d150-q3",
+          "options": [
+            "Ordinary doors and quiet conversation still create sounds.",
+            "All exhibits must be louder than usual.",
+            "Every visitor receives a private building.",
+            "The museum has no quiet period."
+          ],
+          "prompt": "Why should visitors avoid assuming complete silence?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "At eleven, the regular display sound resumes. Visitors already inside may remain until the normal closing time. They do not have to leave when the quiet period ends, but the reduced-sound conditions will no longer apply.",
+          "explanation": "十一點恢復一般展品聲音。",
+          "id": "d150-q4",
+          "options": [
+            "Moves outside the museum.",
+            "Becomes a private guide.",
+            "Starts again after an interruption or reduction.",
+            "Stops forever."
+          ],
+          "prompt": "What does 'resumes' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "At eleven, the regular display sound resumes. Visitors already inside may remain until the normal closing time. They do not have to leave when the quiet period ends, but the reduced-sound conditions will no longer apply.",
+          "explanation": "可繼續參觀，低音量條件結束。",
+          "id": "d150-q5",
+          "options": [
+            "They retain a private silent room until closing.",
+            "They may stay, but ordinary sound conditions return.",
+            "They must immediately buy a second ticket.",
+            "They must leave before any door opens."
+          ],
+          "prompt": "What happens to someone already inside at eleven?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "QUIET MORNING AT THE MUSEUM: On the first Sunday of each month, the museum reduces background music from nine to eleven. Some moving displays run without sound during that period. Visitors who prefer a calmer setting are welcome, but ordinary entry tickets are still required.\n\nThe session does not mean the building will be completely silent. People may speak softly, and the front doors will open and close as usual. A small rest room is available beside the map desk. Please ask staff before entering because its capacity is limited.\n\nBook the quiet-morning time slot online. The booking reserves an arrival period, not a private room or a personal guide. If you need information about step-free routes, contact the desk before visiting. A route map can be sent in advance.\n\nAt eleven, the regular display sound resumes. Visitors already inside may remain until the normal closing time. They do not have to leave when the quiet period ends, but the reduced-sound conditions will no longer apply.",
+          "explanation": "調整部分環境，未免除門票或其他限制。",
+          "id": "d150-q6",
+          "options": [
+            "It creates unlimited personal-guide bookings.",
+            "It cancels every capacity rule.",
+            "It guarantees a silent private visit without tickets.",
+            "It changes certain conditions while ordinary entry and other limits still apply."
+          ],
+          "prompt": "What should visitors understand about the session?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "QUIET MORNING AT THE MUSEUM: On the first Sunday of each month, the museum reduces background music from nine to eleven. Some moving displays run without sound during that period. Visitors who prefer a calmer setting are welcome, but ordinary entry tickets are still required.\n\nThe session does not mean the building will be completely silent. People may speak softly, and the front doors will open and close as usual. A small rest room is available beside the map desk. Please ask staff before entering because its capacity is limited.\n\nBook the quiet-morning time slot online. The booking reserves an arrival period, not a private room or a personal guide. If you need information about step-free routes, contact the desk before visiting. A route map can be sent in advance.\n\nAt eleven, the regular display sound resumes. Visitors already inside may remain until the normal closing time. They do not have to leave when the quiet period ends, but the reduced-sound conditions will no longer apply.",
+      "title": "The Quiet Museum Morning",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "QUIET MORNING AT THE MUSEUM: On the first Sunday of each month, the museum reduces background music from nine to eleven.",
+          "meaning": "降低",
+          "word": "reduces"
+        },
+        {
+          "example": "Please ask staff before entering because its capacity is limited.",
+          "meaning": "容量上限",
+          "word": "capacity"
+        },
+        {
+          "example": "The booking reserves an arrival period, not a private room or a personal guide.",
+          "meaning": "抵達",
+          "word": "arrival"
+        },
+        {
+          "example": "At eleven, the regular display sound resumes.",
+          "meaning": "恢復",
+          "word": "resumes"
+        },
+        {
+          "example": "They do not have to leave when the quiet period ends, but the reduced-sound conditions will no longer apply.",
+          "meaning": "條件",
+          "word": "conditions"
+        }
+      ]
+    }
+  ]
+}

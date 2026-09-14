@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-24",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 145,
+      "goal": "複習數據總量、程序狀態與替換。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "少於容量上限",
+          "phrase": "less than capacity"
+        },
+        {
+          "meaning": "同一件事",
+          "phrase": "the same thing"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "The room map shows capacity, the largest number of people its seats can hold. The confirmed visitor list shows reservations, which may total less than capacity. A canceled family's place filled by another accepted family illustrates a replacement, not a new physical table.",
+          "explanation": "座位圖可顯示最大可容納人數。",
+          "id": "d145-q1",
+          "options": [
+            "A canceled message with no seating details.",
+            "The room map.",
+            "A traffic estimate.",
+            "Only the original interview."
+          ],
+          "prompt": "Which document shows physical capacity?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The room map shows capacity, the largest number of people its seats can hold. The confirmed visitor list shows reservations, which may total less than capacity. A canceled family's place filled by another accepted family illustrates a replacement, not a new physical table.",
+          "explanation": "由新家庭補上取消的預約位置。",
+          "id": "d145-q2",
+          "options": [
+            "An interview quote loses its source.",
+            "Another accepted family takes a canceled family's place.",
+            "Every waiting family arrives unconfirmed.",
+            "A new table is built."
+          ],
+          "prompt": "What illustrates a replacement?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The room map shows capacity, the largest number of people its seats can hold. The confirmed visitor list shows reservations, which may total less than capacity. A canceled family's place filled by another accepted family illustrates a replacement, not a new physical table.",
+          "explanation": "實體可坐不代表已被預約。",
+          "id": "d145-q3",
+          "options": [
+            "Not every possible seat has a confirmed visitor.",
+            "A capacity number means a full room every time.",
+            "Waiting families always occupy every chair.",
+            "An interview determines seating."
+          ],
+          "prompt": "Why can reservations total less than capacity?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For source, students point to the original interview behind the report's quotation. Uncertainty belongs in a note explaining that a travel estimate may change with traffic. One student confuses possible visitors with confirmed visitors and revises the sentence after comparing the list with the map.",
+          "explanation": "引述的来源為原訪談材料。",
+          "id": "d145-q4",
+          "options": [
+            "The largest number of available seats.",
+            "The traffic along a route.",
+            "The original material from which it comes.",
+            "A family replacing another one."
+          ],
+          "prompt": "What does 'source' mean for a quotation?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The group writes that a number should have both a label and a status. Forty possible seats, twenty-six confirmed people, and two waiting families answer different questions. Careful reading preserves those differences instead of treating every number as a count of the same thing.",
+          "explanation": "標明可能、確認、候補以及單位差異。",
+          "id": "d145-q5",
+          "options": [
+            "Possible seats, confirmed people, and waiting families.",
+            "Only the largest number with no description.",
+            "Every family treated as a confirmed table.",
+            "Three names for the same count of chairs."
+          ],
+          "prompt": "Which labels keep the information distinct?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "The reading club reviews five words: source, uncertainty, reservation, capacity, and replacement. Students receive a pretend event file with a room map, a visitor list, and a report quoting a resident. They must decide which document helps explain each word.\n\nThe room map shows capacity, the largest number of people its seats can hold. The confirmed visitor list shows reservations, which may total less than capacity. A canceled family's place filled by another accepted family illustrates a replacement, not a new physical table.\n\nFor source, students point to the original interview behind the report's quotation. Uncertainty belongs in a note explaining that a travel estimate may change with traffic. One student confuses possible visitors with confirmed visitors and revises the sentence after comparing the list with the map.\n\nThe group writes that a number should have both a label and a status. Forty possible seats, twenty-six confirmed people, and two waiting families answer different questions. Careful reading preserves those differences instead of treating every number as a count of the same thing.",
+          "explanation": "數字要連同所指與狀態一起解讀。",
+          "id": "d145-q6",
+          "options": [
+            "Remove labels to make a chart simpler.",
+            "Assume all possible places are already booked.",
+            "Add all event numbers regardless of units.",
+            "Read a number together with its meaning and status."
+          ],
+          "prompt": "What is the main review rule?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The reading club reviews five words: source, uncertainty, reservation, capacity, and replacement. Students receive a pretend event file with a room map, a visitor list, and a report quoting a resident. They must decide which document helps explain each word.\n\nThe room map shows capacity, the largest number of people its seats can hold. The confirmed visitor list shows reservations, which may total less than capacity. A canceled family's place filled by another accepted family illustrates a replacement, not a new physical table.\n\nFor source, students point to the original interview behind the report's quotation. Uncertainty belongs in a note explaining that a travel estimate may change with traffic. One student confuses possible visitors with confirmed visitors and revises the sentence after comparing the list with the map.\n\nThe group writes that a number should have both a label and a status. Forty possible seats, twenty-six confirmed people, and two waiting families answer different questions. Careful reading preserves those differences instead of treating every number as a count of the same thing.",
+      "title": "Capacity Is Not a Reservation",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "The reading club reviews five words: source, uncertainty, reservation, capacity, and replacement.",
+          "meaning": "來源",
+          "word": "source"
+        },
+        {
+          "example": "The reading club reviews five words: source, uncertainty, reservation, capacity, and replacement.",
+          "meaning": "不確定性",
+          "word": "uncertainty"
+        },
+        {
+          "example": "The reading club reviews five words: source, uncertainty, reservation, capacity, and replacement.",
+          "meaning": "預約",
+          "word": "reservation"
+        },
+        {
+          "example": "The reading club reviews five words: source, uncertainty, reservation, capacity, and replacement.",
+          "meaning": "容量上限",
+          "word": "capacity"
+        },
+        {
+          "example": "The reading club reviews five words: source, uncertainty, reservation, capacity, and replacement.",
+          "meaning": "替換",
+          "word": "replacement"
+        }
+      ]
+    }
+  ]
+}

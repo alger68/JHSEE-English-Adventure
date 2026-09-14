@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-31",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 152,
+      "goal": "找出限定詞對句意與選項的影響。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "只有在",
+          "phrase": "only if"
+        },
+        {
+          "meaning": "即使",
+          "phrase": "even though"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "A message can be delivered before the reader opens it. A sample may show bias if its selection favors one part of a jar. Regular sound resumes when a special quiet period ends. A factual book aims to provide information rather than an invented story.",
+          "explanation": "送達可先於閱讀與確認。",
+          "id": "d152-q1",
+          "options": [
+            "The reader necessarily confirms its meaning.",
+            "Every group member agrees.",
+            "It reaches the reader's device.",
+            "The old meeting place becomes final."
+          ],
+          "prompt": "What may happen before a delivered message is opened?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A message can be delivered before the reader opens it. A sample may show bias if its selection favors one part of a jar. Regular sound resumes when a special quiet period ends. A factual book aims to provide information rather than an invented story.",
+          "explanation": "resume 在此恢復原聲音狀態。",
+          "id": "d152-q2",
+          "options": [
+            "It becomes a factual book.",
+            "It starts again after the quiet period.",
+            "The museum closes immediately.",
+            "It stops permanently."
+          ],
+          "prompt": "What happens when regular sound resumes?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "For features, the class lists page count, pictures, and subject as characteristics that help choose a book. They then change one reader's requirement and check the choice again. The answer may change even though none of the book cards has changed.",
+          "explanation": "適合與否取決於資料及需求雙方。",
+          "id": "d152-q3",
+          "options": [
+            "Every choice is random.",
+            "The shortest title has a different meaning each day.",
+            "Book facts disappear after discussion.",
+            "The reader's requirements can change."
+          ],
+          "prompt": "Why can a book choice change while the cards remain unchanged?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "For features, the class lists page count, pictures, and subject as characteristics that help choose a book. They then change one reader's requirement and check the choice again. The answer may change even though none of the book cards has changed.",
+          "explanation": "頁數、圖像、主題都是特色屬性。",
+          "id": "d152-q4",
+          "options": [
+            "People who deliver messages.",
+            "Characteristics of the books.",
+            "Dates when sound resumes.",
+            "Errors in a sampling jar."
+          ],
+          "prompt": "What does 'features' mean in the book example?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Five review cards read delivered, bias, resumes, factual, and features. The teacher asks students to focus on small qualifications around each word. A statement may be accurate only within a certain stage, period, or group, so reading the noun alone is not enough.\n\nA message can be delivered before the reader opens it. A sample may show bias if its selection favors one part of a jar. Regular sound resumes when a special quiet period ends. A factual book aims to provide information rather than an invented story.\n\nFor features, the class lists page count, pictures, and subject as characteristics that help choose a book. They then change one reader's requirement and check the choice again. The answer may change even though none of the book cards has changed.\n\nEach pair writes a sentence beginning only if and another beginning even though. They explain how the added words limit or contrast the main idea. The review ends when students can support a choice with the whole condition, not just one attractive detail.",
+          "explanation": "變更一條件後需重新核對全部需求。",
+          "id": "d152-q5",
+          "options": [
+            "Treating delivered as read and accepted.",
+            "Choosing a book from its attractive title alone.",
+            "Rechecking every requirement after one is changed.",
+            "Assuming a quiet session lasts forever."
+          ],
+          "prompt": "Which selection shows the need to read full conditions?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Five review cards read delivered, bias, resumes, factual, and features. The teacher asks students to focus on small qualifications around each word. A statement may be accurate only within a certain stage, period, or group, so reading the noun alone is not enough.\n\nA message can be delivered before the reader opens it. A sample may show bias if its selection favors one part of a jar. Regular sound resumes when a special quiet period ends. A factual book aims to provide information rather than an invented story.\n\nFor features, the class lists page count, pictures, and subject as characteristics that help choose a book. They then change one reader's requirement and check the choice again. The answer may change even though none of the book cards has changed.\n\nEach pair writes a sentence beginning only if and another beginning even though. They explain how the added words limit or contrast the main idea. The review ends when students can support a choice with the whole condition, not just one attractive detail.",
+          "explanation": "注意only if/even though等限定或對比作用。",
+          "id": "d152-q6",
+          "options": [
+            "Attend to qualifications that limit or contrast a statement.",
+            "Use only nouns to decide answers.",
+            "Ignore small connecting phrases.",
+            "Assume all factual books fit all readers."
+          ],
+          "prompt": "What is the main habit practiced?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Five review cards read delivered, bias, resumes, factual, and features. The teacher asks students to focus on small qualifications around each word. A statement may be accurate only within a certain stage, period, or group, so reading the noun alone is not enough.\n\nA message can be delivered before the reader opens it. A sample may show bias if its selection favors one part of a jar. Regular sound resumes when a special quiet period ends. A factual book aims to provide information rather than an invented story.\n\nFor features, the class lists page count, pictures, and subject as characteristics that help choose a book. They then change one reader's requirement and check the choice again. The answer may change even though none of the book cards has changed.\n\nEach pair writes a sentence beginning only if and another beginning even though. They explain how the added words limit or contrast the main idea. The review ends when students can support a choice with the whole condition, not just one attractive detail.",
+      "title": "The Review of Small Qualifications",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "Five review cards read delivered, bias, resumes, factual, and features.",
+          "meaning": "送達",
+          "word": "delivered"
+        },
+        {
+          "example": "Five review cards read delivered, bias, resumes, factual, and features.",
+          "meaning": "偏差",
+          "word": "bias"
+        },
+        {
+          "example": "Five review cards read delivered, bias, resumes, factual, and features.",
+          "meaning": "恢復",
+          "word": "resumes"
+        },
+        {
+          "example": "Five review cards read delivered, bias, resumes, factual, and features.",
+          "meaning": "提供事實的",
+          "word": "factual"
+        },
+        {
+          "example": "Five review cards read delivered, bias, resumes, factual, and features.",
+          "meaning": "特色",
+          "word": "features"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-22",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 143,
+      "goal": "整合名額、取消釋出與家長陪同規定。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "候補名單",
+          "phrase": "waiting list"
+        },
+        {
+          "meaning": "除非櫃檯已同意",
+          "phrase": "unless the desk has agreed"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "FAMILY READING NIGHT: The school library opens for a special evening on Friday from six to eight. Reserve a family table online. Each table seats four people, and there are ten tables. A child under twelve must attend with an adult who stays for the event.",
+          "explanation": "一桌四人。",
+          "id": "d143-q1",
+          "options": [
+            "Four.",
+            "Ten.",
+            "Twelve.",
+            "Eight."
+          ],
+          "prompt": "How many people can one table seat?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Cancel by Thursday noon if you cannot attend. After that time, contact the desk directly so staff can offer the table to the waiting list. A waiting-list message does not confirm a seat; wait for a separate accepted-reservation message.",
+          "explanation": "候補登記不代表有座，須收到正式接受通知。",
+          "id": "d143-q2",
+          "options": [
+            "An empty chair in a photo.",
+            "A separate accepted-reservation message.",
+            "A friend's guess about cancellations.",
+            "The waiting-list message alone."
+          ],
+          "prompt": "What confirms a place after joining the waiting list?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "One reservation covers one table, not four separate tables. If fewer than four people are coming, the empty seats cannot be claimed by another family without the staff's agreement. Tell the desk your actual group size so the room plan stays accurate.",
+          "explanation": "便於場內實際人數及座位規劃。",
+          "id": "d143-q3",
+          "options": [
+            "The library charges by bottle size.",
+            "Smaller groups automatically own more tables.",
+            "Every family must bring exactly four people.",
+            "Staff need an accurate room plan."
+          ],
+          "prompt": "Why report the actual group size?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Bring a book or choose one from the library shelves. Hot food is not allowed, but water bottles are welcome. Please arrive by six ten. Tables still empty then may be reassigned unless the desk has agreed to hold one after receiving your delay message.",
+          "explanation": "空桌可轉分配給其他家庭。",
+          "id": "d143-q4",
+          "options": [
+            "Given to a different group.",
+            "Canceled permanently for all visitors.",
+            "Counted as four tables.",
+            "Moved to another city."
+          ],
+          "prompt": "What does 'reassigned' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Bring a book or choose one from the library shelves. Hot food is not allowed, but water bottles are welcome. Please arrive by six ten. Tables still empty then may be reassigned unless the desk has agreed to hold one after receiving your delay message.",
+          "explanation": "須通知且櫃檯同意，不是只傳訊即保證。",
+          "id": "d143-q5",
+          "options": [
+            "Send a delay message and obtain the desk's agreement.",
+            "Ask another family to occupy every spare seat.",
+            "Show only a waiting-list message at seven.",
+            "Assume a reservation holds the table all night without contact."
+          ],
+          "prompt": "Which plan lets a late family reasonably expect its table to be held?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "FAMILY READING NIGHT: The school library opens for a special evening on Friday from six to eight. Reserve a family table online. Each table seats four people, and there are ten tables. A child under twelve must attend with an adult who stays for the event.\n\nOne reservation covers one table, not four separate tables. If fewer than four people are coming, the empty seats cannot be claimed by another family without the staff's agreement. Tell the desk your actual group size so the room plan stays accurate.\n\nCancel by Thursday noon if you cannot attend. After that time, contact the desk directly so staff can offer the table to the waiting list. A waiting-list message does not confirm a seat; wait for a separate accepted-reservation message.\n\nBring a book or choose one from the library shelves. Hot food is not allowed, but water bottles are welcome. Please arrive by six ten. Tables still empty then may be reassigned unless the desk has agreed to hold one after receiving your delay message.",
+          "explanation": "預約狀態與抵達保留條件需清楚辨認。",
+          "id": "d143-q6",
+          "options": [
+            "Thursday noon from all unrelated school deadlines.",
+            "Every free seat from a separately owned table.",
+            "A book title and a person's age only.",
+            "A request, a confirmed table, and conditions for keeping it."
+          ],
+          "prompt": "What does the notice ask families to distinguish?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "FAMILY READING NIGHT: The school library opens for a special evening on Friday from six to eight. Reserve a family table online. Each table seats four people, and there are ten tables. A child under twelve must attend with an adult who stays for the event.\n\nOne reservation covers one table, not four separate tables. If fewer than four people are coming, the empty seats cannot be claimed by another family without the staff's agreement. Tell the desk your actual group size so the room plan stays accurate.\n\nCancel by Thursday noon if you cannot attend. After that time, contact the desk directly so staff can offer the table to the waiting list. A waiting-list message does not confirm a seat; wait for a separate accepted-reservation message.\n\nBring a book or choose one from the library shelves. Hot food is not allowed, but water bottles are welcome. Please arrive by six ten. Tables still empty then may be reassigned unless the desk has agreed to hold one after receiving your delay message.",
+      "title": "Reading Night Reservations",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "One reservation covers one table, not four separate tables.",
+          "meaning": "預約",
+          "word": "reservation"
+        },
+        {
+          "example": "Tell the desk your actual group size so the room plan stays accurate.",
+          "meaning": "實際的",
+          "word": "actual"
+        },
+        {
+          "example": "Tables still empty then may be reassigned unless the desk has agreed to hold one after receiving your delay message.",
+          "meaning": "重新分配",
+          "word": "reassigned"
+        },
+        {
+          "example": "One reservation covers one table, not four separate tables.",
+          "meaning": "另外的",
+          "word": "separate"
+        },
+        {
+          "example": "Tables still empty then may be reassigned unless the desk has agreed to hold one after receiving your delay message.",
+          "meaning": "延誤",
+          "word": "delay"
+        }
+      ]
+    }
+  ]
+}

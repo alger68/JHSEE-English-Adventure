@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-27",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 148,
+      "goal": "區分訊息傳送、閱讀與回覆確認。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而不是",
+          "phrase": "rather than"
+        },
+        {
+          "meaning": "直到現在",
+          "phrase": "until now"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "Project chat: I sent the meeting place to everyone at noon. The app says delivered, so we can assume all six members know to use the library entrance. I changed it from the cafe because the cafe will close early today.",
+          "explanation": "領隊改到圖書館入口。",
+          "id": "d148-q1",
+          "options": [
+            "The station's north exit.",
+            "The cafe entrance.",
+            "The school gym door.",
+            "The library entrance."
+          ],
+          "prompt": "What is the updated meeting entrance?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Leader: Yes. Please reply with the place and time, not just a picture symbol that could mean several things. Two members have already confirmed the library entrance at four. I will check privately with the others rather than sending their phone numbers to the whole chat.",
+          "explanation": "要求重述地點與時間以確認理解。",
+          "id": "d148-q2",
+          "options": [
+            "The place and time.",
+            "A new cafe review.",
+            "Only a picture symbol.",
+            "Everyone's phone numbers."
+          ],
+          "prompt": "What does the leader ask members to include in replies?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Zed: Delivered may only mean the message reached a device. My phone was in my bag during class, and I did not read the change until now. Should we ask each member to confirm the new entrance before leaving school?",
+          "explanation": "送到裝置不表示本人已看並理解。",
+          "id": "d148-q3",
+          "options": [
+            "The meeting place cannot be written in a chat.",
+            "A message may reach a device without being read.",
+            "Every member has already confirmed.",
+            "The app always deletes every message."
+          ],
+          "prompt": "Why doesn't delivered prove shared understanding?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "At three thirty, every member has replied. The leader posts one final summary and leaves the older cafe message marked replaced. The group now has evidence of shared understanding, not merely evidence that a message traveled through the app.",
+          "explanation": "舊咖啡店訊息已由新安排取代。",
+          "id": "d148-q4",
+          "options": [
+            "Deleted from the school's timetable.",
+            "Sent to a different phone number.",
+            "Confirmed as the final location.",
+            "Superseded by a newer instruction."
+          ],
+          "prompt": "What does 'replaced' mean on the cafe message?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Project chat: I sent the meeting place to everyone at noon. The app says delivered, so we can assume all six members know to use the library entrance. I changed it from the cafe because the cafe will close early today.\n\nZed: Delivered may only mean the message reached a device. My phone was in my bag during class, and I did not read the change until now. Should we ask each member to confirm the new entrance before leaving school?\n\nLeader: Yes. Please reply with the place and time, not just a picture symbol that could mean several things. Two members have already confirmed the library entrance at four. I will check privately with the others rather than sending their phone numbers to the whole chat.\n\nAt three thirty, every member has replied. The leader posts one final summary and leaves the older cafe message marked replaced. The group now has evidence of shared understanding, not merely evidence that a message traveled through the app.",
+          "explanation": "逐人明確回覆比僅傳送狀態更有證據力。",
+          "id": "d148-q5",
+          "options": [
+            "A single member reacts with a symbol.",
+            "The old cafe message remains unlabeled.",
+            "The app displays delivered once.",
+            "Each member replies with the new place and time."
+          ],
+          "prompt": "What provides stronger evidence that everyone knows the plan?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Project chat: I sent the meeting place to everyone at noon. The app says delivered, so we can assume all six members know to use the library entrance. I changed it from the cafe because the cafe will close early today.\n\nZed: Delivered may only mean the message reached a device. My phone was in my bag during class, and I did not read the change until now. Should we ask each member to confirm the new entrance before leaving school?\n\nLeader: Yes. Please reply with the place and time, not just a picture symbol that could mean several things. Two members have already confirmed the library entrance at four. I will check privately with the others rather than sending their phone numbers to the whole chat.\n\nAt three thirty, every member has replied. The leader posts one final summary and leaves the older cafe message marked replaced. The group now has evidence of shared understanding, not merely evidence that a message traveled through the app.",
+          "explanation": "重要變更需確認接收者理解，不只確認已送出。",
+          "id": "d148-q6",
+          "options": [
+            "Keep several locations equally final.",
+            "Publish private phone numbers to speed up replies.",
+            "Assume every app status means agreement.",
+            "Distinguish transmission from understanding and verify important changes."
+          ],
+          "prompt": "What is the key communication lesson?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Project chat: I sent the meeting place to everyone at noon. The app says delivered, so we can assume all six members know to use the library entrance. I changed it from the cafe because the cafe will close early today.\n\nZed: Delivered may only mean the message reached a device. My phone was in my bag during class, and I did not read the change until now. Should we ask each member to confirm the new entrance before leaving school?\n\nLeader: Yes. Please reply with the place and time, not just a picture symbol that could mean several things. Two members have already confirmed the library entrance at four. I will check privately with the others rather than sending their phone numbers to the whole chat.\n\nAt three thirty, every member has replied. The leader posts one final summary and leaves the older cafe message marked replaced. The group now has evidence of shared understanding, not merely evidence that a message traveled through the app.",
+      "title": "Delivered Does Not Mean Read",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "The app says delivered, so we can assume all six members know to use the library entrance.",
+          "meaning": "送達",
+          "word": "delivered"
+        },
+        {
+          "example": "Zed: Delivered may only mean the message reached a device.",
+          "meaning": "裝置",
+          "word": "device"
+        },
+        {
+          "example": "Should we ask each member to confirm the new entrance before leaving school?",
+          "meaning": "確認",
+          "word": "confirm"
+        },
+        {
+          "example": "I will check privately with the others rather than sending their phone numbers to the whole chat.",
+          "meaning": "私下地",
+          "word": "privately"
+        },
+        {
+          "example": "The leader posts one final summary and leaves the older cafe message marked replaced.",
+          "meaning": "已取代",
+          "word": "replaced"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-21",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 142,
+      "goal": "由重複量測辨別差距與測量不確定性。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "不推它",
+          "phrase": "without pushing"
+        },
+        {
+          "meaning": "稍高",
+          "phrase": "slightly higher"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "In a classroom scenario, two paper helicopters have different blade lengths. Students drop each from the same marked height onto a clear floor. One student releases the models without pushing, while another uses a hand timer to record how long each takes to land.",
+          "explanation": "兩紙直升機葉片長度不同。",
+          "id": "d142-q1",
+          "options": [
+            "Floor location.",
+            "Blade length.",
+            "The number of listed trials.",
+            "Drop height."
+          ],
+          "prompt": "What design feature differs?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "In a classroom scenario, two paper helicopters have different blade lengths. Students drop each from the same marked height onto a clear floor. One student releases the models without pushing, while another uses a hand timer to record how long each takes to land.",
+          "explanation": "控制同一高度、不推，盡量一致。",
+          "id": "d142-q2",
+          "options": [
+            "From the marked height without pushing.",
+            "Dropped from unrecorded places.",
+            "Pushed down at different speeds deliberately.",
+            "Thrown upward from different desks."
+          ],
+          "prompt": "How are the models released?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The first model's three times are 2.1, 2.2, and 2.1 seconds. The second's are 2.2, 2.1, and 2.2. A student calls the second design definitely better because its average is slightly higher. Her partner asks how precisely a hand timer can distinguish such small differences.",
+          "explanation": "微小差別可能受人工計時影響，不宜確定排名。",
+          "id": "d142-q3",
+          "options": [
+            "Every higher average guarantees a better design.",
+            "The second model has no blades.",
+            "The difference is small relative to possible timing variation.",
+            "No times were recorded."
+          ],
+          "prompt": "Why question the word definitely?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The report says the observed difference is small and may be affected by timing. More careful measurement is needed before a strong ranking. Learning to recognize uncertainty helps the students decide what to improve in the next test.",
+          "explanation": "測量及判斷有把握程度的限制。",
+          "id": "d142-q4",
+          "options": [
+            "The number of paper colors.",
+            "Limits on how confidently the measurement supports a conclusion.",
+            "A missing classroom entirely.",
+            "A decision to invent data."
+          ],
+          "prompt": "What does 'uncertainty' refer to here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The group repeats the trials and records who times each drop. They also film a few releases for later checking with the teacher. The class does not change the earlier numbers to make the two sets look either more different or more alike.",
+          "explanation": "重測與影片補充原紀錄，而非改舊數。",
+          "id": "d142-q5",
+          "options": [
+            "Report only the longest drop.",
+            "Ignore who operated the timer.",
+            "Repeat trials and check filmed releases while keeping original numbers.",
+            "Change early numbers to match the preferred design."
+          ],
+          "prompt": "Which action improves evidence without rewriting history?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "The report says the observed difference is small and may be affected by timing. More careful measurement is needed before a strong ranking. Learning to recognize uncertainty helps the students decide what to improve in the next test.",
+          "explanation": "承認差距小與測量限制，指出下一步。",
+          "id": "d142-q6",
+          "options": [
+            "The small observed difference needs more careful measurement.",
+            "The first design can never remain airborne.",
+            "The second design is certainly best in every situation.",
+            "All hand-timed results are worthless and must be deleted."
+          ],
+          "prompt": "What conclusion best matches the report?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a classroom scenario, two paper helicopters have different blade lengths. Students drop each from the same marked height onto a clear floor. One student releases the models without pushing, while another uses a hand timer to record how long each takes to land.\n\nThe first model's three times are 2.1, 2.2, and 2.1 seconds. The second's are 2.2, 2.1, and 2.2. A student calls the second design definitely better because its average is slightly higher. Her partner asks how precisely a hand timer can distinguish such small differences.\n\nThe group repeats the trials and records who times each drop. They also film a few releases for later checking with the teacher. The class does not change the earlier numbers to make the two sets look either more different or more alike.\n\nThe report says the observed difference is small and may be affected by timing. More careful measurement is needed before a strong ranking. Learning to recognize uncertainty helps the students decide what to improve in the next test.",
+      "title": "Paper Helicopters on a Timer",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "In a classroom scenario, two paper helicopters have different blade lengths.",
+          "meaning": "葉片",
+          "word": "blade"
+        },
+        {
+          "example": "One student releases the models without pushing, while another uses a hand timer to record how long each takes to land.",
+          "meaning": "放開",
+          "word": "releases"
+        },
+        {
+          "example": "Her partner asks how precisely a hand timer can distinguish such small differences.",
+          "meaning": "精確地",
+          "word": "precisely"
+        },
+        {
+          "example": "Learning to recognize uncertainty helps the students decide what to improve in the next test.",
+          "meaning": "不確定性",
+          "word": "uncertainty"
+        },
+        {
+          "example": "More careful measurement is needed before a strong ranking.",
+          "meaning": "排名",
+          "word": "ranking"
+        }
+      ]
+    }
+  ]
+}

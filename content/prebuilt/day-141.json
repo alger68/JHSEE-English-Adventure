@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-20",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 141,
+      "goal": "區分搜尋摘要、原始資料與已核實資訊。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而不是",
+          "phrase": "rather than"
+        },
+        {
+          "meaning": "依賴它",
+          "phrase": "relying on it"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "Writer: The page says the clock was repaired in 1890 and first installed in 1872. The summary left out that distinction. I will change the slide to 1872 for installation and keep 1890 only in the repair timeline.",
+          "explanation": "完整頁面說1890是修理年份。",
+          "id": "d141-q1",
+          "options": [
+            "A repair.",
+            "The current report date.",
+            "First installation.",
+            "The writer's birth year."
+          ],
+          "prompt": "What does 1890 refer to in the opened page?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Writer: The page says the clock was repaired in 1890 and first installed in 1872. The summary left out that distinction. I will change the slide to 1872 for installation and keep 1890 only in the repair timeline.",
+          "explanation": "文中來源寫1872首次安裝。",
+          "id": "d141-q2",
+          "options": [
+            "1872.",
+            "1890.",
+            "1900.",
+            "1972."
+          ],
+          "prompt": "When was the clock first installed according to the passage's source?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Report chat: A search result says the town clock was built in 1890. I have copied that year onto our slide. The result title looks official, but I have not opened the page yet. It might save time if we use the short summary.\n\nEditor: Open the page before relying on it. The year may refer to a renovation rather than the first construction. Check the sentence around the number and identify who published the information. We need a source that actually supports our specific statement.\n\nWriter: The page says the clock was repaired in 1890 and first installed in 1872. The summary left out that distinction. I will change the slide to 1872 for installation and keep 1890 only in the repair timeline.\n\nEditor: Good. Add the source title and link to our notes, then check the other copied dates too. A convenient summary can help locate material, but it should not silently replace reading the evidence behind a claim.",
+          "explanation": "摘要省略年份對應事件，易把修理當創建。",
+          "id": "d141-q3",
+          "options": [
+            "An official-looking title proves every copied date.",
+            "The page contains no clock information.",
+            "It leaves the event connected to the year unclear.",
+            "Every search result is false."
+          ],
+          "prompt": "Why is the search summary insufficient for the slide?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Editor: Good. Add the source title and link to our notes, then check the other copied dates too. A convenient summary can help locate material, but it should not silently replace reading the evidence behind a claim.",
+          "explanation": "需要可支持該年份與事件主張的原資料。",
+          "id": "d141-q4",
+          "options": [
+            "Any attractive slide background.",
+            "A title that merely sounds official.",
+            "The shortest text found online.",
+            "Information that supports the specific claim."
+          ],
+          "prompt": "What does 'evidence' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Writer: The page says the clock was repaired in 1890 and first installed in 1872. The summary left out that distinction. I will change the slide to 1872 for installation and keep 1890 only in the repair timeline.",
+          "explanation": "依完整句子分清安裝與維修年份。",
+          "id": "d141-q5",
+          "options": [
+            "Both events happened only in 1890.",
+            "No date can be stated even after reading.",
+            "Installed in 1872; repaired in 1890.",
+            "Installed in 1890; repaired in 1872."
+          ],
+          "prompt": "Which revised slide content matches the opened page?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Report chat: A search result says the town clock was built in 1890. I have copied that year onto our slide. The result title looks official, but I have not opened the page yet. It might save time if we use the short summary.\n\nEditor: Open the page before relying on it. The year may refer to a renovation rather than the first construction. Check the sentence around the number and identify who published the information. We need a source that actually supports our specific statement.\n\nWriter: The page says the clock was repaired in 1890 and first installed in 1872. The summary left out that distinction. I will change the slide to 1872 for installation and keep 1890 only in the repair timeline.\n\nEditor: Good. Add the source title and link to our notes, then check the other copied dates too. A convenient summary can help locate material, but it should not silently replace reading the evidence behind a claim.",
+          "explanation": "核對原來源與特定主張的對應關係。",
+          "id": "d141-q6",
+          "options": [
+            "Trust every number next to an official-looking title.",
+            "Read the underlying source and match it to the claim.",
+            "Delete links once a slide is finished.",
+            "Use only search snippets to save time."
+          ],
+          "prompt": "What research habit does the editor recommend?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Report chat: A search result says the town clock was built in 1890. I have copied that year onto our slide. The result title looks official, but I have not opened the page yet. It might save time if we use the short summary.\n\nEditor: Open the page before relying on it. The year may refer to a renovation rather than the first construction. Check the sentence around the number and identify who published the information. We need a source that actually supports our specific statement.\n\nWriter: The page says the clock was repaired in 1890 and first installed in 1872. The summary left out that distinction. I will change the slide to 1872 for installation and keep 1890 only in the repair timeline.\n\nEditor: Good. Add the source title and link to our notes, then check the other copied dates too. A convenient summary can help locate material, but it should not silently replace reading the evidence behind a claim.",
+      "title": "The Source We Haven't Opened",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "It might save time if we use the short summary.",
+          "meaning": "摘要",
+          "word": "summary"
+        },
+        {
+          "example": "The year may refer to a renovation rather than the first construction.",
+          "meaning": "整修",
+          "word": "renovation"
+        },
+        {
+          "example": "The year may refer to a renovation rather than the first construction.",
+          "meaning": "建造",
+          "word": "construction"
+        },
+        {
+          "example": "Writer: The page says the clock was repaired in 1890 and first installed in 1872.",
+          "meaning": "安裝了",
+          "word": "installed"
+        },
+        {
+          "example": "A convenient summary can help locate material, but it should not silently replace reading the evidence behind a claim.",
+          "meaning": "證據",
+          "word": "evidence"
+        }
+      ]
+    }
+  ]
+}

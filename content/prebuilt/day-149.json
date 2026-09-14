@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-28",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 149,
+      "goal": "理解取樣位置與樣本偏差。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "靠近頂端",
+          "phrase": "near the top"
+        },
+        {
+          "meaning": "不看",
+          "phrase": "without looking"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "In a classroom sampling activity, a clear jar contains red and gray pebbles. Before the lesson, the teacher pours the red ones in last, leaving many near the top. The class does not know the exact total of either color and wants to estimate the mixture.",
+          "explanation": "準備時紅石最後倒入。",
+          "id": "d149-q1",
+          "options": [
+            "They were poured in last.",
+            "The teacher counted exactly eighty percent red.",
+            "The first group painted them.",
+            "They are all larger than gray pebbles."
+          ],
+          "prompt": "Why are many red pebbles near the top?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "One group takes ten pebbles from the top and finds eight red ones. It concludes that about eighty percent of all pebbles are red. Another group notices that the upper layer may not represent the whole jar because the colors were not mixed.",
+          "explanation": "第一把十顆有八紅。",
+          "id": "d149-q2",
+          "options": [
+            "Two pebbles in total.",
+            "Ten red pebbles out of eight.",
+            "Eight red pebbles out of ten.",
+            "Eighty pebbles of each color."
+          ],
+          "prompt": "What does the first sample contain?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "In a classroom sampling activity, a clear jar contains red and gray pebbles. Before the lesson, the teacher pours the red ones in last, leaving many near the top. The class does not know the exact total of either color and wants to estimate the mixture.\n\nOne group takes ten pebbles from the top and finds eight red ones. It concludes that about eighty percent of all pebbles are red. Another group notices that the upper layer may not represent the whole jar because the colors were not mixed.\n\nThe teacher lets students gently mix the jar, then select several small samples without looking for a preferred color. Each sample is recorded and returned before the next one is taken. The class compares how the sample results vary rather than treating one handful as certain.\n\nThe first handful remains a useful example of selection bias. It truly contained eight red pebbles, but the method favored a particular part of the jar. A correct count can still support an unreliable estimate if the sample is chosen poorly.",
+          "explanation": "未混合且只取上層，選樣偏向紅色。",
+          "id": "d149-q3",
+          "options": [
+            "Taking only from the unmixed top favors red pebbles.",
+            "Every sample must match the jar exactly.",
+            "Percentages cannot describe colors.",
+            "The count of eight was never made."
+          ],
+          "prompt": "Why might the estimate be unreliable?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The first handful remains a useful example of selection bias. It truly contained eight red pebbles, but the method favored a particular part of the jar. A correct count can still support an unreliable estimate if the sample is chosen poorly.",
+          "explanation": "選樣方式偏向特定部分形成偏差。",
+          "id": "d149-q4",
+          "options": [
+            "The jar's empty space.",
+            "A mistake in every addition.",
+            "A systematic leaning caused by how the sample is selected.",
+            "A perfectly representative whole-jar count."
+          ],
+          "prompt": "What does 'bias' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The teacher lets students gently mix the jar, then select several small samples without looking for a preferred color. Each sample is recorded and returned before the next one is taken. The class compares how the sample results vary rather than treating one handful as certain.",
+          "explanation": "混合且不依顏色挑選，可減少原取樣偏差。",
+          "id": "d149-q5",
+          "options": [
+            "Change gray pebbles to red before counting.",
+            "Take only the reddest visible pebbles.",
+            "Always select from the untouched top layer.",
+            "Mix the jar and take several samples without choosing by color."
+          ],
+          "prompt": "Which revised method addresses the main selection problem?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "In a classroom sampling activity, a clear jar contains red and gray pebbles. Before the lesson, the teacher pours the red ones in last, leaving many near the top. The class does not know the exact total of either color and wants to estimate the mixture.\n\nOne group takes ten pebbles from the top and finds eight red ones. It concludes that about eighty percent of all pebbles are red. Another group notices that the upper layer may not represent the whole jar because the colors were not mixed.\n\nThe teacher lets students gently mix the jar, then select several small samples without looking for a preferred color. Each sample is recorded and returned before the next one is taken. The class compares how the sample results vary rather than treating one handful as certain.\n\nThe first handful remains a useful example of selection bias. It truly contained eight red pebbles, but the method favored a particular part of the jar. A correct count can still support an unreliable estimate if the sample is chosen poorly.",
+          "explanation": "樣本內數對不代表推估母體可靠。",
+          "id": "d149-q6",
+          "options": [
+            "Mixing eliminates the need to record samples.",
+            "The top layer always represents every jar.",
+            "The sample count is correct, so every population claim is certain.",
+            "The sample count is correct and its whole-jar estimate is weak."
+          ],
+          "prompt": "What can be true at the same time?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a classroom sampling activity, a clear jar contains red and gray pebbles. Before the lesson, the teacher pours the red ones in last, leaving many near the top. The class does not know the exact total of either color and wants to estimate the mixture.\n\nOne group takes ten pebbles from the top and finds eight red ones. It concludes that about eighty percent of all pebbles are red. Another group notices that the upper layer may not represent the whole jar because the colors were not mixed.\n\nThe teacher lets students gently mix the jar, then select several small samples without looking for a preferred color. Each sample is recorded and returned before the next one is taken. The class compares how the sample results vary rather than treating one handful as certain.\n\nThe first handful remains a useful example of selection bias. It truly contained eight red pebbles, but the method favored a particular part of the jar. A correct count can still support an unreliable estimate if the sample is chosen poorly.",
+      "title": "Pebbles from the Top of the Jar",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "The class does not know the exact total of either color and wants to estimate the mixture.",
+          "meaning": "估計",
+          "word": "estimate"
+        },
+        {
+          "example": "The class does not know the exact total of either color and wants to estimate the mixture.",
+          "meaning": "混合組成",
+          "word": "mixture"
+        },
+        {
+          "example": "Another group notices that the upper layer may not represent the whole jar because the colors were not mixed.",
+          "meaning": "代表",
+          "word": "represent"
+        },
+        {
+          "example": "The teacher lets students gently mix the jar, then select several small samples without looking for a preferred color.",
+          "meaning": "樣本",
+          "word": "samples"
+        },
+        {
+          "example": "The first handful remains a useful example of selection bias.",
+          "meaning": "偏差",
+          "word": "bias"
+        }
+      ]
+    }
+  ]
+}
