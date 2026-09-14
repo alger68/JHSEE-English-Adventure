@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-24",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 204,
+      "goal": "區分建議、討論與正式決定，追蹤對話共識。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "人數統計",
+          "phrase": "head count"
+        },
+        {
+          "meaning": "下一步",
+          "phrase": "next step"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "[Class trip chat] Bea: Maybe we could eat near the station after the museum. Hugo: Good idea. I'll tell the restaurant we're coming. Lin: Have we chosen a place or checked who can stay? I thought Bea was suggesting an option.",
+          "explanation": "Maybe 表達提議而非確定安排。",
+          "id": "d204-q1",
+          "options": [
+            "A list of everyone's orders.",
+            "A possible dinner idea.",
+            "A confirmed restaurant booking.",
+            "A promise to stay all evening."
+          ],
+          "prompt": "What does Bea initially offer?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Bea: That's right. My train leaves early, so I may not even join dinner. Hugo: I took 'good idea' as a decision. Lin: We still need a head count, a time, and agreement on a place before making a booking.",
+          "explanation": "提出點子的人也未必參加，因此需另外確認人數。",
+          "id": "d204-q2",
+          "options": [
+            "It determines every restaurant's hours.",
+            "It confirms the dinner has been canceled.",
+            "It proves nobody can stay.",
+            "Even the person suggesting dinner may not attend."
+          ],
+          "prompt": "Why is Bea's early train relevant?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Hugo drafts a short poll instead of contacting a restaurant immediately. The group separates discussion from confirmation: ideas go in the chat, while final plans appear in a pinned message with the person responsible for each next step. By the end of the afternoon, they have a clear process, even though the dinner itself is not yet arranged. Nobody has to undo a booking made on an assumption.",
+          "explanation": "他改為草擬調查。",
+          "id": "d204-q3",
+          "options": [
+            "A museum ticket refund.",
+            "An immediate booking.",
+            "A short poll.",
+            "A train timetable for the restaurant."
+          ],
+          "prompt": "What does Hugo prepare next?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Hugo drafts a short poll instead of contacting a restaurant immediately. The group separates discussion from confirmation: ideas go in the chat, while final plans appear in a pinned message with the person responsible for each next step. By the end of the afternoon, they have a clear process, even though the dinner itself is not yet arranged. Nobody has to undo a booking made on an assumption.",
+          "explanation": "誤將討論當定案是未經確認的推想。",
+          "id": "d204-q4",
+          "options": [
+            "A completed group agreement.",
+            "A required museum rule.",
+            "Something accepted without enough confirmation.",
+            "A formal restaurant receipt."
+          ],
+          "prompt": "What does 'assumption' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Bea: That's right. My train leaves early, so I may not even join dinner. Hugo: I took 'good idea' as a decision. Lin: We still need a head count, a time, and agreement on a place before making a booking.",
+          "explanation": "Lin 明列人數、時間及地點共識。",
+          "id": "d204-q5",
+          "options": [
+            "Only the museum's name.",
+            "The color of the pinned message.",
+            "Who will attend, when, and where.",
+            "Only whether one person likes the idea."
+          ],
+          "prompt": "Which details should be settled before booking?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "[Class trip chat] Bea: Maybe we could eat near the station after the museum. Hugo: Good idea. I'll tell the restaurant we're coming. Lin: Have we chosen a place or checked who can stay? I thought Bea was suggesting an option.\n\nBea: That's right. My train leaves early, so I may not even join dinner. Hugo: I took 'good idea' as a decision. Lin: We still need a head count, a time, and agreement on a place before making a booking.\n\nHugo drafts a short poll instead of contacting a restaurant immediately. The group separates discussion from confirmation: ideas go in the chat, while final plans appear in a pinned message with the person responsible for each next step. By the end of the afternoon, they have a clear process, even though the dinner itself is not yet arranged. Nobody has to undo a booking made on an assumption.",
+          "explanation": "他們用置頂訊息記定案，聊天保留討論。",
+          "id": "d204-q6",
+          "options": [
+            "The speed of booking without asking anyone.",
+            "The rule that every suggestion must be followed.",
+            "The distinction between proposed ideas and confirmed plans.",
+            "The assumption that a positive reply settles every detail."
+          ],
+          "prompt": "What does the group improve?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Class trip chat] Bea: Maybe we could eat near the station after the museum. Hugo: Good idea. I'll tell the restaurant we're coming. Lin: Have we chosen a place or checked who can stay? I thought Bea was suggesting an option.\n\nBea: That's right. My train leaves early, so I may not even join dinner. Hugo: I took 'good idea' as a decision. Lin: We still need a head count, a time, and agreement on a place before making a booking.\n\nHugo drafts a short poll instead of contacting a restaurant immediately. The group separates discussion from confirmation: ideas go in the chat, while final plans appear in a pinned message with the person responsible for each next step. By the end of the afternoon, they have a clear process, even though the dinner itself is not yet arranged. Nobody has to undo a booking made on an assumption.",
+      "title": "Does 'Maybe' Mean We Decided?",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "I thought Bea was suggesting an option.",
+          "meaning": "建議",
+          "word": "suggesting"
+        },
+        {
+          "example": "I thought Bea was suggesting an option.",
+          "meaning": "選項",
+          "word": "option"
+        },
+        {
+          "example": "Lin: We still need a head count, a time, and agreement on a place before making a booking.",
+          "meaning": "共識",
+          "word": "agreement"
+        },
+        {
+          "example": "The group separates discussion from confirmation: ideas go in the chat, while final plans appear in a pinned message with the person responsible for each next step.",
+          "meaning": "置頂的",
+          "word": "pinned"
+        },
+        {
+          "example": "Nobody has to undo a booking made on an assumption.",
+          "meaning": "假設",
+          "word": "assumption"
+        }
+      ]
+    }
+  ]
+}

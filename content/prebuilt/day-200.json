@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-20",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 200,
+      "goal": "整合閱讀紀錄、休息及每日門檻，辨識徽章意義。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "低於目標",
+          "phrase": "below target"
+        },
+        {
+          "meaning": "單靠分鐘數",
+          "phrase": "minutes alone"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "[Mara's log] Monday: twelve minutes before class and nine afterward. Tuesday: thirty minutes in the library, including eight minutes choosing books and four minutes chatting. Thursday: twenty-five minutes of reading. Friday: twenty minutes of reading.",
+          "explanation": "12 + 9 = 21 分鐘。",
+          "id": "d200-q1",
+          "options": [
+            "Twelve.",
+            "Nine.",
+            "Twenty-one.",
+            "Thirty."
+          ],
+          "prompt": "How many reading minutes did Mara record on Monday?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Mara's log] Monday: twelve minutes before class and nine afterward. Tuesday: thirty minutes in the library, including eight minutes choosing books and four minutes chatting. Thursday: twenty-five minutes of reading. Friday: twenty minutes of reading.",
+          "explanation": "30 − 8 − 4 = 18 分鐘。",
+          "id": "d200-q2",
+          "options": [
+            "Eighteen.",
+            "Thirty.",
+            "Twenty-six.",
+            "Twenty-two."
+          ],
+          "prompt": "How many active reading minutes did Tuesday include?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Mara's log] Monday: twelve minutes before class and nine afterward. Tuesday: thirty minutes in the library, including eight minutes choosing books and four minutes chatting. Thursday: twenty-five minutes of reading. Friday: twenty minutes of reading.",
+          "explanation": "紀錄直接列週四二十五分鐘。",
+          "id": "d200-q3",
+          "options": [
+            "Monday.",
+            "Thursday.",
+            "Friday.",
+            "Tuesday."
+          ],
+          "prompt": "Which listed day has twenty-five reading minutes?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Challenge rule] A badge requires at least twenty active reading minutes on each of three different days in one week. Short periods on the same day may be added. Breaks and book selection do not count, and surplus minutes cannot be moved to another day.\n\n[Mara's log] Monday: twelve minutes before class and nine afterward. Tuesday: thirty minutes in the library, including eight minutes choosing books and four minutes chatting. Thursday: twenty-five minutes of reading. Friday: twenty minutes of reading.\n\n[Mara's comment] I spent the longest library period there on Tuesday, so that must be my strongest day. [Teacher] Library time and active reading time are different. Count the relevant minutes before judging whether the target was reached.\n\nMara checks the entries and keeps all of them, including the day below target. Her badge records consistent participation across enough days. It does not show that she reads faster than classmates, understands every page, or can predict a future exam result from minutes alone.",
+          "explanation": "扣除非閱讀時間後只有十八分鐘。",
+          "id": "d200-q4",
+          "options": [
+            "Its active reading time is below twenty minutes.",
+            "It was not in the same week.",
+            "Thirty minutes is too long for the challenge.",
+            "Book selection is forbidden in libraries."
+          ],
+          "prompt": "Why doesn't Tuesday meet the target?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Challenge rule] A badge requires at least twenty active reading minutes on each of three different days in one week. Short periods on the same day may be added. Breaks and book selection do not count, and surplus minutes cannot be moved to another day.\n\n[Mara's log] Monday: twelve minutes before class and nine afterward. Tuesday: thirty minutes in the library, including eight minutes choosing books and four minutes chatting. Thursday: twenty-five minutes of reading. Friday: twenty minutes of reading.\n\n[Mara's comment] I spent the longest library period there on Tuesday, so that must be my strongest day. [Teacher] Library time and active reading time are different. Count the relevant minutes before judging whether the target was reached.\n\nMara checks the entries and keeps all of them, including the day below target. Her badge records consistent participation across enough days. It does not show that she reads faster than classmates, understands every page, or can predict a future exam result from minutes alone.",
+          "explanation": "週一 21、週四 25、週五 20 達標。",
+          "id": "d200-q5",
+          "options": [
+            "Four.",
+            "Three.",
+            "One.",
+            "Two."
+          ],
+          "prompt": "How many listed days meet the target?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Challenge rule] A badge requires at least twenty active reading minutes on each of three different days in one week. Short periods on the same day may be added. Breaks and book selection do not count, and surplus minutes cannot be moved to another day.",
+          "explanation": "規則明定多餘分鐘不可跨日移轉。",
+          "id": "d200-q6",
+          "options": [
+            "Yes, all weekly minutes are interchangeable.",
+            "No, each day's target is separate.",
+            "Only if she reads faster than classmates.",
+            "Only if Mara deletes her chatting time."
+          ],
+          "prompt": "May extra Monday minutes be transferred to Tuesday?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Challenge rule] A badge requires at least twenty active reading minutes on each of three different days in one week. Short periods on the same day may be added. Breaks and book selection do not count, and surplus minutes cannot be moved to another day.",
+          "explanation": "超出當日門檻的分鐘屬多餘部分。",
+          "id": "d200-q7",
+          "options": [
+            "A record with no date.",
+            "The total number of pages.",
+            "Time spent only on breaks.",
+            "More than is needed for a target."
+          ],
+          "prompt": "What does 'surplus' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Challenge rule] A badge requires at least twenty active reading minutes on each of three different days in one week. Short periods on the same day may be added. Breaks and book selection do not count, and surplus minutes cannot be moved to another day.\n\n[Mara's log] Monday: twelve minutes before class and nine afterward. Tuesday: thirty minutes in the library, including eight minutes choosing books and four minutes chatting. Thursday: twenty-five minutes of reading. Friday: twenty minutes of reading.\n\n[Mara's comment] I spent the longest library period there on Tuesday, so that must be my strongest day. [Teacher] Library time and active reading time are different. Count the relevant minutes before judging whether the target was reached.\n\nMara checks the entries and keeps all of them, including the day below target. Her badge records consistent participation across enough days. It does not show that she reads faster than classmates, understands every page, or can predict a future exam result from minutes alone.",
+          "explanation": "三個實際達標日已符合規定，無須改寫週二。",
+          "id": "d200-q8",
+          "options": [
+            "She needs Tuesday to qualify before any badge is possible.",
+            "She can remove breaks to make an entry more attractive.",
+            "Her longest visit automatically provides all three days.",
+            "She meets it through Monday, Thursday, and Friday."
+          ],
+          "prompt": "What can Mara conclude about earning the badge?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Mara checks the entries and keeps all of them, including the day below target. Her badge records consistent participation across enough days. It does not show that she reads faster than classmates, understands every page, or can predict a future exam result from minutes alone.",
+          "explanation": "徽章只證明按規定持續參與，不能推論閱讀能力或考試級分。",
+          "id": "d200-q9",
+          "options": [
+            "Complete understanding of every page.",
+            "Faster reading than every classmate.",
+            "A predicted official exam result.",
+            "Participation meeting the stated time pattern."
+          ],
+          "prompt": "What does the badge establish according to the passage?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Challenge rule] A badge requires at least twenty active reading minutes on each of three different days in one week. Short periods on the same day may be added. Breaks and book selection do not count, and surplus minutes cannot be moved to another day.\n\n[Mara's log] Monday: twelve minutes before class and nine afterward. Tuesday: thirty minutes in the library, including eight minutes choosing books and four minutes chatting. Thursday: twenty-five minutes of reading. Friday: twenty minutes of reading.\n\n[Mara's comment] I spent the longest library period there on Tuesday, so that must be my strongest day. [Teacher] Library time and active reading time are different. Count the relevant minutes before judging whether the target was reached.\n\nMara checks the entries and keeps all of them, including the day below target. Her badge records consistent participation across enough days. It does not show that she reads faster than classmates, understands every page, or can predict a future exam result from minutes alone.",
+      "title": "Boss: Reading Time and Library Time",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "Breaks and book selection do not count, and surplus minutes cannot be moved to another day.",
+          "meaning": "多餘的",
+          "word": "surplus"
+        },
+        {
+          "example": "Count the relevant minutes before judging whether the target was reached.",
+          "meaning": "相關的",
+          "word": "relevant"
+        },
+        {
+          "example": "Her badge records consistent participation across enough days.",
+          "meaning": "持續穩定的",
+          "word": "consistent"
+        },
+        {
+          "example": "It does not show that she reads faster than classmates, understands every page, or can predict a future exam result from minutes alone.",
+          "meaning": "預測",
+          "word": "predict"
+        },
+        {
+          "example": "Mara checks the entries and keeps all of them, including the day below target.",
+          "meaning": "紀錄項目",
+          "word": "entries"
+        }
+      ]
+    }
+  ]
+}

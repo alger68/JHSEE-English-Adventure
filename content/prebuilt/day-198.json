@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-18",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 198,
+      "goal": "區分顯示讀數與經過時間，依共同起訖點比較。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而非",
+          "phrase": "rather than"
+        },
+        {
+          "meaning": "用手動方式",
+          "phrase": "by hand"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "During a classroom race between toy cars, students use a large timer that has not been reset. It shows three seconds when the first car starts and thirteen when that car finishes. Pat records thirteen seconds as the car's travel time.",
+          "explanation": "第一段明說起跑時顯示三秒。",
+          "id": "d198-q1",
+          "options": [
+            "Three seconds.",
+            "Thirteen seconds.",
+            "Zero seconds.",
+            "Ten seconds."
+          ],
+          "prompt": "What did the timer show when the first car started?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "His partner points out that the car did not begin at zero. They subtract the starting reading from the finishing reading and record ten seconds instead. For the second car, the readings are twenty and thirty-two, giving twelve seconds of travel.",
+          "explanation": "13 − 3 = 10 秒。",
+          "id": "d198-q2",
+          "options": [
+            "Ten seconds.",
+            "Sixteen seconds.",
+            "Three seconds.",
+            "Thirteen seconds."
+          ],
+          "prompt": "How long did the first car travel?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "His partner points out that the car did not begin at zero. They subtract the starting reading from the finishing reading and record ten seconds instead. For the second car, the readings are twenty and thirty-two, giving twelve seconds of travel.",
+          "explanation": "32 − 20 = 12 秒。",
+          "id": "d198-q3",
+          "options": [
+            "Twelve seconds.",
+            "Ten seconds.",
+            "Thirty-two seconds.",
+            "Twenty seconds."
+          ],
+          "prompt": "How long did the second car travel?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The class compares durations rather than the final numbers on the screen. Both cars traveled the same marked distance, and each start was recorded at the line. The students still note that pressing a button by hand introduces some uncertainty. A correct subtraction fixes Pat's calculation, but it does not make the timing method perfect or support conclusions about every toy car.",
+          "explanation": "比較的是起訖之間經過的時間。",
+          "id": "d198-q4",
+          "options": [
+            "Lengths of time between starts and finishes.",
+            "Final display numbers alone.",
+            "Names of the toy cars.",
+            "Distances between classrooms."
+          ],
+          "prompt": "What does 'durations' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The class compares durations rather than the final numbers on the screen. Both cars traveled the same marked distance, and each start was recorded at the line. The students still note that pressing a button by hand introduces some uncertainty. A correct subtraction fixes Pat's calculation, but it does not make the timing method perfect or support conclusions about every toy car.",
+          "explanation": "同距離的時間才適合直接比較此趟快慢。",
+          "id": "d198-q5",
+          "options": [
+            "It proves all toy cars behave alike.",
+            "It makes the travel-time comparison more meaningful.",
+            "It removes every timing error.",
+            "It makes both display readings equal."
+          ],
+          "prompt": "Why is the equal marked distance relevant?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "During a classroom race between toy cars, students use a large timer that has not been reset. It shows three seconds when the first car starts and thirteen when that car finishes. Pat records thirteen seconds as the car's travel time.\n\nHis partner points out that the car did not begin at zero. They subtract the starting reading from the finishing reading and record ten seconds instead. For the second car, the readings are twenty and thirty-two, giving twelve seconds of travel.\n\nThe class compares durations rather than the final numbers on the screen. Both cars traveled the same marked distance, and each start was recorded at the line. The students still note that pressing a button by hand introduces some uncertainty. A correct subtraction fixes Pat's calculation, but it does not make the timing method perfect or support conclusions about every toy car.",
+          "explanation": "本次紀錄較短可說，手動誤差與其他情況仍需保留。",
+          "id": "d198-q6",
+          "options": [
+            "Correct arithmetic eliminates all measurement error.",
+            "The first car's recorded duration was shorter, though hand timing has uncertainty.",
+            "The second car traveled thirty-two seconds because of its final display.",
+            "The first car is always faster in every situation."
+          ],
+          "prompt": "Which conclusion respects the remaining limitation?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "During a classroom race between toy cars, students use a large timer that has not been reset. It shows three seconds when the first car starts and thirteen when that car finishes. Pat records thirteen seconds as the car's travel time.\n\nHis partner points out that the car did not begin at zero. They subtract the starting reading from the finishing reading and record ten seconds instead. For the second car, the readings are twenty and thirty-two, giving twelve seconds of travel.\n\nThe class compares durations rather than the final numbers on the screen. Both cars traveled the same marked distance, and each start was recorded at the line. The students still note that pressing a button by hand introduces some uncertainty. A correct subtraction fixes Pat's calculation, but it does not make the timing method perfect or support conclusions about every toy car.",
+      "title": "The Timer That Started at Three",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "During a classroom race between toy cars, students use a large timer that has not been reset.",
+          "meaning": "重設",
+          "word": "reset"
+        },
+        {
+          "example": "They subtract the starting reading from the finishing reading and record ten seconds instead.",
+          "meaning": "減去",
+          "word": "subtract"
+        },
+        {
+          "example": "The class compares durations rather than the final numbers on the screen.",
+          "meaning": "持續時間",
+          "word": "durations"
+        },
+        {
+          "example": "Both cars traveled the same marked distance, and each start was recorded at the line.",
+          "meaning": "距離",
+          "word": "distance"
+        },
+        {
+          "example": "The students still note that pressing a button by hand introduces some uncertainty.",
+          "meaning": "不確定性",
+          "word": "uncertainty"
+        }
+      ]
+    }
+  ]
+}

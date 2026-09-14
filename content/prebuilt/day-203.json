@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-23",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 203,
+      "goal": "比較熟悉記憶與現場資訊，推論改變決策的原因。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "再往前",
+          "phrase": "farther along"
+        },
+        {
+          "meaning": "不再可使用",
+          "phrase": "no longer available"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "On a visit to his old neighborhood, Dan tells his younger sister that he knows a shortcut to the park. He used it every afternoon as a child. They follow the familiar lane until a new fence blocks the path behind an apartment building.",
+          "explanation": "新圍欄擋住公寓後方路線。",
+          "id": "d203-q1",
+          "options": [
+            "A new fence.",
+            "A fallen tree.",
+            "A closed park gate.",
+            "His sister's bicycle."
+          ],
+          "prompt": "What blocks Dan's remembered shortcut?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Dan feels certain there must be an opening farther along. His sister points to a sign directing visitors to the public entrance on the next street. She asks whether his memory describes the neighborhood now or the one he knew years ago.",
+          "explanation": "告示指向隔壁街的公共入口。",
+          "id": "d203-q2",
+          "options": [
+            "Through the apartment fence.",
+            "Under the familiar tree.",
+            "To the public entrance on the next street.",
+            "Back to Dan's old classroom."
+          ],
+          "prompt": "Where does the sign direct visitors?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Dan feels certain there must be an opening farther along. His sister points to a sign directing visitors to the public entrance on the next street. She asks whether his memory describes the neighborhood now or the one he knew years ago.",
+          "explanation": "她分辨記憶中的街區與今日狀況。",
+          "id": "d203-q3",
+          "options": [
+            "Whether memories can have personal meaning.",
+            "Whether the park has any trees.",
+            "Whether Dan's old knowledge still matches the present place.",
+            "Whether he ever lived there."
+          ],
+          "prompt": "What does the sister question?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "They take the signed route and arrive a few minutes later. From the park, Dan can still see the tree beside his old shortcut, but the surrounding buildings have changed. He tells his sister a story about the tree while accepting that his remembered route is no longer available. His memory remains meaningful without being a reliable guide to every present detail.",
+          "explanation": "作為當前導航依據需要可信且適用。",
+          "id": "d203-q4",
+          "options": [
+            "Shorter than every other route.",
+            "Able to be trusted for a particular purpose.",
+            "Remembered for many years.",
+            "Emotionally important in every way."
+          ],
+          "prompt": "What does 'reliable' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "They take the signed route and arrive a few minutes later. From the park, Dan can still see the tree beside his old shortcut, but the surrounding buildings have changed. He tells his sister a story about the tree while accepting that his remembered route is no longer available. His memory remains meaningful without being a reliable guide to every present detail.",
+          "explanation": "情感記憶的價值與路線是否現行可通行不同。",
+          "id": "d203-q5",
+          "options": [
+            "The tree guarantees every building is unchanged.",
+            "Its personal meaning does not require the old path to remain open.",
+            "The detour recreates his childhood exactly.",
+            "The memory proves the sign is wrong."
+          ],
+          "prompt": "Why can Dan still value the memory after changing routes?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "On a visit to his old neighborhood, Dan tells his younger sister that he knows a shortcut to the park. He used it every afternoon as a child. They follow the familiar lane until a new fence blocks the path behind an apartment building.\n\nDan feels certain there must be an opening farther along. His sister points to a sign directing visitors to the public entrance on the next street. She asks whether his memory describes the neighborhood now or the one he knew years ago.\n\nThey take the signed route and arrive a few minutes later. From the park, Dan can still see the tree beside his old shortcut, but the surrounding buildings have changed. He tells his sister a story about the tree while accepting that his remembered route is no longer available. His memory remains meaningful without being a reliable guide to every present detail.",
+          "explanation": "環境有變時需更新實際判斷，仍可珍惜回憶。",
+          "id": "d203-q6",
+          "options": [
+            "Taking a detour means forgetting the past.",
+            "New information makes every old memory worthless.",
+            "A strong memory always overrides a present sign.",
+            "Familiar knowledge should be checked against current evidence when conditions change."
+          ],
+          "prompt": "What does Dan learn?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "On a visit to his old neighborhood, Dan tells his younger sister that he knows a shortcut to the park. He used it every afternoon as a child. They follow the familiar lane until a new fence blocks the path behind an apartment building.\n\nDan feels certain there must be an opening farther along. His sister points to a sign directing visitors to the public entrance on the next street. She asks whether his memory describes the neighborhood now or the one he knew years ago.\n\nThey take the signed route and arrive a few minutes later. From the park, Dan can still see the tree beside his old shortcut, but the surrounding buildings have changed. He tells his sister a story about the tree while accepting that his remembered route is no longer available. His memory remains meaningful without being a reliable guide to every present detail.",
+      "title": "The Shortcut Through a Memory",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "On a visit to his old neighborhood, Dan tells his younger sister that he knows a shortcut to the park.",
+          "meaning": "街區",
+          "word": "neighborhood"
+        },
+        {
+          "example": "They follow the familiar lane until a new fence blocks the path behind an apartment building.",
+          "meaning": "熟悉的",
+          "word": "familiar"
+        },
+        {
+          "example": "They follow the familiar lane until a new fence blocks the path behind an apartment building.",
+          "meaning": "圍欄",
+          "word": "fence"
+        },
+        {
+          "example": "From the park, Dan can still see the tree beside his old shortcut, but the surrounding buildings have changed.",
+          "meaning": "周圍的",
+          "word": "surrounding"
+        },
+        {
+          "example": "His memory remains meaningful without being a reliable guide to every present detail.",
+          "meaning": "可靠的",
+          "word": "reliable"
+        }
+      ]
+    }
+  ]
+}

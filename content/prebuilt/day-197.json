@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-17",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 197,
+      "goal": "辨識承諾的條件及對話中未被接受的部分。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "登記你負責",
+          "phrase": "put you down for"
+        },
+        {
+          "meaning": "直到四點",
+          "phrase": "until four"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "[Festival chat] Noel: Can you help paint the signs on Saturday? Iris: I can, if we finish by four. I need to meet my family at 4:30. Noel: Wonderful. I'll put you down for painting and evening cleanup.",
+          "explanation": "Iris 的同意以四點前結束為條件。",
+          "id": "d197-q1",
+          "options": [
+            "Her family must help paint.",
+            "They must finish by four.",
+            "She must lead cleanup.",
+            "They must start after four."
+          ],
+          "prompt": "What condition does Iris first give?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Festival chat] Noel: Can you help paint the signs on Saturday? Iris: I can, if we finish by four. I need to meet my family at 4:30. Noel: Wonderful. I'll put you down for painting and evening cleanup.",
+          "explanation": "Noel 將有限度的同意擴大成晚間清理。",
+          "id": "d197-q2",
+          "options": [
+            "The signs are already finished.",
+            "The family meeting is at two.",
+            "Iris cannot paint at all.",
+            "Agreement to painting includes evening cleanup."
+          ],
+          "prompt": "What does Noel incorrectly assume?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Festival chat] Noel: Can you help paint the signs on Saturday? Iris: I can, if we finish by four. I need to meet my family at 4:30. Noel: Wonderful. I'll put you down for painting and evening cleanup.\n\nIris: I agreed to painting within that time limit. I didn't agree to stay in the evening. Noel: Sorry, I read the first part too quickly. We start at two, and the signs should take an hour. Would two to three work?\n\nIris: Yes. If painting runs late, I can stay until four, but then I must leave. Noel updates the task list with her available hours and asks another volunteer about cleanup. The plan now shows a confirmed task and its boundary. Iris is still being helpful; stating a limit makes it easier for Noel to organize work that people can actually complete.",
+          "explanation": "Noel 提議二到三點，Iris 回答可以。",
+          "id": "d197-q3",
+          "options": [
+            "Four to five.",
+            "Two to three.",
+            "Three to six.",
+            "The entire evening."
+          ],
+          "prompt": "What hours are agreed for the planned painting task?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Iris: Yes. If painting runs late, I can stay until four, but then I must leave. Noel updates the task list with her available hours and asks another volunteer about cleanup. The plan now shows a confirmed task and its boundary. Iris is still being helpful; stating a limit makes it easier for Noel to organize work that people can actually complete.",
+          "explanation": "承諾有明確最晚離開時間。",
+          "id": "d197-q4",
+          "options": [
+            "An extra evening task.",
+            "A painted line around every sign.",
+            "A limit on the commitment.",
+            "A family meeting location."
+          ],
+          "prompt": "What does 'boundary' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Iris: Yes. If painting runs late, I can stay until four, but then I must leave. Noel updates the task list with her available hours and asks another volunteer about cleanup. The plan now shows a confirmed task and its boundary. Iris is still being helpful; stating a limit makes it easier for Noel to organize work that people can actually complete.",
+          "explanation": "Iris 明說四點必須走，後續工作要另行安排。",
+          "id": "d197-q5",
+          "options": [
+            "Move Iris's family meeting himself.",
+            "Assume Iris will stay because she is helpful.",
+            "Treat the first yes as unlimited availability.",
+            "Plan for someone other than Iris to continue."
+          ],
+          "prompt": "What should Noel do if painting continues after four?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "[Festival chat] Noel: Can you help paint the signs on Saturday? Iris: I can, if we finish by four. I need to meet my family at 4:30. Noel: Wonderful. I'll put you down for painting and evening cleanup.\n\nIris: I agreed to painting within that time limit. I didn't agree to stay in the evening. Noel: Sorry, I read the first part too quickly. We start at two, and the signs should take an hour. Would two to three work?\n\nIris: Yes. If painting runs late, I can stay until four, but then I must leave. Noel updates the task list with her available hours and asks another volunteer about cleanup. The plan now shows a confirmed task and its boundary. Iris is still being helpful; stating a limit makes it easier for Noel to organize work that people can actually complete.",
+          "explanation": "任務與可用時間都清楚，才是可靠的承諾。",
+          "id": "d197-q6",
+          "options": [
+            "Mentioning a limit cancels every offer to help.",
+            "Only the first words of a reply matter.",
+            "A helpful person must accept all related tasks.",
+            "A clear commitment includes the conditions under which it is offered."
+          ],
+          "prompt": "What does the conversation show about planning help?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Festival chat] Noel: Can you help paint the signs on Saturday? Iris: I can, if we finish by four. I need to meet my family at 4:30. Noel: Wonderful. I'll put you down for painting and evening cleanup.\n\nIris: I agreed to painting within that time limit. I didn't agree to stay in the evening. Noel: Sorry, I read the first part too quickly. We start at two, and the signs should take an hour. Would two to three work?\n\nIris: Yes. If painting runs late, I can stay until four, but then I must leave. Noel updates the task list with her available hours and asks another volunteer about cleanup. The plan now shows a confirmed task and its boundary. Iris is still being helpful; stating a limit makes it easier for Noel to organize work that people can actually complete.",
+      "title": "I Can Help, If We Finish by Four",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "I'll put you down for painting and evening cleanup.",
+          "meaning": "清理工作",
+          "word": "cleanup"
+        },
+        {
+          "example": "Iris: I agreed to painting within that time limit.",
+          "meaning": "同意了",
+          "word": "agreed"
+        },
+        {
+          "example": "Iris: I agreed to painting within that time limit.",
+          "meaning": "限制",
+          "word": "limit"
+        },
+        {
+          "example": "Noel updates the task list with her available hours and asks another volunteer about cleanup.",
+          "meaning": "有空的",
+          "word": "available"
+        },
+        {
+          "example": "The plan now shows a confirmed task and its boundary.",
+          "meaning": "界限",
+          "word": "boundary"
+        }
+      ]
+    }
+  ]
+}

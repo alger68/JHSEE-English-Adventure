@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-27",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 207,
+      "goal": "交叉比對明確線索與不確定回憶，排除不符地點。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "開放參觀",
+          "phrase": "open to visitors"
+        },
+        {
+          "meaning": "不只一個",
+          "phrase": "not just one"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "[Game setup] A fictional key was left in one of four places: the reading room, the garden bench, the ticket desk, or the storage room. The booklet states that the key's final location is dry, open to visitors, and contains a clock.",
+          "explanation": "設定列閱讀室、花園長椅、售票處及儲藏室四處。",
+          "id": "d207-q1",
+          "options": [
+            "Four.",
+            "Five.",
+            "Three.",
+            "Two."
+          ],
+          "prompt": "How many possible locations are listed?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Place guide] The reading room is indoors, open to visitors, and has a wall clock. The garden bench is wet from rain and has no clock. The ticket desk is indoors and public but has no clock. The storage room is dry and has a clock, but visitors may not enter.",
+          "explanation": "地點指南列售票處室內公開但無時鐘。",
+          "id": "d207-q2",
+          "options": [
+            "The ticket desk.",
+            "The reading room.",
+            "The garden bench.",
+            "The storage room."
+          ],
+          "prompt": "Which place has no clock but is indoors and public?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Place guide] The reading room is indoors, open to visitors, and has a wall clock. The garden bench is wet from rain and has no clock. The ticket desk is indoors and public but has no clock. The storage room is dry and has a clock, but visitors may not enter.",
+          "explanation": "儲藏室雖乾燥且有鐘，卻不對訪客開放。",
+          "id": "d207-q3",
+          "options": [
+            "Visitors may not enter.",
+            "It is outdoors.",
+            "It has no clock.",
+            "It is wet."
+          ],
+          "prompt": "Why is the storage room excluded?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Place guide] The reading room is indoors, open to visitors, and has a wall clock. The garden bench is wet from rain and has no clock. The ticket desk is indoors and public but has no clock. The storage room is dry and has a clock, but visitors may not enter.",
+          "explanation": "長椅雨後濕且無鐘，違反條件。",
+          "id": "d207-q4",
+          "options": [
+            "It is inside a private room.",
+            "It is not mentioned in the guide.",
+            "It has too many clocks.",
+            "It is wet and has no clock."
+          ],
+          "prompt": "Why is the garden bench excluded?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Character notes] Al recalls carrying the key toward the ticket desk earlier. Bea saw Al later holding it near the reading-room door. Neither statement says where it was finally left. The location conditions in the setup are reliable facts for this game.",
+          "explanation": "Al 只記得先前朝售票處拿著鑰匙。",
+          "id": "d207-q5",
+          "options": [
+            "Watching Bea put it on the bench.",
+            "Carrying the key toward the ticket desk earlier.",
+            "Leaving it finally in the storage room.",
+            "Finding it under a wall clock."
+          ],
+          "prompt": "What does Al remember?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Character notes] Al recalls carrying the key toward the ticket desk earlier. Bea saw Al later holding it near the reading-room door. Neither statement says where it was finally left. The location conditions in the setup are reliable facts for this game.",
+          "explanation": "看見拿著經過不等於見到最後放置。",
+          "id": "d207-q6",
+          "options": [
+            "She saw Al holding it near a door, not leaving it.",
+            "Every character statement is declared false.",
+            "She never saw Al with the key.",
+            "She describes a place absent from the guide."
+          ],
+          "prompt": "Why doesn't Bea's observation alone prove the final location?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The team must choose one location and explain its answer using the conditions. An earlier movement can be interesting without settling the final location. The strongest answer must fit all three stated requirements, not just one memorable detail.",
+          "explanation": "三項要求是乾燥、公開且有時鐘。",
+          "id": "d207-q7",
+          "options": [
+            "Characters' personal preferences.",
+            "Conditions an answer must satisfy.",
+            "Directions for borrowing a real key.",
+            "Places that visitors must all enter."
+          ],
+          "prompt": "What does 'requirements' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Game setup] A fictional key was left in one of four places: the reading room, the garden bench, the ticket desk, or the storage room. The booklet states that the key's final location is dry, open to visitors, and contains a clock.\n\n[Place guide] The reading room is indoors, open to visitors, and has a wall clock. The garden bench is wet from rain and has no clock. The ticket desk is indoors and public but has no clock. The storage room is dry and has a clock, but visitors may not enter.\n\n[Character notes] Al recalls carrying the key toward the ticket desk earlier. Bea saw Al later holding it near the reading-room door. Neither statement says where it was finally left. The location conditions in the setup are reliable facts for this game.\n\nThe team must choose one location and explain its answer using the conditions. An earlier movement can be interesting without settling the final location. The strongest answer must fit all three stated requirements, not just one memorable detail.",
+          "explanation": "閱讀室在室內、開放參觀且有壁鐘，三條均符合。",
+          "id": "d207-q8",
+          "options": [
+            "The garden bench.",
+            "The ticket desk.",
+            "The reading room.",
+            "The storage room."
+          ],
+          "prompt": "Which location satisfies all three conditions?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "[Game setup] A fictional key was left in one of four places: the reading room, the garden bench, the ticket desk, or the storage room. The booklet states that the key's final location is dry, open to visitors, and contains a clock.\n\n[Place guide] The reading room is indoors, open to visitors, and has a wall clock. The garden bench is wet from rain and has no clock. The ticket desk is indoors and public but has no clock. The storage room is dry and has a clock, but visitors may not enter.\n\n[Character notes] Al recalls carrying the key toward the ticket desk earlier. Bea saw Al later holding it near the reading-room door. Neither statement says where it was finally left. The location conditions in the setup are reliable facts for this game.\n\nThe team must choose one location and explain its answer using the conditions. An earlier movement can be interesting without settling the final location. The strongest answer must fit all three stated requirements, not just one memorable detail.",
+          "explanation": "需逐一比對全部可靠條件，不能只取醒目線索。",
+          "id": "d207-q9",
+          "options": [
+            "Choose the first place named in a memory.",
+            "Compare every candidate with every reliable condition.",
+            "Ignore one condition if a character detail is vivid.",
+            "Treat standing near a door as proof of leaving an object."
+          ],
+          "prompt": "Which reasoning best supports the solution?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Game setup] A fictional key was left in one of four places: the reading room, the garden bench, the ticket desk, or the storage room. The booklet states that the key's final location is dry, open to visitors, and contains a clock.\n\n[Place guide] The reading room is indoors, open to visitors, and has a wall clock. The garden bench is wet from rain and has no clock. The ticket desk is indoors and public but has no clock. The storage room is dry and has a clock, but visitors may not enter.\n\n[Character notes] Al recalls carrying the key toward the ticket desk earlier. Bea saw Al later holding it near the reading-room door. Neither statement says where it was finally left. The location conditions in the setup are reliable facts for this game.\n\nThe team must choose one location and explain its answer using the conditions. An earlier movement can be interesting without settling the final location. The strongest answer must fit all three stated requirements, not just one memorable detail.",
+      "title": "Boss: Where the Story's Key Was Left",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "The booklet states that the key's final location is dry, open to visitors, and contains a clock.",
+          "meaning": "地點",
+          "word": "location"
+        },
+        {
+          "example": "[Place guide] The reading room is indoors, open to visitors, and has a wall clock.",
+          "meaning": "在室內",
+          "word": "indoors"
+        },
+        {
+          "example": "[Character notes] Al recalls carrying the key toward the ticket desk earlier.",
+          "meaning": "回想",
+          "word": "recalls"
+        },
+        {
+          "example": "An earlier movement can be interesting without settling the final location.",
+          "meaning": "確定",
+          "word": "settling"
+        },
+        {
+          "example": "The strongest answer must fit all three stated requirements, not just one memorable detail.",
+          "meaning": "要求",
+          "word": "requirements"
+        }
+      ]
+    }
+  ]
+}

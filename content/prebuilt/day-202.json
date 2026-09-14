@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-22",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 202,
+      "goal": "依人物行動推論未完成作品的意義與評量重點。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "承受更多重量",
+          "phrase": "held more weight"
+        },
+        {
+          "meaning": "改變背後",
+          "phrase": "behind the change"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "At the class exhibition, Mira places an unfinished bridge model beside two broken earlier versions. Other students display polished models on clean tables. Her friend worries that visitors will think she did less work because one side of her bridge is still open.",
+          "explanation": "開頭列出兩個先前破損版本。",
+          "id": "d202-q1",
+          "options": [
+            "A list of unrelated homework.",
+            "Only a prize certificate.",
+            "A friend's completed bridge.",
+            "Two broken earlier versions."
+          ],
+          "prompt": "What does Mira display beside her current model?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Mira adds a notebook showing where each version failed and what she changed. One early bridge bent at its center; the next held more weight but used too much material for the project limit. Her final design is lighter, though she has not completed every connection.",
+          "explanation": "第二版承重改善但超出材料限制。",
+          "id": "d202-q2",
+          "options": [
+            "It was made by another student.",
+            "It used too much material.",
+            "It had no center.",
+            "It could hold no weight."
+          ],
+          "prompt": "Why was the second design not fully suitable?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Mira adds a notebook showing where each version failed and what she changed. One early bridge bent at its center; the next held more weight but used too much material for the project limit. Her final design is lighter, though she has not completed every connection.",
+          "explanation": "紀錄呈現失敗、改動與理由。",
+          "id": "d202-q3",
+          "options": [
+            "It makes the model already complete.",
+            "It replaces all construction requirements.",
+            "It hides every failure.",
+            "It shows evidence and reasons for changes."
+          ],
+          "prompt": "Why does the notebook help visitors understand Mira's work?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "A visitor spends several minutes reading the notebook and asks why Mira moved a support. Mira can explain the evidence behind the change. She still needs to finish the model, but the exhibition reveals work that a finished surface alone would hide. Her teacher praises the clear record of decisions and sets a later check for completing the remaining construction.",
+          "explanation": "橋的支撐物位置會影響結構。",
+          "id": "d202-q4",
+          "options": [
+            "A part that helps hold the structure up.",
+            "A decorative project title.",
+            "A note praising the class.",
+            "The visitor's ticket."
+          ],
+          "prompt": "What is a 'support' in the bridge model?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "A visitor spends several minutes reading the notebook and asks why Mira moved a support. Mira can explain the evidence behind the change. She still needs to finish the model, but the exhibition reveals work that a finished surface alone would hide. Her teacher praises the clear record of decisions and sets a later check for completing the remaining construction.",
+          "explanation": "肯定過程紀錄，同時仍需完成作品。",
+          "id": "d202-q5",
+          "options": [
+            "Mira must discard every earlier version.",
+            "The notebook proves no further work is needed.",
+            "Good documentation does not remove the remaining construction task.",
+            "The visitor has already graded the entire project."
+          ],
+          "prompt": "Why does the teacher arrange a later completion check?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "At the class exhibition, Mira places an unfinished bridge model beside two broken earlier versions. Other students display polished models on clean tables. Her friend worries that visitors will think she did less work because one side of her bridge is still open.\n\nMira adds a notebook showing where each version failed and what she changed. One early bridge bent at its center; the next held more weight but used too much material for the project limit. Her final design is lighter, though she has not completed every connection.\n\nA visitor spends several minutes reading the notebook and asks why Mira moved a support. Mira can explain the evidence behind the change. She still needs to finish the model, but the exhibition reveals work that a finished surface alone would hide. Her teacher praises the clear record of decisions and sets a later check for completing the remaining construction.",
+          "explanation": "本文呈現過程證據的價值，並未取消完成要求。",
+          "id": "d202-q6",
+          "options": [
+            "A polished surface proves every design decision was sound.",
+            "Showing a process can reveal learning hidden by appearance alone.",
+            "Documenting failure excuses every missed requirement.",
+            "An unfinished model is always better than a finished one."
+          ],
+          "prompt": "Which idea best fits the exhibition?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At the class exhibition, Mira places an unfinished bridge model beside two broken earlier versions. Other students display polished models on clean tables. Her friend worries that visitors will think she did less work because one side of her bridge is still open.\n\nMira adds a notebook showing where each version failed and what she changed. One early bridge bent at its center; the next held more weight but used too much material for the project limit. Her final design is lighter, though she has not completed every connection.\n\nA visitor spends several minutes reading the notebook and asks why Mira moved a support. Mira can explain the evidence behind the change. She still needs to finish the model, but the exhibition reveals work that a finished surface alone would hide. Her teacher praises the clear record of decisions and sets a later check for completing the remaining construction.",
+      "title": "The Story Behind an Unfinished Model",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "At the class exhibition, Mira places an unfinished bridge model beside two broken earlier versions.",
+          "meaning": "未完成的",
+          "word": "unfinished"
+        },
+        {
+          "example": "Other students display polished models on clean tables.",
+          "meaning": "精緻完成的",
+          "word": "polished"
+        },
+        {
+          "example": "At the class exhibition, Mira places an unfinished bridge model beside two broken earlier versions.",
+          "meaning": "版本",
+          "word": "versions"
+        },
+        {
+          "example": "A visitor spends several minutes reading the notebook and asks why Mira moved a support.",
+          "meaning": "支撐物",
+          "word": "support"
+        },
+        {
+          "example": "Her teacher praises the clear record of decisions and sets a later check for completing the remaining construction.",
+          "meaning": "剩餘的",
+          "word": "remaining"
+        }
+      ]
+    }
+  ]
+}

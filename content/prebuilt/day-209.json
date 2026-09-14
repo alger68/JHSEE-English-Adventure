@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-29",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 209,
+      "goal": "以敘事上下文理解象徵語句與人物情緒轉折。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "第一次",
+          "phrase": "for the first time"
+        },
+        {
+          "meaning": "與……連結",
+          "phrase": "connected to"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "The class reads a short story about a student moving to a new town. For most of the story, the student describes rooms, streets, and faces as unfamiliar. In the final scene, a neighbor invites the student to help plant flowers. The last line says, 'For the first time, the town had a window.'",
+          "explanation": "鄰居邀請一起種花。",
+          "id": "d209-q1",
+          "options": [
+            "Help plant flowers.",
+            "Repair a broken window.",
+            "Draw all the local buildings.",
+            "Move to another town."
+          ],
+          "prompt": "What does the neighbor invite the student to do?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Kai draws a literal window beside his answer and writes that a building was repaired. His partner asks where the text mentions construction. They reread the invitation and notice that the student has just found a possible connection with someone.",
+          "explanation": "文本沒有施工情節，字面解讀缺乏依據。",
+          "id": "d209-q2",
+          "options": [
+            "The last line contains no window.",
+            "The story gives no building-repair event to support it.",
+            "Literal meanings are never useful.",
+            "His drawing uses the wrong color."
+          ],
+          "prompt": "Why is Kai's first explanation weak?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Kai changes his explanation. The window may suggest a new opening toward belonging rather than a change to a wall. His teacher asks him to support that reading with the invitation and earlier loneliness. Another interpretation is possible, she says, but it still needs to fit the surrounding details. An imaginative answer is strongest when it remains connected to the text.",
+          "explanation": "教師要他結合先前孤單與後來的邀請。",
+          "id": "d209-q3",
+          "options": [
+            "Loneliness in an unfamiliar place.",
+            "Pride in repairing a building.",
+            "Excitement about leaving friends behind.",
+            "Anger about garden tools."
+          ],
+          "prompt": "Which earlier feeling helps interpret the ending?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Kai changes his explanation. The window may suggest a new opening toward belonging rather than a change to a wall. His teacher asks him to support that reading with the invitation and earlier loneliness. Another interpretation is possible, she says, but it still needs to fit the surrounding details. An imaginative answer is strongest when it remains connected to the text.",
+          "explanation": "新的社交連結帶來被接纳的歸屬感。",
+          "id": "d209-q4",
+          "options": [
+            "Traveling through a real window.",
+            "Remembering a construction rule.",
+            "Feeling connected and accepted.",
+            "Owning every local building."
+          ],
+          "prompt": "What does 'belonging' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The class reads a short story about a student moving to a new town. For most of the story, the student describes rooms, streets, and faces as unfamiliar. In the final scene, a neighbor invites the student to help plant flowers. The last line says, 'For the first time, the town had a window.'\n\nKai draws a literal window beside his answer and writes that a building was repaired. His partner asks where the text mentions construction. They reread the invitation and notice that the student has just found a possible connection with someone.\n\nKai changes his explanation. The window may suggest a new opening toward belonging rather than a change to a wall. His teacher asks him to support that reading with the invitation and earlier loneliness. Another interpretation is possible, she says, but it still needs to fit the surrounding details. An imaginative answer is strongest when it remains connected to the text.",
+          "explanation": "在孤單後獲邀，窗象徵向人際連結敞開的機會。",
+          "id": "d209-q5",
+          "options": [
+            "A new possibility of connection.",
+            "A reason to reject the neighbor.",
+            "The end of all future difficulties.",
+            "Proof that a wall was broken."
+          ],
+          "prompt": "What does the window most plausibly symbolize in the proposed reading?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Kai changes his explanation. The window may suggest a new opening toward belonging rather than a change to a wall. His teacher asks him to support that reading with the invitation and earlier loneliness. Another interpretation is possible, she says, but it still needs to fit the surrounding details. An imaginative answer is strongest when it remains connected to the text.",
+          "explanation": "可有不同詮釋，但需與情節及語境證據一致。",
+          "id": "d209-q6",
+          "options": [
+            "It may ignore the text if it is imaginative.",
+            "It should fit evidence from the surrounding story.",
+            "It must always be completely literal.",
+            "It must be identical to the first student's answer."
+          ],
+          "prompt": "What standard does the teacher set for interpretation?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The class reads a short story about a student moving to a new town. For most of the story, the student describes rooms, streets, and faces as unfamiliar. In the final scene, a neighbor invites the student to help plant flowers. The last line says, 'For the first time, the town had a window.'\n\nKai draws a literal window beside his answer and writes that a building was repaired. His partner asks where the text mentions construction. They reread the invitation and notice that the student has just found a possible connection with someone.\n\nKai changes his explanation. The window may suggest a new opening toward belonging rather than a change to a wall. His teacher asks him to support that reading with the invitation and earlier loneliness. Another interpretation is possible, she says, but it still needs to fit the surrounding details. An imaginative answer is strongest when it remains connected to the text.",
+      "title": "A Window in the Last Line",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "For most of the story, the student describes rooms, streets, and faces as unfamiliar.",
+          "meaning": "不熟悉的",
+          "word": "unfamiliar"
+        },
+        {
+          "example": "Kai draws a literal window beside his answer and writes that a building was repaired.",
+          "meaning": "字面的",
+          "word": "literal"
+        },
+        {
+          "example": "His partner asks where the text mentions construction.",
+          "meaning": "施工",
+          "word": "construction"
+        },
+        {
+          "example": "The window may suggest a new opening toward belonging rather than a change to a wall.",
+          "meaning": "歸屬感",
+          "word": "belonging"
+        },
+        {
+          "example": "Another interpretation is possible, she says, but it still needs to fit the surrounding details.",
+          "meaning": "詮釋",
+          "word": "interpretation"
+        }
+      ]
+    }
+  ]
+}

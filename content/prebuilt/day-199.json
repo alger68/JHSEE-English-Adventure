@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-19",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 199,
+      "goal": "區分閱讀活動時長、休息時間與徽章取得條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "至少",
+          "phrase": "at least"
+        },
+        {
+          "meaning": "同一週內",
+          "phrase": "within the same week"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "READING HABIT CHALLENGE: Earn a weekly badge by recording at least twenty minutes of reading on each of three different days. You may divide a day's reading into shorter periods. Minutes from different days cannot be combined to meet one day's target.",
+          "explanation": "規定同一週三個不同日各達標。",
+          "id": "d199-q1",
+          "options": [
+            "One.",
+            "Seven.",
+            "Three.",
+            "Twenty."
+          ],
+          "prompt": "How many different days must meet the target?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Pause your timer during breaks, including time spent choosing a new book. The challenge counts active reading time, not the total time you remain in the library. Write the book title and one idea you understood after each reading period.",
+          "explanation": "公告明列挑書時間需暫停計時。",
+          "id": "d199-q2",
+          "options": [
+            "No; the timer should be paused.",
+            "Yes, if it happens in a library.",
+            "Only after earning a badge.",
+            "Only if the book is difficult."
+          ],
+          "prompt": "Does choosing a new book count as active reading?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "READING HABIT CHALLENGE: Earn a weekly badge by recording at least twenty minutes of reading on each of three different days. You may divide a day's reading into shorter periods. Minutes from different days cannot be combined to meet one day's target.",
+          "explanation": "同日可拆成短時段累計。",
+          "id": "d199-q3",
+          "options": [
+            "Only reading speed is measured.",
+            "Any library visit automatically counts.",
+            "The rules allow a day's reading to be divided.",
+            "Minutes from all weeks may be combined."
+          ],
+          "prompt": "Why can two short periods count on one day?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The badge celebrates participation, not reading speed or an exam score. A difficult page may take longer than an easy one. If you miss a target day, keep your record and try again on another day within the same week. Do not replace an honest entry with an invented one just to complete the badge.",
+          "explanation": "徽章肯定參與習慣，不是評定考試成績。",
+          "id": "d199-q4",
+          "options": [
+            "Finishing more pages than everyone.",
+            "Avoiding difficult books.",
+            "Winning an official exam grade.",
+            "Taking part in the activity."
+          ],
+          "prompt": "What does 'participation' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "READING HABIT CHALLENGE: Earn a weekly badge by recording at least twenty minutes of reading on each of three different days. You may divide a day's reading into shorter periods. Minutes from different days cannot be combined to meet one day's target.\n\nPause your timer during breaks, including time spent choosing a new book. The challenge counts active reading time, not the total time you remain in the library. Write the book title and one idea you understood after each reading period.\n\nThe badge celebrates participation, not reading speed or an exam score. A difficult page may take longer than an easy one. If you miss a target day, keep your record and try again on another day within the same week. Do not replace an honest entry with an invented one just to complete the badge.",
+          "explanation": "每天至少二十分鐘，三個不同日各自達標。",
+          "id": "d199-q5",
+          "options": [
+            "Twenty minutes each on Monday, Wednesday, and Friday.",
+            "Twenty minutes in the library with fifteen minutes of breaks on three days.",
+            "Sixty minutes on Monday only.",
+            "Ten minutes each on six different days."
+          ],
+          "prompt": "Which pattern meets the three-day rule?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "The badge celebrates participation, not reading speed or an exam score. A difficult page may take longer than an easy one. If you miss a target day, keep your record and try again on another day within the same week. Do not replace an honest entry with an invented one just to complete the badge.",
+          "explanation": "保留真實紀錄，可在同週其他天再完成。",
+          "id": "d199-q6",
+          "options": [
+            "Treat choosing books as reading time.",
+            "Erase all completed reading.",
+            "Invent missing minutes.",
+            "Keep the truthful record and try another day that week."
+          ],
+          "prompt": "What should someone do after a missed target day?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "READING HABIT CHALLENGE: Earn a weekly badge by recording at least twenty minutes of reading on each of three different days. You may divide a day's reading into shorter periods. Minutes from different days cannot be combined to meet one day's target.\n\nPause your timer during breaks, including time spent choosing a new book. The challenge counts active reading time, not the total time you remain in the library. Write the book title and one idea you understood after each reading period.\n\nThe badge celebrates participation, not reading speed or an exam score. A difficult page may take longer than an easy one. If you miss a target day, keep your record and try again on another day within the same week. Do not replace an honest entry with an invented one just to complete the badge.",
+      "title": "Twenty Minutes of Actual Reading",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "READING HABIT CHALLENGE: Earn a weekly badge by recording at least twenty minutes of reading on each of three different days.",
+          "meaning": "徽章",
+          "word": "badge"
+        },
+        {
+          "example": "You may divide a day's reading into shorter periods.",
+          "meaning": "分開",
+          "word": "divide"
+        },
+        {
+          "example": "The challenge counts active reading time, not the total time you remain in the library.",
+          "meaning": "實際投入的",
+          "word": "active"
+        },
+        {
+          "example": "The badge celebrates participation, not reading speed or an exam score.",
+          "meaning": "參與",
+          "word": "participation"
+        },
+        {
+          "example": "Do not replace an honest entry with an invented one just to complete the badge.",
+          "meaning": "編造的",
+          "word": "invented"
+        }
+      ]
+    }
+  ]
+}

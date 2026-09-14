@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-21",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 201,
+      "goal": "複習時間界限、相減及有效閱讀，核對數字代表的量。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而非",
+          "phrase": "rather than"
+        },
+        {
+          "meaning": "只有在……之後才有效",
+          "phrase": "works only after"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "For the volunteer message, four o'clock is a boundary on available help, not a new starting time. For the toy car, Jo must subtract the starting timer reading from the finishing reading to compare durations. A final display of thirteen does not mean thirteen seconds of travel.",
+          "explanation": "四點是可協助的最晚界限。",
+          "id": "d201-q1",
+          "options": [
+            "The duration of painting.",
+            "The family meeting's exact time.",
+            "The start of evening cleanup.",
+            "The latest time help is available."
+          ],
+          "prompt": "What does four o'clock mean in the volunteer example?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For the volunteer message, four o'clock is a boundary on available help, not a new starting time. For the toy car, Jo must subtract the starting timer reading from the finishing reading to compare durations. A final display of thirteen does not mean thirteen seconds of travel.",
+          "explanation": "經過時間須終值減起值。",
+          "id": "d201-q2",
+          "options": [
+            "Finish reading plus start reading.",
+            "The final display alone.",
+            "Finish reading minus start reading.",
+            "The starting display alone."
+          ],
+          "prompt": "How should a toy car's duration be calculated?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "In the reading challenge, thirty minutes inside a library may contain fewer active reading minutes. Jo removes breaks before checking the daily target. She also keeps surplus minutes on their actual day rather than moving them to another. The review helps her see that arithmetic works only after she identifies the quantity, its limits, and the rule under which it is being counted.",
+          "explanation": "造訪時間可能包含足夠多的休息或挑書而使閱讀不足。",
+          "id": "d201-q3",
+          "options": [
+            "Library reading never counts.",
+            "Nonreading activities may take more than ten minutes.",
+            "Thirty is always less than twenty.",
+            "The target uses page numbers instead of minutes."
+          ],
+          "prompt": "Why might a thirty-minute library visit fail a twenty-minute reading target?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "In the reading challenge, thirty minutes inside a library may contain fewer active reading minutes. Jo removes breaks before checking the daily target. She also keeps surplus minutes on their actual day rather than moving them to another. The review helps her see that arithmetic works only after she identifies the quantity, its limits, and the rule under which it is being counted.",
+          "explanation": "超出當日門檻的部分仍留在該日。",
+          "id": "d201-q4",
+          "options": [
+            "The first minute of every session.",
+            "Minutes beyond the day's requirement.",
+            "Minutes that were never recorded.",
+            "Only time spent chatting."
+          ],
+          "prompt": "What does 'surplus' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For the volunteer message, four o'clock is a boundary on available help, not a new starting time. For the toy car, Jo must subtract the starting timer reading from the finishing reading to compare durations. A final display of thirteen does not mean thirteen seconds of travel.",
+          "explanation": "19 − 6 = 13 秒，須依同一相減方法。",
+          "id": "d201-q5",
+          "options": [
+            "Nineteen seconds.",
+            "Six seconds.",
+            "Thirteen seconds.",
+            "Twenty-five seconds."
+          ],
+          "prompt": "A timer starts at six and ends at nineteen. Which duration follows Jo's method?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "In the reading challenge, thirty minutes inside a library may contain fewer active reading minutes. Jo removes breaks before checking the daily target. She also keeps surplus minutes on their actual day rather than moving them to another. The review helps her see that arithmetic works only after she identifies the quantity, its limits, and the rule under which it is being counted.",
+          "explanation": "先釐清量的定義及規則，計算才有意義。",
+          "id": "d201-q6",
+          "options": [
+            "What the numbers measure and which counting rules apply.",
+            "Whether every result will earn a badge.",
+            "How to transfer extra minutes across days.",
+            "Which number is printed largest."
+          ],
+          "prompt": "What must Jo establish before doing arithmetic?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Five words guide Jo's review: boundary, subtract, durations, active, and surplus. She writes a number beside each word and then explains what that number represents. Her teacher says the explanation matters more than producing a long list of correct-looking figures.\n\nFor the volunteer message, four o'clock is a boundary on available help, not a new starting time. For the toy car, Jo must subtract the starting timer reading from the finishing reading to compare durations. A final display of thirteen does not mean thirteen seconds of travel.\n\nIn the reading challenge, thirty minutes inside a library may contain fewer active reading minutes. Jo removes breaks before checking the daily target. She also keeps surplus minutes on their actual day rather than moving them to another. The review helps her see that arithmetic works only after she identifies the quantity, its limits, and the rule under which it is being counted.",
+      "title": "A Number Needs Its Definition",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "Five words guide Jo's review: boundary, subtract, durations, active, and surplus.",
+          "meaning": "界限",
+          "word": "boundary"
+        },
+        {
+          "example": "Five words guide Jo's review: boundary, subtract, durations, active, and surplus.",
+          "meaning": "減去",
+          "word": "subtract"
+        },
+        {
+          "example": "Five words guide Jo's review: boundary, subtract, durations, active, and surplus.",
+          "meaning": "持續時間",
+          "word": "durations"
+        },
+        {
+          "example": "Five words guide Jo's review: boundary, subtract, durations, active, and surplus.",
+          "meaning": "實際投入的",
+          "word": "active"
+        },
+        {
+          "example": "Five words guide Jo's review: boundary, subtract, durations, active, and surplus.",
+          "meaning": "多餘的",
+          "word": "surplus"
+        }
+      ]
+    }
+  ]
+}

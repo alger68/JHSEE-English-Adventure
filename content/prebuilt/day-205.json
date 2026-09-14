@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-25",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 205,
+      "goal": "依觀察單位判斷數量，區分目擊次數與不同個體。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "只一次",
+          "phrase": "only once"
+        },
+        {
+          "meaning": "在兩份清單中",
+          "phrase": "in both lists"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "For an observation lesson, a teacher places eight model birds around a garden and asks two groups to count them from different paths. Group A records six sightings, and Group B records five. A student adds the numbers and announces eleven birds.",
+          "explanation": "第一組記錄六次目擊。",
+          "id": "d205-q1",
+          "options": [
+            "Six.",
+            "Five.",
+            "Eight.",
+            "Eleven."
+          ],
+          "prompt": "How many sightings did Group A record?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The teacher asks whether the groups might have seen some of the same models. Each bird carries a small colored tag. Comparing notes shows that three tagged birds appear in both lists. The class combines the lists and counts each tag only once.",
+          "explanation": "每隻模型有可核對的色標。",
+          "id": "d205-q2",
+          "options": [
+            "Colored tags.",
+            "The number of garden paths alone.",
+            "A rule that no models can be seen twice.",
+            "The students' shoe colors."
+          ],
+          "prompt": "What helps identify repeated models?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "For an observation lesson, a teacher places eight model birds around a garden and asks two groups to count them from different paths. Group A records six sightings, and Group B records five. A student adds the numbers and announces eleven birds.\n\nThe teacher asks whether the groups might have seen some of the same models. Each bird carries a small colored tag. Comparing notes shows that three tagged birds appear in both lists. The class combines the lists and counts each tag only once.\n\nThe total is eight different models, although there were eleven recorded sightings. The teacher keeps both numbers and labels them clearly. One describes observations; the other describes distinct objects. Before a later outdoor survey, students discuss how much harder it would be to recognize untagged moving birds. The model activity gives them a counting question to consider, not a guarantee that real field observations will be equally simple.",
+          "explanation": "6 + 5 − 3 重複 = 8。",
+          "id": "d205-q3",
+          "options": [
+            "Eight.",
+            "Eleven.",
+            "Three.",
+            "Fourteen."
+          ],
+          "prompt": "How many distinct models appear in the combined lists?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The total is eight different models, although there were eleven recorded sightings. The teacher keeps both numbers and labels them clearly. One describes observations; the other describes distinct objects. Before a later outdoor survey, students discuss how much harder it would be to recognize untagged moving birds. The model activity gives them a counting question to consider, not a guarantee that real field observations will be equally simple.",
+          "explanation": "同一模型只計一次，distinct 指不同個體。",
+          "id": "d205-q4",
+          "options": [
+            "Objects seen from only one path.",
+            "The total number of written lines.",
+            "Birds with no tags.",
+            "Different individual objects."
+          ],
+          "prompt": "What does 'distinct' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The total is eight different models, although there were eleven recorded sightings. The teacher keeps both numbers and labels them clearly. One describes observations; the other describes distinct objects. Before a later outdoor survey, students discuss how much harder it would be to recognize untagged moving birds. The model activity gives them a counting question to consider, not a guarantee that real field observations will be equally simple.",
+          "explanation": "十一是目擊次數，八是不同模型數，意義不同。",
+          "id": "d205-q5",
+          "options": [
+            "Both must represent the same quantity.",
+            "Eleven is the actual number of models placed.",
+            "They measure sightings and different objects respectively.",
+            "Eight excludes every repeated sighting and its object."
+          ],
+          "prompt": "Why keep eleven as well as eight in the report?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "For an observation lesson, a teacher places eight model birds around a garden and asks two groups to count them from different paths. Group A records six sightings, and Group B records five. A student adds the numbers and announces eleven birds.\n\nThe teacher asks whether the groups might have seen some of the same models. Each bird carries a small colored tag. Comparing notes shows that three tagged birds appear in both lists. The class combines the lists and counts each tag only once.\n\nThe total is eight different models, although there were eleven recorded sightings. The teacher keeps both numbers and labels them clearly. One describes observations; the other describes distinct objects. Before a later outdoor survey, students discuss how much harder it would be to recognize untagged moving birds. The model activity gives them a counting question to consider, not a guarantee that real field observations will be equally simple.",
+          "explanation": "先確認統計單位，避免把次數當成個體數。",
+          "id": "d205-q6",
+          "options": [
+            "Which number is largest and therefore best?",
+            "Can all outdoor birds be recognized by classroom tags?",
+            "Should duplicate observations always be hidden?",
+            "What exactly is being counted by a reported number?"
+          ],
+          "prompt": "What broader reading question does the activity encourage?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "For an observation lesson, a teacher places eight model birds around a garden and asks two groups to count them from different paths. Group A records six sightings, and Group B records five. A student adds the numbers and announces eleven birds.\n\nThe teacher asks whether the groups might have seen some of the same models. Each bird carries a small colored tag. Comparing notes shows that three tagged birds appear in both lists. The class combines the lists and counts each tag only once.\n\nThe total is eight different models, although there were eleven recorded sightings. The teacher keeps both numbers and labels them clearly. One describes observations; the other describes distinct objects. Before a later outdoor survey, students discuss how much harder it would be to recognize untagged moving birds. The model activity gives them a counting question to consider, not a guarantee that real field observations will be equally simple.",
+      "title": "Counting the Same Model Bird Twice",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "Group A records six sightings, and Group B records five.",
+          "meaning": "目擊紀錄",
+          "word": "sightings"
+        },
+        {
+          "example": "Each bird carries a small colored tag.",
+          "meaning": "標籤",
+          "word": "tag"
+        },
+        {
+          "example": "One describes observations; the other describes distinct objects.",
+          "meaning": "不同的",
+          "word": "distinct"
+        },
+        {
+          "example": "Before a later outdoor survey, students discuss how much harder it would be to recognize untagged moving birds.",
+          "meaning": "調查",
+          "word": "survey"
+        },
+        {
+          "example": "The model activity gives them a counting question to consider, not a guarantee that real field observations will be equally simple.",
+          "meaning": "保證",
+          "word": "guarantee"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-30",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 210,
+      "goal": "推論物品安排反映的經驗與人物決策。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "帶回家",
+          "phrase": "bring home"
+        },
+        {
+          "meaning": "留出空間",
+          "phrase": "leaving room"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "Poppy remembers their last trip, when she carried a torn paper bag because nothing more would fit. She removes one book she has already read and a pair of shoes nearly identical to another pair. A small empty space appears beside her clothes.",
+          "explanation": "上次箱子放不下，她另提破紙袋。",
+          "id": "d210-q1",
+          "options": [
+            "Poppy needed a paper bag because her suitcase was full.",
+            "She forgot every pair of shoes.",
+            "Her father lost a handmade bowl.",
+            "She brought no books."
+          ],
+          "prompt": "What problem occurred on the previous trip?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Poppy remembers their last trip, when she carried a torn paper bag because nothing more would fit. She removes one book she has already read and a pair of shoes nearly identical to another pair. A small empty space appears beside her clothes.",
+          "explanation": "她移除已讀書及重複性高的一雙鞋。",
+          "id": "d210-q2",
+          "options": [
+            "The handmade bowl before buying it.",
+            "Every pair of shoes.",
+            "All her clothes.",
+            "A book she has already read."
+          ],
+          "prompt": "Which item does she remove this time?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Before a family trip, Poppy fills every corner of her suitcase. She packs three books, extra shoes, and several things she says she might possibly need. Her father asks where she will put the small gifts she plans to bring home.",
+          "explanation": "問題提醒旅行後段可能新增物品。",
+          "id": "d210-q3",
+          "options": [
+            "To test the titles of her books.",
+            "To forbid buying anything.",
+            "To suggest filling every gap immediately.",
+            "To make Poppy consider later storage needs."
+          ],
+          "prompt": "Why does the father ask about gifts?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "During the trip, she uses that space for a handmade bowl wrapped carefully in soft fabric. The empty space was not a forgotten item or wasted effort; it was part of her plan. Poppy does not decide to pack almost nothing next time. She learns that preparation includes considering what may happen later, and that leaving room can be a deliberate choice rather than a failure to fill a container.",
+          "explanation": "留白是事先考量後的有意選擇。",
+          "id": "d210-q4",
+          "options": [
+            "Forgotten accidentally.",
+            "Required by every traveler.",
+            "Chosen thoughtfully on purpose.",
+            "Done without considering a reason."
+          ],
+          "prompt": "What does 'deliberate' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "During the trip, she uses that space for a handmade bowl wrapped carefully in soft fabric. The empty space was not a forgotten item or wasted effort; it was part of her plan. Poppy does not decide to pack almost nothing next time. She learns that preparation includes considering what may happen later, and that leaving room can be a deliberate choice rather than a failure to fill a container.",
+          "explanation": "後來購入的碗正好利用預留空間。",
+          "id": "d210-q5",
+          "options": [
+            "It replaces every packed item.",
+            "It uses the space reserved for something acquired later.",
+            "It proves her suitcase was originally too large.",
+            "It shows she should never bring books."
+          ],
+          "prompt": "How does the bowl support Poppy's revised plan?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "Before a family trip, Poppy fills every corner of her suitcase. She packs three books, extra shoes, and several things she says she might possibly need. Her father asks where she will put the small gifts she plans to bring home.\n\nPoppy remembers their last trip, when she carried a torn paper bag because nothing more would fit. She removes one book she has already read and a pair of shoes nearly identical to another pair. A small empty space appears beside her clothes.\n\nDuring the trip, she uses that space for a handmade bowl wrapped carefully in soft fabric. The empty space was not a forgotten item or wasted effort; it was part of her plan. Poppy does not decide to pack almost nothing next time. She learns that preparation includes considering what may happen later, and that leaving room can be a deliberate choice rather than a failure to fill a container.",
+          "explanation": "準備也包括預留因應後續需求的空間。",
+          "id": "d210-q6",
+          "options": [
+            "Past difficulties cannot improve future choices.",
+            "Good preparation means filling every available space.",
+            "Planning can include leaving capacity for later needs.",
+            "Travelers should pack almost nothing."
+          ],
+          "prompt": "Which idea best captures the story?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Before a family trip, Poppy fills every corner of her suitcase. She packs three books, extra shoes, and several things she says she might possibly need. Her father asks where she will put the small gifts she plans to bring home.\n\nPoppy remembers their last trip, when she carried a torn paper bag because nothing more would fit. She removes one book she has already read and a pair of shoes nearly identical to another pair. A small empty space appears beside her clothes.\n\nDuring the trip, she uses that space for a handmade bowl wrapped carefully in soft fabric. The empty space was not a forgotten item or wasted effort; it was part of her plan. Poppy does not decide to pack almost nothing next time. She learns that preparation includes considering what may happen later, and that leaving room can be a deliberate choice rather than a failure to fill a container.",
+      "title": "The Space Left Empty in the Suitcase",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "Before a family trip, Poppy fills every corner of her suitcase.",
+          "meaning": "行李箱",
+          "word": "suitcase"
+        },
+        {
+          "example": "She removes one book she has already read and a pair of shoes nearly identical to another pair.",
+          "meaning": "相同的",
+          "word": "identical"
+        },
+        {
+          "example": "During the trip, she uses that space for a handmade bowl wrapped carefully in soft fabric.",
+          "meaning": "布料",
+          "word": "fabric"
+        },
+        {
+          "example": "She learns that preparation includes considering what may happen later, and that leaving room can be a deliberate choice rather than a failure to fill a container.",
+          "meaning": "有意識的",
+          "word": "deliberate"
+        },
+        {
+          "example": "She learns that preparation includes considering what may happen later, and that leaving room can be a deliberate choice rather than a failure to fill a container.",
+          "meaning": "容器",
+          "word": "container"
+        }
+      ]
+    }
+  ]
+}

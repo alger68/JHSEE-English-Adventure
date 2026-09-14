@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-26",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 206,
+      "goal": "閱讀遊戲公告，辨識虛構情境及尋找線索的規則。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "遊戲的一部分",
+          "phrase": "part of the game"
+        },
+        {
+          "meaning": "每隊",
+          "phrase": "per team"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "MUSEUM MYSTERY AFTERNOON: Help solve a fictional story about a missing key. This is a paper-based game; no real museum key has disappeared. Collect a clue booklet at the entrance and read the four character statements printed inside.",
+          "explanation": "公告明確表示沒有真實鑰匙遺失。",
+          "id": "d206-q1",
+          "options": [
+            "Yes; staff need visitors to search private rooms.",
+            "Only a display-case key is missing.",
+            "No; the story is fictional.",
+            "The notice does not distinguish real and fictional keys."
+          ],
+          "prompt": "Has a real museum key disappeared?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "All information needed for the answer is in the booklet. Display cases and staff-only rooms are not part of the game, and nothing needs to be opened or moved. You may discuss ideas with other players, but submit one answer sheet per team.",
+          "explanation": "全部所需資訊均在手冊。",
+          "id": "d206-q2",
+          "options": [
+            "Inside locked display cases.",
+            "In staff-only rooms.",
+            "Under objects visitors must move.",
+            "In the clue booklet."
+          ],
+          "prompt": "Where is all necessary information?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Your answer should name a location and cite two clues that support it. A lucky guess without an explanation will not earn a completion stamp. If you need help, ask for a hint card; it points to a useful statement without giving the answer. Return the pencil afterward, but keep the booklet so you can explain your reasoning to someone at home.",
+          "explanation": "完成要求包含地點及兩條理由。",
+          "id": "d206-q3",
+          "options": [
+            "Only museum staff may complete the game.",
+            "The task also requires two supporting clues.",
+            "No location can be named in writing.",
+            "Teams must submit four different answers."
+          ],
+          "prompt": "Why is naming a location alone insufficient?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Your answer should name a location and cite two clues that support it. A lucky guess without an explanation will not earn a completion stamp. If you need help, ask for a hint card; it points to a useful statement without giving the answer. Return the pencil afterward, but keep the booklet so you can explain your reasoning to someone at home.",
+          "explanation": "提示卡引導讀相關陳述，不直接揭答。",
+          "id": "d206-q4",
+          "options": [
+            "A real museum key.",
+            "A clue that guides attention without revealing the answer.",
+            "A full solution printed for everyone.",
+            "A rule requiring private-room access."
+          ],
+          "prompt": "What is a 'hint' here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "MUSEUM MYSTERY AFTERNOON: Help solve a fictional story about a missing key. This is a paper-based game; no real museum key has disappeared. Collect a clue booklet at the entrance and read the four character statements printed inside.\n\nAll information needed for the answer is in the booklet. Display cases and staff-only rooms are not part of the game, and nothing needs to be opened or moved. You may discuss ideas with other players, but submit one answer sheet per team.\n\nYour answer should name a location and cite two clues that support it. A lucky guess without an explanation will not earn a completion stamp. If you need help, ask for a hint card; it points to a useful statement without giving the answer. Return the pencil afterward, but keep the booklet so you can explain your reasoning to someone at home.",
+          "explanation": "每隊討論後交一份有依據的答案；鉛筆需還，手冊可留。",
+          "id": "d206-q5",
+          "options": [
+            "Moves display objects to search for a key.",
+            "Keeps the borrowed pencil and returns the booklet.",
+            "Submits a separate sheet for every member.",
+            "Reads the booklet, discusses, and submits one explained answer."
+          ],
+          "prompt": "Which team follows the notice?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Your answer should name a location and cite two clues that support it. A lucky guess without an explanation will not earn a completion stamp. If you need help, ask for a hint card; it points to a useful statement without giving the answer. Return the pencil afterward, but keep the booklet so you can explain your reasoning to someone at home.",
+          "explanation": "公告說可帶回向他人解釋推理。",
+          "id": "d206-q6",
+          "options": [
+            "To explain their reasoning later at home.",
+            "To gain access to staff rooms.",
+            "To prove a real key was stolen.",
+            "To avoid citing clues on the answer sheet."
+          ],
+          "prompt": "Why may players keep the booklet?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "MUSEUM MYSTERY AFTERNOON: Help solve a fictional story about a missing key. This is a paper-based game; no real museum key has disappeared. Collect a clue booklet at the entrance and read the four character statements printed inside.\n\nAll information needed for the answer is in the booklet. Display cases and staff-only rooms are not part of the game, and nothing needs to be opened or moved. You may discuss ideas with other players, but submit one answer sheet per team.\n\nYour answer should name a location and cite two clues that support it. A lucky guess without an explanation will not earn a completion stamp. If you need help, ask for a hint card; it points to a useful statement without giving the answer. Return the pencil afterward, but keep the booklet so you can explain your reasoning to someone at home.",
+      "title": "The Museum's Fictional Missing Key",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "MUSEUM MYSTERY AFTERNOON: Help solve a fictional story about a missing key.",
+          "meaning": "虛構的",
+          "word": "fictional"
+        },
+        {
+          "example": "Collect a clue booklet at the entrance and read the four character statements printed inside.",
+          "meaning": "陳述",
+          "word": "statements"
+        },
+        {
+          "example": "Your answer should name a location and cite two clues that support it.",
+          "meaning": "引用",
+          "word": "cite"
+        },
+        {
+          "example": "A lucky guess without an explanation will not earn a completion stamp.",
+          "meaning": "完成",
+          "word": "completion"
+        },
+        {
+          "example": "If you need help, ask for a hint card; it points to a useful statement without giving the answer.",
+          "meaning": "提示",
+          "word": "hint"
+        }
+      ]
+    }
+  ]
+}

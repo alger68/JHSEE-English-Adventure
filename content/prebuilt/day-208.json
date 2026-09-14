@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-28",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 208,
+      "goal": "複習假設、計數單位與線索條件，檢查答案完整性。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "不一定相同",
+          "phrase": "not always the same"
+        },
+        {
+          "meaning": "依賴",
+          "phrase": "depends on"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "Rafi reviews five words: assumption, distinct, cite, location, and requirements. His first card contains a dinner suggestion followed by an immediate booking. He identifies the assumption that a positive reaction had already settled the place, time, and guests.",
+          "explanation": "未確認具體安排就視為定案。",
+          "id": "d208-q1",
+          "options": [
+            "Checking a train time.",
+            "Asking where people want to eat.",
+            "Counting invited guests before booking.",
+            "Treating a suggestion and positive reaction as a settled booking plan."
+          ],
+          "prompt": "What unsupported step appears in the dinner card?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The second card lists eleven sightings of tagged model birds. Rafi compares the tags and finds only eight distinct models. He writes both numbers with clear labels, then explains why adding observations is not always the same as counting different objects.",
+          "explanation": "十一是觀察紀錄，八是去重後的模型數。",
+          "id": "d208-q2",
+          "options": [
+            "Sightings and different models.",
+            "Different models and unused tags.",
+            "Minutes and completed sessions.",
+            "Visitors and public rooms."
+          ],
+          "prompt": "What do eleven and eight represent in the bird task?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "For the museum game, Rafi must cite clues supporting a location. He rejects the storage room even though it is dry and has a clock, because it fails the visitor-access requirement. Meeting two of three requirements is not enough. At the end, he checks each answer against every relevant condition and underlines any step that depends on information the passage never supplied.",
+          "explanation": "儲藏室不符開放參觀條件。",
+          "id": "d208-q3",
+          "options": [
+            "It is wet.",
+            "It is outside the museum.",
+            "It has no clock.",
+            "It is not open to visitors."
+          ],
+          "prompt": "Why does Rafi reject the storage room?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For the museum game, Rafi must cite clues supporting a location. He rejects the storage room even though it is dry and has a clock, because it fails the visitor-access requirement. Meeting two of three requirements is not enough. At the end, he checks each answer against every relevant condition and underlines any step that depends on information the passage never supplied.",
+          "explanation": "cite clues 指引用具體線索支持答案。",
+          "id": "d208-q4",
+          "options": [
+            "Count the number of headings.",
+            "Guess without reading.",
+            "Refer to specific supporting information.",
+            "Change a clue to fit an answer."
+          ],
+          "prompt": "What does 'cite' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "For the museum game, Rafi must cite clues supporting a location. He rejects the storage room even though it is dry and has a clock, because it fails the visitor-access requirement. Meeting two of three requirements is not enough. At the end, he checks each answer against every relevant condition and underlines any step that depends on information the passage never supplied.",
+          "explanation": "必要條件需全數满足，少一項就可能選錯。",
+          "id": "d208-q5",
+          "options": [
+            "He would prove all locations are equally suitable.",
+            "He would eliminate every unsupported assumption.",
+            "He would automatically improve the evidence.",
+            "He could choose a location that fails an essential rule."
+          ],
+          "prompt": "What error would occur if Rafi accepted two of the three required conditions?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Rafi reviews five words: assumption, distinct, cite, location, and requirements. His first card contains a dinner suggestion followed by an immediate booking. He identifies the assumption that a positive reaction had already settled the place, time, and guests.\n\nThe second card lists eleven sightings of tagged model birds. Rafi compares the tags and finds only eight distinct models. He writes both numbers with clear labels, then explains why adding observations is not always the same as counting different objects.\n\nFor the museum game, Rafi must cite clues supporting a location. He rejects the storage room even though it is dry and has a clock, because it fails the visitor-access requirement. Meeting two of three requirements is not enough. At the end, he checks each answer against every relevant condition and underlines any step that depends on information the passage never supplied.",
+          "explanation": "三題都要先檢查資訊定義及完整條件。",
+          "id": "d208-q6",
+          "options": [
+            "Treat repeated observations as new objects.",
+            "Turn every positive comment into final agreement.",
+            "Use the most memorable detail as the whole answer.",
+            "Check definitions and conditions before accepting a plausible conclusion."
+          ],
+          "prompt": "What reading practice connects the three review tasks?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Rafi reviews five words: assumption, distinct, cite, location, and requirements. His first card contains a dinner suggestion followed by an immediate booking. He identifies the assumption that a positive reaction had already settled the place, time, and guests.\n\nThe second card lists eleven sightings of tagged model birds. Rafi compares the tags and finds only eight distinct models. He writes both numbers with clear labels, then explains why adding observations is not always the same as counting different objects.\n\nFor the museum game, Rafi must cite clues supporting a location. He rejects the storage room even though it is dry and has a clock, because it fails the visitor-access requirement. Meeting two of three requirements is not enough. At the end, he checks each answer against every relevant condition and underlines any step that depends on information the passage never supplied.",
+      "title": "All Three Clues Must Fit",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "Rafi reviews five words: assumption, distinct, cite, location, and requirements.",
+          "meaning": "假設",
+          "word": "assumption"
+        },
+        {
+          "example": "Rafi reviews five words: assumption, distinct, cite, location, and requirements.",
+          "meaning": "不同的",
+          "word": "distinct"
+        },
+        {
+          "example": "Rafi reviews five words: assumption, distinct, cite, location, and requirements.",
+          "meaning": "引用",
+          "word": "cite"
+        },
+        {
+          "example": "Rafi reviews five words: assumption, distinct, cite, location, and requirements.",
+          "meaning": "地點",
+          "word": "location"
+        },
+        {
+          "example": "Rafi reviews five words: assumption, distinct, cite, location, and requirements.",
+          "meaning": "要求",
+          "word": "requirements"
+        }
+      ]
+    }
+  ]
+}
