@@ -50,6 +50,12 @@ test('A newer request replaces pending speech and Stop prevents delayed playback
   d.update([]);p.speak('Canceled');p.stop();d.update([us]);d.expire();
   assert.equal(d.spoken.length,1);assert.equal(p.current(),null);assert.deepEqual(d.errors,[]);
 });
+test('An alternative preview keeps its own voice through delayed loading without changing the default', () => {
+  const d=device([]), p=S.createPlayer(d.options);p.setVoice(S.voiceKey(us));
+  p.speak('Try another voice',1,'voice-preview',S.voiceKey(uk));
+  d.update([us,uk]);assert.equal(d.spoken[0].voice,uk);
+  assert.equal(p.selected(),us);p.speak('Return to reading');assert.equal(d.spoken[1].voice,us);
+});
 test('No English voice reports one useful error and never substitutes a different language', () => {
   const d=device([voice('Chinese','zh-TW'),voice('Bells')]), p=S.createPlayer(d.options);
   p.speak('Hello');d.expire();d.update([us]);
@@ -95,4 +101,24 @@ test('App changing rate during reading restarts only once and Stop cancels it', 
   const a=app();a.click('speak-story');a.change('speechRate','1.25');
   assert.equal(a.d.spoken.length,2);assert.equal(a.d.spoken[1].text,a.d.spoken[0].text);assert.equal(a.d.spoken[1].rate,1.25);
   a.click('stop-speech');assert.equal(vm.runInContext('voicePlayer.current()',a.context),null);
+});
+test('The main voice menu retains the original first option and keeps alternatives in a closed disclosure', () => {
+  const a=app(), options=vm.runInContext('voiceOptions()',a.context);
+  assert.match(options,/預設英文聲音（原本第一個）/);
+  assert.equal((options.match(/<option /g)||[]).length,1);
+  assert.match(a.node('#main').innerHTML,/<details class="speech-advanced"><summary>其他裝置聲音<\/summary>/);
+  assert.doesNotMatch(options,/Daniel|Samantha/);
+});
+test('Previewing alternatives never saves them; Adopt and Restore default explicitly change the reading voice', () => {
+  const a=app(), original=a.storage.get('jhseeStateV2');
+  a.node('#otherSpeechVoice').value=S.voiceKey(uk);a.click('preview-other-voice');
+  assert.equal(a.d.spoken.at(-1).voice,uk);assert.equal(a.storage.has('jhseeSpeechPreferencesV1'),false);
+  a.change('speechRate','.85');assert.equal(a.d.spoken.at(-1).voice,uk);
+  assert.equal(JSON.parse(a.storage.get('jhseeSpeechPreferencesV1')).voice,'');
+  a.click('speak-story');assert.equal(a.d.spoken.at(-1).voice,us);
+  a.click('apply-other-voice');assert.equal(JSON.parse(a.storage.get('jhseeSpeechPreferencesV1')).voice,S.voiceKey(uk));
+  a.click('speak-story');assert.equal(a.d.spoken.at(-1).voice,uk);
+  a.click('reset-voice');assert.equal(a.d.spoken.at(-1).voice,us);
+  assert.deepEqual(JSON.parse(a.storage.get('jhseeSpeechPreferencesV1')),{rate:.85,voice:''});
+  assert.equal(a.storage.get('jhseeStateV2'),original);
 });

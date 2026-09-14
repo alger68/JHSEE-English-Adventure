@@ -51,7 +51,7 @@
     }
     function start(job) {
       if (job.generation !== generation) return false;
-      const voice = chooseVoice(voices(), preferred);
+      const voice = chooseVoice(voices(), job.voice);
       if (!voice) return false;
       if (timer !== null) clearTimer(timer);
       timer = null; pending = null;
@@ -77,11 +77,11 @@
       // A voice was available: even a playback failure must not queue a retry.
       return true;
     }
-    function speak(text, rate = 1, kind = 'word') {
+    function speak(text, rate = 1, kind = 'word', voice = preferred) {
       stop();
       if (!supported) { onError('unsupported'); return false; }
       if (typeof text !== 'string' || !text.trim()) return false;
-      const job = {text, rate:preferences({rate}).rate, kind, generation};
+      const job = {text, rate:preferences({rate}).rate, kind, generation, voice:typeof voice === 'string' ? voice : preferred};
       if (start(job)) return true;
       pending = job;
       onWaiting();
@@ -101,7 +101,7 @@
       supported, voices, stop, speak,
       selected: () => chooseVoice(voices(), preferred),
       setVoice: key => { preferred = typeof key === 'string' ? key : ''; },
-      current: () => { const job = active || pending; return job ? {text:job.text,rate:job.rate,kind:job.kind} : null; },
+      current: () => { const job = active || pending; return job ? {text:job.text,rate:job.rate,kind:job.kind,voice:job.voice} : null; },
       destroy: () => { stop(); synthesis?.removeEventListener?.('voiceschanged', changed); }
     };
   }

@@ -38,7 +38,8 @@ const SPEECH_KEY = 'jhseeSpeechPreferencesV1';
 let speechPreferences;
 try { speechPreferences = S.preferences(JSON.parse(localStorage.getItem(SPEECH_KEY))); }
 catch { speechPreferences = S.preferences(); }
-let readingRate = speechPreferences.rate;
+let readingRate = speechPreferences.rate, voiceCandidate = '';
+const voiceSample = 'Hello! Let’s read a short story together. Take your time and enjoy learning English.';
 const voicePlayer = S.createPlayer({
   synthesis: window.speechSynthesis, Utterance: window.SpeechSynthesisUtterance,
   onVoices: refreshVoiceControls,
@@ -57,11 +58,15 @@ function saveSpeechPreferences() {
   catch { return false; }
 }
 function voiceOptions() {
+  const selected = voicePlayer.voices().find(v => S.voiceKey(v) === speechPreferences.voice);
+  return `<option value="" ${!speechPreferences.voice?'selected':''}>預設英文聲音（原本第一個）</option>`
+    + (speechPreferences.voice ? `<option value="${esc(speechPreferences.voice)}" selected>${selected?esc(selected.name)+' · '+esc(S.language(selected)):'已選聲音暫不可用，先使用預設'}</option>` : '');
+}
+function alternativeVoiceOptions() {
   const options = voicePlayer.voices();
-  const savedAvailable = options.some(v => S.voiceKey(v) === speechPreferences.voice);
-  return `<option value="" ${!speechPreferences.voice?'selected':''}>自動選擇英文聲音</option>`
-    + (speechPreferences.voice && !savedAvailable ? `<option value="${esc(speechPreferences.voice)}" selected>已記住的聲音暫不可用，先自動選擇</option>` : '')
-    + options.map(v => `<option value="${esc(S.voiceKey(v))}" ${S.voiceKey(v)===speechPreferences.voice?'selected':''}>${esc(v.name)} · ${esc(S.language(v))}</option>`).join('');
+  if (!options.length) return '<option value="">尚未載入英文聲音</option>';
+  const candidate = options.some(v => S.voiceKey(v) === voiceCandidate) ? voiceCandidate : speechPreferences.voice;
+  return options.map(v => `<option value="${esc(S.voiceKey(v))}" ${S.voiceKey(v)===candidate?'selected':''}>${esc(v.name)} · ${esc(S.language(v))}</option>`).join('');
 }
 function voiceHint() {
   if (!voicePlayer.supported) return '此瀏覽器不支援朗讀，請改用 Safari、Chrome 或 Edge。';
@@ -70,19 +75,32 @@ function voiceHint() {
     : '聲音清單尚未就緒；按試聽會重新嘗試載入。若仍無聲音，請在裝置設定加入英文聲音。';
 }
 function speechControls() {
-  return `<section class="speech-controls" aria-label="英文朗讀設定"><div class="speech-settings"><label class="voice-field" for="speechVoice">英文聲音<select id="speechVoice" aria-describedby="speechVoiceHint">${voiceOptions()}</select></label><label for="speechRate">速度<select id="speechRate" aria-describedby="speechRateHint">${[[.6,'0.6× 慢速'],[.85,'0.85× 稍慢'],[1,'1× 正常'],[1.25,'1.25× 快速']].map(([rate,label])=>`<option value="${rate}" ${readingRate===rate?'selected':''}>${label}</option>`).join('')}</select></label><button data-action="preview-voice">試聽聲音</button><button data-action="stop-speech" aria-label="停止朗讀">停止</button></div><p id="speechVoiceHint" class="small" role="status">${esc(voiceHint())}</p><p id="speechRateHint" class="small muted">可先用 1× 試聽；播放中換聲音或調速，會從頭重播。文章與單字共用設定，聲音選項依裝置而異。</p></section>`;
+  return `<section class="speech-controls" aria-label="英文朗讀設定"><div class="speech-settings"><label class="voice-field" for="speechVoice">英文聲音<select id="speechVoice" aria-describedby="speechVoiceHint">${voiceOptions()}</select></label><label for="speechRate">速度<select id="speechRate" aria-describedby="speechRateHint">${[[.6,'0.6× 慢速'],[.85,'0.85× 稍慢'],[1,'1× 正常'],[1.25,'1.25× 快速']].map(([rate,label])=>`<option value="${rate}" ${readingRate===rate?'selected':''}>${label}</option>`).join('')}</select></label><button data-action="preview-voice">試聽聲音</button><button data-action="stop-speech" aria-label="停止朗讀">停止</button><button data-action="reset-voice">恢復預設聲音</button></div><p id="speechVoiceHint" class="small" role="status">${esc(voiceHint())}</p><p id="speechRateHint" class="small muted">日常閱讀可直接使用預設聲音與 1× 速度。文章和單字共用設定；播放中換聲音或調速，會從頭重播。</p><details class="speech-advanced"><summary>其他裝置聲音</summary><p class="small muted">不同音色的聽感差異很大。先試聽，喜歡再按「採用此聲音」；試聽不會更改已保存的聲音。</p><div class="speech-settings"><label class="voice-field" for="otherSpeechVoice">試聽其他音色<select id="otherSpeechVoice">${alternativeVoiceOptions()}</select></label><button data-action="preview-other-voice">試聽其他聲音</button><button data-action="apply-other-voice">採用此聲音</button></div></details></section>`;
 }
 function refreshVoiceControls() {
-  const select = $('#speechVoice'), hint = $('#speechVoiceHint');
+  const select = $('#speechVoice'), hint = $('#speechVoiceHint'), other = $('#otherSpeechVoice');
   if (select) select.innerHTML = voiceOptions();
   if (hint) hint.textContent = voiceHint();
+  if (other) other.innerHTML = alternativeVoiceOptions();
+}
+function selectedAlternativeVoice() {
+  const key = $('#otherSpeechVoice')?.value;
+  if (!key || !voicePlayer.voices().some(v => S.voiceKey(v) === key)) {
+    toast('這個聲音目前無法使用，請先使用預設聲音。'); return null;
+  }
+  voiceCandidate = key;
+  return key;
+}
+function previewOtherVoice() {
+  const key = selectedAlternativeVoice();
+  if (key) voicePlayer.speak(voiceSample, readingRate, 'voice-preview', key);
 }
 function changeReadingRate(rate) {
   if (!S.RATES.includes(rate)) return;
   const current = voicePlayer.current();
   readingRate = rate; speechPreferences.rate = rate;
   const saved = saveSpeechPreferences();
-  if (current) say(current.text, rate, current.kind);
+  if (current) voicePlayer.speak(current.text, rate, current.kind, current.voice);
   toast(`已改為 ${rate}×${current?'，從頭重新朗讀':''}。${saved?'':'此瀏覽器暫時無法記住設定。'}`);
 }
 function changeReadingVoice(key) {
@@ -92,7 +110,7 @@ function changeReadingVoice(key) {
   const saved = saveSpeechPreferences();
   refreshVoiceControls();
   if (current) say(current.text, readingRate, current.kind);
-  toast(`已切換英文聲音${current?'，從頭重新朗讀':'，可按「試聽聲音」'}。${saved?'':'此瀏覽器暫時無法記住設定。'}`);
+  toast(`${key?'已切換英文聲音':'已恢復預設英文聲音'}${current?'，從頭重新朗讀':'，可按「試聽聲音」'}。${saved?'':'此瀏覽器暫時無法記住設定。'}`);
 }
 function syncStats() {
   const done = C.completedDays(state).filter(d => lessons.some(l => l.day === d)).length;
@@ -242,6 +260,7 @@ main.addEventListener('change',e=>{
   if(t.id==='lessonTier'){state.difficulty=Number(t.value);save();lessonView(active.day,false,true);toast(`已切換為 ${tiers[active.tier]} · ${C.questions(lessons.find(l=>l.day===active.day),active.tier).length} 題；文章相同，請往下看題目。`);}
   if(t.id==='speechRate')changeReadingRate(Number(t.value));
   if(t.id==='speechVoice')changeReadingVoice(t.value);
+  if(t.id==='otherSpeechVoice')voiceCandidate=t.value;
   if(t.id==='chapterSelect'){selectedChapter=Number(t.value);home();}
   if(t.id==='lessonSelect'&&t.value)location.hash='lesson/'+Number(t.value);
   if(t.id==='defaultTier'){state.difficulty=Number(t.value);save();toast('已更新預設練習難度。');}
@@ -250,7 +269,10 @@ main.addEventListener('click',e=>{
   const button=e.target.closest('[data-action]');if(!button)return;const action=button.dataset.action;
   if(action==='speak-story')say(lessons.find(l=>l.day===active.day).story,readingRate,'story');
   else if(action==='stop-speech')stopSpeech();
-  else if(action==='preview-voice')say('Hello! Let’s read a short story together. Take your time and enjoy learning English.',readingRate,'preview');
+  else if(action==='preview-voice')say(voiceSample,readingRate,'preview');
+  else if(action==='reset-voice')changeReadingVoice('');
+  else if(action==='preview-other-voice')previewOtherVoice();
+  else if(action==='apply-other-voice'){const key=selectedAlternativeVoice();if(key)changeReadingVoice(key);}
   else if(action==='all-questions'&&active&&!quizResult){const day=active.day;state.drafts[day+':3']={...(state.drafts[day+':3']||{}),...currentAnswers};state.difficulty=3;save();lessonView(day,false,true);toast('已顯示本篇全部題目，先前選擇已保留。');}
   else if(action==='retry'){const day=active.day;delete state.drafts[day+':'+active.tier];save();if(location.hash.startsWith('#result/'))location.hash='lesson/'+day;else{lessonView(day,false,true);$('#quizForm').scrollIntoView({behavior:'smooth'});}}
   else if(action==='words-due')wordsView(true,false);else if(action==='words-all')wordsView(true,true);

@@ -7,7 +7,7 @@ import {loadExams} from './exams.mjs';
 import {renderCourse} from './export-course.mjs';
 const root=path.resolve(import.meta.dirname,'..');
 const {lessons,revision,lastPublishDate,lastDailyPublishDate,questionCount}=loadContent(root);
-const meta={version:'3.2.1',revision,lessonCount:lessons.length,questionCount,targetLessonCount:250,accessMode:'all-published',lastPublishDate,lastDailyPublishDate};
+const meta={version:'3.2.2',revision,lessonCount:lessons.length,questionCount,targetLessonCount:250,accessMode:'all-published',lastPublishDate,lastDailyPublishDate};
 const data='// Generated from seed, daily content and explicit release manifests.\nconst lessonMeta = '+JSON.stringify(meta)+';\nconst lessons = '+JSON.stringify(lessons,null,2)+';\n';
 fs.writeFileSync(path.join(root,'data.js'),data);
 const exams=loadExams(root);
