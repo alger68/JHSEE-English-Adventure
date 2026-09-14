@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-03",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 155,
+      "goal": "從訊息語氣、回應與補充線索判斷人物意思。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "彷彿",
+          "phrase": "as if"
+        },
+        {
+          "meaning": "共同知道的事",
+          "phrase": "shared knowledge"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "[Class chat] Eva: My poster won the vote! Ben: Great. Another poster with a giant cat. Eva: If you hate it, you could have said so before the vote. Ben: Wait. I was smiling when I wrote that.",
+          "explanation": "Eva 把沒有表情線索的留言理解成批評。",
+          "id": "d155-q1",
+          "options": [
+            "Ben removed the meeting date.",
+            "She understood Ben's message as criticism.",
+            "Nobody saw her poster.",
+            "She lost the poster vote."
+          ],
+          "prompt": "Why did Eva initially feel hurt?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Eva: I couldn't see your smile. I spent three evenings drawing it. Ben: I meant that everyone knows I love cats. But you joined our class last month, so you wouldn't know that. I'm sorry my message sounded unkind.",
+          "explanation": "Eva 才轉來一個月，不知道 Ben 喜歡貓。",
+          "id": "d155-q2",
+          "options": [
+            "She cannot vote in class.",
+            "She drew the wrong animal.",
+            "She may not know Ben's love of cats.",
+            "She has already heard his joke."
+          ],
+          "prompt": "Why does Eva's recent arrival matter?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Eva: Thanks for explaining. Maybe add what you actually like about it? Ben: The bright background makes the meeting date easy to find. Also, the cat looks as if it wants to join our club.",
+          "explanation": "Ben 明確稱讚明亮背景讓日期容易辨識。",
+          "id": "d155-q3",
+          "options": [
+            "The poster uses no background.",
+            "The poster took only one evening.",
+            "The meeting date is easy to find.",
+            "The cat covers the meeting date."
+          ],
+          "prompt": "What practical feature does Ben praise?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "After the exchange, Ben edits his first message to include a clear compliment. He does not tell Eva to become less sensitive. Instead, he notices that a shared screen does not mean shared knowledge. Their next conversation is easier because both explain what the other person could not see.",
+          "explanation": "他補上對作品優點的稱讚，所以是讚美。",
+          "id": "d155-q4",
+          "options": [
+            "A statement of praise.",
+            "A request for payment.",
+            "A private complaint.",
+            "A change of schedule."
+          ],
+          "prompt": "What is a 'compliment' here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Class chat] Eva: My poster won the vote! Ben: Great. Another poster with a giant cat. Eva: If you hate it, you could have said so before the vote. Ben: Wait. I was smiling when I wrote that.\n\nEva: I couldn't see your smile. I spent three evenings drawing it. Ben: I meant that everyone knows I love cats. But you joined our class last month, so you wouldn't know that. I'm sorry my message sounded unkind.\n\nEva: Thanks for explaining. Maybe add what you actually like about it? Ben: The bright background makes the meeting date easy to find. Also, the cat looks as if it wants to join our club.\n\nAfter the exchange, Ben edits his first message to include a clear compliment. He does not tell Eva to become less sensitive. Instead, he notices that a shared screen does not mean shared knowledge. Their next conversation is easier because both explain what the other person could not see.",
+          "explanation": "具體說出日期清楚與圖畫生動，可降低語氣誤解。",
+          "id": "d155-q5",
+          "options": [
+            "You will understand our class eventually.",
+            "Everyone should know I love cats.",
+            "I like the clear date and lively drawing.",
+            "It was obviously a joke, so forget it."
+          ],
+          "prompt": "Which reply best follows Ben's new approach?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "[Class chat] Eva: My poster won the vote! Ben: Great. Another poster with a giant cat. Eva: If you hate it, you could have said so before the vote. Ben: Wait. I was smiling when I wrote that.\n\nEva: I couldn't see your smile. I spent three evenings drawing it. Ben: I meant that everyone knows I love cats. But you joined our class last month, so you wouldn't know that. I'm sorry my message sounded unkind.\n\nEva: Thanks for explaining. Maybe add what you actually like about it? Ben: The bright background makes the meeting date easy to find. Also, the cat looks as if it wants to join our club.\n\nAfter the exchange, Ben edits his first message to include a clear compliment. He does not tell Eva to become less sensitive. Instead, he notices that a shared screen does not mean shared knowledge. Their next conversation is easier because both explain what the other person could not see.",
+          "explanation": "共同聊天室不代表共同背景知識，作者需補足讀者缺少的線索。",
+          "id": "d155-q6",
+          "options": [
+            "A shared chat gives everyone the same background.",
+            "Editing a message makes an apology unnecessary.",
+            "Writers should consider information readers may lack.",
+            "Friendly intentions always make a message clear."
+          ],
+          "prompt": "What does the exchange suggest about written messages?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Class chat] Eva: My poster won the vote! Ben: Great. Another poster with a giant cat. Eva: If you hate it, you could have said so before the vote. Ben: Wait. I was smiling when I wrote that.\n\nEva: I couldn't see your smile. I spent three evenings drawing it. Ben: I meant that everyone knows I love cats. But you joined our class last month, so you wouldn't know that. I'm sorry my message sounded unkind.\n\nEva: Thanks for explaining. Maybe add what you actually like about it? Ben: The bright background makes the meeting date easy to find. Also, the cat looks as if it wants to join our club.\n\nAfter the exchange, Ben edits his first message to include a clear compliment. He does not tell Eva to become less sensitive. Instead, he notices that a shared screen does not mean shared knowledge. Their next conversation is easier because both explain what the other person could not see.",
+      "title": "A Joke Without a Face",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "[Class chat] Eva: My poster won the vote!",
+          "meaning": "投票",
+          "word": "vote"
+        },
+        {
+          "example": "Ben: The bright background makes the meeting date easy to find.",
+          "meaning": "背景",
+          "word": "background"
+        },
+        {
+          "example": "After the exchange, Ben edits his first message to include a clear compliment.",
+          "meaning": "交流",
+          "word": "exchange"
+        },
+        {
+          "example": "After the exchange, Ben edits his first message to include a clear compliment.",
+          "meaning": "稱讚",
+          "word": "compliment"
+        },
+        {
+          "example": "He does not tell Eva to become less sensitive.",
+          "meaning": "敏感的",
+          "word": "sensitive"
+        }
+      ]
+    }
+  ]
+}

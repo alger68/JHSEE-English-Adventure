@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-08",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 160,
+      "goal": "由敘事細節推論人物價值觀與態度轉變。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在舞臺上",
+          "phrase": "on stage"
+        },
+        {
+          "meaning": "而非",
+          "phrase": "instead of"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "At the school play, the loudest applause goes to the students on stage. Backstage, Jun folds costumes while watching the actors receive flowers. He has spent weeks checking buttons and repairing pockets, but his name appears near the bottom of the program.",
+          "explanation": "Jun 檢查鈕扣、修補口袋等戲服工作。",
+          "id": "d160-q1",
+          "options": [
+            "Checking and repairing costumes.",
+            "Taking every group photograph.",
+            "Selling flowers to the audience.",
+            "Writing the entire play."
+          ],
+          "prompt": "What was Jun responsible for?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "When an actor thanks him for fixing a loose sleeve just before the performance, Jun smiles briefly. He still wishes the audience had seen what he did. He starts to leave the empty dressing room without taking a group photograph.",
+          "explanation": "他希望自己的付出被看見，卻覺得未受重視。",
+          "id": "d160-q2",
+          "options": [
+            "He has forgotten how to use a camera.",
+            "He wants to replace the director.",
+            "He dislikes the actor's repaired sleeve.",
+            "He feels his contribution has received little notice."
+          ],
+          "prompt": "Why does Jun almost leave before the photograph?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Then the director asks everyone to gather around the costume table. She describes how the repaired sleeve allowed an actor to move freely and how clearly labeled clothes prevented mistakes. Her thanks are specific, rather than a quick mention of 'all the helpers.'",
+          "explanation": "導演具體說明袖子修補與標籤如何幫助演出。",
+          "id": "d160-q3",
+          "options": [
+            "She gives him the leading role immediately.",
+            "She says only that there were many helpers.",
+            "She describes concrete ways it helped the performance.",
+            "She moves his name onto every flower."
+          ],
+          "prompt": "How does the director recognize Jun's work?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Then the director asks everyone to gather around the costume table. She describes how the repaired sleeve allowed an actor to move freely and how clearly labeled clothes prevented mistakes. Her thanks are specific, rather than a quick mention of 'all the helpers.'",
+          "explanation": "她列出實際例子，所以 specific 指具體明確。",
+          "id": "d160-q4",
+          "options": [
+            "Difficult to believe.",
+            "Happening very quickly.",
+            "Giving clear details.",
+            "Spoken to nobody."
+          ],
+          "prompt": "What does 'specific' mean in this context?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Jun joins the photograph. The applause from earlier has not changed, and he has not suddenly become an actor. What changes is his sense that his work was understood. On the way home, he keeps the program instead of throwing it into a recycling bin.",
+          "explanation": "從想離開到保存節目單，顯示他重新珍惜自己參與的回憶。",
+          "id": "d160-q5",
+          "options": [
+            "He thinks the program is his costume list.",
+            "He has decided to stop helping with plays.",
+            "He now values the memory of his contribution.",
+            "He plans to remove all the actors' names."
+          ],
+          "prompt": "What does Jun keeping the program most likely show?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "At the school play, the loudest applause goes to the students on stage. Backstage, Jun folds costumes while watching the actors receive flowers. He has spent weeks checking buttons and repairing pockets, but his name appears near the bottom of the program.\n\nWhen an actor thanks him for fixing a loose sleeve just before the performance, Jun smiles briefly. He still wishes the audience had seen what he did. He starts to leave the empty dressing room without taking a group photograph.\n\nThen the director asks everyone to gather around the costume table. She describes how the repaired sleeve allowed an actor to move freely and how clearly labeled clothes prevented mistakes. Her thanks are specific, rather than a quick mention of 'all the helpers.'\n\nJun joins the photograph. The applause from earlier has not changed, and he has not suddenly become an actor. What changes is his sense that his work was understood. On the way home, he keeps the program instead of throwing it into a recycling bin.",
+          "explanation": "Jun 的改變來自導演理解並具體肯定他的貢獻。",
+          "id": "d160-q6",
+          "options": [
+            "Everyone who works backstage wants to become an actor.",
+            "A person's contribution depends on where a name is printed.",
+            "Only public applause makes a performance successful.",
+            "Detailed recognition can help people feel their work matters."
+          ],
+          "prompt": "Which theme is best supported by the story?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At the school play, the loudest applause goes to the students on stage. Backstage, Jun folds costumes while watching the actors receive flowers. He has spent weeks checking buttons and repairing pockets, but his name appears near the bottom of the program.\n\nWhen an actor thanks him for fixing a loose sleeve just before the performance, Jun smiles briefly. He still wishes the audience had seen what he did. He starts to leave the empty dressing room without taking a group photograph.\n\nThen the director asks everyone to gather around the costume table. She describes how the repaired sleeve allowed an actor to move freely and how clearly labeled clothes prevented mistakes. Her thanks are specific, rather than a quick mention of 'all the helpers.'\n\nJun joins the photograph. The applause from earlier has not changed, and he has not suddenly become an actor. What changes is his sense that his work was understood. On the way home, he keeps the program instead of throwing it into a recycling bin.",
+      "title": "The Part No One Applauded",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "At the school play, the loudest applause goes to the students on stage.",
+          "meaning": "掌聲",
+          "word": "applause"
+        },
+        {
+          "example": "Backstage, Jun folds costumes while watching the actors receive flowers.",
+          "meaning": "戲服",
+          "word": "costumes"
+        },
+        {
+          "example": "When an actor thanks him for fixing a loose sleeve just before the performance, Jun smiles briefly.",
+          "meaning": "短暫地",
+          "word": "briefly"
+        },
+        {
+          "example": "Her thanks are specific, rather than a quick mention of 'all the helpers.",
+          "meaning": "具體的",
+          "word": "specific"
+        },
+        {
+          "example": "What changes is his sense that his work was understood.",
+          "meaning": "被理解",
+          "word": "understood"
+        }
+      ]
+    }
+  ]
+}

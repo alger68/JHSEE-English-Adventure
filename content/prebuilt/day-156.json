@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-04",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 156,
+      "goal": "分辨觀察、可能原因與能區分假設的後續檢查。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "可能性較低",
+          "phrase": "less likely"
+        },
+        {
+          "meaning": "進一步檢查",
+          "phrase": "further checking"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "The teacher writes two possible explanations on the board. Rainwater may have entered through the roof, or spilled tank water may have wet the wall. The patch alone cannot tell the class which explanation is correct.",
+          "explanation": "教師列出屋頂雨水與換魚缸時濺出的水兩種可能。",
+          "id": "d156-q1",
+          "options": [
+            "Rainwater and spilled tank water.",
+            "Paint and sunlight.",
+            "Drinking water and a classroom plant.",
+            "A broken window and wet shoes."
+          ],
+          "prompt": "What are the two suggested sources of the wet patch?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Students ask the caretaker to inspect the area safely. They also check the water-changing record and photographs from Friday. One photograph shows a dry wall after the tank was cleaned. That makes an earlier spill less likely, although it does not explain every possible source of moisture.",
+          "explanation": "換水後照片顯示牆乾燥，降低先前濺水造成的可能性。",
+          "id": "d156-q2",
+          "options": [
+            "The caretaker caused the patch.",
+            "The roof certainly has no problem.",
+            "An earlier tank spill is less likely.",
+            "No water entered after Friday."
+          ],
+          "prompt": "What does the Friday photograph suggest?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Students ask the caretaker to inspect the area safely. They also check the water-changing record and photographs from Friday. One photograph shows a dry wall after the tank was cleaned. That makes an earlier spill less likely, although it does not explain every possible source of moisture.",
+          "explanation": "學生請管理員安全檢查。",
+          "id": "d156-q3",
+          "options": [
+            "The fish tank seller.",
+            "The caretaker.",
+            "A student climbing onto the roof.",
+            "The photographer's family."
+          ],
+          "prompt": "Who is asked to inspect the area?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "After a rainy weekend, a class notices a damp patch on the wall beside its fish tank. Owen says the roof must be leaking because it rained. Priya points out that someone also changed the tank water on Friday.",
+          "explanation": "牆上有水分，因此 damp 是潮濕的。",
+          "id": "d156-q4",
+          "options": [
+            "Freshly painted.",
+            "Unusually bright.",
+            "Completely broken.",
+            "Slightly wet."
+          ],
+          "prompt": "What does 'damp' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The class keeps both observations and remaining questions in its report. Owen changes 'The rain caused it' to 'A roof leak needs further checking.' He has not discovered the final cause yet, but his sentence now matches the strength of the evidence.",
+          "explanation": "新版保留『需要檢查』的不確定性，符合尚未確定原因的證據。",
+          "id": "d156-q5",
+          "options": [
+            "It rejects the photograph as useless.",
+            "It proves rain was the only possible cause.",
+            "It presents the roof leak as something still to check.",
+            "It turns a question into a final answer."
+          ],
+          "prompt": "Why is Owen's revised sentence better supported?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "After a rainy weekend, a class notices a damp patch on the wall beside its fish tank. Owen says the roof must be leaking because it rained. Priya points out that someone also changed the tank water on Friday.\n\nThe teacher writes two possible explanations on the board. Rainwater may have entered through the roof, or spilled tank water may have wet the wall. The patch alone cannot tell the class which explanation is correct.\n\nStudents ask the caretaker to inspect the area safely. They also check the water-changing record and photographs from Friday. One photograph shows a dry wall after the tank was cleaned. That makes an earlier spill less likely, although it does not explain every possible source of moisture.\n\nThe class keeps both observations and remaining questions in its report. Owen changes 'The rain caused it' to 'A roof leak needs further checking.' He has not discovered the final cause yet, but his sentence now matches the strength of the evidence.",
+          "explanation": "新觀察能改變各原因的可信程度，時間接近本身不能證明因果。",
+          "id": "d156-q6",
+          "options": [
+            "Choose the explanation mentioned first.",
+            "Treat events close in time as proof of cause.",
+            "Use new observations to adjust confidence in possible causes.",
+            "Avoid reporting until every question has an answer."
+          ],
+          "prompt": "Which principle best fits the investigation?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "After a rainy weekend, a class notices a damp patch on the wall beside its fish tank. Owen says the roof must be leaking because it rained. Priya points out that someone also changed the tank water on Friday.\n\nThe teacher writes two possible explanations on the board. Rainwater may have entered through the roof, or spilled tank water may have wet the wall. The patch alone cannot tell the class which explanation is correct.\n\nStudents ask the caretaker to inspect the area safely. They also check the water-changing record and photographs from Friday. One photograph shows a dry wall after the tank was cleaned. That makes an earlier spill less likely, although it does not explain every possible source of moisture.\n\nThe class keeps both observations and remaining questions in its report. Owen changes 'The rain caused it' to 'A roof leak needs further checking.' He has not discovered the final cause yet, but his sentence now matches the strength of the evidence.",
+      "title": "The Damp Patch on the Wall",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "After a rainy weekend, a class notices a damp patch on the wall beside its fish tank.",
+          "meaning": "潮濕的",
+          "word": "damp"
+        },
+        {
+          "example": "Owen says the roof must be leaking because it rained.",
+          "meaning": "漏水",
+          "word": "leaking"
+        },
+        {
+          "example": "The teacher writes two possible explanations on the board.",
+          "meaning": "解釋",
+          "word": "explanations"
+        },
+        {
+          "example": "Students ask the caretaker to inspect the area safely.",
+          "meaning": "檢查",
+          "word": "inspect"
+        },
+        {
+          "example": "That makes an earlier spill less likely, although it does not explain every possible source of moisture.",
+          "meaning": "水分",
+          "word": "moisture"
+        }
+      ]
+    }
+  ]
+}

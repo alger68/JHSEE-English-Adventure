@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-10",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 162,
+      "goal": "從群組對話辨識照片來源與文字配對錯誤。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "很遠",
+          "phrase": "far away"
+        },
+        {
+          "meaning": "依賴",
+          "phrase": "relying on"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "[Project chat] Sara: I found a beautiful river photo for our local history page. The file is called River_New. Mo: Is that our river? The bridge looks different. Sara: It came from the folder our group shared yesterday.",
+          "explanation": "Mo 注意到橋的外觀不符合本地，因此追問。",
+          "id": "d162-q1",
+          "options": [
+            "The image has no colors.",
+            "The page has no photographs.",
+            "The file cannot be opened.",
+            "The bridge looks different."
+          ],
+          "prompt": "Why does Mo question the first photograph?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Mo: That folder includes examples from other towns. Can you open the original page? Sara: You're right. This picture shows a town far away. I assumed everything in the shared folder was local. Mo: The filename doesn't tell us where a picture was taken.",
+          "explanation": "資料夾混有外地例子，不能以放置位置判斷拍攝地點。",
+          "id": "d162-q2",
+          "options": [
+            "It was created yesterday.",
+            "It contains examples from other towns.",
+            "Only Mo can open it.",
+            "It has a short filename."
+          ],
+          "prompt": "Why is the shared folder insufficient proof of location?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Sara: I also found an old photograph in the town museum's collection. Its description names our bridge and gives the year. We can ask about using it and keep that information beside the image. Mo: Good. Let's check the caption as carefully as the picture.",
+          "explanation": "館藏說明提供橋名與年份，能核對內容。",
+          "id": "d162-q3",
+          "options": [
+            "Its description identifies their bridge and a year.",
+            "Its filename says New.",
+            "It is the brightest available image.",
+            "It is already in a class chat."
+          ],
+          "prompt": "What supports the museum photograph's relevance?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The group replaces the attractive but unrelated photograph. Their page now uses a less colorful image that actually supports the local story. They add source notes so the next editor can trace each picture without relying on a folder name.",
+          "explanation": "來源註記讓編輯能追溯圖片出處。",
+          "id": "d162-q4",
+          "options": [
+            "Follow information back to its source.",
+            "Draw a picture in brighter colors.",
+            "Change the date of a photograph.",
+            "Send a folder to more people."
+          ],
+          "prompt": "What does 'trace' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Sara: I also found an old photograph in the town museum's collection. Its description names our bridge and gives the year. We can ask about using it and keep that information beside the image. Mo: Good. Let's check the caption as carefully as the picture.",
+          "explanation": "對話提出詢問使用方式並保留圖說資訊。",
+          "id": "d162-q5",
+          "options": [
+            "Rename it River_New as proof of location.",
+            "Ask about use and retain its identifying information.",
+            "Assume every museum image is freely reusable.",
+            "Remove its date to make the page look current."
+          ],
+          "prompt": "What should the group do before using the museum image?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "[Project chat] Sara: I found a beautiful river photo for our local history page. The file is called River_New. Mo: Is that our river? The bridge looks different. Sara: It came from the folder our group shared yesterday.\n\nMo: That folder includes examples from other towns. Can you open the original page? Sara: You're right. This picture shows a town far away. I assumed everything in the shared folder was local. Mo: The filename doesn't tell us where a picture was taken.\n\nSara: I also found an old photograph in the town museum's collection. Its description names our bridge and gives the year. We can ask about using it and keep that information beside the image. Mo: Good. Let's check the caption as carefully as the picture.\n\nThe group replaces the attractive but unrelated photograph. Their page now uses a less colorful image that actually supports the local story. They add source notes so the next editor can trace each picture without relying on a folder name.",
+          "explanation": "他們改選真正支援地方故事的圖片，並留下可查來源。",
+          "id": "d162-q6",
+          "options": [
+            "An image should be checked for source and relevance, not appearance alone.",
+            "Older photographs are always more accurate than recent ones.",
+            "A shared folder always contains verified material.",
+            "A good filename replaces a source note."
+          ],
+          "prompt": "Which idea best connects the group's decisions?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Project chat] Sara: I found a beautiful river photo for our local history page. The file is called River_New. Mo: Is that our river? The bridge looks different. Sara: It came from the folder our group shared yesterday.\n\nMo: That folder includes examples from other towns. Can you open the original page? Sara: You're right. This picture shows a town far away. I assumed everything in the shared folder was local. Mo: The filename doesn't tell us where a picture was taken.\n\nSara: I also found an old photograph in the town museum's collection. Its description names our bridge and gives the year. We can ask about using it and keep that information beside the image. Mo: Good. Let's check the caption as carefully as the picture.\n\nThe group replaces the attractive but unrelated photograph. Their page now uses a less colorful image that actually supports the local story. They add source notes so the next editor can trace each picture without relying on a folder name.",
+      "title": "Which River Photo Is Ours?",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Sara: It came from the folder our group shared yesterday.",
+          "meaning": "資料夾",
+          "word": "folder"
+        },
+        {
+          "example": "Can you open the original page?",
+          "meaning": "原始的",
+          "word": "original"
+        },
+        {
+          "example": "I assumed everything in the shared folder was local.",
+          "meaning": "假定",
+          "word": "assumed"
+        },
+        {
+          "example": "Let's check the caption as carefully as the picture.",
+          "meaning": "圖片說明",
+          "word": "caption"
+        },
+        {
+          "example": "They add source notes so the next editor can trace each picture without relying on a folder name.",
+          "meaning": "追查",
+          "word": "trace"
+        }
+      ]
+    }
+  ]
+}

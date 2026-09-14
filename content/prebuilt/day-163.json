@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-11",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 163,
+      "goal": "依觀察時間理解測量結果的適用範圍。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "午餐後",
+          "phrase": "after lunch"
+        },
+        {
+          "meaning": "在原位",
+          "phrase": "in place"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "For a school garden project, students draw a map of sunny and shaded spaces at nine in the morning. They mark the corner beside the library as shaded and choose it for a reading bench. The map looks complete until they return after lunch.",
+          "explanation": "第一段寫九點觀察並繪圖。",
+          "id": "d163-q1",
+          "options": [
+            "At one in the afternoon.",
+            "At nine in the morning.",
+            "During an evening reading period.",
+            "Across every season."
+          ],
+          "prompt": "When was the first shade map made?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "At one o'clock, the same corner is bright, while part of the opposite path is shaded. The students realize that a label without a time can mislead a reader. Their first map described one visit, not a permanent condition.",
+          "explanation": "下午一點時同一角落變得明亮。",
+          "id": "d163-q2",
+          "options": [
+            "The library moves to another corner.",
+            "The reading bench has been installed.",
+            "The map disappears.",
+            "The library corner is bright."
+          ],
+          "prompt": "What changes after lunch?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "They observe the area again at several times on two more school days and record both the time and weather. They do not claim that these visits describe every season. Instead, they use the observations to discuss when students are most likely to sit outside.",
+          "explanation": "時間與天氣提供觀察條件，避免把單次結果當成永久狀態。",
+          "id": "d163-q3",
+          "options": [
+            "They remove the need for later checks.",
+            "They show how many books students read.",
+            "They prove the garden never changes.",
+            "Those details help readers interpret each observation."
+          ],
+          "prompt": "Why do the students record time and weather?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "At one o'clock, the same corner is bright, while part of the opposite path is shaded. The students realize that a label without a time can mislead a reader. Their first map described one visit, not a permanent condition.",
+          "explanation": "文章對照一次觀察與固定不變的狀況。",
+          "id": "d163-q4",
+          "options": [
+            "Useful for a short visit.",
+            "Observed only after lunch.",
+            "Continuing without the expected change.",
+            "Easy to draw on paper."
+          ],
+          "prompt": "What does 'permanent' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The revised proposal includes separate morning and afternoon maps. It recommends checking conditions during the planned reading period before fixing the bench in place. The project changes from finding a spot called 'shaded' to finding a spot suitable for a particular use.",
+          "explanation": "地點要配合用途，應核對實際閱讀時段的環境。",
+          "id": "d163-q5",
+          "options": [
+            "The color of the library wall.",
+            "The total number of school books.",
+            "Only the earliest morning photograph.",
+            "Shade observations during the intended reading time."
+          ],
+          "prompt": "Which evidence would most directly help choose the bench location?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "For a school garden project, students draw a map of sunny and shaded spaces at nine in the morning. They mark the corner beside the library as shaded and choose it for a reading bench. The map looks complete until they return after lunch.\n\nAt one o'clock, the same corner is bright, while part of the opposite path is shaded. The students realize that a label without a time can mislead a reader. Their first map described one visit, not a permanent condition.\n\nThey observe the area again at several times on two more school days and record both the time and weather. They do not claim that these visits describe every season. Instead, they use the observations to discuss when students are most likely to sit outside.\n\nThe revised proposal includes separate morning and afternoon maps. It recommends checking conditions during the planned reading period before fixing the bench in place. The project changes from finding a spot called 'shaded' to finding a spot suitable for a particular use.",
+          "explanation": "地圖需要時間與適用範圍，才能支持合適的選址。",
+          "id": "d163-q6",
+          "options": [
+            "Afternoon observations are always better than morning ones.",
+            "One detailed map explains every future condition.",
+            "A shaded location cannot be used for reading.",
+            "A useful description includes the conditions under which it was observed."
+          ],
+          "prompt": "What is the main lesson of the project?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "For a school garden project, students draw a map of sunny and shaded spaces at nine in the morning. They mark the corner beside the library as shaded and choose it for a reading bench. The map looks complete until they return after lunch.\n\nAt one o'clock, the same corner is bright, while part of the opposite path is shaded. The students realize that a label without a time can mislead a reader. Their first map described one visit, not a permanent condition.\n\nThey observe the area again at several times on two more school days and record both the time and weather. They do not claim that these visits describe every season. Instead, they use the observations to discuss when students are most likely to sit outside.\n\nThe revised proposal includes separate morning and afternoon maps. It recommends checking conditions during the planned reading period before fixing the bench in place. The project changes from finding a spot called 'shaded' to finding a spot suitable for a particular use.",
+      "title": "The Shade That Moved",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "For a school garden project, students draw a map of sunny and shaded spaces at nine in the morning.",
+          "meaning": "有遮蔭的",
+          "word": "shaded"
+        },
+        {
+          "example": "Their first map described one visit, not a permanent condition.",
+          "meaning": "永久的",
+          "word": "permanent"
+        },
+        {
+          "example": "They observe the area again at several times on two more school days and record both the time and weather.",
+          "meaning": "觀察",
+          "word": "observe"
+        },
+        {
+          "example": "The revised proposal includes separate morning and afternoon maps.",
+          "meaning": "提案",
+          "word": "proposal"
+        },
+        {
+          "example": "The project changes from finding a spot called 'shaded' to finding a spot suitable for a particular use.",
+          "meaning": "合適的",
+          "word": "suitable"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-14",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 166,
+      "goal": "複習來源、時間、所有權與交通詞彙的上下文限制。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而非",
+          "phrase": "instead of"
+        },
+        {
+          "meaning": "連結到",
+          "phrase": "attached to"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "A river picture has a caption saying 'our town,' but its original source names another town. Tessa changes the caption. A garden map calls a morning patch of shade permanent. She adds the observation time instead of promising shade all day.",
+          "explanation": "原始出處指向別鎮，與『我們的城鎮』圖說不符。",
+          "id": "d166-q1",
+          "options": [
+            "It was written before lunch.",
+            "It does not name a bus gate.",
+            "It contains too many colors.",
+            "It conflicts with the original source."
+          ],
+          "prompt": "Why does Tessa change the picture caption?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A river picture has a caption saying 'our town,' but its original source names another town. Tessa changes the caption. A garden map calls a morning patch of shade permanent. She adds the observation time instead of promising shade all day.",
+          "explanation": "她避免把早上的遮蔭說成全天不變。",
+          "id": "d166-q2",
+          "options": [
+            "The music room needs a return time.",
+            "Morning shade does not establish an all-day condition.",
+            "The map has no permanent paper copy.",
+            "Shade can only be observed once."
+          ],
+          "prompt": "Why does Tessa add a time to the shade map?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The final card says the club bus has a new departure time. Tessa remembers that only its gate changed. She corrects the location and keeps 9:10. The exercise reminds her that a familiar word can still lead to a wrong answer when it is attached to the wrong detail.",
+          "explanation": "原閱讀只換站點，九點十分發車不變。",
+          "id": "d166-q3",
+          "options": [
+            "The meeting time.",
+            "The departure time.",
+            "The museum arrival time.",
+            "The guided visit's end time."
+          ],
+          "prompt": "Which bus detail should remain 9:10?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "A music notice describes a free trial as a gift. Tessa writes that the instrument remains the music room's property and must be returned. She also checks when staff are available, because knowing an item must be returned is not enough to plan a visit.",
+          "explanation": "試用有期限，樂器仍須歸還。",
+          "id": "d166-q4",
+          "options": [
+            "A completed purchase.",
+            "A staff holiday.",
+            "A permanent gift.",
+            "A period for trying something."
+          ],
+          "prompt": "What does 'trial' mean in the music notice?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Five cards lie on Tessa's review desk: caption, permanent, trial, property, and departure. Each card belongs beside a sentence that is almost correct. Tessa's job is to notice the missing partner: a source, a time, a limit, an owner, or a location.\n\nA river picture has a caption saying 'our town,' but its original source names another town. Tessa changes the caption. A garden map calls a morning patch of shade permanent. She adds the observation time instead of promising shade all day.\n\nA music notice describes a free trial as a gift. Tessa writes that the instrument remains the music room's property and must be returned. She also checks when staff are available, because knowing an item must be returned is not enough to plan a visit.\n\nThe final card says the club bus has a new departure time. Tessa remembers that only its gate changed. She corrects the location and keeps 9:10. The exercise reminds her that a familiar word can still lead to a wrong answer when it is attached to the wrong detail.",
+          "explanation": "樂器需釐清歸屬；巴士更新需釐清地點。",
+          "id": "d166-q5",
+          "options": [
+            "Picture source with a return date; bus gate with an instrument.",
+            "Shade time with a gift owner; instrument use with a town name.",
+            "Instrument use with ownership; bus departure with location.",
+            "Instrument ownership with picture color; shade with ticket price."
+          ],
+          "prompt": "Which pair correctly links information with its missing detail?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Five cards lie on Tessa's review desk: caption, permanent, trial, property, and departure. Each card belongs beside a sentence that is almost correct. Tessa's job is to notice the missing partner: a source, a time, a limit, an owner, or a location.\n\nA river picture has a caption saying 'our town,' but its original source names another town. Tessa changes the caption. A garden map calls a morning patch of shade permanent. She adds the observation time instead of promising shade all day.\n\nA music notice describes a free trial as a gift. Tessa writes that the instrument remains the music room's property and must be returned. She also checks when staff are available, because knowing an item must be returned is not enough to plan a visit.\n\nThe final card says the club bus has a new departure time. Tessa remembers that only its gate changed. She corrects the location and keeps 9:10. The exercise reminds her that a familiar word can still lead to a wrong answer when it is attached to the wrong detail.",
+          "explanation": "熟悉字義後仍要核對它連結的時間、來源、地點等資訊。",
+          "id": "d166-q6",
+          "options": [
+            "Accept a familiar word without reading its sentence.",
+            "Check which details a word describes.",
+            "Treat every free trial as a gift.",
+            "Change every number in an updated notice."
+          ],
+          "prompt": "What reading habit does this exercise encourage?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Five cards lie on Tessa's review desk: caption, permanent, trial, property, and departure. Each card belongs beside a sentence that is almost correct. Tessa's job is to notice the missing partner: a source, a time, a limit, an owner, or a location.\n\nA river picture has a caption saying 'our town,' but its original source names another town. Tessa changes the caption. A garden map calls a morning patch of shade permanent. She adds the observation time instead of promising shade all day.\n\nA music notice describes a free trial as a gift. Tessa writes that the instrument remains the music room's property and must be returned. She also checks when staff are available, because knowing an item must be returned is not enough to plan a visit.\n\nThe final card says the club bus has a new departure time. Tessa remembers that only its gate changed. She corrects the location and keeps 9:10. The exercise reminds her that a familiar word can still lead to a wrong answer when it is attached to the wrong detail.",
+      "title": "Labels That Need Their Partners",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "Five cards lie on Tessa's review desk: caption, permanent, trial, property, and departure.",
+          "meaning": "圖片說明",
+          "word": "caption"
+        },
+        {
+          "example": "Five cards lie on Tessa's review desk: caption, permanent, trial, property, and departure.",
+          "meaning": "永久的",
+          "word": "permanent"
+        },
+        {
+          "example": "Five cards lie on Tessa's review desk: caption, permanent, trial, property, and departure.",
+          "meaning": "試用",
+          "word": "trial"
+        },
+        {
+          "example": "Five cards lie on Tessa's review desk: caption, permanent, trial, property, and departure.",
+          "meaning": "財產",
+          "word": "property"
+        },
+        {
+          "example": "Five cards lie on Tessa's review desk: caption, permanent, trial, property, and departure.",
+          "meaning": "出發",
+          "word": "departure"
+        }
+      ]
+    }
+  ]
+}

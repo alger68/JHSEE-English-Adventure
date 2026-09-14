@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-07",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 159,
+      "goal": "複習語氣、假設及同意條件，找出改寫遺失的限制。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而非",
+          "phrase": "instead of"
+        },
+        {
+          "meaning": "給予許可",
+          "phrase": "give permission"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "At the review table, Hana receives five words from recent readings: compliment, damp, optional, approve, and consideration. Instead of matching them to isolated definitions, she must repair short messages that have lost important information.",
+          "explanation": "Hana 要修正資訊遺失或失真的短訊息。",
+          "id": "d159-q1",
+          "options": [
+            "Repair missing or changed meaning.",
+            "Choose a new radio speaker.",
+            "Design a roof inspection.",
+            "Copy five dictionary entries."
+          ],
+          "prompt": "What is Hana asked to do with the messages?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The first message calls Ben's friendly praise a complaint. Hana replaces that word with compliment. Next, a wall report says that a damp patch proves a roof leak. She keeps damp but changes 'proves' to 'may suggest,' because other causes were possible.",
+          "explanation": "潮濕痕跡可能有其他來源，不能當成漏雨的確證。",
+          "id": "d159-q2",
+          "options": [
+            "The report was about an unrelated school.",
+            "The word damp means broken.",
+            "The wet patch had more than one possible cause.",
+            "The wall was certainly dry."
+          ],
+          "prompt": "Why does Hana change 'proves' to 'may suggest'?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "A radio invitation says every speaker needs a script and every recording will be broadcast. Hana writes that scripts are optional and speakers must approve the selected edited recording. Merely joining a session does not give permission for every later use.",
+          "explanation": "入選者須同意剪輯後的錄音。",
+          "id": "d159-q3",
+          "options": [
+            "The edited recording.",
+            "Another student's private details.",
+            "Every future school announcement.",
+            "The choice of classroom furniture."
+          ],
+          "prompt": "What must a selected radio speaker approve?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Finally, a poster turns a plan under consideration into a promise. Hana restores the missing condition about helpers. Her teacher asks which correction matters most. Hana says each one repairs a different gap: tone, evidence, choice, permission, or certainty. Knowing the words helps only when she also checks their relationships.",
+          "explanation": "計畫仍在 consideration，表示考慮中而非承諾。",
+          "id": "d159-q4",
+          "options": [
+            "It must begin immediately.",
+            "It has already been completed.",
+            "It is forbidden forever.",
+            "It is being thought about and is not final."
+          ],
+          "prompt": "What does 'consideration' suggest about the plan?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "A radio invitation says every speaker needs a script and every recording will be broadcast. Hana writes that scripts are optional and speakers must approve the selected edited recording. Merely joining a session does not give permission for every later use.",
+          "explanation": "講稿可選，但播放入選剪輯仍需本人同意。",
+          "id": "d159-q5",
+          "options": [
+            "A script is optional; broadcasting requires approval of the edit.",
+            "A script is required; recording means unlimited approval.",
+            "Scripts are forbidden; silence approves broadcasting.",
+            "A script is optional; every recording must be broadcast."
+          ],
+          "prompt": "Which repaired message fits both choice and permission?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "At the review table, Hana receives five words from recent readings: compliment, damp, optional, approve, and consideration. Instead of matching them to isolated definitions, she must repair short messages that have lost important information.\n\nThe first message calls Ben's friendly praise a complaint. Hana replaces that word with compliment. Next, a wall report says that a damp patch proves a roof leak. She keeps damp but changes 'proves' to 'may suggest,' because other causes were possible.\n\nA radio invitation says every speaker needs a script and every recording will be broadcast. Hana writes that scripts are optional and speakers must approve the selected edited recording. Merely joining a session does not give permission for every later use.\n\nFinally, a poster turns a plan under consideration into a promise. Hana restores the missing condition about helpers. Her teacher asks which correction matters most. Hana says each one repairs a different gap: tone, evidence, choice, permission, or certainty. Knowing the words helps only when she also checks their relationships.",
+          "explanation": "字詞必須連同語氣、條件與關係閱讀，不能只背翻譯。",
+          "id": "d159-q6",
+          "options": [
+            "Knowing five translations guarantees every message is clear.",
+            "A shorter message always preserves the important information.",
+            "Word meaning must be read together with conditions and relationships.",
+            "Replacing one difficult word removes all uncertainty."
+          ],
+          "prompt": "What does Hana learn from the task?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At the review table, Hana receives five words from recent readings: compliment, damp, optional, approve, and consideration. Instead of matching them to isolated definitions, she must repair short messages that have lost important information.\n\nThe first message calls Ben's friendly praise a complaint. Hana replaces that word with compliment. Next, a wall report says that a damp patch proves a roof leak. She keeps damp but changes 'proves' to 'may suggest,' because other causes were possible.\n\nA radio invitation says every speaker needs a script and every recording will be broadcast. Hana writes that scripts are optional and speakers must approve the selected edited recording. Merely joining a session does not give permission for every later use.\n\nFinally, a poster turns a plan under consideration into a promise. Hana restores the missing condition about helpers. Her teacher asks which correction matters most. Hana says each one repairs a different gap: tone, evidence, choice, permission, or certainty. Knowing the words helps only when she also checks their relationships.",
+      "title": "The Words That Changed the Message",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "At the review table, Hana receives five words from recent readings: compliment, damp, optional, approve, and consideration.",
+          "meaning": "稱讚",
+          "word": "compliment"
+        },
+        {
+          "example": "At the review table, Hana receives five words from recent readings: compliment, damp, optional, approve, and consideration.",
+          "meaning": "潮濕的",
+          "word": "damp"
+        },
+        {
+          "example": "At the review table, Hana receives five words from recent readings: compliment, damp, optional, approve, and consideration.",
+          "meaning": "可選擇的",
+          "word": "optional"
+        },
+        {
+          "example": "At the review table, Hana receives five words from recent readings: compliment, damp, optional, approve, and consideration.",
+          "meaning": "同意",
+          "word": "approve"
+        },
+        {
+          "example": "At the review table, Hana receives five words from recent readings: compliment, damp, optional, approve, and consideration.",
+          "meaning": "考慮",
+          "word": "consideration"
+        }
+      ]
+    }
+  ]
+}

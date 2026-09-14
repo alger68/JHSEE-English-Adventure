@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-05",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 157,
+      "goal": "整合錄音活動的參與、同意與公開使用條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "算作",
+          "phrase": "count as"
+        },
+        {
+          "meaning": "省略",
+          "phrase": "leave out"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "STUDENT VOICES PROJECT: The school radio team invites students to record a two-minute story about a place they enjoy. Recording sessions take place in Room 204 on Wednesday after class. You may bring a written script, but reading from one is optional.",
+          "explanation": "公告說帶稿並照稿讀是 optional，可自行選擇。",
+          "id": "d157-q1",
+          "options": [
+            "Yes; no recording is possible without one.",
+            "No; reading from a script is optional.",
+            "Only selected speakers must write one first.",
+            "Only students using invented names must."
+          ],
+          "prompt": "Must every student bring a script?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Recording and broadcasting are separate choices. At the session, choose 'practice only' or 'consider for broadcast.' Practice recordings stay with the student and are not added to the radio team's collection. Choosing broadcast consideration does not guarantee that your story will be selected.",
+          "explanation": "練習錄音留給學生，不進入廣播團隊的收藏。",
+          "id": "d157-q2",
+          "options": [
+            "It automatically enters the broadcast collection.",
+            "It stays with the student.",
+            "It becomes the radio team's property.",
+            "It is broadcast without editing."
+          ],
+          "prompt": "What happens to a practice-only recording?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "If selected, you will receive an edited version to review. The team will broadcast it only after you approve that version. You may request changes or decline without giving a reason. Silence does not count as approval.",
+          "explanation": "公告明訂沉默不算同意，未回覆不能播出。",
+          "id": "d157-q3",
+          "options": [
+            "The team may treat silence as approval.",
+            "The original version must be broadcast instead.",
+            "The speaker must explain the silence publicly.",
+            "The team should not broadcast it yet."
+          ],
+          "prompt": "A selected speaker does not reply to the edited version. What should happen?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "If selected, you will receive an edited version to review. The team will broadcast it only after you approve that version. You may request changes or decline without giving a reason. Silence does not count as approval.",
+          "explanation": "只有說話者同意該剪輯版本後才可使用。",
+          "id": "d157-q4",
+          "options": [
+            "Hide a person's name.",
+            "Agree to the use of something.",
+            "Choose a recording time.",
+            "Make a longer copy."
+          ],
+          "prompt": "What does 'approve' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "STUDENT VOICES PROJECT: The school radio team invites students to record a two-minute story about a place they enjoy. Recording sessions take place in Room 204 on Wednesday after class. You may bring a written script, but reading from one is optional.\n\nRecording and broadcasting are separate choices. At the session, choose 'practice only' or 'consider for broadcast.' Practice recordings stay with the student and are not added to the radio team's collection. Choosing broadcast consideration does not guarantee that your story will be selected.\n\nIf selected, you will receive an edited version to review. The team will broadcast it only after you approve that version. You may request changes or decline without giving a reason. Silence does not count as approval.\n\nStories may use a first name or an invented name. Please leave out other people's private details. If a recording mentions someone who could easily be recognized, the team will discuss changes with the speaker before any broadcast.",
+          "explanation": "報名供考慮不等於入選，入選後還須檢視及同意剪輯版。",
+          "id": "d157-q5",
+          "options": [
+            "Choose consideration, get selected, review edits, approve.",
+            "Approve any future edits before seeing the story.",
+            "Choose practice only, remain silent, hear the broadcast.",
+            "Record a story, wait two days, assume approval."
+          ],
+          "prompt": "Which sequence follows all the stated steps?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Stories may use a first name or an invented name. Please leave out other people's private details. If a recording mentions someone who could easily be recognized, the team will discuss changes with the speaker before any broadcast.",
+          "explanation": "即使是假名，事件等其他細節仍可能使當事人被認出。",
+          "id": "d157-q6",
+          "options": [
+            "Invented names are not allowed in stories.",
+            "Every speaker must give a full legal name.",
+            "The team never discusses identifying details.",
+            "Other details could still make a person recognizable."
+          ],
+          "prompt": "Why might an invented name fail to solve a privacy concern?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "STUDENT VOICES PROJECT: The school radio team invites students to record a two-minute story about a place they enjoy. Recording sessions take place in Room 204 on Wednesday after class. You may bring a written script, but reading from one is optional.\n\nRecording and broadcasting are separate choices. At the session, choose 'practice only' or 'consider for broadcast.' Practice recordings stay with the student and are not added to the radio team's collection. Choosing broadcast consideration does not guarantee that your story will be selected.\n\nIf selected, you will receive an edited version to review. The team will broadcast it only after you approve that version. You may request changes or decline without giving a reason. Silence does not count as approval.\n\nStories may use a first name or an invented name. Please leave out other people's private details. If a recording mentions someone who could easily be recognized, the team will discuss changes with the speaker before any broadcast.",
+      "title": "Student Voices: Recording Invitation",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "You may bring a written script, but reading from one is optional.",
+          "meaning": "講稿",
+          "word": "script"
+        },
+        {
+          "example": "You may bring a written script, but reading from one is optional.",
+          "meaning": "可選擇的",
+          "word": "optional"
+        },
+        {
+          "example": "Recording and broadcasting are separate choices.",
+          "meaning": "播送",
+          "word": "broadcasting"
+        },
+        {
+          "example": "The team will broadcast it only after you approve that version.",
+          "meaning": "同意",
+          "word": "approve"
+        },
+        {
+          "example": "If a recording mentions someone who could easily be recognized, the team will discuss changes with the speaker before any broadcast.",
+          "meaning": "被認出",
+          "word": "recognized"
+        }
+      ]
+    }
+  ]
+}

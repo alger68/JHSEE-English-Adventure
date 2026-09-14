@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-16",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 168,
+      "goal": "從人物回憶推論物品的情感意義與故事主旨。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "感到與某人親近",
+          "phrase": "feel close to"
+        },
+        {
+          "meaning": "把它翻過來",
+          "phrase": "turns it over"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "For his grandfather's birthday, Ken plans to buy a new watch. His grandfather's old one has a scratched face and a faded strap. Ken thinks a shiny replacement will be an obvious improvement, so he asks what color his grandfather would like.",
+          "explanation": "錶面刮傷、錶帶褪色，使 Ken 覺得新錶較好。",
+          "id": "d168-q1",
+          "options": [
+            "His grandmother asked for a new color.",
+            "His grandfather lost the old one.",
+            "The old watch has no personal meaning.",
+            "The old one looks worn."
+          ],
+          "prompt": "Why does Ken first want to buy a new watch?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "His grandfather turns the old watch over. On the back is a short message from Ken's grandmother, written many years ago. The watch stopped working last winter, but he still wears it because the message makes him feel close to her.",
+          "explanation": "背面祖母的留言帶有情感價值。",
+          "id": "d168-q2",
+          "options": [
+            "He thinks it is still working.",
+            "It is the newest watch he owns.",
+            "He does not need to know the time.",
+            "Its message connects him with Ken's grandmother."
+          ],
+          "prompt": "Why does the grandfather wear a watch that has stopped?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Ken changes his plan. With his grandfather's agreement, he takes the watch to a repair shop and asks what can be repaired without removing the message. The shop can replace a small part inside while keeping the original back.",
+          "explanation": "Ken 詢問能否在保留留言的情況下修復。",
+          "id": "d168-q3",
+          "options": [
+            "The message on the original back.",
+            "Every broken part inside.",
+            "The repair shop's display card.",
+            "The watch's inability to tell time."
+          ],
+          "prompt": "What must the repair preserve?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "On the birthday, Ken returns the working watch with a card describing what he learned. His grandfather checks the time, then turns it over again. Ken understands that a useful gift begins with attention to the person receiving it. Newness was his first idea of value, but it was not his grandfather's.",
+          "explanation": "文末比較新穎與情感意義兩種價值判準。",
+          "id": "d168-q4",
+          "options": [
+            "The color of a replacement strap.",
+            "What makes something important or worthwhile.",
+            "Only the price printed on a box.",
+            "The number of watches in a shop."
+          ],
+          "prompt": "What does 'value' refer to in the final sentence?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "On the birthday, Ken returns the working watch with a card describing what he learned. His grandfather checks the time, then turns it over again. Ken understands that a useful gift begins with attention to the person receiving it. Newness was his first idea of value, but it was not his grandfather's.",
+          "explanation": "他先看時間再看背面，顯示實用功能與留言都重要。",
+          "id": "d168-q5",
+          "options": [
+            "The message remains as important as the restored function.",
+            "He no longer cares about the memory.",
+            "He wants to hide the watch from Ken.",
+            "He suspects Ken removed every word."
+          ],
+          "prompt": "What does the grandfather turning the watch over again suggest?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "For his grandfather's birthday, Ken plans to buy a new watch. His grandfather's old one has a scratched face and a faded strap. Ken thinks a shiny replacement will be an obvious improvement, so he asks what color his grandfather would like.\n\nHis grandfather turns the old watch over. On the back is a short message from Ken's grandmother, written many years ago. The watch stopped working last winter, but he still wears it because the message makes him feel close to her.\n\nKen changes his plan. With his grandfather's agreement, he takes the watch to a repair shop and asks what can be repaired without removing the message. The shop can replace a small part inside while keeping the original back.\n\nOn the birthday, Ken returns the working watch with a card describing what he learned. His grandfather checks the time, then turns it over again. Ken understands that a useful gift begins with attention to the person receiving it. Newness was his first idea of value, but it was not his grandfather's.",
+          "explanation": "Ken 先了解祖父珍惜的事物，再選擇保留意義的修復。",
+          "id": "d168-q6",
+          "options": [
+            "New objects always make better birthday presents.",
+            "Old objects should never be repaired.",
+            "A successful gift must remain a complete surprise.",
+            "Understanding a person's attachments can guide a thoughtful gift."
+          ],
+          "prompt": "Which statement best expresses the story's theme?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "For his grandfather's birthday, Ken plans to buy a new watch. His grandfather's old one has a scratched face and a faded strap. Ken thinks a shiny replacement will be an obvious improvement, so he asks what color his grandfather would like.\n\nHis grandfather turns the old watch over. On the back is a short message from Ken's grandmother, written many years ago. The watch stopped working last winter, but he still wears it because the message makes him feel close to her.\n\nKen changes his plan. With his grandfather's agreement, he takes the watch to a repair shop and asks what can be repaired without removing the message. The shop can replace a small part inside while keeping the original back.\n\nOn the birthday, Ken returns the working watch with a card describing what he learned. His grandfather checks the time, then turns it over again. Ken understands that a useful gift begins with attention to the person receiving it. Newness was his first idea of value, but it was not his grandfather's.",
+      "title": "A Gift with an Unfinished Story",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "His grandfather's old one has a scratched face and a faded strap.",
+          "meaning": "有刮痕的",
+          "word": "scratched"
+        },
+        {
+          "example": "His grandfather's old one has a scratched face and a faded strap.",
+          "meaning": "錶帶",
+          "word": "strap"
+        },
+        {
+          "example": "Ken thinks a shiny replacement will be an obvious improvement, so he asks what color his grandfather would like.",
+          "meaning": "替代品",
+          "word": "replacement"
+        },
+        {
+          "example": "With his grandfather's agreement, he takes the watch to a repair shop and asks what can be repaired without removing the message.",
+          "meaning": "同意",
+          "word": "agreement"
+        },
+        {
+          "example": "Newness was his first idea of value, but it was not his grandfather's.",
+          "meaning": "價值",
+          "word": "value"
+        }
+      ]
+    }
+  ]
+}

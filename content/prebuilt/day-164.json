@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-12",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 164,
+      "goal": "閱讀借用體驗公告，區分免費使用與贈送。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "到期日",
+          "phrase": "due date"
+        },
+        {
+          "meaning": "把它交給",
+          "phrase": "pass it to"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "TRY A MUSICAL INSTRUMENT: The community music room is offering a free seven-day trial of selected instruments. The offer covers borrowing an instrument, not private lessons. A staff member will show you how to carry and store it before you leave.",
+          "explanation": "第一段明示免費的是借用，不含個別課程。",
+          "id": "d164-q1",
+          "options": [
+            "Seven private lessons.",
+            "Borrowing a selected instrument.",
+            "Owning any instrument permanently.",
+            "Buying equipment at half price."
+          ],
+          "prompt": "What does the free offer include?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The return date is printed on your receipt when you collect the instrument. Return it during staffed hours, Tuesday to Saturday, from two to six. Please contact the music room before the due date if a problem prevents your return.",
+          "explanation": "領取時收據會印出歸還日期。",
+          "id": "d164-q2",
+          "options": [
+            "When the instrument is collected.",
+            "After the instrument is returned.",
+            "When someone joins the waiting list.",
+            "At the end of a private lesson."
+          ],
+          "prompt": "When is the return date given?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The trial is a chance to explore an interest without buying equipment first. The instrument remains the music room's property. Do not pass it to another borrower yourself, even if that person is next on the waiting list; staff must check and record every return.",
+          "explanation": "最後一段要求由員工檢查並記錄。",
+          "id": "d164-q3",
+          "options": [
+            "The next borrower never needs an instrument.",
+            "The receipt is a gift certificate.",
+            "Only staff are allowed to play music.",
+            "Staff must check and record each return."
+          ],
+          "prompt": "Why must borrowers return instruments through staff?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The trial is a chance to explore an interest without buying equipment first. The instrument remains the music room's property. Do not pass it to another borrower yourself, even if that person is next on the waiting list; staff must check and record every return.",
+          "explanation": "樂器仍屬音樂室所有，所以是財產。",
+          "id": "d164-q4",
+          "options": [
+            "Something owned by a person or organization.",
+            "A period of free instruction.",
+            "A student's contact number.",
+            "A place on a waiting list."
+          ],
+          "prompt": "What does 'property' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "TRY A MUSICAL INSTRUMENT: The community music room is offering a free seven-day trial of selected instruments. The offer covers borrowing an instrument, not private lessons. A staff member will show you how to carry and store it before you leave.\n\nBring a student card and an adult contact number. Each borrower may choose one instrument that is currently available. A waiting list is used when all instruments of a kind are out. Joining the list does not start your seven-day period.\n\nThe return date is printed on your receipt when you collect the instrument. Return it during staffed hours, Tuesday to Saturday, from two to six. Please contact the music room before the due date if a problem prevents your return.\n\nThe trial is a chance to explore an interest without buying equipment first. The instrument remains the music room's property. Do not pass it to another borrower yourself, even if that person is next on the waiting list; staff must check and record every return.",
+          "explanation": "週五三點在有人值班的週二至週六二至六點內。",
+          "id": "d164-q5",
+          "options": [
+            "One who returns it on Monday at three without arranging help.",
+            "One who gives it directly to the next person.",
+            "One who returns an instrument to staff on Friday at three.",
+            "One who keeps it because the trial was free."
+          ],
+          "prompt": "Which borrower follows the notice?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "The trial is a chance to explore an interest without buying equipment first. The instrument remains the music room's property. Do not pass it to another borrower yourself, even if that person is next on the waiting list; staff must check and record every return.",
+          "explanation": "最後強調所有權與正式歸還，釐清免費試用不等於贈送。",
+          "id": "d164-q6",
+          "options": [
+            "Free temporary use does not transfer ownership.",
+            "A waiting list guarantees immediate collection.",
+            "Trying an instrument requires buying lessons.",
+            "A student card replaces the return receipt."
+          ],
+          "prompt": "What misunderstanding does the final paragraph address?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "TRY A MUSICAL INSTRUMENT: The community music room is offering a free seven-day trial of selected instruments. The offer covers borrowing an instrument, not private lessons. A staff member will show you how to carry and store it before you leave.\n\nBring a student card and an adult contact number. Each borrower may choose one instrument that is currently available. A waiting list is used when all instruments of a kind are out. Joining the list does not start your seven-day period.\n\nThe return date is printed on your receipt when you collect the instrument. Return it during staffed hours, Tuesday to Saturday, from two to six. Please contact the music room before the due date if a problem prevents your return.\n\nThe trial is a chance to explore an interest without buying equipment first. The instrument remains the music room's property. Do not pass it to another borrower yourself, even if that person is next on the waiting list; staff must check and record every return.",
+      "title": "A Free Trial with a Return Date",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "TRY A MUSICAL INSTRUMENT: The community music room is offering a free seven-day trial of selected instruments.",
+          "meaning": "試用",
+          "word": "trial"
+        },
+        {
+          "example": "TRY A MUSICAL INSTRUMENT: The community music room is offering a free seven-day trial of selected instruments.",
+          "meaning": "指定的",
+          "word": "selected"
+        },
+        {
+          "example": "Each borrower may choose one instrument that is currently available.",
+          "meaning": "借用者",
+          "word": "borrower"
+        },
+        {
+          "example": "The return date is printed on your receipt when you collect the instrument.",
+          "meaning": "收據",
+          "word": "receipt"
+        },
+        {
+          "example": "The instrument remains the music room's property.",
+          "meaning": "財產",
+          "word": "property"
+        }
+      ]
+    }
+  ]
+}

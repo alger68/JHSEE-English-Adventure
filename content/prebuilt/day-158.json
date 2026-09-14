@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-06",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 158,
+      "goal": "跨文本比較原話、節錄與標題是否保留原意。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "目前",
+          "phrase": "at present"
+        },
+        {
+          "meaning": "現行有效的",
+          "phrase": "in place"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "[Interview] Reporter: Will the reading room open every evening? Principal: We hope to try that next month, but only if we can find enough adult helpers. At present, the room closes at five. We will announce a decision next Friday.",
+          "explanation": "校長說目前五點關閉。",
+          "id": "d158-q1",
+          "options": [
+            "Every evening at eight.",
+            "At an unannounced time.",
+            "At five.",
+            "Whenever the last student leaves."
+          ],
+          "prompt": "When does the reading room currently close?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Interview] Reporter: Will the reading room open every evening? Principal: We hope to try that next month, but only if we can find enough adult helpers. At present, the room closes at five. We will announce a decision next Friday.",
+          "explanation": "晚間開放以找到足夠成人協助為條件。",
+          "id": "d158-q2",
+          "options": [
+            "Finishing an interview next month.",
+            "Letting students stay all night.",
+            "Having enough adult helpers.",
+            "Printing a colorful poster."
+          ],
+          "prompt": "What does the proposed evening opening depend on?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Interview] Reporter: Will the reading room open every evening? Principal: We hope to try that next month, but only if we can find enough adult helpers. At present, the room closes at five. We will announce a decision next Friday.",
+          "explanation": "校長預告下週五宣布決定。",
+          "id": "d158-q3",
+          "options": [
+            "Immediately after the interview.",
+            "Every evening.",
+            "At the end of next month.",
+            "Next Friday."
+          ],
+          "prompt": "When is the decision expected to be announced?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Student article draft] The school hopes to test evening opening next month. The plan depends on finding adult helpers, and no final decision has been made. Until a change is announced, the five o'clock closing time remains in place.",
+          "explanation": "文章保留人力條件及尚未定案的說明。",
+          "id": "d158-q4",
+          "options": [
+            "The phrase 'Stay as long as you want.'",
+            "The original poster headline.",
+            "The student article.",
+            "The designer's claim about attracting readers."
+          ],
+          "prompt": "Which draft preserves the uncertainty of the plan?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Poster draft] GOOD NEWS! Reading room open every evening from next month. Stay as long as you want! A student designer says the short headline will attract more readers than a sentence full of conditions.",
+          "explanation": "原話未承諾可無限停留，海報自行加上這項說法。",
+          "id": "d158-q5",
+          "options": [
+            "The school has a reading room.",
+            "A possible change concerns next month.",
+            "Students may stay for an unlimited time.",
+            "An announcement will provide more information."
+          ],
+          "prompt": "What unsupported idea does the original poster add?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The editor checks both drafts against the interview. She keeps the article but returns the poster for revision. An attractive message still needs to represent what was said. She suggests 'Evening opening under consideration' and adds the date of the coming announcement below it.",
+          "explanation": "編輯在新標題下加上將公告決定的日期。",
+          "id": "d158-q6",
+          "options": [
+            "A new confirmed closing time.",
+            "The date of the announcement.",
+            "The interviewer's home address.",
+            "The names of every helper."
+          ],
+          "prompt": "What does the editor put below her suggested headline?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The editor checks both drafts against the interview. She keeps the article but returns the poster for revision. An attractive message still needs to represent what was said. She suggests 'Evening opening under consideration' and adds the date of the coming announcement below it.",
+          "explanation": "編輯退回海報要求修改，所以 revision 是修訂。",
+          "id": "d158-q7",
+          "options": [
+            "A reward for a popular headline.",
+            "A list of evening visitors.",
+            "A change made to improve a draft.",
+            "Permission to stay after closing."
+          ],
+          "prompt": "What does 'revision' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Interview] Reporter: Will the reading room open every evening? Principal: We hope to try that next month, but only if we can find enough adult helpers. At present, the room closes at five. We will announce a decision next Friday.\n\n[Student article draft] The school hopes to test evening opening next month. The plan depends on finding adult helpers, and no final decision has been made. Until a change is announced, the five o'clock closing time remains in place.\n\n[Poster draft] GOOD NEWS! Reading room open every evening from next month. Stay as long as you want! A student designer says the short headline will attract more readers than a sentence full of conditions.\n\nThe editor checks both drafts against the interview. She keeps the article but returns the poster for revision. An attractive message still needs to represent what was said. She suggests 'Evening opening under consideration' and adds the date of the coming announcement below it.",
+          "explanation": "新時段未公布前仍維持五點關閉，晚間開放只在考慮中。",
+          "id": "d158-q8",
+          "options": [
+            "The trial has failed because no decision has been announced.",
+            "The room still closes at five; evening hours are being considered.",
+            "The room stays open until everyone leaves starting today.",
+            "Evening hours are confirmed, but helpers are optional."
+          ],
+          "prompt": "Which notice is accurate before next Friday?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "[Interview] Reporter: Will the reading room open every evening? Principal: We hope to try that next month, but only if we can find enough adult helpers. At present, the room closes at five. We will announce a decision next Friday.\n\n[Student article draft] The school hopes to test evening opening next month. The plan depends on finding adult helpers, and no final decision has been made. Until a change is announced, the five o'clock closing time remains in place.\n\n[Poster draft] GOOD NEWS! Reading room open every evening from next month. Stay as long as you want! A student designer says the short headline will attract more readers than a sentence full of conditions.\n\nThe editor checks both drafts against the interview. She keeps the article but returns the poster for revision. An attractive message still needs to represent what was said. She suggests 'Evening opening under consideration' and adds the date of the coming announcement below it.",
+          "explanation": "編輯接受精簡標題，但要求保留原始資料的重要條件。",
+          "id": "d158-q9",
+          "options": [
+            "A headline must include every word of an interview.",
+            "A short message must preserve important limits in its source.",
+            "An attractive headline is more important than a correct one.",
+            "A plan should never be reported before it becomes certain."
+          ],
+          "prompt": "What is the editor's main standard?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Interview] Reporter: Will the reading room open every evening? Principal: We hope to try that next month, but only if we can find enough adult helpers. At present, the room closes at five. We will announce a decision next Friday.\n\n[Student article draft] The school hopes to test evening opening next month. The plan depends on finding adult helpers, and no final decision has been made. Until a change is announced, the five o'clock closing time remains in place.\n\n[Poster draft] GOOD NEWS! Reading room open every evening from next month. Stay as long as you want! A student designer says the short headline will attract more readers than a sentence full of conditions.\n\nThe editor checks both drafts against the interview. She keeps the article but returns the poster for revision. An attractive message still needs to represent what was said. She suggests 'Evening opening under consideration' and adds the date of the coming announcement below it.",
+      "title": "Boss: Three Versions of the Same Interview",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "Principal: We hope to try that next month, but only if we can find enough adult helpers.",
+          "meaning": "校長",
+          "word": "principal"
+        },
+        {
+          "example": "The plan depends on finding adult helpers, and no final decision has been made.",
+          "meaning": "取決於",
+          "word": "depends"
+        },
+        {
+          "example": "A student designer says the short headline will attract more readers than a sentence full of conditions.",
+          "meaning": "條件",
+          "word": "conditions"
+        },
+        {
+          "example": "She keeps the article but returns the poster for revision.",
+          "meaning": "修訂",
+          "word": "revision"
+        },
+        {
+          "example": "She suggests 'Evening opening under consideration' and adds the date of the coming announcement below it.",
+          "meaning": "考慮",
+          "word": "consideration"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-13",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 165,
+      "goal": "整合行程表與臨時訊息，判斷交通、集合及備案。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "回家",
+          "phrase": "go home"
+        },
+        {
+          "meaning": "直接進入",
+          "phrase": "straight into"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "[Update at 8:20] Road repairs have closed East Gate. The same bus will now leave from South Gate, a ten-minute walk from East Gate, at 9:10. Meet at South Gate at 8:55. The museum schedule has not changed.",
+          "explanation": "更新將出發地改為南門。",
+          "id": "d165-q1",
+          "options": [
+            "South Gate.",
+            "The club classroom.",
+            "The museum entrance.",
+            "East Gate."
+          ],
+          "prompt": "Where will the bus actually depart?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Update at 8:20] Road repairs have closed East Gate. The same bus will now leave from South Gate, a ten-minute walk from East Gate, at 9:10. Meet at South Gate at 8:55. The museum schedule has not changed.",
+          "explanation": "更新說同一班車仍在九點十分出發。",
+          "id": "d165-q2",
+          "options": [
+            "10:00.",
+            "8:55.",
+            "9:40.",
+            "9:10."
+          ],
+          "prompt": "What time does the bus leave after the update?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Update at 8:20] Road repairs have closed East Gate. The same bus will now leave from South Gate, a ten-minute walk from East Gate, at 9:10. Meet at South Gate at 8:55. The museum schedule has not changed.",
+          "explanation": "東門因道路修繕關閉。",
+          "id": "d165-q3",
+          "options": [
+            "The bus will arrive an hour late.",
+            "Road repairs closed East Gate.",
+            "The museum changed its opening time.",
+            "The club leader lost the tickets."
+          ],
+          "prompt": "Why was the meeting place changed?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Trip plan] The history club will take the 9:10 bus from East Gate. Members should meet there at 8:55. The bus reaches the museum at 9:40, and the guided visit begins at 10:00. Tickets are held by the club leader.\n\n[Update at 8:20] Road repairs have closed East Gate. The same bus will now leave from South Gate, a ten-minute walk from East Gate, at 9:10. Meet at South Gate at 8:55. The museum schedule has not changed.\n\n[Message from Iris] I can reach East Gate only at 8:50. Should I go home? [Leader] Walk directly to South Gate. You will miss our meeting time but can still reach the bus before departure. Message me when you arrive.\n\nIf anyone misses the bus, they should contact the leader before arranging separate travel. Members arriving separately must meet the leader outside the museum entrance to collect a ticket. Going straight into the guided group without a ticket is not an option.",
+          "explanation": "八點五十加上步行十分鐘為九點。",
+          "id": "d165-q4",
+          "options": [
+            "9:40.",
+            "9:00.",
+            "8:55.",
+            "9:10."
+          ],
+          "prompt": "When should Iris reach South Gate if she walks directly?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Message from Iris] I can reach East Gate only at 8:50. Should I go home? [Leader] Walk directly to South Gate. You will miss our meeting time but can still reach the bus before departure. Message me when you arrive.",
+          "explanation": "九點抵達雖晚於集合，仍早於九點十分發車。",
+          "id": "d165-q5",
+          "options": [
+            "The bus will wait until ten.",
+            "She no longer needs a ticket.",
+            "She can arrive before the bus leaves despite missing the meeting time.",
+            "The museum visit has been canceled."
+          ],
+          "prompt": "Why does the leader tell Iris she can still join?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "If anyone misses the bus, they should contact the leader before arranging separate travel. Members arriving separately must meet the leader outside the museum entrance to collect a ticket. Going straight into the guided group without a ticket is not an option.",
+          "explanation": "末段交代另行抵達者在館外入口向領隊領票。",
+          "id": "d165-q6",
+          "options": [
+            "At East Gate from a repair worker.",
+            "Outside the museum entrance from the leader.",
+            "On any bus going to the museum.",
+            "Inside the guided group from another visitor."
+          ],
+          "prompt": "Where should a member traveling separately collect a ticket?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Message from Iris] I can reach East Gate only at 8:50. Should I go home? [Leader] Walk directly to South Gate. You will miss our meeting time but can still reach the bus before departure. Message me when you arrive.",
+          "explanation": "Iris 須在巴士離開之前到達，所以是出發。",
+          "id": "d165-q7",
+          "options": [
+            "The end of the guided visit.",
+            "The reason for road repairs.",
+            "The place to buy a ticket.",
+            "The time of leaving."
+          ],
+          "prompt": "What does 'departure' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Trip plan] The history club will take the 9:10 bus from East Gate. Members should meet there at 8:55. The bus reaches the museum at 9:40, and the guided visit begins at 10:00. Tickets are held by the club leader.",
+          "explanation": "九點四十至十點共二十分鐘。",
+          "id": "d165-q8",
+          "options": [
+            "Thirty minutes.",
+            "Fifty minutes.",
+            "Twenty minutes.",
+            "Ten minutes."
+          ],
+          "prompt": "How much time separates the scheduled museum arrival and guided visit?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "[Trip plan] The history club will take the 9:10 bus from East Gate. Members should meet there at 8:55. The bus reaches the museum at 9:40, and the guided visit begins at 10:00. Tickets are held by the club leader.\n\n[Update at 8:20] Road repairs have closed East Gate. The same bus will now leave from South Gate, a ten-minute walk from East Gate, at 9:10. Meet at South Gate at 8:55. The museum schedule has not changed.\n\n[Message from Iris] I can reach East Gate only at 8:50. Should I go home? [Leader] Walk directly to South Gate. You will miss our meeting time but can still reach the bus before departure. Message me when you arrive.\n\nIf anyone misses the bus, they should contact the leader before arranging separate travel. Members arriving separately must meet the leader outside the museum entrance to collect a ticket. Going straight into the guided group without a ticket is not an option.",
+          "explanation": "另行交通須先聯絡領隊，到館外領票；更新後東門已不是站點。",
+          "id": "d165-q9",
+          "options": [
+            "Reach East Gate at 9:10 and expect the original bus there.",
+            "Miss the bus, travel alone, enter the guided group without contact.",
+            "Ask Iris to wait at East Gate until the museum opens.",
+            "Miss the bus, contact the leader, arrange travel, collect a ticket outside."
+          ],
+          "prompt": "Which plan follows all the updated instructions?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "[Trip plan] The history club will take the 9:10 bus from East Gate. Members should meet there at 8:55. The bus reaches the museum at 9:40, and the guided visit begins at 10:00. Tickets are held by the club leader.\n\n[Update at 8:20] Road repairs have closed East Gate. The same bus will now leave from South Gate, a ten-minute walk from East Gate, at 9:10. Meet at South Gate at 8:55. The museum schedule has not changed.\n\n[Message from Iris] I can reach East Gate only at 8:50. Should I go home? [Leader] Walk directly to South Gate. You will miss our meeting time but can still reach the bus before departure. Message me when you arrive.\n\nIf anyone misses the bus, they should contact the leader before arranging separate travel. Members arriving separately must meet the leader outside the museum entrance to collect a ticket. Going straight into the guided group without a ticket is not an option.",
+      "title": "Boss: The Journey with Two Meeting Points",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "[Update at 8:20] Road repairs have closed East Gate.",
+          "meaning": "修繕",
+          "word": "repairs"
+        },
+        {
+          "example": "You will miss our meeting time but can still reach the bus before departure.",
+          "meaning": "出發",
+          "word": "departure"
+        },
+        {
+          "example": "If anyone misses the bus, they should contact the leader before arranging separate travel.",
+          "meaning": "分開的",
+          "word": "separate"
+        },
+        {
+          "example": "Members arriving separately must meet the leader outside the museum entrance to collect a ticket.",
+          "meaning": "入口",
+          "word": "entrance"
+        },
+        {
+          "example": "Going straight into the guided group without a ticket is not an option.",
+          "meaning": "選項",
+          "word": "option"
+        }
+      ]
+    }
+  ]
+}

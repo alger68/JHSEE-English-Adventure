@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-09",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 161,
+      "goal": "比較人物表面行動、未說出的期待與溝通結果。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "再一次",
+          "phrase": "a second time"
+        },
+        {
+          "meaning": "在評斷之前",
+          "phrase": "before judging"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "At dinner, Aunt May asks whether anyone wants the last piece of cake. Leo says, 'I'm fine,' because he expects someone to offer it a second time. His cousin Nina hears a refusal and puts the cake on her own plate.",
+          "explanation": "Leo 期待別人再問一次，所以先客氣推辭。",
+          "id": "d161-q1",
+          "options": [
+            "He wants Nina to leave dinner.",
+            "He dislikes every kind of cake.",
+            "He has already eaten the last piece.",
+            "He expects another offer."
+          ],
+          "prompt": "Why does Leo say 'I'm fine'?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "At dinner, Aunt May asks whether anyone wants the last piece of cake. Leo says, 'I'm fine,' because he expects someone to offer it a second time. His cousin Nina hears a refusal and puts the cake on her own plate.",
+          "explanation": "Nina 按字面把回答當成拒絕。",
+          "id": "d161-q2",
+          "options": [
+            "She knows he secretly wants it.",
+            "She thinks the cake belongs only to her.",
+            "She is following his mother's request.",
+            "She understands Leo's answer as a refusal."
+          ],
+          "prompt": "Why does Nina take the cake?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The next evening, Nina offers him a peach. Leo says, 'Yes, please. I would like half if you want some too.' Nina happily shares it. Neither needs to guess whether a polite phrase hides a different wish.",
+          "explanation": "Leo 明說想吃，也提出彼此分享。",
+          "id": "d161-q3",
+          "options": [
+            "He clearly accepts and suggests sharing.",
+            "He repeats 'I'm fine' and stays quiet.",
+            "He refuses because of the earlier cake.",
+            "He asks his mother to answer instead."
+          ],
+          "prompt": "How does Leo answer the offer of a peach?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Leo still enjoys offering food to others before serving himself. He does not decide that one family's habit is wrong. Instead, he learns to explain his wishes when different habits meet. The missing cake becomes a small lesson about asking what someone meant before judging their character.",
+          "explanation": "文末提醒別急著評斷一個人的品格。",
+          "id": "d161-q4",
+          "options": [
+            "A role in a school play.",
+            "The kind of person someone is.",
+            "The flavor of a dessert.",
+            "A letter in a written name."
+          ],
+          "prompt": "What does 'character' refer to here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Leo becomes quiet. Later, he tells his mother that Nina was selfish. His mother asks what Nina actually heard. Leo repeats his words and realizes that he never said he wanted the cake. In Nina's home, people usually accept the first answer.",
+          "explanation": "Nina 家習慣接受第一次回答，能解釋她並非故意搶走蛋糕。",
+          "id": "d161-q5",
+          "options": [
+            "The peach was offered on another evening.",
+            "Nina placed cake on a plate.",
+            "Her family usually accepts a person's first answer.",
+            "Leo had expected a second offer."
+          ],
+          "prompt": "Which information weakens Leo's first judgment of Nina?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "At dinner, Aunt May asks whether anyone wants the last piece of cake. Leo says, 'I'm fine,' because he expects someone to offer it a second time. His cousin Nina hears a refusal and puts the cake on her own plate.\n\nLeo becomes quiet. Later, he tells his mother that Nina was selfish. His mother asks what Nina actually heard. Leo repeats his words and realizes that he never said he wanted the cake. In Nina's home, people usually accept the first answer.\n\nThe next evening, Nina offers him a peach. Leo says, 'Yes, please. I would like half if you want some too.' Nina happily shares it. Neither needs to guess whether a polite phrase hides a different wish.\n\nLeo still enjoys offering food to others before serving himself. He does not decide that one family's habit is wrong. Instead, he learns to explain his wishes when different habits meet. The missing cake becomes a small lesson about asking what someone meant before judging their character.",
+          "explanation": "兩家習慣不同造成誤會，明確說出意思可改善溝通。",
+          "id": "d161-q6",
+          "options": [
+            "A missed dessert proves that a relative is selfish.",
+            "One family's food habits must be correct for everyone.",
+            "Different habits can create misunderstandings that clear words help resolve.",
+            "Polite answers should always hide what people want."
+          ],
+          "prompt": "Which lesson best fits Leo's experience?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At dinner, Aunt May asks whether anyone wants the last piece of cake. Leo says, 'I'm fine,' because he expects someone to offer it a second time. His cousin Nina hears a refusal and puts the cake on her own plate.\n\nLeo becomes quiet. Later, he tells his mother that Nina was selfish. His mother asks what Nina actually heard. Leo repeats his words and realizes that he never said he wanted the cake. In Nina's home, people usually accept the first answer.\n\nThe next evening, Nina offers him a peach. Leo says, 'Yes, please. I would like half if you want some too.' Nina happily shares it. Neither needs to guess whether a polite phrase hides a different wish.\n\nLeo still enjoys offering food to others before serving himself. He does not decide that one family's habit is wrong. Instead, he learns to explain his wishes when different habits meet. The missing cake becomes a small lesson about asking what someone meant before judging their character.",
+      "title": "The Last Piece of Cake",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "His cousin Nina hears a refusal and puts the cake on her own plate.",
+          "meaning": "拒絕",
+          "word": "refusal"
+        },
+        {
+          "example": "Later, he tells his mother that Nina was selfish.",
+          "meaning": "自私的",
+          "word": "selfish"
+        },
+        {
+          "example": "In Nina's home, people usually accept the first answer.",
+          "meaning": "接受",
+          "word": "accept"
+        },
+        {
+          "example": "Neither needs to guess whether a polite phrase hides a different wish.",
+          "meaning": "猜測",
+          "word": "guess"
+        },
+        {
+          "example": "The missing cake becomes a small lesson about asking what someone meant before judging their character.",
+          "meaning": "品格",
+          "word": "character"
+        }
+      ]
+    }
+  ]
+}

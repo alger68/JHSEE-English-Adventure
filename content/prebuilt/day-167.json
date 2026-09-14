@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-02-15",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 167,
+      "goal": "比較辯論立場，推論缺席觀點及合理協商方式。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "投票前",
+          "phrase": "before voting"
+        },
+        {
+          "meaning": "午餐時間",
+          "phrase": "at lunchtime"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "The student council debates whether to replace a quiet courtyard with a game area. Several speakers say the courtyard looks empty at lunchtime, so it must be wasted space. Most students in the meeting are members of sports or performance clubs.",
+          "explanation": "他們以午餐時看來空盪作為判斷依據。",
+          "id": "d167-q1",
+          "options": [
+            "The school has already closed it.",
+            "Bo asks to remove every bench.",
+            "A survey says nobody uses it.",
+            "They see few people there at lunchtime."
+          ],
+          "prompt": "Why do some speakers call the courtyard wasted space?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "A quiet student named Bo asks when the speakers visited. He goes there before class to read and after lunch to rest from noise. Another student uses the courtyard to talk privately with a friend. Neither usually attends council meetings.",
+          "explanation": "Bo 說上課前閱讀、午餐後休息。",
+          "id": "d167-q2",
+          "options": [
+            "Before class and after lunch.",
+            "During every sports performance.",
+            "Only during council meetings.",
+            "Only late at night."
+          ],
+          "prompt": "When does Bo use the courtyard?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The chairperson places an empty chair beside the speakers and labels it 'people we have not asked.' Before voting, the council posts a short survey at the courtyard and invites students with different routines to comment. The empty chair is a reminder, not a vote.",
+          "explanation": "椅子標示尚未詢問的人，提醒納入缺漏觀點。",
+          "id": "d167-q3",
+          "options": [
+            "A student with an automatic extra vote.",
+            "A place reserved for a sports trophy.",
+            "People whose views have not been included.",
+            "A rule against quiet students speaking."
+          ],
+          "prompt": "What does the empty chair represent?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The final proposal keeps a quiet corner and tests a small game area at specified times. The council has not made everyone want the same thing. It has improved the decision by noticing whose experience was missing from the first discussion.",
+          "explanation": "遊戲區於明確指定時段試行。",
+          "id": "d167-q4",
+          "options": [
+            "Left undecided.",
+            "Chosen secretly.",
+            "Clearly stated.",
+            "Repeated constantly."
+          ],
+          "prompt": "What does 'specified' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The student council debates whether to replace a quiet courtyard with a game area. Several speakers say the courtyard looks empty at lunchtime, so it must be wasted space. Most students in the meeting are members of sports or performance clubs.\n\nA quiet student named Bo asks when the speakers visited. He goes there before class to read and after lunch to rest from noise. Another student uses the courtyard to talk privately with a friend. Neither usually attends council meetings.\n\nThe chairperson places an empty chair beside the speakers and labels it 'people we have not asked.' Before voting, the council posts a short survey at the courtyard and invites students with different routines to comment. The empty chair is a reminder, not a vote.\n\nThe final proposal keeps a quiet corner and tests a small game area at specified times. The council has not made everyone want the same thing. It has improved the decision by noticing whose experience was missing from the first discussion.",
+          "explanation": "與會者多為特定社團且只看部分時段，忽略其他使用方式。",
+          "id": "d167-q5",
+          "options": [
+            "The speakers had too much evidence.",
+            "Every council member had surveyed all students.",
+            "A narrow set of users and times shaped the judgment.",
+            "The courtyard had no quiet uses."
+          ],
+          "prompt": "What weakness in the first discussion does Bo reveal?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "The student council debates whether to replace a quiet courtyard with a game area. Several speakers say the courtyard looks empty at lunchtime, so it must be wasted space. Most students in the meeting are members of sports or performance clubs.\n\nA quiet student named Bo asks when the speakers visited. He goes there before class to read and after lunch to rest from noise. Another student uses the courtyard to talk privately with a friend. Neither usually attends council meetings.\n\nThe chairperson places an empty chair beside the speakers and labels it 'people we have not asked.' Before voting, the council posts a short survey at the courtyard and invites students with different routines to comment. The empty chair is a reminder, not a vote.\n\nThe final proposal keeps a quiet corner and tests a small game area at specified times. The council has not made everyone want the same thing. It has improved the decision by noticing whose experience was missing from the first discussion.",
+          "explanation": "結尾強調決策納入原先缺席的經驗，不是假定人人需求相同。",
+          "id": "d167-q6",
+          "options": [
+            "It removes the need to review the trial.",
+            "It makes every student prefer the same activity.",
+            "It considers experiences missing from the original discussion.",
+            "It gives an empty chair the deciding vote."
+          ],
+          "prompt": "What makes the final decision better in the story?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The student council debates whether to replace a quiet courtyard with a game area. Several speakers say the courtyard looks empty at lunchtime, so it must be wasted space. Most students in the meeting are members of sports or performance clubs.\n\nA quiet student named Bo asks when the speakers visited. He goes there before class to read and after lunch to rest from noise. Another student uses the courtyard to talk privately with a friend. Neither usually attends council meetings.\n\nThe chairperson places an empty chair beside the speakers and labels it 'people we have not asked.' Before voting, the council posts a short survey at the courtyard and invites students with different routines to comment. The empty chair is a reminder, not a vote.\n\nThe final proposal keeps a quiet corner and tests a small game area at specified times. The council has not made everyone want the same thing. It has improved the decision by noticing whose experience was missing from the first discussion.",
+      "title": "The Empty Chair in the Debate",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "The student council debates whether to replace a quiet courtyard with a game area.",
+          "meaning": "委員會",
+          "word": "council"
+        },
+        {
+          "example": "The student council debates whether to replace a quiet courtyard with a game area.",
+          "meaning": "庭院",
+          "word": "courtyard"
+        },
+        {
+          "example": "Several speakers say the courtyard looks empty at lunchtime, so it must be wasted space.",
+          "meaning": "被浪費的",
+          "word": "wasted"
+        },
+        {
+          "example": "Another student uses the courtyard to talk privately with a friend.",
+          "meaning": "私下地",
+          "word": "privately"
+        },
+        {
+          "example": "The final proposal keeps a quiet corner and tests a small game area at specified times.",
+          "meaning": "指定的",
+          "word": "specified"
+        }
+      ]
+    }
+  ]
+}
