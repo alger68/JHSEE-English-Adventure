@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-30",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 241,
+      "goal": "整合練習場次、材料版本及進場規定。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "至少五分鐘",
+          "phrase": "at least five minutes"
+        },
+        {
+          "meaning": "選項順序",
+          "phrase": "option order"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "FINAL PRACTICE ROOMS: Choose one thirty-minute session on Saturday. Room Cedar starts at 9:00 and 10:00. Room Maple starts at 9:30 and 10:30. Both rooms use the same practice passage and questions, but option order may differ between printed versions.",
+          "explanation": "每場計時練習三十分鐘。",
+          "id": "d241-q1",
+          "options": [
+            "Fifteen minutes.",
+            "Thirty minutes.",
+            "Forty-five minutes without exception.",
+            "One hour."
+          ],
+          "prompt": "How long is each timed session?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Arrive at least five minutes before your chosen start. Doors close when the session begins so the room can remain quiet. You may reserve one place only. If you change sessions, release the old place before confirming another.",
+          "explanation": "開始時關門維持安靜。",
+          "id": "d241-q2",
+          "options": [
+            "When every reserved student arrives.",
+            "At the session's start.",
+            "Five minutes after the start.",
+            "Only after discussion."
+          ],
+          "prompt": "When do the doors close?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "FINAL PRACTICE ROOMS: Choose one thirty-minute session on Saturday. Room Cedar starts at 9:00 and 10:00. Room Maple starts at 9:30 and 10:30. Both rooms use the same practice passage and questions, but option order may differ between printed versions.\n\nArrive at least five minutes before your chosen start. Doors close when the session begins so the room can remain quiet. You may reserve one place only. If you change sessions, release the old place before confirming another.\n\nAfter the timed session, an optional fifteen-minute discussion takes place in the same room. Check your paper's version before using the answer key. A printed explanation sheet is available afterward for students who cannot stay. The discussion and the sheet cover the same reasoning, so leaving after the session does not prevent you from reviewing the evidence later.",
+          "explanation": "同題不同版本可能排序不同。",
+          "id": "d241-q3",
+          "options": [
+            "Versions determine who may enter.",
+            "Options may be arranged differently.",
+            "The discussion changes all story facts.",
+            "Every room uses a completely unrelated passage."
+          ],
+          "prompt": "Why check the paper version before using the key?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "After the timed session, an optional fifteen-minute discussion takes place in the same room. Check your paper's version before using the answer key. A printed explanation sheet is available afterward for students who cannot stay. The discussion and the sheet cover the same reasoning, so leaving after the session does not prevent you from reviewing the evidence later.",
+          "explanation": "課後討論可自行選擇參加。",
+          "id": "d241-q4",
+          "options": [
+            "Restricted to the fastest student.",
+            "Included in the thirty-minute reading time.",
+            "Available by choice rather than required.",
+            "Already canceled."
+          ],
+          "prompt": "What does 'optional' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Arrive at least five minutes before your chosen start. Doors close when the session begins so the room can remain quiet. You may reserve one place only. If you change sessions, release the old place before confirming another.",
+          "explanation": "改場次需先釋出原名額。",
+          "id": "d241-q5",
+          "options": [
+            "Reserve three additional places.",
+            "Change the version printed on a completed paper.",
+            "Release the old place.",
+            "Wait until doors close."
+          ],
+          "prompt": "What should someone changing a reservation do first?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "After the timed session, an optional fifteen-minute discussion takes place in the same room. Check your paper's version before using the answer key. A printed explanation sheet is available afterward for students who cannot stay. The discussion and the sheet cover the same reasoning, so leaving after the session does not prevent you from reviewing the evidence later.",
+          "explanation": "紙本解析與討論涵蓋相同推理。",
+          "id": "d241-q6",
+          "options": [
+            "Ask for an extra timed session automatically.",
+            "Assume matching letters prove understanding.",
+            "Use the printed explanation sheet afterward.",
+            "Treat the score alone as an explanation."
+          ],
+          "prompt": "How can someone review reasoning without staying for discussion?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "FINAL PRACTICE ROOMS: Choose one thirty-minute session on Saturday. Room Cedar starts at 9:00 and 10:00. Room Maple starts at 9:30 and 10:30. Both rooms use the same practice passage and questions, but option order may differ between printed versions.\n\nArrive at least five minutes before your chosen start. Doors close when the session begins so the room can remain quiet. You may reserve one place only. If you change sessions, release the old place before confirming another.\n\nAfter the timed session, an optional fifteen-minute discussion takes place in the same room. Check your paper's version before using the answer key. A printed explanation sheet is available afterward for students who cannot stay. The discussion and the sheet cover the same reasoning, so leaving after the session does not prevent you from reviewing the evidence later.",
+      "title": "Final Practice Room Choices",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "You may reserve one place only.",
+          "meaning": "預約",
+          "word": "reserve"
+        },
+        {
+          "example": "If you change sessions, release the old place before confirming another.",
+          "meaning": "釋出",
+          "word": "release"
+        },
+        {
+          "example": "After the timed session, an optional fifteen-minute discussion takes place in the same room.",
+          "meaning": "可選擇的",
+          "word": "optional"
+        },
+        {
+          "example": "A printed explanation sheet is available afterward for students who cannot stay.",
+          "meaning": "之後",
+          "word": "afterward"
+        },
+        {
+          "example": "The discussion and the sheet cover the same reasoning, so leaving after the session does not prevent you from reviewing the evidence later.",
+          "meaning": "推理",
+          "word": "reasoning"
+        }
+      ]
+    }
+  ]
+}

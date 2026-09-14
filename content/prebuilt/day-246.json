@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-05-05",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 246,
+      "goal": "從同儕討論判斷改答是否依據文本而非人數。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "改變之前",
+          "phrase": "before changing"
+        },
+        {
+          "meaning": "每個部分",
+          "phrase": "every part"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "Noor: I chose B because the afternoon time was the largest number on the poster. I missed the word 'before.' Another reader checks the date heading and confirms they are discussing the same version. Together they reread the complete condition rather than vote on the letters.",
+          "explanation": "Noor 被醒目的下午時間吸引，忽略 before。",
+          "id": "d246-q1",
+          "options": [
+            "A large afternoon time caught her attention.",
+            "She checked every condition.",
+            "The notice lacked a deadline.",
+            "Eli proved B correct."
+          ],
+          "prompt": "Why did Noor initially choose B?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Final review chat] Noor: Three people chose B, so should we all use it? Eli: Before changing, let's each show a supporting sentence. My answer is D because the notice says the offer ends before the afternoon session.",
+          "explanation": "Eli 要求各自提出證據句。",
+          "id": "d246-q2",
+          "options": [
+            "A new unrelated passage.",
+            "Supporting sentences.",
+            "An official grade estimate.",
+            "A vote with no explanation."
+          ],
+          "prompt": "What does Eli request before any change?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Noor: I chose B because the afternoon time was the largest number on the poster. I missed the word 'before.' Another reader checks the date heading and confirms they are discussing the same version. Together they reread the complete condition rather than vote on the letters.",
+          "explanation": "需確認討論的是同一版本及適用日期。",
+          "id": "d246-q3",
+          "options": [
+            "To ensure everyone is interpreting the same applicable text.",
+            "To avoid reading the condition.",
+            "To replace all answer options.",
+            "To make the majority larger."
+          ],
+          "prompt": "Why check the date heading and version?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Noor changes her answer and records why. Eli also checks whether his explanation covers every part of D, not just the deadline. Their discussion is useful because agreement follows shared evidence. A majority may be right, but the number of people choosing an option cannot replace the work of showing why that option fits the passage.",
+          "explanation": "文中指選同一答案的人占多數。",
+          "id": "d246-q4",
+          "options": [
+            "The option printed in bold.",
+            "The first person to answer.",
+            "More than half of a group.",
+            "A sentence with a deadline."
+          ],
+          "prompt": "What is a 'majority'?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Noor changes her answer and records why. Eli also checks whether his explanation covers every part of D, not just the deadline. Their discussion is useful because agreement follows shared evidence. A majority may be right, but the number of people choosing an option cannot replace the work of showing why that option fits the passage.",
+          "explanation": "選項全意都需有依據，不能只驗一部分。",
+          "id": "d246-q5",
+          "options": [
+            "The group vote has canceled the notice.",
+            "A partly supported option can still contain an unsupported detail.",
+            "Being initially different guarantees he is wrong.",
+            "A correct deadline automatically proves every word."
+          ],
+          "prompt": "Why does Eli recheck every part of D?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "[Final review chat] Noor: Three people chose B, so should we all use it? Eli: Before changing, let's each show a supporting sentence. My answer is D because the notice says the offer ends before the afternoon session.\n\nNoor: I chose B because the afternoon time was the largest number on the poster. I missed the word 'before.' Another reader checks the date heading and confirms they are discussing the same version. Together they reread the complete condition rather than vote on the letters.\n\nNoor changes her answer and records why. Eli also checks whether his explanation covers every part of D, not just the deadline. Their discussion is useful because agreement follows shared evidence. A majority may be right, but the number of people choosing an option cannot replace the work of showing why that option fits the passage.",
+          "explanation": "共識來自共同檢查條件及原文，而非投票本身。",
+          "id": "d246-q6",
+          "options": [
+            "The largest group determines truth without reading.",
+            "Agreement is reached by checking shared evidence.",
+            "A changed letter alone proves understanding.",
+            "Everyone must preserve the first answer."
+          ],
+          "prompt": "What makes this discussion useful?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Final review chat] Noor: Three people chose B, so should we all use it? Eli: Before changing, let's each show a supporting sentence. My answer is D because the notice says the offer ends before the afternoon session.\n\nNoor: I chose B because the afternoon time was the largest number on the poster. I missed the word 'before.' Another reader checks the date heading and confirms they are discussing the same version. Together they reread the complete condition rather than vote on the letters.\n\nNoor changes her answer and records why. Eli also checks whether his explanation covers every part of D, not just the deadline. Their discussion is useful because agreement follows shared evidence. A majority may be right, but the number of people choosing an option cannot replace the work of showing why that option fits the passage.",
+      "title": "The Answer We Changed for a Reason",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Eli: Before changing, let's each show a supporting sentence.",
+          "meaning": "支持的",
+          "word": "supporting"
+        },
+        {
+          "example": "Together they reread the complete condition rather than vote on the letters.",
+          "meaning": "條件",
+          "word": "condition"
+        },
+        {
+          "example": "A majority may be right, but the number of people choosing an option cannot replace the work of showing why that option fits the passage.",
+          "meaning": "多數",
+          "word": "majority"
+        },
+        {
+          "example": "A majority may be right, but the number of people choosing an option cannot replace the work of showing why that option fits the passage.",
+          "meaning": "取代",
+          "word": "replace"
+        },
+        {
+          "example": "Their discussion is useful because agreement follows shared evidence.",
+          "meaning": "一致",
+          "word": "agreement"
+        }
+      ]
+    }
+  ]
+}

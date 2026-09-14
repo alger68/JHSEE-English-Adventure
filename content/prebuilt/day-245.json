@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-05-04",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 245,
+      "goal": "從接收者視角檢查指示，辨識依賴共享背景的語句。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在……對面",
+          "phrase": "across from"
+        },
+        {
+          "meaning": "容易遵循",
+          "phrase": "easy to follow"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "Finn draws directions for a friend visiting his neighborhood. He writes, 'Turn right at the usual shop, then walk toward our old meeting place.' To Finn, the route is obvious. His friend has never visited, so neither landmark means anything to her.",
+          "explanation": "usual shop 等仰賴熟悉背景，朋友首次來不懂。",
+          "id": "d245-q1",
+          "options": [
+            "The neighborhood has no shops.",
+            "The friend has no starting location.",
+            "His friend has never visited and does not know them.",
+            "Finn is describing another country."
+          ],
+          "prompt": "Why are Finn's original landmarks unhelpful?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "She asks for street names and a starting point. Finn redraws the route from the bus stop where she will arrive, labels the bakery's actual name, and describes the blue entrance across from it. He checks the directions by walking them himself.",
+          "explanation": "新版從朋友抵達的公車站出發。",
+          "id": "d245-q2",
+          "options": [
+            "The farthest street in town.",
+            "An unnamed usual shop.",
+            "Finn's childhood meeting place.",
+            "The friend's arrival bus stop."
+          ],
+          "prompt": "What starting point does the revised route use?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "She asks for street names and a starting point. Finn redraws the route from the bus stop where she will arrive, labels the bakery's actual name, and describes the blue entrance across from it. He checks the directions by walking them himself.",
+          "explanation": "實走可核對指示是否依序清楚可行。",
+          "id": "d245-q3",
+          "options": [
+            "To avoid labeling the bakery.",
+            "To replace the friend's journey.",
+            "To check whether the directions work in sequence.",
+            "To make the neighborhood shorter."
+          ],
+          "prompt": "Why does Finn walk the route himself?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Finn draws directions for a friend visiting his neighborhood. He writes, 'Turn right at the usual shop, then walk toward our old meeting place.' To Finn, the route is obvious. His friend has never visited, so neither landmark means anything to her.",
+          "explanation": "地標是可用來辨認位置的場所或物體。",
+          "id": "d245-q4",
+          "options": [
+            "The total walking time.",
+            "A revision of every street name.",
+            "A private opinion about a friend.",
+            "A recognizable place used to guide location."
+          ],
+          "prompt": "What is a 'landmark'?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "When his friend arrives, she says the revised map was easy to follow. Finn notices that the distance has not changed, but the explanation now begins with the reader's knowledge instead of his own. He keeps the first draft as a reminder that clear directions are not simply clear in the writer's head; they must connect with what the other person can identify.",
+          "explanation": "改用實際名稱與抵達點，讓接收者能定位。",
+          "id": "d245-q5",
+          "options": [
+            "The map removes the need for a starting point.",
+            "Every building becomes blue.",
+            "The route is explained through information the friend can recognize.",
+            "The friend has already memorized Finn's old habits."
+          ],
+          "prompt": "What improves even though the distance stays the same?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Finn draws directions for a friend visiting his neighborhood. He writes, 'Turn right at the usual shop, then walk toward our old meeting place.' To Finn, the route is obvious. His friend has never visited, so neither landmark means anything to her.\n\nShe asks for street names and a starting point. Finn redraws the route from the bus stop where she will arrive, labels the bakery's actual name, and describes the blue entrance across from it. He checks the directions by walking them himself.\n\nWhen his friend arrives, she says the revised map was easy to follow. Finn notices that the distance has not changed, but the explanation now begins with the reader's knowledge instead of his own. He keeps the first draft as a reminder that clear directions are not simply clear in the writer's head; they must connect with what the other person can identify.",
+          "explanation": "清楚指示需以接收者已知及可辨識資訊為起點。",
+          "id": "d245-q6",
+          "options": [
+            "Instructions should connect with the recipient's knowledge and situation.",
+            "Familiar private names are always the best landmarks.",
+            "Directions are clear whenever the writer understands them.",
+            "A shorter route automatically needs no explanation."
+          ],
+          "prompt": "What is the central lesson?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Finn draws directions for a friend visiting his neighborhood. He writes, 'Turn right at the usual shop, then walk toward our old meeting place.' To Finn, the route is obvious. His friend has never visited, so neither landmark means anything to her.\n\nShe asks for street names and a starting point. Finn redraws the route from the bus stop where she will arrive, labels the bakery's actual name, and describes the blue entrance across from it. He checks the directions by walking them himself.\n\nWhen his friend arrives, she says the revised map was easy to follow. Finn notices that the distance has not changed, but the explanation now begins with the reader's knowledge instead of his own. He keeps the first draft as a reminder that clear directions are not simply clear in the writer's head; they must connect with what the other person can identify.",
+      "title": "The Map Drawn from Your Own Door",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "Finn draws directions for a friend visiting his neighborhood.",
+          "meaning": "路線指示",
+          "word": "directions"
+        },
+        {
+          "example": "His friend has never visited, so neither landmark means anything to her.",
+          "meaning": "地標",
+          "word": "landmark"
+        },
+        {
+          "example": "' To Finn, the route is obvious.",
+          "meaning": "顯而易見的",
+          "word": "obvious"
+        },
+        {
+          "example": "When his friend arrives, she says the revised map was easy to follow.",
+          "meaning": "修訂後的",
+          "word": "revised"
+        },
+        {
+          "example": "He keeps the first draft as a reminder that clear directions are not simply clear in the writer's head; they must connect with what the other person can identify.",
+          "meaning": "辨識",
+          "word": "identify"
+        }
+      ]
+    }
+  ]
+}

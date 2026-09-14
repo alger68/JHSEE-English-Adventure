@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-05-03",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 244,
+      "goal": "從建議信推論寫作目的、對象與可操作的閱讀方法。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而非",
+          "phrase": "instead of"
+        },
+        {
+          "meaning": "可嘗試的事",
+          "phrase": "something to try"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "The graduating class leaves advice for next year's reading club. Instead of writing 'Work harder,' Elin writes about a mistake she remembers clearly: choosing an option because it repeated a word from the passage, even though the relationship was wrong.",
+          "explanation": "她曾只認字詞重現而忽略關係。",
+          "id": "d244-q1",
+          "options": [
+            "Always refusing to read options.",
+            "Choosing by a repeated word despite a wrong relationship.",
+            "Copying a whole official paper.",
+            "Never recognizing any word."
+          ],
+          "prompt": "Which mistake does Elin describe?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "She tells the next reader to find a sentence that supports the whole answer, not just one familiar word. She also suggests marking uncertain choices and returning to them after reading the surrounding paragraph. Her letter includes a small example and an explanation of why the tempting option fails.",
+          "explanation": "需支持整個選項的意思。",
+          "id": "d244-q2",
+          "options": [
+            "Any sentence containing one familiar word.",
+            "A classmate's confidence.",
+            "A sentence supporting the whole meaning.",
+            "Only the answer's letter."
+          ],
+          "prompt": "What evidence should support an answer?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "She tells the next reader to find a sentence that supports the whole answer, not just one familiar word. She also suggests marking uncertain choices and returning to them after reading the surrounding paragraph. Her letter includes a small example and an explanation of why the tempting option fails.",
+          "explanation": "例子及錯因讓接收者能理解並實際試用。",
+          "id": "d244-q3",
+          "options": [
+            "To hide the original mistake.",
+            "To make the advice concrete and usable.",
+            "To replace all practice passages.",
+            "To guarantee a future grade."
+          ],
+          "prompt": "Why include an example and a failed option?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Elin does not promise that this method will solve every question or predict a grade. She says it helped her notice a specific habit and gives the next reader something to try. At the end, she leaves space for a reply from the future club. Advice, she decides, becomes more useful when another person can test it, adapt it, and add what they discover.",
+          "explanation": "方法可依新讀者的情境調整使用。",
+          "id": "d244-q4",
+          "options": [
+            "Repeat words without considering context.",
+            "Remove every uncertain choice.",
+            "Adjust a method to fit a situation.",
+            "Accept a promise without testing it."
+          ],
+          "prompt": "What does 'adapt' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Elin does not promise that this method will solve every question or predict a grade. She says it helped her notice a specific habit and gives the next reader something to try. At the end, she leaves space for a reply from the future club. Advice, she decides, becomes more useful when another person can test it, adapt it, and add what they discover.",
+          "explanation": "她希望經驗可被驗證、修改並累積。",
+          "id": "d244-q5",
+          "options": [
+            "To invite readers to contribute what they learn from trying it.",
+            "To prevent changes to her method.",
+            "To make the letter longer without purpose.",
+            "To ask them to confirm a guaranteed score."
+          ],
+          "prompt": "Why leave space for a future reply?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "The graduating class leaves advice for next year's reading club. Instead of writing 'Work harder,' Elin writes about a mistake she remembers clearly: choosing an option because it repeated a word from the passage, even though the relationship was wrong.\n\nShe tells the next reader to find a sentence that supports the whole answer, not just one familiar word. She also suggests marking uncertain choices and returning to them after reading the surrounding paragraph. Her letter includes a small example and an explanation of why the tempting option fails.\n\nElin does not promise that this method will solve every question or predict a grade. She says it helped her notice a specific habit and gives the next reader something to try. At the end, she leaves space for a reply from the future club. Advice, she decides, becomes more useful when another person can test it, adapt it, and add what they discover.",
+          "explanation": "她提供可操作策略並明說適用限制。",
+          "id": "d244-q6",
+          "options": [
+            "Offer a testable reading strategy based on a specific experience.",
+            "List every possible English question.",
+            "Announce an official exam prediction.",
+            "Demand identical study habits from everyone."
+          ],
+          "prompt": "What is the letter's main purpose?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The graduating class leaves advice for next year's reading club. Instead of writing 'Work harder,' Elin writes about a mistake she remembers clearly: choosing an option because it repeated a word from the passage, even though the relationship was wrong.\n\nShe tells the next reader to find a sentence that supports the whole answer, not just one familiar word. She also suggests marking uncertain choices and returning to them after reading the surrounding paragraph. Her letter includes a small example and an explanation of why the tempting option fails.\n\nElin does not promise that this method will solve every question or predict a grade. She says it helped her notice a specific habit and gives the next reader something to try. At the end, she leaves space for a reply from the future club. Advice, she decides, becomes more useful when another person can test it, adapt it, and add what they discover.",
+      "title": "A Letter to Next Year's Reader",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "The graduating class leaves advice for next year's reading club.",
+          "meaning": "即將畢業的",
+          "word": "graduating"
+        },
+        {
+          "example": "She also suggests marking uncertain choices and returning to them after reading the surrounding paragraph.",
+          "meaning": "周圍的",
+          "word": "surrounding"
+        },
+        {
+          "example": "Her letter includes a small example and an explanation of why the tempting option fails.",
+          "meaning": "誘人的",
+          "word": "tempting"
+        },
+        {
+          "example": "She says it helped her notice a specific habit and gives the next reader something to try.",
+          "meaning": "具體的",
+          "word": "specific"
+        },
+        {
+          "example": "Advice, she decides, becomes more useful when another person can test it, adapt it, and add what they discover.",
+          "meaning": "調整運用",
+          "word": "adapt"
+        }
+      ]
+    }
+  ]
+}

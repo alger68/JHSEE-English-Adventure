@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-05-01",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 242,
+      "goal": "整合可抵達時間、場次、討論及離開期限。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "不早於",
+          "phrase": "no earlier than"
+        },
+        {
+          "meaning": "完整時段",
+          "phrase": "whole time blocks"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "[Rae's limits] Rae can reach the building no earlier than 9:20. She must leave it by 10:20 to catch her train. She wants to complete both the timed session and the discussion if possible. All four sessions currently have a place available.",
+          "explanation": "條件指定最早 9:20 到達。",
+          "id": "d242-q1",
+          "options": [
+            "9:00.",
+            "10:20.",
+            "9:30.",
+            "9:20."
+          ],
+          "prompt": "What is Rae's earliest arrival?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Rae's limits] Rae can reach the building no earlier than 9:20. She must leave it by 10:20 to catch her train. She wants to complete both the timed session and the discussion if possible. All four sessions currently have a place available.",
+          "explanation": "她需在 10:20 前離開趕車。",
+          "id": "d242-q2",
+          "options": [
+            "By 9:20.",
+            "By 10:30.",
+            "By 10:20.",
+            "By 11:15."
+          ],
+          "prompt": "When must she leave the building?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Sessions] Cedar offers 9:00 and 10:00 starts; Maple offers 9:30 and 10:30 starts. Every session lasts thirty minutes, with an optional fifteen-minute discussion immediately afterward. Arrival must be at least five minutes before the start.\n\n[Rae's limits] Rae can reach the building no earlier than 9:20. She must leave it by 10:20 to catch her train. She wants to complete both the timed session and the discussion if possible. All four sessions currently have a place available.\n\n[Review option] Students unable to attend discussion can collect a printed explanation sheet. Its reasoning matches the discussion. Reservations are limited to one session, and changing a booking requires releasing the old place first.\n\nRae compares whole time blocks rather than start times alone. She finds a session that lets her arrive properly, finish both parts, and leave before her deadline. The availability of a seat matters, but it cannot make an unsuitable time fit her journey.",
+          "explanation": "九點場需 8:55 到，早於她可到時間。",
+          "id": "d242-q3",
+          "options": [
+            "It ends after 10:20.",
+            "She cannot arrive five minutes before its start.",
+            "It uses a different story.",
+            "It has no available seat."
+          ],
+          "prompt": "Why can't she attend Cedar at 9:00?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Sessions] Cedar offers 9:00 and 10:00 starts; Maple offers 9:30 and 10:30 starts. Every session lasts thirty minutes, with an optional fifteen-minute discussion immediately afterward. Arrival must be at least five minutes before the start.",
+          "explanation": "9:30 加三十分鐘 = 10:00。",
+          "id": "d242-q4",
+          "options": [
+            "10:15.",
+            "10:00.",
+            "10:30.",
+            "9:45."
+          ],
+          "prompt": "When does Maple's 9:30 timed session end?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Sessions] Cedar offers 9:00 and 10:00 starts; Maple offers 9:30 and 10:30 starts. Every session lasts thirty minutes, with an optional fifteen-minute discussion immediately afterward. Arrival must be at least five minutes before the start.",
+          "explanation": "計時結束 10:00 再加十五分鐘。",
+          "id": "d242-q5",
+          "options": [
+            "10:20.",
+            "10:15.",
+            "10:00.",
+            "10:45."
+          ],
+          "prompt": "When does its discussion end?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Review option] Students unable to attend discussion can collect a printed explanation sheet. Its reasoning matches the discussion. Reservations are limited to one session, and changing a booking requires releasing the old place first.",
+          "explanation": "可取同樣推理內容的紙本解析。",
+          "id": "d242-q6",
+          "options": [
+            "An official grade prediction.",
+            "A printed explanation sheet.",
+            "A shortened train journey.",
+            "An automatic extra reservation."
+          ],
+          "prompt": "What alternative exists for a missed discussion?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Rae compares whole time blocks rather than start times alone. She finds a session that lets her arrive properly, finish both parts, and leave before her deadline. The availability of a seat matters, but it cannot make an unsuitable time fit her journey.",
+          "explanation": "availability of a seat 指是否尚有名額。",
+          "id": "d242-q7",
+          "options": [
+            "The requirement to leave early.",
+            "Whether a place can be obtained.",
+            "The color of a printed version.",
+            "The length of every train trip."
+          ],
+          "prompt": "What does 'availability' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Sessions] Cedar offers 9:00 and 10:00 starts; Maple offers 9:30 and 10:30 starts. Every session lasts thirty minutes, with an optional fifteen-minute discussion immediately afterward. Arrival must be at least five minutes before the start.\n\n[Rae's limits] Rae can reach the building no earlier than 9:20. She must leave it by 10:20 to catch her train. She wants to complete both the timed session and the discussion if possible. All four sessions currently have a place available.\n\n[Review option] Students unable to attend discussion can collect a printed explanation sheet. Its reasoning matches the discussion. Reservations are limited to one session, and changing a booking requires releasing the old place first.\n\nRae compares whole time blocks rather than start times alone. She finds a session that lets her arrive properly, finish both parts, and leave before her deadline. The availability of a seat matters, but it cannot make an unsuitable time fit her journey.",
+          "explanation": "9:20 可早於 9:25 入場要求，9:30 場加討論 10:15 完，早於 10:20。",
+          "id": "d242-q8",
+          "options": [
+            "Maple at 10:30.",
+            "Maple at 9:30.",
+            "Cedar at 9:00.",
+            "Cedar at 10:00."
+          ],
+          "prompt": "Which session fits all Rae's preferences and limits?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "[Sessions] Cedar offers 9:00 and 10:00 starts; Maple offers 9:30 and 10:30 starts. Every session lasts thirty minutes, with an optional fifteen-minute discussion immediately afterward. Arrival must be at least five minutes before the start.\n\n[Rae's limits] Rae can reach the building no earlier than 9:20. She must leave it by 10:20 to catch her train. She wants to complete both the timed session and the discussion if possible. All four sessions currently have a place available.\n\n[Review option] Students unable to attend discussion can collect a printed explanation sheet. Its reasoning matches the discussion. Reservations are limited to one session, and changing a booking requires releasing the old place first.\n\nRae compares whole time blocks rather than start times alone. She finds a session that lets her arrive properly, finish both parts, and leave before her deadline. The availability of a seat matters, but it cannot make an unsuitable time fit her journey.",
+          "explanation": "十點場三十分鐘至 10:30，已超過離開期限。",
+          "id": "d242-q9",
+          "options": [
+            "The timed session alone ends at 10:30.",
+            "The explanation sheet is unavailable.",
+            "She cannot arrive by 9:55.",
+            "No seats remain."
+          ],
+          "prompt": "Why doesn't Cedar at 10:00 fit even if Rae skips discussion?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "[Sessions] Cedar offers 9:00 and 10:00 starts; Maple offers 9:30 and 10:30 starts. Every session lasts thirty minutes, with an optional fifteen-minute discussion immediately afterward. Arrival must be at least five minutes before the start.\n\n[Rae's limits] Rae can reach the building no earlier than 9:20. She must leave it by 10:20 to catch her train. She wants to complete both the timed session and the discussion if possible. All four sessions currently have a place available.\n\n[Review option] Students unable to attend discussion can collect a printed explanation sheet. Its reasoning matches the discussion. Reservations are limited to one session, and changing a booking requires releasing the old place first.\n\nRae compares whole time blocks rather than start times alone. She finds a session that lets her arrive properly, finish both parts, and leave before her deadline. The availability of a seat matters, but it cannot make an unsuitable time fit her journey.",
+      "title": "Boss: A Session before the Train",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "[Rae's limits] Rae can reach the building no earlier than 9:20.",
+          "meaning": "限制",
+          "word": "limits"
+        },
+        {
+          "example": "Every session lasts thirty minutes, with an optional fifteen-minute discussion immediately afterward.",
+          "meaning": "立即地",
+          "word": "immediately"
+        },
+        {
+          "example": "She finds a session that lets her arrive properly, finish both parts, and leave before her deadline.",
+          "meaning": "適當地",
+          "word": "properly"
+        },
+        {
+          "example": "The availability of a seat matters, but it cannot make an unsuitable time fit her journey.",
+          "meaning": "可取得性",
+          "word": "availability"
+        },
+        {
+          "example": "The availability of a seat matters, but it cannot make an unsuitable time fit her journey.",
+          "meaning": "旅程",
+          "word": "journey"
+        }
+      ]
+    }
+  ]
+}

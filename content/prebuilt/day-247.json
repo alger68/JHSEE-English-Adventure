@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-05-06",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 247,
+      "goal": "分辨單次成果、重複觀察與仍待查明的原因。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "事先",
+          "phrase": "in advance"
+        },
+        {
+          "meaning": "以及",
+          "phrase": "as well as"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "In a fictional classroom test, a team's paper bridge holds twelve small blocks before bending. On a second attempt with the same design, a new bridge holds nine. The students want to keep only the first result because it makes their project look stronger.",
+          "explanation": "第一座十二塊，第二座九塊。",
+          "id": "d247-q1",
+          "options": [
+            "Nine and three.",
+            "Twenty-one and twelve.",
+            "Twelve and nine.",
+            "Twelve and twelve."
+          ],
+          "prompt": "How many blocks did the two bridges hold?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "In a fictional classroom test, a team's paper bridge holds twelve small blocks before bending. On a second attempt with the same design, a new bridge holds nine. The students want to keep only the first result because it makes their project look stronger.",
+          "explanation": "他們想保留較好看的結果以使作品顯得更強。",
+          "id": "d247-q2",
+          "options": [
+            "It makes the project look less strong.",
+            "The teacher required only successes.",
+            "It was never observed.",
+            "It used no paper bridge."
+          ],
+          "prompt": "Why do students first want to omit the second result?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The team plans another attempt using a written folding procedure and marked block positions. It will report the range of results and the conditions used. Repeating the activity may help clarify the pattern, but the next result is not known in advance. A trustworthy report includes inconvenient observations as well as the ones its writers hoped to see.",
+          "explanation": "第三段交代程序書面化及積木位置標記。",
+          "id": "d247-q3",
+          "options": [
+            "A promise to keep only the highest number.",
+            "Written folding steps and marked block positions.",
+            "An already known result.",
+            "No record of placement."
+          ],
+          "prompt": "What will the next attempt use?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The team plans another attempt using a written folding procedure and marked block positions. It will report the range of results and the conditions used. Repeating the activity may help clarify the pattern, but the next result is not known in advance. A trustworthy report includes inconvenient observations as well as the ones its writers hoped to see.",
+          "explanation": "記錄結果範圍，而非只挑最高值。",
+          "id": "d247-q4",
+          "options": [
+            "The color of the paper.",
+            "The span of results from lower to higher values.",
+            "The number of students in the room.",
+            "Only the single best result."
+          ],
+          "prompt": "What does 'range' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The teacher asks them to record both attempts and compare how the bridges were made. One fold was slightly different, and the blocks may not have been placed in exactly the same positions. These observations suggest questions to check; they do not prove which difference caused the lower result.",
+          "explanation": "摺法與擺放只是待查的可能因素，未分辨各自影響。",
+          "id": "d247-q5",
+          "options": [
+            "The lower result did not occur.",
+            "Block position cannot ever matter.",
+            "Every fold was proven identical.",
+            "They are possible influences that still need checking."
+          ],
+          "prompt": "Why don't the observed differences establish the cause yet?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "In a fictional classroom test, a team's paper bridge holds twelve small blocks before bending. On a second attempt with the same design, a new bridge holds nine. The students want to keep only the first result because it makes their project look stronger.\n\nThe teacher asks them to record both attempts and compare how the bridges were made. One fold was slightly different, and the blocks may not have been placed in exactly the same positions. These observations suggest questions to check; they do not prove which difference caused the lower result.\n\nThe team plans another attempt using a written folding procedure and marked block positions. It will report the range of results and the conditions used. Repeating the activity may help clarify the pattern, but the next result is not known in advance. A trustworthy report includes inconvenient observations as well as the ones its writers hoped to see.",
+          "explanation": "真實保留不利結果與方法限制，比只報喜更可信。",
+          "id": "d247-q6",
+          "options": [
+            "It retains all relevant attempts and explains conditions.",
+            "It guarantees the next attempt's outcome.",
+            "It hides observations that complicate the story.",
+            "It presents the desired result as certain."
+          ],
+          "prompt": "What makes the proposed report more trustworthy?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a fictional classroom test, a team's paper bridge holds twelve small blocks before bending. On a second attempt with the same design, a new bridge holds nine. The students want to keep only the first result because it makes their project look stronger.\n\nThe teacher asks them to record both attempts and compare how the bridges were made. One fold was slightly different, and the blocks may not have been placed in exactly the same positions. These observations suggest questions to check; they do not prove which difference caused the lower result.\n\nThe team plans another attempt using a written folding procedure and marked block positions. It will report the range of results and the conditions used. Repeating the activity may help clarify the pattern, but the next result is not known in advance. A trustworthy report includes inconvenient observations as well as the ones its writers hoped to see.",
+      "title": "The Result We Could Not Repeat Yet",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "In a fictional classroom test, a team's paper bridge holds twelve small blocks before bending.",
+          "meaning": "彎曲",
+          "word": "bending"
+        },
+        {
+          "example": "One fold was slightly different, and the blocks may not have been placed in exactly the same positions.",
+          "meaning": "稍微",
+          "word": "slightly"
+        },
+        {
+          "example": "The team plans another attempt using a written folding procedure and marked block positions.",
+          "meaning": "流程",
+          "word": "procedure"
+        },
+        {
+          "example": "It will report the range of results and the conditions used.",
+          "meaning": "範圍",
+          "word": "range"
+        },
+        {
+          "example": "A trustworthy report includes inconvenient observations as well as the ones its writers hoped to see.",
+          "meaning": "可信的",
+          "word": "trustworthy"
+        }
+      ]
+    }
+  ]
+}

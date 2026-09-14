@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-05-09",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 250,
+      "goal": "總複習證據、範圍與學習遷移，建立完成課程後的練習方式。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而非",
+          "phrase": "instead of"
+        },
+        {
+          "meaning": "再試一次",
+          "phrase": "try again"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "On the last day of a long reading project, Nia opens a passage she has never seen before. She remembers five words from the final week: supporting, trustworthy, discovery, revision, and unfamiliar. They remind her of actions rather than a list to recite.",
+          "explanation": "首段說她打開從未見過的文章。",
+          "id": "d250-q1",
+          "options": [
+            "A complete official score report.",
+            "A list containing no sentences.",
+            "One she has not seen before.",
+            "Only the first passage she memorized."
+          ],
+          "prompt": "What kind of passage does Nia open?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "She checks the title and conditions, answers independently, and finds a supporting sentence for each choice. One option repeats a familiar word but changes the relationship, so she rejects it. Where the evidence is incomplete, she keeps her explanation limited instead of pretending to know more.",
+          "explanation": "字相同不代表意思相同，關係被更改所以不符。",
+          "id": "d250-q2",
+          "options": [
+            "It changes the relationship stated in the passage.",
+            "Familiar words are always wrong.",
+            "The option has no letters.",
+            "The title forbids vocabulary questions."
+          ],
+          "prompt": "Why does she reject an option containing a familiar word?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Nia compares her reasoning with the answer notes and records one useful revision. Finishing the project has not ended her learning or guaranteed an exam result. It has given her a routine she can carry to the next page: read carefully, ask what supports an answer, learn from a mistake, and try again in a new context. Her final discovery is that progress can continue after the last numbered day.",
+          "explanation": "最後一段記錄一項有用的修正。",
+          "id": "d250-q3",
+          "options": [
+            "A guaranteed exam level.",
+            "A promise never to read again.",
+            "Every classmate's private score.",
+            "One useful revision."
+          ],
+          "prompt": "What does she record after comparing explanations?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "On the last day of a long reading project, Nia opens a passage she has never seen before. She remembers five words from the final week: supporting, trustworthy, discovery, revision, and unfamiliar. They remind her of actions rather than a list to recite.",
+          "explanation": "本文以未曾看過的新文章說明 unfamiliar。",
+          "id": "d250-q4",
+          "options": [
+            "Already memorized exactly.",
+            "Impossible for anyone to understand.",
+            "Not previously known or recognized.",
+            "Written without a title."
+          ],
+          "prompt": "What does 'unfamiliar' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "She checks the title and conditions, answers independently, and finds a supporting sentence for each choice. One option repeats a familiar word but changes the relationship, so she rejects it. Where the evidence is incomplete, she keeps her explanation limited instead of pretending to know more.",
+          "explanation": "證據不足時不擴大說法，而保留限制。",
+          "id": "d250-q5",
+          "options": [
+            "Treat every blank as zero.",
+            "Limit the explanation to what is supported.",
+            "Invent details to make a confident answer.",
+            "Assume the first guess is certain."
+          ],
+          "prompt": "What does Nia do when evidence is incomplete?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "On the last day of a long reading project, Nia opens a passage she has never seen before. She remembers five words from the final week: supporting, trustworthy, discovery, revision, and unfamiliar. They remind her of actions rather than a list to recite.\n\nShe checks the title and conditions, answers independently, and finds a supporting sentence for each choice. One option repeats a familiar word but changes the relationship, so she rejects it. Where the evidence is incomplete, she keeps her explanation limited instead of pretending to know more.\n\nNia compares her reasoning with the answer notes and records one useful revision. Finishing the project has not ended her learning or guaranteed an exam result. It has given her a routine she can carry to the next page: read carefully, ask what supports an answer, learn from a mistake, and try again in a new context. Her final discovery is that progress can continue after the last numbered day.",
+          "explanation": "最後一天不是學習終點，可把查證、修正與遷移方法繼續運用。",
+          "id": "d250-q6",
+          "options": [
+            "Completion guarantees a particular official result.",
+            "No further reading is needed after the last lesson.",
+            "Remembering five words replaces checking evidence.",
+            "A practiced reading routine can support continued learning beyond Day 250."
+          ],
+          "prompt": "What is the final lesson of the project?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "On the last day of a long reading project, Nia opens a passage she has never seen before. She remembers five words from the final week: supporting, trustworthy, discovery, revision, and unfamiliar. They remind her of actions rather than a list to recite.\n\nShe checks the title and conditions, answers independently, and finds a supporting sentence for each choice. One option repeats a familiar word but changes the relationship, so she rejects it. Where the evidence is incomplete, she keeps her explanation limited instead of pretending to know more.\n\nNia compares her reasoning with the answer notes and records one useful revision. Finishing the project has not ended her learning or guaranteed an exam result. It has given her a routine she can carry to the next page: read carefully, ask what supports an answer, learn from a mistake, and try again in a new context. Her final discovery is that progress can continue after the last numbered day.",
+      "title": "The Next Page Is Yours",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "She remembers five words from the final week: supporting, trustworthy, discovery, revision, and unfamiliar.",
+          "meaning": "支持的",
+          "word": "supporting"
+        },
+        {
+          "example": "She remembers five words from the final week: supporting, trustworthy, discovery, revision, and unfamiliar.",
+          "meaning": "可信的",
+          "word": "trustworthy"
+        },
+        {
+          "example": "She remembers five words from the final week: supporting, trustworthy, discovery, revision, and unfamiliar.",
+          "meaning": "發現",
+          "word": "discovery"
+        },
+        {
+          "example": "She remembers five words from the final week: supporting, trustworthy, discovery, revision, and unfamiliar.",
+          "meaning": "修訂",
+          "word": "revision"
+        },
+        {
+          "example": "She remembers five words from the final week: supporting, trustworthy, discovery, revision, and unfamiliar.",
+          "meaning": "不熟悉的",
+          "word": "unfamiliar"
+        }
+      ]
+    }
+  ]
+}

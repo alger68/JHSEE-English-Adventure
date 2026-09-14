@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-05-08",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 249,
+      "goal": "統整公告、分享紀錄與報導草稿，辨識證據支持的結論。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "每位讀者",
+          "phrase": "per reader"
+        },
+        {
+          "meaning": "以證據支持",
+          "phrase": "with evidence"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "[Fair notice] Each pair has six minutes, with three minutes per reader. Share one changed answer and explain the textual clue. Names and scores may be covered. The event is for exchanging methods, not ranking students or predicting official exam levels.",
+          "explanation": "六分鐘由兩人各三分鐘分享。",
+          "id": "d249-q1",
+          "options": [
+            "Six minutes.",
+            "Twelve minutes.",
+            "Three minutes.",
+            "One minute."
+          ],
+          "prompt": "How much time does each reader receive?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Pair record] Ava first chose a picnic because that word appeared in the passage. She changed to an indoor visit after noticing 'but finally decided.' Leon first accepted a poster's largest time, then checked the direction heading and revised his bus plan.",
+          "explanation": "她最初只因原文出現 picnic 而選。",
+          "id": "d249-q2",
+          "options": [
+            "A matching word appeared in the passage.",
+            "She had checked every condition.",
+            "Leon selected it for her.",
+            "The final decision clearly named a picnic."
+          ],
+          "prompt": "What first attracted Ava to the picnic option?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Pair record] Ava first chose a picnic because that word appeared in the passage. She changed to an indoor visit after noticing 'but finally decided.' Leon first accepted a poster's largest time, then checked the direction heading and revised his bus plan.",
+          "explanation": "轉折詞指出原先考慮與最後決定不同。",
+          "id": "d249-q3",
+          "options": [
+            "Two identical decisions.",
+            "A title from a name.",
+            "An earlier idea from the final choice.",
+            "A bus direction from a departure."
+          ],
+          "prompt": "What does 'but finally decided' help Ava distinguish?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Pair record] Ava first chose a picnic because that word appeared in the passage. She changed to an indoor visit after noticing 'but finally decided.' Leon first accepted a poster's largest time, then checked the direction heading and revised his bus plan.",
+          "explanation": "Leon 核對方向標題後修正時刻的適用判斷。",
+          "id": "d249-q4",
+          "options": [
+            "The poster's paper size.",
+            "The number of volunteers.",
+            "The direction heading.",
+            "Another student's score."
+          ],
+          "prompt": "What additional information changes Leon's bus plan?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Draft report] Twelve volunteers shared examples. Every volunteer explained one revision. Therefore, every student in the school now understands all reading questions and will reach the same exam level. The editor underlines the final sentence and asks for a narrower conclusion.",
+          "explanation": "十二位的一次分享不能推及全校、全部題型與級分。",
+          "id": "d249-q5",
+          "options": [
+            "It reports fewer than twelve volunteers.",
+            "It generalizes from limited examples to all students and skills.",
+            "It refuses to name an official exam level.",
+            "It says nobody revised an answer."
+          ],
+          "prompt": "Why does the editor challenge the draft's final sentence?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Fair notice] Each pair has six minutes, with three minutes per reader. Share one changed answer and explain the textual clue. Names and scores may be covered. The event is for exchanging methods, not ranking students or predicting official exam levels.",
+          "explanation": "活動公告允許遮住姓名與分數。",
+          "id": "d249-q6",
+          "options": [
+            "No, every score must be ranked.",
+            "Only after a grade prediction is made.",
+            "Yes.",
+            "Only if they do not explain anything."
+          ],
+          "prompt": "May participants hide their names and scores?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Draft report] Twelve volunteers shared examples. Every volunteer explained one revision. Therefore, every student in the school now understands all reading questions and will reach the same exam level. The editor underlines the final sentence and asks for a narrower conclusion.",
+          "explanation": "編輯要求縮小主張範圍以符合實際證據。",
+          "id": "d249-q7",
+          "options": [
+            "Using only shorter English words.",
+            "Limited to what the evidence actually covers.",
+            "More certain about every student.",
+            "Printed in a thinner column."
+          ],
+          "prompt": "What does 'narrower' mean for the conclusion?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Fair notice] Each pair has six minutes, with three minutes per reader. Share one changed answer and explain the textual clue. Names and scores may be covered. The event is for exchanging methods, not ranking students or predicting official exam levels.\n\n[Pair record] Ava first chose a picnic because that word appeared in the passage. She changed to an indoor visit after noticing 'but finally decided.' Leon first accepted a poster's largest time, then checked the direction heading and revised his bus plan.\n\n[Draft report] Twelve volunteers shared examples. Every volunteer explained one revision. Therefore, every student in the school now understands all reading questions and will reach the same exam level. The editor underlines the final sentence and asks for a narrower conclusion.\n\nThe revised report says the twelve participants practiced explaining a changed answer with evidence. It does not claim that one successful explanation establishes every reading skill. Ava and Leon leave with strategies to test on unfamiliar passages, where further practice can show what they have learned.",
+          "explanation": "公告及紀錄只支持此次練習活動，不支持普遍學力結論。",
+          "id": "d249-q8",
+          "options": [
+            "All students mastered every skill because twelve people spoke.",
+            "Ava and Leon can now answer every unfamiliar passage without checking.",
+            "The event ranked participants using hidden scores.",
+            "Twelve participants practiced evidence-based revisions without establishing school-wide exam outcomes."
+          ],
+          "prompt": "Which summary is best supported by all sections?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "The revised report says the twelve participants practiced explaining a changed answer with evidence. It does not claim that one successful explanation establishes every reading skill. Ava and Leon leave with strategies to test on unfamiliar passages, where further practice can show what they have learned.",
+          "explanation": "新情境可檢查能否遷移方法，不能以熟題一次成功當全面掌握。",
+          "id": "d249-q9",
+          "options": [
+            "To prove the draft's broad claim without new work.",
+            "To avoid examining further evidence.",
+            "To see whether they can apply the methods beyond the examples already discussed.",
+            "To replace every source with their first guesses."
+          ],
+          "prompt": "Why do Ava and Leon plan to test strategies on unfamiliar passages?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Fair notice] Each pair has six minutes, with three minutes per reader. Share one changed answer and explain the textual clue. Names and scores may be covered. The event is for exchanging methods, not ranking students or predicting official exam levels.\n\n[Pair record] Ava first chose a picnic because that word appeared in the passage. She changed to an indoor visit after noticing 'but finally decided.' Leon first accepted a poster's largest time, then checked the direction heading and revised his bus plan.\n\n[Draft report] Twelve volunteers shared examples. Every volunteer explained one revision. Therefore, every student in the school now understands all reading questions and will reach the same exam level. The editor underlines the final sentence and asks for a narrower conclusion.\n\nThe revised report says the twelve participants practiced explaining a changed answer with evidence. It does not claim that one successful explanation establishes every reading skill. Ava and Leon leave with strategies to test on unfamiliar passages, where further practice can show what they have learned.",
+      "title": "Final Boss: The Reading Fair Report",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "[Draft report] Twelve volunteers shared examples.",
+          "meaning": "志願參與者",
+          "word": "volunteers"
+        },
+        {
+          "example": "Every volunteer explained one revision.",
+          "meaning": "修訂",
+          "word": "revision"
+        },
+        {
+          "example": "The editor underlines the final sentence and asks for a narrower conclusion.",
+          "meaning": "範圍較小的",
+          "word": "narrower"
+        },
+        {
+          "example": "It does not claim that one successful explanation establishes every reading skill.",
+          "meaning": "確立",
+          "word": "establishes"
+        },
+        {
+          "example": "Ava and Leon leave with strategies to test on unfamiliar passages, where further practice can show what they have learned.",
+          "meaning": "不熟悉的",
+          "word": "unfamiliar"
+        }
+      ]
+    }
+  ]
+}

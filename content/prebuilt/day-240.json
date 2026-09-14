@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-29",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 240,
+      "goal": "連同比例、次數與測試條件判讀百分比宣稱。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "以及",
+          "phrase": "as well as"
+        },
+        {
+          "meaning": "百分比背後",
+          "phrase": "behind the percentages"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "In a fictional paper-airplane activity, Team Red reports that its plane reached a target in one of one trial. Team Blue reports eight successes in ten trials. A poster calls Red's design 'the best' because its success rate is one hundred percent, while Blue's is eighty percent.",
+          "explanation": "Red 為一次試驗成功一次。",
+          "id": "d240-q1",
+          "options": [
+            "One hundred.",
+            "One.",
+            "Ten.",
+            "Eight."
+          ],
+          "prompt": "How many trials did Team Red record?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "In a fictional paper-airplane activity, Team Red reports that its plane reached a target in one of one trial. Team Blue reports eight successes in ten trials. A poster calls Red's design 'the best' because its success rate is one hundred percent, while Blue's is eighty percent.",
+          "explanation": "8 ÷ 10 = 80%。",
+          "id": "d240-q2",
+          "options": [
+            "One hundred percent.",
+            "Ten percent.",
+            "Eighty percent.",
+            "Eight percent."
+          ],
+          "prompt": "What is Team Blue's reported success rate?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The teacher asks students to include the numbers behind the percentages. Red has only one recorded attempt, so its perfect percentage gives little information about repeated performance. Blue's ten trials provide more observations, though conditions still need checking before a fair design comparison.",
+          "explanation": "單次成功缺乏重複表現資訊，條件也需一致。",
+          "id": "d240-q3",
+          "options": [
+            "It is based on only one attempt and comparison conditions need checking.",
+            "Red is proven to fail every later trial.",
+            "Blue recorded no failures.",
+            "One hundred percent is mathematically impossible."
+          ],
+          "prompt": "Why is Red's perfect percentage insufficient to establish the best design?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The teams plan additional trials with the same target distance and agreed launch procedure. They will keep unsuccessful attempts in the record as well as successes. The activity does not show that Red's plane is poor. It shows why a striking percentage should be read together with the amount and quality of evidence behind it.",
+          "explanation": "醒目的百分比容易吸引注意。",
+          "id": "d240-q4",
+          "options": [
+            "Caused by hitting the teacher.",
+            "Hidden from the poster.",
+            "Attracting strong attention.",
+            "Equal to every other number."
+          ],
+          "prompt": "What does 'striking' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The teams plan additional trials with the same target distance and agreed launch procedure. They will keep unsuccessful attempts in the record as well as successes. The activity does not show that Red's plane is poor. It shows why a striking percentage should be read together with the amount and quality of evidence behind it.",
+          "explanation": "新計画要求成功與失敗皆保留。",
+          "id": "d240-q5",
+          "options": [
+            "Only their best attempts.",
+            "Only trials that reach one hundred percent.",
+            "No details about the procedure.",
+            "Both successes and unsuccessful attempts."
+          ],
+          "prompt": "What will the teams retain in future records?",
+          "skill": "細節理解",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "In a fictional paper-airplane activity, Team Red reports that its plane reached a target in one of one trial. Team Blue reports eight successes in ten trials. A poster calls Red's design 'the best' because its success rate is one hundred percent, while Blue's is eighty percent.\n\nThe teacher asks students to include the numbers behind the percentages. Red has only one recorded attempt, so its perfect percentage gives little information about repeated performance. Blue's ten trials provide more observations, though conditions still need checking before a fair design comparison.\n\nThe teams plan additional trials with the same target distance and agreed launch procedure. They will keep unsuccessful attempts in the record as well as successes. The activity does not show that Red's plane is poor. It shows why a striking percentage should be read together with the amount and quality of evidence behind it.",
+          "explanation": "比例需搭配基數及測試品質，不能單獨當最佳證據。",
+          "id": "d240-q6",
+          "options": [
+            "A perfect percentage always wins a comparison.",
+            "One failure makes all later observations useless.",
+            "Read percentages together with sample size and conditions.",
+            "A larger trial count guarantees a superior design."
+          ],
+          "prompt": "What is the passage's main point?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a fictional paper-airplane activity, Team Red reports that its plane reached a target in one of one trial. Team Blue reports eight successes in ten trials. A poster calls Red's design 'the best' because its success rate is one hundred percent, while Blue's is eighty percent.\n\nThe teacher asks students to include the numbers behind the percentages. Red has only one recorded attempt, so its perfect percentage gives little information about repeated performance. Blue's ten trials provide more observations, though conditions still need checking before a fair design comparison.\n\nThe teams plan additional trials with the same target distance and agreed launch procedure. They will keep unsuccessful attempts in the record as well as successes. The activity does not show that Red's plane is poor. It shows why a striking percentage should be read together with the amount and quality of evidence behind it.",
+      "title": "The Hundred Percent Success Poster",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "In a fictional paper-airplane activity, Team Red reports that its plane reached a target in one of one trial.",
+          "meaning": "試驗",
+          "word": "trial"
+        },
+        {
+          "example": "A poster calls Red's design 'the best' because its success rate is one hundred percent, while Blue's is eighty percent.",
+          "meaning": "比率",
+          "word": "rate"
+        },
+        {
+          "example": "Red has only one recorded attempt, so its perfect percentage gives little information about repeated performance.",
+          "meaning": "嘗試",
+          "word": "attempt"
+        },
+        {
+          "example": "The teams plan additional trials with the same target distance and agreed launch procedure.",
+          "meaning": "額外的",
+          "word": "additional"
+        },
+        {
+          "example": "It shows why a striking percentage should be read together with the amount and quality of evidence behind it.",
+          "meaning": "醒目的",
+          "word": "striking"
+        }
+      ]
+    }
+  ]
+}

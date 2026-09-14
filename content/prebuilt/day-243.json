@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-05-02",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 243,
+      "goal": "複習版本、比例及完整時間區塊，整合比較條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "以及",
+          "phrase": "as well as"
+        },
+        {
+          "meaning": "首先以",
+          "phrase": "begins by"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Ivo reviews five words: version, trial, optional, limits, and availability. He starts with two answer sheets showing different letters for the same question. Before deciding who is wrong, he compares the version names, option wording, and supporting sentence.",
+          "explanation": "不同版本選項順序可能不同，須核對內容及證據。",
+          "id": "d243-q1",
+          "options": [
+            "The paper's price.",
+            "Versions, wording, and evidence.",
+            "Only the students' confidence.",
+            "Only the size of the letters."
+          ],
+          "prompt": "What does Ivo compare before judging different answer letters?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Next, he sees a one-hundred-percent result based on one trial and an eighty-percent result based on ten. He keeps the counts beside the rates and avoids declaring a permanent winner. The numbers describe the recorded attempts, not every possible future performance.",
+          "explanation": "第二段明說百分百來自一次試驗。",
+          "id": "d243-q2",
+          "options": [
+            "Eighty.",
+            "Ten.",
+            "One.",
+            "One hundred."
+          ],
+          "prompt": "How many trials support the one-hundred-percent result?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For a practice-room plan, Ivo includes the optional discussion because the fictional student wants to attend it. He checks arrival and leaving limits as well as seat availability. A free place at the wrong time is still unsuitable. His final note says that comparison begins by identifying what each label or number represents, then applying all relevant conditions.",
+          "explanation": "雖非強制，但此人的需求包含討論，規劃需計入。",
+          "id": "d243-q3",
+          "options": [
+            "Available seats remove the leaving deadline.",
+            "Optional always means required for everyone.",
+            "The student's stated preference includes attending it.",
+            "The timed session has been canceled."
+          ],
+          "prompt": "Why include an optional discussion in the time plan?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For a practice-room plan, Ivo includes the optional discussion because the fictional student wants to attend it. He checks arrival and leaving limits as well as seat availability. A free place at the wrong time is still unsuitable. His final note says that comparison begins by identifying what each label or number represents, then applying all relevant conditions.",
+          "explanation": "此處指場次是否還有名額。",
+          "id": "d243-q4",
+          "options": [
+            "How long the discussion lasts.",
+            "Whether a number is a percentage.",
+            "Whether a session has an obtainable place.",
+            "Which option letter is correct."
+          ],
+          "prompt": "What does 'availability' refer to here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "For a practice-room plan, Ivo includes the optional discussion because the fictional student wants to attend it. He checks arrival and leaving limits as well as seat availability. A free place at the wrong time is still unsuitable. His final note says that comparison begins by identifying what each label or number represents, then applying all relevant conditions.",
+          "explanation": "有名額與時間可行是兩條不同條件。",
+          "id": "d243-q5",
+          "options": [
+            "Every available session uses wrong answers.",
+            "The session may conflict with arrival or leaving limits.",
+            "Seat counts replace timetables.",
+            "A free seat always costs more."
+          ],
+          "prompt": "Why can an available seat still be unsuitable?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "Ivo reviews five words: version, trial, optional, limits, and availability. He starts with two answer sheets showing different letters for the same question. Before deciding who is wrong, he compares the version names, option wording, and supporting sentence.\n\nNext, he sees a one-hundred-percent result based on one trial and an eighty-percent result based on ten. He keeps the counts beside the rates and avoids declaring a permanent winner. The numbers describe the recorded attempts, not every possible future performance.\n\nFor a practice-room plan, Ivo includes the optional discussion because the fictional student wants to attend it. He checks arrival and leaving limits as well as seat availability. A free place at the wrong time is still unsuitable. His final note says that comparison begins by identifying what each label or number represents, then applying all relevant conditions.",
+          "explanation": "先確定指標或標籤意義，再納入全部相關條件比較。",
+          "id": "d243-q6",
+          "options": [
+            "Choose the largest percentage or earliest time automatically.",
+            "Ignore optional activities even when someone wants them.",
+            "Clarify meanings and compare under the full set of relevant conditions.",
+            "Treat every version label as the answer itself."
+          ],
+          "prompt": "What is the shared method in Ivo's review?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Ivo reviews five words: version, trial, optional, limits, and availability. He starts with two answer sheets showing different letters for the same question. Before deciding who is wrong, he compares the version names, option wording, and supporting sentence.\n\nNext, he sees a one-hundred-percent result based on one trial and an eighty-percent result based on ten. He keeps the counts beside the rates and avoids declaring a permanent winner. The numbers describe the recorded attempts, not every possible future performance.\n\nFor a practice-room plan, Ivo includes the optional discussion because the fictional student wants to attend it. He checks arrival and leaving limits as well as seat availability. A free place at the wrong time is still unsuitable. His final note says that comparison begins by identifying what each label or number represents, then applying all relevant conditions.",
+      "title": "Compare the Meaning, Then the Number",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "Ivo reviews five words: version, trial, optional, limits, and availability.",
+          "meaning": "版本",
+          "word": "version"
+        },
+        {
+          "example": "Ivo reviews five words: version, trial, optional, limits, and availability.",
+          "meaning": "試驗",
+          "word": "trial"
+        },
+        {
+          "example": "Ivo reviews five words: version, trial, optional, limits, and availability.",
+          "meaning": "可選擇的",
+          "word": "optional"
+        },
+        {
+          "example": "Ivo reviews five words: version, trial, optional, limits, and availability.",
+          "meaning": "限制",
+          "word": "limits"
+        },
+        {
+          "example": "Ivo reviews five words: version, trial, optional, limits, and availability.",
+          "meaning": "可取得性",
+          "word": "availability"
+        }
+      ]
+    }
+  ]
+}

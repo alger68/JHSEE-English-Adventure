@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-28",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 239,
+      "goal": "比對題本版本及選項內容，避免只憑答案字母判斷。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "指向",
+          "phrase": "point to"
+        },
+        {
+          "meaning": "單靠它們本身",
+          "phrase": "by themselves"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "[Practice chat] Tia: I chose C for Question 4, but your answer says A. One of us must be wrong. Remy: Which version is printed on your sheet? Mine is Blue. Tia: Mine is Green. The question asks why the character left early.",
+          "explanation": "Tia 說自己的題本是 Green。",
+          "id": "d239-q1",
+          "options": [
+            "Both versions.",
+            "Green.",
+            "An unnamed official paper.",
+            "Blue."
+          ],
+          "prompt": "Which version does Tia have?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Remy: My A says she needed to catch the last train. What does your C say? Tia: Exactly that. Our options are arranged differently. Remy: Then we should compare the answer text and evidence, not just the letter.",
+          "explanation": "兩人的 A/C 都指趕末班火車。",
+          "id": "d239-q2",
+          "options": [
+            "The character needed to catch the last train.",
+            "The character arrived too late.",
+            "The character forgot the meeting place.",
+            "The character disliked every guest."
+          ],
+          "prompt": "What do both selected options say?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Remy: My A says she needed to catch the last train. What does your C say? Tia: Exactly that. Our options are arranged differently. Remy: Then we should compare the answer text and evidence, not just the letter.",
+          "explanation": "不同版本選項順序不同，同一答案可能配不同字母。",
+          "id": "d239-q3",
+          "options": [
+            "The passage has no evidence.",
+            "Letters never label options.",
+            "A question always has several best answers.",
+            "The same answer appears in different positions across versions."
+          ],
+          "prompt": "Why can A and C both be correct here?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "They check the passage and find the sentence explaining the train deadline. Both choices match it. Tia writes the version name beside her results and keeps the explanation with the answer. The letters were useful labels within each paper, but they did not carry the meaning by themselves. Their disagreement disappears when they compare the information the labels point to.",
+          "explanation": "答案字母是選項位置的標識。",
+          "id": "d239-q4",
+          "options": [
+            "The actual deadlines in the story.",
+            "Names of train stations.",
+            "Symbols identifying options within a paper.",
+            "Reasons supplied by the passage."
+          ],
+          "prompt": "What are 'labels' here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Practice chat] Tia: I chose C for Question 4, but your answer says A. One of us must be wrong. Remy: Which version is printed on your sheet? Mine is Blue. Tia: Mine is Green. The question asks why the character left early.\n\nRemy: My A says she needed to catch the last train. What does your C say? Tia: Exactly that. Our options are arranged differently. Remy: Then we should compare the answer text and evidence, not just the letter.\n\nThey check the passage and find the sentence explaining the train deadline. Both choices match it. Tia writes the version name beside her results and keeps the explanation with the answer. The letters were useful labels within each paper, but they did not carry the meaning by themselves. Their disagreement disappears when they compare the information the labels point to.",
+          "explanation": "版本、內容與證據共同確保在比較同一答案。",
+          "id": "d239-q5",
+          "options": [
+            "Version, option wording, and supporting sentence.",
+            "Only the color of the ink.",
+            "Only whether their letters match.",
+            "Their confidence without opening the passage."
+          ],
+          "prompt": "What should the two students compare?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "[Practice chat] Tia: I chose C for Question 4, but your answer says A. One of us must be wrong. Remy: Which version is printed on your sheet? Mine is Blue. Tia: Mine is Green. The question asks why the character left early.\n\nRemy: My A says she needed to catch the last train. What does your C say? Tia: Exactly that. Our options are arranged differently. Remy: Then we should compare the answer text and evidence, not just the letter.\n\nThey check the passage and find the sentence explaining the train deadline. Both choices match it. Tia writes the version name beside her results and keeps the explanation with the answer. The letters were useful labels within each paper, but they did not carry the meaning by themselves. Their disagreement disappears when they compare the information the labels point to.",
+          "explanation": "字母不一致可能只是排序不同，應核對實際意義。",
+          "id": "d239-q6",
+          "options": [
+            "Matching letters always proves matching reasoning.",
+            "An answer letter is sufficient evidence by itself.",
+            "Different answer labels do not necessarily indicate different meanings.",
+            "Every practice version contains a different story."
+          ],
+          "prompt": "What misunderstanding does the conversation resolve?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Practice chat] Tia: I chose C for Question 4, but your answer says A. One of us must be wrong. Remy: Which version is printed on your sheet? Mine is Blue. Tia: Mine is Green. The question asks why the character left early.\n\nRemy: My A says she needed to catch the last train. What does your C say? Tia: Exactly that. Our options are arranged differently. Remy: Then we should compare the answer text and evidence, not just the letter.\n\nThey check the passage and find the sentence explaining the train deadline. Both choices match it. Tia writes the version name beside her results and keeps the explanation with the answer. The letters were useful labels within each paper, but they did not carry the meaning by themselves. Their disagreement disappears when they compare the information the labels point to.",
+      "title": "The Same Answer with a Different Letter",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Remy: Which version is printed on your sheet?",
+          "meaning": "版本",
+          "word": "version"
+        },
+        {
+          "example": "Our options are arranged differently.",
+          "meaning": "排列",
+          "word": "arranged"
+        },
+        {
+          "example": "They check the passage and find the sentence explaining the train deadline.",
+          "meaning": "截止時間",
+          "word": "deadline"
+        },
+        {
+          "example": "The letters were useful labels within each paper, but they did not carry the meaning by themselves.",
+          "meaning": "標籤",
+          "word": "labels"
+        },
+        {
+          "example": "Their disagreement disappears when they compare the information the labels point to.",
+          "meaning": "分歧",
+          "word": "disagreement"
+        }
+      ]
+    }
+  ]
+}

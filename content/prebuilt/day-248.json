@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-05-07",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 248,
+      "goal": "閱讀成果分享公告，區分參與材料、分享內容與成績宣稱。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "輪流",
+          "phrase": "take turns"
+        },
+        {
+          "meaning": "較不適合",
+          "phrase": "less suitable"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "READING DISCOVERY EXCHANGE: Bring one passage you have practiced and one question that changed your thinking. You do not need to bring your highest score. Choose an example you can explain with words from the passage, including why another option is less suitable.",
+          "explanation": "公告要求一篇練過的文章及一題有思路轉變的題目。",
+          "id": "d248-q1",
+          "options": [
+            "A complete private learning history.",
+            "A practiced passage and a question that changed their thinking.",
+            "An official prediction of their grade.",
+            "Only their highest score."
+          ],
+          "prompt": "What should participants bring?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Partners will take turns for three minutes each. First describe your original choice, then the clue you noticed, and finally the reason for your current answer. You may cover your name and score before sharing the sheet. Participation does not require revealing your complete learning record.",
+          "explanation": "每人輪流三分鐘。",
+          "id": "d248-q2",
+          "options": [
+            "Six minutes each.",
+            "Three minutes.",
+            "An unlimited period.",
+            "One minute."
+          ],
+          "prompt": "How long is each partner's turn?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Partners will take turns for three minutes each. First describe your original choice, then the clue you noticed, and finally the reason for your current answer. You may cover your name and score before sharing the sheet. Participation does not require revealing your complete learning record.",
+          "explanation": "活動重點是方法，不必揭露完整個人紀錄。",
+          "id": "d248-q3",
+          "options": [
+            "The passage itself must be hidden.",
+            "All scores are incorrect.",
+            "Full personal records are not required for sharing a reading method.",
+            "Partners are forbidden to ask questions."
+          ],
+          "prompt": "Why may participants cover names and scores?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "After both turns, write one strategy you want to try on a different passage. The exchange celebrates explained learning, not a ranking of students or an official exam prediction. Keep your own materials afterward. The goal is to leave with a method you can test, rather than a comparison of whose page looks most impressive.",
+          "explanation": "活動不做學生表現高低的排名。",
+          "id": "d248-q4",
+          "options": [
+            "Taking turns in a discussion.",
+            "Choosing a different passage.",
+            "Ordering people by relative performance.",
+            "Explaining a sentence's meaning."
+          ],
+          "prompt": "What does 'ranking' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Partners will take turns for three minutes each. First describe your original choice, then the clue you noticed, and finally the reason for your current answer. You may cover your name and score before sharing the sheet. Participation does not require revealing your complete learning record.",
+          "explanation": "公告明列先原選、再線索、最後當前理由。",
+          "id": "d248-q5",
+          "options": [
+            "A new strategy before any example is explained.",
+            "Final score, class rank, predicted grade.",
+            "Original choice, noticed clue, current reasoning.",
+            "Partner's name, all past scores, every mistake."
+          ],
+          "prompt": "Which sequence follows the sharing instructions?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "READING DISCOVERY EXCHANGE: Bring one passage you have practiced and one question that changed your thinking. You do not need to bring your highest score. Choose an example you can explain with words from the passage, including why another option is less suitable.\n\nPartners will take turns for three minutes each. First describe your original choice, then the clue you noticed, and finally the reason for your current answer. You may cover your name and score before sharing the sheet. Participation does not require revealing your complete learning record.\n\nAfter both turns, write one strategy you want to try on a different passage. The exchange celebrates explained learning, not a ranking of students or an official exam prediction. Keep your own materials afterward. The goal is to leave with a method you can test, rather than a comparison of whose page looks most impressive.",
+          "explanation": "分享後應帶走可在新文章試用的方法。",
+          "id": "d248-q6",
+          "options": [
+            "A guaranteed official score.",
+            "A complete ranking of all students.",
+            "A prize for the cleanest-looking page.",
+            "A reading strategy participants can test elsewhere."
+          ],
+          "prompt": "What is the exchange designed to produce?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "READING DISCOVERY EXCHANGE: Bring one passage you have practiced and one question that changed your thinking. You do not need to bring your highest score. Choose an example you can explain with words from the passage, including why another option is less suitable.\n\nPartners will take turns for three minutes each. First describe your original choice, then the clue you noticed, and finally the reason for your current answer. You may cover your name and score before sharing the sheet. Participation does not require revealing your complete learning record.\n\nAfter both turns, write one strategy you want to try on a different passage. The exchange celebrates explained learning, not a ranking of students or an official exam prediction. Keep your own materials afterward. The goal is to leave with a method you can test, rather than a comparison of whose page looks most impressive.",
+      "title": "Bring One Reading Discovery",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "READING DISCOVERY EXCHANGE: Bring one passage you have practiced and one question that changed your thinking.",
+          "meaning": "發現",
+          "word": "discovery"
+        },
+        {
+          "example": "First describe your original choice, then the clue you noticed, and finally the reason for your current answer.",
+          "meaning": "原先的",
+          "word": "original"
+        },
+        {
+          "example": "Participation does not require revealing your complete learning record.",
+          "meaning": "透露",
+          "word": "revealing"
+        },
+        {
+          "example": "The exchange celebrates explained learning, not a ranking of students or an official exam prediction.",
+          "meaning": "排名",
+          "word": "ranking"
+        },
+        {
+          "example": "The goal is to leave with a method you can test, rather than a comparison of whose page looks most impressive.",
+          "meaning": "令人印象深刻的",
+          "word": "impressive"
+        }
+      ]
+    }
+  ]
+}
