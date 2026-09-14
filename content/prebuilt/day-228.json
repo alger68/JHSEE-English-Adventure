@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-17",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 228,
+      "goal": "結合活動結束、步行時間、方向及日期規則安排回程。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "至少五分鐘",
+          "phrase": "at least five minutes"
+        },
+        {
+          "meaning": "不停留",
+          "phrase": "without stopping"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "[Shuttle notice] On festival Saturday, the last station-to-park bus leaves at 8:30 p.m.; the last park-to-station bus leaves at 9:10 p.m. The park stop is at the east entrance. Event tickets do not include the bus fare.",
+          "explanation": "回程離園往車站為九點十分。",
+          "id": "d228-q1",
+          "options": [
+            "8:30 p.m.",
+            "Neither direction is listed.",
+            "Both departures leave the park.",
+            "9:10 p.m."
+          ],
+          "prompt": "Which departure takes Milo from the park to the station?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Shuttle notice] On festival Saturday, the last station-to-park bus leaves at 8:30 p.m.; the last park-to-station bus leaves at 9:10 p.m. The park stop is at the east entrance. Event tickets do not include the bus fare.",
+          "explanation": "活動接駁站在東入口。",
+          "id": "d228-q2",
+          "options": [
+            "Any performance road.",
+            "The west entrance.",
+            "The east entrance.",
+            "The main stage."
+          ],
+          "prompt": "Where must he board at the park?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Shuttle notice] On festival Saturday, the last station-to-park bus leaves at 8:30 p.m.; the last park-to-station bus leaves at 9:10 p.m. The park stop is at the east entrance. Event tickets do not include the bus fare.\n\n[Walking guide] From the main stage to the east stop takes fifteen minutes. From the west entrance to the east stop takes ten minutes. There is no festival shuttle at the west entrance. Times assume a direct walk without stopping.\n\n[Milo's plan] Milo wants to watch a show at the main stage until 8:50 and keep at least five minutes before the last return departure. He already has an event ticket. His friend suggests waiting at the west entrance because it looks closer.\n\nMilo reads the route direction, walking guide, and fare note together. The festival timetable is for this Saturday only, so he saves the normal timetable separately for Monday. A workable plan must connect the right place, date, direction, and time.",
+          "explanation": "8:50 加十五分鐘為 9:05。",
+          "id": "d228-q3",
+          "options": [
+            "9:00.",
+            "9:10.",
+            "9:05.",
+            "9:15."
+          ],
+          "prompt": "When will he reach the east stop if he leaves the stage at 8:50?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Shuttle notice] On festival Saturday, the last station-to-park bus leaves at 8:30 p.m.; the last park-to-station bus leaves at 9:10 p.m. The park stop is at the east entrance. Event tickets do not include the bus fare.\n\n[Walking guide] From the main stage to the east stop takes fifteen minutes. From the west entrance to the east stop takes ten minutes. There is no festival shuttle at the west entrance. Times assume a direct walk without stopping.\n\n[Milo's plan] Milo wants to watch a show at the main stage until 8:50 and keep at least five minutes before the last return departure. He already has an event ticket. His friend suggests waiting at the west entrance because it looks closer.\n\nMilo reads the route direction, walking guide, and fare note together. The festival timetable is for this Saturday only, so he saves the normal timetable separately for Monday. A workable plan must connect the right place, date, direction, and time.",
+          "explanation": "9:10 − 9:05 = 5 分鐘。",
+          "id": "d228-q4",
+          "options": [
+            "Five minutes.",
+            "Ten minutes.",
+            "Fifteen minutes.",
+            "Twenty minutes."
+          ],
+          "prompt": "How much time remains before the last return departure?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Walking guide] From the main stage to the east stop takes fifteen minutes. From the west entrance to the east stop takes ten minutes. There is no festival shuttle at the west entrance. Times assume a direct walk without stopping.",
+          "explanation": "西入口沒有活動接駁停靠。",
+          "id": "d228-q5",
+          "options": [
+            "The event ticket applies only to that gate.",
+            "It always takes more than an hour to walk there.",
+            "It is the station-to-park bus itself.",
+            "There is no festival shuttle stop there."
+          ],
+          "prompt": "Why is the west entrance an unsuitable waiting place?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Shuttle notice] On festival Saturday, the last station-to-park bus leaves at 8:30 p.m.; the last park-to-station bus leaves at 9:10 p.m. The park stop is at the east entrance. Event tickets do not include the bus fare.",
+          "explanation": "公告明說活動票不包含車資。",
+          "id": "d228-q6",
+          "options": [
+            "Only after 9:00.",
+            "No.",
+            "Yes, for both directions.",
+            "Only if he walks directly."
+          ],
+          "prompt": "Does his event ticket pay the shuttle fare?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Milo reads the route direction, walking guide, and fare note together. The festival timetable is for this Saturday only, so he saves the normal timetable separately for Monday. A workable plan must connect the right place, date, direction, and time.",
+          "explanation": "符合地點與時間等限制才是可行安排。",
+          "id": "d228-q7",
+          "options": [
+            "Able to succeed under the stated conditions.",
+            "Valid for every future date.",
+            "Printed in the largest letters.",
+            "Free of any walking."
+          ],
+          "prompt": "What does 'workable' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Shuttle notice] On festival Saturday, the last station-to-park bus leaves at 8:30 p.m.; the last park-to-station bus leaves at 9:10 p.m. The park stop is at the east entrance. Event tickets do not include the bus fare.\n\n[Walking guide] From the main stage to the east stop takes fifteen minutes. From the west entrance to the east stop takes ten minutes. There is no festival shuttle at the west entrance. Times assume a direct walk without stopping.\n\n[Milo's plan] Milo wants to watch a show at the main stage until 8:50 and keep at least five minutes before the last return departure. He already has an event ticket. His friend suggests waiting at the west entrance because it looks closer.\n\nMilo reads the route direction, walking guide, and fare note together. The festival timetable is for this Saturday only, so he saves the normal timetable separately for Monday. A workable plan must connect the right place, date, direction, and time.",
+          "explanation": "9:10 減五分鐘餘裕再減十五分鐘步行 = 8:50。",
+          "id": "d228-q8",
+          "options": [
+            "9:05.",
+            "8:50.",
+            "8:55.",
+            "9:00."
+          ],
+          "prompt": "What is the latest he can leave the stage while preserving the requested five-minute margin?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Milo reads the route direction, walking guide, and fare note together. The festival timetable is for this Saturday only, so he saves the normal timetable separately for Monday. A workable plan must connect the right place, date, direction, and time.",
+          "explanation": "特殊時刻僅適用週六，週一仍依正常表。",
+          "id": "d228-q9",
+          "options": [
+            "An event ticket automatically changes weekday departures.",
+            "The park-to-station direction disappears after Saturday.",
+            "Monday has no possible bus service.",
+            "Saturday's special times do not determine Monday's service."
+          ],
+          "prompt": "Why save the normal timetable separately?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "[Shuttle notice] On festival Saturday, the last station-to-park bus leaves at 8:30 p.m.; the last park-to-station bus leaves at 9:10 p.m. The park stop is at the east entrance. Event tickets do not include the bus fare.\n\n[Walking guide] From the main stage to the east stop takes fifteen minutes. From the west entrance to the east stop takes ten minutes. There is no festival shuttle at the west entrance. Times assume a direct walk without stopping.\n\n[Milo's plan] Milo wants to watch a show at the main stage until 8:50 and keep at least five minutes before the last return departure. He already has an event ticket. His friend suggests waiting at the west entrance because it looks closer.\n\nMilo reads the route direction, walking guide, and fare note together. The festival timetable is for this Saturday only, so he saves the normal timetable separately for Monday. A workable plan must connect the right place, date, direction, and time.",
+      "title": "Boss: Getting Home after the Festival",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "[Milo's plan] Milo wants to watch a show at the main stage until 8:50 and keep at least five minutes before the last return departure.",
+          "meaning": "出發",
+          "word": "departure"
+        },
+        {
+          "example": "Times assume a direct walk without stopping.",
+          "meaning": "直接的",
+          "word": "direct"
+        },
+        {
+          "example": "The festival timetable is for this Saturday only, so he saves the normal timetable separately for Monday.",
+          "meaning": "分開地",
+          "word": "separately"
+        },
+        {
+          "example": "A workable plan must connect the right place, date, direction, and time.",
+          "meaning": "可行的",
+          "word": "workable"
+        },
+        {
+          "example": "A workable plan must connect the right place, date, direction, and time.",
+          "meaning": "連結",
+          "word": "connect"
+        }
+      ]
+    }
+  ]
+}

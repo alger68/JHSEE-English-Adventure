@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-16",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 227,
+      "goal": "整合日期、方向及附註，避免只取醒目時間。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "只適用於",
+          "phrase": "apply only"
+        },
+        {
+          "meaning": "回程",
+          "phrase": "return trip"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "RIVERSIDE SHUTTLE NOTICE: On festival Saturday, the last bus from the station to Riverside Park leaves at 8:30 p.m. The last bus in the opposite direction, from the park to the station, leaves at 9:10 p.m. These special times apply only on the festival date.",
+          "explanation": "公告回程為晚上九點十分。",
+          "id": "d227-q1",
+          "options": [
+            "The usual weekday time in every case.",
+            "9:10 p.m.",
+            "A time set by the event ticket.",
+            "8:30 p.m."
+          ],
+          "prompt": "When is the last festival bus from the park to the station?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Board at the marked shuttle stop beside the park's east entrance. The west entrance has no shuttle stop during the festival because that road is used for performances. A short walk connects the entrances inside the park, but leave enough time to reach the correct stop. Tickets are bought on boarding; an event ticket does not include the shuttle fare.",
+          "explanation": "接駁站設在東入口旁。",
+          "id": "d227-q2",
+          "options": [
+            "The east entrance.",
+            "Both entrances.",
+            "Neither entrance.",
+            "The west entrance."
+          ],
+          "prompt": "Which entrance has the festival shuttle stop?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The usual weekday timetable remains unchanged. Visitors should check the direction printed above each column before planning a return trip. The largest time on the poster is not necessarily the departure they need.",
+          "explanation": "欄位方向决定時間適用的車程。",
+          "id": "d227-q3",
+          "options": [
+            "Every column uses the same route.",
+            "The largest number always means the return bus.",
+            "Weekday service is canceled forever.",
+            "Different directions have different last departures."
+          ],
+          "prompt": "Why must readers check column headings?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Board at the marked shuttle stop beside the park's east entrance. The west entrance has no shuttle stop during the festival because that road is used for performances. A short walk connects the entrances inside the park, but leave enough time to reach the correct stop. Tickets are bought on boarding; an event ticket does not include the shuttle fare.",
+          "explanation": "fare 指接駁車搭乘費用。",
+          "id": "d227-q4",
+          "options": [
+            "The location of a park gate.",
+            "A performance schedule.",
+            "The final departure time.",
+            "The price of the bus ride."
+          ],
+          "prompt": "What does 'fare' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "RIVERSIDE SHUTTLE NOTICE: On festival Saturday, the last bus from the station to Riverside Park leaves at 8:30 p.m. The last bus in the opposite direction, from the park to the station, leaves at 9:10 p.m. These special times apply only on the festival date.\n\nThe usual weekday timetable remains unchanged. Visitors should check the direction printed above each column before planning a return trip. The largest time on the poster is not necessarily the departure they need.\n\nBoard at the marked shuttle stop beside the park's east entrance. The west entrance has no shuttle stop during the festival because that road is used for performances. A short walk connects the entrances inside the park, but leave enough time to reach the correct stop. Tickets are bought on boarding; an event ticket does not include the shuttle fare.",
+          "explanation": "活動票不含接駁費，返程需至東站搭車付款。",
+          "id": "d227-q5",
+          "options": [
+            "Reach the east stop and pay the shuttle fare on boarding.",
+            "Assume the ticket includes every form of transport.",
+            "Wait at the west entrance with no extra payment.",
+            "Use the 8:30 station departure as the park return time."
+          ],
+          "prompt": "What must a visitor with an event ticket still do to ride home?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "RIVERSIDE SHUTTLE NOTICE: On festival Saturday, the last bus from the station to Riverside Park leaves at 8:30 p.m. The last bus in the opposite direction, from the park to the station, leaves at 9:10 p.m. These special times apply only on the festival date.\n\nThe usual weekday timetable remains unchanged. Visitors should check the direction printed above each column before planning a return trip. The largest time on the poster is not necessarily the departure they need.\n\nBoard at the marked shuttle stop beside the park's east entrance. The west entrance has no shuttle stop during the festival because that road is used for performances. A short walk connects the entrances inside the park, but leave enough time to reach the correct stop. Tickets are bought on boarding; an event ticket does not include the shuttle fare.",
+          "explanation": "特殊時間只限活動當日，週一需查平日時刻表。",
+          "id": "d227-q6",
+          "options": [
+            "It applies only to festival Saturday.",
+            "The special return time must apply every day.",
+            "All weekday service has ended.",
+            "The park has no entrances on Monday."
+          ],
+          "prompt": "Why can't the special poster alone determine next Monday's last bus?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "RIVERSIDE SHUTTLE NOTICE: On festival Saturday, the last bus from the station to Riverside Park leaves at 8:30 p.m. The last bus in the opposite direction, from the park to the station, leaves at 9:10 p.m. These special times apply only on the festival date.\n\nThe usual weekday timetable remains unchanged. Visitors should check the direction printed above each column before planning a return trip. The largest time on the poster is not necessarily the departure they need.\n\nBoard at the marked shuttle stop beside the park's east entrance. The west entrance has no shuttle stop during the festival because that road is used for performances. A short walk connects the entrances inside the park, but leave enough time to reach the correct stop. Tickets are bought on boarding; an event ticket does not include the shuttle fare.",
+      "title": "The Last-Bus Notice Has Two Lines",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "The last bus in the opposite direction, from the park to the station, leaves at 9:10 p.",
+          "meaning": "相反的",
+          "word": "opposite"
+        },
+        {
+          "example": "The last bus in the opposite direction, from the park to the station, leaves at 9:10 p.",
+          "meaning": "方向",
+          "word": "direction"
+        },
+        {
+          "example": "The usual weekday timetable remains unchanged.",
+          "meaning": "平日",
+          "word": "weekday"
+        },
+        {
+          "example": "Tickets are bought on boarding; an event ticket does not include the shuttle fare.",
+          "meaning": "上車",
+          "word": "boarding"
+        },
+        {
+          "example": "Tickets are bought on boarding; an event ticket does not include the shuttle fare.",
+          "meaning": "車資",
+          "word": "fare"
+        }
+      ]
+    }
+  ]
+}

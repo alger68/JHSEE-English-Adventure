@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-26",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 237,
+      "goal": "比較分數時考慮題數、難度與技能構成。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "二十題之中",
+          "phrase": "out of twenty"
+        },
+        {
+          "meaning": "單靠它本身",
+          "phrase": "by itself"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "Ria scores eighteen out of twenty on one practice paper and thirty out of forty on another. She points to thirty and says her performance clearly improved because the number of correct answers is larger. Her friend asks how many questions each paper contained.",
+          "explanation": "首段直接列出兩份結果。",
+          "id": "d237-q1",
+          "options": [
+            "18 out of 20 and 30 out of 30.",
+            "18 out of 40 and 30 out of 20.",
+            "18 out of 20 and 30 out of 40.",
+            "20 out of 18 and 40 out of 30."
+          ],
+          "prompt": "What are Ria's two raw scores?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "They calculate ninety percent for the first and seventy-five percent for the second. Ria then says she must have become worse. The teacher asks them to look at the questions too. The second paper contains longer passages and more inference tasks, so the percentages alone do not describe a controlled comparison.",
+          "explanation": "18 ÷ 20 = 0.9 = 90%。",
+          "id": "d237-q2",
+          "options": [
+            "Seventy-five percent.",
+            "Ninety percent.",
+            "Sixty percent.",
+            "Eighty percent."
+          ],
+          "prompt": "What percentage is eighteen out of twenty?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "They calculate ninety percent for the first and seventy-five percent for the second. Ria then says she must have become worse. The teacher asks them to look at the questions too. The second paper contains longer passages and more inference tasks, so the percentages alone do not describe a controlled comparison.",
+          "explanation": "30 ÷ 40 = 0.75 = 75%。",
+          "id": "d237-q3",
+          "options": [
+            "Eighty-five percent.",
+            "Ninety percent.",
+            "Thirty percent.",
+            "Seventy-five percent."
+          ],
+          "prompt": "What percentage is thirty out of forty?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Ria checks which skills she missed on each paper and plans a similar set for a later comparison. She keeps the scores with their denominators and task descriptions. A number becomes more useful when its context travels with it. Neither a larger raw count nor a smaller percentage can by itself explain every change in her reading.",
+          "explanation": "分數比值的分母是各試卷總題數。",
+          "id": "d237-q4",
+          "options": [
+            "The longest passage titles.",
+            "The total question counts used in the fractions.",
+            "Only the numbers answered correctly.",
+            "The order in which papers were taken."
+          ],
+          "prompt": "What are the 'denominators' here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "They calculate ninety percent for the first and seventy-five percent for the second. Ria then says she must have become worse. The teacher asks them to look at the questions too. The second paper contains longer passages and more inference tasks, so the percentages alone do not describe a controlled comparison.",
+          "explanation": "兩份題目難度及技能組成不同，並非控制條件下比較。",
+          "id": "d237-q5",
+          "options": [
+            "Percentages can never be calculated.",
+            "Thirty correct answers always proves improvement.",
+            "The second paper has different difficulty and task demands.",
+            "The teacher says every inference question is impossible."
+          ],
+          "prompt": "Why doesn't the lower percentage alone prove declining ability?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Ria scores eighteen out of twenty on one practice paper and thirty out of forty on another. She points to thirty and says her performance clearly improved because the number of correct answers is larger. Her friend asks how many questions each paper contained.\n\nThey calculate ninety percent for the first and seventy-five percent for the second. Ria then says she must have become worse. The teacher asks them to look at the questions too. The second paper contains longer passages and more inference tasks, so the percentages alone do not describe a controlled comparison.\n\nRia checks which skills she missed on each paper and plans a similar set for a later comparison. She keeps the scores with their denominators and task descriptions. A number becomes more useful when its context travels with it. Neither a larger raw count nor a smaller percentage can by itself explain every change in her reading.",
+          "explanation": "保留題數、技能與難度背景才能較合理解讀。",
+          "id": "d237-q6",
+          "options": [
+            "Question totals and information about the tasks.",
+            "Only a predicted exam level.",
+            "Only the largest number.",
+            "The assumption that every paper is equivalent."
+          ],
+          "prompt": "What does Ria learn to preserve with scores?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Ria scores eighteen out of twenty on one practice paper and thirty out of forty on another. She points to thirty and says her performance clearly improved because the number of correct answers is larger. Her friend asks how many questions each paper contained.\n\nThey calculate ninety percent for the first and seventy-five percent for the second. Ria then says she must have become worse. The teacher asks them to look at the questions too. The second paper contains longer passages and more inference tasks, so the percentages alone do not describe a controlled comparison.\n\nRia checks which skills she missed on each paper and plans a similar set for a later comparison. She keeps the scores with their denominators and task descriptions. A number becomes more useful when its context travels with it. Neither a larger raw count nor a smaller percentage can by itself explain every change in her reading.",
+      "title": "Two Scores from Different Papers",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "She points to thirty and says her performance clearly improved because the number of correct answers is larger.",
+          "meaning": "表現",
+          "word": "performance"
+        },
+        {
+          "example": "The second paper contains longer passages and more inference tasks, so the percentages alone do not describe a controlled comparison.",
+          "meaning": "百分比",
+          "word": "percentages"
+        },
+        {
+          "example": "The second paper contains longer passages and more inference tasks, so the percentages alone do not describe a controlled comparison.",
+          "meaning": "推論",
+          "word": "inference"
+        },
+        {
+          "example": "She keeps the scores with their denominators and task descriptions.",
+          "meaning": "分母",
+          "word": "denominators"
+        },
+        {
+          "example": "A number becomes more useful when its context travels with it.",
+          "meaning": "情境",
+          "word": "context"
+        }
+      ]
+    }
+  ]
+}

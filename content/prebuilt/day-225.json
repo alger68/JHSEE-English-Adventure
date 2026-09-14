@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-14",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 225,
+      "goal": "核對截圖日期、適用期間與原始公告版本。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "一般開放時間",
+          "phrase": "normal opening hours"
+        },
+        {
+          "meaning": "裁掉",
+          "phrase": "cut away"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "[Sports chat] Alina: The pool is closed this Saturday. I saw this notice in a screenshot. Faris: Can you show the top of the notice? The image ends just above the date. Alina: The full picture says maintenance was scheduled for August.",
+          "explanation": "截圖在日期上方截斷，未顯示日期。",
+          "id": "d225-q1",
+          "options": [
+            "Every word about the pool.",
+            "The word Saturday.",
+            "The date near the top.",
+            "The entire maintenance message."
+          ],
+          "prompt": "What part is missing from the cropped screenshot?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Sports chat] Alina: The pool is closed this Saturday. I saw this notice in a screenshot. Faris: Can you show the top of the notice? The image ends just above the date. Alina: The full picture says maintenance was scheduled for August.",
+          "explanation": "完整圖片顯示八月的維護安排。",
+          "id": "d225-q2",
+          "options": [
+            "The next school year.",
+            "August.",
+            "October.",
+            "Every Saturday forever."
+          ],
+          "prompt": "When was the old maintenance scheduled?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Faris: Our visit is in October. We need the current notice, not just the word 'Saturday.' Alina opens the pool's notice page and finds no closure for their planned date. She also checks the normal opening hours before correcting the group message.",
+          "explanation": "訊息可是真實但不適用本次月份。",
+          "id": "d225-q3",
+          "options": [
+            "Its information concerns a different period.",
+            "All screenshots are false.",
+            "Maintenance never changes schedules.",
+            "The pool has no normal hours."
+          ],
+          "prompt": "Why isn't the genuine screenshot enough for October's plan?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The old screenshot was genuine, but it described another period. Alina adds the relevant date and a link to the current notice page when sharing the correction. She learns that checking whether a message is real is only part of checking whether it applies. A true statement from an earlier month can still produce a wrong decision when its time limit has been cut away.",
+          "explanation": "原公告確實存在，但年代與適用性仍需核對。",
+          "id": "d225-q4",
+          "options": [
+            "Real rather than fabricated.",
+            "Guaranteed to apply to October.",
+            "Cropped to remove details.",
+            "Current for every future date."
+          ],
+          "prompt": "What does 'genuine' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The old screenshot was genuine, but it described another period. Alina adds the relevant date and a link to the current notice page when sharing the correction. She learns that checking whether a message is real is only part of checking whether it applies. A true statement from an earlier month can still produce a wrong decision when its time limit has been cut away.",
+          "explanation": "她補上適用日期及現行公告連結。",
+          "id": "d225-q5",
+          "options": [
+            "A larger crop without the date.",
+            "Only the word Saturday.",
+            "A promise that the pool never closes.",
+            "The relevant date and a current source link."
+          ],
+          "prompt": "What does Alina add to the correction?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "The old screenshot was genuine, but it described another period. Alina adds the relevant date and a link to the current notice page when sharing the correction. She learns that checking whether a message is real is only part of checking whether it applies. A true statement from an earlier month can still produce a wrong decision when its time limit has been cut away.",
+          "explanation": "真偽與當下適用性是兩個不同檢查。",
+          "id": "d225-q6",
+          "options": [
+            "Does it apply to this date and situation?",
+            "Does it contain a familiar weekday?",
+            "Can the date be removed to simplify it?",
+            "Can an old screenshot replace every new notice?"
+          ],
+          "prompt": "Which question must follow 'Is this message real?'",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Sports chat] Alina: The pool is closed this Saturday. I saw this notice in a screenshot. Faris: Can you show the top of the notice? The image ends just above the date. Alina: The full picture says maintenance was scheduled for August.\n\nFaris: Our visit is in October. We need the current notice, not just the word 'Saturday.' Alina opens the pool's notice page and finds no closure for their planned date. She also checks the normal opening hours before correcting the group message.\n\nThe old screenshot was genuine, but it described another period. Alina adds the relevant date and a link to the current notice page when sharing the correction. She learns that checking whether a message is real is only part of checking whether it applies. A true statement from an earlier month can still produce a wrong decision when its time limit has been cut away.",
+      "title": "One Screenshot, Two Different Months",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "I saw this notice in a screenshot.",
+          "meaning": "螢幕截圖",
+          "word": "screenshot"
+        },
+        {
+          "example": "Alina: The full picture says maintenance was scheduled for August.",
+          "meaning": "維護",
+          "word": "maintenance"
+        },
+        {
+          "example": "We need the current notice, not just the word 'Saturday.",
+          "meaning": "目前的",
+          "word": "current"
+        },
+        {
+          "example": "The old screenshot was genuine, but it described another period.",
+          "meaning": "真實的",
+          "word": "genuine"
+        },
+        {
+          "example": "She learns that checking whether a message is real is only part of checking whether it applies.",
+          "meaning": "適用",
+          "word": "applies"
+        }
+      ]
+    }
+  ]
+}

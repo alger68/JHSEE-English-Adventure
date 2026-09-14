@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-23",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 234,
+      "goal": "整合練習時段、作答規則與批改流程。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "發放",
+          "phrase": "handed out"
+        },
+        {
+          "meaning": "原始分數",
+          "phrase": "raw score"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "PRACTICE PAPER EVENING: This school activity uses an original practice set, not an official examination paper. The reading period runs from 4:00 to 4:25, followed by ten minutes for checking evidence without the answer key. Group discussion begins at 4:35.",
+          "explanation": "公告閱讀時段為四點到四點二十五。",
+          "id": "d234-q1",
+          "options": [
+            "4:25.",
+            "4:45.",
+            "4:35.",
+            "4:00."
+          ],
+          "prompt": "When does the reading period end?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Work independently during both initial periods. You may change an answer while checking evidence, but mark the change so you can compare your first reasoning with your later reasoning. The answer key will be handed out only when discussion begins.",
+          "explanation": "答案於 4:35 討論開始才發。",
+          "id": "d234-q2",
+          "options": [
+            "When discussion begins.",
+            "Whenever a late student arrives.",
+            "At the start of reading.",
+            "Before anyone answers."
+          ],
+          "prompt": "When is the answer key provided?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Work independently during both initial periods. You may change an answer while checking evidence, but mark the change so you can compare your first reasoning with your later reasoning. The answer key will be handed out only when discussion begins.",
+          "explanation": "標記修改讓學生比較前後依據。",
+          "id": "d234-q3",
+          "options": [
+            "To compare earlier and later reasoning.",
+            "To forbid all corrections.",
+            "To hide the first response.",
+            "To earn automatic extra points."
+          ],
+          "prompt": "Why mark an answer change?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Work independently during both initial periods. You may change an answer while checking evidence, but mark the change so you can compare your first reasoning with your later reasoning. The answer key will be handed out only when discussion begins.",
+          "explanation": "最初兩階段指閱讀與查證時段。",
+          "id": "d234-q4",
+          "options": [
+            "At the beginning.",
+            "Repeated next week.",
+            "Officially graded.",
+            "After every discussion."
+          ],
+          "prompt": "What does 'initial' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "PRACTICE PAPER EVENING: This school activity uses an original practice set, not an official examination paper. The reading period runs from 4:00 to 4:25, followed by ten minutes for checking evidence without the answer key. Group discussion begins at 4:35.\n\nWork independently during both initial periods. You may change an answer while checking evidence, but mark the change so you can compare your first reasoning with your later reasoning. The answer key will be handed out only when discussion begins.\n\nBring a pencil and your reading notes. Notes stay closed during the timed periods and may be opened during discussion. If you arrive late, finish when everyone else finishes; no extra individual time is added. This activity is for finding useful next steps in practice. Its raw score is not an official exam level or a prediction of one.",
+          "explanation": "公告允許討論時開筆記，前兩階段須獨立。",
+          "id": "d234-q5",
+          "options": [
+            "Compare answers with a partner before 4:35.",
+            "Open notes throughout the reading period.",
+            "Give late arrivals extra individual time.",
+            "Keep notes closed during timed work and open them during discussion."
+          ],
+          "prompt": "Which action follows the rules?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Bring a pencil and your reading notes. Notes stay closed during the timed periods and may be opened during discussion. If you arrive late, finish when everyone else finishes; no extra individual time is added. This activity is for finding useful next steps in practice. Its raw score is not an official exam level or a prediction of one.",
+          "explanation": "原始分數協助找下一步，不等於正式級分或預測。",
+          "id": "d234-q6",
+          "options": [
+            "Helping identify future practice needs.",
+            "Declaring an official exam level.",
+            "Predicting a guaranteed future score.",
+            "Replacing all evidence review."
+          ],
+          "prompt": "What can the practice score be used for according to the notice?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "PRACTICE PAPER EVENING: This school activity uses an original practice set, not an official examination paper. The reading period runs from 4:00 to 4:25, followed by ten minutes for checking evidence without the answer key. Group discussion begins at 4:35.\n\nWork independently during both initial periods. You may change an answer while checking evidence, but mark the change so you can compare your first reasoning with your later reasoning. The answer key will be handed out only when discussion begins.\n\nBring a pencil and your reading notes. Notes stay closed during the timed periods and may be opened during discussion. If you arrive late, finish when everyone else finishes; no extra individual time is added. This activity is for finding useful next steps in practice. Its raw score is not an official exam level or a prediction of one.",
+      "title": "Practice Paper Evening: Read This First",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "Work independently during both initial periods.",
+          "meaning": "獨立地",
+          "word": "independently"
+        },
+        {
+          "example": "Work independently during both initial periods.",
+          "meaning": "最初的",
+          "word": "initial"
+        },
+        {
+          "example": "You may change an answer while checking evidence, but mark the change so you can compare your first reasoning with your later reasoning.",
+          "meaning": "推理",
+          "word": "reasoning"
+        },
+        {
+          "example": "If you arrive late, finish when everyone else finishes; no extra individual time is added.",
+          "meaning": "個別的",
+          "word": "individual"
+        },
+        {
+          "example": "Its raw score is not an official exam level or a prediction of one.",
+          "meaning": "預測",
+          "word": "prediction"
+        }
+      ]
+    }
+  ]
+}

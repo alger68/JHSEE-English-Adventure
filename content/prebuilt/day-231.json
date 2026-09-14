@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-20",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 231,
+      "goal": "理解人物目標的改變，依結尾行動推論主旨。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "同時符合",
+          "phrase": "fits both"
+        },
+        {
+          "meaning": "經允許",
+          "phrase": "with permission"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "Before visiting a craft market, Anya promises herself she will buy something special. She walks past stalls of cups, cloth bags, and wooden toys, but nothing fits both her budget and a real use at home. She starts to feel that leaving empty-handed would make the trip a failure.",
+          "explanation": "她未找到同時符合預算及實際用途的物品。",
+          "id": "d231-q1",
+          "options": [
+            "Nothing fits both her budget and a real use.",
+            "The market forbids purchases.",
+            "She forgot that she planned to buy something.",
+            "Every stall is closed."
+          ],
+          "prompt": "Why doesn't Anya buy from the earlier stalls?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "At the last stall, a maker demonstrates how a flat strip becomes a woven handle. Anya asks several questions and watches closely. The maker lets her practice with spare paper strips, and she takes a photograph of her sample with permission.",
+          "explanation": "攤主示範扁條如何編成提把。",
+          "id": "d231-q2",
+          "options": [
+            "How to repair a camera.",
+            "How to weave a handle from a strip.",
+            "How to carve all wooden toys.",
+            "How to price every stall."
+          ],
+          "prompt": "What does the maker show her?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Before visiting a craft market, Anya promises herself she will buy something special. She walks past stalls of cups, cloth bags, and wooden toys, but nothing fits both her budget and a real use at home. She starts to feel that leaving empty-handed would make the trip a failure.",
+          "explanation": "她原先以完成購物作為成功標準。",
+          "id": "d231-q3",
+          "options": [
+            "She has already learned too many skills.",
+            "The maker refuses to speak.",
+            "She cannot remember her home.",
+            "She defines the trip's success as buying something."
+          ],
+          "prompt": "Why does Anya initially call leaving empty-handed a failure?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "On the way home, Anya realizes she has a new idea to try with paper already in her drawer. She bought no object, yet the visit gave her a skill and a conversation she enjoyed. Her original plan measured success by a purchase. The actual experience offers another measure: something learned that she wants to explore again.",
+          "explanation": "末段以購買對比學習收穫。",
+          "id": "d231-q4",
+          "options": [
+            "Something bought or the act of buying.",
+            "A spare paper strip given for practice.",
+            "A photograph taken with permission.",
+            "A skill learned through questions."
+          ],
+          "prompt": "What does 'purchase' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "On the way home, Anya realizes she has a new idea to try with paper already in her drawer. She bought no object, yet the visit gave her a skill and a conversation she enjoyed. Her original plan measured success by a purchase. The actual experience offers another measure: something learned that she wants to explore again.",
+          "explanation": "她獲得技能與想法，可用家中材料再練。",
+          "id": "d231-q5",
+          "options": [
+            "She proves all souvenirs are useless.",
+            "She secretly takes a market item.",
+            "She gains an idea she can practice with existing materials.",
+            "She spends more than her budget."
+          ],
+          "prompt": "What makes the visit useful despite no purchase?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Before visiting a craft market, Anya promises herself she will buy something special. She walks past stalls of cups, cloth bags, and wooden toys, but nothing fits both her budget and a real use at home. She starts to feel that leaving empty-handed would make the trip a failure.\n\nAt the last stall, a maker demonstrates how a flat strip becomes a woven handle. Anya asks several questions and watches closely. The maker lets her practice with spare paper strips, and she takes a photograph of her sample with permission.\n\nOn the way home, Anya realizes she has a new idea to try with paper already in her drawer. She bought no object, yet the visit gave her a skill and a conversation she enjoyed. Her original plan measured success by a purchase. The actual experience offers another measure: something learned that she wants to explore again.",
+          "explanation": "實際收穫可能是原購物目標之外的學習與交流。",
+          "id": "d231-q6",
+          "options": [
+            "Every visitor should avoid spending money.",
+            "Learning a skill requires owning an expensive object.",
+            "A trip is successful only when something is bought.",
+            "An experience can be valuable in a way different from the original goal."
+          ],
+          "prompt": "Which theme best fits the story?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Before visiting a craft market, Anya promises herself she will buy something special. She walks past stalls of cups, cloth bags, and wooden toys, but nothing fits both her budget and a real use at home. She starts to feel that leaving empty-handed would make the trip a failure.\n\nAt the last stall, a maker demonstrates how a flat strip becomes a woven handle. Anya asks several questions and watches closely. The maker lets her practice with spare paper strips, and she takes a photograph of her sample with permission.\n\nOn the way home, Anya realizes she has a new idea to try with paper already in her drawer. She bought no object, yet the visit gave her a skill and a conversation she enjoyed. Her original plan measured success by a purchase. The actual experience offers another measure: something learned that she wants to explore again.",
+      "title": "The Return Trip without a Souvenir",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "She walks past stalls of cups, cloth bags, and wooden toys, but nothing fits both her budget and a real use at home.",
+          "meaning": "攤位",
+          "word": "stalls"
+        },
+        {
+          "example": "She starts to feel that leaving empty-handed would make the trip a failure.",
+          "meaning": "空手地",
+          "word": "empty-handed"
+        },
+        {
+          "example": "At the last stall, a maker demonstrates how a flat strip becomes a woven handle.",
+          "meaning": "示範",
+          "word": "demonstrates"
+        },
+        {
+          "example": "At the last stall, a maker demonstrates how a flat strip becomes a woven handle.",
+          "meaning": "編織的",
+          "word": "woven"
+        },
+        {
+          "example": "Her original plan measured success by a purchase.",
+          "meaning": "購買",
+          "word": "purchase"
+        }
+      ]
+    }
+  ]
+}

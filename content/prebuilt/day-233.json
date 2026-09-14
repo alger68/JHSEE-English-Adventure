@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-22",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 233,
+      "goal": "比較信心與正確性，從回饋辨識需要重查的判斷。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "有把握的",
+          "phrase": "felt sure about"
+        },
+        {
+          "meaning": "碰巧是",
+          "phrase": "happened to be"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "In a fictional practice lesson, students answer six reading questions and mark each answer 'sure,' 'unsure,' or 'guess.' They check the answers only after finishing. The confidence marks do not change their scores; they provide another way to inspect the result.",
+          "explanation": "首段明示信心標記不改分數。",
+          "id": "d233-q1",
+          "options": [
+            "No.",
+            "Yes, sure answers count twice.",
+            "Unsure answers are removed.",
+            "Only guesses earn points."
+          ],
+          "prompt": "Do confidence marks change the scores?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Yani gets four questions right. Two were answers she felt sure about, one was unsure, and one was a guess. Of her two wrong answers, one had been marked sure. She is surprised because strong confidence had felt like proof.",
+          "explanation": "第二段記錄答對四題。",
+          "id": "d233-q2",
+          "options": [
+            "Three.",
+            "Four.",
+            "Two.",
+            "Six."
+          ],
+          "prompt": "How many of Yani's six answers are correct?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Yani gets four questions right. Two were answers she felt sure about, one was unsure, and one was a guess. Of her two wrong answers, one had been marked sure. She is surprised because strong confidence had felt like proof.",
+          "explanation": "Yani 原先將有把握等同正確依據。",
+          "id": "d233-q3",
+          "options": [
+            "She had marked every answer as a guess.",
+            "The score counted confidence instead of accuracy.",
+            "She had treated strong confidence like proof.",
+            "She never read the passage."
+          ],
+          "prompt": "Why does the confidently wrong answer surprise her?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The teacher asks Yani to compare her reasons with the passage. She finds that the confidently wrong answer used a familiar word but reversed a condition. She also explains why the guessed answer happened to be correct. The exercise does not label confidence as useless. It helps Yani notice when confidence needs checking and when a correct letter still hides incomplete understanding.",
+          "explanation": "錯選項把條件關係顛倒了。",
+          "id": "d233-q4",
+          "options": [
+            "Changed to the opposite relationship.",
+            "Added a correct explanation.",
+            "Removed every difficult word.",
+            "Repeated exactly."
+          ],
+          "prompt": "What does 'reversed' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The teacher asks Yani to compare her reasons with the passage. She finds that the confidently wrong answer used a familiar word but reversed a condition. She also explains why the guessed answer happened to be correct. The exercise does not label confidence as useless. It helps Yani notice when confidence needs checking and when a correct letter still hides incomplete understanding.",
+          "explanation": "猜對仍可能不懂，需要確認能否說明理由。",
+          "id": "d233-q5",
+          "options": [
+            "Confidence marks invalidate the result.",
+            "A correct answer contains no evidence.",
+            "Guessed answers must always be changed.",
+            "The correct choice may not yet reflect understanding."
+          ],
+          "prompt": "Why review a guessed answer even when it is correct?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "In a fictional practice lesson, students answer six reading questions and mark each answer 'sure,' 'unsure,' or 'guess.' They check the answers only after finishing. The confidence marks do not change their scores; they provide another way to inspect the result.\n\nYani gets four questions right. Two were answers she felt sure about, one was unsure, and one was a guess. Of her two wrong answers, one had been marked sure. She is surprised because strong confidence had felt like proof.\n\nThe teacher asks Yani to compare her reasons with the passage. She finds that the confidently wrong answer used a familiar word but reversed a condition. She also explains why the guessed answer happened to be correct. The exercise does not label confidence as useless. It helps Yani notice when confidence needs checking and when a correct letter still hides incomplete understanding.",
+          "explanation": "同看信心與結果，可找出高信心錯誤及猜對但未懂。",
+          "id": "d233-q6",
+          "options": [
+            "To replace evidence with feelings.",
+            "To identify reasoning that needs checking beyond the score.",
+            "To award a higher grade for certainty.",
+            "To prove confident answers are always wrong."
+          ],
+          "prompt": "What is the purpose of comparing confidence and results?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a fictional practice lesson, students answer six reading questions and mark each answer 'sure,' 'unsure,' or 'guess.' They check the answers only after finishing. The confidence marks do not change their scores; they provide another way to inspect the result.\n\nYani gets four questions right. Two were answers she felt sure about, one was unsure, and one was a guess. Of her two wrong answers, one had been marked sure. She is surprised because strong confidence had felt like proof.\n\nThe teacher asks Yani to compare her reasons with the passage. She finds that the confidently wrong answer used a familiar word but reversed a condition. She also explains why the guessed answer happened to be correct. The exercise does not label confidence as useless. It helps Yani notice when confidence needs checking and when a correct letter still hides incomplete understanding.",
+      "title": "The Confidence Box beside the Answer",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "The confidence marks do not change their scores; they provide another way to inspect the result.",
+          "meaning": "信心",
+          "word": "confidence"
+        },
+        {
+          "example": "The confidence marks do not change their scores; they provide another way to inspect the result.",
+          "meaning": "檢查",
+          "word": "inspect"
+        },
+        {
+          "example": "She finds that the confidently wrong answer used a familiar word but reversed a condition.",
+          "meaning": "顛倒",
+          "word": "reversed"
+        },
+        {
+          "example": "She finds that the confidently wrong answer used a familiar word but reversed a condition.",
+          "meaning": "條件",
+          "word": "condition"
+        },
+        {
+          "example": "It helps Yani notice when confidence needs checking and when a correct letter still hides incomplete understanding.",
+          "meaning": "不完整的",
+          "word": "incomplete"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-27",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 238,
+      "goal": "從行動順序推論目標拆分如何影響人物行為。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "前一晚",
+          "phrase": "the night before"
+        },
+        {
+          "meaning": "從哪裡開始",
+          "phrase": "where to begin"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "Sam keeps writing 'Improve my English' at the top of his weekend list. The phrase feels important, but when Saturday arrives he cannot decide where to begin. He opens several books, changes his mind, and spends more time choosing than reading.",
+          "explanation": "大目標太籠統，使他忙於選材料而未開始。",
+          "id": "d238-q1",
+          "options": [
+            "He cannot find any books.",
+            "He has no interest in improving.",
+            "He cannot identify a starting action.",
+            "He has already completed every skill."
+          ],
+          "prompt": "What difficulty does Sam have with his original goal?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "This week, he writes a smaller action: read one short passage and explain why one tempting wrong option is wrong. He puts the passage and a pencil on his desk the night before. The task has a visible starting point and a clear ending.",
+          "explanation": "新目標是短文加一題誘答錯因解釋。",
+          "id": "d238-q2",
+          "options": [
+            "Memorize all possible answers.",
+            "Read a short passage and explain one tempting wrong option.",
+            "Finish every English book on Saturday.",
+            "Predict an official exam level."
+          ],
+          "prompt": "What specific task does he set?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "This week, he writes a smaller action: read one short passage and explain why one tempting wrong option is wrong. He puts the passage and a pencil on his desk the night before. The task has a visible starting point and a clear ending.",
+          "explanation": "準備材料讓起點具體並減少開始前決策。",
+          "id": "d238-q3",
+          "options": [
+            "To make starting the chosen task easier.",
+            "To prove the answer is correct.",
+            "To remove the need for an ending.",
+            "To stop all later reading."
+          ],
+          "prompt": "Why put the passage and pencil out the night before?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "This week, he writes a smaller action: read one short passage and explain why one tempting wrong option is wrong. He puts the passage and a pencil on his desk the night before. The task has a visible starting point and a clear ending.",
+          "explanation": "tempting wrong option 是容易讓人想選的誘答。",
+          "id": "d238-q4",
+          "options": [
+            "Attractive enough to seem worth choosing.",
+            "Clearly unrelated to the passage.",
+            "Already proven correct.",
+            "Required by the teacher."
+          ],
+          "prompt": "What does 'tempting' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "After finishing, Sam chooses whether to continue. Sometimes he reads another passage; sometimes he stops and returns later. The smaller task does not cover every English skill or guarantee a particular result. It helps him turn a broad wish into an action he can repeat. By Sunday, he has something more useful than a large unchecked promise: a record of several completed, explained attempts.",
+          "explanation": "縮小任務使行動可重複，未宣稱涵蓋全部技能或保證成績。",
+          "id": "d238-q5",
+          "options": [
+            "It replaces every other skill forever.",
+            "It guarantees complete mastery of English.",
+            "It makes a broad goal repeatable through a defined action.",
+            "It ensures Sam always reads two passages."
+          ],
+          "prompt": "What does the smaller task accomplish without claiming too much?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Sam keeps writing 'Improve my English' at the top of his weekend list. The phrase feels important, but when Saturday arrives he cannot decide where to begin. He opens several books, changes his mind, and spends more time choosing than reading.\n\nThis week, he writes a smaller action: read one short passage and explain why one tempting wrong option is wrong. He puts the passage and a pencil on his desk the night before. The task has a visible starting point and a clear ending.\n\nAfter finishing, Sam chooses whether to continue. Sometimes he reads another passage; sometimes he stops and returns later. The smaller task does not cover every English skill or guarantee a particular result. It helps him turn a broad wish into an action he can repeat. By Sunday, he has something more useful than a large unchecked promise: a record of several completed, explained attempts.",
+          "explanation": "故事從籠統願望轉成可開始及完成的練習。",
+          "id": "d238-q6",
+          "options": [
+            "An unclear ambition becomes a concrete, completed practice.",
+            "A small task becomes an impossible promise.",
+            "A perfect result is required before starting.",
+            "Choosing more books always leads to more reading."
+          ],
+          "prompt": "What contrast drives the story?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Sam keeps writing 'Improve my English' at the top of his weekend list. The phrase feels important, but when Saturday arrives he cannot decide where to begin. He opens several books, changes his mind, and spends more time choosing than reading.\n\nThis week, he writes a smaller action: read one short passage and explain why one tempting wrong option is wrong. He puts the passage and a pencil on his desk the night before. The task has a visible starting point and a clear ending.\n\nAfter finishing, Sam chooses whether to continue. Sometimes he reads another passage; sometimes he stops and returns later. The smaller task does not cover every English skill or guarantee a particular result. It helps him turn a broad wish into an action he can repeat. By Sunday, he has something more useful than a large unchecked promise: a record of several completed, explained attempts.",
+      "title": "The Small Task That Finally Started",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "This week, he writes a smaller action: read one short passage and explain why one tempting wrong option is wrong.",
+          "meaning": "誘人的",
+          "word": "tempting"
+        },
+        {
+          "example": "The task has a visible starting point and a clear ending.",
+          "meaning": "明確可見的",
+          "word": "visible"
+        },
+        {
+          "example": "It helps him turn a broad wish into an action he can repeat.",
+          "meaning": "廣泛的",
+          "word": "broad"
+        },
+        {
+          "example": "It helps him turn a broad wish into an action he can repeat.",
+          "meaning": "重複",
+          "word": "repeat"
+        },
+        {
+          "example": "By Sunday, he has something more useful than a large unchecked promise: a record of several completed, explained attempts.",
+          "meaning": "嘗試",
+          "word": "attempts"
+        }
+      ]
+    }
+  ]
+}

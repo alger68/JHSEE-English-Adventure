@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-18",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 229,
+      "goal": "複習來源適用性、影像可讀性與交通方向條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "證據的一部分",
+          "phrase": "part of the evidence"
+        },
+        {
+          "meaning": "足夠時間",
+          "phrase": "enough time"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "The genuine screenshot describes August maintenance, so Kira does not use it to decide an October visit. The enlarged sign remains unreadable, so she describes visible features without inventing a quotation. More confidence would not add the missing information.",
+          "explanation": "舊公告可能真實，但適用月份不同。",
+          "id": "d229-q1",
+          "options": [
+            "It concerns August maintenance.",
+            "October has no dates.",
+            "It contains no real information.",
+            "It is necessarily fabricated."
+          ],
+          "prompt": "Why doesn't Kira use the old screenshot for October?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The genuine screenshot describes August maintenance, so Kira does not use it to decide an October visit. The enlarged sign remains unreadable, so she describes visible features without inventing a quotation. More confidence would not add the missing information.",
+          "explanation": "放大仍不能讀，就缺乏逐字引用依據。",
+          "id": "d229-q2",
+          "options": [
+            "The letters remain unclear.",
+            "The sign has no visible features.",
+            "Confidence automatically supplies missing letters.",
+            "Larger images may never be described."
+          ],
+          "prompt": "Why avoid quoting the enlarged sign?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "For the bus trip, Kira reads the direction above the time and checks both the walking route and fare note. A workable return plan uses the park-to-station departure and the east entrance, with enough time to arrive. She writes one final reminder: headings, dates, and small notes are part of the evidence. Ignoring them can turn a correct number into the wrong answer.",
+          "explanation": "回程必須配對離園往車站方向。",
+          "id": "d229-q3",
+          "options": [
+            "The weekday route regardless of date.",
+            "Station to park.",
+            "Either direction at the largest time.",
+            "Park to station."
+          ],
+          "prompt": "Which bus direction is needed to return from the park?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For the bus trip, Kira reads the direction above the time and checks both the walking route and fare note. A workable return plan uses the park-to-station departure and the east entrance, with enough time to arrive. She writes one final reminder: headings, dates, and small notes are part of the evidence. Ignoring them can turn a correct number into the wrong answer.",
+          "explanation": "接駁公告中的 fare 是搭乘費。",
+          "id": "d229-q4",
+          "options": [
+            "A path through a park.",
+            "A picture's resolution.",
+            "A transport charge.",
+            "A date heading."
+          ],
+          "prompt": "What does 'fare' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Kira's review words are genuine, unreadable, direction, fare, and workable. Her cards contain a real old screenshot, an enlarged blurry sign, and a festival bus poster. Each looks useful until she asks what decision its evidence can support.\n\nThe genuine screenshot describes August maintenance, so Kira does not use it to decide an October visit. The enlarged sign remains unreadable, so she describes visible features without inventing a quotation. More confidence would not add the missing information.\n\nFor the bus trip, Kira reads the direction above the time and checks both the walking route and fare note. A workable return plan uses the park-to-station departure and the east entrance, with enough time to arrive. She writes one final reminder: headings, dates, and small notes are part of the evidence. Ignoring them can turn a correct number into the wrong answer.",
+          "explanation": "數字可能正確，卻不適用此方向或日期。",
+          "id": "d229-q5",
+          "options": [
+            "Walking routes never affect timing.",
+            "All bus posters use identical schedules.",
+            "It may belong to the wrong direction or date.",
+            "A correct number is always false when printed largely."
+          ],
+          "prompt": "How can a correct time still lead to a wrong plan?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Kira's review words are genuine, unreadable, direction, fare, and workable. Her cards contain a real old screenshot, an enlarged blurry sign, and a festival bus poster. Each looks useful until she asks what decision its evidence can support.\n\nThe genuine screenshot describes August maintenance, so Kira does not use it to decide an October visit. The enlarged sign remains unreadable, so she describes visible features without inventing a quotation. More confidence would not add the missing information.\n\nFor the bus trip, Kira reads the direction above the time and checks both the walking route and fare note. A workable return plan uses the park-to-station departure and the east entrance, with enough time to arrive. She writes one final reminder: headings, dates, and small notes are part of the evidence. Ignoring them can turn a correct number into the wrong answer.",
+          "explanation": "需連同日期、可讀程度與附註來判斷證據可支持的範圍。",
+          "id": "d229-q6",
+          "options": [
+            "Choosing the largest visible number.",
+            "Checking what the source actually supports in context.",
+            "Accepting attractive presentation as complete evidence.",
+            "Replacing uncertainty with confident wording."
+          ],
+          "prompt": "What do all three tasks require?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Kira's review words are genuine, unreadable, direction, fare, and workable. Her cards contain a real old screenshot, an enlarged blurry sign, and a festival bus poster. Each looks useful until she asks what decision its evidence can support.\n\nThe genuine screenshot describes August maintenance, so Kira does not use it to decide an October visit. The enlarged sign remains unreadable, so she describes visible features without inventing a quotation. More confidence would not add the missing information.\n\nFor the bus trip, Kira reads the direction above the time and checks both the walking route and fare note. A workable return plan uses the park-to-station departure and the east entrance, with enough time to arrive. She writes one final reminder: headings, dates, and small notes are part of the evidence. Ignoring them can turn a correct number into the wrong answer.",
+      "title": "The Date Above the Large Number",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "Kira's review words are genuine, unreadable, direction, fare, and workable.",
+          "meaning": "真實的",
+          "word": "genuine"
+        },
+        {
+          "example": "Kira's review words are genuine, unreadable, direction, fare, and workable.",
+          "meaning": "無法辨讀的",
+          "word": "unreadable"
+        },
+        {
+          "example": "Kira's review words are genuine, unreadable, direction, fare, and workable.",
+          "meaning": "方向",
+          "word": "direction"
+        },
+        {
+          "example": "Kira's review words are genuine, unreadable, direction, fare, and workable.",
+          "meaning": "車資",
+          "word": "fare"
+        },
+        {
+          "example": "Kira's review words are genuine, unreadable, direction, fare, and workable.",
+          "meaning": "可行的",
+          "word": "workable"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-21",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 232,
+      "goal": "辨識同一句完成回報在不同任務中的指涉。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "繼續往下",
+          "phrase": "moving forward"
+        },
+        {
+          "meaning": "而非",
+          "phrase": "instead of"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "[Study chat] Mara: Is everyone finished with the practice passage? Ken: Finished! Mara: Great, let's compare answers. Ken: I meant I finished reading it. I haven't answered the questions yet. Lio: I answered them, but I haven't checked the evidence.",
+          "explanation": "Ken 的 finished 只指讀完文章。",
+          "id": "d232-q1",
+          "options": [
+            "Checking every answer's evidence.",
+            "Reading the passage.",
+            "Answering every question.",
+            "Leading the discussion."
+          ],
+          "prompt": "What had Ken finished at first?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Study chat] Mara: Is everyone finished with the practice passage? Ken: Finished! Mara: Great, let's compare answers. Ken: I meant I finished reading it. I haven't answered the questions yet. Lio: I answered them, but I haven't checked the evidence.",
+          "explanation": "Lio 已答題，尚未找證據。",
+          "id": "d232-q2",
+          "options": [
+            "Answered the questions.",
+            "Joined the chat.",
+            "Read any of the passage.",
+            "Checked the evidence."
+          ],
+          "prompt": "What had Lio not yet done?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Mara realizes that the group has been using one word for three steps. She writes a short checklist: read the passage, answer independently, then mark evidence before discussing. Members report their step number instead of simply saying 'done.'",
+          "explanation": "同一 done 指涉不一，步驟編號讓狀態明確。",
+          "id": "d232-q3",
+          "options": [
+            "To make clear which task is complete.",
+            "To avoid reading the passage.",
+            "To remove independent work.",
+            "To rank students by speed."
+          ],
+          "prompt": "Why report step numbers?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Mara realizes that the group has been using one word for three steps. She writes a short checklist: read the passage, answer independently, then mark evidence before discussing. Members report their step number instead of simply saying 'done.'",
+          "explanation": "先自行作答，避免複製別人答案。",
+          "id": "d232-q4",
+          "options": [
+            "At exactly the same speed.",
+            "Without reading any evidence.",
+            "Only after group discussion.",
+            "Without relying on another person's answers."
+          ],
+          "prompt": "What does 'independently' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Ken takes a few more minutes, and Lio returns to the relevant paragraphs. When the discussion begins, each person can explain a choice without first copying someone else's answer. The group has not changed the passage or added more questions. It has made the meaning of completion visible, so moving forward depends on a shared task definition rather than an enthusiastic but unclear reply.",
+          "explanation": "先完成個人證據整理，再討論才有自己的依據。",
+          "id": "d232-q5",
+          "options": [
+            "Students can explain their own reasoning rather than start by copying.",
+            "Every marked sentence guarantees a correct choice.",
+            "More questions must be invented first.",
+            "Discussion is forbidden after reading."
+          ],
+          "prompt": "Why wait until evidence is marked before comparing answers?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "[Study chat] Mara: Is everyone finished with the practice passage? Ken: Finished! Mara: Great, let's compare answers. Ken: I meant I finished reading it. I haven't answered the questions yet. Lio: I answered them, but I haven't checked the evidence.\n\nMara realizes that the group has been using one word for three steps. She writes a short checklist: read the passage, answer independently, then mark evidence before discussing. Members report their step number instead of simply saying 'done.'\n\nKen takes a few more minutes, and Lio returns to the relevant paragraphs. When the discussion begins, each person can explain a choice without first copying someone else's answer. The group has not changed the passage or added more questions. It has made the meaning of completion visible, so moving forward depends on a shared task definition rather than an enthusiastic but unclear reply.",
+          "explanation": "統一完成的任務定義，避免誤以為大家已到同一步。",
+          "id": "d232-q6",
+          "options": [
+            "A lack of questions in the passage.",
+            "The need to read at identical speeds.",
+            "Different meanings of 'finished' within a shared activity.",
+            "Students' inability to count paragraphs."
+          ],
+          "prompt": "What problem does the checklist solve?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Study chat] Mara: Is everyone finished with the practice passage? Ken: Finished! Mara: Great, let's compare answers. Ken: I meant I finished reading it. I haven't answered the questions yet. Lio: I answered them, but I haven't checked the evidence.\n\nMara realizes that the group has been using one word for three steps. She writes a short checklist: read the passage, answer independently, then mark evidence before discussing. Members report their step number instead of simply saying 'done.'\n\nKen takes a few more minutes, and Lio returns to the relevant paragraphs. When the discussion begins, each person can explain a choice without first copying someone else's answer. The group has not changed the passage or added more questions. It has made the meaning of completion visible, so moving forward depends on a shared task definition rather than an enthusiastic but unclear reply.",
+      "title": "Finished Reading, Finished Answering",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "She writes a short checklist: read the passage, answer independently, then mark evidence before discussing.",
+          "meaning": "獨立地",
+          "word": "independently"
+        },
+        {
+          "example": "She writes a short checklist: read the passage, answer independently, then mark evidence before discussing.",
+          "meaning": "檢查清單",
+          "word": "checklist"
+        },
+        {
+          "example": "Ken takes a few more minutes, and Lio returns to the relevant paragraphs.",
+          "meaning": "相關的",
+          "word": "relevant"
+        },
+        {
+          "example": "It has made the meaning of completion visible, so moving forward depends on a shared task definition rather than an enthusiastic but unclear reply.",
+          "meaning": "完成",
+          "word": "completion"
+        },
+        {
+          "example": "It has made the meaning of completion visible, so moving forward depends on a shared task definition rather than an enthusiastic but unclear reply.",
+          "meaning": "定義",
+          "word": "definition"
+        }
+      ]
+    }
+  ]
+}

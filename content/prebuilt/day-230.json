@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-19",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 230,
+      "goal": "由簡報後的問答推論理解深度與適當回應。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "思考時間",
+          "phrase": "time to think"
+        },
+        {
+          "meaning": "選擇背後",
+          "phrase": "behind his choices"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "Ronan finishes a class presentation and feels relieved when the final slide appears. He has memorized every sentence. Then a classmate asks how his recommendation would change if the budget were smaller. Ronan looks back at the slide, but the exact answer is not written there.",
+          "explanation": "同學問經費減少時如何調整建議。",
+          "id": "d230-q1",
+          "options": [
+            "A different slide color.",
+            "A canceled presentation.",
+            "A larger classroom.",
+            "A smaller budget."
+          ],
+          "prompt": "What new condition does the classmate ask about?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Ronan finishes a class presentation and feels relieved when the final slide appears. He has memorized every sentence. Then a classmate asks how his recommendation would change if the budget were smaller. Ronan looks back at the slide, but the exact answer is not written there.",
+          "explanation": "新限制需要運用理由，不只是重念既有句子。",
+          "id": "d230-q2",
+          "options": [
+            "The screen has broken.",
+            "Every price is already confirmed.",
+            "He never prepared a recommendation.",
+            "The question asks him to apply reasons to a new condition."
+          ],
+          "prompt": "Why can't Ronan simply read his slide to answer?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "His teacher gives him time to think. Ronan identifies the recommendation's purpose and the two costs that mattered most. He says which part he would keep first and which part would need a cheaper alternative. He also names a price he would have to check before deciding.",
+          "explanation": "他指出還需查證的一項價格。",
+          "id": "d230-q3",
+          "options": [
+            "The existence of his final slide.",
+            "A price he still needs to check.",
+            "Whether he gave a presentation.",
+            "Whether classmates may ask questions."
+          ],
+          "prompt": "What uncertainty does Ronan acknowledge?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "His teacher gives him time to think. Ronan identifies the recommendation's purpose and the two costs that mattered most. He says which part he would keep first and which part would need a cheaper alternative. He also names a price he would have to check before deciding.",
+          "explanation": "預算少時某部分需更便宜的替代。",
+          "id": "d230-q4",
+          "options": [
+            "A question nobody may ask.",
+            "A memorized final sentence.",
+            "Another possible way or choice.",
+            "A price already guaranteed."
+          ],
+          "prompt": "What is an 'alternative'?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Ronan finishes a class presentation and feels relieved when the final slide appears. He has memorized every sentence. Then a classmate asks how his recommendation would change if the budget were smaller. Ronan looks back at the slide, but the exact answer is not written there.\n\nHis teacher gives him time to think. Ronan identifies the recommendation's purpose and the two costs that mattered most. He says which part he would keep first and which part would need a cheaper alternative. He also names a price he would have to check before deciding.\n\nThe answer is less smooth than his prepared speech, but it shows how he connects information. After class, Ronan adds a page of possible questions to his notes. He does not try to memorize every imaginable reply. He practices explaining the reasons behind his choices so he can use them when a new condition appears.",
+          "explanation": "能說明優先次序及未知資料，呈現連結與應用。",
+          "id": "d230-q5",
+          "options": [
+            "He refuses the new condition.",
+            "He claims certainty about every unknown price.",
+            "He repeats the slides without change.",
+            "He explains priorities and identifies information needed for a decision."
+          ],
+          "prompt": "Why can the less smooth answer still show understanding?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "The answer is less smooth than his prepared speech, but it shows how he connects information. After class, Ronan adds a page of possible questions to his notes. He does not try to memorize every imaginable reply. He practices explaining the reasons behind his choices so he can use them when a new condition appears.",
+          "explanation": "他轉向練習選擇理由以因應新情境。",
+          "id": "d230-q6",
+          "options": [
+            "Avoid classmates' questions.",
+            "Memorize every possible response word for word.",
+            "Practice reasons so they can be used under changed conditions.",
+            "Use more slides to prevent budget changes."
+          ],
+          "prompt": "What preparation does Ronan adopt?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Ronan finishes a class presentation and feels relieved when the final slide appears. He has memorized every sentence. Then a classmate asks how his recommendation would change if the budget were smaller. Ronan looks back at the slide, but the exact answer is not written there.\n\nHis teacher gives him time to think. Ronan identifies the recommendation's purpose and the two costs that mattered most. He says which part he would keep first and which part would need a cheaper alternative. He also names a price he would have to check before deciding.\n\nThe answer is less smooth than his prepared speech, but it shows how he connects information. After class, Ronan adds a page of possible questions to his notes. He does not try to memorize every imaginable reply. He practices explaining the reasons behind his choices so he can use them when a new condition appears.",
+      "title": "The Question after the Final Slide",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "Ronan finishes a class presentation and feels relieved when the final slide appears.",
+          "meaning": "鬆一口氣的",
+          "word": "relieved"
+        },
+        {
+          "example": "He has memorized every sentence.",
+          "meaning": "背熟了",
+          "word": "memorized"
+        },
+        {
+          "example": "Then a classmate asks how his recommendation would change if the budget were smaller.",
+          "meaning": "建議",
+          "word": "recommendation"
+        },
+        {
+          "example": "He says which part he would keep first and which part would need a cheaper alternative.",
+          "meaning": "替代方案",
+          "word": "alternative"
+        },
+        {
+          "example": "The answer is less smooth than his prepared speech, but it shows how he connects information.",
+          "meaning": "流暢的",
+          "word": "smooth"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-24",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 235,
+      "goal": "整合練習時間線、作答變更與分数解讀限制。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "陳述相反情況",
+          "phrase": "states the opposite"
+        },
+        {
+          "meaning": "未來練習",
+          "phrase": "future practice"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "[Session rules] Reading runs from 4:00 to 4:25. Independent evidence checking runs until 4:35, when the answer key and discussion begin. Notes stay closed until discussion. Late arrivals receive no extra time, and answer changes should be marked.\n\n[Lee's record] Lee arrives at 4:10. On Question 2, he first chooses B because it repeats a familiar word. At 4:30, he changes to D after finding a sentence that states the opposite condition. He marks the change and quotes that sentence.\n\n[Discussion] The key confirms D. Lee explains why B was attractive and why D fits the evidence. His friend says that getting D proves Lee will earn a particular official exam level. The teacher disagrees: this small original practice task cannot establish that.\n\nThe useful result is more specific. Lee identified a weakness in his first method and corrected it with textual support. Both his initial answer and his revision help plan future practice, even though only the final choice is correct.",
+          "explanation": "4:10 到 4:25 有十五分鐘，遲到不補時。",
+          "id": "d235-q1",
+          "options": [
+            "Ten minutes.",
+            "Fifteen minutes.",
+            "Thirty-five minutes.",
+            "Twenty-five minutes."
+          ],
+          "prompt": "How much reading time does Lee have after arriving?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Session rules] Reading runs from 4:00 to 4:25. Independent evidence checking runs until 4:35, when the answer key and discussion begin. Notes stay closed until discussion. Late arrivals receive no extra time, and answer changes should be marked.",
+          "explanation": "規則說討論開始時發答案。",
+          "id": "d235-q2",
+          "options": [
+            "4:35.",
+            "4:30.",
+            "4:25.",
+            "4:10."
+          ],
+          "prompt": "When does the answer key become available?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Lee's record] Lee arrives at 4:10. On Question 2, he first chooses B because it repeats a familiar word. At 4:30, he changes to D after finding a sentence that states the opposite condition. He marks the change and quotes that sentence.",
+          "explanation": "Lee 初選只因熟悉字詞重現。",
+          "id": "d235-q3",
+          "options": [
+            "It repeats a familiar word.",
+            "He has seen the key.",
+            "His teacher tells him B.",
+            "He has already quoted the opposite condition."
+          ],
+          "prompt": "Why does Lee first choose B?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Session rules] Reading runs from 4:00 to 4:25. Independent evidence checking runs until 4:35, when the answer key and discussion begin. Notes stay closed until discussion. Late arrivals receive no extra time, and answer changes should be marked.\n\n[Lee's record] Lee arrives at 4:10. On Question 2, he first chooses B because it repeats a familiar word. At 4:30, he changes to D after finding a sentence that states the opposite condition. He marks the change and quotes that sentence.\n\n[Discussion] The key confirms D. Lee explains why B was attractive and why D fits the evidence. His friend says that getting D proves Lee will earn a particular official exam level. The teacher disagrees: this small original practice task cannot establish that.\n\nThe useful result is more specific. Lee identified a weakness in his first method and corrected it with textual support. Both his initial answer and his revision help plan future practice, even though only the final choice is correct.",
+          "explanation": "4:25–4:35 是可自行查證並修改的階段。",
+          "id": "d235-q4",
+          "options": [
+            "Late arrivals may change rules.",
+            "It occurs during independent evidence checking.",
+            "Notes may always be opened.",
+            "The discussion already began."
+          ],
+          "prompt": "Why is his 4:30 change allowed?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Lee's record] Lee arrives at 4:10. On Question 2, he first chooses B because it repeats a familiar word. At 4:30, he changes to D after finding a sentence that states the opposite condition. He marks the change and quotes that sentence.",
+          "explanation": "他標記改答並引用證據句。",
+          "id": "d235-q5",
+          "options": [
+            "His friend's final answer.",
+            "A predicted official grade.",
+            "An unmarked replacement only.",
+            "A quotation of the supporting sentence."
+          ],
+          "prompt": "What does Lee record with the change?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Discussion] The key confirms D. Lee explains why B was attractive and why D fits the evidence. His friend says that getting D proves Lee will earn a particular official exam level. The teacher disagrees: this small original practice task cannot establish that.",
+          "explanation": "練習範圍不足以推定正式級分。",
+          "id": "d235-q6",
+          "options": [
+            "One small practice result cannot establish an official exam level.",
+            "D is actually wrong.",
+            "Lee arrived before the session.",
+            "Evidence-based changes are forbidden."
+          ],
+          "prompt": "Why does the teacher reject the friend's prediction?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The useful result is more specific. Lee identified a weakness in his first method and corrected it with textual support. Both his initial answer and his revision help plan future practice, even though only the final choice is correct.",
+          "explanation": "textual support 指原文證據支持。",
+          "id": "d235-q7",
+          "options": [
+            "Remembered from a friend's score.",
+            "Coming from the written passage.",
+            "Based only on confidence.",
+            "Supplied by an exam prediction."
+          ],
+          "prompt": "What does 'textual' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Session rules] Reading runs from 4:00 to 4:25. Independent evidence checking runs until 4:35, when the answer key and discussion begin. Notes stay closed until discussion. Late arrivals receive no extra time, and answer changes should be marked.\n\n[Lee's record] Lee arrives at 4:10. On Question 2, he first chooses B because it repeats a familiar word. At 4:30, he changes to D after finding a sentence that states the opposite condition. He marks the change and quotes that sentence.\n\n[Discussion] The key confirms D. Lee explains why B was attractive and why D fits the evidence. His friend says that getting D proves Lee will earn a particular official exam level. The teacher disagrees: this small original practice task cannot establish that.\n\nThe useful result is more specific. Lee identified a weakness in his first method and corrected it with textual support. Both his initial answer and his revision help plan future practice, even though only the final choice is correct.",
+          "explanation": "能解釋舊錯因與新證據，顯示方法上的進步。",
+          "id": "d235-q8",
+          "options": [
+            "He erases every record of B.",
+            "He predicts his future score confidently.",
+            "He explains both the earlier trap and the supporting condition.",
+            "He knows the key before changing."
+          ],
+          "prompt": "What makes Lee's correction informative beyond getting D right?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "[Session rules] Reading runs from 4:00 to 4:25. Independent evidence checking runs until 4:35, when the answer key and discussion begin. Notes stay closed until discussion. Late arrivals receive no extra time, and answer changes should be marked.\n\n[Lee's record] Lee arrives at 4:10. On Question 2, he first chooses B because it repeats a familiar word. At 4:30, he changes to D after finding a sentence that states the opposite condition. He marks the change and quotes that sentence.\n\n[Discussion] The key confirms D. Lee explains why B was attractive and why D fits the evidence. His friend says that getting D proves Lee will earn a particular official exam level. The teacher disagrees: this small original practice task cannot establish that.\n\nThe useful result is more specific. Lee identified a weakness in his first method and corrected it with textual support. Both his initial answer and his revision help plan future practice, even though only the final choice is correct.",
+          "explanation": "弱點是只對字不看關係，後續應練完整語意判讀。",
+          "id": "d235-q9",
+          "options": [
+            "A guaranteed grade from this single item.",
+            "Avoiding every option containing familiar words.",
+            "The identified habit of matching words without checking relationships.",
+            "Ignoring the initial answer because the final one is right."
+          ],
+          "prompt": "What should guide Lee's next practice?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Session rules] Reading runs from 4:00 to 4:25. Independent evidence checking runs until 4:35, when the answer key and discussion begin. Notes stay closed until discussion. Late arrivals receive no extra time, and answer changes should be marked.\n\n[Lee's record] Lee arrives at 4:10. On Question 2, he first chooses B because it repeats a familiar word. At 4:30, he changes to D after finding a sentence that states the opposite condition. He marks the change and quotes that sentence.\n\n[Discussion] The key confirms D. Lee explains why B was attractive and why D fits the evidence. His friend says that getting D proves Lee will earn a particular official exam level. The teacher disagrees: this small original practice task cannot establish that.\n\nThe useful result is more specific. Lee identified a weakness in his first method and corrected it with textual support. Both his initial answer and his revision help plan future practice, even though only the final choice is correct.",
+      "title": "Boss: Two Answers and Two Reasons",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "Both his initial answer and his revision help plan future practice, even though only the final choice is correct.",
+          "meaning": "修訂",
+          "word": "revision"
+        },
+        {
+          "example": "Both his initial answer and his revision help plan future practice, even though only the final choice is correct.",
+          "meaning": "最初的",
+          "word": "initial"
+        },
+        {
+          "example": "Lee explains why B was attractive and why D fits the evidence.",
+          "meaning": "吸引人的",
+          "word": "attractive"
+        },
+        {
+          "example": "His friend says that getting D proves Lee will earn a particular official exam level.",
+          "meaning": "特定的",
+          "word": "particular"
+        },
+        {
+          "example": "Lee identified a weakness in his first method and corrected it with textual support.",
+          "meaning": "文本的",
+          "word": "textual"
+        }
+      ]
+    }
+  ]
+}

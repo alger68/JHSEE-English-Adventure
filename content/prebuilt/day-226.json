@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-15",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 226,
+      "goal": "辨識影像放大與新增證據的差異。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "單靠它本身",
+          "phrase": "by itself"
+        },
+        {
+          "meaning": "較近的視角",
+          "phrase": "closer view"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "In a media lesson, students inspect a small photograph of a distant sign. The letters are unclear. Owen enlarges the image on the screen and says the bigger version should reveal every word, but the letters become larger blocks rather than clearer shapes.",
+          "explanation": "放大後只是較大色塊，未出現清楚字形。",
+          "id": "d226-q1",
+          "options": [
+            "The unclear letters become larger blocks.",
+            "Every letter becomes perfectly clear.",
+            "The sign moves closer in the original scene.",
+            "A new photograph is automatically taken."
+          ],
+          "prompt": "What happens when Owen enlarges the small image?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The teacher explains that this copy contains only the information already recorded in its limited detail. Enlarging the display does not by itself recover letters that cannot be distinguished. A student suggests returning to the original higher-quality photograph or asking the photographer for a closer view.",
+          "explanation": "學生提議取原始高品質照片或近照。",
+          "id": "d226-q2",
+          "options": [
+            "The sign's color alone.",
+            "An original higher-quality image or closer photograph.",
+            "The same copy enlarged endlessly.",
+            "A guessed slogan."
+          ],
+          "prompt": "What source might provide more useful detail?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The class marks the uncertain text as unreadable instead of inventing a likely slogan. They can describe the visible color and position of the sign, but cannot quote its full message confidently. The lesson is about matching claims to the information available. A larger presentation can make existing evidence easier to inspect without necessarily adding new evidence.",
+          "explanation": "字樣無法分辨，不能把猜測當逐字引文。",
+          "id": "d226-q3",
+          "options": [
+            "The teacher forbids every quotation.",
+            "All photographs are unsuitable evidence.",
+            "The available image cannot support a confident reading.",
+            "The sign has no visible position."
+          ],
+          "prompt": "Why does the class avoid quoting the full message?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The class marks the uncertain text as unreadable instead of inventing a likely slogan. They can describe the visible color and position of the sign, but cannot quote its full message confidently. The lesson is about matching claims to the information available. A larger presentation can make existing evidence easier to inspect without necessarily adding new evidence.",
+          "explanation": "字形不清楚，因此無法辨讀。",
+          "id": "d226-q4",
+          "options": [
+            "Deleted from every original.",
+            "Written in unusually large letters.",
+            "Known to be false.",
+            "Not possible to read clearly."
+          ],
+          "prompt": "What does 'unreadable' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The class marks the uncertain text as unreadable instead of inventing a likely slogan. They can describe the visible color and position of the sign, but cannot quote its full message confidently. The lesson is about matching claims to the information available. A larger presentation can make existing evidence easier to inspect without necessarily adding new evidence.",
+          "explanation": "可說明真正可見的顏色與位置，不能補出未知字樣。",
+          "id": "d226-q5",
+          "options": [
+            "An exact slogan inferred from a likely phrase.",
+            "A claim that the larger copy contains new original detail.",
+            "Proof of every unclear letter.",
+            "A description of the sign's visible color and position."
+          ],
+          "prompt": "Which statement is supported by the available photograph?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "In a media lesson, students inspect a small photograph of a distant sign. The letters are unclear. Owen enlarges the image on the screen and says the bigger version should reveal every word, but the letters become larger blocks rather than clearer shapes.\n\nThe teacher explains that this copy contains only the information already recorded in its limited detail. Enlarging the display does not by itself recover letters that cannot be distinguished. A student suggests returning to the original higher-quality photograph or asking the photographer for a closer view.\n\nThe class marks the uncertain text as unreadable instead of inventing a likely slogan. They can describe the visible color and position of the sign, but cannot quote its full message confidently. The lesson is about matching claims to the information available. A larger presentation can make existing evidence easier to inspect without necessarily adding new evidence.",
+          "explanation": "呈現尺寸變大不等於證據內容增加。",
+          "id": "d226-q6",
+          "options": [
+            "A bigger display always proves more.",
+            "Unclear letters may be safely replaced with likely words.",
+            "Making evidence larger differs from obtaining additional information.",
+            "Every small image contains no usable information."
+          ],
+          "prompt": "What distinction does the lesson emphasize?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a media lesson, students inspect a small photograph of a distant sign. The letters are unclear. Owen enlarges the image on the screen and says the bigger version should reveal every word, but the letters become larger blocks rather than clearer shapes.\n\nThe teacher explains that this copy contains only the information already recorded in its limited detail. Enlarging the display does not by itself recover letters that cannot be distinguished. A student suggests returning to the original higher-quality photograph or asking the photographer for a closer view.\n\nThe class marks the uncertain text as unreadable instead of inventing a likely slogan. They can describe the visible color and position of the sign, but cannot quote its full message confidently. The lesson is about matching claims to the information available. A larger presentation can make existing evidence easier to inspect without necessarily adding new evidence.",
+      "title": "A Larger Picture Is Not More Detail",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "In a media lesson, students inspect a small photograph of a distant sign.",
+          "meaning": "仔細查看",
+          "word": "inspect"
+        },
+        {
+          "example": "Owen enlarges the image on the screen and says the bigger version should reveal every word, but the letters become larger blocks rather than clearer shapes.",
+          "meaning": "放大",
+          "word": "enlarges"
+        },
+        {
+          "example": "Enlarging the display does not by itself recover letters that cannot be distinguished.",
+          "meaning": "辨認出",
+          "word": "distinguished"
+        },
+        {
+          "example": "The class marks the uncertain text as unreadable instead of inventing a likely slogan.",
+          "meaning": "無法辨讀的",
+          "word": "unreadable"
+        },
+        {
+          "example": "They can describe the visible color and position of the sign, but cannot quote its full message confidently.",
+          "meaning": "有把握地",
+          "word": "confidently"
+        }
+      ]
+    }
+  ]
+}

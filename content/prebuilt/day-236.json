@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-25",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 236,
+      "goal": "複習完成狀態、信心與修改證據，規劃後續練習。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "替代品",
+          "phrase": "substitute for"
+        },
+        {
+          "meaning": "接下來練習",
+          "phrase": "work on next"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "At review, Dia writes five words beside her practice sheet: completion, confidence, reasoning, revision, and textual. She used to erase every wrong first answer until only a clean page remained. Now she keeps a small mark showing where her thinking changed.",
+          "explanation": "她保留修改記號以追蹤思路變化。",
+          "id": "d236-q1",
+          "options": [
+            "Only a perfectly clean final page.",
+            "An official grade prediction.",
+            "Another student's answers.",
+            "A mark showing where her thinking changed."
+          ],
+          "prompt": "What does Dia now keep on her sheet?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "A correct revision with textual evidence tells her more than a changed letter alone. She compares the first reasoning with the later reasoning and asks whether she misunderstood a condition, ignored a heading, or guessed from a repeated word. Confidence is another clue to inspect, not a substitute for checking.",
+          "explanation": "附理由才能看出修正依據而非只是換答案。",
+          "id": "d236-q2",
+          "options": [
+            "It removes all need for explanation.",
+            "It makes every first answer correct.",
+            "It guarantees no future mistakes.",
+            "It reveals the reason for the correction."
+          ],
+          "prompt": "Why is evidence-backed revision more useful than a new letter alone?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Dia also defines completion carefully. Finishing a passage, answering questions, and explaining evidence are different steps. She chooses one recurring mistake for her next short practice instead of treating the whole subject as a single weakness. Her page looks less perfect, but it gives a clearer picture of what she can work on next.",
+          "explanation": "她挑一種反覆出現的錯誤作為焦點。",
+          "id": "d236-q3",
+          "options": [
+            "One recurring mistake.",
+            "Only the longest passage available.",
+            "The appearance of her handwriting.",
+            "Every subject at once without a focus."
+          ],
+          "prompt": "What does Dia choose for her next practice?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "A correct revision with textual evidence tells her more than a changed letter alone. She compares the first reasoning with the later reasoning and asks whether she misunderstood a condition, ignored a heading, or guessed from a repeated word. Confidence is another clue to inspect, not a substitute for checking.",
+          "explanation": "textual evidence 指文章提供的證據。",
+          "id": "d236-q4",
+          "options": [
+            "Based on a score prediction.",
+            "Expressed only through feelings.",
+            "Copied without understanding from a friend.",
+            "Supported by the written passage."
+          ],
+          "prompt": "What does 'textual' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Dia also defines completion carefully. Finishing a passage, answering questions, and explaining evidence are different steps. She chooses one recurring mistake for her next short practice instead of treating the whole subject as a single weakness. Her page looks less perfect, but it gives a clearer picture of what she can work on next.",
+          "explanation": "不同步驟代表不同完成程度，需要明確區分。",
+          "id": "d236-q5",
+          "options": [
+            "Reading, answering, and explaining do not show the same progress.",
+            "A clean page proves all three steps.",
+            "Explaining evidence is unrelated to reading.",
+            "Every student must finish at the same time."
+          ],
+          "prompt": "Why distinguish three steps of completion?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "At review, Dia writes five words beside her practice sheet: completion, confidence, reasoning, revision, and textual. She used to erase every wrong first answer until only a clean page remained. Now she keeps a small mark showing where her thinking changed.\n\nA correct revision with textual evidence tells her more than a changed letter alone. She compares the first reasoning with the later reasoning and asks whether she misunderstood a condition, ignored a heading, or guessed from a repeated word. Confidence is another clue to inspect, not a substitute for checking.\n\nDia also defines completion carefully. Finishing a passage, answering questions, and explaining evidence are different steps. She chooses one recurring mistake for her next short practice instead of treating the whole subject as a single weakness. Her page looks less perfect, but it gives a clearer picture of what she can work on next.",
+          "explanation": "有思路與錯因痕跡，比表面乾淨更能引導練習。",
+          "id": "d236-q6",
+          "options": [
+            "It proves confidence is always wrong.",
+            "It replaces practice with decoration.",
+            "It makes specific learning needs visible.",
+            "It hides the original mistakes."
+          ],
+          "prompt": "Why is the less perfect-looking page valuable?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At review, Dia writes five words beside her practice sheet: completion, confidence, reasoning, revision, and textual. She used to erase every wrong first answer until only a clean page remained. Now she keeps a small mark showing where her thinking changed.\n\nA correct revision with textual evidence tells her more than a changed letter alone. She compares the first reasoning with the later reasoning and asks whether she misunderstood a condition, ignored a heading, or guessed from a repeated word. Confidence is another clue to inspect, not a substitute for checking.\n\nDia also defines completion carefully. Finishing a passage, answering questions, and explaining evidence are different steps. She chooses one recurring mistake for her next short practice instead of treating the whole subject as a single weakness. Her page looks less perfect, but it gives a clearer picture of what she can work on next.",
+      "title": "Why the First Answer Still Matters",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "At review, Dia writes five words beside her practice sheet: completion, confidence, reasoning, revision, and textual.",
+          "meaning": "完成",
+          "word": "completion"
+        },
+        {
+          "example": "At review, Dia writes five words beside her practice sheet: completion, confidence, reasoning, revision, and textual.",
+          "meaning": "信心",
+          "word": "confidence"
+        },
+        {
+          "example": "At review, Dia writes five words beside her practice sheet: completion, confidence, reasoning, revision, and textual.",
+          "meaning": "推理",
+          "word": "reasoning"
+        },
+        {
+          "example": "At review, Dia writes five words beside her practice sheet: completion, confidence, reasoning, revision, and textual.",
+          "meaning": "修訂",
+          "word": "revision"
+        },
+        {
+          "example": "At review, Dia writes five words beside her practice sheet: completion, confidence, reasoning, revision, and textual.",
+          "meaning": "文本的",
+          "word": "textual"
+        }
+      ]
+    }
+  ]
+}
