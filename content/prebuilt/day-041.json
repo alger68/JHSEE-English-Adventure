@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-12",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 41,
+      "goal": "以人物行動推論需要，避免替他人做決定。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而不是",
+          "phrase": "instead of"
+        },
+        {
+          "meaning": "每次",
+          "phrase": "at a time"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "When a new student joins Class Nine, Max volunteers to welcome her. He plans to introduce Lina to everyone during lunch and asks the class to crowd around her desk. Lina smiles, but she speaks very little and holds her lunchbox tightly.",
+          "explanation": "一開始想午餐時介紹給所有人。",
+          "id": "d41-q1",
+          "options": [
+            "A private tour after Friday's classes.",
+            "A surprise sports competition.",
+            "A large lunchtime introduction.",
+            "A quiet lunch with only the teacher."
+          ],
+          "prompt": "What does Max first plan?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Lina chooses the quiet table near the window. She explains that she wants to learn a few names at a time. Max invites just two classmates and asks them to speak slowly when explaining the school schedule.",
+          "explanation": "Lina 選靠窗的安靜桌子。",
+          "id": "d41-q2",
+          "options": [
+            "Beside the crowded desk.",
+            "At a quiet table near the window.",
+            "Outside the school gate.",
+            "In the teacher's office."
+          ],
+          "prompt": "Where does Lina choose to eat?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Lina chooses the quiet table near the window. She explains that she wants to learn a few names at a time. Max invites just two classmates and asks them to speak slowly when explaining the school schedule.",
+          "explanation": "她自己說想一次認識少數名字，不代表討厭全班。",
+          "id": "d41-q3",
+          "options": [
+            "She must leave school immediately.",
+            "She already knows every classmate.",
+            "She dislikes eating lunch.",
+            "She wants to learn a few names at a time."
+          ],
+          "prompt": "Why does Lina prefer a smaller group at first?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Max thinks she does not like the class. His teacher suggests asking a simple question instead of guessing. During break, Max asks whether Lina would prefer a busy table or a quiet place for her first lunch.",
+          "explanation": "問忙碌餐桌或安靜處，是詢問較喜歡哪個選項。",
+          "id": "d41-q4",
+          "options": [
+            "Like one option better.",
+            "Remember every name.",
+            "Avoid giving an answer.",
+            "Pay for a meal."
+          ],
+          "prompt": "What does 'prefer' mean in Max's question?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "When a new student joins Class Nine, Max volunteers to welcome her. He plans to introduce Lina to everyone during lunch and asks the class to crowd around her desk. Lina smiles, but she speaks very little and holds her lunchbox tightly.\n\nMax thinks she does not like the class. His teacher suggests asking a simple question instead of guessing. During break, Max asks whether Lina would prefer a busy table or a quiet place for her first lunch.\n\nLina chooses the quiet table near the window. She explains that she wants to learn a few names at a time. Max invites just two classmates and asks them to speak slowly when explaining the school schedule.\n\nBy Friday, Lina is eating with a larger group. Max realizes that a warm welcome does not have to be a loud one. Giving someone a choice can help more than planning a surprise for them.",
+          "explanation": "先詢問再依她需求縮小人數。",
+          "id": "d41-q5",
+          "options": [
+            "He asks Lina and limits the first group to two classmates.",
+            "He keeps the full-class crowd and stops speaking.",
+            "He chooses a table without consulting Lina.",
+            "He cancels all introductions until Friday."
+          ],
+          "prompt": "How does Max change his plan?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "When a new student joins Class Nine, Max volunteers to welcome her. He plans to introduce Lina to everyone during lunch and asks the class to crowd around her desk. Lina smiles, but she speaks very little and holds her lunchbox tightly.\n\nMax thinks she does not like the class. His teacher suggests asking a simple question instead of guessing. During break, Max asks whether Lina would prefer a busy table or a quiet place for her first lunch.\n\nLina chooses the quiet table near the window. She explains that she wants to learn a few names at a time. Max invites just two classmates and asks them to speak slowly when explaining the school schedule.\n\nBy Friday, Lina is eating with a larger group. Max realizes that a warm welcome does not have to be a loud one. Giving someone a choice can help more than planning a surprise for them.",
+          "explanation": "重點是透過詢問與選擇尊重對方的需要。",
+          "id": "d41-q6",
+          "options": [
+            "New students always dislike large schools.",
+            "Quiet students should never join groups.",
+            "Surprises are the only way to make friends.",
+            "A welcome works better when it respects someone's needs."
+          ],
+          "prompt": "What is the story mainly about?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "When a new student joins Class Nine, Max volunteers to welcome her. He plans to introduce Lina to everyone during lunch and asks the class to crowd around her desk. Lina smiles, but she speaks very little and holds her lunchbox tightly.\n\nMax thinks she does not like the class. His teacher suggests asking a simple question instead of guessing. During break, Max asks whether Lina would prefer a busy table or a quiet place for her first lunch.\n\nLina chooses the quiet table near the window. She explains that she wants to learn a few names at a time. Max invites just two classmates and asks them to speak slowly when explaining the school schedule.\n\nBy Friday, Lina is eating with a larger group. Max realizes that a warm welcome does not have to be a loud one. Giving someone a choice can help more than planning a surprise for them.",
+      "title": "A Quiet Welcome",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "When a new student joins Class Nine, Max volunteers to welcome her.",
+          "meaning": "自願",
+          "word": "volunteers"
+        },
+        {
+          "example": "During break, Max asks whether Lina would prefer a busy table or a quiet place for her first lunch.",
+          "meaning": "較喜歡",
+          "word": "prefer"
+        },
+        {
+          "example": "During break, Max asks whether Lina would prefer a busy table or a quiet place for her first lunch.",
+          "meaning": "安靜的",
+          "word": "quiet"
+        },
+        {
+          "example": "Max invites just two classmates and asks them to speak slowly when explaining the school schedule.",
+          "meaning": "時間表",
+          "word": "schedule"
+        },
+        {
+          "example": "Giving someone a choice can help more than planning a surprise for them.",
+          "meaning": "選擇",
+          "word": "choice"
+        }
+      ]
+    }
+  ]
+}

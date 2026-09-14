@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-15",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 44,
+      "goal": "以平均與重複測試判讀資料。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "合計為",
+          "phrase": "add up to"
+        },
+        {
+          "meaning": "更接近",
+          "phrase": "closer together"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "During a classroom challenge, two teams fold paper planes from identical sheets. Team Red folds wide wings, while Team Blue folds narrow ones. The same student launches every plane from one marked line inside the gym, where the doors remain closed.",
+          "explanation": "兩組使用相同紙，差別是寬翼與窄翼。",
+          "id": "d44-q1",
+          "options": [
+            "Paper size.",
+            "Wing width.",
+            "The person throwing them.",
+            "Launch location."
+          ],
+          "prompt": "What feature differs between the designs?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Red's plane travels four, six, and five meters in three trials. Blue's travels eight, two, and five meters. A student points to Blue's eight-meter flight and calls it the clear winner. Another student asks to compare all three flights first.",
+          "explanation": "資料中八公尺最長。",
+          "id": "d44-q2",
+          "options": [
+            "Blue's five-meter flight.",
+            "Blue's eight-meter flight.",
+            "Red's four-meter flight.",
+            "Red's six-meter flight."
+          ],
+          "prompt": "Which flight is the longest recorded?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The students write every result on the board, including the shortest flight. For the next test, they plan more trials with several planes of each design. A single exciting result should not erase the rest of the record.",
+          "explanation": "完整紀錄應包括不理想結果。",
+          "id": "d44-q3",
+          "options": [
+            "It changes the paper into a new material.",
+            "It proves the gym is too large.",
+            "It is part of the evidence about performance.",
+            "It guarantees Blue will never win."
+          ],
+          "prompt": "Why include the shortest flight?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Both sets of distances add up to fifteen meters. Their average distance is therefore five meters. Red's results are closer together, although this small test does not tell the class which design will always fly farther.",
+          "explanation": "十五公尺除三次，平均五公尺。",
+          "id": "d44-q4",
+          "options": [
+            "The longest result by itself.",
+            "The total divided by the number of trials.",
+            "The distance between the first two flights.",
+            "The number of planes in the room."
+          ],
+          "prompt": "What does 'average' mean in the calculation?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "During a classroom challenge, two teams fold paper planes from identical sheets. Team Red folds wide wings, while Team Blue folds narrow ones. The same student launches every plane from one marked line inside the gym, where the doors remain closed.\n\nRed's plane travels four, six, and five meters in three trials. Blue's travels eight, two, and five meters. A student points to Blue's eight-meter flight and calls it the clear winner. Another student asks to compare all three flights first.\n\nBoth sets of distances add up to fifteen meters. Their average distance is therefore five meters. Red's results are closer together, although this small test does not tell the class which design will always fly farther.\n\nThe students write every result on the board, including the shortest flight. For the next test, they plan more trials with several planes of each design. A single exciting result should not erase the rest of the record.",
+          "explanation": "平均相同；Red 為 4、6、5，變動小於 Blue 的 8、2、5。",
+          "id": "d44-q5",
+          "options": [
+            "Red travels fifteen meters in every trial.",
+            "Blue's average is eight meters and Red's is four.",
+            "Both teams get identical distances in each trial.",
+            "Both averages are five meters, but Red's distances vary less."
+          ],
+          "prompt": "Which statement correctly compares these trials?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "During a classroom challenge, two teams fold paper planes from identical sheets. Team Red folds wide wings, while Team Blue folds narrow ones. The same student launches every plane from one marked line inside the gym, where the doors remain closed.\n\nRed's plane travels four, six, and five meters in three trials. Blue's travels eight, two, and five meters. A student points to Blue's eight-meter flight and calls it the clear winner. Another student asks to compare all three flights first.\n\nBoth sets of distances add up to fifteen meters. Their average distance is therefore five meters. Red's results are closer together, although this small test does not tell the class which design will always fly farther.\n\nThe students write every result on the board, including the shortest flight. For the next test, they plan more trials with several planes of each design. A single exciting result should not erase the rest of the record.",
+          "explanation": "全文強調看完整數據，不只挑最亮眼一次。",
+          "id": "d44-q6",
+          "options": [
+            "One throw establishes a permanent rule.",
+            "Discard results below the longest distance.",
+            "Always choose the design with the narrowest wings.",
+            "Compare complete records before naming a winner."
+          ],
+          "prompt": "What does the class learn?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "During a classroom challenge, two teams fold paper planes from identical sheets. Team Red folds wide wings, while Team Blue folds narrow ones. The same student launches every plane from one marked line inside the gym, where the doors remain closed.\n\nRed's plane travels four, six, and five meters in three trials. Blue's travels eight, two, and five meters. A student points to Blue's eight-meter flight and calls it the clear winner. Another student asks to compare all three flights first.\n\nBoth sets of distances add up to fifteen meters. Their average distance is therefore five meters. Red's results are closer together, although this small test does not tell the class which design will always fly farther.\n\nThe students write every result on the board, including the shortest flight. For the next test, they plan more trials with several planes of each design. A single exciting result should not erase the rest of the record.",
+      "title": "A Paper Plane Record",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "During a classroom challenge, two teams fold paper planes from identical sheets.",
+          "meaning": "相同的",
+          "word": "identical"
+        },
+        {
+          "example": "The same student launches every plane from one marked line inside the gym, where the doors remain closed.",
+          "meaning": "投出",
+          "word": "launches"
+        },
+        {
+          "example": "Red's plane travels four, six, and five meters in three trials.",
+          "meaning": "試驗次數",
+          "word": "trials"
+        },
+        {
+          "example": "Their average distance is therefore five meters.",
+          "meaning": "平均",
+          "word": "average"
+        },
+        {
+          "example": "A single exciting result should not erase the rest of the record.",
+          "meaning": "抹除",
+          "word": "erase"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-14",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 43,
+      "goal": "追蹤對話中的器材限制與替代安排。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "免費",
+          "phrase": "for free"
+        },
+        {
+          "meaning": "離開前",
+          "phrase": "before leaving"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "Museum group chat: Our visit begins at ten, but the audio desk opens at nine thirty. Please bring headphones with a wire. The museum lends players for free, although it has only twelve sets of headphones for a group of twenty students.",
+          "explanation": "館方只有十二組耳機。",
+          "id": "d43-q1",
+          "options": [
+            "Ten.",
+            "Twenty.",
+            "Twelve.",
+            "Thirty."
+          ],
+          "prompt": "How many museum headphone sets are available?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Eva: My headphones have no wire. Can I still use the player? Guide: You may borrow museum headphones if any remain. The player does not connect to wireless headphones. You can also read the printed guide beside each display.",
+          "explanation": "播放器不支援無線連接。",
+          "id": "d43-q2",
+          "options": [
+            "They belong to Jun.",
+            "They are too old.",
+            "They are wireless.",
+            "They have a broken wire."
+          ],
+          "prompt": "Why can't Eva use her own headphones with the player?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Jun: I will bring my own wired pair, so someone else can borrow one. Eva: Thanks. I will arrive early. If all twelve are taken, I will use the printed guide and ask you about anything I do not understand.",
+          "explanation": "Jun 自備有線耳機，就不占用可借耳機。",
+          "id": "d43-q3",
+          "options": [
+            "It makes the desk open earlier.",
+            "It connects wireless headphones to every player.",
+            "It lets everyone take guides home.",
+            "It leaves one museum pair available for someone else."
+          ],
+          "prompt": "How does Jun's decision help the group?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Eva: My headphones have no wire. Can I still use the player? Guide: You may borrow museum headphones if any remain. The player does not connect to wireless headphones. You can also read the printed guide beside each display.",
+          "explanation": "if any remain 指仍有剩餘耳機可借。",
+          "id": "d43-q4",
+          "options": [
+            "Are still available.",
+            "Make louder sounds.",
+            "Cost extra money.",
+            "Have been repaired."
+          ],
+          "prompt": "What does 'remain' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Museum group chat: Our visit begins at ten, but the audio desk opens at nine thirty. Please bring headphones with a wire. The museum lends players for free, although it has only twelve sets of headphones for a group of twenty students.\n\nEva: My headphones have no wire. Can I still use the player? Guide: You may borrow museum headphones if any remain. The player does not connect to wireless headphones. You can also read the printed guide beside each display.\n\nJun: I will bring my own wired pair, so someone else can borrow one. Eva: Thanks. I will arrive early. If all twelve are taken, I will use the printed guide and ask you about anything I do not understand.\n\nGuide: Good plan. Please return borrowed equipment before leaving. The printed guides must stay in the museum too. You may write notes in your own notebook, but do not take the display cards away.",
+          "explanation": "可讀館內說明並自行筆記，借用器材須離開前歸還。",
+          "id": "d43-q5",
+          "options": [
+            "Read display guides, make personal notes, and return equipment.",
+            "Take a printed guide home and return the player tomorrow.",
+            "Use any wireless pair and remove a display card.",
+            "Borrow headphones at nine before the desk opens."
+          ],
+          "prompt": "Which plan follows all the instructions?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Museum group chat: Our visit begins at ten, but the audio desk opens at nine thirty. Please bring headphones with a wire. The museum lends players for free, although it has only twelve sets of headphones for a group of twenty students.\n\nEva: My headphones have no wire. Can I still use the player? Guide: You may borrow museum headphones if any remain. The player does not connect to wireless headphones. You can also read the printed guide beside each display.\n\nJun: I will bring my own wired pair, so someone else can borrow one. Eva: Thanks. I will arrive early. If all twelve are taken, I will use the printed guide and ask you about anything I do not understand.\n\nGuide: Good plan. Please return borrowed equipment before leaving. The printed guides must stay in the museum too. You may write notes in your own notebook, but do not take the display cards away.",
+          "explanation": "重點是耳機不足時的閱讀與借用安排。",
+          "id": "d43-q6",
+          "options": [
+            "A race to finish visiting first.",
+            "Ways to understand exhibits despite limited equipment.",
+            "A plan to replace every display.",
+            "A new price for museum tickets."
+          ],
+          "prompt": "What does the group mainly arrange?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Museum group chat: Our visit begins at ten, but the audio desk opens at nine thirty. Please bring headphones with a wire. The museum lends players for free, although it has only twelve sets of headphones for a group of twenty students.\n\nEva: My headphones have no wire. Can I still use the player? Guide: You may borrow museum headphones if any remain. The player does not connect to wireless headphones. You can also read the printed guide beside each display.\n\nJun: I will bring my own wired pair, so someone else can borrow one. Eva: Thanks. I will arrive early. If all twelve are taken, I will use the printed guide and ask you about anything I do not understand.\n\nGuide: Good plan. Please return borrowed equipment before leaving. The printed guides must stay in the museum too. You may write notes in your own notebook, but do not take the display cards away.",
+      "title": "The Museum Audio Plan",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Please bring headphones with a wire.",
+          "meaning": "電線",
+          "word": "wire"
+        },
+        {
+          "example": "Guide: You may borrow museum headphones if any remain.",
+          "meaning": "剩下",
+          "word": "remain"
+        },
+        {
+          "example": "You can also read the printed guide beside each display.",
+          "meaning": "展品",
+          "word": "display"
+        },
+        {
+          "example": "Please return borrowed equipment before leaving.",
+          "meaning": "器材",
+          "word": "equipment"
+        },
+        {
+          "example": "Please return borrowed equipment before leaving.",
+          "meaning": "借來的",
+          "word": "borrowed"
+        }
+      ]
+    }
+  ]
+}

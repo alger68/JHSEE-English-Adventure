@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-11",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 40,
+      "goal": "將本週字詞放回語境，依線索修正理解。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "寫下",
+          "phrase": "writing down"
+        },
+        {
+          "meaning": "翻開卡片",
+          "phrase": "turning the cards over"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "Five cards wait on the review desk: label, entrance, record, collect, and preparation. Each pair must place a card beside a short situation. The teacher asks students to explain their choices before turning the cards over to check the answers.",
+          "explanation": "第一段規定先說明選擇理由。",
+          "id": "d40-q1",
+          "options": [
+            "Count all the teachers.",
+            "Repair a schoolbag.",
+            "Leave the classroom.",
+            "Explain their choices."
+          ],
+          "prompt": "What must pairs do before checking the answers?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Her partner points to the words writing down. Hana moves record to that situation and collect to the bag situation. They put entrance beside a door description and label beside a paper with a name on it.",
+          "explanation": "同伴指出 writing down，對應 record。",
+          "id": "d40-q2",
+          "options": [
+            "Turning over.",
+            "From the ground.",
+            "Repaired bag.",
+            "Writing down."
+          ],
+          "prompt": "Which words help Hana correct her first choice?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Five cards wait on the review desk: label, entrance, record, collect, and preparation. Each pair must place a card beside a short situation. The teacher asks students to explain their choices before turning the cards over to check the answers.\n\nOne situation describes a student writing down how many seeds have roots. Another describes a visitor taking a repaired bag home. Hana first puts collect beside the seed situation because she imagines collecting seeds from the ground.\n\nHer partner points to the words writing down. Hana moves record to that situation and collect to the bag situation. They put entrance beside a door description and label beside a paper with a name on it.\n\nThe final situation describes sorting materials before the real job begins. After choosing preparation, the pair writes a new example together. They learn that a familiar word still needs to fit the action described around it.",
+          "explanation": "題目描述記錄，她卻自行想成撿種子。",
+          "id": "d40-q3",
+          "options": [
+            "The word collect has no meaning.",
+            "The teacher had removed the card.",
+            "She imagined an action not described in the situation.",
+            "She had never seen a seed."
+          ],
+          "prompt": "Why was Hana's first choice unsuitable?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The final situation describes sorting materials before the real job begins. After choosing preparation, the pair writes a new example together. They learn that a familiar word still needs to fit the action described around it.",
+          "explanation": "最後情境是正式工作前整理材料。",
+          "id": "d40-q4",
+          "options": [
+            "Leaving through the nearest door.",
+            "Getting materials ready before the main job.",
+            "Receiving a bag after repair.",
+            "Writing a final score after a game."
+          ],
+          "prompt": "What does 'preparation' refer to here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Her partner points to the words writing down. Hana moves record to that situation and collect to the bag situation. They put entrance beside a door description and label beside a paper with a name on it.",
+          "explanation": "第三段明確修正 record 與 collect 的配對。",
+          "id": "d40-q5",
+          "options": [
+            "Record—writing results; collect—picking up a bag.",
+            "Label—growing roots; entrance—sorting paper.",
+            "Record—opening a door; collect—writing a name.",
+            "Preparation—finishing a repair; label—walking home."
+          ],
+          "prompt": "Which pair of matches is correct?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Five cards wait on the review desk: label, entrance, record, collect, and preparation. Each pair must place a card beside a short situation. The teacher asks students to explain their choices before turning the cards over to check the answers.\n\nOne situation describes a student writing down how many seeds have roots. Another describes a visitor taking a repaired bag home. Hana first puts collect beside the seed situation because she imagines collecting seeds from the ground.\n\nHer partner points to the words writing down. Hana moves record to that situation and collect to the bag situation. They put entrance beside a door description and label beside a paper with a name on it.\n\nThe final situation describes sorting materials before the real job begins. After choosing preparation, the pair writes a new example together. They learn that a familiar word still needs to fit the action described around it.",
+          "explanation": "全文示範利用動作與上下文決定詞義。",
+          "id": "d40-q6",
+          "options": [
+            "Choose meanings that fit the surrounding actions.",
+            "Use the first meaning you remember every time.",
+            "Ignore verbs when matching words.",
+            "Check the answer before reading the situation."
+          ],
+          "prompt": "What is the main reading strategy?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Five cards wait on the review desk: label, entrance, record, collect, and preparation. Each pair must place a card beside a short situation. The teacher asks students to explain their choices before turning the cards over to check the answers.\n\nOne situation describes a student writing down how many seeds have roots. Another describes a visitor taking a repaired bag home. Hana first puts collect beside the seed situation because she imagines collecting seeds from the ground.\n\nHer partner points to the words writing down. Hana moves record to that situation and collect to the bag situation. They put entrance beside a door description and label beside a paper with a name on it.\n\nThe final situation describes sorting materials before the real job begins. After choosing preparation, the pair writes a new example together. They learn that a familiar word still needs to fit the action described around it.",
+      "title": "The Word Desk Switch",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "Five cards wait on the review desk: label, entrance, record, collect, and preparation.",
+          "meaning": "標籤",
+          "word": "label"
+        },
+        {
+          "example": "Five cards wait on the review desk: label, entrance, record, collect, and preparation.",
+          "meaning": "入口",
+          "word": "entrance"
+        },
+        {
+          "example": "Five cards wait on the review desk: label, entrance, record, collect, and preparation.",
+          "meaning": "記錄",
+          "word": "record"
+        },
+        {
+          "example": "Five cards wait on the review desk: label, entrance, record, collect, and preparation.",
+          "meaning": "領取",
+          "word": "collect"
+        },
+        {
+          "example": "Five cards wait on the review desk: label, entrance, record, collect, and preparation.",
+          "meaning": "準備",
+          "word": "preparation"
+        }
+      ]
+    }
+  ]
+}

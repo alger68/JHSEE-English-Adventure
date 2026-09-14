@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-10",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 39,
+      "goal": "結合工作表、時間與依賴關係安排任務。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "在那之前",
+          "phrase": "before then"
+        },
+        {
+          "meaning": "當另一個",
+          "phrase": "while another"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "SHOW PLAN: Doors open at three. Before then, the hall needs a sound check, seat labels, and a cleared entrance. The sound check takes twenty minutes and must finish before labels are placed, because the team tests speakers between the rows.",
+          "explanation": "音響檢查需在排間進行，須先完成。",
+          "id": "d39-q1",
+          "options": [
+            "The sale of tickets.",
+            "The show itself.",
+            "The teachers' meeting.",
+            "The sound check."
+          ],
+          "prompt": "What must finish before seat labeling starts?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "SHOW PLAN: Doors open at three. Before then, the hall needs a sound check, seat labels, and a cleared entrance. The sound check takes twenty minutes and must finish before labels are placed, because the team tests speakers between the rows.",
+          "explanation": "公告明示入口整理可與其他工作並行。",
+          "id": "d39-q2",
+          "options": [
+            "Placing the seat labels.",
+            "Opening the show.",
+            "Clearing the entrance.",
+            "Moving all speakers outside."
+          ],
+          "prompt": "Which job can run beside the sound check?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "SHOW PLAN: Doors open at three. Before then, the hall needs a sound check, seat labels, and a cleared entrance. The sound check takes twenty minutes and must finish before labels are placed, because the team tests speakers between the rows.\n\nLabels take fifteen minutes. Clearing the entrance takes ten minutes and can happen while another job is running. Four students arrive at two twenty. Only two know how to test the speakers; the others can label seats or move boxes.\n\nTEAM MESSAGE: Ari and Bo will test the sound immediately. Chen will clear the entrance while Dia sorts the labels at a side table. Sorting is preparation; the fifteen-minute labeling job still begins only when the sound check ends.\n\nAt two forty, a teacher asks the team to add five more minutes of sound testing. They agree and tell Dia about the change. Chen finishes early and joins the labeling team, but the labels still need fifteen minutes.",
+          "explanation": "2:20 開始，加二十分鐘＝2:40。",
+          "id": "d39-q3",
+          "options": [
+            "At 2:55.",
+            "At 2:40.",
+            "At 2:30.",
+            "At 3:00."
+          ],
+          "prompt": "When was the sound check originally due to finish?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "TEAM MESSAGE: Ari and Bo will test the sound immediately. Chen will clear the entrance while Dia sorts the labels at a side table. Sorting is preparation; the fifteen-minute labeling job still begins only when the sound check ends.",
+          "explanation": "整理是準備，可避開正在測試的座位排。",
+          "id": "d39-q4",
+          "options": [
+            "Visitors have already taken every seat.",
+            "Sorting cancels the labeling job.",
+            "She is replacing the sound team.",
+            "She can prepare without entering the rows being tested."
+          ],
+          "prompt": "Why does Dia sort labels at a side table?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "TEAM MESSAGE: Ari and Bo will test the sound immediately. Chen will clear the entrance while Dia sorts the labels at a side table. Sorting is preparation; the fifteen-minute labeling job still begins only when the sound check ends.",
+          "explanation": "分工訊息指定 Chen 清入口。",
+          "id": "d39-q5",
+          "options": [
+            "Chen.",
+            "Bo.",
+            "Ari.",
+            "The teacher."
+          ],
+          "prompt": "Who initially clears the entrance?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "SHOW PLAN: Doors open at three. Before then, the hall needs a sound check, seat labels, and a cleared entrance. The sound check takes twenty minutes and must finish before labels are placed, because the team tests speakers between the rows.\n\nLabels take fifteen minutes. Clearing the entrance takes ten minutes and can happen while another job is running. Four students arrive at two twenty. Only two know how to test the speakers; the others can label seats or move boxes.\n\nTEAM MESSAGE: Ari and Bo will test the sound immediately. Chen will clear the entrance while Dia sorts the labels at a side table. Sorting is preparation; the fifteen-minute labeling job still begins only when the sound check ends.\n\nAt two forty, a teacher asks the team to add five more minutes of sound testing. They agree and tell Dia about the change. Chen finishes early and joins the labeling team, but the labels still need fifteen minutes.",
+          "explanation": "原訂 2:40 再加五分鐘，變成 2:45。",
+          "id": "d39-q6",
+          "options": [
+            "At 2:45.",
+            "At 2:35.",
+            "At 2:50.",
+            "At 2:40."
+          ],
+          "prompt": "When does labeling begin after the change?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "TEAM MESSAGE: Ari and Bo will test the sound immediately. Chen will clear the entrance while Dia sorts the labels at a side table. Sorting is preparation; the fifteen-minute labeling job still begins only when the sound check ends.",
+          "explanation": "他們到達後就開始測試，意為立刻。",
+          "id": "d39-q7",
+          "options": [
+            "Very quietly.",
+            "After the show.",
+            "Without waiting.",
+            "With no equipment."
+          ],
+          "prompt": "What does 'immediately' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "SHOW PLAN: Doors open at three. Before then, the hall needs a sound check, seat labels, and a cleared entrance. The sound check takes twenty minutes and must finish before labels are placed, because the team tests speakers between the rows.\n\nLabels take fifteen minutes. Clearing the entrance takes ten minutes and can happen while another job is running. Four students arrive at two twenty. Only two know how to test the speakers; the others can label seats or move boxes.\n\nTEAM MESSAGE: Ari and Bo will test the sound immediately. Chen will clear the entrance while Dia sorts the labels at a side table. Sorting is preparation; the fifteen-minute labeling job still begins only when the sound check ends.\n\nAt two forty, a teacher asks the team to add five more minutes of sound testing. They agree and tell Dia about the change. Chen finishes early and joins the labeling team, but the labels still need fifteen minutes.",
+          "explanation": "2:45 加十五分鐘＝3:00，恰為開門時刻。",
+          "id": "d39-q8",
+          "options": [
+            "At 2:50.",
+            "At 3:00.",
+            "At 3:10.",
+            "At 2:55."
+          ],
+          "prompt": "When will labeling finish under the revised plan?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "SHOW PLAN: Doors open at three. Before then, the hall needs a sound check, seat labels, and a cleared entrance. The sound check takes twenty minutes and must finish before labels are placed, because the team tests speakers between the rows.\n\nLabels take fifteen minutes. Clearing the entrance takes ten minutes and can happen while another job is running. Four students arrive at two twenty. Only two know how to test the speakers; the others can label seats or move boxes.\n\nTEAM MESSAGE: Ari and Bo will test the sound immediately. Chen will clear the entrance while Dia sorts the labels at a side table. Sorting is preparation; the fifteen-minute labeling job still begins only when the sound check ends.\n\nAt two forty, a teacher asks the team to add five more minutes of sound testing. They agree and tell Dia about the change. Chen finishes early and joins the labeling team, but the labels still need fifteen minutes.",
+          "explanation": "貼標籤依賴音響完成；多一人也未縮短指定工時。",
+          "id": "d39-q9",
+          "options": [
+            "Preparation and completion always mean the same thing.",
+            "A delay in one job can affect a job that depends on it.",
+            "More helpers always cut every job's time in half.",
+            "Every task must wait until the entrance is clear."
+          ],
+          "prompt": "Which planning lesson does the story show?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "SHOW PLAN: Doors open at three. Before then, the hall needs a sound check, seat labels, and a cleared entrance. The sound check takes twenty minutes and must finish before labels are placed, because the team tests speakers between the rows.\n\nLabels take fifteen minutes. Clearing the entrance takes ten minutes and can happen while another job is running. Four students arrive at two twenty. Only two know how to test the speakers; the others can label seats or move boxes.\n\nTEAM MESSAGE: Ari and Bo will test the sound immediately. Chen will clear the entrance while Dia sorts the labels at a side table. Sorting is preparation; the fifteen-minute labeling job still begins only when the sound check ends.\n\nAt two forty, a teacher asks the team to add five more minutes of sound testing. They agree and tell Dia about the change. Chen finishes early and joins the labeling team, but the labels still need fifteen minutes.",
+      "title": "Boss: Three Jobs Before the Show",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "Before then, the hall needs a sound check, seat labels, and a cleared entrance.",
+          "meaning": "入口",
+          "word": "entrance"
+        },
+        {
+          "example": "TEAM MESSAGE: Ari and Bo will test the sound immediately.",
+          "meaning": "立即",
+          "word": "immediately"
+        },
+        {
+          "example": "Sorting is preparation; the fifteen-minute labeling job still begins only when the sound check ends.",
+          "meaning": "準備",
+          "word": "preparation"
+        },
+        {
+          "example": "At two forty, a teacher asks the team to add five more minutes of sound testing.",
+          "meaning": "測試",
+          "word": "testing"
+        },
+        {
+          "example": "Before then, the hall needs a sound check, seat labels, and a cleared entrance.",
+          "meaning": "標籤",
+          "word": "labels"
+        }
+      ]
+    }
+  ]
+}

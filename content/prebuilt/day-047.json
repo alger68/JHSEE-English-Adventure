@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-18",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 47,
+      "goal": "重讀句子找出限制語與相對應詞義。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "比平常少",
+          "phrase": "less than usual"
+        },
+        {
+          "meaning": "為……保留",
+          "phrase": "held for"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "At the review table, students read five sentences from a pretend cafe guide. Each sentence contains a blank. The word cards are discount, average, nearby, reserved, and remain. Students may use each card once, so every choice must fit its own sentence.",
+          "explanation": "規則限定每張卡只能使用一次。",
+          "id": "d47-q1",
+          "options": [
+            "Once.",
+            "Three times.",
+            "As many times as possible.",
+            "Twice."
+          ],
+          "prompt": "How many times may each card be used?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The teacher asks each pair to name a clue, not just a translation. Kai circles less than usual on his sheet. He writes that rereading one useful phrase can be faster than guessing several unrelated words.",
+          "explanation": "末段說他圈出 less than usual。",
+          "id": "d47-q2",
+          "options": [
+            "On the shelf.",
+            "Less than usual.",
+            "Short walk away.",
+            "Arriving later."
+          ],
+          "prompt": "Which clue does Kai circle?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Kai quickly puts average into a sentence about tea costing less than usual. Mei asks him to compare the sentence with the week's price notice. Kai changes his choice to discount and saves average for a sentence about three trial distances.",
+          "explanation": "回想本週價格公告可辨認折扣語意。",
+          "id": "d47-q3",
+          "options": [
+            "It proves trial distances cannot be averaged.",
+            "It says all tables cost the same.",
+            "It provides a familiar context for discount.",
+            "It gives the final answer to every sentence."
+          ],
+          "prompt": "Why does Mei mention the price notice?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Another sentence says a table is being held for a group arriving later. The pair chooses reserved. A toilet a short walk away is nearby. In the final sentence, only two cups are still on the shelf, so two cups remain.",
+          "explanation": "桌子為稍後抵達的特定團體保留。",
+          "id": "d47-q4",
+          "options": [
+            "Located far from the cafe.",
+            "Washed after every meal.",
+            "Sold at a lower price.",
+            "Kept for a particular group."
+          ],
+          "prompt": "What does 'reserved' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Another sentence says a table is being held for a group arriving later. The pair chooses reserved. A toilet a short walk away is nearby. In the final sentence, only two cups are still on the shelf, so two cups remain.",
+          "explanation": "第三段對 nearby 與 remain 各有明確語境。",
+          "id": "d47-q5",
+          "options": [
+            "Discount—three distances; average—a held table.",
+            "Reserved—costing less; nearby—still on the shelf.",
+            "Remain—a short walk; discount—a future group.",
+            "Nearby—a short walk; remain—still on the shelf."
+          ],
+          "prompt": "Which two matches fit the review?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "At the review table, students read five sentences from a pretend cafe guide. Each sentence contains a blank. The word cards are discount, average, nearby, reserved, and remain. Students may use each card once, so every choice must fit its own sentence.\n\nKai quickly puts average into a sentence about tea costing less than usual. Mei asks him to compare the sentence with the week's price notice. Kai changes his choice to discount and saves average for a sentence about three trial distances.\n\nAnother sentence says a table is being held for a group arriving later. The pair chooses reserved. A toilet a short walk away is nearby. In the final sentence, only two cups are still on the shelf, so two cups remain.\n\nThe teacher asks each pair to name a clue, not just a translation. Kai circles less than usual on his sheet. He writes that rereading one useful phrase can be faster than guessing several unrelated words.",
+          "explanation": "老師要求指出線索，強調有依據的字義判斷。",
+          "id": "d47-q6",
+          "options": [
+            "Using meaningful clues to justify word choices.",
+            "Writing translations before examining clues.",
+            "Choosing words by their length.",
+            "Finishing blanks without reading full sentences."
+          ],
+          "prompt": "What is the teacher encouraging?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At the review table, students read five sentences from a pretend cafe guide. Each sentence contains a blank. The word cards are discount, average, nearby, reserved, and remain. Students may use each card once, so every choice must fit its own sentence.\n\nKai quickly puts average into a sentence about tea costing less than usual. Mei asks him to compare the sentence with the week's price notice. Kai changes his choice to discount and saves average for a sentence about three trial distances.\n\nAnother sentence says a table is being held for a group arriving later. The pair chooses reserved. A toilet a short walk away is nearby. In the final sentence, only two cups are still on the shelf, so two cups remain.\n\nThe teacher asks each pair to name a clue, not just a translation. Kai circles less than usual on his sheet. He writes that rereading one useful phrase can be faster than guessing several unrelated words.",
+      "title": "Five Words at the Cafe",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "The word cards are discount, average, nearby, reserved, and remain.",
+          "meaning": "折扣",
+          "word": "discount"
+        },
+        {
+          "example": "The word cards are discount, average, nearby, reserved, and remain.",
+          "meaning": "平均",
+          "word": "average"
+        },
+        {
+          "example": "The word cards are discount, average, nearby, reserved, and remain.",
+          "meaning": "附近的",
+          "word": "nearby"
+        },
+        {
+          "example": "The word cards are discount, average, nearby, reserved, and remain.",
+          "meaning": "預約的",
+          "word": "reserved"
+        },
+        {
+          "example": "The word cards are discount, average, nearby, reserved, and remain.",
+          "meaning": "剩下",
+          "word": "remain"
+        }
+      ]
+    }
+  ]
+}

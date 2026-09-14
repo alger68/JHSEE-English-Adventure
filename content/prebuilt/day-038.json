@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-09",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 38,
+      "goal": "整合公告中的預約、收件與取件規則。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "直到中午",
+          "phrase": "until noon"
+        },
+        {
+          "meaning": "在家",
+          "phrase": "at home"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "SATURDAY REPAIR DESK: Bring your schoolbag to the community hall this Saturday. Volunteers can fix loose buttons and small holes. They cannot replace whole zippers. The service is free, but each visitor may bring only one bag.",
+          "explanation": "公告只接受鬆鈕扣與小破洞。",
+          "id": "d38-q1",
+          "options": [
+            "A small hole in a bag.",
+            "A broken phone screen.",
+            "A damaged bicycle wheel.",
+            "A zipper that needs complete replacement."
+          ],
+          "prompt": "Which problem can the volunteers fix?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The desk opens at nine and stops accepting bags at eleven. Repairs already accepted may continue until noon. Write your name and phone number on a paper label, and keep the matching number card until you collect your bag.",
+          "explanation": "十一點截止收件，中午是完成已收修件的時間。",
+          "id": "d38-q2",
+          "options": [
+            "Only after eleven.",
+            "Before the desk stops accepting bags at eleven.",
+            "Exactly at ten after the class.",
+            "Any time before noon."
+          ],
+          "prompt": "When is the latest time to submit a bag?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The desk opens at nine and stops accepting bags at eleven. Repairs already accepted may continue until noon. Write your name and phone number on a paper label, and keep the matching number card until you collect your bag.",
+          "explanation": "相同編號卡與標籤可對應待領物品。",
+          "id": "d38-q3",
+          "options": [
+            "It allows them to bring extra bags.",
+            "It replaces the adult requirement.",
+            "It helps match them with the repaired bag.",
+            "It pays for the sewing class."
+          ],
+          "prompt": "Why must visitors keep the number card?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "If your bag cannot be repaired here, a volunteer will explain why before starting. Please empty every pocket at home. We cannot store food, money, or other personal items during the repair.",
+          "explanation": "後文不保管私人物品，故須先清空口袋。",
+          "id": "d38-q4",
+          "options": [
+            "Repair a hole in.",
+            "Hide something inside.",
+            "Write a number on.",
+            "Remove everything from."
+          ],
+          "prompt": "What does 'empty' mean in the last paragraph?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Visitors under thirteen must come with an adult. No reservation is needed for a repair. However, the short sewing class at ten requires an online booking because there are only six seats beside the worktable.",
+          "explanation": "未滿十三歲須成人陪同；課程另需線上預約。",
+          "id": "d38-q5",
+          "options": [
+            "A repair reservation but no adult.",
+            "An adult companion and an online booking.",
+            "Only a number card.",
+            "Two bags and a new zipper."
+          ],
+          "prompt": "What does a twelve-year-old need for the sewing class?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "SATURDAY REPAIR DESK: Bring your schoolbag to the community hall this Saturday. Volunteers can fix loose buttons and small holes. They cannot replace whole zippers. The service is free, but each visitor may bring only one bag.\n\nThe desk opens at nine and stops accepting bags at eleven. Repairs already accepted may continue until noon. Write your name and phone number on a paper label, and keep the matching number card until you collect your bag.\n\nVisitors under thirteen must come with an adult. No reservation is needed for a repair. However, the short sewing class at ten requires an online booking because there are only six seats beside the worktable.\n\nIf your bag cannot be repaired here, a volunteer will explain why before starting. Please empty every pocket at home. We cannot store food, money, or other personal items during the repair.",
+          "explanation": "內容交代服務範圍、時間與參加方式。",
+          "id": "d38-q6",
+          "options": [
+            "Selling new bags to families.",
+            "Explaining how to repair every zipper.",
+            "Helping visitors prepare for a limited repair service.",
+            "Hiring full-time sewing teachers."
+          ],
+          "prompt": "What is the notice mainly for?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "SATURDAY REPAIR DESK: Bring your schoolbag to the community hall this Saturday. Volunteers can fix loose buttons and small holes. They cannot replace whole zippers. The service is free, but each visitor may bring only one bag.\n\nThe desk opens at nine and stops accepting bags at eleven. Repairs already accepted may continue until noon. Write your name and phone number on a paper label, and keep the matching number card until you collect your bag.\n\nVisitors under thirteen must come with an adult. No reservation is needed for a repair. However, the short sewing class at ten requires an online booking because there are only six seats beside the worktable.\n\nIf your bag cannot be repaired here, a volunteer will explain why before starting. Please empty every pocket at home. We cannot store food, money, or other personal items during the repair.",
+      "title": "Saturday Repair Desk",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "Volunteers can fix loose buttons and small holes.",
+          "meaning": "鬆脫的",
+          "word": "loose"
+        },
+        {
+          "example": "They cannot replace whole zippers.",
+          "meaning": "更換",
+          "word": "replace"
+        },
+        {
+          "example": "Write your name and phone number on a paper label, and keep the matching number card until you collect your bag.",
+          "meaning": "標籤",
+          "word": "label"
+        },
+        {
+          "example": "No reservation is needed for a repair.",
+          "meaning": "預約",
+          "word": "reservation"
+        },
+        {
+          "example": "Please empty every pocket at home.",
+          "meaning": "清空",
+          "word": "empty"
+        }
+      ]
+    }
+  ]
+}

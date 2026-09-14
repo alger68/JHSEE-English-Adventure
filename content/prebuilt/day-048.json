@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-19",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 48,
+      "goal": "區分未出席與反對，判讀投票紀錄。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "到目前為止",
+          "phrase": "so far"
+        },
+        {
+          "meaning": "與……不同",
+          "phrase": "different from"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Class Nine is choosing a theme for its wall display. Eighteen students attend the lunchtime meeting. Ten choose local wildlife, six choose favorite books, and two leave their slips blank. The remaining twelve classmates are away at club activities.",
+          "explanation": "第一段明示十八人出席。",
+          "id": "d48-q1",
+          "options": [
+            "Twelve.",
+            "Eighteen.",
+            "Thirty.",
+            "Ten."
+          ],
+          "prompt": "How many students attend the first meeting?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Class Nine is choosing a theme for its wall display. Eighteen students attend the lunchtime meeting. Ten choose local wildlife, six choose favorite books, and two leave their slips blank. The remaining twelve classmates are away at club activities.",
+          "explanation": "十八票中十票野生動物、六票書、兩張空白。",
+          "id": "d48-q2",
+          "options": [
+            "Ten.",
+            "Twelve.",
+            "Two.",
+            "Six."
+          ],
+          "prompt": "How many first-round slips are blank?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "After lunch, Owen writes that most of the class chose wildlife. His friend Yu asks what class means in that sentence. Wildlife received the most votes at the meeting, but only ten of all thirty classmates selected it.",
+          "explanation": "全班三十人，不能把出席者結果當成全班多數。",
+          "id": "d48-q3",
+          "options": [
+            "The class has only eighteen students.",
+            "Meeting voters are not the whole class.",
+            "Blank slips must count for books.",
+            "Wildlife received no votes."
+          ],
+          "prompt": "Why does Yu question Owen's wording?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Owen changes the first announcement to say wildlife is leading so far. He waits for the remaining slips before writing the final result. A blank slip and an absent student are both different from a vote against a theme.",
+          "explanation": "未參加會議的學生是缺席者。",
+          "id": "d48-q4",
+          "options": [
+            "Voting twice.",
+            "Choosing wildlife.",
+            "Not present.",
+            "Holding a blank slip."
+          ],
+          "prompt": "What does 'absent' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Class Nine is choosing a theme for its wall display. Eighteen students attend the lunchtime meeting. Ten choose local wildlife, six choose favorite books, and two leave their slips blank. The remaining twelve classmates are away at club activities.\n\nAfter lunch, Owen writes that most of the class chose wildlife. His friend Yu asks what class means in that sentence. Wildlife received the most votes at the meeting, but only ten of all thirty classmates selected it.\n\nThe teacher lets the class finish the vote the next morning. Everyone who missed the meeting receives a slip. The first eighteen students keep their original votes, so nobody gets an extra chance simply by attending twice.\n\nOwen changes the first announcement to say wildlife is leading so far. He waits for the remaining slips before writing the final result. A blank slip and an absent student are both different from a vote against a theme.",
+          "explanation": "已投票中野生動物領先，尚有十二人未投。",
+          "id": "d48-q5",
+          "options": [
+            "Wildlife leads among votes cast, with twelve classmates still to vote.",
+            "All blank slips are votes against wildlife.",
+            "Every absent student supports books.",
+            "Most of all thirty students have voted for wildlife."
+          ],
+          "prompt": "Which description is accurate before the final vote?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Class Nine is choosing a theme for its wall display. Eighteen students attend the lunchtime meeting. Ten choose local wildlife, six choose favorite books, and two leave their slips blank. The remaining twelve classmates are away at club activities.\n\nAfter lunch, Owen writes that most of the class chose wildlife. His friend Yu asks what class means in that sentence. Wildlife received the most votes at the meeting, but only ten of all thirty classmates selected it.\n\nThe teacher lets the class finish the vote the next morning. Everyone who missed the meeting receives a slip. The first eighteen students keep their original votes, so nobody gets an extra chance simply by attending twice.\n\nOwen changes the first announcement to say wildlife is leading so far. He waits for the remaining slips before writing the final result. A blank slip and an absent student are both different from a vote against a theme.",
+          "explanation": "重點是正確表達樣本、空白票與全班結果。",
+          "id": "d48-q6",
+          "options": [
+            "Reporting what a vote actually represents.",
+            "Making every class display about animals.",
+            "Allowing popular students to vote twice.",
+            "Preventing students from joining clubs."
+          ],
+          "prompt": "What is the story's main concern?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Class Nine is choosing a theme for its wall display. Eighteen students attend the lunchtime meeting. Ten choose local wildlife, six choose favorite books, and two leave their slips blank. The remaining twelve classmates are away at club activities.\n\nAfter lunch, Owen writes that most of the class chose wildlife. His friend Yu asks what class means in that sentence. Wildlife received the most votes at the meeting, but only ten of all thirty classmates selected it.\n\nThe teacher lets the class finish the vote the next morning. Everyone who missed the meeting receives a slip. The first eighteen students keep their original votes, so nobody gets an extra chance simply by attending twice.\n\nOwen changes the first announcement to say wildlife is leading so far. He waits for the remaining slips before writing the final result. A blank slip and an absent student are both different from a vote against a theme.",
+      "title": "The Empty Chair Vote",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "Eighteen students attend the lunchtime meeting.",
+          "meaning": "出席",
+          "word": "attend"
+        },
+        {
+          "example": "The remaining twelve classmates are away at club activities.",
+          "meaning": "剩餘的",
+          "word": "remaining"
+        },
+        {
+          "example": "The first eighteen students keep their original votes, so nobody gets an extra chance simply by attending twice.",
+          "meaning": "原本的",
+          "word": "original"
+        },
+        {
+          "example": "Owen changes the first announcement to say wildlife is leading so far.",
+          "meaning": "公告",
+          "word": "announcement"
+        },
+        {
+          "example": "A blank slip and an absent student are both different from a vote against a theme.",
+          "meaning": "缺席的",
+          "word": "absent"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-07",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 36,
+      "goal": "依訊息修正集合地點，分辨物品與時間。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在我途中",
+          "phrase": "on my way"
+        },
+        {
+          "meaning": "而不是",
+          "phrase": "instead of"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "Jia: I left a blue umbrella outside Room 204 after lunch. Has anyone seen it? There is a small yellow star on the handle. I need it for the walk home because the sky is getting dark.",
+          "explanation": "黃色星星是辨識特徵，不能只依藍色判斷。",
+          "id": "d36-q1",
+          "options": [
+            "The one with a yellow star.",
+            "The one beside the basketball.",
+            "The one with a broken handle.",
+            "The red one in Room 204."
+          ],
+          "prompt": "Which umbrella belongs to Jia?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Sam: I found two blue umbrellas there. One has a broken handle. The other has a star. I took the second one to the school office, so it would not disappear during the cleaning.",
+          "explanation": "Sam 明說送到學校辦公室。",
+          "id": "d36-q2",
+          "options": [
+            "To the basketball court.",
+            "To the cleaning room.",
+            "To the school office.",
+            "To the guard's home."
+          ],
+          "prompt": "Where did Sam first take Jia's umbrella?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Jia: Thanks! I will collect it after basketball practice at four. Sam: The office closes at four today. The assistant said she would leave it with the guard if nobody came before closing time.",
+          "explanation": "練球結束與辦公室關門同為四點，未領物會交警衛。",
+          "id": "d36-q3",
+          "options": [
+            "Sam will be playing basketball.",
+            "Practice ends when the office closes.",
+            "The office has lost both umbrellas.",
+            "The guard repairs broken umbrellas."
+          ],
+          "prompt": "Why will Jia probably visit the guard?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Jia: Thanks! I will collect it after basketball practice at four. Sam: The office closes at four today. The assistant said she would leave it with the guard if nobody came before closing time.",
+          "explanation": "她要領取已找到的傘，collect 在此指領取。",
+          "id": "d36-q4",
+          "options": [
+            "Borrow money from someone.",
+            "Describe something's color.",
+            "Break a small object.",
+            "Pick up something waiting for you."
+          ],
+          "prompt": "What does 'collect' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Jia: I left a blue umbrella outside Room 204 after lunch. Has anyone seen it? There is a small yellow star on the handle. I need it for the walk home because the sky is getting dark.\n\nSam: I found two blue umbrellas there. One has a broken handle. The other has a star. I took the second one to the school office, so it would not disappear during the cleaning.\n\nJia: Thanks! I will collect it after basketball practice at four. Sam: The office closes at four today. The assistant said she would leave it with the guard if nobody came before closing time.\n\nJia: Then I will ask the guard on my way out. I am glad you described the handle instead of just telling me the color.",
+          "explanation": "星星辨識物品；四點後由警衛保管。",
+          "id": "d36-q5",
+          "options": [
+            "The star and the guard's location.",
+            "The broken handle and Room 204's size.",
+            "The basketball score and the sky.",
+            "The color and the cleaning price."
+          ],
+          "prompt": "Which two details help Jia find her umbrella after practice?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "Jia: I left a blue umbrella outside Room 204 after lunch. Has anyone seen it? There is a small yellow star on the handle. I need it for the walk home because the sky is getting dark.\n\nSam: I found two blue umbrellas there. One has a broken handle. The other has a star. I took the second one to the school office, so it would not disappear during the cleaning.\n\nJia: Thanks! I will collect it after basketball practice at four. Sam: The office closes at four today. The assistant said she would leave it with the guard if nobody came before closing time.\n\nJia: Then I will ask the guard on my way out. I am glad you described the handle instead of just telling me the color.",
+          "explanation": "對話包含傘的特徵與領取地點變更。",
+          "id": "d36-q6",
+          "options": [
+            "They explain how to buy the cheapest umbrella.",
+            "They compare two basketball teams.",
+            "They give identifying details and an updated pickup plan.",
+            "They promise that the rain will stop."
+          ],
+          "prompt": "What makes the messages useful?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Jia: I left a blue umbrella outside Room 204 after lunch. Has anyone seen it? There is a small yellow star on the handle. I need it for the walk home because the sky is getting dark.\n\nSam: I found two blue umbrellas there. One has a broken handle. The other has a star. I took the second one to the school office, so it would not disappear during the cleaning.\n\nJia: Thanks! I will collect it after basketball practice at four. Sam: The office closes at four today. The assistant said she would leave it with the guard if nobody came before closing time.\n\nJia: Then I will ask the guard on my way out. I am glad you described the handle instead of just telling me the color.",
+      "title": "The Umbrella Message",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "There is a small yellow star on the handle.",
+          "meaning": "把手",
+          "word": "handle"
+        },
+        {
+          "example": "I will collect it after basketball practice at four.",
+          "meaning": "領取",
+          "word": "collect"
+        },
+        {
+          "example": "The assistant said she would leave it with the guard if nobody came before closing time.",
+          "meaning": "警衛",
+          "word": "guard"
+        },
+        {
+          "example": "I am glad you described the handle instead of just telling me the color.",
+          "meaning": "描述了",
+          "word": "described"
+        },
+        {
+          "example": "Sam: The office closes at four today.",
+          "meaning": "關閉",
+          "word": "closes"
+        }
+      ]
+    }
+  ]
+}

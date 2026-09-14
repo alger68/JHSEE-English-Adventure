@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-16",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 45,
+      "goal": "分清公告中的折扣、容量及例外條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "至少",
+          "phrase": "at least"
+        },
+        {
+          "meaning": "付款前",
+          "phrase": "before paying"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "REFILL WEEK AT THE SCHOOL CAFE: From Monday through Friday, bring a clean reusable cup for a five-dollar discount on hot tea. The regular tea price is thirty dollars. The offer does not apply to bottled drinks or cold fruit juice.",
+          "explanation": "優惠只適用熱茶。",
+          "id": "d45-q1",
+          "options": [
+            "Every bottled drink.",
+            "Bottled water.",
+            "Hot tea.",
+            "Cold fruit juice."
+          ],
+          "prompt": "Which drink qualifies for the discount?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "For safety, cups must have a firm base and hold at least three hundred milliliters. Staff may refuse cracked or dirty cups. If your cup is unsuitable, you can buy tea at the regular price in a cafe cup.",
+          "explanation": "破裂或髒污的杯子可被拒絕。",
+          "id": "d45-q2",
+          "options": [
+            "A lid.",
+            "A crack.",
+            "A plain color.",
+            "A school label."
+          ],
+          "prompt": "What cup problem allows staff to refuse it?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The discount is for one drink per student each day. Bringing two cups does not double it. Ask for the discount before paying; staff cannot change a completed payment later because the daily total is recorded automatically.",
+          "explanation": "付款完成後不能調整金額。",
+          "id": "d45-q3",
+          "options": [
+            "Completed payments cannot be changed later.",
+            "The cafe closes whenever a payment ends.",
+            "The water station charges a fee afterward.",
+            "The cup becomes smaller after payment."
+          ],
+          "prompt": "Why should students request the discount before paying?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "For safety, cups must have a firm base and hold at least three hundred milliliters. Staff may refuse cracked or dirty cups. If your cup is unsuitable, you can buy tea at the regular price in a cafe cup.",
+          "explanation": "不符安全或容量等條件就是不合適。",
+          "id": "d45-q4",
+          "options": [
+            "Not meeting the requirements.",
+            "Larger than every other cup.",
+            "Made only for school staff.",
+            "Already filled with free water."
+          ],
+          "prompt": "What does 'unsuitable' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "REFILL WEEK AT THE SCHOOL CAFE: From Monday through Friday, bring a clean reusable cup for a five-dollar discount on hot tea. The regular tea price is thirty dollars. The offer does not apply to bottled drinks or cold fruit juice.\n\nFor safety, cups must have a firm base and hold at least three hundred milliliters. Staff may refuse cracked or dirty cups. If your cup is unsuitable, you can buy tea at the regular price in a cafe cup.\n\nThe discount is for one drink per student each day. Bringing two cups does not double it. Ask for the discount before paying; staff cannot change a completed payment later because the daily total is recorded automatically.\n\nThe water station beside the cafe remains free for everyone. You do not need to buy tea or bring a school card to use it. Please keep the station clean and avoid blocking the walkway while filling your bottle.",
+          "explanation": "茶 30－5＝25 元，水站免費。",
+          "id": "d45-q5",
+          "options": [
+            "Thirty dollars.",
+            "Thirty-five dollars.",
+            "Twenty dollars.",
+            "Twenty-five dollars."
+          ],
+          "prompt": "What does one discounted tea plus free water cost?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "The water station beside the cafe remains free for everyone. You do not need to buy tea or bring a school card to use it. Please keep the station clean and avoid blocking the walkway while filling your bottle.",
+          "explanation": "水站人人可用，不需消費或學生證。",
+          "id": "d45-q6",
+          "options": [
+            "Only someone holding a school card.",
+            "Someone who paid for a cafe cup.",
+            "Someone with a bottle who buys nothing.",
+            "Only a student buying two teas."
+          ],
+          "prompt": "Which visitor can use the water station for free?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "REFILL WEEK AT THE SCHOOL CAFE: From Monday through Friday, bring a clean reusable cup for a five-dollar discount on hot tea. The regular tea price is thirty dollars. The offer does not apply to bottled drinks or cold fruit juice.\n\nFor safety, cups must have a firm base and hold at least three hundred milliliters. Staff may refuse cracked or dirty cups. If your cup is unsuitable, you can buy tea at the regular price in a cafe cup.\n\nThe discount is for one drink per student each day. Bringing two cups does not double it. Ask for the discount before paying; staff cannot change a completed payment later because the daily total is recorded automatically.\n\nThe water station beside the cafe remains free for everyone. You do not need to buy tea or bring a school card to use it. Please keep the station clean and avoid blocking the walkway while filling your bottle.",
+      "title": "The Refill Bottle Notice",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "REFILL WEEK AT THE SCHOOL CAFE: From Monday through Friday, bring a clean reusable cup for a five-dollar discount on hot tea.",
+          "meaning": "折扣",
+          "word": "discount"
+        },
+        {
+          "example": "The regular tea price is thirty dollars.",
+          "meaning": "原本的",
+          "word": "regular"
+        },
+        {
+          "example": "For safety, cups must have a firm base and hold at least three hundred milliliters.",
+          "meaning": "底部",
+          "word": "base"
+        },
+        {
+          "example": "If your cup is unsuitable, you can buy tea at the regular price in a cafe cup.",
+          "meaning": "不合適的",
+          "word": "unsuitable"
+        },
+        {
+          "example": "Ask for the discount before paying; staff cannot change a completed payment later because the daily total is recorded automatically.",
+          "meaning": "付款",
+          "word": "payment"
+        }
+      ]
+    }
+  ]
+}

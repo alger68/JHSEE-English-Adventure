@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-08",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 37,
+      "goal": "從實驗紀錄區分改變條件與共同條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "相同數量的",
+          "phrase": "the same amount of"
+        },
+        {
+          "meaning": "讓他們能夠",
+          "phrase": "so they can"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "In a classroom activity, students put ten bean seeds on wet paper in each of two trays. They place one tray on a shelf near the window and the other inside a dark cupboard. Both places feel equally warm.",
+          "explanation": "一盤近窗，一盤在暗櫃；其他列出的條件相同。",
+          "id": "d37-q1",
+          "options": [
+            "The kind of seed.",
+            "The amount of light.",
+            "The daily amount of water.",
+            "The number of seeds."
+          ],
+          "prompt": "What differs between the two trays?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Every morning, they add the same amount of water and count new roots. After three days, eight seeds in each tray have roots. Mei is surprised because she expected the dark tray to remain empty.",
+          "explanation": "每盤八顆，共 8＋8＝16。",
+          "id": "d37-q2",
+          "options": [
+            "Sixteen.",
+            "Eight.",
+            "Ten.",
+            "Twenty."
+          ],
+          "prompt": "How many seeds have roots altogether after three days?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The teacher asks the class to record what they actually see. These seeds began growing in both places. That observation does not show that light never matters. The class has only watched the first few days.",
+          "explanation": "只觀察最初幾天，不能推廣成光線永遠不重要。",
+          "id": "d37-q3",
+          "options": [
+            "Only early growth has been observed.",
+            "The cupboard was much colder.",
+            "No seed grew near the window.",
+            "The class used no water."
+          ],
+          "prompt": "Why does the teacher limit the conclusion?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The teacher asks the class to record what they actually see. These seeds began growing in both places. That observation does not show that light never matters. The class has only watched the first few days.",
+          "explanation": "老師要求記錄實際看見的狀況。",
+          "id": "d37-q4",
+          "options": [
+            "A guess that cannot change.",
+            "A promise made before a test.",
+            "Something noticed during a check.",
+            "A tool used to water plants."
+          ],
+          "prompt": "What is an 'observation'?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "For the next week, they will measure the young plants and note changes in their leaves. They keep the water schedule unchanged so they can compare the trays more carefully.",
+          "explanation": "維持澆水條件可減少比較時的干擾。",
+          "id": "d37-q5",
+          "options": [
+            "Moving both trays into the cupboard.",
+            "Keeping the watering schedule unchanged.",
+            "Giving only one tray new seeds.",
+            "Stopping all measurements."
+          ],
+          "prompt": "Which action helps the next comparison?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "In a classroom activity, students put ten bean seeds on wet paper in each of two trays. They place one tray on a shelf near the window and the other inside a dark cupboard. Both places feel equally warm.\n\nEvery morning, they add the same amount of water and count new roots. After three days, eight seeds in each tray have roots. Mei is surprised because she expected the dark tray to remain empty.\n\nThe teacher asks the class to record what they actually see. These seeds began growing in both places. That observation does not show that light never matters. The class has only watched the first few days.\n\nFor the next week, they will measure the young plants and note changes in their leaves. They keep the water schedule unchanged so they can compare the trays more carefully.",
+          "explanation": "文章重點是以觀察支持有限結論，再繼續測量。",
+          "id": "d37-q6",
+          "options": [
+            "A Contest for the Tallest Teacher.",
+            "How to Build a Classroom Window.",
+            "Why Every Seed Needs Darkness Forever.",
+            "Record Results Before Making Broad Claims."
+          ],
+          "prompt": "Which heading best fits the passage?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a classroom activity, students put ten bean seeds on wet paper in each of two trays. They place one tray on a shelf near the window and the other inside a dark cupboard. Both places feel equally warm.\n\nEvery morning, they add the same amount of water and count new roots. After three days, eight seeds in each tray have roots. Mei is surprised because she expected the dark tray to remain empty.\n\nThe teacher asks the class to record what they actually see. These seeds began growing in both places. That observation does not show that light never matters. The class has only watched the first few days.\n\nFor the next week, they will measure the young plants and note changes in their leaves. They keep the water schedule unchanged so they can compare the trays more carefully.",
+      "title": "Seeds on Two Shelves",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "In a classroom activity, students put ten bean seeds on wet paper in each of two trays.",
+          "meaning": "種子",
+          "word": "seeds"
+        },
+        {
+          "example": "Every morning, they add the same amount of water and count new roots.",
+          "meaning": "根",
+          "word": "roots"
+        },
+        {
+          "example": "The teacher asks the class to record what they actually see.",
+          "meaning": "記錄",
+          "word": "record"
+        },
+        {
+          "example": "That observation does not show that light never matters.",
+          "meaning": "觀察",
+          "word": "observation"
+        },
+        {
+          "example": "For the next week, they will measure the young plants and note changes in their leaves.",
+          "meaning": "測量",
+          "word": "measure"
+        }
+      ]
+    }
+  ]
+}

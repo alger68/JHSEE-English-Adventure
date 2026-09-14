@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-17",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 46,
+      "goal": "跨公告與訊息安排符合限制的行程。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "街道對面",
+          "phrase": "across the street"
+        },
+        {
+          "meaning": "預約額滿",
+          "phrase": "fully booked"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "PICNIC OPTIONS: Cedar Park is a fifteen-minute walk from school. It has covered tables but no toilet. River Park is a twenty-five-minute walk away. It has toilets and open picnic tables without a roof. Both parks allow groups to bring lunch.",
+          "explanation": "Cedar 有遮蔽桌位；River 的桌位露天。",
+          "id": "d46-q1",
+          "options": [
+            "Neither park.",
+            "River Park.",
+            "Both parks.",
+            "Cedar Park."
+          ],
+          "prompt": "Which park has covered tables?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "GROUP NEEDS: The class has ninety minutes between leaving school and returning. Lunch and reading together require forty minutes. Their teacher needs a nearby toilet. The weather forecast mentions possible showers, so everyone must also have a rain plan.",
+          "explanation": "活動本身需要四十分鐘。",
+          "id": "d46-q2",
+          "options": [
+            "Fifteen minutes.",
+            "Twenty-five minutes.",
+            "Ninety minutes.",
+            "Forty minutes."
+          ],
+          "prompt": "How long must lunch and reading take?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "PICNIC OPTIONS: Cedar Park is a fifteen-minute walk from school. It has covered tables but no toilet. River Park is a twenty-five-minute walk away. It has toilets and open picnic tables without a roof. Both parks allow groups to bring lunch.\n\nGROUP NEEDS: The class has ninety minutes between leaving school and returning. Lunch and reading together require forty minutes. Their teacher needs a nearby toilet. The weather forecast mentions possible showers, so everyone must also have a rain plan.\n\nUPDATE: The library across the street from Cedar Park allows visitors to use its toilet. The library opens at eleven. The group leaves school at ten fifty. At River Park, a covered room can be reserved, but it is already fully booked today.\n\nThe class selects Cedar Park. They will stay at the covered tables if a shower starts. Before leaving, the teacher reminds them that the library toilet is an option only while the building is open, not a park facility available all day.",
+          "explanation": "往返 15＋15，再加活動 40＝70。",
+          "id": "d46-q3",
+          "options": [
+            "Eighty minutes.",
+            "Ninety-five minutes.",
+            "Fifty-five minutes.",
+            "Seventy minutes."
+          ],
+          "prompt": "How long is the total Cedar Park plan?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "UPDATE: The library across the street from Cedar Park allows visitors to use its toilet. The library opens at eleven. The group leaves school at ten fifty. At River Park, a covered room can be reserved, but it is already fully booked today.",
+          "explanation": "更新補上 Cedar 方案的如廁需求。",
+          "id": "d46-q4",
+          "options": [
+            "It moves the school lunch period.",
+            "It cuts both walking times in half.",
+            "It adds a roof to River Park.",
+            "It offers a toilet near Cedar Park during opening hours."
+          ],
+          "prompt": "Why is the library update important?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "UPDATE: The library across the street from Cedar Park allows visitors to use its toilet. The library opens at eleven. The group leaves school at ten fifty. At River Park, a covered room can be reserved, but it is already fully booked today.",
+          "explanation": "訊息說今日已被預約滿。",
+          "id": "d46-q5",
+          "options": [
+            "It belongs to the library.",
+            "It is already fully booked.",
+            "It has no door.",
+            "Groups may never enter it."
+          ],
+          "prompt": "Why can't the group reserve River Park's covered room today?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "PICNIC OPTIONS: Cedar Park is a fifteen-minute walk from school. It has covered tables but no toilet. River Park is a twenty-five-minute walk away. It has toilets and open picnic tables without a roof. Both parks allow groups to bring lunch.\n\nGROUP NEEDS: The class has ninety minutes between leaving school and returning. Lunch and reading together require forty minutes. Their teacher needs a nearby toilet. The weather forecast mentions possible showers, so everyone must also have a rain plan.\n\nUPDATE: The library across the street from Cedar Park allows visitors to use its toilet. The library opens at eleven. The group leaves school at ten fifty. At River Park, a covered room can be reserved, but it is already fully booked today.\n\nThe class selects Cedar Park. They will stay at the covered tables if a shower starts. Before leaving, the teacher reminds them that the library toilet is an option only while the building is open, not a park facility available all day.",
+          "explanation": "10:50 出發，走十五分鐘到 11:05。",
+          "id": "d46-q6",
+          "options": [
+            "At 11:30.",
+            "At 11:05.",
+            "At 11:15.",
+            "At 10:50."
+          ],
+          "prompt": "When does the class reach Cedar Park?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "GROUP NEEDS: The class has ninety minutes between leaving school and returning. Lunch and reading together require forty minutes. Their teacher needs a nearby toilet. The weather forecast mentions possible showers, so everyone must also have a rain plan.",
+          "explanation": "用來表達午餐與閱讀所需時間。",
+          "id": "d46-q7",
+          "options": [
+            "Return.",
+            "Cancel.",
+            "Need.",
+            "Borrow."
+          ],
+          "prompt": "What does 'require' mean in the group needs?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "PICNIC OPTIONS: Cedar Park is a fifteen-minute walk from school. It has covered tables but no toilet. River Park is a twenty-five-minute walk away. It has toilets and open picnic tables without a roof. Both parks allow groups to bring lunch.\n\nGROUP NEEDS: The class has ninety minutes between leaving school and returning. Lunch and reading together require forty minutes. Their teacher needs a nearby toilet. The weather forecast mentions possible showers, so everyone must also have a rain plan.\n\nUPDATE: The library across the street from Cedar Park allows visitors to use its toilet. The library opens at eleven. The group leaves school at ten fifty. At River Park, a covered room can be reserved, but it is already fully booked today.\n\nThe class selects Cedar Park. They will stay at the covered tables if a shower starts. Before leaving, the teacher reminds them that the library toilet is an option only while the building is open, not a park facility available all day.",
+          "explanation": "到達時圖書館已開，Cedar 有遮蔽，總時間七十分鐘。",
+          "id": "d46-q8",
+          "options": [
+            "Cedar Park with the open library toilet.",
+            "Cedar Park before the library opens with no other toilet.",
+            "River Park using its fully booked room.",
+            "River Park with a guaranteed roof over its picnic tables."
+          ],
+          "prompt": "Which plan meets the toilet, shelter, and time needs today?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "The class selects Cedar Park. They will stay at the covered tables if a shower starts. Before leaving, the teacher reminds them that the library toilet is an option only while the building is open, not a park facility available all day.",
+          "explanation": "替代設備仍受開放時間限制，不能當全天可用。",
+          "id": "d46-q9",
+          "options": [
+            "The class must return after the library closes.",
+            "An alternative facility has conditions that still matter.",
+            "A weather forecast guarantees sunshine.",
+            "The park owns the library toilet."
+          ],
+          "prompt": "Why does the teacher mention the library's hours again?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "PICNIC OPTIONS: Cedar Park is a fifteen-minute walk from school. It has covered tables but no toilet. River Park is a twenty-five-minute walk away. It has toilets and open picnic tables without a roof. Both parks allow groups to bring lunch.\n\nGROUP NEEDS: The class has ninety minutes between leaving school and returning. Lunch and reading together require forty minutes. Their teacher needs a nearby toilet. The weather forecast mentions possible showers, so everyone must also have a rain plan.\n\nUPDATE: The library across the street from Cedar Park allows visitors to use its toilet. The library opens at eleven. The group leaves school at ten fifty. At River Park, a covered room can be reserved, but it is already fully booked today.\n\nThe class selects Cedar Park. They will stay at the covered tables if a shower starts. Before leaving, the teacher reminds them that the library toilet is an option only while the building is open, not a park facility available all day.",
+      "title": "Boss: Reading Picnic Routes",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "It has covered tables but no toilet.",
+          "meaning": "有遮蔽的",
+          "word": "covered"
+        },
+        {
+          "example": "Lunch and reading together require forty minutes.",
+          "meaning": "需要",
+          "word": "require"
+        },
+        {
+          "example": "Their teacher needs a nearby toilet.",
+          "meaning": "附近的",
+          "word": "nearby"
+        },
+        {
+          "example": "The weather forecast mentions possible showers, so everyone must also have a rain plan.",
+          "meaning": "預報",
+          "word": "forecast"
+        },
+        {
+          "example": "At River Park, a covered room can be reserved, but it is already fully booked today.",
+          "meaning": "預約的",
+          "word": "reserved"
+        }
+      ]
+    }
+  ]
+}

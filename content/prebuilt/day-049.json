@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-20",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 49,
+      "goal": "依地址與聯絡方式處理誤送物件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "到……時",
+          "phrase": "by the time"
+        },
+        {
+          "meaning": "遠離",
+          "phrase": "away from"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "A parcel arrives while Theo is helping his grandmother at home. The label shows their building number, but the apartment number is 5B. They live in 5A. The delivery person has already gone downstairs by the time Theo notices the difference.",
+          "explanation": "外標寫 5B，他們住 5A。",
+          "id": "d49-q1",
+          "options": [
+            "The grandmother's old home.",
+            "Apartment 5B.",
+            "Apartment 5A.",
+            "The company office."
+          ],
+          "prompt": "Where should the parcel have gone?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Theo wants to open the parcel to find a phone number inside. His grandmother suggests reading the outside label again. It includes the receiver's name and a number for the delivery company. Opening another person's parcel is not needed to report a wrong address.",
+          "explanation": "外標有配送公司電話，他們打給公司。",
+          "id": "d49-q2",
+          "options": [
+            "A shop inside the parcel.",
+            "The delivery company.",
+            "The school office.",
+            "The building painter."
+          ],
+          "prompt": "Whom do Theo and his grandmother call?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "They call the company and explain the two apartment numbers. The company asks them to keep the parcel unopened until a driver returns. Theo puts it on a dry shelf inside their home, away from the door where someone might trip.",
+          "explanation": "文中明說門口可能讓人絆倒。",
+          "id": "d49-q3",
+          "options": [
+            "To make it easier to open.",
+            "To change its apartment number.",
+            "To prevent someone from tripping.",
+            "To hide it from the driver."
+          ],
+          "prompt": "Why is the parcel placed away from the door?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "They call the company and explain the two apartment numbers. The company asks them to keep the parcel unopened until a driver returns. Theo puts it on a dry shelf inside their home, away from the door where someone might trip.",
+          "explanation": "公司要求保持原封不動直到司機取件。",
+          "id": "d49-q4",
+          "options": [
+            "Returned without a receipt.",
+            "Missing its outside label.",
+            "Already checked inside.",
+            "Still closed as delivered."
+          ],
+          "prompt": "What does 'unopened' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A parcel arrives while Theo is helping his grandmother at home. The label shows their building number, but the apartment number is 5B. They live in 5A. The delivery person has already gone downstairs by the time Theo notices the difference.\n\nTheo wants to open the parcel to find a phone number inside. His grandmother suggests reading the outside label again. It includes the receiver's name and a number for the delivery company. Opening another person's parcel is not needed to report a wrong address.\n\nThey call the company and explain the two apartment numbers. The company asks them to keep the parcel unopened until a driver returns. Theo puts it on a dry shelf inside their home, away from the door where someone might trip.\n\nAn hour later, the driver collects it and gives them a receipt. Theo's grandmother keeps that receipt until the neighbor confirms receiving the parcel. Checking a small detail has prevented a much larger mix-up.",
+          "explanation": "依各段事件順序核對可得正確流程。",
+          "id": "d49-q5",
+          "options": [
+            "Open the parcel, change the label, call the neighbor, discard the receipt.",
+            "Check the label, call the company, keep the parcel closed, receive a receipt.",
+            "Move the parcel outside, open it, then read the label.",
+            "Give it to any visitor before contacting the company."
+          ],
+          "prompt": "Which sequence follows the story?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "A parcel arrives while Theo is helping his grandmother at home. The label shows their building number, but the apartment number is 5B. They live in 5A. The delivery person has already gone downstairs by the time Theo notices the difference.\n\nTheo wants to open the parcel to find a phone number inside. His grandmother suggests reading the outside label again. It includes the receiver's name and a number for the delivery company. Opening another person's parcel is not needed to report a wrong address.\n\nThey call the company and explain the two apartment numbers. The company asks them to keep the parcel unopened until a driver returns. Theo puts it on a dry shelf inside their home, away from the door where someone might trip.\n\nAn hour later, the driver collects it and gives them a receipt. Theo's grandmother keeps that receipt until the neighbor confirms receiving the parcel. Checking a small detail has prevented a much larger mix-up.",
+          "explanation": "核對外標並聯络配送公司完成處理。",
+          "id": "d49-q6",
+          "options": [
+            "Careful checking and contact through the proper service.",
+            "Keeping the parcel without reporting it.",
+            "Guessing what is inside the box.",
+            "Changing the address to match Theo's home."
+          ],
+          "prompt": "What solves the delivery problem?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "A parcel arrives while Theo is helping his grandmother at home. The label shows their building number, but the apartment number is 5B. They live in 5A. The delivery person has already gone downstairs by the time Theo notices the difference.\n\nTheo wants to open the parcel to find a phone number inside. His grandmother suggests reading the outside label again. It includes the receiver's name and a number for the delivery company. Opening another person's parcel is not needed to report a wrong address.\n\nThey call the company and explain the two apartment numbers. The company asks them to keep the parcel unopened until a driver returns. Theo puts it on a dry shelf inside their home, away from the door where someone might trip.\n\nAn hour later, the driver collects it and gives them a receipt. Theo's grandmother keeps that receipt until the neighbor confirms receiving the parcel. Checking a small detail has prevented a much larger mix-up.",
+      "title": "A Parcel for the Next Door",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "A parcel arrives while Theo is helping his grandmother at home.",
+          "meaning": "包裹",
+          "word": "parcel"
+        },
+        {
+          "example": "The label shows their building number, but the apartment number is 5B.",
+          "meaning": "公寓戶別",
+          "word": "apartment"
+        },
+        {
+          "example": "It includes the receiver's name and a number for the delivery company.",
+          "meaning": "收件人",
+          "word": "receiver"
+        },
+        {
+          "example": "The company asks them to keep the parcel unopened until a driver returns.",
+          "meaning": "未拆封的",
+          "word": "unopened"
+        },
+        {
+          "example": "Theo's grandmother keeps that receipt until the neighbor confirms receiving the parcel.",
+          "meaning": "確認",
+          "word": "confirms"
+        }
+      ]
+    }
+  ]
+}

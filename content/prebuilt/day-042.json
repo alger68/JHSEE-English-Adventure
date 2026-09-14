@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-10-13",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 42,
+      "goal": "從消費紀錄核對金額，判斷退換條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在她回家途中",
+          "phrase": "on her way home"
+        },
+        {
+          "meaning": "購買證明",
+          "phrase": "proof of purchase"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "On her way home, Nora buys a notebook for sixty dollars and a pen for twenty. She pays with a hundred-dollar note. The cashier gives her ten dollars in change and puts the receipt inside the notebook before serving the next customer.",
+          "explanation": "她只買筆記本與筆。",
+          "id": "d42-q1",
+          "options": [
+            "Only a notebook.",
+            "A notebook and a gift bag.",
+            "A pen and two gift bags.",
+            "A notebook and a pen."
+          ],
+          "prompt": "What did Nora actually buy?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The cashier checks the items and apologizes. The bag was left on the screen from a canceled purchase. He removes that charge and returns ten dollars to Nora. She thanks him for explaining what happened.",
+          "explanation": "收銀員說前一筆取消交易的項目留在畫面上。",
+          "id": "d42-q2",
+          "options": [
+            "It remained from a canceled purchase.",
+            "The bag came free with the pen.",
+            "The notebook price included it.",
+            "Nora asked for wrapping."
+          ],
+          "prompt": "Why did the receipt include a gift bag?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Nora notices the problem outside the shop. She checks the prices on the receipt before returning to the counter. It lists one notebook, one pen, and a ten-dollar gift bag. She did not buy or receive a gift bag.",
+          "explanation": "收據列出項目，可找出多收哪一筆。",
+          "id": "d42-q3",
+          "options": [
+            "It tells her the cashier's home address.",
+            "It proves the notebook has no printing errors.",
+            "It can show exactly how the total was calculated.",
+            "It guarantees every item can be returned forever."
+          ],
+          "prompt": "Why does Nora check the receipt before complaining?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The cashier checks the items and apologizes. The bag was left on the screen from a canceled purchase. He removes that charge and returns ten dollars to Nora. She thanks him for explaining what happened.",
+          "explanation": "移除的 charge 是十元袋子費用。",
+          "id": "d42-q4",
+          "options": [
+            "A place to keep notebooks.",
+            "An amount of money requested.",
+            "A promise to open a shop.",
+            "A way to repair a pen."
+          ],
+          "prompt": "What does 'charge' mean in this story?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "On her way home, Nora buys a notebook for sixty dollars and a pen for twenty. She pays with a hundred-dollar note. The cashier gives her ten dollars in change and puts the receipt inside the notebook before serving the next customer.\n\nNora notices the problem outside the shop. She checks the prices on the receipt before returning to the counter. It lists one notebook, one pen, and a ten-dollar gift bag. She did not buy or receive a gift bag.\n\nThe cashier checks the items and apologizes. The bag was left on the screen from a canceled purchase. He removes that charge and returns ten dollars to Nora. She thanks him for explaining what happened.\n\nAt home, Nora keeps the receipt for a week because the notebook has a return policy for printing problems. The store accepts such returns within seven days, but only if the customer shows proof of purchase.",
+          "explanation": "100－60－20＝20，先十元再補十元。",
+          "id": "d42-q5",
+          "options": [
+            "Forty dollars.",
+            "Ten dollars.",
+            "Thirty dollars.",
+            "Twenty dollars."
+          ],
+          "prompt": "How much change should Nora receive in total?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "At home, Nora keeps the receipt for a week because the notebook has a return policy for printing problems. The store accepts such returns within seven days, but only if the customer shows proof of purchase.",
+          "explanation": "最後一段要求七日內並提供購買證明。",
+          "id": "d42-q6",
+          "options": [
+            "Paying another ten dollars to the cashier.",
+            "Returning any time without a receipt.",
+            "Returning within seven days with proof of purchase.",
+            "Showing an unused gift bag after a month."
+          ],
+          "prompt": "What would allow a return for a printing problem?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "On her way home, Nora buys a notebook for sixty dollars and a pen for twenty. She pays with a hundred-dollar note. The cashier gives her ten dollars in change and puts the receipt inside the notebook before serving the next customer.\n\nNora notices the problem outside the shop. She checks the prices on the receipt before returning to the counter. It lists one notebook, one pen, and a ten-dollar gift bag. She did not buy or receive a gift bag.\n\nThe cashier checks the items and apologizes. The bag was left on the screen from a canceled purchase. He removes that charge and returns ten dollars to Nora. She thanks him for explaining what happened.\n\nAt home, Nora keeps the receipt for a week because the notebook has a return policy for printing problems. The store accepts such returns within seven days, but only if the customer shows proof of purchase.",
+      "title": "The Receipt in the Pocket",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "The cashier gives her ten dollars in change and puts the receipt inside the notebook before serving the next customer.",
+          "meaning": "收據",
+          "word": "receipt"
+        },
+        {
+          "example": "The cashier gives her ten dollars in change and puts the receipt inside the notebook before serving the next customer.",
+          "meaning": "找零",
+          "word": "change"
+        },
+        {
+          "example": "He removes that charge and returns ten dollars to Nora.",
+          "meaning": "收費",
+          "word": "charge"
+        },
+        {
+          "example": "He removes that charge and returns ten dollars to Nora.",
+          "meaning": "退回",
+          "word": "returns"
+        },
+        {
+          "example": "The store accepts such returns within seven days, but only if the customer shows proof of purchase.",
+          "meaning": "證明",
+          "word": "proof"
+        }
+      ]
+    }
+  ]
+}
