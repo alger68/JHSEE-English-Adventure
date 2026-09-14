@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-18",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 17,
+      "title": "Borrow It, Bring It Back",
+      "goal": "從公告判讀借用期限、責任與例外。",
+      "story": "CLASSROOM TOOL SHELF\n\nOur class now shares rulers, scissors, and colored pencils. You may borrow one item at a time. Write your name, the item, and the borrowing time in the blue notebook. Return the item before the last class of the same day begins.\n\nIf an item is damaged, tell Ms. Chen before returning it. Do not place it back without a note. Reporting damage does not automatically mean you must pay for it. Ms. Chen will first find out what happened.\n\nThe shelf is closed during lunch because the room is used for quiet reading. Tools needed after lunch must be borrowed earlier or after the reading period ends.\n\nFor a project lasting several days, ask Ms. Chen for permission before taking anything home. A friend cannot give you that permission. The shared tools belong to the whole class.",
+      "words": [
+        {
+          "word": "borrow",
+          "meaning": "借入",
+          "example": "May I borrow a ruler?"
+        },
+        {
+          "word": "return",
+          "meaning": "歸還",
+          "example": "Return the scissors before class."
+        },
+        {
+          "word": "damaged",
+          "meaning": "損壞的",
+          "example": "Tell the teacher about the damaged tool."
+        },
+        {
+          "word": "permission",
+          "meaning": "許可",
+          "example": "Ask for permission before taking it home."
+        },
+        {
+          "word": "belong",
+          "meaning": "屬於",
+          "example": "These tools belong to the class."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "at a time",
+          "meaning": "一次"
+        },
+        {
+          "phrase": "find out",
+          "meaning": "查明；弄清楚"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "Where must students record a borrowed item?",
+          "options": [
+            "On the classroom door.",
+            "In the blue notebook.",
+            "In a private phone message.",
+            "On the item’s price tag."
+          ],
+          "explanation": "借用者、物品與時間都登記在藍色筆記本。",
+          "evidence": "Write your name, the item, and the borrowing time in the blue notebook.",
+          "reasons": [
+            "不是門上。",
+            "原文 blue notebook。",
+            "不是私人訊息。",
+            "沒有價格標籤登記法。"
+          ],
+          "id": "d17-q1",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "When is an ordinary same-day loan due?",
+          "options": [
+            "Before the last class begins.",
+            "At the end of the week.",
+            "After everyone goes home.",
+            "Before lunch begins."
+          ],
+          "explanation": "期限是當日最後一節開始前，不能誤讀成最後一節結束。",
+          "evidence": "Return the item before the last class of the same day begins.",
+          "reasons": [
+            "精確保留 begins。",
+            "不是週末。",
+            "放學後已超過期限。",
+            "午餐不是一般歸還期限。"
+          ],
+          "id": "d17-q2",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why is the shelf closed at lunchtime?",
+          "options": [
+            "Ms. Chen sells the tools at lunch.",
+            "The tools are taken to another school.",
+            "Borrowing tools could interrupt quiet reading.",
+            "Students must clean every tool then."
+          ],
+          "explanation": "午餐時教室用於安靜閱讀，停止借用可減少干擾。",
+          "evidence": "The shelf is closed during lunch because the room is used for quiet reading.",
+          "reasons": [
+            "不是販售時間。",
+            "沒有移到別校。",
+            "公告的明確因果支持此解釋。",
+            "沒有要求午餐全面清潔。"
+          ],
+          "id": "d17-q3",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “permission” mean here?",
+          "options": [
+            "Approval to do something.",
+            "Time spent on a project.",
+            "Money used to buy something.",
+            "A list of broken tools."
+          ],
+          "explanation": "要先問老師能否帶回家，因此是許可。",
+          "evidence": "For a project lasting several days, ask Ms. Chen for permission before taking anything home.",
+          "reasons": [
+            "問老師准不准帶走。",
+            "不是時間長度。",
+            "不是買工具的錢。",
+            "不是損壞清單。"
+          ],
+          "id": "d17-q4",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "A student wants to take scissors home for two days. What should the student do?",
+          "options": [
+            "Write a name and take them without asking.",
+            "Get permission from any friend.",
+            "Ask Ms. Chen before taking them.",
+            "Wait until lunch and take them quietly."
+          ],
+          "explanation": "多日專案帶回家須由老師同意，一般登記不能取代許可。",
+          "evidence": "A friend cannot give you that permission.",
+          "reasons": [
+            "登記不等於批准外借。",
+            "公告明確否定朋友的許可。",
+            "符合前句先詢問老師的規定。",
+            "午餐關閉，且偷偷取走不符規定。"
+          ],
+          "id": "d17-q5",
+          "answer": 2,
+          "tier": 2
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "What can students conclude about reporting damage?",
+          "options": [
+            "A friend decides who pays for repairs.",
+            "Every report requires immediate payment.",
+            "No damaged item ever needs to be reported.",
+            "The teacher will check the situation before deciding responsibility."
+          ],
+          "explanation": "通報不代表立刻賠償，但也不是保證免責；老師會先查明。",
+          "evidence": "Reporting damage does not automatically mean you must pay for it. Ms. Chen will first find out what happened.",
+          "reasons": [
+            "決定者不是朋友。",
+            "automatically 被否定。",
+            "必須先告知老師。",
+            "符合先查明再處理。"
+          ],
+          "id": "d17-q6",
+          "answer": 3,
+          "tier": 3
+        }
+      ],
+      "type": "公告／資訊閱讀",
+      "minutes": 10
+    }
+  ]
+}

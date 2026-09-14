@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-29",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 28,
+      "title": "The Bigger Bag Is Not the Better Deal",
+      "goal": "比較總價、單價與真正需求。",
+      "story": "Yuri is buying apples for a small family picnic. She needs six apples, one for each person. At the shop, a six-apple bag costs $90. A larger bag holds ten apples and costs $160. All the apples are the same size and kind.\n\nA bright sign above the larger bags says “Family Pack.” Yuri first reaches for one because a bigger package often looks like a better deal. Then she checks the price per apple. In the small bag, each apple costs $15. In the large bag, each costs $16.\n\nHer father asks which bag fits their plan. Yuri chooses the small one. It costs less per apple and provides exactly the number they need. She keeps the $70 difference for another purchase. A package name can catch the eye, she thinks, but it cannot do the calculation for you.",
+      "words": [
+        {
+          "word": "cost",
+          "meaning": "花費；價格為",
+          "example": "The small bag costs ninety dollars."
+        },
+        {
+          "word": "package",
+          "meaning": "包裝；一包",
+          "example": "Read the number on the package."
+        },
+        {
+          "word": "provide",
+          "meaning": "提供",
+          "example": "Six apples provide one for each person."
+        },
+        {
+          "word": "exactly",
+          "meaning": "恰好；精確地",
+          "example": "We need exactly six apples."
+        },
+        {
+          "word": "calculation",
+          "meaning": "計算",
+          "example": "Check the calculation before paying."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "per apple",
+          "meaning": "每顆蘋果"
+        },
+        {
+          "phrase": "catch the eye",
+          "meaning": "吸引目光"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How many apples does the picnic need?",
+          "options": [
+            "Ten.",
+            "Fifteen.",
+            "Six.",
+            "Sixteen."
+          ],
+          "explanation": "六人每人一顆，共六顆。",
+          "evidence": "She needs six apples, one for each person.",
+          "reasons": [
+            "十是大袋顆數。",
+            "十五是小袋單價。",
+            "原文 six apples。",
+            "十六是大袋單價。"
+          ],
+          "id": "d28-q1",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "What is the price of the larger bag?",
+          "options": [
+            "$90.",
+            "$160.",
+            "$16.",
+            "$70."
+          ],
+          "explanation": "大袋十顆總價一百六十元。",
+          "evidence": "A larger bag holds ten apples and costs $160.",
+          "reasons": [
+            "九十是小袋。",
+            "直接對應總價。",
+            "十六是大袋單顆價。",
+            "七十是兩袋價差。"
+          ],
+          "id": "d28-q2",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does the family-pack sign first attract Yuri?",
+          "options": [
+            "It says the apples are free.",
+            "It guarantees that every apple is larger.",
+            "She associates a bigger package with better value.",
+            "She needs apples for ten people."
+          ],
+          "explanation": "她直覺把大包裝和划算連結，後來才核對。",
+          "evidence": "a bigger package often looks like a better deal.",
+          "reasons": [
+            "沒有免費。",
+            "題文明說大小相同。",
+            "符合她起初的判斷。",
+            "她只需六人份。"
+          ],
+          "id": "d28-q3",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “exactly” mean in this passage?",
+          "options": [
+            "Different every time it is counted.",
+            "Almost enough but a little short.",
+            "No more and no less than needed.",
+            "Much more than everyone can use."
+          ],
+          "explanation": "六顆剛好供六人，數量不多不少。",
+          "evidence": "It costs less per apple and provides exactly the number they need.",
+          "reasons": [
+            "不是變動。",
+            "不是不足。",
+            "與實際需求完全相同。",
+            "不是過量。"
+          ],
+          "id": "d28-q4",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "Which comparison is correct?",
+          "options": [
+            "The small bag is $70 cheaper per apple.",
+            "Both bags have the same price per apple.",
+            "The large bag is $1 cheaper per apple.",
+            "The small bag is $1 cheaper per apple."
+          ],
+          "explanation": "大袋16元、小袋15元，單顆差1元；70是整袋價差。",
+          "evidence": "In the small bag, each apple costs $15. In the large bag, each costs $16.",
+          "reasons": [
+            "混淆總價與單價。",
+            "單價不同。",
+            "方向顛倒。",
+            "16−15＝1，小袋較便宜。"
+          ],
+          "id": "d28-q5",
+          "answer": 3,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "Which advice best matches the story?",
+          "options": [
+            "Judge prices only by package names.",
+            "Compare unit prices and needed quantities before choosing.",
+            "Buy the package with the brightest sign.",
+            "Always buy more food than a plan requires."
+          ],
+          "explanation": "Yuri 同時計算單價並檢查需要顆數，兩者都支持小袋。",
+          "evidence": "A package name can catch the eye, she thinks, but it cannot do the calculation for you.",
+          "reasons": [
+            "名稱不能取代計算。",
+            "涵蓋價格計算與需求。",
+            "亮眼不代表便宜。",
+            "故事不是鼓勵過量。"
+          ],
+          "id": "d28-q6",
+          "answer": 1,
+          "tier": 3
+        }
+      ],
+      "type": "日常生活",
+      "minutes": 10
+    }
+  ]
+}

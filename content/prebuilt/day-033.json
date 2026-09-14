@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-10-04",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 33,
+      "title": "The Recipe Card Repair",
+      "goal": "在新情境中複習份量、食材、確認與價格用語。",
+      "story": "For Sunday review, Tess makes a pretend café menu for her younger cousin. She writes five words on separate cards: portion, cost, confirm, recipe, and ingredient. Her cousin must match each word to a short situation.\n\nOne situation shows a list of steps for making soup. He selects ingredient because he sees vegetables in the picture. Tess asks him to read the words beside the picture. The clue describes the whole set of instructions, so he changes his choice to recipe.\n\nNext, a server asks a customer to repeat an order before sending it to the kitchen. Her cousin chooses confirm and explains that the server is checking the details.\n\nBefore finishing, they write a new clue for portion without drawing any food. Tomorrow, Tess will hide the five cards and ask him to supply the words himself. Pictures can help, but the written clues still matter.",
+      "words": [
+        {
+          "word": "portion",
+          "meaning": "一份的量",
+          "example": "Each portion fills one small bowl."
+        },
+        {
+          "word": "cost",
+          "meaning": "花費；價格為",
+          "example": "The meal costs fifty dollars."
+        },
+        {
+          "word": "confirm",
+          "meaning": "確認",
+          "example": "Confirm the order before sending it."
+        },
+        {
+          "word": "recipe",
+          "meaning": "食譜；製作方法",
+          "example": "Follow the steps in the recipe."
+        },
+        {
+          "word": "ingredient",
+          "meaning": "食材",
+          "example": "Carrots are one ingredient in the soup."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "match A to B",
+          "meaning": "將A與B配對"
+        },
+        {
+          "phrase": "a set of instructions",
+          "meaning": "一套指示"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How many word cards does Tess prepare?",
+          "options": [
+            "Two.",
+            "Four.",
+            "Six.",
+            "Five."
+          ],
+          "explanation": "列出五個詞，各寫一張卡。",
+          "evidence": "She writes five words on separate cards: portion, cost, confirm, recipe, and ingredient.",
+          "reasons": [
+            "兩個是本篇詳述的情境數，不是卡數。",
+            "不是四張。",
+            "沒有第六個詞。",
+            "原文明說five。"
+          ],
+          "id": "d33-q1",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does the cousin first choose ingredient?",
+          "options": [
+            "The situation asks for the price of the soup.",
+            "He relies on the vegetables in the picture.",
+            "He has already read every written step carefully.",
+            "Tess has told him that recipe is never useful."
+          ],
+          "explanation": "第一次依圖中的蔬菜猜，忽略線索指整份製作步驟。",
+          "evidence": "He selects ingredient because he sees vegetables in the picture.",
+          "reasons": [
+            "情境是做湯步驟，不是價格。",
+            "because直接說明理由。",
+            "後來才被要求重讀文字。",
+            "Tess沒有排除recipe。"
+          ],
+          "id": "d33-q2",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "Which action represents confirm in the second situation?",
+          "options": [
+            "Choosing a vegetable from a picture.",
+            "Checking an order by asking the customer to repeat it.",
+            "Writing the total price on a bill.",
+            "Putting an equal amount of soup in each bowl."
+          ],
+          "explanation": "請顧客複述以查核訂單，對應confirm。",
+          "evidence": "a server asks a customer to repeat an order before sending it to the kitchen.",
+          "reasons": [
+            "這是選食材的線索。",
+            "重複核對細節。",
+            "這較接近cost。",
+            "這較接近portion。"
+          ],
+          "id": "d33-q3",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “supply” mean near the end?",
+          "options": [
+            "Pay for the cards before leaving.",
+            "Draw vegetables beside every answer.",
+            "Provide the missing words from memory.",
+            "Deliver soup to the café tables."
+          ],
+          "explanation": "藏起詞卡再請他補出單字，supply是提供所缺答案。",
+          "evidence": "ask him to supply the words himself.",
+          "reasons": [
+            "不是購買卡片。",
+            "新線索刻意不用食物圖。",
+            "語境是自行說出或寫出詞。",
+            "不是實際送湯。"
+          ],
+          "id": "d33-q4",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why will Tess hide the cards tomorrow?",
+          "options": [
+            "To remove every written clue from the activity.",
+            "To check whether her cousin can recall words without seeing choices.",
+            "To prevent her cousin from ever using the words again.",
+            "To make the soup recipe shorter."
+          ],
+          "explanation": "不看選項自行填詞，檢查是否真能回想。",
+          "evidence": "Tomorrow, Tess will hide the five cards and ask him to supply the words himself.",
+          "reasons": [
+            "藏的是詞卡，不是所有情境線索。",
+            "由選詞配對進到主動回想。",
+            "目的是再次使用詞彙。",
+            "沒有修改食譜。"
+          ],
+          "id": "d33-q5",
+          "answer": 1,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "What is the best summary of this review?",
+          "options": [
+            "Learn only words that name visible vegetables.",
+            "Use written evidence, explain choices, and practise recalling words.",
+            "Trust a picture even when the written clue says something different.",
+            "Keep the answer cards visible in every future exercise."
+          ],
+          "explanation": "先辨認文字線索、說明理由，再隔天遮答案回想。",
+          "evidence": "Pictures can help, but the written clues still matter.",
+          "reasons": [
+            "五詞並非全是蔬菜名稱。",
+            "涵蓋全文三個步驟。",
+            "文中正示範修正單靠圖片的判斷。",
+            "最後安排藏起卡片。"
+          ],
+          "id": "d33-q6",
+          "answer": 1,
+          "tier": 3
+        }
+      ],
+      "type": "單字與錯題復活",
+      "minutes": 10
+    }
+  ]
+}

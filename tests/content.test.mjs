@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {validateContent,loadContent} from '../scripts/content.mjs';
+import './prebuilt.test.mjs';
 const root=new URL('../',import.meta.url).pathname;
 const seed={filename:'week-01.json',data:JSON.parse(fs.readFileSync(new URL('../content/week-01.json',import.meta.url),'utf8'))};
 const daily={filename:'daily/2026-09-09.json',data:JSON.parse(fs.readFileSync(new URL('./fixtures/day-008.json',import.meta.url),'utf8'))};

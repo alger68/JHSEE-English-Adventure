@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-15",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 14,
+      "title": "Two Loaves at the Door",
+      "goal": "分辨重複配送、原訂數量與負責處理。",
+      "story": "On Tuesdays, Leo usually collects a loaf of bread for his grandmother. Today, a delivery worker leaves two bags outside her door. Each bag holds one loaf and a note with the same order number. Grandmother paid for only one loaf.\n\nLeo wants to open both bags because he is hungry. His grandmother asks him to check the order first. He calls the bakery and reads the number aloud. The baker checks her list and explains that a new worker packed the order twice.\n\nShe asks Leo to keep one bag sealed. A worker will collect it before four. Leo puts it on a shelf away from the lunch table. When the worker arrives, Leo hands it back. His grandmother cuts their own loaf, and they share it with some soup.",
+      "words": [
+        {
+          "word": "collect",
+          "meaning": "領取；收取",
+          "example": "Leo collects bread for his grandmother."
+        },
+        {
+          "word": "order",
+          "meaning": "訂單",
+          "example": "The order contains one loaf."
+        },
+        {
+          "word": "check",
+          "meaning": "核對；檢查",
+          "example": "Please check the number on the bag."
+        },
+        {
+          "word": "sealed",
+          "meaning": "密封的；未拆封的",
+          "example": "The sealed bag is still closed."
+        },
+        {
+          "word": "shelf",
+          "meaning": "架子",
+          "example": "Put the bag on the shelf."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "read aloud",
+          "meaning": "大聲讀出"
+        },
+        {
+          "phrase": "hand back",
+          "meaning": "交還"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How much bread did Grandmother order?",
+          "options": [
+            "Three loaves.",
+            "No bread.",
+            "One loaf.",
+            "Two loaves."
+          ],
+          "explanation": "祖母只付了一條麵包的錢。",
+          "evidence": "Grandmother paid for only one loaf.",
+          "reasons": [
+            "沒有三條。",
+            "她確實有訂麵包。",
+            "原文 only one loaf。",
+            "兩條是實際誤送數量。"
+          ],
+          "id": "d14-q1",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "What information does Leo give the bakery?",
+          "options": [
+            "The order number.",
+            "The price of the soup.",
+            "His grandmother’s age.",
+            "The worker’s home address."
+          ],
+          "explanation": "他讀出袋上訂單號碼來查核。",
+          "evidence": "He calls the bakery and reads the number aloud.",
+          "reasons": [
+            "前文說袋上有相同訂單號碼。",
+            "湯在最後才出現。",
+            "沒有詢問年齡。",
+            "沒有工人的住址。"
+          ],
+          "id": "d14-q2",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does Leo put one bag away from the lunch table?",
+          "options": [
+            "To hide all the bread from Grandmother.",
+            "To prepare another delivery order.",
+            "To keep it unopened for collection.",
+            "To let the bread cool in the soup."
+          ],
+          "explanation": "店家要求保留密封，他把袋子分開以免當午餐拆開。",
+          "evidence": "She asks Leo to keep one bag sealed. A worker will collect it before four.",
+          "reasons": [
+            "另一條仍和祖母分享。",
+            "Leo 不是在出貨。",
+            "與保留密封、等候收回一致。",
+            "沒有將麵包放入湯中降溫。"
+          ],
+          "id": "d14-q3",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “sealed” mean here?",
+          "options": [
+            "Not opened.",
+            "Very expensive.",
+            "Written by hand.",
+            "Already eaten."
+          ],
+          "explanation": "袋子要等工作人員取回，sealed 指維持未拆封。",
+          "evidence": "She asks Leo to keep one bag sealed.",
+          "reasons": [
+            "與暫時不拆袋的情境一致。",
+            "不是描述價格。",
+            "不是描述書寫方式。",
+            "吃完不能交回完整袋子。"
+          ],
+          "id": "d14-q4",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "What best shows that the second loaf was a packing mistake?",
+          "options": [
+            "Grandmother has soup for lunch.",
+            "Leo collects bread every Tuesday.",
+            "A worker arrives before four.",
+            "The bakery confirms that one order was packed twice."
+          ],
+          "explanation": "相同訂單號碼提供線索；店家核對後確認重複包裝，證據最直接。",
+          "evidence": "The baker checks her list and explains that a new worker packed the order twice.",
+          "reasons": [
+            "午餐內容與訂單無關。",
+            "固定收麵包不能證明多包。",
+            "取回時間本身不說明成因。",
+            "店家核對紀錄後明確確認。"
+          ],
+          "id": "d14-q5",
+          "answer": 3,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "What is the main lesson of Leo’s experience?",
+          "options": [
+            "Finish lunch before calling a shop.",
+            "Never accept bread from a new worker.",
+            "Always order extra food for visitors.",
+            "Check an unexpected delivery before using it."
+          ],
+          "explanation": "全文重點是先確認多收到的東西，再依店家說明處理。",
+          "evidence": "His grandmother asks him to check the order first.",
+          "reasons": [
+            "他先打電話才吃午餐。",
+            "不能因一次失誤否定所有新員工。",
+            "不是鼓勵額外訂餐。",
+            "涵蓋發現、查核與歸還。"
+          ],
+          "id": "d14-q6",
+          "answer": 3,
+          "tier": 3
+        }
+      ],
+      "type": "日常生活",
+      "minutes": 10
+    }
+  ]
+}

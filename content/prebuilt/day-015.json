@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-16",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 15,
+      "title": "The Photo We Can Share",
+      "goal": "從對話中辨識同意範圍與最後決定。",
+      "story": "Mia: I have a great photo of our class garden. Can I put it on the school website?\nOwen: Does it show anyone’s face?\nMia: Yes. You and Sara are standing beside the flowers.\nOwen: I am happy for you to share my picture, but please ask Sara too.\nMia: I asked her to join the photo yesterday. Isn’t that enough?\nOwen: Joining a photo and putting it online are different choices.\nSara: Thanks for checking. I don’t want my face on a public website. Could you use the photo of the flowers alone?\nMia: Sure. I can choose that one instead and keep this picture in our private class folder.\nSara: That works for me. Please also leave our names out of the public post.\nMia: Okay. The post will describe the garden, not the students.",
+      "words": [
+        {
+          "word": "share",
+          "meaning": "分享",
+          "example": "Ask before you share someone’s picture."
+        },
+        {
+          "word": "public",
+          "meaning": "公開的",
+          "example": "Anyone can read the public post."
+        },
+        {
+          "word": "private",
+          "meaning": "私人的；非公開的",
+          "example": "The class uses a private folder."
+        },
+        {
+          "word": "instead",
+          "meaning": "改用；代替",
+          "example": "We can use the flower photo instead."
+        },
+        {
+          "word": "describe",
+          "meaning": "描述",
+          "example": "The post will describe the garden."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "leave out",
+          "meaning": "省略；不包含"
+        },
+        {
+          "phrase": "be happy to",
+          "meaning": "樂意……"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "Where does Mia first want to put the photo?",
+          "options": [
+            "On the school website.",
+            "Inside a science textbook.",
+            "On a bakery door.",
+            "In a garden shop window."
+          ],
+          "explanation": "開頭 Mia 明確詢問能否放上學校網站。",
+          "evidence": "Can I put it on the school website?",
+          "reasons": [
+            "原文明說 school website。",
+            "沒有教科書用途。",
+            "沒有麵包店。",
+            "不是花店櫥窗。"
+          ],
+          "id": "d15-q1",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "Which photo will the public post use?",
+          "options": [
+            "The photo of Mia’s family.",
+            "The photo of the flowers alone.",
+            "The photo of the private folder.",
+            "The photo of Owen and Sara beside the flowers."
+          ],
+          "explanation": "Sara 提議只用花的照片，Mia 同意。",
+          "evidence": "Could you use the photo of the flowers alone?",
+          "reasons": [
+            "沒有 Mia 家人照片。",
+            "下一句 Mia 回覆同意選這張。",
+            "資料夾不是照片主題。",
+            "這張將留在班級私人資料夾。"
+          ],
+          "id": "d15-q2",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does Owen ask Mia to check with Sara?",
+          "options": [
+            "Sara owns the school website.",
+            "Owen dislikes every garden photo.",
+            "Sara should decide how her own picture is used.",
+            "Mia has forgotten where the garden is."
+          ],
+          "explanation": "Owen 區分參與拍照和同意公開的選擇，不能替 Sara 決定。",
+          "evidence": "Joining a photo and putting it online are different choices.",
+          "reasons": [
+            "沒有說 Sara 擁有網站。",
+            "他同意分享自己的照片。",
+            "兩種選擇各自需要確認。",
+            "地點不是對話問題。"
+          ],
+          "id": "d15-q3",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “private” mean in “private class folder”?",
+          "options": [
+            "Filled only with flowers.",
+            "Not open to everyone.",
+            "Removed from every computer.",
+            "Printed on thick paper."
+          ],
+          "explanation": "private 和前面的 public 相對，指限制存取的班級資料夾。",
+          "evidence": "I can choose that one instead and keep this picture in our private class folder.",
+          "reasons": [
+            "不表示只能存花照。",
+            "與 public 的公開範圍相對。",
+            "keep 表示保留，不是全部刪除。",
+            "資料夾不是紙張材質。"
+          ],
+          "id": "d15-q4",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "Which plan follows both of Sara’s requests for the public post?",
+          "options": [
+            "Show both faces and all the names.",
+            "Show only flowers and omit the students’ names.",
+            "Show Sara’s face without her name.",
+            "Show only flowers and add Sara’s name."
+          ],
+          "explanation": "需同時滿足不露臉與不列姓名，不能只滿足一項。",
+          "evidence": "Please also leave our names out of the public post.",
+          "reasons": [
+            "兩項都違反。",
+            "同時滿足前後兩項要求。",
+            "仍公開她的臉。",
+            "違反不列姓名。"
+          ],
+          "id": "d15-q5",
+          "answer": 1,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "What is the conversation mainly about?",
+          "options": [
+            "Choosing a new name for a website.",
+            "Agreeing on a suitable way to share a photo.",
+            "Learning how to grow larger flowers.",
+            "Explaining how to delete a class folder."
+          ],
+          "explanation": "對話從是否上傳談到照片與姓名的取捨，重點是共享方式的共識。",
+          "evidence": "The post will describe the garden, not the students.",
+          "reasons": [
+            "沒有替網站命名。",
+            "涵蓋不同意見及最後方案。",
+            "沒有種花教學。",
+            "沒有刪除資料夾。"
+          ],
+          "id": "d15-q6",
+          "answer": 1,
+          "tier": 3
+        }
+      ],
+      "type": "對話／訊息",
+      "minutes": 10
+    }
+  ]
+}

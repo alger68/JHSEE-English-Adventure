@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-17",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 16,
+      "title": "A Fair Test Needs a Record",
+      "goal": "區分實驗觀察、推測與紀錄的限制。",
+      "story": "Nora’s science group wants to compare two paper towels. They pour ten spoonfuls of water onto a tray and use one sheet to soak it up. Then they repeat the test with the other brand.\n\nThe first towel leaves one spoonful on the tray. The second leaves three. Nora writes these numbers in a table. Her partner says, “Let’s write zero for our favorite brand. It will look better.”\n\nNora refuses. A useful record shows what happened, not what the group hoped would happen. She also notices that their sheets have different sizes. Perhaps the larger towel takes up more water simply because it is larger.\n\nThey decide to test equal-sized pieces next time. For now, their report includes the measured amounts and the size difference. It does not name one brand as the winner.",
+      "words": [
+        {
+          "word": "compare",
+          "meaning": "比較",
+          "example": "We compare two kinds of paper towels."
+        },
+        {
+          "word": "repeat",
+          "meaning": "重複",
+          "example": "Repeat the test with clean water."
+        },
+        {
+          "word": "record",
+          "meaning": "紀錄",
+          "example": "A useful record includes the real numbers."
+        },
+        {
+          "word": "refuse",
+          "meaning": "拒絕",
+          "example": "Nora refuses to change the result."
+        },
+        {
+          "word": "measured",
+          "meaning": "測量所得的",
+          "example": "Write down the measured amounts."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "soak up",
+          "meaning": "吸收（水分）"
+        },
+        {
+          "phrase": "for now",
+          "meaning": "目前；暫時"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How much water remains after the second towel is used?",
+          "options": [
+            "Ten spoonfuls.",
+            "Three spoonfuls.",
+            "Zero spoonfuls.",
+            "One spoonful."
+          ],
+          "explanation": "第二款留下三匙；一匙是第一款結果。",
+          "evidence": "The first towel leaves one spoonful on the tray. The second leaves three.",
+          "reasons": [
+            "十匙是每次起始水量。",
+            "直接對應 second leaves three。",
+            "零是夥伴想捏造的數字。",
+            "這是第一款。"
+          ],
+          "id": "d16-q1",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "What difference does Nora notice between the sheets?",
+          "options": [
+            "Their sizes are different.",
+            "Their colors change in water.",
+            "Both have holes in the center.",
+            "One is made of cloth."
+          ],
+          "explanation": "Nora 注意到尺寸不同。",
+          "evidence": "She also notices that their sheets have different sizes.",
+          "reasons": [
+            "直接對應 different sizes。",
+            "未描述變色。",
+            "未描述破洞。",
+            "兩款都是紙巾。"
+          ],
+          "id": "d16-q2",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does the group avoid naming a winning brand?",
+          "options": [
+            "Both towels leave the same amount of water.",
+            "The group forgets every measurement.",
+            "The favorite brand has no name.",
+            "Sheet size may affect the result."
+          ],
+          "explanation": "尺寸差異可能解釋吸水量，不宜僅靠本次測試判定品牌優劣。",
+          "evidence": "Perhaps the larger towel takes up more water simply because it is larger.",
+          "reasons": [
+            "殘水量為一與三，並不相同。",
+            "Nora 已記下測量值。",
+            "沒有品牌無名的情節。",
+            "把可能影響結果的其他因素納入判斷。"
+          ],
+          "id": "d16-q3",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “record” mean in this passage?",
+          "options": [
+            "Written information about the test.",
+            "A piece of music for the group.",
+            "A new brand of paper towel.",
+            "A prize for the fastest student."
+          ],
+          "explanation": "上下文是表格與報告，record 指記下的實驗資料。",
+          "evidence": "A useful record shows what happened, not what the group hoped would happen.",
+          "reasons": [
+            "對應紀錄實際發生的事。",
+            "不是唱片。",
+            "不是品牌。",
+            "不是速度紀錄或獎品。"
+          ],
+          "id": "d16-q4",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "How much water does the first towel take up in this test?",
+          "options": [
+            "Seven spoonfuls.",
+            "Nine spoonfuls.",
+            "One spoonful.",
+            "Eleven spoonfuls."
+          ],
+          "explanation": "起始十匙、殘留一匙，吸走十減一等於九匙。",
+          "evidence": "They pour ten spoonfuls of water onto a tray and use one sheet to soak it up.",
+          "reasons": [
+            "七匙是第二款吸水量。",
+            "10−1＝9。",
+            "一匙是殘留水。",
+            "十一匙超過起始水量。"
+          ],
+          "id": "d16-q5",
+          "answer": 1,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "Which statement best matches Nora’s approach?",
+          "options": [
+            "Ignore all measurements until every test is perfect.",
+            "Change weak results to support a favorite choice.",
+            "Use larger pieces only for the favorite brand.",
+            "Report the real results and explain what limits the comparison."
+          ],
+          "explanation": "Nora 同時保留實測值並交代尺寸差異，並非隱藏資料。",
+          "evidence": "For now, their report includes the measured amounts and the size difference.",
+          "reasons": [
+            "她仍寫報告。",
+            "這是她拒絕的作法。",
+            "下次要用同尺寸，不偏袒品牌。",
+            "同時包含誠實紀錄與限制說明。"
+          ],
+          "id": "d16-q6",
+          "answer": 3,
+          "tier": 3
+        }
+      ],
+      "type": "科普閱讀",
+      "minutes": 10
+    }
+  ]
+}

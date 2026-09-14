@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-21",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 20,
+      "title": "The Ten-Minute Gap",
+      "goal": "讀懂時間順序，判斷短空檔適合完成的任務。",
+      "story": "After school, Eva has ten minutes before her bus leaves. She usually spends them looking through short videos. By evening, she often feels that she has no time for English.\n\nOn Monday, her teacher gives the class a small experiment: choose one short task for a waiting period. Eva puts five word cards in her bag. At the bus stop, she looks at each English word, recalls its meaning, and checks the back. She keeps the difficult cards at the front for another try.\n\nShe does not try to finish all her homework there. A noisy bus stop is not a good place for every task. At home, she uses her desk for longer reading. After a week, Eva still has busy evenings, but she no longer thinks every waiting minute must be wasted.",
+      "words": [
+        {
+          "word": "gap",
+          "meaning": "空檔；間隔",
+          "example": "I have a short gap before the next class."
+        },
+        {
+          "word": "recall",
+          "meaning": "回想起",
+          "example": "Try to recall the meaning before checking."
+        },
+        {
+          "word": "difficult",
+          "meaning": "困難的",
+          "example": "Keep the difficult cards for another try."
+        },
+        {
+          "word": "noisy",
+          "meaning": "吵雜的",
+          "example": "The bus stop is noisy after school."
+        },
+        {
+          "word": "waste",
+          "meaning": "浪費",
+          "example": "I do not want to waste the waiting time."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "look through",
+          "meaning": "瀏覽"
+        },
+        {
+          "phrase": "at the front",
+          "meaning": "在前面"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How long does Eva wait for her bus?",
+          "options": [
+            "Ten minutes.",
+            "Five minutes.",
+            "An hour.",
+            "A whole evening."
+          ],
+          "explanation": "放學後到公車離開有十分鐘。",
+          "evidence": "After school, Eva has ten minutes before her bus leaves.",
+          "reasons": [
+            "原文 ten minutes。",
+            "五是字卡張數。",
+            "沒有等一小時。",
+            "晚間是另一個學習時段。"
+          ],
+          "id": "d20-q1",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "What does Eva do before checking a card’s back?",
+          "options": [
+            "She asks the driver for an answer.",
+            "She plays a short video.",
+            "She writes all her homework.",
+            "She tries to remember the word’s meaning."
+          ],
+          "explanation": "她先主動回想詞義，再看背面核對。",
+          "evidence": "At the bus stop, she looks at each English word, recalls its meaning, and checks the back.",
+          "reasons": [
+            "沒有詢問司機。",
+            "這是以前常做的事。",
+            "她不在站牌完成全部功課。",
+            "保留 recalls 在 checks 之前。"
+          ],
+          "id": "d20-q2",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does Eva do longer reading at home?",
+          "options": [
+            "Reading is forbidden on all buses.",
+            "Her teacher collects every card at the bus stop.",
+            "Her desk is better suited to a task needing more attention.",
+            "She has no books at school."
+          ],
+          "explanation": "她指出站牌很吵並把長閱讀留到書桌，支持環境與任務配合的推論。",
+          "evidence": "A noisy bus stop is not a good place for every task. At home, she uses her desk for longer reading.",
+          "reasons": [
+            "文中沒有禁止閱讀的規定。",
+            "沒有老師收卡片。",
+            "兩句對比任務與環境。",
+            "未提沒有書。"
+          ],
+          "id": "d20-q3",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “recalls” mean here?",
+          "options": [
+            "Writes in a different color.",
+            "Brings back to mind.",
+            "Says in a louder voice.",
+            "Puts inside a bag."
+          ],
+          "explanation": "先看英文、回想意思、再翻卡，recalls 是從記憶提取。",
+          "evidence": "she looks at each English word, recalls its meaning, and checks the back.",
+          "reasons": [
+            "不是換顏色寫。",
+            "符合先回想再確認的流程。",
+            "不是音量。",
+            "不是收進包裡。"
+          ],
+          "id": "d20-q4",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "Which plan best follows Eva’s method?",
+          "options": [
+            "Check each answer before trying to remember it.",
+            "Remove every difficult card after the first mistake.",
+            "Use waiting time for cards and quiet desk time for longer reading.",
+            "Do every task at the bus stop to keep evenings completely free."
+          ],
+          "explanation": "短任務利用空檔，長任務選安靜地點；難字則保留重試。",
+          "evidence": "She keeps the difficult cards at the front for another try.",
+          "reasons": [
+            "顛倒回想與看答案順序。",
+            "她把難字留在前面，不移除。",
+            "整合不同時段與難字重試安排。",
+            "她仍有忙碌的晚上。"
+          ],
+          "id": "d20-q5",
+          "answer": 2,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "What is the main idea?",
+          "options": [
+            "All homework becomes easy after one week.",
+            "Students should stop using buses.",
+            "A small gap can be useful when the task fits it.",
+            "Watching videos always improves reading."
+          ],
+          "explanation": "文章沒有保證所有作業變簡單，而是讓適合的小任務利用零碎時間。",
+          "evidence": "she no longer thinks every waiting minute must be wasted.",
+          "reasons": [
+            "她晚間仍忙。",
+            "沒有建議停搭公車。",
+            "涵蓋空檔與任務匹配。",
+            "影片是舊習慣，非改進方法。"
+          ],
+          "id": "d20-q6",
+          "answer": 2,
+          "tier": 3
+        }
+      ],
+      "type": "校園故事",
+      "minutes": 10
+    }
+  ]
+}

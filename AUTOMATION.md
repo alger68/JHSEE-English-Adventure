@@ -7,6 +7,7 @@
 - 正式日更網站：https://alger68.github.io/JHSEE-English-Adventure/
 - 種子內容：`content/week-01.json`（Day 1–7）
 - 日更目錄：`content/daily/`
+- 預備題庫：`content/prebuilt/day-NNN.json`。這些是已寫好的候用教材，`plannedPublishDate` 只表示預定日期，**不是已發布日期**。仍須經下列日更流程逐日新增到日更目錄。
 - 檔名：`content/daily/YYYY-MM-DD.json`，日期必須使用本次執行當下的 **Asia/Taipei** 日期。
 - 原有 ChatGPT 排程保持每天台灣時間 20:00；排程時間是開始處理時間，發布還需等內容產生與驗證。
 - 前端 `data.js` 與 `dist/` 為產物。日更任務只寫上述日期檔，Actions 建置時會重新產生最新網站內容；不需要日更任務改寫大型 `data.js`。
@@ -17,7 +18,7 @@
 2. 取得台灣當日日期，檢查當日檔案是否已存在。若存在，讀取並使用它；不再建立另一個 Day，不改寫已成功發布的內容。相同日期的重複執行只能對應同一個檔案。
 3. 檢查最近的 Actions 結果。若之前有尚未成功發布的日更檔造成驗證失敗，優先依錯誤修復該日更檔，最多修復一次。禁止藉由修改／刪除驗證程式、測試、工作流程或舊課程來使檢查通過。不能安全修復時，停止新增並通知使用者。
 4. 當日檔案不存在時，讀取所有種子週檔的 Day 編號，以及最近日更檔；確認最後 Day 與前後順序，再以最大 Day + 1 新增。日期目錄最多只有 243 份日更 JSON，可列出全部檔名，再讀最近 7 份文章避免重複。不得重設為 Day 1，不得因漏跑而用今天的內容偽造過去日期。達到 Day 250 後不再新增，通知使用者課程已滿 250 天。
-5. 按當日的實際星期編写原創 120–180 字短文及完整題目，符合下面格式。沿用國三可讀、約 10 分鐘、先作答再揭曉答案的原則。週日可複習最近文章的字詞，學生的個人錯題仍在其瀏覽器，不能聲稱讀到他的錯題或分數。
+5. **先檢查下一個 Day 的預備題庫，再決定是否生成。** 例如下一天為 Day 13，讀取 `content/prebuilt/day-013.json`；不得只因本機沒下載就視為不存在。若此檔存在，確認其 Day 恰為下一天、`plannedPublishDate` 等於台灣當日日期、主題符合實際星期；取出完整 `lessons`，包成 `{ "version": 2, "publishDate": "台灣當日日期", "lessons": [...] }`。保留所有題目、ID、選項順序、答案、解析、原文證據和 `reasons`；不改寫預備檔，也不重新生成同一課。若日期／順序不合、來源校驗失敗或無法讀取，停止並報告需要調整排程，不回填過去日期、不跳號、不換用另一篇規避失敗。只有確認下一個 Day **沒有**預備檔時，才按當日實際星期編寫原創 120–180 字短文及完整題目。沿用國三可讀、約 10 分鐘、先作答再揭曉答案的原則。週日可複習近期教材，但不能聲稱讀到學生瀏覽器裡的個人錯題或分數。
 6. 檢查 JSON、字數、日期、Day／題目 ID、選項唯一性及每题唯一最佳答案。每個 `evidence` 必須是本篇故事內的一段連續原文，不能用省略號拼接不同句子。確認解析真的支持所選答案。程式檢查只能攔截結構錯誤，語意與答案仍須逐題自行覆核。
 7. 用 GitHub 的 `create_file` 在 `main` 新增 **一個**當日 JSON 檔。提交訊息：`Add daily English lesson YYYY-MM-DD (Day N)`。不要開新分支或建立第二套排程。寫入超時或衝突時先重讀同一路徑確認結果，不盲目新增其他檔名。若必須修復尚未發布的當日檔，用讀到的最新 blob SHA 執行 `update_file`。
 8. 保存回傳的 commit SHA，找到此 SHA 對應的 `Validate and publish English Adventure` Actions run。確認 `build` 與 `deploy` **兩個 job 都是 success**，不能把只有 build 成功、deploy skipped 當成發布成功。一般等待 2–3 分鐘足夠，狀態未完成時如實說明，禁止宣稱已上線。
@@ -73,8 +74,11 @@
 
 ## 驗證與網站更新
 
-- `node --test tests/core.test.cjs tests/content.test.mjs`
+- `node --test tests/core.test.cjs tests/content.test.mjs tests/exams.test.cjs`
+- `node scripts/prebuilt.mjs --check`（檢查預備批次；不發布）
 - `node scripts/build.mjs`
+
+若有本機執行環境，`node scripts/prebuilt.mjs --release` 可依執行當下的台灣日期輸出下一篇待建立檔的路徑與 JSON；此命令只輸出，**不寫檔、不提交、不發布**。實際新增仍依第 7 步與部署查核辦理。預備題庫不會被網站建置直接收錄，詳見 [PREBUILT_BANK.md](PREBUILT_BANK.md)。GitHub Actions 本身只在推送或手動執行時啟動，不是另一個每日排程；本次不建立新排程。
 
 驗證會攔截：Day 重複／缺號、同名或相同文章、日期與檔名不一致、星期主題不符、字數超限、缺少字詞、選項重複、答案索引錯誤、難度題數不足、偵探題缺漏、原文找不到的證據。
 

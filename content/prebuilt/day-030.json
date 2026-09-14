@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-10-01",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 30,
+      "title": "Same Juice, Different Labels",
+      "goal": "分辨產品名稱、盲測資料與樣本限制。",
+      "story": "For a class project, Bella pours apple juice from one carton into two identical cups. She marks one “New Recipe” and the other “Regular Recipe.” Five classmates taste both without seeing the carton. Three choose the new recipe, one chooses the regular recipe, and one says they taste the same.\n\nAfter the tasting, Bella reveals that both cups contain the same juice. Her classmates are surprised. She explains that this small activity cannot tell them exactly why each person chose a cup. The label may have influenced a choice, but chance or the order of tasting could also matter.\n\nNext time, Bella plans to use simple letter labels and change which cup people taste first. Her report includes all five responses, including “the same.” She does not claim to have discovered a new, better juice.",
+      "words": [
+        {
+          "word": "identical",
+          "meaning": "完全相同的",
+          "example": "Use two identical cups."
+        },
+        {
+          "word": "recipe",
+          "meaning": "配方；食譜",
+          "example": "The label says New Recipe."
+        },
+        {
+          "word": "reveal",
+          "meaning": "揭露",
+          "example": "Bella reveals the source of the juice."
+        },
+        {
+          "word": "influence",
+          "meaning": "影響",
+          "example": "A label may influence a choice."
+        },
+        {
+          "word": "response",
+          "meaning": "回應",
+          "example": "Record every response in the report."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "by chance",
+          "meaning": "偶然；碰巧"
+        },
+        {
+          "phrase": "taste the same",
+          "meaning": "嚐起來相同"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "Where does the juice in both cups come from?",
+          "options": [
+            "Two new fruit recipes.",
+            "Five classmates’ bottles.",
+            "One carton.",
+            "Two different shops."
+          ],
+          "explanation": "兩杯均從同一盒蘋果汁倒出。",
+          "evidence": "Bella pours apple juice from one carton into two identical cups.",
+          "reasons": [
+            "標籤不同不代表配方不同。",
+            "五是參與學生數。",
+            "同一carton。",
+            "沒有不同店鋪。"
+          ],
+          "id": "d30-q1",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "How many classmates choose the New Recipe cup?",
+          "options": [
+            "Four.",
+            "Three.",
+            "Five.",
+            "One."
+          ],
+          "explanation": "三人選new，一人regular，一人一樣。",
+          "evidence": "Three choose the new recipe, one chooses the regular recipe, and one says they taste the same.",
+          "reasons": [
+            "四是有選偏好杯的人總數。",
+            "直接對應three。",
+            "五是全部參加者。",
+            "一人是其他各組。"
+          ],
+          "id": "d30-q2",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does Bella avoid saying the label caused every choice?",
+          "options": [
+            "Everyone chose the same cup.",
+            "She forgot which label said New Recipe.",
+            "The carton contains no juice.",
+            "Other explanations are possible in this small activity."
+          ],
+          "explanation": "她列出偶然、品嚐順序等其他可能，不可單憑小活動斷定。",
+          "evidence": "chance or the order of tasting could also matter.",
+          "reasons": [
+            "三、一、一並非同選。",
+            "沒有遺忘標籤。",
+            "兩杯確實有果汁。",
+            "保留多種解釋。"
+          ],
+          "id": "d30-q3",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “reveals” mean here?",
+          "options": [
+            "Makes previously hidden information known.",
+            "Refuses to answer a question.",
+            "Changes the flavor of a drink.",
+            "Pours juice into a new carton."
+          ],
+          "explanation": "大家不知道同源，Bella告知之後驚訝，reveals指揭露。",
+          "evidence": "After the tasting, Bella reveals that both cups contain the same juice.",
+          "reasons": [
+            "揭露先前未知的真相。",
+            "她明確告知，不拒答。",
+            "沒有改變果汁。",
+            "不是重新倒裝。"
+          ],
+          "id": "d30-q4",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "What should a complete results table show?",
+          "options": [
+            "New: 1; Regular: 3; Same: 1.",
+            "New: 3; Regular: 2; Same: 0.",
+            "New: 3; Regular: 1; Same: 1.",
+            "New: 5; Regular: 0; Same: 0."
+          ],
+          "explanation": "不得把「一樣」併入另一組或省略，應保存全部五份回應。",
+          "evidence": "Her report includes all five responses, including “the same.”",
+          "reasons": [
+            "new和regular人數反了。",
+            "錯把一樣併入regular。",
+            "與前段三、一、一一致。",
+            "錯稱全選new。"
+          ],
+          "id": "d30-q5",
+          "answer": 2,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "Which conclusion fits the activity best?",
+          "options": [
+            "The new juice is proven to be better for every person.",
+            "Different labels accompanied different preferences, but the cause is not settled.",
+            "Any answer other than New Recipe should be removed.",
+            "Letter labels will guarantee identical answers next time."
+          ],
+          "explanation": "標籤與選擇一起被觀察到，不代表已證明因果或產品優劣。",
+          "evidence": "She does not claim to have discovered a new, better juice.",
+          "reasons": [
+            "同一果汁且小樣本不支持全面優劣。",
+            "區分觀察與尚未確定的原因。",
+            "須保留所有反應。",
+            "改設計也不能保證答案一致。"
+          ],
+          "id": "d30-q6",
+          "answer": 1,
+          "tier": 3
+        }
+      ],
+      "type": "科普閱讀",
+      "minutes": 10
+    }
+  ]
+}

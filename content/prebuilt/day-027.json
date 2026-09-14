@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-28",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 27,
+      "title": "One Bowl, Twelve Cups",
+      "goal": "分辨容器容量、供應份量與公平分配。",
+      "story": "At the class food fair, Mina brings a large bowl of fruit salad. Twelve students want to try it. A sign beside the bowl says “One cup for each visitor.” Mina expects the salad to fill twelve small cups.\n\nThe first visitor picks up a large drinking cup and prepares to fill it. Mina stops him to explain the intended portion. The sign does not explain which cup to use, and several kinds are sitting on the table.\n\nShe places twelve matching small cups beside the bowl and adds a drawing of one to the sign. A classmate moves the large cups to the water table.\n\nNow each visitor gets a similar portion. Mina learns that a rule can sound clear while leaving an important detail unstated. Next time, she will show the serving cup before the fair begins.",
+      "words": [
+        {
+          "word": "visitor",
+          "meaning": "訪客",
+          "example": "Each visitor gets one small cup."
+        },
+        {
+          "word": "expect",
+          "meaning": "預期",
+          "example": "We expect twelve visitors."
+        },
+        {
+          "word": "matching",
+          "meaning": "相同款式的；相配的",
+          "example": "Use matching cups for equal servings."
+        },
+        {
+          "word": "portion",
+          "meaning": "一份的量",
+          "example": "Each portion fits in a small cup."
+        },
+        {
+          "word": "detail",
+          "meaning": "細節",
+          "example": "The size of the cup is an important detail."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "fill to the top",
+          "meaning": "裝到滿"
+        },
+        {
+          "phrase": "beside the bowl",
+          "meaning": "在碗旁邊"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How many students want to try the fruit salad?",
+          "options": [
+            "Twelve.",
+            "Six.",
+            "One.",
+            "Twenty."
+          ],
+          "explanation": "有十二位學生想試吃。",
+          "evidence": "Twelve students want to try it.",
+          "reasons": [
+            "直接對應 twelve。",
+            "沒有六人。",
+            "一是每位限量杯數。",
+            "沒有二十人。"
+          ],
+          "id": "d27-q1",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "What is missing from the first sign?",
+          "options": [
+            "A list of all twelve visitors.",
+            "Which size or kind of cup to use.",
+            "The name of the school principal.",
+            "The time of the next water break."
+          ],
+          "explanation": "公告寫一杯，卻未指定是哪一種杯子。",
+          "evidence": "The sign does not explain which cup to use, and several kinds are sitting on the table.",
+          "reasons": [
+            "不需列名才知道份量。",
+            "文中直接指出問題。",
+            "校長姓名與規則無關。",
+            "不是休息時間。"
+          ],
+          "id": "d27-q2",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does the classmate move the large cups?",
+          "options": [
+            "To stop everyone from drinking water.",
+            "To make it easier to choose the intended serving cup.",
+            "To count how many students are absent.",
+            "To make the fruit bowl larger."
+          ],
+          "explanation": "大杯移到水桌可減少再拿錯的可能，不是加大食物。",
+          "evidence": "A classmate moves the large cups to the water table.",
+          "reasons": [
+            "水桌仍有杯子。",
+            "結合前句小杯集中，降低混淆。",
+            "沒有點名。",
+            "杯子搬動不改變碗大小。"
+          ],
+          "id": "d27-q3",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “portion” mean here?",
+          "options": [
+            "The time needed to make a sign.",
+            "The name written on a bowl.",
+            "A kind of classroom table.",
+            "An amount of food served to one person."
+          ],
+          "explanation": "每位得到類似的portion，指個人的分配份量。",
+          "evidence": "Now each visitor gets a similar portion.",
+          "reasons": [
+            "不是製牌時間。",
+            "不是碗上名字。",
+            "不是桌子種類。",
+            "食物分配情境支持份量。"
+          ],
+          "id": "d27-q4",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "Which pair of changes makes the rule easier to follow?",
+          "options": [
+            "A new fruit name and no cups on the table.",
+            "A larger bowl and a longer visitor list.",
+            "Different cups and no written rule.",
+            "Matching small cups and a drawing on the sign."
+          ],
+          "explanation": "同款小杯加圖示，同時改善物品選擇和文字規則。",
+          "evidence": "She places twelve matching small cups beside the bowl and adds a drawing of one to the sign.",
+          "reasons": [
+            "仍需杯子，沒有改水果名。",
+            "沒有換碗或加名單。",
+            "這會保留原先問題。",
+            "兩個改變都出自原文。"
+          ],
+          "id": "d27-q5",
+          "answer": 3,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "What does Mina learn?",
+          "options": [
+            "Every visitor deliberately breaks rules.",
+            "A drawing is useful only when no words are used.",
+            "Bigger cups always give fairer servings.",
+            "Instructions need to state important details, not just sound simple."
+          ],
+          "explanation": "原規則看似簡單，卻漏掉關鍵杯型，需要補足具體資訊。",
+          "evidence": "Mina learns that a rule can sound clear while leaving an important detail unstated.",
+          "reasons": [
+            "第一人可能只是誤解，不能推斷故意。",
+            "本例圖與字一起使用。",
+            "杯型不同可能分配不均。",
+            "對應作者明確歸納。"
+          ],
+          "id": "d27-q6",
+          "answer": 3,
+          "tier": 3
+        }
+      ],
+      "type": "校園故事",
+      "minutes": 10
+    }
+  ]
+}

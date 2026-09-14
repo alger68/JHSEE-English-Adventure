@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-10-06",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 35,
+      "title": "The Ticket for Two Rides",
+      "goal": "依實際搭乘次數比較票價，分辨確定與可能行程。",
+      "story": "On Tuesday, Hana and her father visit a nearby town. At the bus station, Hana compares two tickets for her own travel. A single ticket costs $40 and covers one ride. A day pass costs $90 and covers any number of rides until the last bus that evening. Tickets cannot be refunded.\n\nHer plan has two rides: from the station to the museum, and from the museum back to the station. She may also visit a riverside market, but she has not decided. That stop would require one additional ride.\n\nHana buys a single ticket for the first ride. At the museum, rain begins, and she decides not to visit the market. She buys another single ticket for the return journey.\n\nShe spends $80 altogether. A day pass would have cost less for three rides, but not for the two she actually takes.",
+      "words": [
+        {
+          "word": "compare",
+          "meaning": "比較",
+          "example": "Compare the two ticket prices."
+        },
+        {
+          "word": "cover",
+          "meaning": "涵蓋；包含",
+          "example": "One ticket covers one ride."
+        },
+        {
+          "word": "refund",
+          "meaning": "退款",
+          "example": "The ticket cannot be refunded."
+        },
+        {
+          "word": "additional",
+          "meaning": "額外的",
+          "example": "The market requires one additional ride."
+        },
+        {
+          "word": "journey",
+          "meaning": "旅程",
+          "example": "The return journey takes twenty minutes."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "any number of",
+          "meaning": "任意次數的"
+        },
+        {
+          "phrase": "return journey",
+          "meaning": "回程"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How much is a day pass?",
+          "options": [
+            "$80.",
+            "$90.",
+            "$120.",
+            "$40."
+          ],
+          "explanation": "一日票90元。",
+          "evidence": "A day pass costs $90 and covers any number of rides until the last bus that evening.",
+          "reasons": [
+            "80是兩次票總額。",
+            "原文90元。",
+            "120是三張單次票。",
+            "40是一張單次票。"
+          ],
+          "id": "d35-q1",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "Why does Hana skip the riverside market?",
+          "options": [
+            "The day pass has already been refunded.",
+            "The station has closed before noon.",
+            "Her father has used her second ticket.",
+            "Rain begins while she is at the museum."
+          ],
+          "explanation": "在博物館開始下雨，她因此不去市集。",
+          "evidence": "At the museum, rain begins, and she decides not to visit the market.",
+          "reasons": [
+            "她買的是單次票且不可退。",
+            "沒有車站提早關門。",
+            "沒有父親用票。",
+            "依事件順序可讀出原因。"
+          ],
+          "id": "d35-q2",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "What is Hana’s total spending on bus tickets?",
+          "options": [
+            "$80.",
+            "$90.",
+            "$40.",
+            "$130."
+          ],
+          "explanation": "兩張單次票，各40，共80。",
+          "evidence": "She spends $80 altogether.",
+          "reasons": [
+            "2×40＝80。",
+            "這是一日票價。",
+            "漏了回程票。",
+            "不是一日票再加單次票。"
+          ],
+          "id": "d35-q3",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “additional” mean in the second paragraph?",
+          "options": [
+            "Extra, beyond the two planned rides.",
+            "Free, with no ticket needed.",
+            "Shorter than the return journey.",
+            "Earlier than every other ride."
+          ],
+          "explanation": "市集站要在原先兩趟之外再加一趟。",
+          "evidence": "That stop would require one additional ride.",
+          "reasons": [
+            "表示新增一趟。",
+            "仍需買票，不代表免費。",
+            "沒有比較車程長短。",
+            "沒有指定比較早。"
+          ],
+          "id": "d35-q4",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "If Hana had taken three rides that day, how much would a day pass have saved compared with three single tickets?",
+          "options": [
+            "$40.",
+            "$10.",
+            "$50.",
+            "$30."
+          ],
+          "explanation": "三張單次票120，一日票90，差30元。",
+          "evidence": "A single ticket costs $40 and covers one ride.",
+          "reasons": [
+            "40只是一張單次票價。",
+            "10是兩次票與一日票的價差。",
+            "50是90與一張40的差，不是三次比較。",
+            "3×40−90＝30。"
+          ],
+          "id": "d35-q5",
+          "answer": 3,
+          "tier": 2
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Which statement is supported by the final comparison?",
+          "options": [
+            "Single tickets are always cheaper, even for three rides.",
+            "The cheaper choice depends on how many rides are actually taken.",
+            "An undecided stop must be counted as a completed journey.",
+            "A day pass is always cheaper, even for one ride."
+          ],
+          "explanation": "兩趟單次較便宜、三趟一日票較便宜，須配合實際次數。",
+          "evidence": "A day pass would have cost less for three rides, but not for the two she actually takes.",
+          "reasons": [
+            "三趟120大於90。",
+            "同時符合兩種次數的比較。",
+            "可能行程不等於實際搭乘。",
+            "一趟40小於90。"
+          ],
+          "id": "d35-q6",
+          "answer": 1,
+          "tier": 3
+        }
+      ],
+      "type": "日常生活",
+      "minutes": 10
+    }
+  ]
+}

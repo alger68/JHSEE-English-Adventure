@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-25",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 24,
+      "title": "Thirty Minutes in the Maker Room",
+      "goal": "讀懂預約、截止時間與最後使用時段。",
+      "story": "MAKER ROOM BOOKING\n\nThe maker room opens from 3:00 to 5:00 p.m. on weekdays. Each team may book one thirty-minute slot per day. Available starting times are 3:00, 3:30, 4:00, and 4:30. Cleaning is included in your slot, so leave the tables ready for the next team.\n\nBook by noon on the day before your visit. For a Monday visit, book by noon on Friday. A booking is complete only after you receive a confirmation message. Writing your name on a waiting list does not reserve a place.\n\nIf you arrive more than ten minutes late, the room manager may give your slot to a waiting team. Arriving late never moves the ending time. Bring your design on paper because the room computers are not available for drawing plans. You may use them only to control the machines.",
+      "words": [
+        {
+          "word": "book",
+          "meaning": "預約",
+          "example": "Book a slot before noon."
+        },
+        {
+          "word": "slot",
+          "meaning": "時段",
+          "example": "Each slot lasts thirty minutes."
+        },
+        {
+          "word": "confirmation",
+          "meaning": "確認",
+          "example": "Wait for a confirmation message."
+        },
+        {
+          "word": "reserve",
+          "meaning": "保留；預訂",
+          "example": "A waiting list does not reserve a place."
+        },
+        {
+          "word": "available",
+          "meaning": "可使用的",
+          "example": "The computers are available for machine control."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "by noon",
+          "meaning": "中午以前"
+        },
+        {
+          "phrase": "be included in",
+          "meaning": "包含在……之內"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How long is one team’s slot?",
+          "options": [
+            "Thirty minutes, including cleaning.",
+            "Ten minutes.",
+            "Thirty minutes, with extra cleaning time afterward.",
+            "Two hours."
+          ],
+          "explanation": "每組三十分鐘，清潔已包含在內。",
+          "evidence": "Cleaning is included in your slot, so leave the tables ready for the next team.",
+          "reasons": [
+            "連同前句每slot三十分鐘。",
+            "十分钟是遲到門檻。",
+            "不能额外占用下一組時間。",
+            "兩小時是全日開放長度。"
+          ],
+          "id": "d24-q1",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "What confirms a successful booking?",
+          "options": [
+            "Arriving at the room early.",
+            "Receiving a confirmation message.",
+            "Joining the waiting list.",
+            "Drawing a design at home."
+          ],
+          "explanation": "收到確認訊息後預約才成立。",
+          "evidence": "A booking is complete only after you receive a confirmation message.",
+          "reasons": [
+            "早到不是預約確認。",
+            "only after 明確列必要條件。",
+            "公告說候補不保留名額。",
+            "備好圖紙不等於訂成功。"
+          ],
+          "id": "d24-q2",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "When must a team book a Monday visit?",
+          "options": [
+            "At 3:00 p.m. on Monday.",
+            "By noon on Friday.",
+            "By noon on Sunday.",
+            "After receiving a Monday reminder."
+          ],
+          "explanation": "星期一使用的特別規則是週五中午前，不能套用一般前一天。",
+          "evidence": "For a Monday visit, book by noon on Friday.",
+          "reasons": [
+            "到現場才訂已過截止。",
+            "符合Monday的例外。",
+            "週日不符合特別規定。",
+            "沒有此提醒流程。"
+          ],
+          "id": "d24-q3",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “slot” mean in the notice?",
+          "options": [
+            "A period set aside for a team.",
+            "A message sent after cleaning.",
+            "A list of drawing materials.",
+            "A narrow hole in a machine."
+          ],
+          "explanation": "與開始時間及三十分鐘連用，slot 指預約時段。",
+          "evidence": "Each team may book one thirty-minute slot per day.",
+          "reasons": [
+            "上下文以時間描述。",
+            "不是訊息。",
+            "不是物品清單。",
+            "slot有孔槽義，但此處不是。"
+          ],
+          "id": "d24-q4",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "A team keeps its 4:00 slot but arrives at 4:08. When must it finish cleaning and leave?",
+          "options": [
+            "By 4:30.",
+            "By 4:40.",
+            "By 4:38.",
+            "By 5:00."
+          ],
+          "explanation": "遲到不順延結束時間，4:00開始的30分時段仍4:30結束。",
+          "evidence": "Arriving late never moves the ending time.",
+          "reasons": [
+            "4:00＋30分＝4:30。",
+            "把10分門檻當成延長。",
+            "錯從抵達才開始計30分。",
+            "5點是整間關門時間。"
+          ],
+          "id": "d24-q5",
+          "answer": 0,
+          "tier": 2
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Which action is allowed by the notice?",
+          "options": [
+            "Keep working after a slot ends if the team arrived late.",
+            "Book two slots for the same team on one day.",
+            "Bring a paper design and use a room computer to control a machine.",
+            "Use a room computer to draw the plan from the beginning."
+          ],
+          "explanation": "電腦限機器控制，圖稿需事先用紙帶來；其餘均違規。",
+          "evidence": "You may use them only to control the machines.",
+          "reasons": [
+            "遲到不延長時間。",
+            "每組每天僅一時段。",
+            "符合紙圖與機器控制用途。",
+            "公告不開放電腦繪圖。"
+          ],
+          "id": "d24-q6",
+          "answer": 2,
+          "tier": 3
+        }
+      ],
+      "type": "公告／資訊閱讀",
+      "minutes": 10
+    }
+  ]
+}

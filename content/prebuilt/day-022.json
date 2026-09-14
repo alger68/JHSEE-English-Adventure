@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-23",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 22,
+      "title": "Which Meeting Is the Final One?",
+      "goal": "辨識訊息更新後的時間、地点與人數。",
+      "story": "[Group chat: Poster team]\nMonday, 4:10 p.m.\nTina: Let’s meet in the library at four tomorrow. We can finish our poster before the school closes at five.\nRex: I have music practice until four fifteen. Can we start at four twenty?\nTina: That should work. We need about thirty minutes.\n\nMonday, 7:00 p.m.\nTina: Update: the library has a meeting tomorrow afternoon. We’ll use Room 203 instead. The starting time stays the same.\nRex: Got it. Four twenty in Room 203. I’ll bring the photos.\nLulu: I can’t arrive before four forty. Should you wait for me?\nTina: No. We’ll start with the photos. Please bring the title letters when you arrive.\nLulu: Okay. I’ll read this latest message again before leaving home.\nRex: Good idea. The first plan is still visible, but it is no longer the one we will follow.",
+      "words": [
+        {
+          "word": "update",
+          "meaning": "更新；最新消息",
+          "example": "Read the update before leaving."
+        },
+        {
+          "word": "arrive",
+          "meaning": "到達",
+          "example": "Lulu will arrive at four forty."
+        },
+        {
+          "word": "latest",
+          "meaning": "最新的",
+          "example": "Check the latest message."
+        },
+        {
+          "word": "visible",
+          "meaning": "看得見的",
+          "example": "The old plan is still visible."
+        },
+        {
+          "word": "follow",
+          "meaning": "遵循",
+          "example": "Which plan should we follow?"
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "stay the same",
+          "meaning": "保持不變"
+        },
+        {
+          "phrase": "no longer",
+          "meaning": "不再"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "Where will the team finally meet?",
+          "options": [
+            "In the library.",
+            "At Lulu’s home.",
+            "In Room 203.",
+            "In the music room."
+          ],
+          "explanation": "七點更新改到203教室。",
+          "evidence": "We’ll use Room 203 instead.",
+          "reasons": [
+            "這是初版地點，已改。",
+            "沒有在家開會。",
+            "最新更新指定此地。",
+            "Rex 練音樂不代表在音樂室開會。"
+          ],
+          "id": "d22-q1",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "What will Rex bring?",
+          "options": [
+            "Musical instruments for everyone.",
+            "The library keys.",
+            "The title letters.",
+            "The photos."
+          ],
+          "explanation": "Rex 說他會帶照片。",
+          "evidence": "I’ll bring the photos.",
+          "reasons": [
+            "沒有帶全組樂器。",
+            "沒有鑰匙。",
+            "字母是 Lulu 帶。",
+            "直接對應 photos。"
+          ],
+          "id": "d22-q2",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "What is the shortest possible gap between the meeting’s start and Lulu’s arrival?",
+          "options": [
+            "Thirty minutes.",
+            "Ten minutes.",
+            "Forty minutes.",
+            "Twenty minutes."
+          ],
+          "explanation": "16:20開始，Lulu最早16:40到，最短差20分。",
+          "evidence": "Lulu: I can’t arrive before four forty.",
+          "reasons": [
+            "可能較晚抵達，但不是最短時差。",
+            "16:30仍早於她能抵達的時間。",
+            "40是分鐘刻度，不是最短時差。",
+            "40−20＝20，這是最早抵達的時差。"
+          ],
+          "id": "d22-q3",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “latest” mean here?",
+          "options": [
+            "Longest in length.",
+            "Most recent.",
+            "First written.",
+            "Most difficult."
+          ],
+          "explanation": "latest message 指更新之後最近一則有效訊息。",
+          "evidence": "I’ll read this latest message again before leaving home.",
+          "reasons": [
+            "不是字數最長。",
+            "與已過時的初版相對。",
+            "不是最早訊息。",
+            "不是難度最高。"
+          ],
+          "id": "d22-q4",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why won’t the team wait for Lulu?",
+          "options": [
+            "They can work on the photos before she brings the letters.",
+            "She is bringing the wrong materials.",
+            "The meeting has already been canceled.",
+            "They do not need a title anymore."
+          ],
+          "explanation": "Tina 把照片先做、字母後帶，讓分工配合不同抵達時間。",
+          "evidence": "We’ll start with the photos. Please bring the title letters when you arrive.",
+          "reasons": [
+            "分段工作使會議能先開始。",
+            "她帶的是指定材料。",
+            "會議只是改地點。",
+            "仍需標題字母。"
+          ],
+          "id": "d22-q5",
+          "answer": 0,
+          "tier": 2
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "Which summary contains the final plan?",
+          "options": [
+            "Start Tuesday at 4:40 in the library with the title letters.",
+            "Start Monday at 7:00 in the library with everyone.",
+            "Start Tuesday at 4:20 in Room 203, with Lulu joining later.",
+            "Start Tuesday at 4:00 in Room 203 and wait for Lulu."
+          ],
+          "explanation": "整合星期一說tomorrow、時間調整16:20、換教室及不等Lulu四個條件。",
+          "evidence": "The first plan is still visible, but it is no longer the one we will follow.",
+          "reasons": [
+            "地點及開始時間都錯。",
+            "七點是更新訊息時間。",
+            "四項條件都依最新對話。",
+            "四點是原時間，且不等Lulu。"
+          ],
+          "id": "d22-q6",
+          "answer": 2,
+          "tier": 3
+        }
+      ],
+      "type": "對話／訊息",
+      "minutes": 10
+    }
+  ]
+}

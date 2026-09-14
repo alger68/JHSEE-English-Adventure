@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-20",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 19,
+      "title": "The Clue Card Exchange",
+      "goal": "回收本週字詞，練習用上下文說明答案。",
+      "story": "At Friday’s review club, each team receives five cards. The words are extra, sealed, private, permission, and receipt. Teams must match them with short situations, then explain their choices to another team.\n\nOne situation describes a bag that nobody has opened. Another describes a folder that only class members may see. Kim matches these with sealed and private. For a paper showing what a shop sold and how much it cost, she chooses receipt.\n\nHer partner places permission beside a situation about an extra chair. Kim asks him to find the person who allows an action. He cannot, so they exchange the cards and check again.\n\nThe teacher awards a point only when a team explains its clue. A quick guess is not enough. Before leaving, each student writes a new situation for one word without copying the original card.",
+      "words": [
+        {
+          "word": "extra",
+          "meaning": "額外的",
+          "example": "We need an extra chair."
+        },
+        {
+          "word": "sealed",
+          "meaning": "密封的",
+          "example": "The bag is sealed and unopened."
+        },
+        {
+          "word": "private",
+          "meaning": "非公開的",
+          "example": "Only our class can open the private folder."
+        },
+        {
+          "word": "permission",
+          "meaning": "許可",
+          "example": "Get permission before using the camera."
+        },
+        {
+          "word": "receipt",
+          "meaning": "收據",
+          "example": "The receipt shows what I paid."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "match with",
+          "meaning": "與……配對"
+        },
+        {
+          "phrase": "not enough",
+          "meaning": "還不夠"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How many word cards does each team receive?",
+          "options": [
+            "Ten.",
+            "Three.",
+            "Two.",
+            "Five."
+          ],
+          "explanation": "首段明確寫五張。",
+          "evidence": "At Friday’s review club, each team receives five cards.",
+          "reasons": [
+            "沒有十張。",
+            "三是文中先解釋的情境數，不是總卡數。",
+            "兩人不等於兩張卡。",
+            "原文 five cards。"
+          ],
+          "id": "d19-q1",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "Which word matches an unopened bag?",
+          "options": [
+            "Sealed.",
+            "Receipt.",
+            "Private.",
+            "Permission."
+          ],
+          "explanation": "未拆封的袋子對應 sealed。",
+          "evidence": "Kim matches these with sealed and private.",
+          "reasons": [
+            "前兩個情境依序是袋子未開、資料夾限制。",
+            "receipt 是購物證明。",
+            "private 對應班級資料夾。",
+            "permission 是許可。"
+          ],
+          "id": "d19-q2",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does Kim ask who allows an action?",
+          "options": [
+            "She needs a shop to print more receipts.",
+            "She is looking for a clue that supports “permission.”",
+            "She wants someone to open every private folder.",
+            "She thinks every card must contain a name."
+          ],
+          "explanation": "permission 需要准許行為的語境；額外椅子的情境沒有這種線索。",
+          "evidence": "Kim asks him to find the person who allows an action.",
+          "reasons": [
+            "沒有請商店列印。",
+            "用定義反查情境線索。",
+            "不是要求開資料夾。",
+            "不是所有單字都需人名。"
+          ],
+          "id": "d19-q3",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “receipt” mean in the passage?",
+          "options": [
+            "A card inviting someone to a club.",
+            "A label showing a student’s name.",
+            "A paper that records a shop purchase.",
+            "A note giving permission to leave."
+          ],
+          "explanation": "文中用售出品項與價格描述 receipt。",
+          "evidence": "For a paper showing what a shop sold and how much it cost, she chooses receipt.",
+          "reasons": [
+            "不是邀請函。",
+            "不是姓名標籤。",
+            "原文同時說明品項與價格。",
+            "不是准假單。"
+          ],
+          "id": "d19-q4",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "Which team earns a point under the teacher’s rule?",
+          "options": [
+            "A team that guesses correctly but gives no explanation.",
+            "A team that gives an answer and explains the matching clue.",
+            "A team that copies another team’s cards without checking.",
+            "A team that finishes first with no matches."
+          ],
+          "explanation": "得分條件是能解釋支持配對的線索，不是速度或幸運猜中。",
+          "evidence": "The teacher awards a point only when a team explains its clue.",
+          "reasons": [
+            "缺少必要解釋。",
+            "滿足解釋線索的條件。",
+            "抄寫不等於理解線索。",
+            "快不代表有配對與解釋。"
+          ],
+          "id": "d19-q5",
+          "answer": 1,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "What skill does the final task check?",
+          "options": [
+            "Using a word in a different meaningful situation.",
+            "Finding the shortest word on the list.",
+            "Remembering the exact shape of a card.",
+            "Copying the teacher’s handwriting."
+          ],
+          "explanation": "自己寫新情境且不能照抄，檢查是否能遷移使用單字。",
+          "evidence": "Before leaving, each student writes a new situation for one word without copying the original card.",
+          "reasons": [
+            "新情境需要理解詞義。",
+            "不是比字長。",
+            "沒有要求記卡片形狀。",
+            "禁止直接照抄。"
+          ],
+          "id": "d19-q6",
+          "answer": 0,
+          "tier": 3
+        }
+      ],
+      "type": "單字與錯題復活",
+      "minutes": 10
+    }
+  ]
+}

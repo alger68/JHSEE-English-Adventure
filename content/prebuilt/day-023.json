@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-24",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 23,
+      "title": "The Bell and the Puzzle",
+      "goal": "從實驗紀錄理解中斷、比較與證據限制。",
+      "story": "Mr. Wu gives two groups the same kind of word puzzle. Group A works in a quiet room. Group B works in another room, where a bell rings every two minutes. When it rings, those students must stop and write a number before continuing.\n\nGroup A finishes after eight minutes. Group B takes eleven. Several students in Group B say they need time to remember where they stopped. Mr. Wu asks whether the bell is the only possible reason for the difference.\n\nJudy points out that the groups contain different students. Some may already be better at word puzzles. The class plans another test with fresh puzzles of similar difficulty. Each group will try the other room.\n\nTheir first results suggest that interruptions may matter, but they do not prove that every short break makes every student slower.",
+      "words": [
+        {
+          "word": "puzzle",
+          "meaning": "謎題",
+          "example": "This word puzzle has ten clues."
+        },
+        {
+          "word": "continue",
+          "meaning": "繼續",
+          "example": "Continue after writing the number."
+        },
+        {
+          "word": "similar",
+          "meaning": "相似的",
+          "example": "Use puzzles of similar difficulty."
+        },
+        {
+          "word": "interruption",
+          "meaning": "中斷",
+          "example": "The bell causes an interruption."
+        },
+        {
+          "word": "prove",
+          "meaning": "證明",
+          "example": "One test cannot prove every claim."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "point out",
+          "meaning": "指出"
+        },
+        {
+          "phrase": "every two minutes",
+          "meaning": "每兩分鐘"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "What must Group B do when the bell rings?",
+          "options": [
+            "Stop and write a number.",
+            "Leave the building.",
+            "Exchange every answer.",
+            "Begin the whole puzzle again."
+          ],
+          "explanation": "鈴響時停下並寫數字，之後繼續。",
+          "evidence": "When it rings, those students must stop and write a number before continuing.",
+          "reasons": [
+            "符合指定動作。",
+            "沒有離開大樓。",
+            "沒有交換答案。",
+            "不是全部重來。"
+          ],
+          "id": "d23-q1",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "How much longer does Group B take?",
+          "options": [
+            "Three minutes.",
+            "Eight minutes.",
+            "Nineteen minutes.",
+            "Two minutes."
+          ],
+          "explanation": "十一分鐘減八分鐘，差三分鐘。",
+          "evidence": "Group A finishes after eight minutes. Group B takes eleven.",
+          "reasons": [
+            "11−8＝3。",
+            "八分鐘是A總用時。",
+            "十九是兩組時間相加。",
+            "兩分鐘是鈴聲間隔。"
+          ],
+          "id": "d23-q2",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does Judy mention different students?",
+          "options": [
+            "She knows the bell rang in both rooms.",
+            "Their puzzle skills might also explain the time difference.",
+            "She wants to remove all measurements.",
+            "She thinks the puzzles contain no words."
+          ],
+          "explanation": "不同學生原本的解題能力可能不同，是另一個可能原因。",
+          "evidence": "Some may already be better at word puzzles.",
+          "reasons": [
+            "A是安靜房間。",
+            "考慮學生能力這個因素。",
+            "沒有要刪除實測。",
+            "題目確實是文字謎題。"
+          ],
+          "id": "d23-q3",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “interruptions” refer to in this test?",
+          "options": [
+            "Prizes for finishing early.",
+            "Changes in the color of the paper.",
+            "Words that nobody can read.",
+            "Stops that break up the students’ work."
+          ],
+          "explanation": "鈴聲要求暫停作業，interruptions就是這些中斷。",
+          "evidence": "Several students in Group B say they need time to remember where they stopped.",
+          "reasons": [
+            "沒有獎品。",
+            "沒有紙色變更。",
+            "不是難字。",
+            "與停下後要重新想起進度相符。"
+          ],
+          "id": "d23-q4",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "What changes in the second test while the difficulty should stay similar?",
+          "options": [
+            "Only the fastest student takes part.",
+            "The groups try the other room with fresh puzzles.",
+            "Group A gets much easier puzzles in its old room.",
+            "Both groups work on the completed first puzzle."
+          ],
+          "explanation": "換房間並用相近難度新題，減少組別與記住舊答案對比較的影響。",
+          "evidence": "Each group will try the other room.",
+          "reasons": [
+            "仍是兩組，不是單人。",
+            "整合前句的新題、相似難度與此句換房。",
+            "難度不同不符合計畫。",
+            "計畫用fresh puzzles。"
+          ],
+          "id": "d23-q5",
+          "answer": 1,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "Which conclusion is most careful?",
+          "options": [
+            "Every short break makes every student slower.",
+            "Different students always finish at the same speed.",
+            "Interruptions may have affected this test, but more evidence is needed.",
+            "Group B can never solve a puzzle quickly."
+          ],
+          "explanation": "保留may，且承認目前不能推及所有人與所有休息。",
+          "evidence": "Their first results suggest that interruptions may matter, but they do not prove that every short break makes every student slower.",
+          "reasons": [
+            "正是原文否定的過度推論。",
+            "文章提出能力可能不同。",
+            "符合限制性結論。",
+            "一次結果不能推論永遠。"
+          ],
+          "id": "d23-q6",
+          "answer": 2,
+          "tier": 3
+        }
+      ],
+      "type": "科普閱讀",
+      "minutes": 10
+    }
+  ]
+}

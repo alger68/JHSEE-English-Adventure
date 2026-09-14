@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-22",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 21,
+      "title": "Dinner Before the Deadline",
+      "goal": "利用開放時間與準備時間倒推行動。",
+      "story": "Sam promises to return a neighbor’s cake pan before seven tonight. His family also plans to eat dinner at six thirty. He thinks there is plenty of time and begins a computer game at five forty.\n\nAt six ten, his mother asks whether the pan is clean. Sam checks the kitchen and finds it beside the sink, still sticky. Washing and drying it takes fifteen minutes. The neighbor lives a ten-minute walk away.\n\nSam pauses the game, cleans the pan, and leaves at six twenty-five. He reaches the neighbor’s door at six thirty-five. The pan is returned on time, but Sam misses the beginning of dinner.\n\nAfter eating, he changes tomorrow’s task list. Instead of writing only the final deadline, he adds the time needed to get ready and travel. He also leaves a little room for unexpected delays.",
+      "words": [
+        {
+          "word": "promise",
+          "meaning": "承諾",
+          "example": "Sam promises to return the pan."
+        },
+        {
+          "word": "deadline",
+          "meaning": "截止時間",
+          "example": "The deadline is seven tonight."
+        },
+        {
+          "word": "sticky",
+          "meaning": "黏黏的",
+          "example": "The pan is sticky after baking."
+        },
+        {
+          "word": "pause",
+          "meaning": "暫停",
+          "example": "Pause the game before cleaning."
+        },
+        {
+          "word": "delay",
+          "meaning": "延誤",
+          "example": "Leave some time for a delay."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "on time",
+          "meaning": "準時"
+        },
+        {
+          "phrase": "get ready",
+          "meaning": "準備好"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "By what time does Sam promise to return the pan?",
+          "options": [
+            "Before seven.",
+            "Before six ten.",
+            "Before five forty.",
+            "Before six thirty."
+          ],
+          "explanation": "歸還承諾是七點前，不是開飯時間。",
+          "evidence": "Sam promises to return a neighbor’s cake pan before seven tonight.",
+          "reasons": [
+            "直接對應 before seven。",
+            "這是母親詢問時間。",
+            "這是開始玩遊戲時間。",
+            "這是吃飯時間。"
+          ],
+          "id": "d21-q1",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "Why can’t Sam leave with the pan immediately at six ten?",
+          "options": [
+            "It still needs washing and drying.",
+            "The neighbor has moved away.",
+            "He must buy a new cake first.",
+            "The pan is locked in a classroom."
+          ],
+          "explanation": "烤盤還黏黏的，需十五分鐘洗淨擦乾。",
+          "evidence": "Washing and drying it takes fifteen minutes.",
+          "reasons": [
+            "前句說 still sticky，後句給清潔時間。",
+            "鄰居仍住十分鐘路程外。",
+            "沒有購蛋糕的要求。",
+            "烤盤在水槽旁。"
+          ],
+          "id": "d21-q2",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "When does Sam reach the neighbor?",
+          "options": [
+            "At six thirty-five.",
+            "At six forty-five.",
+            "At seven ten.",
+            "At six twenty-five."
+          ],
+          "explanation": "六點二十五出發，走十分鐘，六點三十五到。",
+          "evidence": "He reaches the neighbor’s door at six thirty-five.",
+          "reasons": [
+            "25＋10＝35，且原文有寫。",
+            "多算十分鐘。",
+            "沒有這個到達時間。",
+            "這是離家時間。"
+          ],
+          "id": "d21-q3",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “deadline” mean?",
+          "options": [
+            "The number of people eating dinner.",
+            "The length of a computer game.",
+            "The place where a task begins.",
+            "The latest time by which a task must be finished."
+          ],
+          "explanation": "deadline 指任務必須完成的最後期限。",
+          "evidence": "Instead of writing only the final deadline, he adds the time needed to get ready and travel.",
+          "reasons": [
+            "不是用餐人数。",
+            "不是遊戲長度。",
+            "不是地點。",
+            "與準備時間、交通時間並列的最終期限。"
+          ],
+          "id": "d21-q4",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Which statement about Sam’s evening is supported?",
+          "options": [
+            "He keeps his return promise but starts dinner late.",
+            "He eats before leaving with the pan.",
+            "He stops planning because delays cannot be avoided.",
+            "He returns the pan after seven."
+          ],
+          "explanation": "六點三十五歸還早於七點，但晚於六點半開飯。",
+          "evidence": "The pan is returned on time, but Sam misses the beginning of dinner.",
+          "reasons": [
+            "兩項時間對照都符合。",
+            "回來之後才吃。",
+            "他調整了明日清單。",
+            "七點前已歸還。"
+          ],
+          "id": "d21-q5",
+          "answer": 0,
+          "tier": 2
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "If Sam wants to be back by six thirty, when must he start the fifteen-minute cleaning at the latest? Assume ten minutes each way and no other delays.",
+          "options": [
+            "At six twenty-five.",
+            "At five fifty-five.",
+            "At six five.",
+            "At six fifteen."
+          ],
+          "explanation": "需要清洗15分＋去10分＋回10分＝35分，18:30倒推是17:55。",
+          "evidence": "Washing and drying it takes fifteen minutes. The neighbor lives a ten-minute walk away.",
+          "reasons": [
+            "只剩五分鐘。",
+            "18:30−35分＝17:55。",
+            "漏算回程十分鐘。",
+            "只留清潔時間。"
+          ],
+          "id": "d21-q6",
+          "answer": 1,
+          "tier": 3
+        }
+      ],
+      "type": "日常生活",
+      "minutes": 10
+    }
+  ]
+}

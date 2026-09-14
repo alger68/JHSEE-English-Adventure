@@ -1,0 +1,250 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-26",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 25,
+      "title": "Boss: The Library Window",
+      "goal": "整合行程表、任務長度、截止時間與緩衝。",
+      "story": "[Saturday plan]\nNoah wants to finish a history poster and return library books. The library closes at 4:30 p.m. He needs ten minutes to walk there, five minutes to return the books, and ten minutes to walk home.\n\n[At 3:00 p.m.]\nHis poster still needs forty minutes of work. His friend suggests doing it first and then watching a twenty-minute video together. Noah also wants ten spare minutes before the library closes in case the return desk is busy.\n\n[Two choices]\nPlan A: Poster, video, then library.\nPlan B: Poster, library, then video.\n\nNoah draws a timeline. Under Plan A, he would reach the library at 4:10 and finish at 4:15 if nothing goes wrong. Under Plan B, he would finish returning books at 3:55. Both plans fit the closing time, but only one gives him more than half an hour after the planned return to handle trouble.",
+      "words": [
+        {
+          "word": "spare",
+          "meaning": "多餘可用的；備用的",
+          "example": "Keep ten spare minutes in your plan."
+        },
+        {
+          "word": "suggest",
+          "meaning": "建議",
+          "example": "His friend suggests watching a video."
+        },
+        {
+          "word": "timeline",
+          "meaning": "時間軸",
+          "example": "Draw a timeline before choosing."
+        },
+        {
+          "word": "handle",
+          "meaning": "處理",
+          "example": "Leave enough time to handle trouble."
+        },
+        {
+          "word": "trouble",
+          "meaning": "麻煩；問題",
+          "example": "The extra time helps if there is trouble."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "in case",
+          "meaning": "以防"
+        },
+        {
+          "phrase": "go wrong",
+          "meaning": "出問題"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "When does the library close?",
+          "options": [
+            "At 4:10 p.m.",
+            "At 3:00 p.m.",
+            "At 3:55 p.m.",
+            "At 4:30 p.m."
+          ],
+          "explanation": "公告關門時間是4:30。",
+          "evidence": "The library closes at 4:30 p.m.",
+          "reasons": [
+            "這是A方案到達時間。",
+            "這是規劃起點。",
+            "這是B方案還完書時間。",
+            "直接對應關門時間。"
+          ],
+          "id": "d25-q1",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "How much work does the poster still need?",
+          "options": [
+            "Five minutes.",
+            "Ten minutes.",
+            "Twenty minutes.",
+            "Forty minutes."
+          ],
+          "explanation": "海報尚需四十分鐘。",
+          "evidence": "His poster still needs forty minutes of work.",
+          "reasons": [
+            "這是還書服務時間。",
+            "這是單程步行或最低預備時間。",
+            "這是影片長度。",
+            "原文 forty。"
+          ],
+          "id": "d25-q2",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "When does the poster finish if Noah starts at 3:00?",
+          "options": [
+            "At 3:40.",
+            "At 4:00.",
+            "At 3:20.",
+            "At 3:50."
+          ],
+          "explanation": "三點加四十分鐘是3:40。",
+          "evidence": "His poster still needs forty minutes of work.",
+          "reasons": [
+            "時間相加正確。",
+            "多加影片時間。",
+            "只算二十分鐘。",
+            "多加步行時間。"
+          ],
+          "id": "d25-q3",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "What comes immediately after the poster in Plan B?",
+          "options": [
+            "A new history class.",
+            "The video.",
+            "Another forty minutes of poster work.",
+            "The library visit."
+          ],
+          "explanation": "B順序是海報、圖書館、影片。",
+          "evidence": "Plan B: Poster, library, then video.",
+          "reasons": [
+            "沒有新歷史課。",
+            "影片是最後。",
+            "海報已完成，不重做。",
+            "順序第二項library。"
+          ],
+          "id": "d25-q4",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "How many minutes remain between the planned return completion and closing in Plan A?",
+          "options": [
+            "Ten minutes.",
+            "Thirty-five minutes.",
+            "Twenty minutes.",
+            "Fifteen minutes."
+          ],
+          "explanation": "A4:15還完，距4:30關門十五分鐘。",
+          "evidence": "Under Plan A, he would reach the library at 4:10 and finish at 4:15 if nothing goes wrong.",
+          "reasons": [
+            "十是最低希望預備，不是實際剩餘。",
+            "三十五是B餘裕。",
+            "二十是影片長度。",
+            "4:30−4:15＝15分。"
+          ],
+          "id": "d25-q5",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does Noah keep spare time?",
+          "options": [
+            "The walk home always takes an hour.",
+            "The return desk may take longer than expected.",
+            "He expects the library to close at 3:00.",
+            "He needs to watch the video at the return desk."
+          ],
+          "explanation": "備用時間是因應還書櫃台忙碌。",
+          "evidence": "in case the return desk is busy.",
+          "reasons": [
+            "回程十分鐘。",
+            "支持等待可能增加的推論。",
+            "已知4:30關門。",
+            "影片不是櫃台任務。"
+          ],
+          "id": "d25-q6",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “handle” mean in the last sentence?",
+          "options": [
+            "Hold by a small part.",
+            "Walk past without noticing.",
+            "Deal with.",
+            "Write down a title for."
+          ],
+          "explanation": "handle trouble 是處理突發狀況，不是握把的字面意思。",
+          "evidence": "to handle trouble.",
+          "reasons": [
+            "此處trouble不是實物。",
+            "不是忽略問題。",
+            "符合問題處理語境。",
+            "不是寫標題。"
+          ],
+          "id": "d25-q7",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "Which plan provides more than thirty minutes after the planned book return and before closing?",
+          "options": [
+            "Both plans.",
+            "Neither plan.",
+            "Plan A only.",
+            "Plan B only."
+          ],
+          "explanation": "B3:55至4:30有35分，A只有15分，所以僅B。",
+          "evidence": "Under Plan B, he would finish returning books at 3:55.",
+          "reasons": [
+            "不能把最低10分當作30分。",
+            "B確實符合。",
+            "A只有15分。",
+            "B35分超過30分。"
+          ],
+          "id": "d25-q8",
+          "answer": 3,
+          "tier": 2
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "What is the best reason to prefer Plan B?",
+          "options": [
+            "It guarantees that no unexpected event can happen.",
+            "It removes the need to walk home.",
+            "It does the deadline-bound errand before an activity that can wait.",
+            "It makes the video shorter."
+          ],
+          "explanation": "順序調整讓有關門限制的還書先完成，影片可後做；不是保證零風險。",
+          "evidence": "Plan B: Poster, library, then video.",
+          "reasons": [
+            "增加緩衝不能保證絕無意外。",
+            "仍須步行回家。",
+            "把有期限事項排在較彈性的活動之前。",
+            "影片仍二十分鐘。"
+          ],
+          "id": "d25-q9",
+          "answer": 2,
+          "tier": 3
+        }
+      ],
+      "type": "每週 Boss",
+      "minutes": 15
+    }
+  ]
+}

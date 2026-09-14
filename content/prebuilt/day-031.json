@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-10-02",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 31,
+      "title": "Order Today, Eat Tomorrow",
+      "goal": "判讀預訂、變更、取消與付款規則。",
+      "story": "SCHOOL LUNCH PREORDERS\n\nStarting next week, students can order a lunch box for the following school day. Choose a rice box or a noodle box through the school form before 9:00 a.m. Each costs $50. An order number appears after you submit the form successfully.\n\nChanges and cancellations are accepted until 10:00 a.m. on the order day. After that, the kitchen uses the list to buy ingredients. Sending another form does not cancel your first order. To change a choice, open the original order number and select “Edit.”\n\nCollect your box at the cafeteria between 12:00 and 12:20 on the delivery day. Pay when you collect it; do not leave money in the classroom.\n\nFor a Monday lunch, submit the order on Friday. During this trial, orders are for students only. Teachers continue using their usual lunch service.",
+      "words": [
+        {
+          "word": "following",
+          "meaning": "接下來的",
+          "example": "The lunch is for the following school day."
+        },
+        {
+          "word": "submit",
+          "meaning": "提交",
+          "example": "Submit the form before nine."
+        },
+        {
+          "word": "cancel",
+          "meaning": "取消",
+          "example": "Use the original order to cancel."
+        },
+        {
+          "word": "ingredient",
+          "meaning": "食材",
+          "example": "The kitchen buys ingredients after ten."
+        },
+        {
+          "word": "trial",
+          "meaning": "試辦；試用期",
+          "example": "Only students can join the trial."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "pay when",
+          "meaning": "在……時付款"
+        },
+        {
+          "phrase": "the following school day",
+          "meaning": "下一個上課日"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How much does one lunch box cost?",
+          "options": [
+            "$9.",
+            "$20.",
+            "$10.",
+            "$50."
+          ],
+          "explanation": "兩款每份都是50元。",
+          "evidence": "Each costs $50.",
+          "reasons": [
+            "9是訂購截止時刻。",
+            "20是取餐結束的分鐘數。",
+            "10是變更截止時刻。",
+            "直接對應價錢。"
+          ],
+          "id": "d31-q1",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "When should students pay?",
+          "options": [
+            "When collecting the lunch box.",
+            "After the school term ends.",
+            "Before they open the form.",
+            "When entering the classroom."
+          ],
+          "explanation": "領取餐盒時付錢，不能留錢在教室。",
+          "evidence": "Pay when you collect it; do not leave money in the classroom.",
+          "reasons": [
+            "符合pay when collect。",
+            "不是學期結束。",
+            "不用開表前付款。",
+            "沒有到教室付款。"
+          ],
+          "id": "d31-q2",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "A student orders on Friday. Which lunch is the order for?",
+          "options": [
+            "Saturday’s lunch.",
+            "Friday’s lunch.",
+            "Monday’s lunch.",
+            "The following Friday’s lunch."
+          ],
+          "explanation": "以次一上課日為準，公告特別列出週一在週五訂。",
+          "evidence": "For a Monday lunch, submit the order on Friday.",
+          "reasons": [
+            "週六未列為上課日。",
+            "不是當天午餐。",
+            "明確規定週五對應週一。",
+            "不需要隔整週。"
+          ],
+          "id": "d31-q3",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “trial” mean in this notice?",
+          "options": [
+            "A period for trying a new service.",
+            "A test of students’ cooking skills.",
+            "A competition to eat quickly.",
+            "A legal hearing about lunch boxes."
+          ],
+          "explanation": "餐盒新服務的試行期，不是司法審判。",
+          "evidence": "During this trial, orders are for students only.",
+          "reasons": [
+            "結合starting next week的新服務。",
+            "不是考學生烹調。",
+            "不是比賽。",
+            "此處沒有訴訟。"
+          ],
+          "id": "d31-q4",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "At 9:30 on the order day, a student wants to change rice to noodles. What should the student do?",
+          "options": [
+            "Wait until collecting the rice box the next day.",
+            "Open the original order number and choose Edit.",
+            "Send a new form and assume the first order disappears.",
+            "Leave a different amount of money in the classroom."
+          ],
+          "explanation": "9:30仍在10點前可變更，但不能重送當成取消。",
+          "evidence": "To change a choice, open the original order number and select “Edit.”",
+          "reasons": [
+            "超過變更期限。",
+            "時間與流程都符合。",
+            "新表不取消舊訂單。",
+            "付款不能取代變更。"
+          ],
+          "id": "d31-q5",
+          "answer": 1,
+          "tier": 2
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why is the change deadline earlier than the delivery day?",
+          "options": [
+            "The boxes have different prices after ten.",
+            "Students must finish eating before ten.",
+            "The kitchen uses confirmed choices to prepare its purchases.",
+            "Teachers must approve each student’s meal at noon."
+          ],
+          "explanation": "十點之後依名單採買食材，所以先凍結選項。",
+          "evidence": "After that, the kitchen uses the list to buy ingredients.",
+          "reasons": [
+            "沒有調價。",
+            "十點不是用餐截止。",
+            "將截止時間與採買需求連結。",
+            "沒有老師逐單批准。"
+          ],
+          "id": "d31-q6",
+          "answer": 2,
+          "tier": 3
+        }
+      ],
+      "type": "公告／資訊閱讀",
+      "minutes": 10
+    }
+  ]
+}

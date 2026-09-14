@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-30",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 29,
+      "title": "Lunch for Three Different Plans",
+      "goal": "整合對話中的個人條件與共用訂單。",
+      "story": "[Lunch chat]\nElla: We have an art practice at noon. Should I order three lunches from Green Corner?\nMax: Yes, but I don’t eat meat. Please choose the vegetable sandwich for me.\nJune: I can eat either sandwich. I have a meeting at twelve thirty, so I need mine early.\nElla: The shop delivers only at twelve twenty. We usually spend twenty minutes eating. Would you like to collect yours on the way here?\nJune: I can pass the shop at eleven forty-five. Could I pick up all three instead?\nMax: That would help. What about drinks?\nElla: We all have water bottles, so let’s order sandwiches only.\nJune: Please send me the order number after the shop confirms it. I’ll check the names on the bags before leaving.\nElla: Done. Two cheese sandwiches and one vegetable sandwich, with no drinks.",
+      "words": [
+        {
+          "word": "either",
+          "meaning": "兩者任一",
+          "example": "June can eat either sandwich."
+        },
+        {
+          "word": "deliver",
+          "meaning": "外送；送達",
+          "example": "The shop can deliver at twelve twenty."
+        },
+        {
+          "word": "confirm",
+          "meaning": "確認",
+          "example": "Wait until the shop confirms the order."
+        },
+        {
+          "word": "collect",
+          "meaning": "領取",
+          "example": "June will collect the lunches."
+        },
+        {
+          "word": "order",
+          "meaning": "訂購；訂單",
+          "example": "Check the order number on the bags."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "on the way",
+          "meaning": "在途中"
+        },
+        {
+          "phrase": "pick up",
+          "meaning": "取貨；領取"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "Which lunch does Max ask for?",
+          "options": [
+            "A bowl of soup.",
+            "A cheese sandwich.",
+            "A meat pie.",
+            "A vegetable sandwich."
+          ],
+          "explanation": "Max 不吃肉並指定蔬菜三明治。",
+          "evidence": "Please choose the vegetable sandwich for me.",
+          "reasons": [
+            "沒有湯的選項。",
+            "起初Max沒有選cheese。",
+            "不符合不吃肉。",
+            "直接指定vegetable sandwich。"
+          ],
+          "id": "d29-q1",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "Why do they order no drinks?",
+          "options": [
+            "The shop sells only hot drinks.",
+            "They already have water bottles.",
+            "June cannot carry any bags.",
+            "Drinks would arrive at a different school."
+          ],
+          "explanation": "三人都有水瓶，因此只訂餐點。",
+          "evidence": "We all have water bottles, so let’s order sandwiches only.",
+          "reasons": [
+            "未提飲料種類。",
+            "so說明原因。",
+            "她將取三袋。",
+            "沒有另一所學校。"
+          ],
+          "id": "d29-q2",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "What problem does June’s pickup plan solve?",
+          "options": [
+            "It makes her meeting start later.",
+            "It removes the need to check the order.",
+            "It gives her lunch before the shop’s delivery time.",
+            "It changes Max’s food preference."
+          ],
+          "explanation": "外送12:20，June12:30開會來不及以平常速度吃完；提前領餐可留足時間。",
+          "evidence": "The shop delivers only at twelve twenty.",
+          "reasons": [
+            "會議未改時間。",
+            "她仍要檢查袋上名稱。",
+            "和11:45取餐對照可更早拿到。",
+            "Max仍要蔬菜三明治。"
+          ],
+          "id": "d29-q3",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “either” mean in June’s first message?",
+          "options": [
+            "Both sandwiches must be eaten together.",
+            "Only the vegetable sandwich.",
+            "One or the other of the two sandwiches.",
+            "None of the sandwiches."
+          ],
+          "explanation": "either在此表示兩款任一都可以。",
+          "evidence": "I can eat either sandwich.",
+          "reasons": [
+            "不是要求兩份一起吃。",
+            "不是限定蔬菜款。",
+            "表示兩種選擇都能接受。",
+            "不是否定兩者。"
+          ],
+          "id": "d29-q4",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "If June starts eating at 12:20 and takes the usual twenty minutes, when does she finish?",
+          "options": [
+            "At 12:30, exactly when her meeting starts.",
+            "At 12:25, before her meeting starts.",
+            "At 11:45, when she passes the shop.",
+            "At 12:40, after her meeting starts."
+          ],
+          "explanation": "12:20加20分是12:40，比會議開始晚10分。",
+          "evidence": "We usually spend twenty minutes eating.",
+          "reasons": [
+            "只給十分鐘用餐。",
+            "只給五分鐘。",
+            "11:45是提早取餐時間。",
+            "同時整合用餐時間與會議時間。"
+          ],
+          "id": "d29-q5",
+          "answer": 3,
+          "tier": 2
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "Which order should June collect?",
+          "options": [
+            "One cheese sandwich with two drinks.",
+            "Two vegetable sandwiches and one cheese sandwich, without drinks.",
+            "Three vegetable sandwiches with three drinks.",
+            "Two cheese sandwiches and one vegetable sandwich, without drinks."
+          ],
+          "explanation": "最後確認訊息給出品項、份數及不含飲料。",
+          "evidence": "Two cheese sandwiches and one vegetable sandwich, with no drinks.",
+          "reasons": [
+            "少了兩份餐，且加了飲料。",
+            "兩款份數對調。",
+            "三明治品項與飲料都錯。",
+            "三項都符合最後確認。"
+          ],
+          "id": "d29-q6",
+          "answer": 3,
+          "tier": 3
+        }
+      ],
+      "type": "對話／訊息",
+      "minutes": 10
+    }
+  ]
+}

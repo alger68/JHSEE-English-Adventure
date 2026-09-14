@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-10-05",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 34,
+      "title": "A Sign at the Wrong Gate",
+      "goal": "整合位置、封閉通知與替代路線。",
+      "story": "On Monday, Owen volunteers to welcome visitors to the school book show. The show is in the library, beside the east gate. A small printed map tells visitors to enter through the north gate and follow the covered path.\n\nBefore the show opens, workers close the north gate to repair its steps. Owen puts a sign on the closed gate: “Please use the east gate beside the library.” However, visitors arriving at the bus stop still follow the old maps toward the north gate.\n\nHis teacher asks where people first decide which way to walk. Owen returns to the bus stop and places an updated direction sign beside the map board. He also tells the welcome team about the change.\n\nNow visitors learn about the closure before choosing a route. Owen keeps the sign at the north gate too, for anyone coming from another direction.",
+      "words": [
+        {
+          "word": "volunteer",
+          "meaning": "自願幫忙",
+          "example": "Owen volunteers at the book show."
+        },
+        {
+          "word": "visitor",
+          "meaning": "訪客",
+          "example": "Visitors need a clear direction sign."
+        },
+        {
+          "word": "repair",
+          "meaning": "修理",
+          "example": "Workers repair the steps."
+        },
+        {
+          "word": "direction",
+          "meaning": "方向",
+          "example": "Check the direction before walking."
+        },
+        {
+          "word": "route",
+          "meaning": "路線",
+          "example": "Choose the open route to the library."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "beside the east gate",
+          "meaning": "在東門旁"
+        },
+        {
+          "phrase": "from another direction",
+          "meaning": "從另一個方向"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "Where is the book show?",
+          "options": [
+            "At the bus stop beside the map board.",
+            "In a classroom along the covered path.",
+            "On the steps outside the north gate.",
+            "In the library beside the east gate."
+          ],
+          "explanation": "書展在東門旁的圖書館。",
+          "evidence": "The show is in the library, beside the east gate.",
+          "reasons": [
+            "公車站是旅程起點。",
+            "沒有說書展在教室。",
+            "北門台階正維修。",
+            "地點與相對位置都吻合。"
+          ],
+          "id": "d34-q1",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "Why is the north gate closed?",
+          "options": [
+            "The show has already ended.",
+            "Workers are repairing its steps.",
+            "All the books have been moved outside.",
+            "The bus stop has changed its name."
+          ],
+          "explanation": "北門因台階維修而關閉。",
+          "evidence": "workers close the north gate to repair its steps.",
+          "reasons": [
+            "當時書展尚未開始。",
+            "to repair說明原因。",
+            "沒有移出書本。",
+            "沒有更名。"
+          ],
+          "id": "d34-q2",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why do visitors still head toward the north gate at first?",
+          "options": [
+            "Their old maps still give the original route.",
+            "They have been asked to help the workers.",
+            "The east gate is closed for the same repair.",
+            "Owen’s new sign tells them to use the closed steps."
+          ],
+          "explanation": "公車站出發的人依舊依循舊地圖，未先看到北門上的新訊息。",
+          "evidence": "visitors arriving at the bus stop still follow the old maps toward the north gate.",
+          "reasons": [
+            "舊資訊仍引導他們。",
+            "訪客來看書展，不是修階梯。",
+            "未說東門關閉。",
+            "新牌指定東門。"
+          ],
+          "id": "d34-q3",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “closure” refer to in the last paragraph?",
+          "options": [
+            "The map board becoming larger.",
+            "The library finishing its book orders.",
+            "The bus stop moving to a new street.",
+            "The north gate being temporarily unavailable."
+          ],
+          "explanation": "前文北門封閉維修，closure指該門關閉狀態。",
+          "evidence": "Now visitors learn about the closure before choosing a route.",
+          "reasons": [
+            "看板大小沒變。",
+            "沒有圖書採購。",
+            "公車站沒有搬遷。",
+            "指北門不能通行。"
+          ],
+          "id": "d34-q4",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "Which pair of signs does Owen leave in place at the end?",
+          "options": [
+            "One inside each classroom along the path.",
+            "One at the bus stop and one at the north gate.",
+            "One on the repair tools and one on every book.",
+            "One at the east gate and one inside the library."
+          ],
+          "explanation": "他在公車站新增，同時保留北門的告示。",
+          "evidence": "Owen keeps the sign at the north gate too, for anyone coming from another direction.",
+          "reasons": [
+            "沒有逐教室設牌。",
+            "加上前段bus stop的新牌，合共兩處。",
+            "沒有在工具書本上放牌。",
+            "東門與館內不是所述設牌處。"
+          ],
+          "id": "d34-q5",
+          "answer": 1,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "Which principle does Owen’s change illustrate?",
+          "options": [
+            "Remove every old sign even if some visitors still need it.",
+            "Assume that all visitors arrive from the same direction.",
+            "Give directions only after visitors reach a closed entrance.",
+            "Put important route updates where people make their first choice."
+          ],
+          "explanation": "老師指出決定方向的位置，他把更新前移到公車站，同時保留另一入口提醒。",
+          "evidence": "His teacher asks where people first decide which way to walk.",
+          "reasons": [
+            "北門牌仍保留。",
+            "結尾考慮別的來向。",
+            "這是最初不夠有效的做法。",
+            "涵蓋更新地點及其作用。"
+          ],
+          "id": "d34-q6",
+          "answer": 3,
+          "tier": 3
+        }
+      ],
+      "type": "校園故事",
+      "minutes": 10
+    }
+  ]
+}

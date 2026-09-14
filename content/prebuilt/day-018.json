@@ -1,0 +1,250 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-19",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 18,
+      "title": "Boss: The Class Fund Puzzle",
+      "goal": "整合收據、現金紀錄與對話，找出合理解釋。",
+      "story": "[Class fund record]\nThe class starts with $600 for its garden project. On Monday, Nina buys seeds for $180 and labels for $60. She keeps both receipts. On Tuesday, she counts $340 in the money box, but her notebook says $360 should remain.\n\n[Messages]\nNina: We are $20 short. Did anyone borrow money?\nJay: I bought string yesterday. It cost $20. I left the receipt under the notebook, but I forgot to write it down.\nNina: I can see it now. Next time, please record the purchase immediately.\nJay: I will. Should I put another $20 in the box?\nNina: No. The string was for our project. We need to update the record, not collect the money twice.\n\n[New rule]\nBefore putting a receipt in the folder, the buyer must enter the date, item, and amount in the notebook. Another student checks the entry against the receipt.",
+      "words": [
+        {
+          "word": "receipt",
+          "meaning": "收據",
+          "example": "Keep the receipt after buying seeds."
+        },
+        {
+          "word": "remain",
+          "meaning": "剩下",
+          "example": "How much money will remain?"
+        },
+        {
+          "word": "purchase",
+          "meaning": "購買；購買的物品",
+          "example": "Record each purchase in the notebook."
+        },
+        {
+          "word": "immediately",
+          "meaning": "立即",
+          "example": "Write the amount immediately."
+        },
+        {
+          "word": "entry",
+          "meaning": "一筆紀錄",
+          "example": "Check the entry against the receipt."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "write down",
+          "meaning": "寫下"
+        },
+        {
+          "phrase": "be short of",
+          "meaning": "短缺；不足"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How much does the class have at the beginning?",
+          "options": [
+            "$360.",
+            "$240.",
+            "$600.",
+            "$340."
+          ],
+          "explanation": "起始基金是六百元。",
+          "evidence": "The class starts with $600 for its garden project.",
+          "reasons": [
+            "三百六十是未記繩子時的帳面餘額。",
+            "二百四十是種子加標籤花費。",
+            "原文起始金額。",
+            "三百四十是盒內現金。"
+          ],
+          "id": "d18-q1",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "Where is the string receipt?",
+          "options": [
+            "Under the notebook.",
+            "At Jay’s home.",
+            "On the classroom wall.",
+            "Inside a seed bag."
+          ],
+          "explanation": "Jay 表示放在筆記本下面。",
+          "evidence": "I left the receipt under the notebook, but I forgot to write it down.",
+          "reasons": [
+            "精確對應 under the notebook。",
+            "沒有留在家裡。",
+            "不是牆上。",
+            "不是種子袋內。"
+          ],
+          "id": "d18-q2",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "How much did Nina spend on seeds and labels?",
+          "options": [
+            "$240.",
+            "$260.",
+            "$180.",
+            "$60."
+          ],
+          "explanation": "種子一百八十加標籤六十，共二百四十元。",
+          "evidence": "On Monday, Nina buys seeds for $180 and labels for $60.",
+          "reasons": [
+            "180＋60＝240。",
+            "多算 Jay 的繩子，不是題目問的兩項。",
+            "只算種子。",
+            "只算標籤。"
+          ],
+          "id": "d18-q3",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does Nina say Jay should not add $20?",
+          "options": [
+            "The string was a project expense that needs to be recorded.",
+            "Jay already put $20 back in the box.",
+            "The class received the string for free.",
+            "The garden project has been canceled."
+          ],
+          "explanation": "Nina 接受繩子是專案用途，所需是補登支出，不是再向 Jay 收錢。",
+          "evidence": "No. The string was for our project. We need to update the record, not collect the money twice.",
+          "reasons": [
+            "Nina 的回覆把它當作專案支出。",
+            "Jay 只提出詢問，尚未放回。",
+            "繩子花了二十元。",
+            "專案沒有取消。"
+          ],
+          "id": "d18-q4",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "What must the buyer do before filing a receipt?",
+          "options": [
+            "Throw away the old notebook.",
+            "Record the date, item, and amount.",
+            "Wait until the end of the project.",
+            "Ask every student for more money."
+          ],
+          "explanation": "新規定要求收據歸檔前先登記三項資訊。",
+          "evidence": "Before putting a receipt in the folder, the buyer must enter the date, item, and amount in the notebook.",
+          "reasons": [
+            "沒有丟棄帳本。",
+            "三項資訊都符合。",
+            "不能等專案結束。",
+            "不是每次加收錢。"
+          ],
+          "id": "d18-q5",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "What caused the class fund puzzle?",
+          "options": [
+            "A real expense was missing from the written record.",
+            "Nina bought the same seeds twice.",
+            "Jay returned more money than he borrowed.",
+            "The class started without any money."
+          ],
+          "explanation": "現金少二十元的原因是繩子已買但未登帳，不是錢被偷。",
+          "evidence": "It cost $20. I left the receipt under the notebook, but I forgot to write it down.",
+          "reasons": [
+            "已支出、未記錄兩者造成差異。",
+            "沒有重複買種子。",
+            "沒有歸還超額款項。",
+            "起始有六百元。"
+          ],
+          "id": "d18-q6",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “entry” mean in the new rule?",
+          "options": [
+            "A written record of a purchase.",
+            "The amount collected next year.",
+            "The door to the garden.",
+            "A student entering a race."
+          ],
+          "explanation": "比對收據與 entry，指剛寫入的帳目。",
+          "evidence": "Another student checks the entry against the receipt.",
+          "reasons": [
+            "對應帳本的一筆購買紀錄。",
+            "不是明年的收款。",
+            "此處不是入口。",
+            "不是報名參賽者。"
+          ],
+          "id": "d18-q7",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "What should the corrected remaining balance be?",
+          "options": [
+            "$360.",
+            "$340.",
+            "$380.",
+            "$320."
+          ],
+          "explanation": "六百減一百八十、六十與二十，剩三百四十，吻合現金。",
+          "evidence": "On Tuesday, she counts $340 in the money box, but her notebook says $360 should remain.",
+          "reasons": [
+            "漏記繩子。",
+            "600−180−60−20＝340。",
+            "錯把支出加回。",
+            "把繩子扣了兩次。"
+          ],
+          "id": "d18-q8",
+          "answer": 1,
+          "tier": 2
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does the new rule include a second student?",
+          "options": [
+            "To compare the written amount with independent evidence.",
+            "To stop students from buying any supplies.",
+            "To replace all receipts with memories.",
+            "To make every purchase twice as expensive."
+          ],
+          "explanation": "第二人用收據查帳，能發現漏登或抄錯，而不是單靠買的人回想。",
+          "evidence": "Another student checks the entry against the receipt.",
+          "reasons": [
+            "收據與帳目交叉核對。",
+            "規定允許買東西但要記錄。",
+            "仍需保留收據。",
+            "雙人檢查不會使價格翻倍。"
+          ],
+          "id": "d18-q9",
+          "answer": 0,
+          "tier": 3
+        }
+      ],
+      "type": "每週 Boss",
+      "minutes": 15
+    }
+  ]
+}

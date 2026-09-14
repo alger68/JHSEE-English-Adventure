@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-27",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 26,
+      "title": "Five Words, One Better Plan",
+      "goal": "透過新情境複習時間字詞，區分完成與熟悉。",
+      "story": "Sophie makes a review sheet with five words: recall, deadline, latest, pause, and delay. She writes a short school story and leaves spaces where the words should go. Then she asks her brother to try it.\n\nThe story describes a student who checks an old meeting message, arrives at the wrong room, and loses ten minutes. Sophie’s brother chooses latest for the message the student should have checked. He uses delay for the lost time.\n\nAt another space, he first puts deadline after “Please stop the recording for a moment.” Sophie asks him to explain his choice. He changes it to pause and writes a reason beside the sentence.\n\nThey do not mark a word as learned just because it looks familiar. The next morning, they cover the answer list and try to recall all five words from new clues.",
+      "words": [
+        {
+          "word": "recall",
+          "meaning": "回想起",
+          "example": "Can you recall the word without looking?"
+        },
+        {
+          "word": "deadline",
+          "meaning": "截止時間",
+          "example": "Write the deadline on the task list."
+        },
+        {
+          "word": "latest",
+          "meaning": "最新的",
+          "example": "The latest message changes the room."
+        },
+        {
+          "word": "pause",
+          "meaning": "暫停",
+          "example": "Pause the recording for a moment."
+        },
+        {
+          "word": "delay",
+          "meaning": "延誤",
+          "example": "A room change caused a short delay."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "for a moment",
+          "meaning": "片刻"
+        },
+        {
+          "phrase": "look familiar",
+          "meaning": "看起來熟悉"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "Who tries Sophie’s review sheet?",
+          "options": [
+            "The room manager.",
+            "Her bus driver.",
+            "All the neighbors.",
+            "Her brother."
+          ],
+          "explanation": "Sophie 請她的兄弟試作。",
+          "evidence": "Then she asks her brother to try it.",
+          "reasons": [
+            "沒有管理員。",
+            "沒有司機試作。",
+            "沒有所有鄰居。",
+            "原文 her brother。"
+          ],
+          "id": "d26-q1",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "Which word describes the time lost after going to the wrong room?",
+          "options": [
+            "Deadline.",
+            "Delay.",
+            "Latest.",
+            "Recall."
+          ],
+          "explanation": "失去的十分鐘對應 delay。",
+          "evidence": "He uses delay for the lost time.",
+          "reasons": [
+            "deadline是最後期限。",
+            "直接對應延誤。",
+            "latest描述最新。",
+            "recall是回想。"
+          ],
+          "id": "d26-q2",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does Sophie ask for an explanation?",
+          "options": [
+            "To check whether the chosen word fits the situation.",
+            "To stop her brother from changing any answer.",
+            "To make every answer longer than the story.",
+            "To find out who recorded the message."
+          ],
+          "explanation": "說明理由讓他發現deadline不適合「暫停」，促成修正。",
+          "evidence": "He changes it to pause and writes a reason beside the sentence.",
+          "reasons": [
+            "解釋後能檢查詞義與情境。",
+            "她接受修正。",
+            "不是比字數。",
+            "不是追查錄音者。"
+          ],
+          "id": "d26-q3",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “familiar” mean in the passage?",
+          "options": [
+            "Written with no mistakes.",
+            "Impossible to pronounce.",
+            "Useful only to a family member.",
+            "Recognizable from seeing it before."
+          ],
+          "explanation": "looks familiar 指看過覺得眼熟，不等於能自行回想。",
+          "evidence": "They do not mark a word as learned just because it looks familiar.",
+          "reasons": [
+            "眼熟不等於拼字正確。",
+            "不是無法發音。",
+            "不是family的意思。",
+            "與後面主動回想做對比。"
+          ],
+          "id": "d26-q4",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "Which action checks memory more directly than looking at the answers?",
+          "options": [
+            "Counting how many letters each printed answer has.",
+            "Reading the same answer aloud while looking at it.",
+            "Covering the list and answering new clues the next morning.",
+            "Copying the answer list onto another page."
+          ],
+          "explanation": "遮答案隔天用新線索提取，才檢查是否能從記憶回想。",
+          "evidence": "The next morning, they cover the answer list and try to recall all five words from new clues.",
+          "reasons": [
+            "數字母不是詞義回憶。",
+            "看得到答案不需回想。",
+            "沒有答案提示且換新情境。",
+            "抄寫可不理解。"
+          ],
+          "id": "d26-q5",
+          "answer": 2,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "What is the main idea of the passage?",
+          "options": [
+            "A word is learned as soon as it looks familiar.",
+            "Changing an answer means the whole exercise has failed.",
+            "Explaining and recalling words helps check real understanding.",
+            "An old message is always more useful than a new one."
+          ],
+          "explanation": "從理由修正、遮答案到新情境，核心是確認理解而非只眼熟。",
+          "evidence": "They do not mark a word as learned just because it looks familiar.",
+          "reasons": [
+            "文中明確否定。",
+            "修正是學習一部分。",
+            "涵蓋兩種檢查方法。",
+            "錯教室是未看最新訊息造成。"
+          ],
+          "id": "d26-q6",
+          "answer": 2,
+          "tier": 3
+        }
+      ],
+      "type": "單字與錯題復活",
+      "minutes": 10
+    }
+  ]
+}

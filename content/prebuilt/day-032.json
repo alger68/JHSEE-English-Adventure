@@ -1,0 +1,250 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-10-03",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 32,
+      "title": "Boss: The Free-Delivery Question",
+      "goal": "整合餐點需求、免運門檻與總預算，避免只看促銷。",
+      "story": "[Picnic order]\nTwelve students are planning lunch together. Four have requested vegetable sandwiches, and eight have requested rice boxes. They need exactly one meal each. Their total budget, including delivery, is $600.\n\n[Shop prices]\nVegetable sandwich: $40 each\nRice box: $50 each\nDelivery: $30 per order\nDelivery is free when the food subtotal reaches $600. Drinks do not count toward this amount. There are no other fees or discounts.\n\n[Team chat]\nNora: Our twelve meals cost $560 before delivery. We can afford the order.\nIan: What if we add one vegetable sandwich? Then delivery will be free.\nNora: We would pay $40 more for food but save only $30 on delivery. Does anyone need a thirteenth meal?\nIan: No. I was looking only at the word “free.” Let's keep the original order and check the final bill before paying.",
+      "words": [
+        {
+          "word": "budget",
+          "meaning": "預算",
+          "example": "The budget includes delivery."
+        },
+        {
+          "word": "subtotal",
+          "meaning": "小計",
+          "example": "The food subtotal is five hundred sixty dollars."
+        },
+        {
+          "word": "reach",
+          "meaning": "達到",
+          "example": "The subtotal must reach six hundred dollars."
+        },
+        {
+          "word": "afford",
+          "meaning": "負擔得起",
+          "example": "We can afford the original order."
+        },
+        {
+          "word": "original",
+          "meaning": "原先的",
+          "example": "Keep the original order of twelve meals."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "count toward",
+          "meaning": "計入"
+        },
+        {
+          "phrase": "before paying",
+          "meaning": "付款之前"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How many rice boxes do the students need?",
+          "options": [
+            "Four.",
+            "Twelve.",
+            "Eight.",
+            "Thirteen."
+          ],
+          "explanation": "八位指定飯盒，四位指定蔬菜三明治。",
+          "evidence": "Four have requested vegetable sandwiches, and eight have requested rice boxes.",
+          "reasons": [
+            "四是三明治數。",
+            "十二是全部餐點數。",
+            "八位對應八個飯盒。",
+            "十三是加購後總數。"
+          ],
+          "id": "d32-q1",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "When is delivery free?",
+          "options": [
+            "When food and delivery together cost $600.",
+            "Whenever twelve meals are ordered.",
+            "Whenever an order includes drinks.",
+            "When the food subtotal is at least $600."
+          ],
+          "explanation": "免運判準是食物小計達到600，不含運費或飲料。",
+          "evidence": "Delivery is free when the food subtotal reaches $600.",
+          "reasons": [
+            "運費不能算入食物小計。",
+            "餐點數不是門檻。",
+            "飲料不計入門檻。",
+            "正確使用食物小計門檻。"
+          ],
+          "id": "d32-q2",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "What is the food subtotal for the requested twelve meals?",
+          "options": [
+            "$590.",
+            "$600.",
+            "$560.",
+            "$480."
+          ],
+          "explanation": "4×40＋8×50＝160＋400＝560。",
+          "evidence": "Nora: Our twelve meals cost $560 before delivery.",
+          "reasons": [
+            "590含原訂單運費。",
+            "600是加一個三明治後的食物小計。",
+            "四個三明治加八個飯盒為560。",
+            "480是假設十二份都40元。"
+          ],
+          "id": "d32-q3",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "How much does the original order cost including delivery?",
+          "options": [
+            "$560.",
+            "$630.",
+            "$590.",
+            "$600."
+          ],
+          "explanation": "食物560未達免運門檻，所以加30，共590。",
+          "evidence": "Delivery: $30 per order",
+          "reasons": [
+            "漏加運費。",
+            "不是先湊600再加運費。",
+            "560＋30＝590。",
+            "600是加購一份後總價。"
+          ],
+          "id": "d32-q4",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why does Ian first suggest an extra sandwich?",
+          "options": [
+            "He wants to replace all the rice boxes.",
+            "He thinks a sandwich costs less than $30.",
+            "He has received a request from a thirteenth student.",
+            "He focuses on removing the delivery charge."
+          ],
+          "explanation": "Ian承認只注意到免費配送，沒有先比較總費用。",
+          "evidence": "Ian: No. I was looking only at the word “free.”",
+          "reasons": [
+            "沒有改換飯盒。",
+            "價目明列三明治40元。",
+            "他回答沒有多一人需求。",
+            "與對免運的注意一致。"
+          ],
+          "id": "d32-q5",
+          "answer": 3,
+          "tier": 1
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "Which lesson is most strongly supported?",
+          "options": [
+            "Compare the whole cost with the actual need.",
+            "Count delivery charges as part of the food subtotal.",
+            "Treat every extra item as a necessary purchase.",
+            "Choose the order with the largest number of items."
+          ],
+          "explanation": "除了免運，還要檢查加購成本及是否真的需要。",
+          "evidence": "Does anyone need a thirteenth meal?",
+          "reasons": [
+            "結合前一句成本比較與本句需求檢查。",
+            "食物小計不含運費。",
+            "加購並非必要。",
+            "人數固定，不是愈多愈好。"
+          ],
+          "id": "d32-q6",
+          "answer": 0,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “afford” mean in Nora’s first message?",
+          "options": [
+            "Divide food into exactly equal pieces.",
+            "Deliver meals before they become cold.",
+            "Have enough money to pay for something.",
+            "Receive an order without paying anything."
+          ],
+          "explanation": "預算600可支付590，所以afford是負擔得起。",
+          "evidence": "Nora: Our twelve meals cost $560 before delivery. We can afford the order.",
+          "reasons": [
+            "不是分切食物。",
+            "不是配送速度。",
+            "金額在預算內，能夠支付。",
+            "仍須付款。"
+          ],
+          "id": "d32-q7",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "How would one extra vegetable sandwich change the final cost?",
+          "options": [
+            "It would rise by $40, from $590 to $630.",
+            "It would fall by $30, from $590 to $560.",
+            "It would stay at $590 because delivery is free.",
+            "It would rise by $10, from $590 to $600."
+          ],
+          "explanation": "新食物小計600且免運；原總價590，所以增加10。",
+          "evidence": "We would pay $40 more for food but save only $30 on delivery.",
+          "reasons": [
+            "漏扣原來30元運費。",
+            "只算省運費，漏加購成本。",
+            "加購大於省下運費。",
+            "40−30＝10；590＋10＝600。"
+          ],
+          "id": "d32-q8",
+          "answer": 3,
+          "tier": 2
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "Which statement compares the two choices correctly?",
+          "options": [
+            "The original order needs one fewer rice box to fit the budget.",
+            "Only the extra-item order can stay within the $600 budget.",
+            "The original order meets all requests and leaves $10; the extra-item order leaves $0.",
+            "Both orders meet the requests and leave $30 each."
+          ],
+          "explanation": "原單590留10，追加單600留0；原單已滿足十二份指定需求。",
+          "evidence": "Their total budget, including delivery, is $600.",
+          "reasons": [
+            "原單已不超支，不必刪飯盒。",
+            "590也在預算內。",
+            "結合需求、預算與兩種總價。",
+            "餘額各為10與0，並非30。"
+          ],
+          "id": "d32-q9",
+          "answer": 2,
+          "tier": 3
+        }
+      ],
+      "type": "每週 Boss",
+      "minutes": 15
+    }
+  ]
+}

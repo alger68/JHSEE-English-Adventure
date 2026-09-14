@@ -1,0 +1,187 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-013-035-v1",
+  "plannedPublishDate": "2026-09-14",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 13,
+      "title": "The Extra Point",
+      "goal": "分辨發現錯誤、修正行動與公平理由。",
+      "story": "Every Monday, Amy counts the points for her class reading game. Students earn one point for each book report. This week, her friend Ben gives her two reports, but Amy writes three points beside his name. Ben notices the extra point during lunch.\n\nAt first, he says nothing. His team is only one point behind the leaders. Then he remembers the rule they all agreed on: every point needs a finished report. He tells Amy about the mistake before the final scores go on the classroom wall.\n\nAmy thanks him and changes the number. Their team does not win that week, but the game stays fair. On Tuesday, Ben brings another report. This time, he knows exactly why his team receives its next point.",
+      "words": [
+        {
+          "word": "earn",
+          "meaning": "獲得；賺得",
+          "example": "Students earn points by finishing reports."
+        },
+        {
+          "word": "extra",
+          "meaning": "額外的",
+          "example": "There is an extra chair near the door."
+        },
+        {
+          "word": "notice",
+          "meaning": "注意到",
+          "example": "I notice a mistake in the list."
+        },
+        {
+          "word": "rule",
+          "meaning": "規則",
+          "example": "Everyone follows the same rule."
+        },
+        {
+          "word": "fair",
+          "meaning": "公平的",
+          "example": "A fair game uses the same rules for everyone."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "at first",
+          "meaning": "起初"
+        },
+        {
+          "phrase": "agree on",
+          "meaning": "對……取得共識"
+        }
+      ],
+      "questions": [
+        {
+          "skill": "細節理解",
+          "prompt": "How many reports does Ben give Amy on Monday?",
+          "options": [
+            "Three.",
+            "Four.",
+            "Two.",
+            "One."
+          ],
+          "explanation": "Ben 交了兩份；三是 Amy 誤記的分數。",
+          "evidence": "This week, her friend Ben gives her two reports, but Amy writes three points beside his name.",
+          "reasons": [
+            "三是誤記分數。",
+            "文中沒有四份報告。",
+            "原文 two reports。",
+            "一是落後分差，不是報告數。"
+          ],
+          "id": "d13-q1",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "細節理解",
+          "prompt": "When does Ben tell Amy about the mistake?",
+          "options": [
+            "Before he gives her any reports.",
+            "When he brings a report on Tuesday.",
+            "Before the final scores are posted.",
+            "After his team wins the game."
+          ],
+          "explanation": "他在最後分數公布前主動告知。",
+          "evidence": "He tells Amy about the mistake before the final scores go on the classroom wall.",
+          "reasons": [
+            "他已交兩份才發現錯誤。",
+            "告知在星期一，星期二是新報告。",
+            "對應 before the final scores。",
+            "他的隊伍沒有贏。"
+          ],
+          "id": "d13-q2",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "推論判讀",
+          "prompt": "Why is the extra point tempting for Ben?",
+          "options": [
+            "It would let him stop writing forever.",
+            "It could help his team catch the leaders.",
+            "It would change the rules for everyone.",
+            "It could make Amy finish his reports."
+          ],
+          "explanation": "只落後一分，額外一分可能追平，這解釋他起初猶豫。",
+          "evidence": "At first, he says nothing. His team is only one point behind the leaders.",
+          "reasons": [
+            "沒有永久不用寫的規定。",
+            "一分差距支持此推論。",
+            "他們仍遵守原規則。",
+            "Amy 負責記分，不是代寫。"
+          ],
+          "id": "d13-q3",
+          "answer": 1,
+          "tier": 1
+        },
+        {
+          "skill": "字義推測",
+          "prompt": "What does “fair” mean in this story?",
+          "options": [
+            "Being easier for Ben’s team.",
+            "Having the largest number of players.",
+            "Following rules equally for everyone.",
+            "Taking a long time to finish."
+          ],
+          "explanation": "修正多算的一分，讓各隊依同一規則計分。",
+          "evidence": "Their team does not win that week, but the game stays fair.",
+          "reasons": [
+            "偏袒 Ben 的隊伍不公平。",
+            "人數不是 fair 的意思。",
+            "公平來自相同計分規則。",
+            "文中不是討論比賽長短。"
+          ],
+          "id": "d13-q4",
+          "answer": 2,
+          "tier": 1
+        },
+        {
+          "skill": "資訊整合",
+          "prompt": "How many points should Ben’s three reports earn altogether?",
+          "options": [
+            "Two points.",
+            "Four points.",
+            "Three points.",
+            "Five points."
+          ],
+          "explanation": "星期一兩份加星期二一份，共三份；每份一分。",
+          "evidence": "Students earn one point for each book report.",
+          "reasons": [
+            "漏了星期二那份。",
+            "把誤記分數也保留了。",
+            "2＋1＝3，每份一分。",
+            "沒有五份完成報告。"
+          ],
+          "id": "d13-q5",
+          "answer": 2,
+          "tier": 2
+        },
+        {
+          "skill": "主旨統整",
+          "prompt": "Which title also fits the whole story?",
+          "options": [
+            "A Point That Has to Be Earned",
+            "The Day Amy Stops Counting",
+            "How to Finish Three Reports at Lunch",
+            "A New Rule for the Winning Team"
+          ],
+          "explanation": "全文從誤記分數到修正，再到靠新報告得分，核心是得分須有依據。",
+          "evidence": "This time, he knows exactly why his team receives its next point.",
+          "reasons": [
+            "涵蓋錯分修正與實際努力。",
+            "Amy 沒有停止記分。",
+            "不是午餐時完成三份報告。",
+            "規則一開始就存在。"
+          ],
+          "id": "d13-q6",
+          "answer": 0,
+          "tier": 3
+        }
+      ],
+      "type": "校園故事",
+      "minutes": 10
+    }
+  ]
+}
