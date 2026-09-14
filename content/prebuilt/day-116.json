@@ -16,8 +16,8 @@
       "minutes": 15,
       "phrases": [
         {
-          "meaning": "不是唯一證據",
-          "phrase": "not the only evidence"
+          "meaning": "停止尋找",
+          "phrase": "stop searching"
         },
         {
           "meaning": "在辦公室",
@@ -57,7 +57,7 @@
         },
         {
           "answer": 3,
-          "evidence": "LOST NOTICE: A student left a dark green sports bag near the east gym door after lunch. It has a silver zipper and a white number seven on one side. Inside are a yellow towel and a water bottle. The student asks finders to contact the school office.\n\nFOUND LOG: At one thirty, a volunteer records two bags. Bag A is green with a black zipper and contains a blue towel. Bag B is dark green with a silver zipper, a white seven, and a yellow towel. Both are now held at the office.\n\nUPDATE MESSAGE: The owner remembers a small tear under one handle but did not mention it publicly. Staff will ask anyone claiming Bag B to describe that detail before returning it. A student who sees the online notice should not publish guesses about what else is inside.\n\nAt two, the owner visits the office, describes the hidden tear, and checks the contents with a staff member. The matching number alone was useful but not the only evidence. The final handover is recorded so another volunteer will not keep searching for an already returned bag.",
+          "evidence": "LOST NOTICE: A student left a dark green sports bag near the east gym door after lunch. It has a silver zipper and a white number seven on one side. Inside are a yellow towel and a water bottle. The student asks finders to contact the school office.\n\nFOUND LOG: At one thirty, a volunteer records two bags. Bag A is green with a black zipper and contains a blue towel. Bag B is dark green with a silver zipper, a white seven, and a yellow towel. Both are now held at the office.\n\nUPDATE MESSAGE: The owner remembers a small tear under one handle but did not mention it publicly. Staff will ask anyone claiming Bag B to describe that detail before returning it. A student who sees the online notice should not publish guesses about what else is inside.\n\nAt two, the owner describes the hidden tear and checks the contents with a staff member. Staff record the handover so volunteers stop searching. The number alone was useful but insufficient.",
           "explanation": "B 的深綠、銀拉鍊、白七與黃毛巾均相符。",
           "id": "d116-q3",
           "options": [
@@ -102,7 +102,7 @@
         },
         {
           "answer": 1,
-          "evidence": "LOST NOTICE: A student left a dark green sports bag near the east gym door after lunch. It has a silver zipper and a white number seven on one side. Inside are a yellow towel and a water bottle. The student asks finders to contact the school office.\n\nFOUND LOG: At one thirty, a volunteer records two bags. Bag A is green with a black zipper and contains a blue towel. Bag B is dark green with a silver zipper, a white seven, and a yellow towel. Both are now held at the office.\n\nUPDATE MESSAGE: The owner remembers a small tear under one handle but did not mention it publicly. Staff will ask anyone claiming Bag B to describe that detail before returning it. A student who sees the online notice should not publish guesses about what else is inside.\n\nAt two, the owner visits the office, describes the hidden tear, and checks the contents with a staff member. The matching number alone was useful but not the only evidence. The final handover is recorded so another volunteer will not keep searching for an already returned bag.",
+          "evidence": "LOST NOTICE: A student left a dark green sports bag near the east gym door after lunch. It has a silver zipper and a white number seven on one side. Inside are a yellow towel and a water bottle. The student asks finders to contact the school office.\n\nFOUND LOG: At one thirty, a volunteer records two bags. Bag A is green with a black zipper and contains a blue towel. Bag B is dark green with a silver zipper, a white seven, and a yellow towel. Both are now held at the office.\n\nUPDATE MESSAGE: The owner remembers a small tear under one handle but did not mention it publicly. Staff will ask anyone claiming Bag B to describe that detail before returning it. A student who sees the online notice should not publish guesses about what else is inside.\n\nAt two, the owner describes the hidden tear and checks the contents with a staff member. Staff record the handover so volunteers stop searching. The number alone was useful but insufficient.",
           "explanation": "A 黑拉鍊與公告銀色不符；存放地時間非排除理由。",
           "id": "d116-q6",
           "options": [
@@ -117,7 +117,7 @@
         },
         {
           "answer": 0,
-          "evidence": "At two, the owner visits the office, describes the hidden tear, and checks the contents with a staff member. The matching number alone was useful but not the only evidence. The final handover is recorded so another volunteer will not keep searching for an already returned bag.",
+          "evidence": "At two, the owner describes the hidden tear and checks the contents with a staff member. Staff record the handover so volunteers stop searching. The number alone was useful but insufficient.",
           "explanation": "最後指把核對物件交還失主。",
           "id": "d116-q7",
           "options": [
@@ -132,7 +132,7 @@
         },
         {
           "answer": 1,
-          "evidence": "At two, the owner visits the office, describes the hidden tear, and checks the contents with a staff member. The matching number alone was useful but not the only evidence. The final handover is recorded so another volunteer will not keep searching for an already returned bag.",
+          "evidence": "At two, the owner describes the hidden tear and checks the contents with a staff member. Staff record the handover so volunteers stop searching. The number alone was useful but insufficient.",
           "explanation": "交還紀錄同步其他人，避免繼續找。",
           "id": "d116-q8",
           "options": [
@@ -147,7 +147,7 @@
         },
         {
           "answer": 1,
-          "evidence": "LOST NOTICE: A student left a dark green sports bag near the east gym door after lunch. It has a silver zipper and a white number seven on one side. Inside are a yellow towel and a water bottle. The student asks finders to contact the school office.\n\nFOUND LOG: At one thirty, a volunteer records two bags. Bag A is green with a black zipper and contains a blue towel. Bag B is dark green with a silver zipper, a white seven, and a yellow towel. Both are now held at the office.\n\nUPDATE MESSAGE: The owner remembers a small tear under one handle but did not mention it publicly. Staff will ask anyone claiming Bag B to describe that detail before returning it. A student who sees the online notice should not publish guesses about what else is inside.\n\nAt two, the owner visits the office, describes the hidden tear, and checks the contents with a staff member. The matching number alone was useful but not the only evidence. The final handover is recorded so another volunteer will not keep searching for an already returned bag.",
+          "evidence": "LOST NOTICE: A student left a dark green sports bag near the east gym door after lunch. It has a silver zipper and a white number seven on one side. Inside are a yellow towel and a water bottle. The student asks finders to contact the school office.\n\nFOUND LOG: At one thirty, a volunteer records two bags. Bag A is green with a black zipper and contains a blue towel. Bag B is dark green with a silver zipper, a white seven, and a yellow towel. Both are now held at the office.\n\nUPDATE MESSAGE: The owner remembers a small tear under one handle but did not mention it publicly. Staff will ask anyone claiming Bag B to describe that detail before returning it. A student who sees the online notice should not publish guesses about what else is inside.\n\nAt two, the owner describes the hidden tear and checks the contents with a staff member. Staff record the handover so volunteers stop searching. The number alone was useful but insufficient.",
           "explanation": "多項比對、領取確認與交接紀錄构成完整流程。",
           "id": "d116-q9",
           "options": [
@@ -161,7 +161,7 @@
           "tier": 3
         }
       ],
-      "story": "LOST NOTICE: A student left a dark green sports bag near the east gym door after lunch. It has a silver zipper and a white number seven on one side. Inside are a yellow towel and a water bottle. The student asks finders to contact the school office.\n\nFOUND LOG: At one thirty, a volunteer records two bags. Bag A is green with a black zipper and contains a blue towel. Bag B is dark green with a silver zipper, a white seven, and a yellow towel. Both are now held at the office.\n\nUPDATE MESSAGE: The owner remembers a small tear under one handle but did not mention it publicly. Staff will ask anyone claiming Bag B to describe that detail before returning it. A student who sees the online notice should not publish guesses about what else is inside.\n\nAt two, the owner visits the office, describes the hidden tear, and checks the contents with a staff member. The matching number alone was useful but not the only evidence. The final handover is recorded so another volunteer will not keep searching for an already returned bag.",
+      "story": "LOST NOTICE: A student left a dark green sports bag near the east gym door after lunch. It has a silver zipper and a white number seven on one side. Inside are a yellow towel and a water bottle. The student asks finders to contact the school office.\n\nFOUND LOG: At one thirty, a volunteer records two bags. Bag A is green with a black zipper and contains a blue towel. Bag B is dark green with a silver zipper, a white seven, and a yellow towel. Both are now held at the office.\n\nUPDATE MESSAGE: The owner remembers a small tear under one handle but did not mention it publicly. Staff will ask anyone claiming Bag B to describe that detail before returning it. A student who sees the online notice should not publish guesses about what else is inside.\n\nAt two, the owner describes the hidden tear and checks the contents with a staff member. Staff record the handover so volunteers stop searching. The number alone was useful but insufficient.",
       "title": "Boss: Two Notices for One Lost Bag",
       "type": "每週 Boss",
       "words": [
@@ -181,12 +181,12 @@
           "word": "claiming"
         },
         {
-          "example": "At two, the owner visits the office, describes the hidden tear, and checks the contents with a staff member.",
+          "example": "At two, the owner describes the hidden tear and checks the contents with a staff member.",
           "meaning": "未公開的",
           "word": "hidden"
         },
         {
-          "example": "The final handover is recorded so another volunteer will not keep searching for an already returned bag.",
+          "example": "Staff record the handover so volunteers stop searching.",
           "meaning": "交付",
           "word": "handover"
         }
