@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-12",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 72,
+      "goal": "區分測驗順序效應與單一因素結論。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "憑記憶",
+          "phrase": "from memory"
+        },
+        {
+          "meaning": "事先",
+          "phrase": "in advance"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "In a memory activity, students see six shapes on a screen for ten seconds and then draw them from memory. They first work in silence. Next, they try a new set while a song plays. Many students remember more shapes during the second round.",
+          "explanation": "每組圖形展示十秒。",
+          "id": "d72-q1",
+          "options": [
+            "Six minutes.",
+            "Twenty seconds.",
+            "Ten seconds.",
+            "One hour."
+          ],
+          "prompt": "How long do students see each set of shapes?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "In a memory activity, students see six shapes on a screen for ten seconds and then draw them from memory. They first work in silence. Next, they try a new set while a song plays. Many students remember more shapes during the second round.",
+          "explanation": "原活動先安靜，再播放歌曲。",
+          "id": "d72-q2",
+          "options": [
+            "No shapes at all.",
+            "Music playing.",
+            "Silence.",
+            "Drawing with the screen still visible."
+          ],
+          "prompt": "Which condition comes second in the original activity?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Jin writes that music improved everyone's memory. His partner points out that the second round also came after practice. The shapes were different too, and the class did not check whether one set was easier to remember than the other.",
+          "explanation": "第二輪已有第一輪經驗，可能存在練習效果。",
+          "id": "d72-q3",
+          "options": [
+            "The song taught the names of all shapes.",
+            "Practice made every shape identical.",
+            "Students had already tried the task before the music round.",
+            "They remembered no shapes in either round."
+          ],
+          "prompt": "Why might practice explain part of the improvement?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The teacher proposes a new comparison. Half the students will begin with music and half without it. Then they will switch conditions. The group will use matching sets prepared in advance and record each student's results separately.",
+          "explanation": "分別記錄各學生結果，不混為一筆。",
+          "id": "d72-q4",
+          "options": [
+            "All numbers changed into one guess.",
+            "Only the best score recorded.",
+            "Every student's paper removed.",
+            "One person's result kept distinct from another's."
+          ],
+          "prompt": "What does 'separately' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The teacher proposes a new comparison. Half the students will begin with music and half without it. Then they will switch conditions. The group will use matching sets prepared in advance and record each student's results separately.",
+          "explanation": "分成不同起始條件後互換，避免順序固定。",
+          "id": "d72-q5",
+          "options": [
+            "Everyone repeats music first every time.",
+            "Only students with the highest score continue.",
+            "The class deletes the first round.",
+            "Some students start with music and others with silence."
+          ],
+          "prompt": "How does the new plan address order?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "The activity is still small, so the final report will describe these students and these tasks. Jin keeps his original guess in a different section from the results. Seeing a pattern is a useful start, but it is not the same as explaining its cause.",
+          "explanation": "觀察到關聯尚不等於證明原因。",
+          "id": "d72-q6",
+          "options": [
+            "A guess should replace recorded results.",
+            "A small activity proves what happens to everyone.",
+            "Noticing a pattern differs from proving its cause.",
+            "Remembering shapes is the same as hearing music."
+          ],
+          "prompt": "What distinction does the passage emphasize?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a memory activity, students see six shapes on a screen for ten seconds and then draw them from memory. They first work in silence. Next, they try a new set while a song plays. Many students remember more shapes during the second round.\n\nJin writes that music improved everyone's memory. His partner points out that the second round also came after practice. The shapes were different too, and the class did not check whether one set was easier to remember than the other.\n\nThe teacher proposes a new comparison. Half the students will begin with music and half without it. Then they will switch conditions. The group will use matching sets prepared in advance and record each student's results separately.\n\nThe activity is still small, so the final report will describe these students and these tasks. Jin keeps his original guess in a different section from the results. Seeing a pattern is a useful start, but it is not the same as explaining its cause.",
+      "title": "Remembering Shapes in Order",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "In a memory activity, students see six shapes on a screen for ten seconds and then draw them from memory.",
+          "meaning": "記憶",
+          "word": "memory"
+        },
+        {
+          "example": "They first work in silence.",
+          "meaning": "安靜",
+          "word": "silence"
+        },
+        {
+          "example": "Jin writes that music improved everyone's memory.",
+          "meaning": "改善了",
+          "word": "improved"
+        },
+        {
+          "example": "The group will use matching sets prepared in advance and record each student's results separately.",
+          "meaning": "分別地",
+          "word": "separately"
+        },
+        {
+          "example": "Seeing a pattern is a useful start, but it is not the same as explaining its cause.",
+          "meaning": "原因",
+          "word": "cause"
+        }
+      ]
+    }
+  ]
+}

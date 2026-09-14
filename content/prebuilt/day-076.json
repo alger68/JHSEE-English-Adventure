@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-16",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 76,
+      "goal": "依讀者目的選取重點，辨識資訊優先順序。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "取決於",
+          "phrase": "depend on"
+        },
+        {
+          "meaning": "首先要做什麼",
+          "phrase": "what to do first"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "Her partner thanks her but still asks which materials to bring and what to do first. Mara realizes that a complete account of the past is not necessarily a useful set of instructions. The guide needs to answer the reader's immediate questions.",
+          "explanation": "伙伴問帶什麼、先做什麼。",
+          "id": "d76-q1",
+          "options": [
+            "A finished final report.",
+            "A complete list of old jokes.",
+            "A materials list and clear first steps.",
+            "The history of every class member."
+          ],
+          "prompt": "What does Mara's partner need before the experiment?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "She rewrites it with a materials list, three numbered actions, and a warning to ask the teacher before touching the hot container. Background information moves to the end under a clear label. Her partner can now prepare without searching through the entire story.",
+          "explanation": "改寫後將背景放在末尾並標示。",
+          "id": "d76-q2",
+          "options": [
+            "Before every numbered action.",
+            "Onto the hot container.",
+            "To the end under a clear label.",
+            "Into the wastebasket immediately."
+          ],
+          "prompt": "Where does Mara move background information?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Mara keeps the longer notes for the final report, where the reasons behind the choices may matter. She has not decided that detail is bad. She has learned that the amount and order of detail should depend on what the reader is trying to do.",
+          "explanation": "完整背景在期末報告解釋選擇時仍有用。",
+          "id": "d76-q3",
+          "options": [
+            "Detail has no purpose in any document.",
+            "They may support the reasoning in the final report.",
+            "They must replace the short guide tomorrow.",
+            "Her partner cannot follow numbered steps."
+          ],
+          "prompt": "Why does Mara keep her longer notes?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Her partner thanks her but still asks which materials to bring and what to do first. Mara realizes that a complete account of the past is not necessarily a useful set of instructions. The guide needs to answer the reader's immediate questions.",
+          "explanation": "指伙伴現在準備實驗所需回答的問題。",
+          "id": "d76-q4",
+          "options": [
+            "Important only many years later.",
+            "Relevant to what is needed right now.",
+            "Written by the fastest student.",
+            "Impossible to answer clearly."
+          ],
+          "prompt": "What does 'immediate' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "She rewrites it with a materials list, three numbered actions, and a warning to ask the teacher before touching the hot container. Background information moves to the end under a clear label. Her partner can now prepare without searching through the entire story.",
+          "explanation": "清單與步驟利於行動，也保留操作前詢問警示。",
+          "id": "d76-q5",
+          "options": [
+            "Removing the caution because it makes the guide longer.",
+            "Materials, numbered steps, and a clearly placed teacher-check warning.",
+            "Jokes first, followed by unlabeled background.",
+            "Mixing past discussions into every action sentence."
+          ],
+          "prompt": "Which revision helps the reader act safely and efficiently?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Mara keeps the longer notes for the final report, where the reasons behind the choices may matter. She has not decided that detail is bad. She has learned that the amount and order of detail should depend on what the reader is trying to do.",
+          "explanation": "資訊多寡與順序取決於讀者想完成什麼。",
+          "id": "d76-q6",
+          "options": [
+            "Organize detail around the reader's purpose.",
+            "A full history must begin every instruction.",
+            "Long documents are always more useful.",
+            "Short documents never need explanations."
+          ],
+          "prompt": "Which principle does Mara discover?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Although Mara knows the science task well, her partner has missed two classes and needs a quick guide before the experiment. Mara writes two full pages describing every discussion, including jokes and the history of how the group chose its topic.\n\nHer partner thanks her but still asks which materials to bring and what to do first. Mara realizes that a complete account of the past is not necessarily a useful set of instructions. The guide needs to answer the reader's immediate questions.\n\nShe rewrites it with a materials list, three numbered actions, and a warning to ask the teacher before touching the hot container. Background information moves to the end under a clear label. Her partner can now prepare without searching through the entire story.\n\nMara keeps the longer notes for the final report, where the reasons behind the choices may matter. She has not decided that detail is bad. She has learned that the amount and order of detail should depend on what the reader is trying to do.",
+      "title": "The Helpful Note That Grew Too Long",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "Her partner thanks her but still asks which materials to bring and what to do first.",
+          "meaning": "材料",
+          "word": "materials"
+        },
+        {
+          "example": "Mara realizes that a complete account of the past is not necessarily a useful set of instructions.",
+          "meaning": "必然地",
+          "word": "necessarily"
+        },
+        {
+          "example": "Mara realizes that a complete account of the past is not necessarily a useful set of instructions.",
+          "meaning": "操作說明",
+          "word": "instructions"
+        },
+        {
+          "example": "The guide needs to answer the reader's immediate questions.",
+          "meaning": "當下的",
+          "word": "immediate"
+        },
+        {
+          "example": "Background information moves to the end under a clear label.",
+          "meaning": "背景",
+          "word": "background"
+        }
+      ]
+    }
+  ]
+}

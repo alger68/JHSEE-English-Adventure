@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-09",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 69,
+      "goal": "以重述確認分工，區分聽見與理解。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "用自己的話",
+          "phrase": "in their own words"
+        },
+        {
+          "meaning": "結果是",
+          "phrase": "turns out"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "The group rereads the task card. It asks for the landmark's history, why residents value it, and one practical visiting tip. They can use Sora's research, shorten Tim's map to one useful route, and ask Mei to interview a resident instead.",
+          "explanation": "題卡要求歷史、居民重視原因及一項實用參訪建議。",
+          "id": "d69-q1",
+          "options": [
+            "One practical visiting tip.",
+            "Every nearby bus stop.",
+            "A restaurant review.",
+            "A ten-minute personal story."
+          ],
+          "prompt": "What does the task card ask for besides history and local value?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Sora has researched the landmark's history. Tim has drawn a detailed map of every bus stop nearby. Mei has written a speech about her favorite restaurant beside it. Each student believed a different detail was the most important part of the assignment.",
+          "explanation": "Sora 查的就是地標歷史。",
+          "id": "d69-q2",
+          "options": [
+            "A resident's finished speech.",
+            "Sora's.",
+            "Mei's.",
+            "Tim's."
+          ],
+          "prompt": "Whose original work directly covers the history requirement?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Before dividing the remaining work, each student repeats their task in their own words. They agree on a two-minute limit for the whole talk. Nodding was quick, but checking a shared understanding turns out to save more time.",
+          "explanation": "用自己的話重述可確認分工理解一致。",
+          "id": "d69-q3",
+          "options": [
+            "To copy every nearby restaurant name.",
+            "To check that they share the same understanding.",
+            "To avoid using the task card.",
+            "To make the talk longer."
+          ],
+          "prompt": "Why do the students restate their tasks?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The group rereads the task card. It asks for the landmark's history, why residents value it, and one practical visiting tip. They can use Sora's research, shorten Tim's map to one useful route, and ask Mei to interview a resident instead.",
+          "explanation": "參訪建議應有助實際到訪。",
+          "id": "d69-q4",
+          "options": [
+            "Useful for taking action.",
+            "Popular only with artists.",
+            "Impossible to use outside school.",
+            "Older than the landmark."
+          ],
+          "prompt": "What does 'practical' mean in the task card?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "During a group project, the teacher asks students to prepare a short talk about a local landmark. Half the group nods while the instructions are read. Everyone looks busy afterward, but their notes do not match when they meet at the end of the period.\n\nSora has researched the landmark's history. Tim has drawn a detailed map of every bus stop nearby. Mei has written a speech about her favorite restaurant beside it. Each student believed a different detail was the most important part of the assignment.\n\nThe group rereads the task card. It asks for the landmark's history, why residents value it, and one practical visiting tip. They can use Sora's research, shorten Tim's map to one useful route, and ask Mei to interview a resident instead.\n\nBefore dividing the remaining work, each student repeats their task in their own words. They agree on a two-minute limit for the whole talk. Nodding was quick, but checking a shared understanding turns out to save more time.",
+          "explanation": "依三項要求重新安排已有材料與待補內容。",
+          "id": "d69-q5",
+          "options": [
+            "Keep every bus stop and remove all history.",
+            "Replace the landmark with Mei's restaurant.",
+            "Keep history, reduce the map to a route, and gather a resident's view.",
+            "Let each student give a separate two-minute talk."
+          ],
+          "prompt": "Which revision best matches the task?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "During a group project, the teacher asks students to prepare a short talk about a local landmark. Half the group nods while the instructions are read. Everyone looks busy afterward, but their notes do not match when they meet at the end of the period.\n\nSora has researched the landmark's history. Tim has drawn a detailed map of every bus stop nearby. Mei has written a speech about her favorite restaurant beside it. Each student believed a different detail was the most important part of the assignment.\n\nThe group rereads the task card. It asks for the landmark's history, why residents value it, and one practical visiting tip. They can use Sora's research, shorten Tim's map to one useful route, and ask Mei to interview a resident instead.\n\nBefore dividing the remaining work, each student repeats their task in their own words. They agree on a two-minute limit for the whole talk. Nodding was quick, but checking a shared understanding turns out to save more time.",
+          "explanation": "點頭不保證理解一致，確認可節省返工。",
+          "id": "d69-q6",
+          "options": [
+            "Nodding guarantees everyone heard the same task.",
+            "Confirming understanding can prevent wasted work.",
+            "Every project needs a detailed bus map.",
+            "The busiest-looking student always understands best."
+          ],
+          "prompt": "What does the group learn?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "During a group project, the teacher asks students to prepare a short talk about a local landmark. Half the group nods while the instructions are read. Everyone looks busy afterward, but their notes do not match when they meet at the end of the period.\n\nSora has researched the landmark's history. Tim has drawn a detailed map of every bus stop nearby. Mei has written a speech about her favorite restaurant beside it. Each student believed a different detail was the most important part of the assignment.\n\nThe group rereads the task card. It asks for the landmark's history, why residents value it, and one practical visiting tip. They can use Sora's research, shorten Tim's map to one useful route, and ask Mei to interview a resident instead.\n\nBefore dividing the remaining work, each student repeats their task in their own words. They agree on a two-minute limit for the whole talk. Nodding was quick, but checking a shared understanding turns out to save more time.",
+      "title": "The Question Nobody Asked",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "During a group project, the teacher asks students to prepare a short talk about a local landmark.",
+          "meaning": "地標",
+          "word": "landmark"
+        },
+        {
+          "example": "It asks for the landmark's history, why residents value it, and one practical visiting tip.",
+          "meaning": "居民",
+          "word": "residents"
+        },
+        {
+          "example": "It asks for the landmark's history, why residents value it, and one practical visiting tip.",
+          "meaning": "實用的",
+          "word": "practical"
+        },
+        {
+          "example": "Each student believed a different detail was the most important part of the assignment.",
+          "meaning": "作業",
+          "word": "assignment"
+        },
+        {
+          "example": "Nodding was quick, but checking a shared understanding turns out to save more time.",
+          "meaning": "理解",
+          "word": "understanding"
+        }
+      ]
+    }
+  ]
+}

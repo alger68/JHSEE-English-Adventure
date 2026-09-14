@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-15",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 75,
+      "goal": "以語境區分相近單字和計數單位。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "計算之前",
+          "phrase": "before calculating"
+        },
+        {
+          "meaning": "指的是",
+          "phrase": "refer to"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "For review, the club uses five words from its recent tasks: beforehand, separately, side, cover, and submit. Their teacher folds three sheets into a small booklet and asks students to count sheets first, before discussing how many sides could contain writing.",
+          "explanation": "先數紙張，再談可書寫的面。",
+          "id": "d75-q1",
+          "options": [
+            "Printed words.",
+            "Students' names.",
+            "Sheets.",
+            "Colored covers."
+          ],
+          "prompt": "What does the teacher ask students to count first?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Min says that a cover is always a printed page. Her partner opens a blank notebook and points to its plain outer cover. They decide that the word describes an outside part, while printed describes whether something has been placed on a surface.",
+          "explanation": "素面筆記本封面反駁一定有印字的看法。",
+          "id": "d75-q2",
+          "options": [
+            "A file sent to the desk.",
+            "A notebook's plain outer cover.",
+            "Three printed posters.",
+            "Results in separate rows."
+          ],
+          "prompt": "What shows that a cover need not be printed?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The class writes a reminder above the counting exercise: identify the unit before calculating. A correct multiplication can still produce the wrong answer if the numbers refer to different things. They test their own examples by asking a partner to explain the units aloud.",
+          "explanation": "算式沒錯，若張數與面數混用仍會答錯。",
+          "id": "d75-q3",
+          "options": [
+            "Multiplication never works for printing.",
+            "Partners cannot read aloud.",
+            "The numbers may refer to different units.",
+            "The teacher removed every number."
+          ],
+          "prompt": "Why can correct multiplication lead to a wrong answer?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A second puzzle asks students to prepare equipment before recording. They choose beforehand. Results kept in different rows are recorded separately. For the last blank, a student must send a finished file to the printing desk, so the group chooses submit.",
+          "explanation": "把完成檔案交給印務處理。",
+          "id": "d75-q4",
+          "options": [
+            "Read something without sending it.",
+            "Send in completed work for processing.",
+            "Fold a sheet into two parts.",
+            "Delete a finished file."
+          ],
+          "prompt": "What does 'submit' mean in the last puzzle?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "For review, the club uses five words from its recent tasks: beforehand, separately, side, cover, and submit. Their teacher folds three sheets into a small booklet and asks students to count sheets first, before discussing how many sides could contain writing.\n\nMin says that a cover is always a printed page. Her partner opens a blank notebook and points to its plain outer cover. They decide that the word describes an outside part, while printed describes whether something has been placed on a surface.\n\nA second puzzle asks students to prepare equipment before recording. They choose beforehand. Results kept in different rows are recorded separately. For the last blank, a student must send a finished file to the printing desk, so the group chooses submit.\n\nThe class writes a reminder above the counting exercise: identify the unit before calculating. A correct multiplication can still produce the wrong answer if the numbers refer to different things. They test their own examples by asking a partner to explain the units aloud.",
+          "explanation": "第二與第三段提供明確用法。",
+          "id": "d75-q5",
+          "options": [
+            "Beforehand—prepare before recording; separately—keep results distinct.",
+            "Separately—combine all rows; cover—inside ink only.",
+            "Cover—every printed side; submit—keep work private.",
+            "Side—always a whole sheet; beforehand—after the recording."
+          ],
+          "prompt": "Which pair correctly applies the review words?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "For review, the club uses five words from its recent tasks: beforehand, separately, side, cover, and submit. Their teacher folds three sheets into a small booklet and asks students to count sheets first, before discussing how many sides could contain writing.\n\nMin says that a cover is always a printed page. Her partner opens a blank notebook and points to its plain outer cover. They decide that the word describes an outside part, while printed describes whether something has been placed on a surface.\n\nA second puzzle asks students to prepare equipment before recording. They choose beforehand. Results kept in different rows are recorded separately. For the last blank, a student must send a finished file to the printing desk, so the group chooses submit.\n\nThe class writes a reminder above the counting exercise: identify the unit before calculating. A correct multiplication can still produce the wrong answer if the numbers refer to different things. They test their own examples by asking a partner to explain the units aloud.",
+          "explanation": "先辨識概念與單位，才不會套錯數值。",
+          "id": "d75-q6",
+          "options": [
+            "Assume page, side, and sheet always mean the same thing.",
+            "Use the longest word whenever unsure.",
+            "Identify what a number or word represents before using it.",
+            "Calculate first and ignore units later."
+          ],
+          "prompt": "What is the key lesson of the exercise?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "For review, the club uses five words from its recent tasks: beforehand, separately, side, cover, and submit. Their teacher folds three sheets into a small booklet and asks students to count sheets first, before discussing how many sides could contain writing.\n\nMin says that a cover is always a printed page. Her partner opens a blank notebook and points to its plain outer cover. They decide that the word describes an outside part, while printed describes whether something has been placed on a surface.\n\nA second puzzle asks students to prepare equipment before recording. They choose beforehand. Results kept in different rows are recorded separately. For the last blank, a student must send a finished file to the printing desk, so the group chooses submit.\n\nThe class writes a reminder above the counting exercise: identify the unit before calculating. A correct multiplication can still produce the wrong answer if the numbers refer to different things. They test their own examples by asking a partner to explain the units aloud.",
+      "title": "The Page, the Sheet, and the Side",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "For review, the club uses five words from its recent tasks: beforehand, separately, side, cover, and submit.",
+          "meaning": "事先",
+          "word": "beforehand"
+        },
+        {
+          "example": "For review, the club uses five words from its recent tasks: beforehand, separately, side, cover, and submit.",
+          "meaning": "分別",
+          "word": "separately"
+        },
+        {
+          "example": "For review, the club uses five words from its recent tasks: beforehand, separately, side, cover, and submit.",
+          "meaning": "面",
+          "word": "side"
+        },
+        {
+          "example": "For review, the club uses five words from its recent tasks: beforehand, separately, side, cover, and submit.",
+          "meaning": "封面",
+          "word": "cover"
+        },
+        {
+          "example": "For review, the club uses five words from its recent tasks: beforehand, separately, side, cover, and submit.",
+          "meaning": "送出",
+          "word": "submit"
+        }
+      ]
+    }
+  ]
+}

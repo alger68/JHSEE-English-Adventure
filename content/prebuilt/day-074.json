@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-14",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 74,
+      "goal": "整合列印頁數、份數、費率及截止時間。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "在前面",
+          "phrase": "in front"
+        },
+        {
+          "meaning": "不增加費用",
+          "phrase": "adds no charge"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "PROJECT FILE: Each report contains seven black-and-white pages and one color cover. The class needs six identical copies. They will print the seven inside pages double-sided and put a single-sided color cover in front. Each finished copy therefore uses five sheets.",
+          "explanation": "需要六份相同報告。",
+          "id": "d74-q1",
+          "options": [
+            "Five.",
+            "Seven.",
+            "Eight.",
+            "Six."
+          ],
+          "prompt": "How many copies does the class need?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "PROJECT FILE: Each report contains seven black-and-white pages and one color cover. The class needs six identical copies. They will print the seven inside pages double-sided and put a single-sided color cover in front. Each finished copy therefore uses five sheets.",
+          "explanation": "原訂混合彩色方案只有封面彩印。",
+          "id": "d74-q2",
+          "options": [
+            "The staples.",
+            "The cover.",
+            "All inside pages.",
+            "Only blank sides."
+          ],
+          "prompt": "Which part is printed in color?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "PROJECT FILE: Each report contains seven black-and-white pages and one color cover. The class needs six identical copies. They will print the seven inside pages double-sided and put a single-sided color cover in front. Each finished copy therefore uses five sheets.\n\nDESK PRICES: Each black-and-white printed side costs one dollar, and each color side costs five dollars. Stapling up to twenty sheets per document is free. The desk receives files until two for same-day pickup after three. The presentation begins at four.\n\nTEAM MESSAGE: The file is ready at one forty-five. The team has eighty dollars. Ian suggests printing all eight pages in color for a better-looking report. Sara asks him to calculate the full cost before changing the order from the agreed mixed-color version.\n\nThey keep the mixed-color order and submit it immediately. At pickup, they count six complete copies and check each cover. The blank reverse side of the final inside sheet has no printing and adds no charge, but it is still part of the paper count.",
+          "explanation": "七個黑白面七元，加一彩色面五元，共十二。",
+          "id": "d74-q3",
+          "options": [
+            "Ten dollars.",
+            "Forty dollars.",
+            "Twelve dollars.",
+            "Eight dollars."
+          ],
+          "prompt": "What is the price of one mixed-color copy?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "DESK PRICES: Each black-and-white printed side costs one dollar, and each color side costs five dollars. Stapling up to twenty sheets per document is free. The desk receives files until two for same-day pickup after three. The presentation begins at four.",
+          "explanation": "全部彩色需重新算總成本，不能只看外觀。",
+          "id": "d74-q4",
+          "options": [
+            "Color printing is always free.",
+            "The desk has already closed.",
+            "The file has no pages to count.",
+            "His suggestion could exceed the available budget."
+          ],
+          "prompt": "Why does Sara ask Ian to calculate first?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "PROJECT FILE: Each report contains seven black-and-white pages and one color cover. The class needs six identical copies. They will print the seven inside pages double-sided and put a single-sided color cover in front. Each finished copy therefore uses five sheets.\n\nDESK PRICES: Each black-and-white printed side costs one dollar, and each color side costs five dollars. Stapling up to twenty sheets per document is free. The desk receives files until two for same-day pickup after three. The presentation begins at four.\n\nTEAM MESSAGE: The file is ready at one forty-five. The team has eighty dollars. Ian suggests printing all eight pages in color for a better-looking report. Sara asks him to calculate the full cost before changing the order from the agreed mixed-color version.\n\nThey keep the mixed-color order and submit it immediately. At pickup, they count six complete copies and check each cover. The blank reverse side of the final inside sheet has no printing and adds no charge, but it is still part of the paper count.",
+          "explanation": "每份五張，低於二十張免費裝訂上限。",
+          "id": "d74-q5",
+          "options": [
+            "No, color covers are never stapled.",
+            "No, every copy uses forty sheets.",
+            "Yes, it has five sheets, below the twenty-sheet limit.",
+            "Only if the class prints one copy."
+          ],
+          "prompt": "Does one finished copy qualify for free stapling?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "PROJECT FILE: Each report contains seven black-and-white pages and one color cover. The class needs six identical copies. They will print the seven inside pages double-sided and put a single-sided color cover in front. Each finished copy therefore uses five sheets.",
+          "explanation": "每份五張乘六份＝三十張。",
+          "id": "d74-q6",
+          "options": [
+            "Twenty-four.",
+            "Forty-eight.",
+            "Twelve.",
+            "Thirty."
+          ],
+          "prompt": "How many sheets are used for all six copies?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "They keep the mixed-color order and submit it immediately. At pickup, they count six complete copies and check each cover. The blank reverse side of the final inside sheet has no printing and adds no charge, but it is still part of the paper count.",
+          "explanation": "reverse side 指另一面或背面。",
+          "id": "d74-q7",
+          "options": [
+            "A canceled order.",
+            "A replacement cover.",
+            "A different classroom.",
+            "The back side."
+          ],
+          "prompt": "What does 'reverse' mean in the last paragraph?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "PROJECT FILE: Each report contains seven black-and-white pages and one color cover. The class needs six identical copies. They will print the seven inside pages double-sided and put a single-sided color cover in front. Each finished copy therefore uses five sheets.\n\nDESK PRICES: Each black-and-white printed side costs one dollar, and each color side costs five dollars. Stapling up to twenty sheets per document is free. The desk receives files until two for same-day pickup after three. The presentation begins at four.\n\nTEAM MESSAGE: The file is ready at one forty-five. The team has eighty dollars. Ian suggests printing all eight pages in color for a better-looking report. Sara asks him to calculate the full cost before changing the order from the agreed mixed-color version.\n\nThey keep the mixed-color order and submit it immediately. At pickup, they count six complete copies and check each cover. The blank reverse side of the final inside sheet has no printing and adds no charge, but it is still part of the paper count.",
+          "explanation": "六份各十二元，共七十二；80－72＝8。",
+          "id": "d74-q8",
+          "options": [
+            "Twenty dollars.",
+            "Twelve dollars.",
+            "Eight dollars.",
+            "Zero dollars."
+          ],
+          "prompt": "How much money remains after the mixed-color order?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "PROJECT FILE: Each report contains seven black-and-white pages and one color cover. The class needs six identical copies. They will print the seven inside pages double-sided and put a single-sided color cover in front. Each finished copy therefore uses five sheets.\n\nDESK PRICES: Each black-and-white printed side costs one dollar, and each color side costs five dollars. Stapling up to twenty sheets per document is free. The desk receives files until two for same-day pickup after three. The presentation begins at four.\n\nTEAM MESSAGE: The file is ready at one forty-five. The team has eighty dollars. Ian suggests printing all eight pages in color for a better-looking report. Sara asks him to calculate the full cost before changing the order from the agreed mixed-color version.\n\nThey keep the mixed-color order and submit it immediately. At pickup, they count six complete copies and check each cover. The blank reverse side of the final inside sheet has no printing and adds no charge, but it is still part of the paper count.",
+          "explanation": "全彩 8×5×6＝240；混合 (7＋5)×6＝72。",
+          "id": "d74-q9",
+          "options": [
+            "All-color copies would cost 240 dollars; the mixed order costs 72.",
+            "All-color and mixed copies both cost 72 dollars.",
+            "All-color costs 40 dollars for all six copies.",
+            "The mixed order costs 240 dollars; all-color costs 48."
+          ],
+          "prompt": "Which comparison is correct?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "PROJECT FILE: Each report contains seven black-and-white pages and one color cover. The class needs six identical copies. They will print the seven inside pages double-sided and put a single-sided color cover in front. Each finished copy therefore uses five sheets.\n\nDESK PRICES: Each black-and-white printed side costs one dollar, and each color side costs five dollars. Stapling up to twenty sheets per document is free. The desk receives files until two for same-day pickup after three. The presentation begins at four.\n\nTEAM MESSAGE: The file is ready at one forty-five. The team has eighty dollars. Ian suggests printing all eight pages in color for a better-looking report. Sara asks him to calculate the full cost before changing the order from the agreed mixed-color version.\n\nThey keep the mixed-color order and submit it immediately. At pickup, they count six complete copies and check each cover. The blank reverse side of the final inside sheet has no printing and adds no charge, but it is still part of the paper count.",
+      "title": "Boss: Six Copies of the Report",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "The class needs six identical copies.",
+          "meaning": "相同的",
+          "word": "identical"
+        },
+        {
+          "example": "PROJECT FILE: Each report contains seven black-and-white pages and one color cover.",
+          "meaning": "封面",
+          "word": "cover"
+        },
+        {
+          "example": "Each finished copy therefore uses five sheets.",
+          "meaning": "因此",
+          "word": "therefore"
+        },
+        {
+          "example": "They keep the mixed-color order and submit it immediately.",
+          "meaning": "送出",
+          "word": "submit"
+        },
+        {
+          "example": "The blank reverse side of the final inside sheet has no printing and adds no charge, but it is still part of the paper count.",
+          "meaning": "背面",
+          "word": "reverse"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-06",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 66,
+      "goal": "核對借用清單、歸還與污損處理。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "辦理歸還",
+          "phrase": "checked back in"
+        },
+        {
+          "meaning": "領取時",
+          "phrase": "at pickup"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "COSTUME CUPBOARD: Students may borrow a costume for a school performance with a teacher's signature. Each set has a coat, a hat, and a fabric belt. Check all three pieces at pickup and tell the cupboard volunteer immediately if anything is missing.",
+          "explanation": "外套、帽子、布腰帶共三件。",
+          "id": "d66-q1",
+          "options": [
+            "Three.",
+            "Four.",
+            "One.",
+            "Two."
+          ],
+          "prompt": "How many pieces form a complete set?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Borrowed sets must return by four on the school day after the performance. Do not wash them at home. Some fabrics need special treatment, so the school arranges cleaning. Place any damp piece in a separate open bag and tell the volunteer about it.",
+          "explanation": "公告要求不在家洗，由學校安排。",
+          "id": "d66-q2",
+          "options": [
+            "The audience.",
+            "The school.",
+            "Each borrower's family.",
+            "The first student at a fitting."
+          ],
+          "prompt": "Who arranges costume cleaning?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Borrowed sets must return by four on the school day after the performance. Do not wash them at home. Some fabrics need special treatment, so the school arranges cleaning. Place any damp piece in a separate open bag and tell the volunteer about it.",
+          "explanation": "潮濕物件須分開並告知，方便依狀況處理。",
+          "id": "d66-q3",
+          "options": [
+            "It may need different handling during cleaning.",
+            "It replaces every missing hat.",
+            "The performance cannot begin without it.",
+            "It automatically becomes the student's property."
+          ],
+          "prompt": "Why should a damp piece be reported?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "For fittings, visit the cupboard during Wednesday lunch. Fittings do not reserve costumes. A reservation becomes official only when the signed form is accepted. If two students want the same set, the first completed reservation has priority.",
+          "explanation": "較早完成正式預約者先取得借用資格。",
+          "id": "d66-q4",
+          "options": [
+            "The right to be considered first.",
+            "The duty to wash every costume.",
+            "A special type of performance.",
+            "The number written on a belt."
+          ],
+          "prompt": "What does 'priority' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "For fittings, visit the cupboard during Wednesday lunch. Fittings do not reserve costumes. A reservation becomes official only when the signed form is accepted. If two students want the same set, the first completed reservation has priority.",
+          "explanation": "試穿不等於預約，須簽名表單被受理。",
+          "id": "d66-q5",
+          "options": [
+            "Asking a friend to hold a hat.",
+            "Trying on the costume at lunch.",
+            "Taking a photo of the coat.",
+            "Having the signed form accepted."
+          ],
+          "prompt": "Which action secures a reservation?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "COSTUME CUPBOARD: Students may borrow a costume for a school performance with a teacher's signature. Each set has a coat, a hat, and a fabric belt. Check all three pieces at pickup and tell the cupboard volunteer immediately if anything is missing.\n\nBorrowed sets must return by four on the school day after the performance. Do not wash them at home. Some fabrics need special treatment, so the school arranges cleaning. Place any damp piece in a separate open bag and tell the volunteer about it.\n\nThe borrower receives a numbered checklist. Keep it until the complete set has been checked back in. A teacher's signature allows borrowing, but it does not replace the final item check. Unreturned pieces remain listed under the borrower's name.\n\nFor fittings, visit the cupboard during Wednesday lunch. Fittings do not reserve costumes. A reservation becomes official only when the signed form is accepted. If two students want the same set, the first completed reservation has priority.",
+          "explanation": "借出需同意，歸還仍要逐件核對。",
+          "id": "d66-q6",
+          "options": [
+            "Giving costumes away after performances.",
+            "Treating a teacher's signature as proof of return.",
+            "Documenting both permission and the complete borrowed set.",
+            "Washing every fabric in the same way."
+          ],
+          "prompt": "What does the notice emphasize?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "COSTUME CUPBOARD: Students may borrow a costume for a school performance with a teacher's signature. Each set has a coat, a hat, and a fabric belt. Check all three pieces at pickup and tell the cupboard volunteer immediately if anything is missing.\n\nBorrowed sets must return by four on the school day after the performance. Do not wash them at home. Some fabrics need special treatment, so the school arranges cleaning. Place any damp piece in a separate open bag and tell the volunteer about it.\n\nThe borrower receives a numbered checklist. Keep it until the complete set has been checked back in. A teacher's signature allows borrowing, but it does not replace the final item check. Unreturned pieces remain listed under the borrower's name.\n\nFor fittings, visit the cupboard during Wednesday lunch. Fittings do not reserve costumes. A reservation becomes official only when the signed form is accepted. If two students want the same set, the first completed reservation has priority.",
+      "title": "Borrow a Costume, Return a Set",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "COSTUME CUPBOARD: Students may borrow a costume for a school performance with a teacher's signature.",
+          "meaning": "戲服",
+          "word": "costume"
+        },
+        {
+          "example": "COSTUME CUPBOARD: Students may borrow a costume for a school performance with a teacher's signature.",
+          "meaning": "簽名",
+          "word": "signature"
+        },
+        {
+          "example": "Some fabrics need special treatment, so the school arranges cleaning.",
+          "meaning": "處理",
+          "word": "treatment"
+        },
+        {
+          "example": "The borrower receives a numbered checklist.",
+          "meaning": "核對清單",
+          "word": "checklist"
+        },
+        {
+          "example": "If two students want the same set, the first completed reservation has priority.",
+          "meaning": "優先權",
+          "word": "priority"
+        }
+      ]
+    }
+  ]
+}

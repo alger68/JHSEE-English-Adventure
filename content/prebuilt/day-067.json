@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-07",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 67,
+      "goal": "交叉核對庫存、損壞數與所需整套數。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "在台上",
+          "phrase": "on stage"
+        },
+        {
+          "meaning": "中午以前",
+          "phrase": "by noon"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "CUPBOARD LIST: Before rehearsal, the drama club has twelve coats, eleven hats, and thirteen belts. Two hats are torn and cannot be used. One coat is too wet to wear. Every actor needs one usable coat, one usable hat, and one belt.",
+          "explanation": "十一頂中兩頂破裂不能用。",
+          "id": "d67-q1",
+          "options": [
+            "One.",
+            "Eleven.",
+            "Three.",
+            "Two."
+          ],
+          "prompt": "How many hats are unusable before any repair?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "CAST MESSAGE: Ten actors will perform tomorrow. Nobody may share a piece while on stage. The school sewing team can repair one torn hat by noon tomorrow, but the second hat needs material that will not arrive until next week.",
+          "explanation": "演出名單十人。",
+          "id": "d67-q2",
+          "options": [
+            "Twelve.",
+            "Thirteen.",
+            "Ten.",
+            "Eleven."
+          ],
+          "prompt": "How many actors are in tomorrow's show?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "CUPBOARD LIST: Before rehearsal, the drama club has twelve coats, eleven hats, and thirteen belts. Two hats are torn and cannot be used. One coat is too wet to wear. Every actor needs one usable coat, one usable hat, and one belt.",
+          "explanation": "十二件扣掉一件濕外套＝十一件。",
+          "id": "d67-q3",
+          "options": [
+            "Twelve.",
+            "Nine.",
+            "Ten.",
+            "Eleven."
+          ],
+          "prompt": "How many usable coats are available today?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "CAST MESSAGE: Ten actors will perform tomorrow. Nobody may share a piece while on stage. The school sewing team can repair one torn hat by noon tomorrow, but the second hat needs material that will not arrive until next week.",
+          "explanation": "第二頂所需材料下週才到。",
+          "id": "d67-q4",
+          "options": [
+            "The wet coat uses every hat.",
+            "All thirteen belts are damaged.",
+            "Actors do not need hats tomorrow.",
+            "Only one can be repaired in time."
+          ],
+          "prompt": "Why can't the club count both torn hats for tomorrow?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "For today's rehearsal, one actor can practice without a costume while using a name card. Tomorrow, the repaired hat and dry coat are checked before the sets are packed. The checklist records what is actually available, not just the totals before damaged items are removed.",
+          "explanation": "今日排練允許一人以姓名牌替代。",
+          "id": "d67-q5",
+          "options": [
+            "Another actor's coat while on stage.",
+            "Two extra belts.",
+            "The unrepaired hat during the show.",
+            "A name card."
+          ],
+          "prompt": "What can the uncostumed actor use at rehearsal?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "CUPBOARD LIST: Before rehearsal, the drama club has twelve coats, eleven hats, and thirteen belts. Two hats are torn and cannot be used. One coat is too wet to wear. Every actor needs one usable coat, one usable hat, and one belt.\n\nCAST MESSAGE: Ten actors will perform tomorrow. Nobody may share a piece while on stage. The school sewing team can repair one torn hat by noon tomorrow, but the second hat needs material that will not arrive until next week.\n\nDRYING UPDATE: The wet coat will be ready by tomorrow morning. The director asks students to count usable pieces for both today's rehearsal and tomorrow's show. Spare pieces should stay in the cupboard rather than being assigned to imaginary extra actors.\n\nFor today's rehearsal, one actor can practice without a costume while using a name card. Tomorrow, the repaired hat and dry coat are checked before the sets are packed. The checklist records what is actually available, not just the totals before damaged items are removed.",
+          "explanation": "帽子 11－2＝9，少於其餘可用品。",
+          "id": "d67-q6",
+          "options": [
+            "Ten name cards.",
+            "Eleven usable coats.",
+            "Thirteen belts.",
+            "Nine usable hats."
+          ],
+          "prompt": "What limits today's number of complete sets?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "DRYING UPDATE: The wet coat will be ready by tomorrow morning. The director asks students to count usable pieces for both today's rehearsal and tomorrow's show. Spare pieces should stay in the cupboard rather than being assigned to imaginary extra actors.",
+          "explanation": "超出目前需求而留作備用的物品。",
+          "id": "d67-q7",
+          "options": [
+            "Extra and kept in reserve.",
+            "Already being worn.",
+            "Required by every imaginary actor.",
+            "Too damaged to count."
+          ],
+          "prompt": "What does 'spare' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "CUPBOARD LIST: Before rehearsal, the drama club has twelve coats, eleven hats, and thirteen belts. Two hats are torn and cannot be used. One coat is too wet to wear. Every actor needs one usable coat, one usable hat, and one belt.\n\nCAST MESSAGE: Ten actors will perform tomorrow. Nobody may share a piece while on stage. The school sewing team can repair one torn hat by noon tomorrow, but the second hat needs material that will not arrive until next week.\n\nDRYING UPDATE: The wet coat will be ready by tomorrow morning. The director asks students to count usable pieces for both today's rehearsal and tomorrow's show. Spare pieces should stay in the cupboard rather than being assigned to imaginary extra actors.\n\nFor today's rehearsal, one actor can practice without a costume while using a name card. Tomorrow, the repaired hat and dry coat are checked before the sets are packed. The checklist records what is actually available, not just the totals before damaged items are removed.",
+          "explanation": "明日外套12、帽子10、腰帶13，最少數為10套。",
+          "id": "d67-q8",
+          "options": [
+            "Twelve.",
+            "Nine.",
+            "Ten.",
+            "Eleven."
+          ],
+          "prompt": "How many full sets can be made tomorrow if both updates succeed?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "CUPBOARD LIST: Before rehearsal, the drama club has twelve coats, eleven hats, and thirteen belts. Two hats are torn and cannot be used. One coat is too wet to wear. Every actor needs one usable coat, one usable hat, and one belt.\n\nCAST MESSAGE: Ten actors will perform tomorrow. Nobody may share a piece while on stage. The school sewing team can repair one torn hat by noon tomorrow, but the second hat needs material that will not arrive until next week.\n\nDRYING UPDATE: The wet coat will be ready by tomorrow morning. The director asks students to count usable pieces for both today's rehearsal and tomorrow's show. Spare pieces should stay in the cupboard rather than being assigned to imaginary extra actors.\n\nFor today's rehearsal, one actor can practice without a costume while using a name card. Tomorrow, the repaired hat and dry coat are checked before the sets are packed. The checklist records what is actually available, not just the totals before damaged items are removed.",
+          "explanation": "完整套裝取決於需求時點各類可用件數。",
+          "id": "d67-q9",
+          "options": [
+            "Assume every spare piece forms a whole costume.",
+            "Add coats, hats, and belts to find actor numbers.",
+            "Count usable pieces at the time they are needed.",
+            "Count all damaged pieces as immediately ready."
+          ],
+          "prompt": "Which counting method does the director want?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "CUPBOARD LIST: Before rehearsal, the drama club has twelve coats, eleven hats, and thirteen belts. Two hats are torn and cannot be used. One coat is too wet to wear. Every actor needs one usable coat, one usable hat, and one belt.\n\nCAST MESSAGE: Ten actors will perform tomorrow. Nobody may share a piece while on stage. The school sewing team can repair one torn hat by noon tomorrow, but the second hat needs material that will not arrive until next week.\n\nDRYING UPDATE: The wet coat will be ready by tomorrow morning. The director asks students to count usable pieces for both today's rehearsal and tomorrow's show. Spare pieces should stay in the cupboard rather than being assigned to imaginary extra actors.\n\nFor today's rehearsal, one actor can practice without a costume while using a name card. Tomorrow, the repaired hat and dry coat are checked before the sets are packed. The checklist records what is actually available, not just the totals before damaged items are removed.",
+      "title": "Boss: The Costume Count",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "Two hats are torn and cannot be used.",
+          "meaning": "破裂的",
+          "word": "torn"
+        },
+        {
+          "example": "Every actor needs one usable coat, one usable hat, and one belt.",
+          "meaning": "可用的",
+          "word": "usable"
+        },
+        {
+          "example": "The school sewing team can repair one torn hat by noon tomorrow, but the second hat needs material that will not arrive until next week.",
+          "meaning": "修理",
+          "word": "repair"
+        },
+        {
+          "example": "Spare pieces should stay in the cupboard rather than being assigned to imaginary extra actors.",
+          "meaning": "備用的",
+          "word": "spare"
+        },
+        {
+          "example": "The checklist records what is actually available, not just the totals before damaged items are removed.",
+          "meaning": "總數",
+          "word": "totals"
+        }
+      ]
+    }
+  ]
+}

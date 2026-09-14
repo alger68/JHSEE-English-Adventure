@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-17",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 77,
+      "goal": "比對方向與地標，修正視角造成的誤讀。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "正前方",
+          "phrase": "straight ahead"
+        },
+        {
+          "meaning": "相反地",
+          "phrase": "instead"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "At a riverside walking path, Finn reads a map fixed to a board. The map shows north at the top, but the board faces west. Finn assumes that the top of the map means straight ahead from where he stands and starts toward the bicycle parking area.",
+          "explanation": "地圖上方標北。",
+          "id": "d77-q1",
+          "options": [
+            "North.",
+            "East.",
+            "West.",
+            "South."
+          ],
+          "prompt": "Which direction is at the top of the map?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "His sister notices that the bridge should be on their right if they are following the planned route. Instead, it is behind them. They return to the board and compare the north arrow with two visible landmarks: the bridge and a tall red tower.",
+          "explanation": "橋相對位置不符預期。",
+          "id": "d77-q2",
+          "options": [
+            "The bridge is behind them instead of on their right.",
+            "The red tower disappears.",
+            "The parking area is closed.",
+            "The map has no colors."
+          ],
+          "prompt": "What first makes Finn's sister doubt their route?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Once they understand the map's direction, they find the path to the visitor center. It is only a short walk, and they have not needed a new map. The problem came from how Finn connected the drawing to his own position.",
+          "explanation": "原圖可用，需修正地圖方向與站位的連結。",
+          "id": "d77-q3",
+          "options": [
+            "The issue is interpretation, not a missing route.",
+            "Every route leads to the same center.",
+            "The original map has no information.",
+            "The sister has memorized all world maps."
+          ],
+          "prompt": "Why don't they need a new map?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "At a riverside walking path, Finn reads a map fixed to a board. The map shows north at the top, but the board faces west. Finn assumes that the top of the map means straight ahead from where he stands and starts toward the bicycle parking area.",
+          "explanation": "Finn 未先核對就把圖上方當成前方。",
+          "id": "d77-q4",
+          "options": [
+            "Asks someone to prove.",
+            "Measures with a ruler.",
+            "Copies exactly from an instruction.",
+            "Accepts as true without first checking."
+          ],
+          "prompt": "What does 'assumes' mean in the first paragraph?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Later, Finn sketches a small route for a friend. He marks both a north arrow and the starting point. He also labels the first landmark, giving the reader a way to check the route before walking too far in the wrong direction.",
+          "explanation": "最後一段提供方向、起點及第一地標三種校對資訊。",
+          "id": "d77-q5",
+          "options": [
+            "A north arrow, starting point, and first landmark.",
+            "A drawing with every direction omitted.",
+            "Only the destination's name.",
+            "A tower label placed randomly."
+          ],
+          "prompt": "What helps Finn make his own sketch easier to check?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "At a riverside walking path, Finn reads a map fixed to a board. The map shows north at the top, but the board faces west. Finn assumes that the top of the map means straight ahead from where he stands and starts toward the bicycle parking area.\n\nHis sister notices that the bridge should be on their right if they are following the planned route. Instead, it is behind them. They return to the board and compare the north arrow with two visible landmarks: the bridge and a tall red tower.\n\nOnce they understand the map's direction, they find the path to the visitor center. It is only a short walk, and they have not needed a new map. The problem came from how Finn connected the drawing to his own position.\n\nLater, Finn sketches a small route for a friend. He marks both a north arrow and the starting point. He also labels the first landmark, giving the reader a way to check the route before walking too far in the wrong direction.",
+          "explanation": "比對箭頭與實際地標才能正確使用地圖。",
+          "id": "d77-q6",
+          "options": [
+            "Avoiding all riverside paths.",
+            "Choosing parking areas instead of visitor centers.",
+            "Connecting a diagram to real surroundings before acting.",
+            "Replacing paper maps after every short walk."
+          ],
+          "prompt": "What is the story mainly about?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At a riverside walking path, Finn reads a map fixed to a board. The map shows north at the top, but the board faces west. Finn assumes that the top of the map means straight ahead from where he stands and starts toward the bicycle parking area.\n\nHis sister notices that the bridge should be on their right if they are following the planned route. Instead, it is behind them. They return to the board and compare the north arrow with two visible landmarks: the bridge and a tall red tower.\n\nOnce they understand the map's direction, they find the path to the visitor center. It is only a short walk, and they have not needed a new map. The problem came from how Finn connected the drawing to his own position.\n\nLater, Finn sketches a small route for a friend. He marks both a north arrow and the starting point. He also labels the first landmark, giving the reader a way to check the route before walking too far in the wrong direction.",
+      "title": "The Map Facing the Wrong Way",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "Finn assumes that the top of the map means straight ahead from where he stands and starts toward the bicycle parking area.",
+          "meaning": "假設",
+          "word": "assumes"
+        },
+        {
+          "example": "They return to the board and compare the north arrow with two visible landmarks: the bridge and a tall red tower.",
+          "meaning": "地標",
+          "word": "landmarks"
+        },
+        {
+          "example": "They return to the board and compare the north arrow with two visible landmarks: the bridge and a tall red tower.",
+          "meaning": "看得見的",
+          "word": "visible"
+        },
+        {
+          "example": "The problem came from how Finn connected the drawing to his own position.",
+          "meaning": "位置",
+          "word": "position"
+        },
+        {
+          "example": "Later, Finn sketches a small route for a friend.",
+          "meaning": "畫草圖",
+          "word": "sketches"
+        }
+      ]
+    }
+  ]
+}

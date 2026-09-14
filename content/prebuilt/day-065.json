@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-05",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 65,
+      "goal": "辨認主觀評估與測量限制。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "一公尺外",
+          "phrase": "one meter away"
+        },
+        {
+          "meaning": "較少的滴答聲",
+          "phrase": "fewer ticks"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "In a listening activity, students try two homemade boxes around the same ticking clock. One box is lined with cloth, and the other is empty. A listener sits one meter away and raises a hand whenever a tick is heard during thirty seconds.",
+          "explanation": "比較的是有無布內襯。",
+          "id": "d65-q1",
+          "options": [
+            "The listening duration.",
+            "The clock used.",
+            "The listener's distance.",
+            "The cloth lining."
+          ],
+          "prompt": "What changes between the two boxes?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "With the empty box, the listener reports twenty ticks. With the lined box, the listener reports eight. The group writes that fewer ticks were reported in the cloth condition. They do not claim that the clock itself ticked more slowly.",
+          "explanation": "有布條件回報八次。",
+          "id": "d65-q2",
+          "options": [
+            "Thirty.",
+            "Twelve.",
+            "Eight.",
+            "Twenty."
+          ],
+          "prompt": "How many ticks are reported with the lined box?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "In a listening activity, students try two homemade boxes around the same ticking clock. One box is lined with cloth, and the other is empty. A listener sits one meter away and raises a hand whenever a tick is heard during thirty seconds.\n\nWith the empty box, the listener reports twenty ticks. With the lined box, the listener reports eight. The group writes that fewer ticks were reported in the cloth condition. They do not claim that the clock itself ticked more slowly.\n\nThe listener might miss sounds for several reasons, including attention and other noise in the classroom. To improve the activity, the group invites several listeners to repeat both conditions. They keep the distance and the listening time unchanged.\n\nTheir teacher asks them to separate what happened in the clock from what happened in the listening task. A report of hearing less is useful evidence, but the method and its limits must travel with the number when students explain the result.",
+          "explanation": "數的是聽到的次數，不是直接測時鐘速率。",
+          "id": "d65-q3",
+          "options": [
+            "No listener was present.",
+            "The clock was replaced after every tick.",
+            "The lined box was tested for an hour.",
+            "The activity counts heard ticks, not the clock's actual ticking rate."
+          ],
+          "prompt": "Why is 'the clock ticked more slowly' unsupported?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The listener might miss sounds for several reasons, including attention and other noise in the classroom. To improve the activity, the group invites several listeners to repeat both conditions. They keep the distance and the listening time unchanged.",
+          "explanation": "注意力影響是否察覺聲音。",
+          "id": "d65-q4",
+          "options": [
+            "The amount paid for a clock.",
+            "How carefully a listener focuses.",
+            "The length of a meter.",
+            "The cloth's color."
+          ],
+          "prompt": "What does 'attention' refer to here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The listener might miss sounds for several reasons, including attention and other noise in the classroom. To improve the activity, the group invites several listeners to repeat both conditions. They keep the distance and the listening time unchanged.",
+          "explanation": "多位聽者試兩種条件，維持其他條件一致。",
+          "id": "d65-q5",
+          "options": [
+            "Count only the loudest listener's preferred result.",
+            "Change the distance for each box.",
+            "Ask several listeners to try both boxes under matching conditions.",
+            "Give the empty box a longer listening period."
+          ],
+          "prompt": "Which change improves the comparison described?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Their teacher asks them to separate what happened in the clock from what happened in the listening task. A report of hearing less is useful evidence, but the method and its limits must travel with the number when students explain the result.",
+          "explanation": "末段要求數據與方法、限制一併說明。",
+          "id": "d65-q6",
+          "options": [
+            "A claim that all cloth completely stops sound.",
+            "A promise that listeners never miss ticks.",
+            "A new time limit unrelated to the activity.",
+            "An explanation of how it was obtained and what it cannot show."
+          ],
+          "prompt": "What should accompany the result?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a listening activity, students try two homemade boxes around the same ticking clock. One box is lined with cloth, and the other is empty. A listener sits one meter away and raises a hand whenever a tick is heard during thirty seconds.\n\nWith the empty box, the listener reports twenty ticks. With the lined box, the listener reports eight. The group writes that fewer ticks were reported in the cloth condition. They do not claim that the clock itself ticked more slowly.\n\nThe listener might miss sounds for several reasons, including attention and other noise in the classroom. To improve the activity, the group invites several listeners to repeat both conditions. They keep the distance and the listening time unchanged.\n\nTheir teacher asks them to separate what happened in the clock from what happened in the listening task. A report of hearing less is useful evidence, but the method and its limits must travel with the number when students explain the result.",
+      "title": "Counting Sounds Carefully",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "One box is lined with cloth, and the other is empty.",
+          "meaning": "加上內襯的",
+          "word": "lined"
+        },
+        {
+          "example": "A listener sits one meter away and raises a hand whenever a tick is heard during thirty seconds.",
+          "meaning": "聆聽者",
+          "word": "listener"
+        },
+        {
+          "example": "With the empty box, the listener reports twenty ticks.",
+          "meaning": "回報",
+          "word": "reports"
+        },
+        {
+          "example": "The listener might miss sounds for several reasons, including attention and other noise in the classroom.",
+          "meaning": "注意力",
+          "word": "attention"
+        },
+        {
+          "example": "To improve the activity, the group invites several listeners to repeat both conditions.",
+          "meaning": "條件",
+          "word": "conditions"
+        }
+      ]
+    }
+  ]
+}

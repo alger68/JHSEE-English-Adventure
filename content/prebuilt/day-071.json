@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-11",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 71,
+      "goal": "依完成期限與裝置需求協調借用。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "架設它",
+          "phrase": "set it up"
+        },
+        {
+          "meaning": "即使",
+          "phrase": "even if"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "Club chat: We have one tablet for today's work. The photography group needs it to select pictures before their meeting at four. The science group wants to record a short presentation at four thirty. Neither group needs to take the tablet home.",
+          "explanation": "選照片須在四點會議前完成。",
+          "id": "d71-q1",
+          "options": [
+            "The science group.",
+            "The office staff only.",
+            "The photography group.",
+            "Both groups at home."
+          ],
+          "prompt": "Which group needs to finish its task before four?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Alina: We will return it to the office at three fifty. Omar: Good. I can collect it at four twenty, set it up, and record from four thirty. Please leave the charger with the tablet even if the battery still looks full.",
+          "explanation": "Omar 明說 4:20 領取，先做準備。",
+          "id": "d71-q2",
+          "options": [
+            "At 4:20.",
+            "At 3:30.",
+            "At 4:45.",
+            "At 3:50."
+          ],
+          "prompt": "When does Omar plan to collect the tablet?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Teacher: Put your files in your own group's folder before returning the device. Do not delete the other group's work to make the screen look tidy. If storage is low, tell me first so we can save the files safely.",
+          "explanation": "個別資料夾便於管理且不需刪別組資料。",
+          "id": "d71-q3",
+          "options": [
+            "To make all photos public.",
+            "To avoid returning the charger.",
+            "To keep work organized without deleting another group's files.",
+            "To make the recording take longer."
+          ],
+          "prompt": "Why should each group use its own folder?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Alina: Our photo selection will take twenty minutes. We can start at three thirty. Omar: Our recording takes fifteen minutes, but we need ten minutes beforehand to set the tablet on a stand and check the sound.",
+          "explanation": "錄影前有十分鐘架設及音效確認。",
+          "id": "d71-q4",
+          "options": [
+            "At exactly the same moment.",
+            "At home that evening.",
+            "After all files are deleted.",
+            "Before the main activity."
+          ],
+          "prompt": "What does 'beforehand' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Alina: We will return it to the office at three fifty. Omar: Good. I can collect it at four twenty, set it up, and record from four thirty. Please leave the charger with the tablet even if the battery still looks full.",
+          "explanation": "3:50 到 4:20 相隔三十分鐘。",
+          "id": "d71-q5",
+          "options": [
+            "Thirty minutes.",
+            "Forty minutes.",
+            "Ten minutes.",
+            "Twenty minutes."
+          ],
+          "prompt": "How much time passes between the planned return and Omar's pickup?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Club chat: We have one tablet for today's work. The photography group needs it to select pictures before their meeting at four. The science group wants to record a short presentation at four thirty. Neither group needs to take the tablet home.\n\nAlina: Our photo selection will take twenty minutes. We can start at three thirty. Omar: Our recording takes fifteen minutes, but we need ten minutes beforehand to set the tablet on a stand and check the sound.\n\nAlina: We will return it to the office at three fifty. Omar: Good. I can collect it at four twenty, set it up, and record from four thirty. Please leave the charger with the tablet even if the battery still looks full.\n\nTeacher: Put your files in your own group's folder before returning the device. Do not delete the other group's work to make the screen look tidy. If storage is low, tell me first so we can save the files safely.",
+          "explanation": "協調借用時納入準備、交還與資料保留。",
+          "id": "d71-q6",
+          "options": [
+            "Delete old files whenever the screen looks crowded.",
+            "Assume recording requires no preparation.",
+            "Give the first group the device all evening.",
+            "Schedule each task, allow setup time, and protect both groups' files."
+          ],
+          "prompt": "Which plan best reflects the chat?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Club chat: We have one tablet for today's work. The photography group needs it to select pictures before their meeting at four. The science group wants to record a short presentation at four thirty. Neither group needs to take the tablet home.\n\nAlina: Our photo selection will take twenty minutes. We can start at three thirty. Omar: Our recording takes fifteen minutes, but we need ten minutes beforehand to set the tablet on a stand and check the sound.\n\nAlina: We will return it to the office at three fifty. Omar: Good. I can collect it at four twenty, set it up, and record from four thirty. Please leave the charger with the tablet even if the battery still looks full.\n\nTeacher: Put your files in your own group's folder before returning the device. Do not delete the other group's work to make the screen look tidy. If storage is low, tell me first so we can save the files safely.",
+      "title": "One Tablet, Two Deadlines",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "The photography group needs it to select pictures before their meeting at four.",
+          "meaning": "挑選",
+          "word": "select"
+        },
+        {
+          "example": "The science group wants to record a short presentation at four thirty.",
+          "meaning": "簡報",
+          "word": "presentation"
+        },
+        {
+          "example": "Omar: Our recording takes fifteen minutes, but we need ten minutes beforehand to set the tablet on a stand and check the sound.",
+          "meaning": "事先",
+          "word": "beforehand"
+        },
+        {
+          "example": "Please leave the charger with the tablet even if the battery still looks full.",
+          "meaning": "充電器",
+          "word": "charger"
+        },
+        {
+          "example": "If storage is low, tell me first so we can save the files safely.",
+          "meaning": "儲存空間",
+          "word": "storage"
+        }
+      ]
+    }
+  ]
+}

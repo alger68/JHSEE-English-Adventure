@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-13",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 73,
+      "goal": "理解收費單位與紙張面數。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "除非要求彩色",
+          "phrase": "unless color is requested"
+        },
+        {
+          "meaning": "不另外收費",
+          "phrase": "at no extra cost"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "STUDENT PRINTING DESK: Black-and-white printing costs one dollar for each printed side. Color printing costs five dollars per side. A sheet printed on both sides contains two printed sides, so double-sided printing saves paper but does not change the charge per printed side.",
+          "explanation": "依每個印刷面收一元。",
+          "id": "d73-q1",
+          "options": [
+            "Two dollars.",
+            "One dollar.",
+            "Twenty dollars.",
+            "Five dollars."
+          ],
+          "prompt": "What is the black-and-white price per printed side?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Send your file before two for pickup after three on the same school day. Files received after two are ready the following school day. Include your name, class, number of copies, and whether you want color. Staff will print in black and white unless color is requested.",
+          "explanation": "超過兩點收件，次一上課日可取。",
+          "id": "d73-q2",
+          "options": [
+            "Before two that same day.",
+            "At three that same day.",
+            "Exactly two school days later.",
+            "The following school day."
+          ],
+          "prompt": "When is a file sent at 2:15 ready?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The desk can staple documents of up to twenty sheets at no extra cost. Larger documents are returned unstapled. Check the page order in your file before sending it; the desk does not rearrange sections or remove blank pages automatically.",
+          "explanation": "印務不會自行重排章節。",
+          "id": "d73-q3",
+          "options": [
+            "The desk will not rearrange sections automatically.",
+            "Every document is printed in color.",
+            "Blank pages are always removed.",
+            "The desk charges by the student's age."
+          ],
+          "prompt": "Why should students check page order before sending files?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "If you notice a printing error caused by the desk, bring the entire document back within two school days. If the original file contains the mistake, a corrected reprint is charged as a new job.",
+          "explanation": "檔案修正後再印一份就是重印。",
+          "id": "d73-q4",
+          "options": [
+            "Fold one sheet in half.",
+            "Send a file without pages.",
+            "Read the file aloud.",
+            "Print the document again."
+          ],
+          "prompt": "What does 'reprint' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "STUDENT PRINTING DESK: Black-and-white printing costs one dollar for each printed side. Color printing costs five dollars per side. A sheet printed on both sides contains two printed sides, so double-sided printing saves paper but does not change the charge per printed side.",
+          "explanation": "十個印刷面，每面一元；双面節省紙、不減每面單價。",
+          "id": "d73-q5",
+          "options": [
+            "Twenty dollars.",
+            "Five dollars.",
+            "Ten dollars.",
+            "Fifty dollars."
+          ],
+          "prompt": "What does a ten-page black-and-white file cost if printed on both sides of five sheets?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "If you notice a printing error caused by the desk, bring the entire document back within two school days. If the original file contains the mistake, a corrected reprint is charged as a new job.",
+          "explanation": "公告列的是印務造成錯誤，須兩上課日內帶整份回來。",
+          "id": "d73-q6",
+          "options": [
+            "A spelling error already in the submitted file.",
+            "A student deleting a section after pickup.",
+            "A change of topic requested a month later.",
+            "An error caused by the desk and reported with the whole document within two school days."
+          ],
+          "prompt": "Which error qualifies for a no-new-file correction under the stated complaint route?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "STUDENT PRINTING DESK: Black-and-white printing costs one dollar for each printed side. Color printing costs five dollars per side. A sheet printed on both sides contains two printed sides, so double-sided printing saves paper but does not change the charge per printed side.\n\nSend your file before two for pickup after three on the same school day. Files received after two are ready the following school day. Include your name, class, number of copies, and whether you want color. Staff will print in black and white unless color is requested.\n\nThe desk can staple documents of up to twenty sheets at no extra cost. Larger documents are returned unstapled. Check the page order in your file before sending it; the desk does not rearrange sections or remove blank pages automatically.\n\nIf you notice a printing error caused by the desk, bring the entire document back within two school days. If the original file contains the mistake, a corrected reprint is charged as a new job.",
+      "title": "Printing Without Surprises",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "STUDENT PRINTING DESK: Black-and-white printing costs one dollar for each printed side.",
+          "meaning": "面",
+          "word": "side"
+        },
+        {
+          "example": "A sheet printed on both sides contains two printed sides, so double-sided printing saves paper but does not change the charge per printed side.",
+          "meaning": "雙面的",
+          "word": "double-sided"
+        },
+        {
+          "example": "A sheet printed on both sides contains two printed sides, so double-sided printing saves paper but does not change the charge per printed side.",
+          "meaning": "收費",
+          "word": "charge"
+        },
+        {
+          "example": "The desk can staple documents of up to twenty sheets at no extra cost.",
+          "meaning": "裝訂",
+          "word": "staple"
+        },
+        {
+          "example": "If the original file contains the mistake, a corrected reprint is charged as a new job.",
+          "meaning": "重印",
+          "word": "reprint"
+        }
+      ]
+    }
+  ]
+}

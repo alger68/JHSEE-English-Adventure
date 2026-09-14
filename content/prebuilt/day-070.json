@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-10",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 70,
+      "goal": "由行為與回應推論禮物的意義。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而不是",
+          "phrase": "instead of"
+        },
+        {
+          "meaning": "不再",
+          "phrase": "no longer"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Yara wants to give her grandfather a birthday present, but she has little money left after buying school supplies. She considers a cheap mug from a shop. Then she remembers that he already has a cupboard full of mugs and rarely uses the newest ones.",
+          "explanation": "她想起爺爺杯子很多且少用新杯。",
+          "id": "d70-q1",
+          "options": [
+            "The shop sells only photo albums.",
+            "Her grandfather already has many and rarely uses the new ones.",
+            "He asked for school supplies.",
+            "Every mug is broken."
+          ],
+          "prompt": "Why does Yara reconsider buying a mug?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Yara brings blank cards and writes the names and dates he remembers. When he is unsure, she marks the card with a question instead of guessing. They make a small album with clear labels and leave the uncertain photos in a separate envelope.",
+          "explanation": "無法確定時做問號，不自行猜定。",
+          "id": "d70-q2",
+          "options": [
+            "Throws the photo away.",
+            "Marks it with a question.",
+            "Invents a likely year.",
+            "Writes the birthday date on it."
+          ],
+          "prompt": "What does Yara do when a date is uncertain?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Yara wants to give her grandfather a birthday present, but she has little money left after buying school supplies. She considers a cheap mug from a shop. Then she remembers that he already has a cupboard full of mugs and rarely uses the newest ones.\n\nAt dinner, her grandfather mentions an old box of family photos he cannot easily sort alone. Yara asks whether he would enjoy organizing them together on Saturday. He agrees and says he would like to tell her who appears in each picture.\n\nYara brings blank cards and writes the names and dates he remembers. When he is unsure, she marks the card with a question instead of guessing. They make a small album with clear labels and leave the uncertain photos in a separate envelope.\n\nHer grandfather calls the afternoon his favorite part of the birthday weekend. Yara still makes a paper card, but she no longer worries about the missing mug. She has given time to something he actually wanted to do.",
+          "explanation": "活動符合他想整理照片的需要，又能一起回憶。",
+          "id": "d70-q3",
+          "options": [
+            "He dislikes speaking about family.",
+            "He wants all photos removed from the house.",
+            "He gets help and shared time with the photos.",
+            "He receives the most expensive gift."
+          ],
+          "prompt": "Why does the afternoon matter to her grandfather?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Yara brings blank cards and writes the names and dates he remembers. When he is unsure, she marks the card with a question instead of guessing. They make a small album with clear labels and leave the uncertain photos in a separate envelope.",
+          "explanation": "資訊尚無把握，不表示一定錯。",
+          "id": "d70-q4",
+          "options": [
+            "Too large for a card.",
+            "Definitely incorrect.",
+            "Already printed twice.",
+            "Not known confidently."
+          ],
+          "prompt": "What does 'uncertain' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Yara brings blank cards and writes the names and dates he remembers. When he is unsure, she marks the card with a question instead of guessing. They make a small album with clear labels and leave the uncertain photos in a separate envelope.",
+          "explanation": "區分已知與未確認資訊，避免把猜測當事實。",
+          "id": "d70-q5",
+          "options": [
+            "Removing all names to make the album faster.",
+            "Putting every photo under the same date.",
+            "Buying a mug instead of asking questions.",
+            "Keeping doubtful details marked rather than guessing."
+          ],
+          "prompt": "Which action best shows care for accurate family information?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Yara wants to give her grandfather a birthday present, but she has little money left after buying school supplies. She considers a cheap mug from a shop. Then she remembers that he already has a cupboard full of mugs and rarely uses the newest ones.\n\nAt dinner, her grandfather mentions an old box of family photos he cannot easily sort alone. Yara asks whether he would enjoy organizing them together on Saturday. He agrees and says he would like to tell her who appears in each picture.\n\nYara brings blank cards and writes the names and dates he remembers. When he is unsure, she marks the card with a question instead of guessing. They make a small album with clear labels and leave the uncertain photos in a separate envelope.\n\nHer grandfather calls the afternoon his favorite part of the birthday weekend. Yara still makes a paper card, but she no longer worries about the missing mug. She has given time to something he actually wanted to do.",
+          "explanation": "用心的時間與協助也能成為合適禮物。",
+          "id": "d70-q6",
+          "options": [
+            "Old photos matter only if all dates are certain.",
+            "Helping someone is valuable only on birthdays.",
+            "Every good present must come from a shop.",
+            "A thoughtful gift can respond to a real need without costing much."
+          ],
+          "prompt": "What is the central idea?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Yara wants to give her grandfather a birthday present, but she has little money left after buying school supplies. She considers a cheap mug from a shop. Then she remembers that he already has a cupboard full of mugs and rarely uses the newest ones.\n\nAt dinner, her grandfather mentions an old box of family photos he cannot easily sort alone. Yara asks whether he would enjoy organizing them together on Saturday. He agrees and says he would like to tell her who appears in each picture.\n\nYara brings blank cards and writes the names and dates he remembers. When he is unsure, she marks the card with a question instead of guessing. They make a small album with clear labels and leave the uncertain photos in a separate envelope.\n\nHer grandfather calls the afternoon his favorite part of the birthday weekend. Yara still makes a paper card, but she no longer worries about the missing mug. She has given time to something he actually wanted to do.",
+      "title": "A Different Kind of Gift",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "Yara wants to give her grandfather a birthday present, but she has little money left after buying school supplies.",
+          "meaning": "用品",
+          "word": "supplies"
+        },
+        {
+          "example": "At dinner, her grandfather mentions an old box of family photos he cannot easily sort alone.",
+          "meaning": "分類",
+          "word": "sort"
+        },
+        {
+          "example": "They make a small album with clear labels and leave the uncertain photos in a separate envelope.",
+          "meaning": "相簿",
+          "word": "album"
+        },
+        {
+          "example": "They make a small album with clear labels and leave the uncertain photos in a separate envelope.",
+          "meaning": "不確定的",
+          "word": "uncertain"
+        },
+        {
+          "example": "They make a small album with clear labels and leave the uncertain photos in a separate envelope.",
+          "meaning": "信封",
+          "word": "envelope"
+        }
+      ]
+    }
+  ]
+}

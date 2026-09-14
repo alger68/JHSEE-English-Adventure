@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-04",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 64,
+      "goal": "追蹤配方更新，區分必要條件與口味偏好。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "省略它",
+          "phrase": "leave it out"
+        },
+        {
+          "meaning": "來自上個月",
+          "phrase": "from last month"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "Cooking club messages: Tomorrow we will make banana sandwiches. The first recipe included peanut butter, but the club kitchen has asked us to use only ingredients supplied for this session. The final list is bread, bananas, and plain yogurt. Please do not bring extra toppings.",
+          "explanation": "第一段提供最後食材清單。",
+          "id": "d64-q1",
+          "options": [
+            "Bread, bananas, and plain yogurt.",
+            "Bananas, apples, and peanut butter.",
+            "Bread, peanuts, and chocolate sauce.",
+            "Yogurt, chocolate, and extra toppings."
+          ],
+          "prompt": "What are the final supplied ingredients?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Lily: I dislike yogurt. Can I leave it out of my own sandwich? Teacher: Yes. The yogurt is optional, and nobody has to use it. Keep the serving spoon in its own bowl so students can choose without mixing ingredients.",
+          "explanation": "老師明確允許不加優格。",
+          "id": "d64-q2",
+          "options": [
+            "Only if she brings peanut butter.",
+            "Only after the teacher takes a photo.",
+            "Yes, it is optional.",
+            "No, every sandwich needs it."
+          ],
+          "prompt": "May Lily omit yogurt from her sandwich?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Sean: An old photo in the group still shows chocolate sauce. Teacher: That photo is from last month. It does not show tomorrow's recipe. I have pinned the new ingredient list above it and added tomorrow's date.",
+          "explanation": "日期協助辨認適用明日的版本。",
+          "id": "d64-q3",
+          "options": [
+            "To distinguish tomorrow's instructions from the old photo.",
+            "To change when last month's session occurred.",
+            "To make chocolate sauce mandatory.",
+            "To count how many sandwiches Lily eats."
+          ],
+          "prompt": "Why does the teacher add the date to the pinned list?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Lily: I dislike yogurt. Can I leave it out of my own sandwich? Teacher: Yes. The yogurt is optional, and nobody has to use it. Keep the serving spoon in its own bowl so students can choose without mixing ingredients.",
+          "explanation": "後文說沒有人一定要使用。",
+          "id": "d64-q4",
+          "options": [
+            "Required for every person.",
+            "Stored on a different day.",
+            "Available to choose but not required.",
+            "Brought only from home."
+          ],
+          "prompt": "What does 'optional' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Cooking club messages: Tomorrow we will make banana sandwiches. The first recipe included peanut butter, but the club kitchen has asked us to use only ingredients supplied for this session. The final list is bread, bananas, and plain yogurt. Please do not bring extra toppings.\n\nLily: I dislike yogurt. Can I leave it out of my own sandwich? Teacher: Yes. The yogurt is optional, and nobody has to use it. Keep the serving spoon in its own bowl so students can choose without mixing ingredients.\n\nSean: An old photo in the group still shows chocolate sauce. Teacher: That photo is from last month. It does not show tomorrow's recipe. I have pinned the new ingredient list above it and added tomorrow's date.\n\nLily: I will check the dated list when we start. Sean: I will help divide the bananas before everyone builds a sandwich. Teacher: Good. Wash the utensils afterward and return each bowl to the marked shelf.",
+          "explanation": "遵循新清單與清理指示。",
+          "id": "d64-q5",
+          "options": [
+            "Mix the yogurt spoon into every ingredient bowl.",
+            "Use the dated list and wash the utensils afterward.",
+            "Copy all ingredients from the old photo.",
+            "Bring any extra topping without asking."
+          ],
+          "prompt": "Which action follows the latest messages?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Cooking club messages: Tomorrow we will make banana sandwiches. The first recipe included peanut butter, but the club kitchen has asked us to use only ingredients supplied for this session. The final list is bread, bananas, and plain yogurt. Please do not bring extra toppings.\n\nLily: I dislike yogurt. Can I leave it out of my own sandwich? Teacher: Yes. The yogurt is optional, and nobody has to use it. Keep the serving spoon in its own bowl so students can choose without mixing ingredients.\n\nSean: An old photo in the group still shows chocolate sauce. Teacher: That photo is from last month. It does not show tomorrow's recipe. I have pinned the new ingredient list above it and added tomorrow's date.\n\nLily: I will check the dated list when we start. Sean: I will help divide the bananas before everyone builds a sandwich. Teacher: Good. Wash the utensils afterward and return each bowl to the marked shelf.",
+          "explanation": "舊照片與新資訊並存，須辨別適用版本。",
+          "id": "d64-q6",
+          "options": [
+            "The kitchen has supplied no food.",
+            "Every ingredient is compulsory.",
+            "No student can read a date.",
+            "Older recipe information is still visible."
+          ],
+          "prompt": "What causes the main confusion in the chat?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Cooking club messages: Tomorrow we will make banana sandwiches. The first recipe included peanut butter, but the club kitchen has asked us to use only ingredients supplied for this session. The final list is bread, bananas, and plain yogurt. Please do not bring extra toppings.\n\nLily: I dislike yogurt. Can I leave it out of my own sandwich? Teacher: Yes. The yogurt is optional, and nobody has to use it. Keep the serving spoon in its own bowl so students can choose without mixing ingredients.\n\nSean: An old photo in the group still shows chocolate sauce. Teacher: That photo is from last month. It does not show tomorrow's recipe. I have pinned the new ingredient list above it and added tomorrow's date.\n\nLily: I will check the dated list when we start. Sean: I will help divide the bananas before everyone builds a sandwich. Teacher: Good. Wash the utensils afterward and return each bowl to the marked shelf.",
+      "title": "The Recipe That Changed Twice",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "The first recipe included peanut butter, but the club kitchen has asked us to use only ingredients supplied for this session.",
+          "meaning": "食材",
+          "word": "ingredients"
+        },
+        {
+          "example": "The yogurt is optional, and nobody has to use it.",
+          "meaning": "可選的",
+          "word": "optional"
+        },
+        {
+          "example": "Wash the utensils afterward and return each bowl to the marked shelf.",
+          "meaning": "器具",
+          "word": "utensils"
+        },
+        {
+          "example": "I have pinned the new ingredient list above it and added tomorrow's date.",
+          "meaning": "置頂",
+          "word": "pinned"
+        },
+        {
+          "example": "Sean: I will help divide the bananas before everyone builds a sandwich.",
+          "meaning": "分配",
+          "word": "divide"
+        }
+      ]
+    }
+  ]
+}

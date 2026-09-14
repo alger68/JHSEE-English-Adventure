@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-08",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 68,
+      "goal": "辨識含糊題幹並用補充線索改善。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "以防",
+          "phrase": "in case"
+        },
+        {
+          "meaning": "省略",
+          "phrase": "leave out"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "The review group uses the words optional, attention, priority, usable, and spare. Their first sentence says that a costume is still in the cupboard. Both spare and usable seem possible, because the sentence does not explain its condition or whether anyone needs it.",
+          "explanation": "只說在櫃內，未交代是否備用或可用。",
+          "id": "d68-q1",
+          "options": [
+            "It gives too little information to distinguish spare from usable.",
+            "The cupboard has no doors.",
+            "Every card has the same meaning.",
+            "It contains no costume."
+          ],
+          "prompt": "Why does the first sentence cause difficulty?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Jules rewrites it: This undamaged coat is being kept as an extra in case another one tears. Now spare is the best choice. Another sentence describes an unbroken hat that an actor can wear, making usable the useful answer there.",
+          "explanation": "extra 與以防另一件破裂顯示備用。",
+          "id": "d68-q2",
+          "options": [
+            "An actor can wear it.",
+            "Kept as an extra in case another one tears.",
+            "It was made last year.",
+            "The hat has no name card."
+          ],
+          "prompt": "What clue makes spare the best choice?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The teacher praises the added clues and asks students to explain why the old sentence was weak. Knowing a word's meaning is not enough if the question gives too little information. The group saves both versions to remember how the improvement worked.",
+          "explanation": "新舊對照可看見補線索的改善效果。",
+          "id": "d68-q3",
+          "options": [
+            "To make students use two answers at once.",
+            "To see how added clues improve the question.",
+            "To prove all short questions are impossible.",
+            "To avoid discussing the words again."
+          ],
+          "prompt": "Why save both versions of the sentence?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Jules rewrites it: This undamaged coat is being kept as an extra in case another one tears. Now spare is the best choice. Another sentence describes an unbroken hat that an actor can wear, making usable the useful answer there.",
+          "explanation": "無損且能穿的帽子是可用物件。",
+          "id": "d68-q4",
+          "options": [
+            "Reserved only for next year.",
+            "In a condition that allows use.",
+            "Not needed by any actor.",
+            "Chosen before every other request."
+          ],
+          "prompt": "What does 'usable' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For priority, the group writes about the first completed reservation being handled before later requests. Optional describes yogurt that a student may leave out. Attention fits a listener focusing carefully so that quiet ticks are less likely to be missed.",
+          "explanation": "第三段分別用可省略優格與专心聆聽說明。",
+          "id": "d68-q5",
+          "options": [
+            "Usable—a later request; optional—a broken hat.",
+            "Attention—first reservation; priority—undamaged clothing.",
+            "Optional—may omit; attention—careful focus.",
+            "Priority—an extra coat; spare—quiet listening."
+          ],
+          "prompt": "Which pairing fits the review?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "The review group uses the words optional, attention, priority, usable, and spare. Their first sentence says that a costume is still in the cupboard. Both spare and usable seem possible, because the sentence does not explain its condition or whether anyone needs it.\n\nJules rewrites it: This undamaged coat is being kept as an extra in case another one tears. Now spare is the best choice. Another sentence describes an unbroken hat that an actor can wear, making usable the useful answer there.\n\nFor priority, the group writes about the first completed reservation being handled before later requests. Optional describes yogurt that a student may leave out. Attention fits a listener focusing carefully so that quiet ticks are less likely to be missed.\n\nThe teacher praises the added clues and asks students to explain why the old sentence was weak. Knowing a word's meaning is not enough if the question gives too little information. The group saves both versions to remember how the improvement worked.",
+          "explanation": "全文討論題幹需充分條件以區分選項。",
+          "id": "d68-q6",
+          "options": [
+            "Several equally likely answers.",
+            "The shortest possible sentence every time.",
+            "A familiar word with no surrounding clues.",
+            "Enough context to support one best answer."
+          ],
+          "prompt": "What makes a good practice question?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The review group uses the words optional, attention, priority, usable, and spare. Their first sentence says that a costume is still in the cupboard. Both spare and usable seem possible, because the sentence does not explain its condition or whether anyone needs it.\n\nJules rewrites it: This undamaged coat is being kept as an extra in case another one tears. Now spare is the best choice. Another sentence describes an unbroken hat that an actor can wear, making usable the useful answer there.\n\nFor priority, the group writes about the first completed reservation being handled before later requests. Optional describes yogurt that a student may leave out. Attention fits a listener focusing carefully so that quiet ticks are less likely to be missed.\n\nThe teacher praises the added clues and asks students to explain why the old sentence was weak. Knowing a word's meaning is not enough if the question gives too little information. The group saves both versions to remember how the improvement worked.",
+      "title": "The Card with Two Possible Answers",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "The review group uses the words optional, attention, priority, usable, and spare.",
+          "meaning": "可選的",
+          "word": "optional"
+        },
+        {
+          "example": "The review group uses the words optional, attention, priority, usable, and spare.",
+          "meaning": "注意力",
+          "word": "attention"
+        },
+        {
+          "example": "The review group uses the words optional, attention, priority, usable, and spare.",
+          "meaning": "優先權",
+          "word": "priority"
+        },
+        {
+          "example": "The review group uses the words optional, attention, priority, usable, and spare.",
+          "meaning": "可用的",
+          "word": "usable"
+        },
+        {
+          "example": "The review group uses the words optional, attention, priority, usable, and spare.",
+          "meaning": "備用的",
+          "word": "spare"
+        }
+      ]
+    }
+  ]
+}
