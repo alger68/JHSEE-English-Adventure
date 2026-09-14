@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-07",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 128,
+      "goal": "由每日數據理解平均值無法呈現的差異。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "最高與最低",
+          "phrase": "highest and lowest"
+        },
+        {
+          "meaning": "在平均值旁",
+          "phrase": "beside the average"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Both rooms have an average reading of twenty-four degrees. Eli says that means the rooms stayed equally comfortable throughout the day. His partner asks whether an average shows how widely the individual readings differ or how each person felt.",
+          "explanation": "兩組三值相加除三皆24。",
+          "id": "d128-q1",
+          "options": [
+            "Twenty-five degrees.",
+            "Twenty-four degrees.",
+            "Twenty-eight degrees.",
+            "Twenty-three degrees."
+          ],
+          "prompt": "What average do both rooms have?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "They calculate the difference between the highest and lowest readings. Room A's spread is eight degrees; Room B's is two. This does not directly measure comfort, but it shows that identical averages can hide different patterns of change.",
+          "explanation": "A最高最低差8，B差2。",
+          "id": "d128-q2",
+          "options": [
+            "Room A.",
+            "Room B.",
+            "Neither has changing readings.",
+            "Both equally."
+          ],
+          "prompt": "Which room has the wider temperature spread?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Two groups record the classroom temperature at three fixed times in a pretend data exercise. Room A's readings are twenty, twenty-four, and twenty-eight degrees. Room B's are twenty-three, twenty-four, and twenty-five. The groups use the same units and label each reading with its time.\n\nBoth rooms have an average reading of twenty-four degrees. Eli says that means the rooms stayed equally comfortable throughout the day. His partner asks whether an average shows how widely the individual readings differ or how each person felt.\n\nThey calculate the difference between the highest and lowest readings. Room A's spread is eight degrees; Room B's is two. This does not directly measure comfort, but it shows that identical averages can hide different patterns of change.\n\nFor their report, the students show the three original readings beside the average. They also state that comfort was not surveyed. The summary becomes more useful because readers can see what it includes and which questions still need different evidence.",
+          "explanation": "平均不顯示變動，且未調查舒適感。",
+          "id": "d128-q3",
+          "options": [
+            "Averages cannot contain numbers.",
+            "Every student has identical feelings.",
+            "It hides variation and no comfort responses were collected.",
+            "Room B has no temperature readings."
+          ],
+          "prompt": "Why doesn't the average prove equal comfort?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "They calculate the difference between the highest and lowest readings. Room A's spread is eight degrees; Room B's is two. This does not directly measure comfort, but it shows that identical averages can hide different patterns of change.",
+          "explanation": "本文明定最大值減最小值。",
+          "id": "d128-q4",
+          "options": [
+            "A layer of color on the wall.",
+            "The time when lunch begins.",
+            "The number of thermometers sold.",
+            "The gap between the highest and lowest readings."
+          ],
+          "prompt": "What does 'spread' mean in this calculation?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "For their report, the students show the three original readings beside the average. They also state that comfort was not surveyed. The summary becomes more useful because readers can see what it includes and which questions still need different evidence.",
+          "explanation": "原資料＋摘要＋未測項目可避免誤讀。",
+          "id": "d128-q5",
+          "options": [
+            "All three readings and the average, with the unsurveyed comfort question noted.",
+            "A claim about feelings without any survey.",
+            "Only the shared average labeled equal comfort.",
+            "Only Room A's highest reading."
+          ],
+          "prompt": "Which display best preserves the relevant information?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Two groups record the classroom temperature at three fixed times in a pretend data exercise. Room A's readings are twenty, twenty-four, and twenty-eight degrees. Room B's are twenty-three, twenty-four, and twenty-five. The groups use the same units and label each reading with its time.\n\nBoth rooms have an average reading of twenty-four degrees. Eli says that means the rooms stayed equally comfortable throughout the day. His partner asks whether an average shows how widely the individual readings differ or how each person felt.\n\nThey calculate the difference between the highest and lowest readings. Room A's spread is eight degrees; Room B's is two. This does not directly measure comfort, but it shows that identical averages can hide different patterns of change.\n\nFor their report, the students show the three original readings beside the average. They also state that comfort was not surveyed. The summary becomes more useful because readers can see what it includes and which questions still need different evidence.",
+          "explanation": "相同平均可能涵蓋不同變化模式。",
+          "id": "d128-q6",
+          "options": [
+            "A wider spread always means a better room.",
+            "Temperature automatically measures every person's comfort.",
+            "Matching averages make all experiences identical.",
+            "A summary number can conceal patterns in the underlying data."
+          ],
+          "prompt": "What is the passage mainly about?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Two groups record the classroom temperature at three fixed times in a pretend data exercise. Room A's readings are twenty, twenty-four, and twenty-eight degrees. Room B's are twenty-three, twenty-four, and twenty-five. The groups use the same units and label each reading with its time.\n\nBoth rooms have an average reading of twenty-four degrees. Eli says that means the rooms stayed equally comfortable throughout the day. His partner asks whether an average shows how widely the individual readings differ or how each person felt.\n\nThey calculate the difference between the highest and lowest readings. Room A's spread is eight degrees; Room B's is two. This does not directly measure comfort, but it shows that identical averages can hide different patterns of change.\n\nFor their report, the students show the three original readings beside the average. They also state that comfort was not surveyed. The summary becomes more useful because readers can see what it includes and which questions still need different evidence.",
+      "title": "Averages on the Class Thermometer",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "Both rooms have an average reading of twenty-four degrees.",
+          "meaning": "平均",
+          "word": "average"
+        },
+        {
+          "example": "Eli says that means the rooms stayed equally comfortable throughout the day.",
+          "meaning": "整段期間",
+          "word": "throughout"
+        },
+        {
+          "example": "His partner asks whether an average shows how widely the individual readings differ or how each person felt.",
+          "meaning": "幅度大地",
+          "word": "widely"
+        },
+        {
+          "example": "Room A's spread is eight degrees; Room B's is two.",
+          "meaning": "差距",
+          "word": "spread"
+        },
+        {
+          "example": "They also state that comfort was not surveyed.",
+          "meaning": "調查過",
+          "word": "surveyed"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-01",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 122,
+      "goal": "區分場地預約與個人入場條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "僅限水道使用",
+          "phrase": "lane use only"
+        },
+        {
+          "meaning": "納入……之內",
+          "phrase": "fit inside"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "POOL GROUP NOTICE: School clubs may reserve Lane One for thirty minutes between four and six on weekdays. A reservation is for lane use only; each swimmer still needs a valid pool entry ticket. The public lanes remain open to other visitors.",
+          "explanation": "預約只限水道，不含個人門票。",
+          "id": "d122-q1",
+          "options": [
+            "Use of the lane for the booked period.",
+            "Unlimited use of all lanes.",
+            "Every swimmer's entry ticket.",
+            "Automatic entry for extra friends."
+          ],
+          "prompt": "What does a lane reservation include?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Only the teacher named on the booking may confirm a change to the participant list. A swimmer cannot bring an extra friend simply because there appears to be room in the lane. Ask the office before the session if a substitution is needed.",
+          "explanation": "須預約上具名老師確認。",
+          "id": "d122-q2",
+          "options": [
+            "A visitor in the public lane.",
+            "The swimmer's extra friend.",
+            "The teacher named on the booking.",
+            "Any swimmer arriving first."
+          ],
+          "prompt": "Who may confirm participant-list changes?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A group must arrive ten minutes before its booking for a list check. Bring the confirmation and the names of participating swimmers. If the group arrives after its starting time, the end time does not move later. Equipment cleanup must fit inside the reserved half hour.",
+          "explanation": "遲到不延長原本固定時段。",
+          "id": "d122-q3",
+          "options": [
+            "Cleanup is always done after closing.",
+            "The reservation has fixed start and end times.",
+            "The group receives free unlimited time.",
+            "The pool has no other bookings."
+          ],
+          "prompt": "Why won't arriving late give the group a later ending?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Only the teacher named on the booking may confirm a change to the participant list. A swimmer cannot bring an extra friend simply because there appears to be room in the lane. Ask the office before the session if a substitution is needed.",
+          "explanation": "替換原名單某人，非任意多加人。",
+          "id": "d122-q4",
+          "options": [
+            "Buying every public ticket.",
+            "Replacing one participant with another.",
+            "Adding an unlimited number of swimmers.",
+            "Cleaning the equipment twice."
+          ],
+          "prompt": "What does 'substitution' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "POOL GROUP NOTICE: School clubs may reserve Lane One for thirty minutes between four and six on weekdays. A reservation is for lane use only; each swimmer still needs a valid pool entry ticket. The public lanes remain open to other visitors.\n\nA group must arrive ten minutes before its booking for a list check. Bring the confirmation and the names of participating swimmers. If the group arrives after its starting time, the end time does not move later. Equipment cleanup must fit inside the reserved half hour.\n\nOnly the teacher named on the booking may confirm a change to the participant list. A swimmer cannot bring an extra friend simply because there appears to be room in the lane. Ask the office before the session if a substitution is needed.\n\nThe pool may cancel a booking for maintenance. Staff will contact the teacher and offer another available slot or refund the lane fee. Personal entry tickets follow their own printed conditions, so a canceled lane booking does not automatically settle every payment.",
+          "explanation": "提前十分鐘名單核對；清理在半小時內。",
+          "id": "d122-q5",
+          "options": [
+            "Bring unlisted friends without informing the office.",
+            "Arrive at 4:20 and finish equipment cleanup by five.",
+            "Use the booking confirmation as every personal ticket.",
+            "Arrive at 4:40 and stay until 5:10."
+          ],
+          "prompt": "For a 4:30–5:00 slot, which plan fits the notice?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "The pool may cancel a booking for maintenance. Staff will contact the teacher and offer another available slot or refund the lane fee. Personal entry tickets follow their own printed conditions, so a canceled lane booking does not automatically settle every payment.",
+          "explanation": "泳道與個人票規則各自適用，不能混認。",
+          "id": "d122-q6",
+          "options": [
+            "The separate conditions for lane fees and personal tickets.",
+            "A guarantee that every payment is automatically refunded.",
+            "Whether extra friends can use the closed lane.",
+            "A rule that all future bookings are canceled."
+          ],
+          "prompt": "What should be checked after maintenance cancels a lane booking?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "POOL GROUP NOTICE: School clubs may reserve Lane One for thirty minutes between four and six on weekdays. A reservation is for lane use only; each swimmer still needs a valid pool entry ticket. The public lanes remain open to other visitors.\n\nA group must arrive ten minutes before its booking for a list check. Bring the confirmation and the names of participating swimmers. If the group arrives after its starting time, the end time does not move later. Equipment cleanup must fit inside the reserved half hour.\n\nOnly the teacher named on the booking may confirm a change to the participant list. A swimmer cannot bring an extra friend simply because there appears to be room in the lane. Ask the office before the session if a substitution is needed.\n\nThe pool may cancel a booking for maintenance. Staff will contact the teacher and offer another available slot or refund the lane fee. Personal entry tickets follow their own printed conditions, so a canceled lane booking does not automatically settle every payment.",
+      "title": "Swimming Lane Booking Notice",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "A reservation is for lane use only; each swimmer still needs a valid pool entry ticket.",
+          "meaning": "有效的",
+          "word": "valid"
+        },
+        {
+          "example": "Only the teacher named on the booking may confirm a change to the participant list.",
+          "meaning": "參加者",
+          "word": "participant"
+        },
+        {
+          "example": "Ask the office before the session if a substitution is needed.",
+          "meaning": "替補",
+          "word": "substitution"
+        },
+        {
+          "example": "The pool may cancel a booking for maintenance.",
+          "meaning": "維護",
+          "word": "maintenance"
+        },
+        {
+          "example": "Staff will contact the teacher and offer another available slot or refund the lane fee.",
+          "meaning": "退款",
+          "word": "refund"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-09",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 130,
+      "goal": "在場地限制、時間重疊與器材數量間做安排。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "一次",
+          "phrase": "at a time"
+        },
+        {
+          "meaning": "展示期間",
+          "phrase": "during a display"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "OUTLET PLAN: The hall has two approved outlet stations, East One and East Two. Each can serve one club's display at a time. The science club needs a station from one to one forty. The art club needs one from one twenty to two.",
+          "explanation": "共兩站，每站一次一社。",
+          "id": "d130-q1",
+          "options": [
+            "Four.",
+            "Three.",
+            "Two.",
+            "One."
+          ],
+          "prompt": "How many clubs can use approved stations simultaneously?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "ASSIGNMENT: Science is assigned East One, and art is assigned East Two. The history request can follow science at East One. The organizer asks music to choose a later starting time because both stations are occupied at one thirty.",
+          "explanation": "分配表指定 science 用East One。",
+          "id": "d130-q2",
+          "options": [
+            "Art.",
+            "Science.",
+            "History.",
+            "Music."
+          ],
+          "prompt": "Which club first uses East One?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "REQUESTS: The history club wants a twenty-minute demonstration beginning at one forty. The music club wants a forty-minute display beginning at one thirty. Moving between stations during a display is not allowed. Setup is already included in every stated time.",
+          "explanation": "二十分鐘後是2:00。",
+          "id": "d130-q3",
+          "options": [
+            "At 2:20.",
+            "At two.",
+            "At 1:50.",
+            "At 2:40."
+          ],
+          "prompt": "When does the history demonstration finish if it begins at 1:40?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "OUTLET PLAN: The hall has two approved outlet stations, East One and East Two. Each can serve one club's display at a time. The science club needs a station from one to one forty. The art club needs one from one twenty to two.\n\nREQUESTS: The history club wants a twenty-minute demonstration beginning at one forty. The music club wants a forty-minute display beginning at one thirty. Moving between stations during a display is not allowed. Setup is already included in every stated time.\n\nASSIGNMENT: Science is assigned East One, and art is assigned East Two. The history request can follow science at East One. The organizer asks music to choose a later starting time because both stations are occupied at one thirty.\n\nMusic agrees to begin at two on East Two. All clubs must finish powered displays by three, so this revised request still fits. The organizer posts the complete schedule and marks shared ending and starting times clearly; a new club may begin when the previous club's booked period ends.",
+          "explanation": "1:30時science與art均在進行。",
+          "id": "d130-q4",
+          "options": [
+            "Powered displays end before one thirty.",
+            "Setup requires an extra unlisted hour.",
+            "Music needs three stations at once.",
+            "Both stations are already booked then."
+          ],
+          "prompt": "Why can't music start at 1:30 as requested?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "REQUESTS: The history club wants a twenty-minute demonstration beginning at one forty. The music club wants a forty-minute display beginning at one thirty. Moving between stations during a display is not allowed. Setup is already included in every stated time.",
+          "explanation": "規定展示中不可換站。",
+          "id": "d130-q5",
+          "options": [
+            "Only without telling the organizer.",
+            "Only while another club is using both.",
+            "Yes, at every ten-minute mark.",
+            "No."
+          ],
+          "prompt": "May a club switch stations during its display?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "OUTLET PLAN: The hall has two approved outlet stations, East One and East Two. Each can serve one club's display at a time. The science club needs a station from one to one forty. The art club needs one from one twenty to two.\n\nREQUESTS: The history club wants a twenty-minute demonstration beginning at one forty. The music club wants a forty-minute display beginning at one thirty. Moving between stations during a display is not allowed. Setup is already included in every stated time.\n\nASSIGNMENT: Science is assigned East One, and art is assigned East Two. The history request can follow science at East One. The organizer asks music to choose a later starting time because both stations are occupied at one thirty.\n\nMusic agrees to begin at two on East Two. All clubs must finish powered displays by three, so this revised request still fits. The organizer posts the complete schedule and marks shared ending and starting times clearly; a new club may begin when the previous club's booked period ends.",
+          "explanation": "2:00開始，加40分＝2:40。",
+          "id": "d130-q6",
+          "options": [
+            "At three.",
+            "At 2:20.",
+            "At 2:40.",
+            "At 3:40."
+          ],
+          "prompt": "When does music's revised display end?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "ASSIGNMENT: Science is assigned East One, and art is assigned East Two. The history request can follow science at East One. The organizer asks music to choose a later starting time because both stations are occupied at one thirty.",
+          "explanation": "兩站該時段已被使用占用。",
+          "id": "d130-q7",
+          "options": [
+            "Already in use or reserved.",
+            "Located outside the hall.",
+            "Physically broken.",
+            "Available without booking."
+          ],
+          "prompt": "What does 'occupied' mean in the request discussion?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "OUTLET PLAN: The hall has two approved outlet stations, East One and East Two. Each can serve one club's display at a time. The science club needs a station from one to one forty. The art club needs one from one twenty to two.\n\nREQUESTS: The history club wants a twenty-minute demonstration beginning at one forty. The music club wants a forty-minute display beginning at one thirty. Moving between stations during a display is not allowed. Setup is already included in every stated time.\n\nASSIGNMENT: Science is assigned East One, and art is assigned East Two. The history request can follow science at East One. The organizer asks music to choose a later starting time because both stations are occupied at one thirty.\n\nMusic agrees to begin at two on East Two. All clubs must finish powered displays by three, so this revised request still fits. The organizer posts the complete schedule and marks shared ending and starting times clearly; a new club may begin when the previous club's booked period ends.",
+          "explanation": "正確安排各站時段不重疊且不換站。",
+          "id": "d130-q8",
+          "options": [
+            "Music uses East Two from 1:30 while art continues there.",
+            "History switches stations halfway through its twenty minutes.",
+            "Science 1:00–1:40 then history 1:40–2:00 at East One; art 1:20–2:00 then music 2:00–2:40 at East Two.",
+            "Science and history both begin at 1:00 at East One."
+          ],
+          "prompt": "Which full schedule fits the stated assignments?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "OUTLET PLAN: The hall has two approved outlet stations, East One and East Two. Each can serve one club's display at a time. The science club needs a station from one to one forty. The art club needs one from one twenty to two.\n\nREQUESTS: The history club wants a twenty-minute demonstration beginning at one forty. The music club wants a forty-minute display beginning at one thirty. Moving between stations during a display is not allowed. Setup is already included in every stated time.\n\nASSIGNMENT: Science is assigned East One, and art is assigned East Two. The history request can follow science at East One. The organizer asks music to choose a later starting time because both stations are occupied at one thirty.\n\nMusic agrees to begin at two on East Two. All clubs must finish powered displays by three, so this revised request still fits. The organizer posts the complete schedule and marks shared ending and starting times clearly; a new club may begin when the previous club's booked period ends.",
+          "explanation": "看完整占用區間才能處理重疊。",
+          "id": "d130-q9",
+          "options": [
+            "Assume setup must be added despite the stated inclusion.",
+            "Count only the number of clubs without times.",
+            "Ignore ending times when assigning starts.",
+            "Reschedule a request using complete occupancy intervals."
+          ],
+          "prompt": "What planning idea resolves the conflict?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "OUTLET PLAN: The hall has two approved outlet stations, East One and East Two. Each can serve one club's display at a time. The science club needs a station from one to one forty. The art club needs one from one twenty to two.\n\nREQUESTS: The history club wants a twenty-minute demonstration beginning at one forty. The music club wants a forty-minute display beginning at one thirty. Moving between stations during a display is not allowed. Setup is already included in every stated time.\n\nASSIGNMENT: Science is assigned East One, and art is assigned East Two. The history request can follow science at East One. The organizer asks music to choose a later starting time because both stations are occupied at one thirty.\n\nMusic agrees to begin at two on East Two. All clubs must finish powered displays by three, so this revised request still fits. The organizer posts the complete schedule and marks shared ending and starting times clearly; a new club may begin when the previous club's booked period ends.",
+      "title": "Boss: Matching the Outlet Slots",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "OUTLET PLAN: The hall has two approved outlet stations, East One and East Two.",
+          "meaning": "使用點",
+          "word": "stations"
+        },
+        {
+          "example": "The organizer asks music to choose a later starting time because both stations are occupied at one thirty.",
+          "meaning": "被占用的",
+          "word": "occupied"
+        },
+        {
+          "example": "All clubs must finish powered displays by three, so this revised request still fits.",
+          "meaning": "修訂的",
+          "word": "revised"
+        },
+        {
+          "example": "The organizer posts the complete schedule and marks shared ending and starting times clearly; a new club may begin when the previous club's booked period ends.",
+          "meaning": "期間",
+          "word": "period"
+        },
+        {
+          "example": "The organizer posts the complete schedule and marks shared ending and starting times clearly; a new club may begin when the previous club's booked period ends.",
+          "meaning": "前一個",
+          "word": "previous"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-06",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 127,
+      "goal": "辨識連結分享範圍與下載權限。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "應他們要求",
+          "phrase": "at their request"
+        },
+        {
+          "meaning": "不只",
+          "phrase": "not just"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "Class chat: The photographer has uploaded our class pictures. The folder link is for class members and their families. Please do not post it on a public page. Some students agreed to a class photo but did not agree to having their images shared with everyone online.",
+          "explanation": "最初共享範圍為班級及家人。",
+          "id": "d127-q1",
+          "options": [
+            "Class members and their families.",
+            "Every club in the city.",
+            "Only the photographer's staff.",
+            "Every public website visitor."
+          ],
+          "prompt": "Who is the original folder intended for?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "June: Can I download a picture and send it to my grandmother privately? Teacher: Yes, that fits the family purpose. For a public club poster, use only the separate approved photo. Its filename begins with Public, and it includes students who agreed to that use.",
+          "explanation": "以專用核准檔及 Public 檔名辨識。",
+          "id": "d127-q2",
+          "options": [
+            "The newest photo regardless of caption.",
+            "Any photo containing similar faces.",
+            "Every image from the family folder.",
+            "The separately approved file beginning with Public."
+          ],
+          "prompt": "Which file should be used for a public poster?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Arun: The approved photo looks almost the same as another one. Teacher: Check the filename and caption, not just the faces. We removed several students from the public version at their request, so a similar appearance does not make the files interchangeable.",
+          "explanation": "外觀近似不代表公開同意範圍一致。",
+          "id": "d127-q3",
+          "options": [
+            "Filenames only describe image size.",
+            "Families may never receive pictures.",
+            "Every photo has exactly the same consent.",
+            "They may include different people with different sharing permissions."
+          ],
+          "prompt": "Why are similar-looking photos not interchangeable?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "June: Can I download a picture and send it to my grandmother privately? Teacher: Yes, that fits the family purpose. For a public club poster, use only the separate approved photo. Its filename begins with Public, and it includes students who agreed to that use.",
+          "explanation": "已獲允許用於指定公開用途。",
+          "id": "d127-q4",
+          "options": [
+            "Accepted for the stated use.",
+            "Placed in any open folder.",
+            "Taken with the oldest camera.",
+            "Downloaded by the largest number of people."
+          ],
+          "prompt": "What does 'approved' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Class chat: The photographer has uploaded our class pictures. The folder link is for class members and their families. Please do not post it on a public page. Some students agreed to a class photo but did not agree to having their images shared with everyone online.\n\nJune: Can I download a picture and send it to my grandmother privately? Teacher: Yes, that fits the family purpose. For a public club poster, use only the separate approved photo. Its filename begins with Public, and it includes students who agreed to that use.\n\nArun: The approved photo looks almost the same as another one. Teacher: Check the filename and caption, not just the faces. We removed several students from the public version at their request, so a similar appearance does not make the files interchangeable.\n\nJune saves the approved file in the club's poster folder and leaves the family collection separate. She adds the photographer's requested credit to the poster draft. A link that can be opened is not automatically a link that should be shared everywhere.",
+          "explanation": "私人家人分享與公開海報各用符合範圍的資料。",
+          "id": "d127-q5",
+          "options": [
+            "Post the entire family folder publicly with no check.",
+            "Remove all requested photo credit.",
+            "Choose by faces alone and ignore captions.",
+            "Privately share a family photo with a grandmother and use the Public file for the poster."
+          ],
+          "prompt": "Which action meets the instructions?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "June saves the approved file in the club's poster folder and leaves the family collection separate. She adds the photographer's requested credit to the poster draft. A link that can be opened is not automatically a link that should be shared everywhere.",
+          "explanation": "能開啟不代表可以任意擴大公開。",
+          "id": "d127-q6",
+          "options": [
+            "Similar photos always have the same audience.",
+            "Technical access does not define permission for every use.",
+            "An openable link is automatically public material.",
+            "A private share changes every student's choice."
+          ],
+          "prompt": "What principle concludes the exchange?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Class chat: The photographer has uploaded our class pictures. The folder link is for class members and their families. Please do not post it on a public page. Some students agreed to a class photo but did not agree to having their images shared with everyone online.\n\nJune: Can I download a picture and send it to my grandmother privately? Teacher: Yes, that fits the family purpose. For a public club poster, use only the separate approved photo. Its filename begins with Public, and it includes students who agreed to that use.\n\nArun: The approved photo looks almost the same as another one. Teacher: Check the filename and caption, not just the faces. We removed several students from the public version at their request, so a similar appearance does not make the files interchangeable.\n\nJune saves the approved file in the club's poster folder and leaves the family collection separate. She adds the photographer's requested credit to the poster draft. A link that can be opened is not automatically a link that should be shared everywhere.",
+      "title": "The Class Photo Link",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Class chat: The photographer has uploaded our class pictures.",
+          "meaning": "上傳了",
+          "word": "uploaded"
+        },
+        {
+          "example": "For a public club poster, use only the separate approved photo.",
+          "meaning": "核准的",
+          "word": "approved"
+        },
+        {
+          "example": "Teacher: Check the filename and caption, not just the faces.",
+          "meaning": "圖說",
+          "word": "caption"
+        },
+        {
+          "example": "We removed several students from the public version at their request, so a similar appearance does not make the files interchangeable.",
+          "meaning": "可互換的",
+          "word": "interchangeable"
+        },
+        {
+          "example": "She adds the photographer's requested credit to the poster draft.",
+          "meaning": "署名致謝",
+          "word": "credit"
+        }
+      ]
+    }
+  ]
+}

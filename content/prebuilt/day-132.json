@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-11",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 132,
+      "goal": "從處理流程推論兼顧節省與隱私的做法。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在一面",
+          "phrase": "on one side"
+        },
+        {
+          "meaning": "回到",
+          "phrase": "go back to"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "The class collects paper that is blank on one side for rough drafts. At first, students put every partly used sheet into a shared tray. The pile grows quickly, and everyone celebrates the amount of paper they think they have saved.",
+          "explanation": "回收單面空白紙用來打草稿。",
+          "id": "d132-q1",
+          "options": [
+            "Rough drafts.",
+            "Printing the final school certificate.",
+            "Public displays of personal phone numbers.",
+            "Replacing all original letters."
+          ],
+          "prompt": "What is the shared paper intended for?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "When Bess takes a sheet, she notices a classmate's family phone number on the reverse side. Another sheet contains a draft letter with personal information. The teacher pauses the collection and asks the class to sort the sheets before placing them in a public tray.",
+          "explanation": "反面出現私人電話及信件內容。",
+          "id": "d132-q2",
+          "options": [
+            "The paper costs more each day.",
+            "Every sheet is blank on both sides.",
+            "Personal information appears on reused sheets.",
+            "The tray has no paper."
+          ],
+          "prompt": "What makes Bess question the first collection method?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The class collects paper that is blank on one side for rough drafts. At first, students put every partly used sheet into a shared tray. The pile grows quickly, and everyone celebrates the amount of paper they think they have saved.\n\nWhen Bess takes a sheet, she notices a classmate's family phone number on the reverse side. Another sheet contains a draft letter with personal information. The teacher pauses the collection and asks the class to sort the sheets before placing them in a public tray.\n\nThey keep clean, nonpersonal practice pages for reuse. Sheets containing private details go back to their owners for appropriate disposal. The class adds a clear instruction above the tray and assigns two volunteers to check new additions each afternoon.\n\nThe amount of reusable paper is smaller than the original pile, but the system now serves its purpose more carefully. Bess writes that saving resources works best when the process also respects the people whose information may appear on them.",
+          "explanation": "篩除含私資紙張，雖少但使用更合宜。",
+          "id": "d132-q3",
+          "options": [
+            "It makes every private letter public.",
+            "It proves less paper is always better.",
+            "It removes the need to check future additions.",
+            "It excludes sheets that could expose private details."
+          ],
+          "prompt": "Why is a smaller reusable pile still an improvement?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "When Bess takes a sheet, she notices a classmate's family phone number on the reverse side. Another sheet contains a draft letter with personal information. The teacher pauses the collection and asks the class to sort the sheets before placing them in a public tray.",
+          "explanation": "reverse side 指紙張反面。",
+          "id": "d132-q4",
+          "options": [
+            "The other side of a sheet.",
+            "A new tray beside the desk.",
+            "A second family phone.",
+            "A larger amount of paper."
+          ],
+          "prompt": "What does 'reverse' mean in the story?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "They keep clean, nonpersonal practice pages for reuse. Sheets containing private details go back to their owners for appropriate disposal. The class adds a clear instruction above the tray and assigns two volunteers to check new additions each afternoon.",
+          "explanation": "需可再用且不含私人資料。",
+          "id": "d132-q5",
+          "options": [
+            "A nonpersonal practice page with one blank side.",
+            "A private note just because its other side is blank.",
+            "An owner's personal form without asking.",
+            "A letter containing a family's contact details."
+          ],
+          "prompt": "Which sheet belongs in the revised shared tray?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "The class collects paper that is blank on one side for rough drafts. At first, students put every partly used sheet into a shared tray. The pile grows quickly, and everyone celebrates the amount of paper they think they have saved.\n\nWhen Bess takes a sheet, she notices a classmate's family phone number on the reverse side. Another sheet contains a draft letter with personal information. The teacher pauses the collection and asks the class to sort the sheets before placing them in a public tray.\n\nThey keep clean, nonpersonal practice pages for reuse. Sheets containing private details go back to their owners for appropriate disposal. The class adds a clear instruction above the tray and assigns two volunteers to check new additions each afternoon.\n\nThe amount of reusable paper is smaller than the original pile, but the system now serves its purpose more carefully. Bess writes that saving resources works best when the process also respects the people whose information may appear on them.",
+          "explanation": "節省資源也要兼顧資訊對人的影響。",
+          "id": "d132-q6",
+          "options": [
+            "A resource-saving process should also account for the information it exposes.",
+            "Any reused paper is suitable for public sharing.",
+            "Private details disappear when the sheet is turned over.",
+            "Collecting the largest pile is the only goal."
+          ],
+          "prompt": "What does the class learn?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The class collects paper that is blank on one side for rough drafts. At first, students put every partly used sheet into a shared tray. The pile grows quickly, and everyone celebrates the amount of paper they think they have saved.\n\nWhen Bess takes a sheet, she notices a classmate's family phone number on the reverse side. Another sheet contains a draft letter with personal information. The teacher pauses the collection and asks the class to sort the sheets before placing them in a public tray.\n\nThey keep clean, nonpersonal practice pages for reuse. Sheets containing private details go back to their owners for appropriate disposal. The class adds a clear instruction above the tray and assigns two volunteers to check new additions each afternoon.\n\nThe amount of reusable paper is smaller than the original pile, but the system now serves its purpose more carefully. Bess writes that saving resources works best when the process also respects the people whose information may appear on them.",
+      "title": "Paper for Another Draft",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "The class collects paper that is blank on one side for rough drafts.",
+          "meaning": "粗略的",
+          "word": "rough"
+        },
+        {
+          "example": "When Bess takes a sheet, she notices a classmate's family phone number on the reverse side.",
+          "meaning": "反面",
+          "word": "reverse"
+        },
+        {
+          "example": "Sheets containing private details go back to their owners for appropriate disposal.",
+          "meaning": "私人的",
+          "word": "private"
+        },
+        {
+          "example": "Sheets containing private details go back to their owners for appropriate disposal.",
+          "meaning": "處理丟棄",
+          "word": "disposal"
+        },
+        {
+          "example": "Bess writes that saving resources works best when the process also respects the people whose information may appear on them.",
+          "meaning": "資源",
+          "word": "resources"
+        }
+      ]
+    }
+  ]
+}

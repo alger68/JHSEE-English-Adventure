@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-03",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 124,
+      "goal": "區分已知、假設與需確認的資訊。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "忠於來源",
+          "phrase": "faithful to the source"
+        },
+        {
+          "meaning": "同樣",
+          "phrase": "as much as"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "An English sentence summarizing a longer interview is an interpretation that must remain faithful to the source. Measurements taken with matching methods are more consistent. Replacing one registered swimmer with another is a substitution, not permission to add an extra person without checking.",
+          "explanation": "改述必須忠於訪談原意。",
+          "id": "d124-q1",
+          "options": [
+            "The most dramatic headline only.",
+            "A different person's story.",
+            "The writer's preferred conclusion.",
+            "The source meaning."
+          ],
+          "prompt": "What should an interview interpretation remain faithful to?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "A member who has replied but has not chosen a side is undecided. A possible vote count imagined for analysis is hypothetical. The group keeps these separate from no response and from the current official count, which describe different situations.",
+          "explanation": "已回覆尚未表態，與沒回不同。",
+          "id": "d124-q2",
+          "options": [
+            "It means a member has left the club.",
+            "There is no difference.",
+            "It always means an opposing vote.",
+            "An undecided member has replied without choosing a side."
+          ],
+          "prompt": "How does undecided differ from no response?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "For the last exercise, partners underline every word that tells them whether something has happened, might happen, or needs approval. They compare explanations before seeing answers. Accurate reading sometimes depends on a small status word as much as on the larger topic of a passage.",
+          "explanation": "狀態詞區分已發生、可能及待許可。",
+          "id": "d124-q3",
+          "options": [
+            "They indicate the status of information or action.",
+            "They are always the longest words.",
+            "They prove every request is accepted.",
+            "They replace all factual details."
+          ],
+          "prompt": "Why underline words such as might or needs approval?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "An English sentence summarizing a longer interview is an interpretation that must remain faithful to the source. Measurements taken with matching methods are more consistent. Replacing one registered swimmer with another is a substitution, not permission to add an extra person without checking.",
+          "explanation": "是替換名單成員，非任意增加。",
+          "id": "d124-q4",
+          "options": [
+            "A cancellation of the entire pool.",
+            "A new ticket for every visitor.",
+            "An extra person added without changing the list.",
+            "A replacement of one registered person by another."
+          ],
+          "prompt": "What does 'substitution' mean in the swimming example?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "A member who has replied but has not chosen a side is undecided. A possible vote count imagined for analysis is hypothetical. The group keeps these separate from no response and from the current official count, which describe different situations.",
+          "explanation": "假設票數不等於現行統計，其他選項是對應概念。",
+          "id": "d124-q5",
+          "options": [
+            "A hypothetical count and the actual official count.",
+            "A reply without a side and an undecided response.",
+            "A replacement swimmer and a substitution.",
+            "Matching methods and consistent comparison."
+          ],
+          "prompt": "Which pair should remain distinct?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "The review team selects five words: interpretation, consistent, substitution, undecided, and hypothetical. They place the words beside short descriptions from different projects. A student explains that the cards do not all describe facts of the same kind; some describe an action or a state of knowledge.\n\nAn English sentence summarizing a longer interview is an interpretation that must remain faithful to the source. Measurements taken with matching methods are more consistent. Replacing one registered swimmer with another is a substitution, not permission to add an extra person without checking.\n\nA member who has replied but has not chosen a side is undecided. A possible vote count imagined for analysis is hypothetical. The group keeps these separate from no response and from the current official count, which describe different situations.\n\nFor the last exercise, partners underline every word that tells them whether something has happened, might happen, or needs approval. They compare explanations before seeing answers. Accurate reading sometimes depends on a small status word as much as on the larger topic of a passage.",
+          "explanation": "不只懂主題，還需判讀確定性與程序狀態。",
+          "id": "d124-q6",
+          "options": [
+            "Assume every blank represents opposition.",
+            "Treat all possible events as already complete.",
+            "Notice information status as well as subject matter.",
+            "Choose answers from the topic alone."
+          ],
+          "prompt": "What is the main review skill?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The review team selects five words: interpretation, consistent, substitution, undecided, and hypothetical. They place the words beside short descriptions from different projects. A student explains that the cards do not all describe facts of the same kind; some describe an action or a state of knowledge.\n\nAn English sentence summarizing a longer interview is an interpretation that must remain faithful to the source. Measurements taken with matching methods are more consistent. Replacing one registered swimmer with another is a substitution, not permission to add an extra person without checking.\n\nA member who has replied but has not chosen a side is undecided. A possible vote count imagined for analysis is hypothetical. The group keeps these separate from no response and from the current official count, which describe different situations.\n\nFor the last exercise, partners underline every word that tells them whether something has happened, might happen, or needs approval. They compare explanations before seeing answers. Accurate reading sometimes depends on a small status word as much as on the larger topic of a passage.",
+      "title": "The Cards for Careful Claims",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "The review team selects five words: interpretation, consistent, substitution, undecided, and hypothetical.",
+          "meaning": "詮釋",
+          "word": "interpretation"
+        },
+        {
+          "example": "The review team selects five words: interpretation, consistent, substitution, undecided, and hypothetical.",
+          "meaning": "一致的",
+          "word": "consistent"
+        },
+        {
+          "example": "The review team selects five words: interpretation, consistent, substitution, undecided, and hypothetical.",
+          "meaning": "替補",
+          "word": "substitution"
+        },
+        {
+          "example": "The review team selects five words: interpretation, consistent, substitution, undecided, and hypothetical.",
+          "meaning": "未決定的",
+          "word": "undecided"
+        },
+        {
+          "example": "The review team selects five words: interpretation, consistent, substitution, undecided, and hypothetical.",
+          "meaning": "假設的",
+          "word": "hypothetical"
+        }
+      ]
+    }
+  ]
+}

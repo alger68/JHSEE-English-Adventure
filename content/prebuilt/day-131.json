@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-10",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 131,
+      "goal": "辨別版本差異、持續有效事項及相對位置詞。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "仍有效",
+          "phrase": "remained valid"
+        },
+        {
+          "meaning": "指同一活動",
+          "phrase": "refer to the same event"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "For review, the class chooses five words: interchangeable, spread, revision, allocation, and occupied. The teacher gives pairs an old notice and a new notice. They must list which details changed and which remained valid, instead of assuming that a new heading replaces every earlier instruction.",
+          "explanation": "需同時辨認變更與保留部分。",
+          "id": "d131-q1",
+          "options": [
+            "Changed details and still-valid details.",
+            "Two unrelated event menus.",
+            "Every student's first and last name.",
+            "Only new words and their lengths."
+          ],
+          "prompt": "What two lists do the pairs make?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Revision belongs beside a corrected version of the notice. Allocation describes how tables or stations are assigned. Occupied tells readers that a station is already in use during a particular period. The students draw a short timeline to explain why two bookings conflict.",
+          "explanation": "桌位分派屬allocation。",
+          "id": "d131-q2",
+          "options": [
+            "Revision.",
+            "Spread.",
+            "Allocation.",
+            "Interchangeable."
+          ],
+          "prompt": "Which word describes assigning tables?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A separate example uses spread for the difference between the highest and lowest temperature readings. Interchangeable describes things that can replace each other for a purpose. The class notes that two similar photos may not be interchangeable when their approved audiences differ.",
+          "explanation": "同意使用範圍不同，外觀近似也不可任意換。",
+          "id": "d131-q3",
+          "options": [
+            "A timeline cannot show a photograph.",
+            "Their approved audiences may differ.",
+            "They always have identical permissions.",
+            "Every photo has a different temperature."
+          ],
+          "prompt": "Why might similar photos not replace one another?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Revision belongs beside a corrected version of the notice. Allocation describes how tables or stations are assigned. Occupied tells readers that a station is already in use during a particular period. The students draw a short timeline to explain why two bookings conflict.",
+          "explanation": "某段時間已有使用者。",
+          "id": "d131-q4",
+          "options": [
+            "Free for all overlapping requests.",
+            "Already being used in that period.",
+            "Moved to a new building.",
+            "Revised in a different language."
+          ],
+          "prompt": "What does 'occupied' mean in the station example?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "A separate example uses spread for the difference between the highest and lowest temperature readings. Interchangeable describes things that can replace each other for a purpose. The class notes that two similar photos may not be interchangeable when their approved audiences differ.",
+          "explanation": "本週數據中spread明定高低讀值差。",
+          "id": "d131-q5",
+          "options": [
+            "The total number of notice versions.",
+            "A photo's permission to be shared.",
+            "Highest reading minus lowest reading.",
+            "The size of every table assignment."
+          ],
+          "prompt": "Which use of spread matches this review?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Each pair finishes by writing one sentence about an unchanged detail. They underline the evidence for keeping it, just as carefully as the evidence for changing another detail. Accurate updating requires both kinds of attention, especially when several notices refer to the same event.",
+          "explanation": "更新應有依據地改，也有依據地保留。",
+          "id": "d131-q6",
+          "options": [
+            "Evidence for both changing and retaining details.",
+            "Looking only at the most colorful poster.",
+            "Replacing everything whenever a title is new.",
+            "Keeping every old deadline despite a correction."
+          ],
+          "prompt": "What does accurate updating require?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "For review, the class chooses five words: interchangeable, spread, revision, allocation, and occupied. The teacher gives pairs an old notice and a new notice. They must list which details changed and which remained valid, instead of assuming that a new heading replaces every earlier instruction.\n\nRevision belongs beside a corrected version of the notice. Allocation describes how tables or stations are assigned. Occupied tells readers that a station is already in use during a particular period. The students draw a short timeline to explain why two bookings conflict.\n\nA separate example uses spread for the difference between the highest and lowest temperature readings. Interchangeable describes things that can replace each other for a purpose. The class notes that two similar photos may not be interchangeable when their approved audiences differ.\n\nEach pair finishes by writing one sentence about an unchanged detail. They underline the evidence for keeping it, just as carefully as the evidence for changing another detail. Accurate updating requires both kinds of attention, especially when several notices refer to the same event.",
+      "title": "The Unchanged Detail Hunt",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "For review, the class chooses five words: interchangeable, spread, revision, allocation, and occupied.",
+          "meaning": "可互換的",
+          "word": "interchangeable"
+        },
+        {
+          "example": "For review, the class chooses five words: interchangeable, spread, revision, allocation, and occupied.",
+          "meaning": "差距",
+          "word": "spread"
+        },
+        {
+          "example": "For review, the class chooses five words: interchangeable, spread, revision, allocation, and occupied.",
+          "meaning": "修訂",
+          "word": "revision"
+        },
+        {
+          "example": "For review, the class chooses five words: interchangeable, spread, revision, allocation, and occupied.",
+          "meaning": "分配",
+          "word": "allocation"
+        },
+        {
+          "example": "For review, the class chooses five words: interchangeable, spread, revision, allocation, and occupied.",
+          "meaning": "被占用的",
+          "word": "occupied"
+        }
+      ]
+    }
+  ]
+}

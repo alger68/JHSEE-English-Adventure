@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-18",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 139,
+      "goal": "推論提問順序如何影響團體意見表達。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "不具名",
+          "phrase": "without names"
+        },
+        {
+          "meaning": "以及",
+          "phrase": "as well as"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "At the next meeting, the teacher asks students to write one idea privately before anyone speaks. The leader then collects the notes without names and reads the range of suggestions. They include a nature map, an interview series, and an experiment display as well as history.",
+          "explanation": "老師要求先各自寫想法再發言。",
+          "id": "d139-q1",
+          "options": [
+            "Copies the leader's speech.",
+            "Signs every classmate's note.",
+            "Writes an idea privately.",
+            "Votes for history immediately."
+          ],
+          "prompt": "What does each student do before the second discussion?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The class discusses the strengths and work required for each idea before voting. The leader speaks after the others this time and explains her preference without presenting it as the group's decision. Students are allowed to change their minds after hearing new reasons.",
+          "explanation": "第二次讓其他人先說，領導者後說。",
+          "id": "d139-q2",
+          "options": [
+            "Only after voting ends.",
+            "During every other student's sentence.",
+            "Before anyone writes.",
+            "After the others."
+          ],
+          "prompt": "When does the leader speak in the revised meeting?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "At the next meeting, the teacher asks students to write one idea privately before anyone speaks. The leader then collects the notes without names and reads the range of suggestions. They include a nature map, an interview series, and an experiment display as well as history.",
+          "explanation": "可先注意建議內容而非提出者身分。",
+          "id": "d139-q3",
+          "options": [
+            "It guarantees every idea is identical.",
+            "It makes discussion unnecessary.",
+            "It lets the group consider suggestions without first focusing on their authors.",
+            "It proves the first meeting was dishonest."
+          ],
+          "prompt": "Why collect ideas without names?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "At the next meeting, the teacher asks students to write one idea privately before anyone speaks. The leader then collects the notes without names and reads the range of suggestions. They include a nature map, an interview series, and an experiment display as well as history.",
+          "explanation": "出現多種不同方向，range 指多樣範圍。",
+          "id": "d139-q4",
+          "options": [
+            "A fixed historical date.",
+            "The number of pencils on a table.",
+            "The distance between desks.",
+            "The variety of suggestions."
+          ],
+          "prompt": "What does 'range' describe here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "History still wins, but the path to the decision is clearer. Jo does not claim the first meeting forced anyone to agree. She notices that a different discussion process gave more ideas a visible place before the class made its choice.",
+          "explanation": "她未證明強迫，只觀察新流程讓更多想法浮現。",
+          "id": "d139-q5",
+          "options": [
+            "Private writing guarantees a different final topic.",
+            "The first leader forced every student to agree.",
+            "History could win only if no alternatives existed.",
+            "The revised process made more ideas visible before the vote."
+          ],
+          "prompt": "Which conclusion stays within Jo's observations?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "When the class chooses a project topic, its leader speaks first and explains why she prefers a history display. Several classmates nod, and the next few suggestions sound similar. Jo wonders whether everyone independently favors history or whether the opening speech has narrowed the discussion.\n\nAt the next meeting, the teacher asks students to write one idea privately before anyone speaks. The leader then collects the notes without names and reads the range of suggestions. They include a nature map, an interview series, and an experiment display as well as history.\n\nThe class discusses the strengths and work required for each idea before voting. The leader speaks after the others this time and explains her preference without presenting it as the group's decision. Students are allowed to change their minds after hearing new reasons.\n\nHistory still wins, but the path to the decision is clearer. Jo does not claim the first meeting forced anyone to agree. She notices that a different discussion process gave more ideas a visible place before the class made its choice.",
+          "explanation": "結果相同，蒐集與討論過程仍有價值。",
+          "id": "d139-q6",
+          "options": [
+            "Leaders should never state a preference.",
+            "An unchanged result means the process has no value.",
+            "Only the first suggestion deserves discussion.",
+            "How ideas are gathered matters even when the final choice is unchanged."
+          ],
+          "prompt": "What does the story suggest about group decisions?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "When the class chooses a project topic, its leader speaks first and explains why she prefers a history display. Several classmates nod, and the next few suggestions sound similar. Jo wonders whether everyone independently favors history or whether the opening speech has narrowed the discussion.\n\nAt the next meeting, the teacher asks students to write one idea privately before anyone speaks. The leader then collects the notes without names and reads the range of suggestions. They include a nature map, an interview series, and an experiment display as well as history.\n\nThe class discusses the strengths and work required for each idea before voting. The leader speaks after the others this time and explains her preference without presenting it as the group's decision. Students are allowed to change their minds after hearing new reasons.\n\nHistory still wins, but the path to the decision is clearer. Jo does not claim the first meeting forced anyone to agree. She notices that a different discussion process gave more ideas a visible place before the class made its choice.",
+      "title": "The Leader Who Listened Last",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "Jo wonders whether everyone independently favors history or whether the opening speech has narrowed the discussion.",
+          "meaning": "獨立地",
+          "word": "independently"
+        },
+        {
+          "example": "At the next meeting, the teacher asks students to write one idea privately before anyone speaks.",
+          "meaning": "私下地",
+          "word": "privately"
+        },
+        {
+          "example": "The leader then collects the notes without names and reads the range of suggestions.",
+          "meaning": "範圍多樣性",
+          "word": "range"
+        },
+        {
+          "example": "The leader speaks after the others this time and explains her preference without presenting it as the group's decision.",
+          "meaning": "偏好",
+          "word": "preference"
+        },
+        {
+          "example": "She notices that a different discussion process gave more ideas a visible place before the class made its choice.",
+          "meaning": "過程",
+          "word": "process"
+        }
+      ]
+    }
+  ]
+}

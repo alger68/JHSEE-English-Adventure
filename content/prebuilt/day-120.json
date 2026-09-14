@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-30",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 120,
+      "goal": "區分逐字引述、翻譯與摘要。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "引號",
+          "phrase": "quotation marks"
+        },
+        {
+          "meaning": "遺漏",
+          "phrase": "leaves out"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Project chat: Our interview was in Chinese, but the presentation must be in English. I translated the resident's answer into one short sentence. May I put quotation marks around it? The answer in the recording is much longer and includes a reason for her opinion.",
+          "explanation": "第一段說原訪談中文，報告英文。",
+          "id": "d120-q1",
+          "options": [
+            "No spoken language.",
+            "Chinese.",
+            "English.",
+            "Both at the same time."
+          ],
+          "prompt": "In what language was the interview conducted?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Writer: She said the market was convenient for daily shopping but too crowded during holiday evenings. My sentence says she dislikes the market. Teacher: That leaves out the useful part and broadens her complaint beyond a particular time.",
+          "explanation": "抱怨限於假日晚上太擁擠。",
+          "id": "d120-q2",
+          "options": [
+            "Only when it is closed.",
+            "During every daily purchase.",
+            "On holiday evenings.",
+            "Every ordinary morning."
+          ],
+          "prompt": "When does the resident find the market too crowded?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Writer: She said the market was convenient for daily shopping but too crowded during holiday evenings. My sentence says she dislikes the market. Teacher: That leaves out the useful part and broadens her complaint beyond a particular time.",
+          "explanation": "省略平日便利及特定時段條件，變成全面不喜歡。",
+          "id": "d120-q3",
+          "options": [
+            "It changes English into Chinese.",
+            "It quotes the entire original answer exactly.",
+            "It includes too much detail about shopping.",
+            "It removes the positive point and the time condition."
+          ],
+          "prompt": "Why is she dislikes the market an inaccurate summary?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Teacher: A translation should preserve the meaning, and a summary should be labeled as a summary. Do not present your shortened interpretation as the exact words someone spoke. Keep the original recording and explain how you used it.",
+          "explanation": "摘要為保留重點的簡短整理，不是逐字原話。",
+          "id": "d120-q4",
+          "options": [
+            "A recording with no explanation.",
+            "A new opinion replacing the interview.",
+            "Every original spoken word unchanged.",
+            "A shorter account of the main meaning."
+          ],
+          "prompt": "What does 'summary' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Project chat: Our interview was in Chinese, but the presentation must be in English. I translated the resident's answer into one short sentence. May I put quotation marks around it? The answer in the recording is much longer and includes a reason for her opinion.\n\nTeacher: A translation should preserve the meaning, and a summary should be labeled as a summary. Do not present your shortened interpretation as the exact words someone spoke. Keep the original recording and explain how you used it.\n\nWriter: She said the market was convenient for daily shopping but too crowded during holiday evenings. My sentence says she dislikes the market. Teacher: That leaves out the useful part and broadens her complaint beyond a particular time.\n\nWriter: I will write that she values ordinary shopping there but wants less crowding on holiday evenings. I will label it an English summary and check the meaning against the recording. The original language should not disappear from our source notes.",
+          "explanation": "標明整理性質，保留原意並保有來源。",
+          "id": "d120-q5",
+          "options": [
+            "Label the English text as a summary and preserve both parts of her view.",
+            "Discard the source after translating one sentence.",
+            "Use quotation marks around a new broad complaint.",
+            "Treat every shortened translation as exact wording."
+          ],
+          "prompt": "Which presentation choice is most accurate?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Project chat: Our interview was in Chinese, but the presentation must be in English. I translated the resident's answer into one short sentence. May I put quotation marks around it? The answer in the recording is much longer and includes a reason for her opinion.\n\nTeacher: A translation should preserve the meaning, and a summary should be labeled as a summary. Do not present your shortened interpretation as the exact words someone spoke. Keep the original recording and explain how you used it.\n\nWriter: She said the market was convenient for daily shopping but too crowded during holiday evenings. My sentence says she dislikes the market. Teacher: That leaves out the useful part and broadens her complaint beyond a particular time.\n\nWriter: I will write that she values ordinary shopping there but wants less crowding on holiday evenings. I will label it an English summary and check the meaning against the recording. The original language should not disappear from our source notes.",
+          "explanation": "需說清引述、翻譯與摘要的差別，維持忠實。",
+          "id": "d120-q6",
+          "options": [
+            "Be clear about how another person's words have been transformed.",
+            "Translation allows changing the speaker's attitude.",
+            "The source language is irrelevant once a slide exists.",
+            "All summaries need to remove conditions."
+          ],
+          "prompt": "What does the exchange emphasize?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Project chat: Our interview was in Chinese, but the presentation must be in English. I translated the resident's answer into one short sentence. May I put quotation marks around it? The answer in the recording is much longer and includes a reason for her opinion.\n\nTeacher: A translation should preserve the meaning, and a summary should be labeled as a summary. Do not present your shortened interpretation as the exact words someone spoke. Keep the original recording and explain how you used it.\n\nWriter: She said the market was convenient for daily shopping but too crowded during holiday evenings. My sentence says she dislikes the market. Teacher: That leaves out the useful part and broadens her complaint beyond a particular time.\n\nWriter: I will write that she values ordinary shopping there but wants less crowding on holiday evenings. I will label it an English summary and check the meaning against the recording. The original language should not disappear from our source notes.",
+      "title": "The Interview in Two Languages",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Teacher: A translation should preserve the meaning, and a summary should be labeled as a summary.",
+          "meaning": "翻譯",
+          "word": "translation"
+        },
+        {
+          "example": "Teacher: A translation should preserve the meaning, and a summary should be labeled as a summary.",
+          "meaning": "摘要",
+          "word": "summary"
+        },
+        {
+          "example": "Do not present your shortened interpretation as the exact words someone spoke.",
+          "meaning": "詮釋",
+          "word": "interpretation"
+        },
+        {
+          "example": "Teacher: That leaves out the useful part and broadens her complaint beyond a particular time.",
+          "meaning": "特定的",
+          "word": "particular"
+        },
+        {
+          "example": "The original language should not disappear from our source notes.",
+          "meaning": "來源",
+          "word": "source"
+        }
+      ]
+    }
+  ]
+}

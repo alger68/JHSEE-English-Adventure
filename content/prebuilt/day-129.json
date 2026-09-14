@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-08",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 129,
+      "goal": "依版本日期與修改摘要辨認現行規則。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "事先",
+          "phrase": "in advance"
+        },
+        {
+          "meaning": "手寫地",
+          "phrase": "by hand"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "UPDATED CLUB FAIR NOTICE: This version replaces the poster printed last week. The fair will still be held on Friday from one to four, but the location has moved from the courtyard to the covered hall. The change is due to repairs near the courtyard entrance.",
+          "explanation": "新地點為有遮蔽禮堂。",
+          "id": "d129-q1",
+          "options": [
+            "The sports field.",
+            "The covered hall.",
+            "The classroom roof.",
+            "The courtyard."
+          ],
+          "prompt": "What location applies under the updated notice?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Club leaders must send their final stall names by Tuesday noon, one day earlier than the deadline on the old poster. Table allocation remains two per club. Electrical outlets are available only along the hall's east wall and must be requested in advance.",
+          "explanation": "更新提前一天，變週二中午。",
+          "id": "d129-q2",
+          "options": [
+            "Friday one o'clock.",
+            "Tuesday noon.",
+            "Thursday four o'clock.",
+            "Wednesday noon."
+          ],
+          "prompt": "What is the final stall-name deadline?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The new poster carries a revision date in its lower corner. If you see an older copy, tell the office rather than altering it by hand. Staff will replace outdated copies so visitors do not receive conflicting instructions from different walls.",
+          "explanation": "統一正式版本避免不同牆面訊息衝突。",
+          "id": "d129-q3",
+          "options": [
+            "Every handwritten word is illegal.",
+            "Old paper cannot hold any ink.",
+            "It reduces conflicting or incomplete versions.",
+            "The fair needs no current instructions."
+          ],
+          "prompt": "Why should staff replace old posters rather than students altering them by hand?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The new poster carries a revision date in its lower corner. If you see an older copy, tell the office rather than altering it by hand. Staff will replace outdated copies so visitors do not receive conflicting instructions from different walls.",
+          "explanation": "舊版已非現行規則。",
+          "id": "d129-q4",
+          "options": [
+            "No longer current.",
+            "Located inside the new hall.",
+            "Printed in large letters.",
+            "Approved for every future year."
+          ],
+          "prompt": "What does 'outdated' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Club leaders must send their final stall names by Tuesday noon, one day earlier than the deadline on the old poster. Table allocation remains two per club. Electrical outlets are available only along the hall's east wall and must be requested in advance.",
+          "explanation": "第二段明說每社兩桌不變。",
+          "id": "d129-q5",
+          "options": [
+            "Food service until four.",
+            "Two tables per club.",
+            "Wednesday's stall-name deadline.",
+            "The courtyard location."
+          ],
+          "prompt": "Which detail remains unchanged?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "Students may enter freely; no ticket is needed. Food stalls now close at three thirty so volunteers can clean before the hall closes at four. Non-food demonstrations may continue until three fifty, but equipment must be packed by four.",
+          "explanation": "餐飲3:30止、非餐示範3:50止、4:00收妥。",
+          "id": "d129-q6",
+          "options": [
+            "Close the hall at 3:30 before volunteers clean.",
+            "Continue every demonstration until 4:10.",
+            "Finish food orders by 3:30 and have all equipment packed by four.",
+            "Sell food until 3:50 and pack after four."
+          ],
+          "prompt": "Which plan fits the new end times?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "UPDATED CLUB FAIR NOTICE: This version replaces the poster printed last week. The fair will still be held on Friday from one to four, but the location has moved from the courtyard to the covered hall. The change is due to repairs near the courtyard entrance.\n\nClub leaders must send their final stall names by Tuesday noon, one day earlier than the deadline on the old poster. Table allocation remains two per club. Electrical outlets are available only along the hall's east wall and must be requested in advance.\n\nStudents may enter freely; no ticket is needed. Food stalls now close at three thirty so volunteers can clean before the hall closes at four. Non-food demonstrations may continue until three fifty, but equipment must be packed by four.\n\nThe new poster carries a revision date in its lower corner. If you see an older copy, tell the office rather than altering it by hand. Staff will replace outdated copies so visitors do not receive conflicting instructions from different walls.",
+      "title": "A Notice About Notice Changes",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "UPDATED CLUB FAIR NOTICE: This version replaces the poster printed last week.",
+          "meaning": "版本",
+          "word": "version"
+        },
+        {
+          "example": "Table allocation remains two per club.",
+          "meaning": "分配",
+          "word": "allocation"
+        },
+        {
+          "example": "Electrical outlets are available only along the hall's east wall and must be requested in advance.",
+          "meaning": "插座",
+          "word": "outlets"
+        },
+        {
+          "example": "The new poster carries a revision date in its lower corner.",
+          "meaning": "修訂",
+          "word": "revision"
+        },
+        {
+          "example": "Staff will replace outdated copies so visitors do not receive conflicting instructions from different walls.",
+          "meaning": "過時的",
+          "word": "outdated"
+        }
+      ]
+    }
+  ]
+}

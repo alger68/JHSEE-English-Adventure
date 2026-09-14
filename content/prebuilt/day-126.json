@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-05",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 126,
+      "goal": "以路線方向與現場標示核對乘車資訊。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "馬路對面",
+          "phrase": "across the road"
+        },
+        {
+          "meaning": "同一地點",
+          "phrase": "same location"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "A city changes the name of a bus stop near Mara's home from Library Corner to Civic Center. The stop itself remains in the same place. Mara sees the new name on a digital map and assumes the bus now follows a different road.",
+          "explanation": "公告只有站名更改。",
+          "id": "d126-q1",
+          "options": [
+            "Its name.",
+            "Every route number.",
+            "The road direction.",
+            "Its physical location."
+          ],
+          "prompt": "What actually changes at the stop?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "At the stop, a notice explains that only the name has changed. The route number and travel direction are unchanged. However, the stop across the road serves the opposite direction, so choosing by the shared place name alone can still lead to the wrong bus.",
+          "explanation": "對面站是反方向乘車。",
+          "id": "d126-q2",
+          "options": [
+            "The same direction automatically.",
+            "Only library staff.",
+            "No buses at all.",
+            "The opposite direction."
+          ],
+          "prompt": "What does the stop across the road serve?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Mara checks the route number, direction arrow, and next two stops before boarding. She tells her grandfather about the new name and marks the familiar library building on a small map. He recognizes the landmark even though the printed stop name is unfamiliar.",
+          "explanation": "熟悉地標幫助銜接陌生新名稱。",
+          "id": "d126-q3",
+          "options": [
+            "It proves the library has moved.",
+            "It cancels the route number.",
+            "It replaces every direction check.",
+            "It connects the new name with a place he knows."
+          ],
+          "prompt": "Why include the familiar library landmark for her grandfather?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Later, Mara updates a meeting message without saying the stop moved. She writes new name, same location and includes the direction toward the station. The short clarification preserves what people already know while pointing out exactly what they need to notice.",
+          "explanation": "簡短說明釐清名稱改、地點不變。",
+          "id": "d126-q4",
+          "options": [
+            "A permanent route cancellation.",
+            "A map without labels.",
+            "A new bus engine.",
+            "Information making a confusing point clear."
+          ],
+          "prompt": "What does 'clarification' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Mara checks the route number, direction arrow, and next two stops before boarding. She tells her grandfather about the new name and marks the familiar library building on a small map. He recognizes the landmark even though the printed stop name is unfamiliar.",
+          "explanation": "核對路線與方向、後續站點才可確認。",
+          "id": "d126-q5",
+          "options": [
+            "Only the shared stop name.",
+            "Only a neighbor's old photo.",
+            "Only the color of the map.",
+            "Route number, direction arrow, and next stops."
+          ],
+          "prompt": "Which checks reduce the chance of boarding the wrong direction?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "A city changes the name of a bus stop near Mara's home from Library Corner to Civic Center. The stop itself remains in the same place. Mara sees the new name on a digital map and assumes the bus now follows a different road.\n\nAt the stop, a notice explains that only the name has changed. The route number and travel direction are unchanged. However, the stop across the road serves the opposite direction, so choosing by the shared place name alone can still lead to the wrong bus.\n\nMara checks the route number, direction arrow, and next two stops before boarding. She tells her grandfather about the new name and marks the familiar library building on a small map. He recognizes the landmark even though the printed stop name is unfamiliar.\n\nLater, Mara updates a meeting message without saying the stop moved. She writes new name, same location and includes the direction toward the station. The short clarification preserves what people already know while pointing out exactly what they need to notice.",
+          "explanation": "精準交代有變與沒變之處，有助理解。",
+          "id": "d126-q6",
+          "options": [
+            "It removes the destination to keep the message short.",
+            "It identifies the specific change and preserves correct existing knowledge.",
+            "It says both directions are interchangeable.",
+            "It announces that every familiar detail is wrong."
+          ],
+          "prompt": "What makes Mara's updated message useful?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "A city changes the name of a bus stop near Mara's home from Library Corner to Civic Center. The stop itself remains in the same place. Mara sees the new name on a digital map and assumes the bus now follows a different road.\n\nAt the stop, a notice explains that only the name has changed. The route number and travel direction are unchanged. However, the stop across the road serves the opposite direction, so choosing by the shared place name alone can still lead to the wrong bus.\n\nMara checks the route number, direction arrow, and next two stops before boarding. She tells her grandfather about the new name and marks the familiar library building on a small map. He recognizes the landmark even though the printed stop name is unfamiliar.\n\nLater, Mara updates a meeting message without saying the stop moved. She writes new name, same location and includes the direction toward the station. The short clarification preserves what people already know while pointing out exactly what they need to notice.",
+      "title": "The Bus Stop Name Has Moved",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "The route number and travel direction are unchanged.",
+          "meaning": "方向",
+          "word": "direction"
+        },
+        {
+          "example": "The route number and travel direction are unchanged.",
+          "meaning": "未改變的",
+          "word": "unchanged"
+        },
+        {
+          "example": "However, the stop across the road serves the opposite direction, so choosing by the shared place name alone can still lead to the wrong bus.",
+          "meaning": "相反的",
+          "word": "opposite"
+        },
+        {
+          "example": "He recognizes the landmark even though the printed stop name is unfamiliar.",
+          "meaning": "地標",
+          "word": "landmark"
+        },
+        {
+          "example": "The short clarification preserves what people already know while pointing out exactly what they need to notice.",
+          "meaning": "澄清",
+          "word": "clarification"
+        }
+      ]
+    }
+  ]
+}

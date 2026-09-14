@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-12",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 133,
+      "goal": "理解單位定義並換算食譜中的容量。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在底部",
+          "phrase": "at the bottom"
+        },
+        {
+          "meaning": "而不是",
+          "phrase": "rather than"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "While making soup with his father, Evan reads an old recipe that asks for three cups of water. He reaches for a large drinking cup and begins to fill it. His father points to a note at the bottom: in this recipe, one cup means two hundred milliliters.",
+          "explanation": "食譜註明一杯200mL。",
+          "id": "d133-q1",
+          "options": [
+            "Three hundred milliliters.",
+            "Six hundred milliliters.",
+            "Two hundred and fifty milliliters.",
+            "Two hundred milliliters."
+          ],
+          "prompt": "What does one recipe cup mean?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The drinking cup holds two hundred and fifty milliliters when full. Three of those would add more water than the recipe specifies. They find a measuring jug with clear milliliter marks and decide to use the stated volume rather than count ordinary cups.",
+          "explanation": "改用有毫升刻度的量壺。",
+          "id": "d133-q2",
+          "options": [
+            "The recipe's paper corner.",
+            "A plate without markings.",
+            "Three random drinking cups.",
+            "A marked measuring jug."
+          ],
+          "prompt": "Which tool do they use for the stated volume?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Evan pours six hundred milliliters into the pot. He then checks the other ingredients, because the word cup might otherwise lead him to repeat the same mistake. The recipe's measurements depend on its defined unit, not on whichever container happens to be nearest.",
+          "explanation": "同樣單位誤認可能影響其他配料。",
+          "id": "d133-q3",
+          "options": [
+            "All ingredients must use six hundred milliliters.",
+            "They may use the same easily misunderstood cup unit.",
+            "Water is the only ingredient in every soup.",
+            "The father has removed all numbers."
+          ],
+          "prompt": "Why check the other ingredients too?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Evan pours six hundred milliliters into the pot. He then checks the other ingredients, because the word cup might otherwise lead him to repeat the same mistake. The recipe's measurements depend on its defined unit, not on whichever container happens to be nearest.",
+          "explanation": "食譜先明定cup代表多少容量。",
+          "id": "d133-q4",
+          "options": [
+            "Made larger after cooking.",
+            "Written without any unit.",
+            "Given a specific meaning or size.",
+            "Chosen randomly from nearby containers."
+          ],
+          "prompt": "What does 'defined' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "While making soup with his father, Evan reads an old recipe that asks for three cups of water. He reaches for a large drinking cup and begins to fill it. His father points to a note at the bottom: in this recipe, one cup means two hundred milliliters.\n\nThe drinking cup holds two hundred and fifty milliliters when full. Three of those would add more water than the recipe specifies. They find a measuring jug with clear milliliter marks and decide to use the stated volume rather than count ordinary cups.\n\nEvan pours six hundred milliliters into the pot. He then checks the other ingredients, because the word cup might otherwise lead him to repeat the same mistake. The recipe's measurements depend on its defined unit, not on whichever container happens to be nearest.\n\nAfter lunch, he rewrites the water line as six hundred milliliters, followed by three recipe cups in brackets. The extra explanation will help another family member follow the old instructions without needing to remember the size of a particular drinking cup.",
+          "explanation": "3×250－3×200＝150mL。",
+          "id": "d133-q5",
+          "options": [
+            "Fifty milliliters.",
+            "Two hundred milliliters.",
+            "Six hundred milliliters.",
+            "One hundred and fifty milliliters."
+          ],
+          "prompt": "How much extra water would three full drinking cups add?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "After lunch, he rewrites the water line as six hundred milliliters, followed by three recipe cups in brackets. The extra explanation will help another family member follow the old instructions without needing to remember the size of a particular drinking cup.",
+          "explanation": "直接寫標準容量可避免不同杯具誤差。",
+          "id": "d133-q6",
+          "options": [
+            "It removes the need to measure other ingredients.",
+            "It means the jug must be a drinking cup.",
+            "It changes the original recipe to need more water.",
+            "It makes the intended volume clear regardless of the reader's cup."
+          ],
+          "prompt": "Why does Evan add milliliters to the rewritten line?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "While making soup with his father, Evan reads an old recipe that asks for three cups of water. He reaches for a large drinking cup and begins to fill it. His father points to a note at the bottom: in this recipe, one cup means two hundred milliliters.\n\nThe drinking cup holds two hundred and fifty milliliters when full. Three of those would add more water than the recipe specifies. They find a measuring jug with clear milliliter marks and decide to use the stated volume rather than count ordinary cups.\n\nEvan pours six hundred milliliters into the pot. He then checks the other ingredients, because the word cup might otherwise lead him to repeat the same mistake. The recipe's measurements depend on its defined unit, not on whichever container happens to be nearest.\n\nAfter lunch, he rewrites the water line as six hundred milliliters, followed by three recipe cups in brackets. The extra explanation will help another family member follow the old instructions without needing to remember the size of a particular drinking cup.",
+      "title": "One Cup, Two Sizes",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "Three of those would add more water than the recipe specifies.",
+          "meaning": "明定",
+          "word": "specifies"
+        },
+        {
+          "example": "They find a measuring jug with clear milliliter marks and decide to use the stated volume rather than count ordinary cups.",
+          "meaning": "量壺",
+          "word": "jug"
+        },
+        {
+          "example": "They find a measuring jug with clear milliliter marks and decide to use the stated volume rather than count ordinary cups.",
+          "meaning": "容量",
+          "word": "volume"
+        },
+        {
+          "example": "The recipe's measurements depend on its defined unit, not on whichever container happens to be nearest.",
+          "meaning": "定義的",
+          "word": "defined"
+        },
+        {
+          "example": "After lunch, he rewrites the water line as six hundred milliliters, followed by three recipe cups in brackets.",
+          "meaning": "括號",
+          "word": "brackets"
+        }
+      ]
+    }
+  ]
+}

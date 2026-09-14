@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-02",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 123,
+      "goal": "以投票規則、回覆狀態與假設情境推論。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "超過一半",
+          "phrase": "more than half"
+        },
+        {
+          "meaning": "保持不變",
+          "phrase": "stayed the same"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "CLUB RULE: A new weekend activity requires support from more than half of all fifty members. Each member may submit one response. The options are support, oppose, or undecided. Members who do not reply are recorded separately rather than counted as opposing the activity.",
+          "explanation": "規則以全體五十人為分母。",
+          "id": "d123-q1",
+          "options": [
+            "Ten.",
+            "Eighteen.",
+            "Forty.",
+            "Fifty."
+          ],
+          "prompt": "How many members are in the club?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "FIRST RESULTS: Forty members respond. Eighteen support the proposal, twelve oppose it, and ten are undecided. Ten members have not replied. An early announcement says the proposal has enough support because supporters are the largest group among the three response options.",
+          "explanation": "實際第一輪支持十八人。",
+          "id": "d123-q2",
+          "options": [
+            "Eighteen.",
+            "Twenty-eight.",
+            "Twelve.",
+            "Forty."
+          ],
+          "prompt": "How many currently support the proposal?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "CLUB RULE: A new weekend activity requires support from more than half of all fifty members. Each member may submit one response. The options are support, oppose, or undecided. Members who do not reply are recorded separately rather than counted as opposing the activity.",
+          "explanation": "超過50的一半，最少26，等於25不夠。",
+          "id": "d123-q3",
+          "options": [
+            "Twenty-five.",
+            "Twenty-six.",
+            "Twenty.",
+            "Eighteen."
+          ],
+          "prompt": "What is the minimum support required by the rule?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "CLUB RULE: A new weekend activity requires support from more than half of all fifty members. Each member may submit one response. The options are support, oppose, or undecided. Members who do not reply are recorded separately rather than counted as opposing the activity.\n\nFIRST RESULTS: Forty members respond. Eighteen support the proposal, twelve oppose it, and ten are undecided. Ten members have not replied. An early announcement says the proposal has enough support because supporters are the largest group among the three response options.\n\nREVIEW MESSAGE: Being the largest response group is not the same as meeting the rule. The committee asks undecided and missing members for a final answer by Friday. Existing supporters and opponents keep their recorded choices unless they request a correction before the deadline.\n\nFor a planning exercise, students consider what would happen if all ten undecided members changed to support while everyone else's response stayed the same. They keep this hypothetical result separate from the actual tally, since the final responses have not arrived yet.",
+          "explanation": "相對最多不等於達成全體過半。",
+          "id": "d123-q4",
+          "options": [
+            "The largest response category is still below the required support count.",
+            "Opponents are actually the largest group.",
+            "Missing replies must all count as support.",
+            "The club has fewer than forty members."
+          ],
+          "prompt": "Why is the early announcement wrong?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "CLUB RULE: A new weekend activity requires support from more than half of all fifty members. Each member may submit one response. The options are support, oppose, or undecided. Members who do not reply are recorded separately rather than counted as opposing the activity.",
+          "explanation": "未回覆另列，不擅自歸為反對或已答未定。",
+          "id": "d123-q5",
+          "options": [
+            "As undecided respondents.",
+            "As opponents automatically.",
+            "As supporters automatically.",
+            "In a separate category."
+          ],
+          "prompt": "How are members who do not reply recorded?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "CLUB RULE: A new weekend activity requires support from more than half of all fifty members. Each member may submit one response. The options are support, oppose, or undecided. Members who do not reply are recorded separately rather than counted as opposing the activity.\n\nFIRST RESULTS: Forty members respond. Eighteen support the proposal, twelve oppose it, and ten are undecided. Ten members have not replied. An early announcement says the proposal has enough support because supporters are the largest group among the three response options.\n\nREVIEW MESSAGE: Being the largest response group is not the same as meeting the rule. The committee asks undecided and missing members for a final answer by Friday. Existing supporters and opponents keep their recorded choices unless they request a correction before the deadline.\n\nFor a planning exercise, students consider what would happen if all ten undecided members changed to support while everyone else's response stayed the same. They keep this hypothetical result separate from the actual tally, since the final responses have not arrived yet.",
+          "explanation": "26－18＝8。",
+          "id": "d123-q6",
+          "options": [
+            "Eight.",
+            "Seven.",
+            "Ten.",
+            "Twelve."
+          ],
+          "prompt": "How many more supporters are needed from the actual initial result?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "For a planning exercise, students consider what would happen if all ten undecided members changed to support while everyone else's response stayed the same. They keep this hypothetical result separate from the actual tally, since the final responses have not arrived yet.",
+          "explanation": "最後是假設推演，非已發生票數。",
+          "id": "d123-q7",
+          "options": [
+            "Impossible under any circumstances.",
+            "Confirmed by every member.",
+            "Recorded as the final official result.",
+            "Imagined for analysis rather than already observed."
+          ],
+          "prompt": "What does 'hypothetical' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "CLUB RULE: A new weekend activity requires support from more than half of all fifty members. Each member may submit one response. The options are support, oppose, or undecided. Members who do not reply are recorded separately rather than counted as opposing the activity.\n\nFIRST RESULTS: Forty members respond. Eighteen support the proposal, twelve oppose it, and ten are undecided. Ten members have not replied. An early announcement says the proposal has enough support because supporters are the largest group among the three response options.\n\nREVIEW MESSAGE: Being the largest response group is not the same as meeting the rule. The committee asks undecided and missing members for a final answer by Friday. Existing supporters and opponents keep their recorded choices unless they request a correction before the deadline.\n\nFor a planning exercise, students consider what would happen if all ten undecided members changed to support while everyone else's response stayed the same. They keep this hypothetical result separate from the actual tally, since the final responses have not arrived yet.",
+          "explanation": "18＋未定10＝28，超過25；其他狀況不變。",
+          "id": "d123-q8",
+          "options": [
+            "No, more than forty supporters are required.",
+            "No, support would stay eighteen.",
+            "Yes, because missing members automatically count twice.",
+            "Yes, support would rise to twenty-eight."
+          ],
+          "prompt": "In the stated planning exercise, would the proposal meet the rule?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "CLUB RULE: A new weekend activity requires support from more than half of all fifty members. Each member may submit one response. The options are support, oppose, or undecided. Members who do not reply are recorded separately rather than counted as opposing the activity.\n\nFIRST RESULTS: Forty members respond. Eighteen support the proposal, twelve oppose it, and ten are undecided. Ten members have not replied. An early announcement says the proposal has enough support because supporters are the largest group among the three response options.\n\nREVIEW MESSAGE: Being the largest response group is not the same as meeting the rule. The committee asks undecided and missing members for a final answer by Friday. Existing supporters and opponents keep their recorded choices unless they request a correction before the deadline.\n\nFor a planning exercise, students consider what would happen if all ten undecided members changed to support while everyone else's response stayed the same. They keep this hypothetical result separate from the actual tally, since the final responses have not arrived yet.",
+          "explanation": "需將實際統計與假設情境分開陳述。",
+          "id": "d123-q9",
+          "options": [
+            "All missing members oppose the activity.",
+            "The proposal has officially passed with twenty-eight votes.",
+            "Being the largest category guarantees approval.",
+            "Current support is eighteen; a hypothetical shift could change the outcome."
+          ],
+          "prompt": "Which report is accurate now?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "CLUB RULE: A new weekend activity requires support from more than half of all fifty members. Each member may submit one response. The options are support, oppose, or undecided. Members who do not reply are recorded separately rather than counted as opposing the activity.\n\nFIRST RESULTS: Forty members respond. Eighteen support the proposal, twelve oppose it, and ten are undecided. Ten members have not replied. An early announcement says the proposal has enough support because supporters are the largest group among the three response options.\n\nREVIEW MESSAGE: Being the largest response group is not the same as meeting the rule. The committee asks undecided and missing members for a final answer by Friday. Existing supporters and opponents keep their recorded choices unless they request a correction before the deadline.\n\nFor a planning exercise, students consider what would happen if all ten undecided members changed to support while everyone else's response stayed the same. They keep this hypothetical result separate from the actual tally, since the final responses have not arrived yet.",
+      "title": "Boss: What the Club Vote Shows",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "Eighteen support the proposal, twelve oppose it, and ten are undecided.",
+          "meaning": "提案",
+          "word": "proposal"
+        },
+        {
+          "example": "The options are support, oppose, or undecided.",
+          "meaning": "未決定的",
+          "word": "undecided"
+        },
+        {
+          "example": "The options are support, oppose, or undecided.",
+          "meaning": "反對",
+          "word": "oppose"
+        },
+        {
+          "example": "They keep this hypothetical result separate from the actual tally, since the final responses have not arrived yet.",
+          "meaning": "票數統計",
+          "word": "tally"
+        },
+        {
+          "example": "They keep this hypothetical result separate from the actual tally, since the final responses have not arrived yet.",
+          "meaning": "假設的",
+          "word": "hypothetical"
+        }
+      ]
+    }
+  ]
+}

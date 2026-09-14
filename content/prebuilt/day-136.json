@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-15",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 136,
+      "goal": "依佇列規則、截止與確認資訊安排工作。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "依收到順序",
+          "phrase": "in the order received"
+        },
+        {
+          "meaning": "單憑它自己",
+          "phrase": "by itself"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "SHARED PRINTER NOTICE: The library printer handles ordinary student jobs in the order received. A job enters the queue only after the desk has checked the file and confirmed the page count. Uploading a file by itself does not reserve a place.",
+          "explanation": "審檔並確認頁数後才入列。",
+          "id": "d136-q1",
+          "options": [
+            "After the file check and page-count confirmation.",
+            "Only after the printer closes.",
+            "As soon as a file upload begins.",
+            "When the student writes urgent."
+          ],
+          "prompt": "When does a student job enter the queue?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Urgent school notices may be inserted ahead of ordinary jobs by library staff. Students cannot mark a personal project urgent to move it forward. If an urgent notice delays a confirmed job by more than thirty minutes, the desk will send a revised pickup estimate.",
+          "explanation": "只有館員可依學校緊急通知調整。",
+          "id": "d136-q2",
+          "options": [
+            "Any student with a personal deadline.",
+            "Only the last person in line.",
+            "Every visitor with a phone.",
+            "Library staff."
+          ],
+          "prompt": "Who may insert an urgent school notice ahead?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The printer accepts jobs of up to thirty printed sides. Longer documents must be divided into separate files and may not finish together. Check that page numbers continue correctly across the files. The desk does not add missing pages from a second version automatically.",
+          "explanation": "超三十面分檔，各項不保證同時完成。",
+          "id": "d136-q3",
+          "options": [
+            "The printer accepts unlimited sides in one job.",
+            "Every long document is rejected forever.",
+            "They must be submitted as separate jobs.",
+            "Page numbers always restart automatically."
+          ],
+          "prompt": "Why might parts of a long document finish at different times?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Urgent school notices may be inserted ahead of ordinary jobs by library staff. Students cannot mark a personal project urgent to move it forward. If an urgent notice delays a confirmed job by more than thirty minutes, the desk will send a revised pickup estimate.",
+          "explanation": "預估時間可被更新，不等於完成通知。",
+          "id": "d136-q4",
+          "options": [
+            "A guarantee that a job is already ready.",
+            "An expected time that can be revised.",
+            "A permanent place at the front.",
+            "A receipt for collected pages."
+          ],
+          "prompt": "What is a pickup 'estimate'?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "At four, the desk stops accepting new jobs, but already confirmed work continues until four thirty. A job still unfinished then is held for the next school day. Please collect only after receiving a ready message, even if an earlier estimate has passed.",
+          "explanation": "公告明說依ready訊息領取，不只看舊估時。",
+          "id": "d136-q5",
+          "options": [
+            "Assume the pages can already be collected.",
+            "Mark the file urgent repeatedly.",
+            "Wait for the ready message or check with the desk.",
+            "Take any similar document from the printer."
+          ],
+          "prompt": "What should a student do after an old estimate passes but no ready message arrives?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "SHARED PRINTER NOTICE: The library printer handles ordinary student jobs in the order received. A job enters the queue only after the desk has checked the file and confirmed the page count. Uploading a file by itself does not reserve a place.\n\nUrgent school notices may be inserted ahead of ordinary jobs by library staff. Students cannot mark a personal project urgent to move it forward. If an urgent notice delays a confirmed job by more than thirty minutes, the desk will send a revised pickup estimate.\n\nThe printer accepts jobs of up to thirty printed sides. Longer documents must be divided into separate files and may not finish together. Check that page numbers continue correctly across the files. The desk does not add missing pages from a second version automatically.\n\nAt four, the desk stops accepting new jobs, but already confirmed work continues until four thirty. A job still unfinished then is held for the next school day. Please collect only after receiving a ready message, even if an earlier estimate has passed.",
+          "explanation": "各程序階段不同，不可把前一步當後一步完成。",
+          "id": "d136-q6",
+          "options": [
+            "Four o'clock means all confirmed jobs are complete.",
+            "An urgent label gives students control of the queue.",
+            "Submitted, confirmed, estimated, and ready are different stages.",
+            "Every upload is immediately printed."
+          ],
+          "prompt": "What distinction runs through the notice?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "SHARED PRINTER NOTICE: The library printer handles ordinary student jobs in the order received. A job enters the queue only after the desk has checked the file and confirmed the page count. Uploading a file by itself does not reserve a place.\n\nUrgent school notices may be inserted ahead of ordinary jobs by library staff. Students cannot mark a personal project urgent to move it forward. If an urgent notice delays a confirmed job by more than thirty minutes, the desk will send a revised pickup estimate.\n\nThe printer accepts jobs of up to thirty printed sides. Longer documents must be divided into separate files and may not finish together. Check that page numbers continue correctly across the files. The desk does not add missing pages from a second version automatically.\n\nAt four, the desk stops accepting new jobs, but already confirmed work continues until four thirty. A job still unfinished then is held for the next school day. Please collect only after receiving a ready message, even if an earlier estimate has passed.",
+      "title": "The Shared Printer Queue",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "A job enters the queue only after the desk has checked the file and confirmed the page count.",
+          "meaning": "等候序列",
+          "word": "queue"
+        },
+        {
+          "example": "Urgent school notices may be inserted ahead of ordinary jobs by library staff.",
+          "meaning": "緊急的",
+          "word": "urgent"
+        },
+        {
+          "example": "Urgent school notices may be inserted ahead of ordinary jobs by library staff.",
+          "meaning": "插入",
+          "word": "inserted"
+        },
+        {
+          "example": "If an urgent notice delays a confirmed job by more than thirty minutes, the desk will send a revised pickup estimate.",
+          "meaning": "預估",
+          "word": "estimate"
+        },
+        {
+          "example": "A job enters the queue only after the desk has checked the file and confirmed the page count.",
+          "meaning": "確認的",
+          "word": "confirmed"
+        }
+      ]
+    }
+  ]
+}

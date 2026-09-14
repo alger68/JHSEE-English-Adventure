@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-17",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 138,
+      "goal": "用語境分辨順序、狀態、臨時安排與影響因素。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "尚未",
+          "phrase": "not yet"
+        },
+        {
+          "meaning": "從未陳述",
+          "phrase": "never states"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "A measuring jug showing how much water is needed points to volume. A path used only during bridge repairs is temporary. A possible influence on an ice cube's melting time is a factor. The students explain why an influence is different from the observed result itself.",
+          "explanation": "量壺測水量對應容量。",
+          "id": "d138-q1",
+          "options": [
+            "Water measured in a jug.",
+            "A line of print jobs.",
+            "A temporary bridge route.",
+            "A file accepted for processing."
+          ],
+          "prompt": "Which situation points to volume?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A line of checked print jobs is a queue. A job whose file and page count have been accepted is confirmed, although it may not yet be finished. One student almost writes ready, then notices that the sentence says nothing about completed printing.",
+          "explanation": "確認受理不等於已印好。",
+          "id": "d138-q2",
+          "options": [
+            "Every queue contains only collected work.",
+            "A job can be accepted without being finished.",
+            "Confirmed means canceled.",
+            "Printing always finishes before file checking."
+          ],
+          "prompt": "Why is confirmed not always ready?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "For the final check, pairs invent a new sentence that separates confirmed from ready. They read each other's versions and look for evidence of the stage reached. This practice helps prevent a familiar word from quietly adding a fact that the text never states.",
+          "explanation": "用線索驗證可避免自行補上未說資訊。",
+          "id": "d138-q3",
+          "options": [
+            "To prevent students from adding unstated facts.",
+            "To replace reading with guessing.",
+            "To avoid explaining any stage.",
+            "To make every situation contain the same number."
+          ],
+          "prompt": "Why does the teacher ask for clues rather than just answers?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A measuring jug showing how much water is needed points to volume. A path used only during bridge repairs is temporary. A possible influence on an ice cube's melting time is a factor. The students explain why an influence is different from the observed result itself.",
+          "explanation": "因素可能影響結果，並非結果本身。",
+          "id": "d138-q4",
+          "options": [
+            "The exact result after the ice melts.",
+            "Something that may influence melting time.",
+            "A printed ticket for the experiment.",
+            "The amount of paper in a queue."
+          ],
+          "prompt": "What does 'factor' mean in the ice example?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The review class works with five words: volume, temporary, factor, queue, and confirmed. A teacher gives them five mini-situations and asks for the clue that makes each choice necessary. Several situations include numbers, but numbers alone do not determine the word.\n\nA measuring jug showing how much water is needed points to volume. A path used only during bridge repairs is temporary. A possible influence on an ice cube's melting time is a factor. The students explain why an influence is different from the observed result itself.\n\nA line of checked print jobs is a queue. A job whose file and page count have been accepted is confirmed, although it may not yet be finished. One student almost writes ready, then notices that the sentence says nothing about completed printing.\n\nFor the final check, pairs invent a new sentence that separates confirmed from ready. They read each other's versions and look for evidence of the stage reached. This practice helps prevent a familiar word from quietly adding a fact that the text never states.",
+          "explanation": "受理與尚未完成可同時成立。",
+          "id": "d138-q5",
+          "options": [
+            "The file is confirmed, so it is certainly in my hand.",
+            "Every estimate means the pages are complete.",
+            "The file is accepted, but printing has not finished.",
+            "The job is ready because upload began."
+          ],
+          "prompt": "Which sentence separates the stages clearly?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "The review class works with five words: volume, temporary, factor, queue, and confirmed. A teacher gives them five mini-situations and asks for the clue that makes each choice necessary. Several situations include numbers, but numbers alone do not determine the word.\n\nA measuring jug showing how much water is needed points to volume. A path used only during bridge repairs is temporary. A possible influence on an ice cube's melting time is a factor. The students explain why an influence is different from the observed result itself.\n\nA line of checked print jobs is a queue. A job whose file and page count have been accepted is confirmed, although it may not yet be finished. One student almost writes ready, then notices that the sentence says nothing about completed printing.\n\nFor the final check, pairs invent a new sentence that separates confirmed from ready. They read each other's versions and look for evidence of the stage reached. This practice helps prevent a familiar word from quietly adding a fact that the text never states.",
+          "explanation": "關鍵在階段與條件證據，不是字詞聯想。",
+          "id": "d138-q6",
+          "options": [
+            "Match a word to the evidence for the actual stage or condition.",
+            "Choose ready whenever a printer is mentioned.",
+            "Infer completion whenever a positive word appears.",
+            "Treat all numbered information as volume."
+          ],
+          "prompt": "What reading habit is being strengthened?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The review class works with five words: volume, temporary, factor, queue, and confirmed. A teacher gives them five mini-situations and asks for the clue that makes each choice necessary. Several situations include numbers, but numbers alone do not determine the word.\n\nA measuring jug showing how much water is needed points to volume. A path used only during bridge repairs is temporary. A possible influence on an ice cube's melting time is a factor. The students explain why an influence is different from the observed result itself.\n\nA line of checked print jobs is a queue. A job whose file and page count have been accepted is confirmed, although it may not yet be finished. One student almost writes ready, then notices that the sentence says nothing about completed printing.\n\nFor the final check, pairs invent a new sentence that separates confirmed from ready. They read each other's versions and look for evidence of the stage reached. This practice helps prevent a familiar word from quietly adding a fact that the text never states.",
+      "title": "The Queue Card Review",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "The review class works with five words: volume, temporary, factor, queue, and confirmed.",
+          "meaning": "容量",
+          "word": "volume"
+        },
+        {
+          "example": "The review class works with five words: volume, temporary, factor, queue, and confirmed.",
+          "meaning": "暫時的",
+          "word": "temporary"
+        },
+        {
+          "example": "The review class works with five words: volume, temporary, factor, queue, and confirmed.",
+          "meaning": "因素",
+          "word": "factor"
+        },
+        {
+          "example": "The review class works with five words: volume, temporary, factor, queue, and confirmed.",
+          "meaning": "佇列",
+          "word": "queue"
+        },
+        {
+          "example": "The review class works with five words: volume, temporary, factor, queue, and confirmed.",
+          "meaning": "已確認的",
+          "word": "confirmed"
+        }
+      ]
+    }
+  ]
+}

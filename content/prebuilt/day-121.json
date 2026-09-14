@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-31",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 121,
+      "goal": "辨認測量對象與感測器環境。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "陽光直射",
+          "phrase": "direct sunlight"
+        },
+        {
+          "meaning": "同時",
+          "phrase": "at once"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "In a classroom scenario, two groups try to compare the air around the same school bench. One places a thermometer in direct sunlight on the wooden seat. The other hangs an identical thermometer under a nearby cover, away from contact with the bench.",
+          "explanation": "第一組放陽光直射的木椅上。",
+          "id": "d121-q1",
+          "options": [
+            "In a bowl of water.",
+            "Under a cover without bench contact.",
+            "Inside the classroom cupboard.",
+            "On the sunlit wooden seat."
+          ],
+          "prompt": "Where is the first thermometer placed?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "In a classroom scenario, two groups try to compare the air around the same school bench. One places a thermometer in direct sunlight on the wooden seat. The other hangs an identical thermometer under a nearby cover, away from contact with the bench.",
+          "explanation": "目的是比較同一長椅周圍空氣。",
+          "id": "d121-q2",
+          "options": [
+            "The price of two instruments.",
+            "The number of students sitting.",
+            "The air around the bench.",
+            "The length of the cover."
+          ],
+          "prompt": "What is the intended target of the comparison?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "In a classroom scenario, two groups try to compare the air around the same school bench. One places a thermometer in direct sunlight on the wooden seat. The other hangs an identical thermometer under a nearby cover, away from contact with the bench.\n\nAfter ten minutes, the readings differ. The first group says the air beside its thermometer must be much warmer. The teacher asks what else differs between the setups. Sunlight can affect the instrument, and contact with the seat adds another condition.\n\nThe class does not discard either reading. It labels exactly where and how each was taken. If the goal is a more consistent air comparison, the groups need matching placement and protection from direct sunlight, rather than changing several things at once.\n\nTheir revised notes separate the target question from the procedure. A number displayed on a tool is not automatically an answer to every question about the surroundings. Students must understand what the setup allows that number to represent.",
+          "explanation": "裝置日照與接觸面不同，可能影響讀值。",
+          "id": "d121-q3",
+          "options": [
+            "Both instruments have no display.",
+            "Sun exposure and bench contact differ between setups.",
+            "Air never changes temperature.",
+            "The groups measured at exactly the same place in the same way."
+          ],
+          "prompt": "Why might the readings not support the first group's simple claim?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Their revised notes separate the target question from the procedure. A number displayed on a tool is not automatically an answer to every question about the surroundings. Students must understand what the setup allows that number to represent.",
+          "explanation": "理解數值在此配置下能代表什麼。",
+          "id": "d121-q4",
+          "options": [
+            "Cost the same amount.",
+            "Replace the whole school bench.",
+            "Display every possible answer.",
+            "Stand for or describe meaningfully."
+          ],
+          "prompt": "What does 'represent' mean in the last sentence?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The class does not discard either reading. It labels exactly where and how each was taken. If the goal is a more consistent air comparison, the groups need matching placement and protection from direct sunlight, rather than changing several things at once.",
+          "explanation": "同樣配置減少不相關條件差異。",
+          "id": "d121-q5",
+          "options": [
+            "Match instrument placement and shield both from direct sun.",
+            "Change position, time, and contact separately for each group.",
+            "Put one instrument on a hot seat and the other far indoors.",
+            "Keep only the higher reading without setup notes."
+          ],
+          "prompt": "Which step helps a more consistent comparison?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "In a classroom scenario, two groups try to compare the air around the same school bench. One places a thermometer in direct sunlight on the wooden seat. The other hangs an identical thermometer under a nearby cover, away from contact with the bench.\n\nAfter ten minutes, the readings differ. The first group says the air beside its thermometer must be much warmer. The teacher asks what else differs between the setups. Sunlight can affect the instrument, and contact with the seat adds another condition.\n\nThe class does not discard either reading. It labels exactly where and how each was taken. If the goal is a more consistent air comparison, the groups need matching placement and protection from direct sunlight, rather than changing several things at once.\n\nTheir revised notes separate the target question from the procedure. A number displayed on a tool is not automatically an answer to every question about the surroundings. Students must understand what the setup allows that number to represent.",
+          "explanation": "測量數字需配合測法與欲回答問題。",
+          "id": "d121-q6",
+          "options": [
+            "Instrument labels are more useful than methods.",
+            "Interpret measurements together with their setup and purpose.",
+            "A different reading should always be erased.",
+            "Any displayed number proves every claim about the area."
+          ],
+          "prompt": "What is the passage's key idea?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a classroom scenario, two groups try to compare the air around the same school bench. One places a thermometer in direct sunlight on the wooden seat. The other hangs an identical thermometer under a nearby cover, away from contact with the bench.\n\nAfter ten minutes, the readings differ. The first group says the air beside its thermometer must be much warmer. The teacher asks what else differs between the setups. Sunlight can affect the instrument, and contact with the seat adds another condition.\n\nThe class does not discard either reading. It labels exactly where and how each was taken. If the goal is a more consistent air comparison, the groups need matching placement and protection from direct sunlight, rather than changing several things at once.\n\nTheir revised notes separate the target question from the procedure. A number displayed on a tool is not automatically an answer to every question about the surroundings. Students must understand what the setup allows that number to represent.",
+      "title": "Air, Sunlight, and the Reading",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "One places a thermometer in direct sunlight on the wooden seat.",
+          "meaning": "溫度計",
+          "word": "thermometer"
+        },
+        {
+          "example": "The other hangs an identical thermometer under a nearby cover, away from contact with the bench.",
+          "meaning": "相同的",
+          "word": "identical"
+        },
+        {
+          "example": "The other hangs an identical thermometer under a nearby cover, away from contact with the bench.",
+          "meaning": "接觸",
+          "word": "contact"
+        },
+        {
+          "example": "If the goal is a more consistent air comparison, the groups need matching placement and protection from direct sunlight, rather than changing several things at once.",
+          "meaning": "一致的",
+          "word": "consistent"
+        },
+        {
+          "example": "Students must understand what the setup allows that number to represent.",
+          "meaning": "代表",
+          "word": "represent"
+        }
+      ]
+    }
+  ]
+}

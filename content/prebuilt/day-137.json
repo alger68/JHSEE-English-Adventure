@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-16",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 137,
+      "goal": "以新版優先和不變事項整合兩份通知。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "仍有效",
+          "phrase": "remain valid"
+        },
+        {
+          "meaning": "保持不變",
+          "phrase": "stay the same"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "NEW NOTICE: The fair moves to the covered hall because the courtyard entrance is being repaired. The event date and opening hours stay the same. Stall names are now due Tuesday noon. Food closes at three thirty, and all equipment must be packed by four.",
+          "explanation": "新版把地點改到禮堂。",
+          "id": "d137-q1",
+          "options": [
+            "The covered hall.",
+            "The courtyard.",
+            "The library basement.",
+            "The west parking area."
+          ],
+          "prompt": "Which location is current?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "OLD POSTER: Friday's club fair is in the courtyard from one to four. Stall names are due Wednesday noon. Each club gets two tables. Food can be sold until four, and clubs may bring a small powered display if the organizer has approved it.\n\nNEW NOTICE: The fair moves to the covered hall because the courtyard entrance is being repaired. The event date and opening hours stay the same. Stall names are now due Tuesday noon. Food closes at three thirty, and all equipment must be packed by four.\n\nORGANIZER MESSAGE: The new notice replaces conflicting details on the poster. Existing approvals for powered displays remain valid, but clubs must request an east-wall outlet before Tuesday noon. Table allocation is unchanged. Only the organizer may move a club's assigned position.\n\nA club that already has display approval reads both texts. Its leader submits the stall name and outlet request before the new deadline. The group plans thirty minutes for cleanup after food sales end and checks its assigned hall position rather than assuming the old courtyard layout still applies.",
+          "explanation": "新通知說日期與開放時間不變。",
+          "id": "d137-q2",
+          "options": [
+            "Three thirty on Friday.",
+            "Tuesday noon.",
+            "Wednesday noon.",
+            "One o'clock on Friday."
+          ],
+          "prompt": "What remains the event's opening time?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "ORGANIZER MESSAGE: The new notice replaces conflicting details on the poster. Existing approvals for powered displays remain valid, but clubs must request an east-wall outlet before Tuesday noon. Table allocation is unchanged. Only the organizer may move a club's assigned position.",
+          "explanation": "組織者明說新版取代衝突內容。",
+          "id": "d137-q3",
+          "options": [
+            "Combine both deadlines by averaging them.",
+            "Let every club choose its preferred version.",
+            "Use the new notice for the changed detail.",
+            "Always use the longer old poster."
+          ],
+          "prompt": "What should happen when the two notices conflict?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "ORGANIZER MESSAGE: The new notice replaces conflicting details on the poster. Existing approvals for powered displays remain valid, but clubs must request an east-wall outlet before Tuesday noon. Table allocation is unchanged. Only the organizer may move a club's assigned position.",
+          "explanation": "舊核准有效，但還需依新場所申請東牆插座。",
+          "id": "d137-q4",
+          "options": [
+            "Two tables automatically supply power.",
+            "An east-wall outlet must also be requested.",
+            "All approvals have been canceled.",
+            "Powered displays are now forbidden."
+          ],
+          "prompt": "Why is display approval alone insufficient to secure power?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "ORGANIZER MESSAGE: The new notice replaces conflicting details on the poster. Existing approvals for powered displays remain valid, but clubs must request an east-wall outlet before Tuesday noon. Table allocation is unchanged. Only the organizer may move a club's assigned position.",
+          "explanation": "只有組織者可調整分配位置。",
+          "id": "d137-q5",
+          "options": [
+            "The food seller next door.",
+            "The organizer.",
+            "Any club member.",
+            "The first visitor."
+          ],
+          "prompt": "Who may change an assigned club position?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "NEW NOTICE: The fair moves to the covered hall because the courtyard entrance is being repaired. The event date and opening hours stay the same. Stall names are now due Tuesday noon. Food closes at three thirty, and all equipment must be packed by four.",
+          "explanation": "3:30 到4:00為三十分鐘。",
+          "id": "d137-q6",
+          "options": [
+            "Thirty minutes.",
+            "Fifty minutes.",
+            "Ten minutes.",
+            "One hour."
+          ],
+          "prompt": "How much time separates the new food cutoff and final packing deadline?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "ORGANIZER MESSAGE: The new notice replaces conflicting details on the poster. Existing approvals for powered displays remain valid, but clubs must request an east-wall outlet before Tuesday noon. Table allocation is unchanged. Only the organizer may move a club's assigned position.",
+          "explanation": "table allocation 指各社桌位分配。",
+          "id": "d137-q7",
+          "options": [
+            "The distribution of tables to clubs.",
+            "The repair method at the entrance.",
+            "The opening music.",
+            "The noise of powered displays."
+          ],
+          "prompt": "What does 'allocation' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "OLD POSTER: Friday's club fair is in the courtyard from one to four. Stall names are due Wednesday noon. Each club gets two tables. Food can be sold until four, and clubs may bring a small powered display if the organizer has approved it.\n\nNEW NOTICE: The fair moves to the covered hall because the courtyard entrance is being repaired. The event date and opening hours stay the same. Stall names are now due Tuesday noon. Food closes at three thirty, and all equipment must be packed by four.\n\nORGANIZER MESSAGE: The new notice replaces conflicting details on the poster. Existing approvals for powered displays remain valid, but clubs must request an east-wall outlet before Tuesday noon. Table allocation is unchanged. Only the organizer may move a club's assigned position.\n\nA club that already has display approval reads both texts. Its leader submits the stall name and outlet request before the new deadline. The group plans thirty minutes for cleanup after food sales end and checks its assigned hall position rather than assuming the old courtyard layout still applies.",
+          "explanation": "保留核准與兩桌配置，但須遵新申請期限與場位。",
+          "id": "d137-q8",
+          "options": [
+            "It can choose any hall position independently.",
+            "It needs no outlet request because the old poster mentioned electricity.",
+            "It keeps its approval, gets two tables, and must request an outlet by Tuesday noon.",
+            "It may sell food until four because approval came first."
+          ],
+          "prompt": "Which statement about the approved club is correct?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "OLD POSTER: Friday's club fair is in the courtyard from one to four. Stall names are due Wednesday noon. Each club gets two tables. Food can be sold until four, and clubs may bring a small powered display if the organizer has approved it.\n\nNEW NOTICE: The fair moves to the covered hall because the courtyard entrance is being repaired. The event date and opening hours stay the same. Stall names are now due Tuesday noon. Food closes at three thirty, and all equipment must be packed by four.\n\nORGANIZER MESSAGE: The new notice replaces conflicting details on the poster. Existing approvals for powered displays remain valid, but clubs must request an east-wall outlet before Tuesday noon. Table allocation is unchanged. Only the organizer may move a club's assigned position.\n\nA club that already has display approval reads both texts. Its leader submits the stall name and outlet request before the new deadline. The group plans thirty minutes for cleanup after food sales end and checks its assigned hall position rather than assuming the old courtyard layout still applies.",
+          "explanation": "正確分清已變更與仍有效的部分。",
+          "id": "d137-q9",
+          "options": [
+            "Replaces the organizer's schedule with its own.",
+            "Tracks both changed requirements and continuing permissions.",
+            "Assumes nothing changes except the poster color.",
+            "Assumes every old detail is canceled."
+          ],
+          "prompt": "What does the club do effectively?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "OLD POSTER: Friday's club fair is in the courtyard from one to four. Stall names are due Wednesday noon. Each club gets two tables. Food can be sold until four, and clubs may bring a small powered display if the organizer has approved it.\n\nNEW NOTICE: The fair moves to the covered hall because the courtyard entrance is being repaired. The event date and opening hours stay the same. Stall names are now due Tuesday noon. Food closes at three thirty, and all equipment must be packed by four.\n\nORGANIZER MESSAGE: The new notice replaces conflicting details on the poster. Existing approvals for powered displays remain valid, but clubs must request an east-wall outlet before Tuesday noon. Table allocation is unchanged. Only the organizer may move a club's assigned position.\n\nA club that already has display approval reads both texts. Its leader submits the stall name and outlet request before the new deadline. The group plans thirty minutes for cleanup after food sales end and checks its assigned hall position rather than assuming the old courtyard layout still applies.",
+      "title": "Boss: The Fair Notice Conflict",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "ORGANIZER MESSAGE: The new notice replaces conflicting details on the poster.",
+          "meaning": "互相衝突的",
+          "word": "conflicting"
+        },
+        {
+          "example": "Existing approvals for powered displays remain valid, but clubs must request an east-wall outlet before Tuesday noon.",
+          "meaning": "核准",
+          "word": "approvals"
+        },
+        {
+          "example": "Table allocation is unchanged.",
+          "meaning": "分配",
+          "word": "allocation"
+        },
+        {
+          "example": "Only the organizer may move a club's assigned position.",
+          "meaning": "指定的",
+          "word": "assigned"
+        },
+        {
+          "example": "The group plans thirty minutes for cleanup after food sales end and checks its assigned hall position rather than assuming the old courtyard layout still applies.",
+          "meaning": "配置",
+          "word": "layout"
+        }
+      ]
+    }
+  ]
+}

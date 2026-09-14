@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-14",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 135,
+      "goal": "辨認多項條件同時改變造成的歸因問題。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "以及",
+          "phrase": "as well as"
+        },
+        {
+          "meaning": "維持另一條件一致",
+          "phrase": "keeping the other consistent"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "In a classroom scenario, a team compares two equal ice cubes. One sits on a metal tray near a sunny window, while the other sits on a wooden board in a shaded corner. The team measures the time until each cube has completely melted.",
+          "explanation": "金屬／木面及日照／陰影都不同。",
+          "id": "d135-q1",
+          "options": [
+            "Surface and location.",
+            "Cube color and notebook size.",
+            "Ice size and start day.",
+            "Both cubes' labels only."
+          ],
+          "prompt": "Which two features differ in the first trial?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The cube by the window melts first. Kai says this proves the metal tray is the only reason. His partner points out that the location changed as well as the surface. The team cannot tell from this comparison how much each difference contributed.",
+          "explanation": "第二段陳述靠窗冰塊先融。",
+          "id": "d135-q2",
+          "options": [
+            "Neither cube melts.",
+            "The one near the window.",
+            "The one in the shaded corner.",
+            "Both at exactly the same time."
+          ],
+          "prompt": "Which cube melts first in the described trial?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The cube by the window melts first. Kai says this proves the metal tray is the only reason. His partner points out that the location changed as well as the surface. The team cannot tell from this comparison how much each difference contributed.",
+          "explanation": "無法把多變因結果唯一歸於材料。",
+          "id": "d135-q3",
+          "options": [
+            "The comparison changes more than one possible cause.",
+            "The ice cubes started at different schools.",
+            "The result was never observed.",
+            "Metal and wood are the same surface."
+          ],
+          "prompt": "Why is Kai's only-reason claim too confident?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "They propose four setups: metal in sunlight, metal in shade, wood in sunlight, and wood in shade. Equal ice cubes would start together, and the team would record all four results. This would help them compare one factor while keeping the other consistent.",
+          "explanation": "可能影響結果的條件稱因素。",
+          "id": "d135-q4",
+          "options": [
+            "A condition that may affect a result.",
+            "The final water volume only.",
+            "A person selling ice.",
+            "A label on the notebook."
+          ],
+          "prompt": "What does 'factor' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "They propose four setups: metal in sunlight, metal in shade, wood in sunlight, and wood in shade. Equal ice cubes would start together, and the team would record all four results. This would help them compare one factor while keeping the other consistent.",
+          "explanation": "同為金屬，只改日照位置。",
+          "id": "d135-q5",
+          "options": [
+            "Metal in sunlight and metal in shade.",
+            "Wood in shade and metal in sunlight.",
+            "Metal in sunlight and wood in shade.",
+            "One large cube and one small cube on different boards."
+          ],
+          "prompt": "Which pair isolates location while keeping the surface fixed?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "The first trial remains in the notebook as an observation with limits. The students explain why the new design answers a clearer question. A result can be real even when the explanation first attached to it is too confident.",
+          "explanation": "觀察真實與因果解釋充分是不同判準。",
+          "id": "d135-q6",
+          "options": [
+            "One trial proves all causes simultaneously.",
+            "Every uncertain explanation makes the observed result false.",
+            "A better design requires erasing the original data.",
+            "A true result does not automatically make its first explanation correct."
+          ],
+          "prompt": "What relationship between observation and explanation is highlighted?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a classroom scenario, a team compares two equal ice cubes. One sits on a metal tray near a sunny window, while the other sits on a wooden board in a shaded corner. The team measures the time until each cube has completely melted.\n\nThe cube by the window melts first. Kai says this proves the metal tray is the only reason. His partner points out that the location changed as well as the surface. The team cannot tell from this comparison how much each difference contributed.\n\nThey propose four setups: metal in sunlight, metal in shade, wood in sunlight, and wood in shade. Equal ice cubes would start together, and the team would record all four results. This would help them compare one factor while keeping the other consistent.\n\nThe first trial remains in the notebook as an observation with limits. The students explain why the new design answers a clearer question. A result can be real even when the explanation first attached to it is too confident.",
+      "title": "A Faster Melt with Two Changes",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "In a classroom scenario, a team compares two equal ice cubes.",
+          "meaning": "相等的",
+          "word": "equal"
+        },
+        {
+          "example": "The team measures the time until each cube has completely melted.",
+          "meaning": "融化了",
+          "word": "melted"
+        },
+        {
+          "example": "The team cannot tell from this comparison how much each difference contributed.",
+          "meaning": "造成影響",
+          "word": "contributed"
+        },
+        {
+          "example": "This would help them compare one factor while keeping the other consistent.",
+          "meaning": "因素",
+          "word": "factor"
+        },
+        {
+          "example": "A result can be real even when the explanation first attached to it is too confident.",
+          "meaning": "有把握的",
+          "word": "confident"
+        }
+      ]
+    }
+  ]
+}

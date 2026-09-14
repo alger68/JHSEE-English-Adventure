@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-04",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 125,
+      "goal": "核對優惠有效期及最低消費條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "至少",
+          "phrase": "at least"
+        },
+        {
+          "meaning": "在優惠期間內",
+          "phrase": "inside the coupon period"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "At a school book fair, the visiting bookshop gives Hugo a coupon for twenty dollars off a future purchase of at least two hundred dollars. The coupon starts tomorrow and expires at the end of the month. It cannot be used with another coupon, and it gives no cash change.",
+          "explanation": "券上寫明明日開始。",
+          "id": "d125-q1",
+          "options": [
+            "Immediately upon receipt.",
+            "Tomorrow.",
+            "After any notebook purchase.",
+            "Only next year."
+          ],
+          "prompt": "When does the coupon first become valid?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "At a school book fair, the visiting bookshop gives Hugo a coupon for twenty dollars off a future purchase of at least two hundred dollars. The coupon starts tomorrow and expires at the end of the month. It cannot be used with another coupon, and it gives no cash change.",
+          "explanation": "消費至少200方可折20。",
+          "id": "d125-q2",
+          "options": [
+            "Two hundred dollars.",
+            "Twenty dollars.",
+            "One hundred and eighty dollars.",
+            "Thirty dollars."
+          ],
+          "prompt": "What is the minimum qualifying purchase?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "At a school book fair, the visiting bookshop gives Hugo a coupon for twenty dollars off a future purchase of at least two hundred dollars. The coupon starts tomorrow and expires at the end of the month. It cannot be used with another coupon, and it gives no cash change.\n\nHugo's current books cost one hundred and eighty dollars. He considers adding a thirty-dollar notebook to reach the minimum and use the coupon now. The cashier points to the starting date. Buying an extra item today would not make the coupon valid earlier.\n\nHugo pays for the books he needs and keeps the coupon separately. The next week, he plans to buy a dictionary priced at two hundred and twenty dollars. Before relying on the discount, he checks that the date falls inside the coupon period and that the dictionary is eligible.\n\nHe spends two hundred dollars on the dictionary after the discount. The extra notebook was never needed. Hugo learns that a threshold and a valid date are separate conditions; meeting one does not automatically satisfy the other.",
+          "explanation": "180＋30雖達門檻，仍不滿足有效日期。",
+          "id": "d125-q3",
+          "options": [
+            "The coupon has not started yet.",
+            "Every future purchase is excluded.",
+            "The combined amount would remain below two hundred.",
+            "Notebooks cost nothing."
+          ],
+          "prompt": "Why won't adding the notebook help today?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Hugo pays for the books he needs and keeps the coupon separately. The next week, he plans to buy a dictionary priced at two hundred and twenty dollars. Before relying on the discount, he checks that the date falls inside the coupon period and that the dictionary is eligible.",
+          "explanation": "字典是否適用此優惠，須符合規定。",
+          "id": "d125-q4",
+          "options": [
+            "Printed in another language.",
+            "More expensive than all other books.",
+            "Meeting the rules for the offer.",
+            "Already paid for without any check."
+          ],
+          "prompt": "What does 'eligible' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "He spends two hundred dollars on the dictionary after the discount. The extra notebook was never needed. Hugo learns that a threshold and a valid date are separate conditions; meeting one does not automatically satisfy the other.",
+          "explanation": "220－20＝200。",
+          "id": "d125-q5",
+          "options": [
+            "One hundred and eighty dollars.",
+            "Two hundred and twenty dollars.",
+            "Forty dollars.",
+            "Two hundred dollars."
+          ],
+          "prompt": "How much is the eligible 220-dollar dictionary after the coupon?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "At a school book fair, the visiting bookshop gives Hugo a coupon for twenty dollars off a future purchase of at least two hundred dollars. The coupon starts tomorrow and expires at the end of the month. It cannot be used with another coupon, and it gives no cash change.\n\nHugo's current books cost one hundred and eighty dollars. He considers adding a thirty-dollar notebook to reach the minimum and use the coupon now. The cashier points to the starting date. Buying an extra item today would not make the coupon valid earlier.\n\nHugo pays for the books he needs and keeps the coupon separately. The next week, he plans to buy a dictionary priced at two hundred and twenty dollars. Before relying on the discount, he checks that the date falls inside the coupon period and that the dictionary is eligible.\n\nHe spends two hundred dollars on the dictionary after the discount. The extra notebook was never needed. Hugo learns that a threshold and a valid date are separate conditions; meeting one does not automatically satisfy the other.",
+          "explanation": "最低消費與日期需各自符合。",
+          "id": "d125-q6",
+          "options": [
+            "Buying anything extra activates every coupon immediately.",
+            "A spending threshold and a valid date both need to be met.",
+            "One satisfied condition guarantees every other one.",
+            "A low price removes all date limits."
+          ],
+          "prompt": "What does Hugo learn about conditions?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At a school book fair, the visiting bookshop gives Hugo a coupon for twenty dollars off a future purchase of at least two hundred dollars. The coupon starts tomorrow and expires at the end of the month. It cannot be used with another coupon, and it gives no cash change.\n\nHugo's current books cost one hundred and eighty dollars. He considers adding a thirty-dollar notebook to reach the minimum and use the coupon now. The cashier points to the starting date. Buying an extra item today would not make the coupon valid earlier.\n\nHugo pays for the books he needs and keeps the coupon separately. The next week, he plans to buy a dictionary priced at two hundred and twenty dollars. Before relying on the discount, he checks that the date falls inside the coupon period and that the dictionary is eligible.\n\nHe spends two hundred dollars on the dictionary after the discount. The extra notebook was never needed. Hugo learns that a threshold and a valid date are separate conditions; meeting one does not automatically satisfy the other.",
+      "title": "The Coupon That Starts Tomorrow",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "At a school book fair, the visiting bookshop gives Hugo a coupon for twenty dollars off a future purchase of at least two hundred dollars.",
+          "meaning": "折價券",
+          "word": "coupon"
+        },
+        {
+          "example": "At a school book fair, the visiting bookshop gives Hugo a coupon for twenty dollars off a future purchase of at least two hundred dollars.",
+          "meaning": "購買",
+          "word": "purchase"
+        },
+        {
+          "example": "The coupon starts tomorrow and expires at the end of the month.",
+          "meaning": "到期",
+          "word": "expires"
+        },
+        {
+          "example": "He considers adding a thirty-dollar notebook to reach the minimum and use the coupon now.",
+          "meaning": "最低額",
+          "word": "minimum"
+        },
+        {
+          "example": "Before relying on the discount, he checks that the date falls inside the coupon period and that the dictionary is eligible.",
+          "meaning": "符合資格的",
+          "word": "eligible"
+        }
+      ]
+    }
+  ]
+}

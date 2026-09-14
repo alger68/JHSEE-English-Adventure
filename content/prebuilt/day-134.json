@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-13",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 134,
+      "goal": "比較靜態教材與現場更新，找有效路線。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "更北方",
+          "phrase": "farther north"
+        },
+        {
+          "meaning": "在花園",
+          "phrase": "at the garden"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "Audio-walk chat: The recording says to cross the stone bridge after the fountain, but a sign today shows that the bridge is closed for repairs. Should we continue because the recording is part of the official route? The map on my phone was downloaded last month.",
+          "explanation": "現場標示維修封閉。",
+          "id": "d134-q1",
+          "options": [
+            "Because all maps are free.",
+            "Because the garden has disappeared.",
+            "For the audio recording.",
+            "For repairs."
+          ],
+          "prompt": "Why is the stone bridge closed?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Guide: Follow the current closure sign. Use the wooden footbridge farther north, which the temporary map marks with a blue arrow. It reaches the same reading garden, though it adds about five minutes to the usual walk.",
+          "explanation": "暫時地圖藍箭頭指較北木橋。",
+          "id": "d134-q2",
+          "options": [
+            "A path with no destination.",
+            "The closed stone bridge.",
+            "The wooden footbridge farther north.",
+            "The route beneath the repair equipment."
+          ],
+          "prompt": "Which route does the guide recommend?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Audio-walk chat: The recording says to cross the stone bridge after the fountain, but a sign today shows that the bridge is closed for repairs. Should we continue because the recording is part of the official route? The map on my phone was downloaded last month.\n\nGuide: Follow the current closure sign. Use the wooden footbridge farther north, which the temporary map marks with a blue arrow. It reaches the same reading garden, though it adds about five minutes to the usual walk.\n\nWalker: The audio mentions a statue after the old bridge. Will we miss that story? Guide: You can listen to the statue recording at the garden. Do not enter a closed path just to stand at the original listening point.\n\nThe group follows the detour and notes the changed route in its trip record. Before recommending the walk to friends, they will check whether the repair is finished. An accurate account of today's walk should not be treated as a permanent route for every future visitor.",
+          "explanation": "錄音為較早資訊，應遵現場現行封閉。",
+          "id": "d134-q3",
+          "options": [
+            "A downloaded map always predicts future closures.",
+            "The sign changes the statue's history.",
+            "Every official recording is deliberately false.",
+            "It may describe an older route before current repairs."
+          ],
+          "prompt": "Why doesn't the official recording override the closure sign?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Guide: Follow the current closure sign. Use the wooden footbridge farther north, which the temporary map marks with a blue arrow. It reaches the same reading garden, though it adds about five minutes to the usual walk.",
+          "explanation": "維修期間替代路線是暫時安排。",
+          "id": "d134-q4",
+          "options": [
+            "Drawn only in pencil.",
+            "Unrelated to the current route.",
+            "Valid for every future year.",
+            "Intended for a limited period."
+          ],
+          "prompt": "What does 'temporary' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Walker: The audio mentions a statue after the old bridge. Will we miss that story? Guide: You can listen to the statue recording at the garden. Do not enter a closed path just to stand at the original listening point.",
+          "explanation": "導遊允許到花園再聽該段，不必進封閉路線。",
+          "id": "d134-q5",
+          "options": [
+            "Delete the story because its location changed.",
+            "Enter the closed path to reach the old point.",
+            "Play that recording at the garden.",
+            "Wait on the stone bridge for repairs."
+          ],
+          "prompt": "How can walkers still hear the statue story?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "The group follows the detour and notes the changed route in its trip record. Before recommending the walk to friends, they will check whether the repair is finished. An accurate account of today's walk should not be treated as a permanent route for every future visitor.",
+          "explanation": "現況可能改變，不能把某日安排當永久。",
+          "id": "d134-q6",
+          "options": [
+            "A guarantee that today's route lasts forever.",
+            "Only whether the old file can still be opened.",
+            "Whether the temporary repair and detour still apply.",
+            "The color of last month's phone case."
+          ],
+          "prompt": "What should the group check before advising friends later?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Audio-walk chat: The recording says to cross the stone bridge after the fountain, but a sign today shows that the bridge is closed for repairs. Should we continue because the recording is part of the official route? The map on my phone was downloaded last month.\n\nGuide: Follow the current closure sign. Use the wooden footbridge farther north, which the temporary map marks with a blue arrow. It reaches the same reading garden, though it adds about five minutes to the usual walk.\n\nWalker: The audio mentions a statue after the old bridge. Will we miss that story? Guide: You can listen to the statue recording at the garden. Do not enter a closed path just to stand at the original listening point.\n\nThe group follows the detour and notes the changed route in its trip record. Before recommending the walk to friends, they will check whether the repair is finished. An accurate account of today's walk should not be treated as a permanent route for every future visitor.",
+      "title": "The Route in the Old Recording",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Guide: Follow the current closure sign.",
+          "meaning": "封閉",
+          "word": "closure"
+        },
+        {
+          "example": "Use the wooden footbridge farther north, which the temporary map marks with a blue arrow.",
+          "meaning": "暫時的",
+          "word": "temporary"
+        },
+        {
+          "example": "Walker: The audio mentions a statue after the old bridge.",
+          "meaning": "雕像",
+          "word": "statue"
+        },
+        {
+          "example": "The group follows the detour and notes the changed route in its trip record.",
+          "meaning": "改道",
+          "word": "detour"
+        },
+        {
+          "example": "An accurate account of today's walk should not be treated as a permanent route for every future visitor.",
+          "meaning": "永久的",
+          "word": "permanent"
+        }
+      ]
+    }
+  ]
+}

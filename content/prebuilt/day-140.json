@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-01-19",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 140,
+      "goal": "核對商品尺寸資訊與實際試穿情境。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "以及",
+          "phrase": "as well as"
+        },
+        {
+          "meaning": "七天內",
+          "phrase": "within seven days"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "Before buying indoor shoes for a school performance, Nao checks the size printed inside her everyday shoes. She orders the same number from a different brand and expects a perfect fit. When the pair arrives, her toes feel crowded even though the label matches.",
+          "explanation": "她只比同一尺寸號碼。",
+          "id": "d140-q1",
+          "options": [
+            "Her toes were measured at the shop.",
+            "The product chart guaranteed every brand matched.",
+            "She had already tried that exact model.",
+            "They had the same size number as her everyday pair."
+          ],
+          "prompt": "Why did Nao expect the new shoes to fit?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The shop's guide says sizes can differ between styles and asks customers to compare foot length with the specific product chart. It also advises trying the shoes with the socks planned for use. Nao had checked only the number, not the chart or the intended socks.",
+          "explanation": "須核對足長與該款尺寸表。",
+          "id": "d140-q2",
+          "options": [
+            "Every brand's name length.",
+            "Foot length with the specific product sizing.",
+            "Shoe color with the stage curtains.",
+            "The receipt date with the sock price."
+          ],
+          "prompt": "What does the shop's chart ask customers to compare?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "She keeps the soles clean while trying them indoors and reads the exchange conditions before wearing them outside. The shop accepts unworn returns within seven days with the box and receipt. Her mother helps her measure and select a different size from the actual chart.",
+          "explanation": "先試合腳度，保留未穿用可退換條件。",
+          "id": "d140-q3",
+          "options": [
+            "To prove the shoes were used outdoors.",
+            "To make the size number change.",
+            "To avoid reading any return rules.",
+            "To check fit while preserving the stated exchange condition."
+          ],
+          "prompt": "Why try the shoes indoors with clean soles first?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "She keeps the soles clean while trying them indoors and reads the exchange conditions before wearing them outside. The shop accepts unworn returns within seven days with the box and receipt. Her mother helps her measure and select a different size from the actual chart.",
+          "explanation": "規則針對未實際穿用的商品。",
+          "id": "d140-q4",
+          "options": [
+            "Sold without a box.",
+            "Not used for wearing beyond acceptable try-on.",
+            "Missing all size labels.",
+            "Already exchanged several times."
+          ],
+          "prompt": "What does 'unworn' mean in the return rule?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "She keeps the soles clean while trying them indoors and reads the exchange conditions before wearing them outside. The shop accepts unworn returns within seven days with the box and receipt. Her mother helps her measure and select a different size from the actual chart.",
+          "explanation": "需期限、未穿用及盒收據都符合。",
+          "id": "d140-q5",
+          "options": [
+            "After throwing away the receipt and painting the soles.",
+            "Any time if the size number matches another brand.",
+            "After a month of outdoor use without the box.",
+            "Within seven days, unworn, with box and receipt."
+          ],
+          "prompt": "Which return meets the stated conditions?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Before buying indoor shoes for a school performance, Nao checks the size printed inside her everyday shoes. She orders the same number from a different brand and expects a perfect fit. When the pair arrives, her toes feel crowded even though the label matches.\n\nThe shop's guide says sizes can differ between styles and asks customers to compare foot length with the specific product chart. It also advises trying the shoes with the socks planned for use. Nao had checked only the number, not the chart or the intended socks.\n\nShe keeps the soles clean while trying them indoors and reads the exchange conditions before wearing them outside. The shop accepts unworn returns within seven days with the box and receipt. Her mother helps her measure and select a different size from the actual chart.\n\nNao exchanges the pair and records the model as well as the size for future reference. She learns that a familiar label is useful information, but it does not replace checking whether a particular item fits the purpose and situation.",
+          "explanation": "熟悉號碼只是資訊之一，仍需核對具體商品。",
+          "id": "d140-q6",
+          "options": [
+            "Check the specific product and intended use rather than relying on a familiar number alone.",
+            "Exchange rules become irrelevant after an online order.",
+            "A model name is never useful later.",
+            "The same number guarantees equal fit across every style."
+          ],
+          "prompt": "What does Nao learn about labels?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Before buying indoor shoes for a school performance, Nao checks the size printed inside her everyday shoes. She orders the same number from a different brand and expects a perfect fit. When the pair arrives, her toes feel crowded even though the label matches.\n\nThe shop's guide says sizes can differ between styles and asks customers to compare foot length with the specific product chart. It also advises trying the shoes with the socks planned for use. Nao had checked only the number, not the chart or the intended socks.\n\nShe keeps the soles clean while trying them indoors and reads the exchange conditions before wearing them outside. The shop accepts unworn returns within seven days with the box and receipt. Her mother helps her measure and select a different size from the actual chart.\n\nNao exchanges the pair and records the model as well as the size for future reference. She learns that a familiar label is useful information, but it does not replace checking whether a particular item fits the purpose and situation.",
+      "title": "The Shoes That Fit Yesterday",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "She orders the same number from a different brand and expects a perfect fit.",
+          "meaning": "品牌",
+          "word": "brand"
+        },
+        {
+          "example": "When the pair arrives, her toes feel crowded even though the label matches.",
+          "meaning": "擠迫的",
+          "word": "crowded"
+        },
+        {
+          "example": "The shop's guide says sizes can differ between styles and asks customers to compare foot length with the specific product chart.",
+          "meaning": "特定的",
+          "word": "specific"
+        },
+        {
+          "example": "She keeps the soles clean while trying them indoors and reads the exchange conditions before wearing them outside.",
+          "meaning": "鞋底",
+          "word": "soles"
+        },
+        {
+          "example": "The shop accepts unworn returns within seven days with the box and receipt.",
+          "meaning": "未穿用的",
+          "word": "unworn"
+        }
+      ]
+    }
+  ]
+}
