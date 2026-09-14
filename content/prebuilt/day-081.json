@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-21",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 81,
+      "goal": "整合版面容量、字數與展示規格。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "開幕日",
+          "phrase": "opening day"
+        },
+        {
+          "meaning": "而不是",
+          "phrase": "instead of"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "WALL PLAN: A board has twelve equal spaces. Each selected story uses two spaces, including its title and illustration. A large introduction uses two spaces, and a visitor question card uses one. The remaining spaces may hold stories; no story may be split across boards.",
+          "explanation": "每篇連標題插圖占兩格。",
+          "id": "d81-q1",
+          "options": [
+            "Two.",
+            "Three.",
+            "One.",
+            "Four."
+          ],
+          "prompt": "How many spaces does one story use?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "EDITOR'S LIST: Five stories have been selected. Each has between one hundred and one hundred and fifty words. The team wants to display all five on opening day. A second small board has four matching spaces and can stand beside the first board.",
+          "explanation": "編輯名單共有五篇。",
+          "id": "d81-q2",
+          "options": [
+            "Twelve.",
+            "Five.",
+            "Four.",
+            "Six."
+          ],
+          "prompt": "How many stories must be displayed?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "WALL PLAN: A board has twelve equal spaces. Each selected story uses two spaces, including its title and illustration. A large introduction uses two spaces, and a visitor question card uses one. The remaining spaces may hold stories; no story may be split across boards.",
+          "explanation": "12－介紹2－提問1＝9 格。",
+          "id": "d81-q3",
+          "options": [
+            "Eleven.",
+            "Nine.",
+            "Eight.",
+            "Ten."
+          ],
+          "prompt": "How many spaces on the large board remain for stories after the other items?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "WALL PLAN: A board has twelve equal spaces. Each selected story uses two spaces, including its title and illustration. A large introduction uses two spaces, and a visitor question card uses one. The remaining spaces may hold stories; no story may be split across boards.\n\nEDITOR'S LIST: Five stories have been selected. Each has between one hundred and one hundred and fifty words. The team wants to display all five on opening day. A second small board has four matching spaces and can stand beside the first board.\n\nPRINTING NOTE: One printed story set costs twenty dollars. The introduction costs fifteen, and the question card costs five. The budget is one hundred and thirty dollars. Borrowing the small board is free, and none of the selected texts needs another illustration.\n\nThe team counts usable spaces before printing. They put four stories, the introduction, and the question card on the large board. The fifth story goes on the small board. They keep unused space clear instead of enlarging a story without its writer's agreement.",
+          "explanation": "五篇須十格，可用九格不足且不可拆篇。",
+          "id": "d81-q4",
+          "options": [
+            "Five stories need ten spaces, but only nine remain.",
+            "Every story must use its own board.",
+            "The introduction takes ten spaces.",
+            "The question card uses the entire board."
+          ],
+          "prompt": "Why can't all five stories fit on the large board?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "PRINTING NOTE: One printed story set costs twenty dollars. The introduction costs fifteen, and the question card costs five. The budget is one hundred and thirty dollars. Borrowing the small board is free, and none of the selected texts needs another illustration.",
+          "explanation": "小板借用免費。",
+          "id": "d81-q5",
+          "options": [
+            "Twenty dollars.",
+            "Nothing.",
+            "Five dollars.",
+            "Fifteen dollars."
+          ],
+          "prompt": "What is the charge for borrowing the small board?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "WALL PLAN: A board has twelve equal spaces. Each selected story uses two spaces, including its title and illustration. A large introduction uses two spaces, and a visitor question card uses one. The remaining spaces may hold stories; no story may be split across boards.\n\nEDITOR'S LIST: Five stories have been selected. Each has between one hundred and one hundred and fifty words. The team wants to display all five on opening day. A second small board has four matching spaces and can stand beside the first board.\n\nPRINTING NOTE: One printed story set costs twenty dollars. The introduction costs fifteen, and the question card costs five. The budget is one hundred and thirty dollars. Borrowing the small board is free, and none of the selected texts needs another illustration.\n\nThe team counts usable spaces before printing. They put four stories, the introduction, and the question card on the large board. The fifth story goes on the small board. They keep unused space clear instead of enlarging a story without its writer's agreement.",
+          "explanation": "总格16，故事10＋介紹2＋提問1＝13，剩3。",
+          "id": "d81-q6",
+          "options": [
+            "Four.",
+            "Two.",
+            "Three.",
+            "One."
+          ],
+          "prompt": "How many spaces remain unused across both boards in the final plan?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "WALL PLAN: A board has twelve equal spaces. Each selected story uses two spaces, including its title and illustration. A large introduction uses two spaces, and a visitor question card uses one. The remaining spaces may hold stories; no story may be split across boards.",
+          "explanation": "不能把一篇拆在兩塊板上。",
+          "id": "d81-q7",
+          "options": [
+            "Divide into parts placed separately.",
+            "Print in a darker color.",
+            "Read without a title.",
+            "Choose a writer's first name."
+          ],
+          "prompt": "What does 'split' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "PRINTING NOTE: One printed story set costs twenty dollars. The introduction costs fifteen, and the question card costs five. The budget is one hundred and thirty dollars. Borrowing the small board is free, and none of the selected texts needs another illustration.",
+          "explanation": "5×20＋15＋5＝120。",
+          "id": "d81-q8",
+          "options": [
+            "One hundred and twenty dollars.",
+            "One hundred dollars.",
+            "One hundred and thirty dollars.",
+            "One hundred and forty dollars."
+          ],
+          "prompt": "What is the total printing cost?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "WALL PLAN: A board has twelve equal spaces. Each selected story uses two spaces, including its title and illustration. A large introduction uses two spaces, and a visitor question card uses one. The remaining spaces may hold stories; no story may be split across boards.\n\nEDITOR'S LIST: Five stories have been selected. Each has between one hundred and one hundred and fifty words. The team wants to display all five on opening day. A second small board has four matching spaces and can stand beside the first board.\n\nPRINTING NOTE: One printed story set costs twenty dollars. The introduction costs fifteen, and the question card costs five. The budget is one hundred and thirty dollars. Borrowing the small board is free, and none of the selected texts needs another illustration.\n\nThe team counts usable spaces before printing. They put four stories, the introduction, and the question card on the large board. The fifth story goes on the small board. They keep unused space clear instead of enlarging a story without its writer's agreement.",
+          "explanation": "兩板可放全數，列印120，預算130剩10。",
+          "id": "d81-q9",
+          "options": [
+            "It displays all stories, respects space rules, and stays ten dollars under budget.",
+            "It needs a paid sixth story to meet the budget.",
+            "It exceeds the budget because the small board has a fee.",
+            "It fits everything on the large board with no empty space."
+          ],
+          "prompt": "Which statement correctly evaluates the final plan?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "WALL PLAN: A board has twelve equal spaces. Each selected story uses two spaces, including its title and illustration. A large introduction uses two spaces, and a visitor question card uses one. The remaining spaces may hold stories; no story may be split across boards.\n\nEDITOR'S LIST: Five stories have been selected. Each has between one hundred and one hundred and fifty words. The team wants to display all five on opening day. A second small board has four matching spaces and can stand beside the first board.\n\nPRINTING NOTE: One printed story set costs twenty dollars. The introduction costs fifteen, and the question card costs five. The budget is one hundred and thirty dollars. Borrowing the small board is free, and none of the selected texts needs another illustration.\n\nThe team counts usable spaces before printing. They put four stories, the introduction, and the question card on the large board. The fifth story goes on the small board. They keep unused space clear instead of enlarging a story without its writer's agreement.",
+      "title": "Boss: The Story Wall Layout",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "WALL PLAN: A board has twelve equal spaces.",
+          "meaning": "格位",
+          "word": "spaces"
+        },
+        {
+          "example": "Each selected story uses two spaces, including its title and illustration.",
+          "meaning": "插圖",
+          "word": "illustration"
+        },
+        {
+          "example": "The remaining spaces may hold stories; no story may be split across boards.",
+          "meaning": "剩餘的",
+          "word": "remaining"
+        },
+        {
+          "example": "The remaining spaces may hold stories; no story may be split across boards.",
+          "meaning": "拆分",
+          "word": "split"
+        },
+        {
+          "example": "They keep unused space clear instead of enlarging a story without its writer's agreement.",
+          "meaning": "同意",
+          "word": "agreement"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-19",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 79,
+      "goal": "依描述判斷觀察指標與推論界線。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "再次在",
+          "phrase": "again at"
+        },
+        {
+          "meaning": "不是多少",
+          "phrase": "not how much"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "For a classroom observation, students place one drop of colored water on each of three surfaces: plain paper, waxed paper, and a plastic lid. They use the same dropper and try to make every drop the same size. A timer starts after each drop lands.",
+          "explanation": "同一滴管協助控制水滴大小。",
+          "id": "d79-q1",
+          "options": [
+            "The same dropper.",
+            "A ruler under every chair.",
+            "A weighing bridge.",
+            "Different-sized cups."
+          ],
+          "prompt": "What tool helps students make similar drops?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "On plain paper, the wet mark spreads and becomes wider. On the other two surfaces, the water stays gathered into a small rounded drop during the observation period. Students sketch the shape at ten seconds and again at one minute.",
+          "explanation": "第二段紀錄普通紙上的濕痕擴大。",
+          "id": "d79-q2",
+          "options": [
+            "Plain paper.",
+            "Only the plastic lid.",
+            "Every surface equally.",
+            "Only waxed paper."
+          ],
+          "prompt": "On which surface does the wet mark spread?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Eva says that the plain paper must be weaker because its mark is larger. Her partner points out that the activity records how water behaves on a surface, not how much weight a material can hold. A spreading mark does not directly measure strength.",
+          "explanation": "觀察水在表面的行為，不是承重強度測試。",
+          "id": "d79-q3",
+          "options": [
+            "The students use no water at all.",
+            "The activity does not test weight-holding ability.",
+            "A lid cannot be observed.",
+            "The paper has no wet mark."
+          ],
+          "prompt": "Why is Eva's strength claim unsupported?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "On plain paper, the wet mark spreads and becomes wider. On the other two surfaces, the water stays gathered into a small rounded drop during the observation period. Students sketch the shape at ten seconds and again at one minute.",
+          "explanation": "濕痕變寬，表示向外擴散。",
+          "id": "d79-q4",
+          "options": [
+            "Becomes a plastic lid.",
+            "Returns to the dropper.",
+            "Extends over a wider area.",
+            "Falls upward through the air."
+          ],
+          "prompt": "What does 'spreads' mean in this description?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For a classroom observation, students place one drop of colored water on each of three surfaces: plain paper, waxed paper, and a plastic lid. They use the same dropper and try to make every drop the same size. A timer starts after each drop lands.\n\nOn plain paper, the wet mark spreads and becomes wider. On the other two surfaces, the water stays gathered into a small rounded drop during the observation period. Students sketch the shape at ten seconds and again at one minute.\n\nEva says that the plain paper must be weaker because its mark is larger. Her partner points out that the activity records how water behaves on a surface, not how much weight a material can hold. A spreading mark does not directly measure strength.\n\nThey decide to title the page Water on Three Surfaces and keep any strength question for a separate investigation. The pictures are useful because the students explain what was compared and when each observation was made.",
+          "explanation": "活動記錄十秒及一分鐘的水形。",
+          "id": "d79-q5",
+          "options": [
+            "The maximum weight each surface can hold.",
+            "The price of making every material.",
+            "The shape of water on each surface at two specified times.",
+            "The lifetime of all paper products."
+          ],
+          "prompt": "Which comparison is actually supported?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "They decide to title the page Water on Three Surfaces and keep any strength question for a separate investigation. The pictures are useful because the students explain what was compared and when each observation was made.",
+          "explanation": "標題應準確反映已測內容，不加入未測強度。",
+          "id": "d79-q6",
+          "options": [
+            "It says all three drops behaved identically.",
+            "It hides the surface names from readers.",
+            "It proves which material is strongest.",
+            "It names the observed relationship without adding an untested claim."
+          ],
+          "prompt": "Why does the chosen title fit better?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "For a classroom observation, students place one drop of colored water on each of three surfaces: plain paper, waxed paper, and a plastic lid. They use the same dropper and try to make every drop the same size. A timer starts after each drop lands.\n\nOn plain paper, the wet mark spreads and becomes wider. On the other two surfaces, the water stays gathered into a small rounded drop during the observation period. Students sketch the shape at ten seconds and again at one minute.\n\nEva says that the plain paper must be weaker because its mark is larger. Her partner points out that the activity records how water behaves on a surface, not how much weight a material can hold. A spreading mark does not directly measure strength.\n\nThey decide to title the page Water on Three Surfaces and keep any strength question for a separate investigation. The pictures are useful because the students explain what was compared and when each observation was made.",
+      "title": "Which Surface Holds the Drop?",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "For a classroom observation, students place one drop of colored water on each of three surfaces: plain paper, waxed paper, and a plastic lid.",
+          "meaning": "表面",
+          "word": "surfaces"
+        },
+        {
+          "example": "They use the same dropper and try to make every drop the same size.",
+          "meaning": "滴管",
+          "word": "dropper"
+        },
+        {
+          "example": "On plain paper, the wet mark spreads and becomes wider.",
+          "meaning": "擴散",
+          "word": "spreads"
+        },
+        {
+          "example": "On the other two surfaces, the water stays gathered into a small rounded drop during the observation period.",
+          "meaning": "圓弧形的",
+          "word": "rounded"
+        },
+        {
+          "example": "A spreading mark does not directly measure strength.",
+          "meaning": "強度",
+          "word": "strength"
+        }
+      ]
+    }
+  ]
+}

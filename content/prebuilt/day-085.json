@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-25",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 85,
+      "goal": "核對訂票訊息中的截止日及更改條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "直到中午",
+          "phrase": "until noon"
+        },
+        {
+          "meaning": "不等同於",
+          "phrase": "not the same as"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Family chat: I booked four tickets for the garden tour on Sunday the eighth at ten. Please check the confirmation before adding it to your calendar. The earlier message saying Saturday was only a suggestion, not the booking we eventually made.",
+          "explanation": "第一段確認票是週日八日十點。",
+          "id": "d85-q1",
+          "options": [
+            "Saturday at ten.",
+            "Sunday the eighth at ten.",
+            "Sunday at eleven.",
+            "Thursday at noon."
+          ],
+          "prompt": "What was the original confirmed booking?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Ivy: I entered Saturday already. Can we move the tour to Saturday instead? Dad: Changes are free until noon on Thursday, but only if the requested session still has space. After that deadline, the company does not allow date changes.",
+          "explanation": "免費更改截止週四中午，還需有位。",
+          "id": "d85-q2",
+          "options": [
+            "Ten on Sunday.",
+            "Eleven on Saturday.",
+            "Noon on Thursday.",
+            "Thursday midnight."
+          ],
+          "prompt": "What is the deadline for free date changes?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Leo: My football practice is now on Sunday morning. Dad: I will ask about Saturday's availability today. We should not change our calendars again until the company confirms. A request is not the same as an accepted change.",
+          "explanation": "提出申請不等於已核准。",
+          "id": "d85-q3",
+          "options": [
+            "No company confirmation is possible.",
+            "The ticket codes are always different.",
+            "Calendars cannot show Saturdays.",
+            "A change request may not be accepted."
+          ],
+          "prompt": "Why does Dad tell everyone to wait before editing calendars again?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Leo: My football practice is now on Sunday morning. Dad: I will ask about Saturday's availability today. We should not change our calendars again until the company confirms. A request is not the same as an accepted change.",
+          "explanation": "询問週六是否仍有可預約名額。",
+          "id": "d85-q4",
+          "options": [
+            "Whether space can still be booked.",
+            "Which family member owns a calendar.",
+            "The price of football equipment.",
+            "How old the garden is."
+          ],
+          "prompt": "What does 'availability' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Later, Dad forwards a new confirmation for Saturday at eleven. He asks everyone to replace the old calendar entry and save the latest message. The four ticket codes remain the same, but the date and starting time are different.",
+          "explanation": "末段明說代碼相同，改週六十一點。",
+          "id": "d85-q5",
+          "options": [
+            "Only the ticket codes.",
+            "Only the free-change deadline.",
+            "The date and start time, but not the ticket codes.",
+            "The number of people and the tour location."
+          ],
+          "prompt": "Which details change in the final confirmation?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "Family chat: I booked four tickets for the garden tour on Sunday the eighth at ten. Please check the confirmation before adding it to your calendar. The earlier message saying Saturday was only a suggestion, not the booking we eventually made.\n\nIvy: I entered Saturday already. Can we move the tour to Saturday instead? Dad: Changes are free until noon on Thursday, but only if the requested session still has space. After that deadline, the company does not allow date changes.\n\nLeo: My football practice is now on Sunday morning. Dad: I will ask about Saturday's availability today. We should not change our calendars again until the company confirms. A request is not the same as an accepted change.\n\nLater, Dad forwards a new confirmation for Saturday at eleven. He asks everyone to replace the old calendar entry and save the latest message. The four ticket codes remain the same, but the date and starting time are different.",
+          "explanation": "需辨識建議、申請與已確認版本。",
+          "id": "d85-q6",
+          "options": [
+            "Assume every request succeeds immediately.",
+            "Ignore confirmation messages after saving a code.",
+            "Use the latest confirmed details rather than treating suggestions as bookings.",
+            "Keep all proposed dates as final appointments."
+          ],
+          "prompt": "What habit prevents booking confusion?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Family chat: I booked four tickets for the garden tour on Sunday the eighth at ten. Please check the confirmation before adding it to your calendar. The earlier message saying Saturday was only a suggestion, not the booking we eventually made.\n\nIvy: I entered Saturday already. Can we move the tour to Saturday instead? Dad: Changes are free until noon on Thursday, but only if the requested session still has space. After that deadline, the company does not allow date changes.\n\nLeo: My football practice is now on Sunday morning. Dad: I will ask about Saturday's availability today. We should not change our calendars again until the company confirms. A request is not the same as an accepted change.\n\nLater, Dad forwards a new confirmation for Saturday at eleven. He asks everyone to replace the old calendar entry and save the latest message. The four ticket codes remain the same, but the date and starting time are different.",
+      "title": "The Ticket Date Correction",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Please check the confirmation before adding it to your calendar.",
+          "meaning": "確認通知",
+          "word": "confirmation"
+        },
+        {
+          "example": "The earlier message saying Saturday was only a suggestion, not the booking we eventually made.",
+          "meaning": "最後",
+          "word": "eventually"
+        },
+        {
+          "example": "After that deadline, the company does not allow date changes.",
+          "meaning": "截止時間",
+          "word": "deadline"
+        },
+        {
+          "example": "Dad: I will ask about Saturday's availability today.",
+          "meaning": "可預約名額",
+          "word": "availability"
+        },
+        {
+          "example": "He asks everyone to replace the old calendar entry and save the latest message.",
+          "meaning": "替換",
+          "word": "replace"
+        }
+      ]
+    }
+  ]
+}

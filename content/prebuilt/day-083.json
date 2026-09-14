@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-23",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 83,
+      "goal": "辨識資料來源可支持的結論範圍。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "遺漏",
+          "phrase": "leave out"
+        },
+        {
+          "meaning": "僅一次",
+          "phrase": "only once"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "To describe how students travel to school, a project group asks everyone at its own lunch table. Seven of the eight students usually take a bus. Ken begins the report with the sentence Almost all students in our school travel by bus.",
+          "explanation": "最初調查自己午餐桌的八人。",
+          "id": "d83-q1",
+          "options": [
+            "Eight students at its lunch table.",
+            "All families in the neighborhood.",
+            "Every student in the school.",
+            "Only bus drivers."
+          ],
+          "prompt": "Whom does the group first ask?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "To describe how students travel to school, a project group asks everyone at its own lunch table. Seven of the eight students usually take a bus. Ken begins the report with the sentence Almost all students in our school travel by bus.",
+          "explanation": "七位通常搭公車。",
+          "id": "d83-q2",
+          "options": [
+            "One.",
+            "Six.",
+            "Eight.",
+            "Seven."
+          ],
+          "prompt": "How many of those students usually take a bus?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "His partner points out that their table is mostly friends from the same neighborhood. Although the answers are real, the group has not asked students from other areas. Their method may leave out classmates who walk, cycle, or receive a ride from family.",
+          "explanation": "住同區的朋友可能有相似通勤方式。",
+          "id": "d83-q3",
+          "options": [
+            "They have no way to travel to school.",
+            "Most are friends living in the same neighborhood.",
+            "Their answers were invented.",
+            "They all refuse to answer."
+          ],
+          "prompt": "Why might the initial group be unrepresentative?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The teacher does not ask them to hide the small survey. She asks them to label it accurately and avoid turning a convenient group into the whole school. The revised report is less dramatic, but its claim is easier to defend.",
+          "explanation": "方便接觸的一桌人不一定代表全校。",
+          "id": "d83-q4",
+          "options": [
+            "Too distant to question.",
+            "Easy for the group to reach.",
+            "Certain to represent everyone.",
+            "Selected by a schoolwide random draw."
+          ],
+          "prompt": "What does 'convenient' describe here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "They change the sentence to Seven of the eight students we asked usually take a bus. Then they plan to collect more responses from different classes, with a short explanation of how the participants are chosen. Each response will be counted only once.",
+          "explanation": "只針對已訪八人陳述七人的結果。",
+          "id": "d83-q5",
+          "options": [
+            "The school has exactly eight bus passengers.",
+            "Seven eighths of every class travel by bus.",
+            "Seven of the eight students asked usually take a bus.",
+            "Every student outside the group walks."
+          ],
+          "prompt": "Which statement matches the evidence already collected?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "To describe how students travel to school, a project group asks everyone at its own lunch table. Seven of the eight students usually take a bus. Ken begins the report with the sentence Almost all students in our school travel by bus.\n\nHis partner points out that their table is mostly friends from the same neighborhood. Although the answers are real, the group has not asked students from other areas. Their method may leave out classmates who walk, cycle, or receive a ride from family.\n\nThey change the sentence to Seven of the eight students we asked usually take a bus. Then they plan to collect more responses from different classes, with a short explanation of how the participants are chosen. Each response will be counted only once.\n\nThe teacher does not ask them to hide the small survey. She asks them to label it accurately and avoid turning a convenient group into the whole school. The revised report is less dramatic, but its claim is easier to defend.",
+          "explanation": "明確限定受訪範圍，結論才有資料支持。",
+          "id": "d83-q6",
+          "options": [
+            "It removes the description of its participants.",
+            "Its wording matches the scope of its evidence.",
+            "It treats convenience as proof of accuracy.",
+            "Its claim sounds more dramatic."
+          ],
+          "prompt": "What makes the revised report stronger?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "To describe how students travel to school, a project group asks everyone at its own lunch table. Seven of the eight students usually take a bus. Ken begins the report with the sentence Almost all students in our school travel by bus.\n\nHis partner points out that their table is mostly friends from the same neighborhood. Although the answers are real, the group has not asked students from other areas. Their method may leave out classmates who walk, cycle, or receive a ride from family.\n\nThey change the sentence to Seven of the eight students we asked usually take a bus. Then they plan to collect more responses from different classes, with a short explanation of how the participants are chosen. Each response will be counted only once.\n\nThe teacher does not ask them to hide the small survey. She asks them to label it accurately and avoid turning a convenient group into the whole school. The revised report is less dramatic, but its claim is easier to defend.",
+      "title": "The Shortcut in the Group Report",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "The teacher does not ask them to hide the small survey.",
+          "meaning": "調查",
+          "word": "survey"
+        },
+        {
+          "example": "His partner points out that their table is mostly friends from the same neighborhood.",
+          "meaning": "社區",
+          "word": "neighborhood"
+        },
+        {
+          "example": "Then they plan to collect more responses from different classes, with a short explanation of how the participants are chosen.",
+          "meaning": "參與者",
+          "word": "participants"
+        },
+        {
+          "example": "She asks them to label it accurately and avoid turning a convenient group into the whole school.",
+          "meaning": "方便的",
+          "word": "convenient"
+        },
+        {
+          "example": "The revised report is less dramatic, but its claim is easier to defend.",
+          "meaning": "支持其合理性",
+          "word": "defend"
+        }
+      ]
+    }
+  ]
+}

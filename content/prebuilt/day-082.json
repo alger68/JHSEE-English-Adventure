@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-22",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 82,
+      "goal": "從資料用途推論字詞，練習精準表達。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "區分兩種資訊",
+          "phrase": "tell the two kinds of information apart"
+        },
+        {
+          "meaning": "修改之前",
+          "phrase": "before changing"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "The review club chooses five words: distinguish, strength, guarantee, preference, and agreement. Each student receives a sentence that is almost clear but still missing one important word. They must select a card and point to the part of the sentence that supports it.",
+          "explanation": "選字還要指出支持它的語句。",
+          "id": "d82-q1",
+          "options": [
+            "A copied translation from every lesson.",
+            "Only the card's color.",
+            "The longest word in the paragraph.",
+            "A supporting part of the sentence."
+          ],
+          "prompt": "What must students show besides the selected card?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "One sentence compares a person's memory with a checked town record. Distinguish fits because the writer wants to tell the two kinds of information apart. Another says that a water mark does not measure how much weight paper can hold, which points to strength.",
+          "explanation": "承重能力對應強度。",
+          "id": "d82-q2",
+          "options": [
+            "A promise of selection.",
+            "How much weight paper can hold.",
+            "Whether a name is displayed.",
+            "A memory compared with a record."
+          ],
+          "prompt": "Which clue points to strength?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Before checking, the students swap explanations without showing their chosen cards. A partner must guess the word from the reasoning alone. If the explanation fits several cards, they return to the original sentence and make the supporting clue more precise.",
+          "explanation": "單靠理由能否辨識字義，可檢查解釋清楚度。",
+          "id": "d82-q3",
+          "options": [
+            "To stop partners from reading any text.",
+            "To avoid revising unclear explanations.",
+            "To see whether the reasoning identifies the intended meaning.",
+            "To turn every answer into a secret score."
+          ],
+          "prompt": "Why hide the chosen card while sharing an explanation?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Preference belongs in a form asking whether the writer wants a first name displayed. Agreement fits a request to get the writer's approval before changing a story. Guarantee is used in a reminder that sending a story does not ensure selection.",
+          "explanation": "指作者較想使用的署名選項。",
+          "id": "d82-q4",
+          "options": [
+            "The option someone would rather choose.",
+            "A fact that proves a story is oldest.",
+            "The amount of weight paper supports.",
+            "The price of a printed page."
+          ],
+          "prompt": "What does 'preference' mean on the naming form?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Preference belongs in a form asking whether the writer wants a first name displayed. Agreement fits a request to get the writer's approval before changing a story. Guarantee is used in a reminder that sending a story does not ensure selection.",
+          "explanation": "第三段說明同意修改與保證入選的不同關係。",
+          "id": "d82-q5",
+          "options": [
+            "Distinguish—weight carried; strength—naming choice.",
+            "Agreement—approval to change; guarantee—assurance of selection.",
+            "Guarantee—different memories; preference—paper strength.",
+            "Preference—town records; agreement—no entry fee."
+          ],
+          "prompt": "Which pairing is correct?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Before checking, the students swap explanations without showing their chosen cards. A partner must guess the word from the reasoning alone. If the explanation fits several cards, they return to the original sentence and make the supporting clue more precise.",
+          "explanation": "解釋若可套多個字，需回原句找更精確線索。",
+          "id": "d82-q6",
+          "options": [
+            "The length of every story.",
+            "The precision of explanations.",
+            "The number of printing spaces.",
+            "The speed of hiding cards."
+          ],
+          "prompt": "What is the final check designed to improve?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The review club chooses five words: distinguish, strength, guarantee, preference, and agreement. Each student receives a sentence that is almost clear but still missing one important word. They must select a card and point to the part of the sentence that supports it.\n\nOne sentence compares a person's memory with a checked town record. Distinguish fits because the writer wants to tell the two kinds of information apart. Another says that a water mark does not measure how much weight paper can hold, which points to strength.\n\nPreference belongs in a form asking whether the writer wants a first name displayed. Agreement fits a request to get the writer's approval before changing a story. Guarantee is used in a reminder that sending a story does not ensure selection.\n\nBefore checking, the students swap explanations without showing their chosen cards. A partner must guess the word from the reasoning alone. If the explanation fits several cards, they return to the original sentence and make the supporting clue more precise.",
+      "title": "The Words Behind a Clear Report",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "The review club chooses five words: distinguish, strength, guarantee, preference, and agreement.",
+          "meaning": "區分",
+          "word": "distinguish"
+        },
+        {
+          "example": "The review club chooses five words: distinguish, strength, guarantee, preference, and agreement.",
+          "meaning": "強度",
+          "word": "strength"
+        },
+        {
+          "example": "The review club chooses five words: distinguish, strength, guarantee, preference, and agreement.",
+          "meaning": "保證",
+          "word": "guarantee"
+        },
+        {
+          "example": "The review club chooses five words: distinguish, strength, guarantee, preference, and agreement.",
+          "meaning": "偏好",
+          "word": "preference"
+        },
+        {
+          "example": "The review club chooses five words: distinguish, strength, guarantee, preference, and agreement.",
+          "meaning": "同意",
+          "word": "agreement"
+        }
+      ]
+    }
+  ]
+}

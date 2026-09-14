@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-24",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 84,
+      "goal": "判讀評論與個人需求，避免單一經驗過度推廣。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "記在心上",
+          "phrase": "keeps it in mind"
+        },
+        {
+          "meaning": "起點",
+          "phrase": "starting point"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "While planning a family lunch, Dean reads a restaurant review that gives one star because the meal arrived slowly during a festival. He nearly crosses the restaurant off the list. His mother asks him to check the review's date and the reason for the rating.",
+          "explanation": "一星原因是節日期間上餐慢。",
+          "id": "d84-q1",
+          "options": [
+            "The restaurant had no food menu.",
+            "The side room cost nothing.",
+            "The reviewer disliked all weekdays.",
+            "The food arrived slowly during a festival."
+          ],
+          "prompt": "Why did the old reviewer give one star?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The family plans to visit on an ordinary weekday and needs a quiet table for six, including his grandfather. Dean finds the restaurant's current opening hours and calls to ask about seating. The staff offer a side room but say it must be reserved.",
+          "explanation": "六人包含爺爺，需要安靜餐桌。",
+          "id": "d84-q2",
+          "options": [
+            "A private kitchen for one.",
+            "A festival stage.",
+            "A quiet table for six.",
+            "Only takeaway food."
+          ],
+          "prompt": "What does the family need?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "While planning a family lunch, Dean reads a restaurant review that gives one star because the meal arrived slowly during a festival. He nearly crosses the restaurant off the list. His mother asks him to check the review's date and the reason for the rating.\n\nThe family plans to visit on an ordinary weekday and needs a quiet table for six, including his grandfather. Dean finds the restaurant's current opening hours and calls to ask about seating. The staff offer a side room but say it must be reserved.\n\nDean also reads several recent reviews, which describe different waiting times. He does not decide that the old review is false. It reports one person's experience under particular conditions. He keeps it in mind while asking the staff how long weekday service usually takes.\n\nThey reserve the room and leave enough time before their next appointment. Dean learns to use reviews as pieces of information, alongside dates, circumstances, and the family's needs. A single rating is a starting point for questions, not a complete plan.",
+          "explanation": "節日與平日條件不同，需判斷可比性。",
+          "id": "d84-q3",
+          "options": [
+            "Old experiences are always false.",
+            "They may differ from the family's planned visit.",
+            "A one-star review guarantees every visit is slow.",
+            "The date determines the exact lunch price."
+          ],
+          "prompt": "Why does Dean check the old review's circumstances?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "They reserve the room and leave enough time before their next appointment. Dean learns to use reviews as pieces of information, alongside dates, circumstances, and the family's needs. A single rating is a starting point for questions, not a complete plan.",
+          "explanation": "評論應連同日期、情況與需求一起判斷。",
+          "id": "d84-q4",
+          "options": [
+            "Without considering any conditions.",
+            "At the restaurant's physical side wall.",
+            "Together with other information.",
+            "Instead of every other source."
+          ],
+          "prompt": "What does 'alongside' mean in the last paragraph?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The family plans to visit on an ordinary weekday and needs a quiet table for six, including his grandfather. Dean finds the restaurant's current opening hours and calls to ask about seating. The staff offer a side room but say it must be reserved.",
+          "explanation": "側室須預約，電話確認可滿足需求。",
+          "id": "d84-q5",
+          "options": [
+            "Counting only the lowest ratings.",
+            "Arriving during a festival without asking.",
+            "Calling to reserve the offered side room.",
+            "Assuming a side room is always available."
+          ],
+          "prompt": "Which action addresses the family's seating need?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "While planning a family lunch, Dean reads a restaurant review that gives one star because the meal arrived slowly during a festival. He nearly crosses the restaurant off the list. His mother asks him to check the review's date and the reason for the rating.\n\nThe family plans to visit on an ordinary weekday and needs a quiet table for six, including his grandfather. Dean finds the restaurant's current opening hours and calls to ask about seating. The staff offer a side room but say it must be reserved.\n\nDean also reads several recent reviews, which describe different waiting times. He does not decide that the old review is false. It reports one person's experience under particular conditions. He keeps it in mind while asking the staff how long weekday service usually takes.\n\nThey reserve the room and leave enough time before their next appointment. Dean learns to use reviews as pieces of information, alongside dates, circumstances, and the family's needs. A single rating is a starting point for questions, not a complete plan.",
+          "explanation": "評論是詢問起點，需搭配現況與個人條件。",
+          "id": "d84-q6",
+          "options": [
+            "Use reviews to guide further checks relevant to the visit.",
+            "Discard all negative experiences as untrue.",
+            "Ignore current information if an old review exists.",
+            "Let one rating decide every detail."
+          ],
+          "prompt": "What approach does Dean learn?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "While planning a family lunch, Dean reads a restaurant review that gives one star because the meal arrived slowly during a festival. He nearly crosses the restaurant off the list. His mother asks him to check the review's date and the reason for the rating.\n\nThe family plans to visit on an ordinary weekday and needs a quiet table for six, including his grandfather. Dean finds the restaurant's current opening hours and calls to ask about seating. The staff offer a side room but say it must be reserved.\n\nDean also reads several recent reviews, which describe different waiting times. He does not decide that the old review is false. It reports one person's experience under particular conditions. He keeps it in mind while asking the staff how long weekday service usually takes.\n\nThey reserve the room and leave enough time before their next appointment. Dean learns to use reviews as pieces of information, alongside dates, circumstances, and the family's needs. A single rating is a starting point for questions, not a complete plan.",
+      "title": "The Restaurant List with One Review",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "While planning a family lunch, Dean reads a restaurant review that gives one star because the meal arrived slowly during a festival.",
+          "meaning": "評論",
+          "word": "review"
+        },
+        {
+          "example": "His mother asks him to check the review's date and the reason for the rating.",
+          "meaning": "評分",
+          "word": "rating"
+        },
+        {
+          "example": "The family plans to visit on an ordinary weekday and needs a quiet table for six, including his grandfather.",
+          "meaning": "一般的",
+          "word": "ordinary"
+        },
+        {
+          "example": "Dean learns to use reviews as pieces of information, alongside dates, circumstances, and the family's needs.",
+          "meaning": "情況",
+          "word": "circumstances"
+        },
+        {
+          "example": "Dean learns to use reviews as pieces of information, alongside dates, circumstances, and the family's needs.",
+          "meaning": "連同",
+          "word": "alongside"
+        }
+      ]
+    }
+  ]
+}

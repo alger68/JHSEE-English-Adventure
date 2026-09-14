@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-27",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 87,
+      "goal": "讀取地圖式公告中的方向與通行限制。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "讓乘客下車",
+          "phrase": "drop passengers"
+        },
+        {
+          "meaning": "保持暢通",
+          "phrase": "remain clear"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "EVENING FAIR TRAVEL NOTICE: The west bicycle area will close at four for stage equipment. Bicycles parked there earlier must be moved before closing. The east bicycle area stays open until eight and can be reached from the side gate on Pine Street.",
+          "explanation": "西區四點關，東區開到八點。",
+          "id": "d87-q1",
+          "options": [
+            "The east area.",
+            "Neither area.",
+            "Only the stage path.",
+            "The west area."
+          ],
+          "prompt": "Which bicycle area is available during the fair?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The fair runs from five to seven thirty. The food stalls stop taking orders at seven, while the information desk remains open until the fair ends. Before leaving, collect any items placed at the desk; the school does not provide overnight storage.",
+          "explanation": "餐飲收單七點截止，比活動結束早。",
+          "id": "d87-q2",
+          "options": [
+            "At eight.",
+            "At five.",
+            "At seven.",
+            "At seven thirty."
+          ],
+          "prompt": "When do food stalls stop accepting orders?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Visitors using wheelchairs may enter through the level side gate. The main gate has steps. Volunteers at both entrances can explain the routes, but they cannot move or store visitors' vehicles. The path beside the stage must remain clear.",
+          "explanation": "側門平坦，適合需無階梯入口的人。",
+          "id": "d87-q3",
+          "options": [
+            "It provides a level entrance without the main gate's steps.",
+            "It closes before the main gate.",
+            "It is the only place selling fair tickets.",
+            "It offers overnight vehicle storage."
+          ],
+          "prompt": "Why should some visitors use the side gate?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The fair runs from five to seven thirty. The food stalls stop taking orders at seven, while the information desk remains open until the fair ends. Before leaving, collect any items placed at the desk; the school does not provide overnight storage.",
+          "explanation": "不提供留放至翌日的保管。",
+          "id": "d87-q4",
+          "options": [
+            "Between two food orders.",
+            "Through the night until the next day.",
+            "During a five-minute walk.",
+            "Only before four in the afternoon."
+          ],
+          "prompt": "What does 'overnight' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "EVENING FAIR TRAVEL NOTICE: The west bicycle area will close at four for stage equipment. Bicycles parked there earlier must be moved before closing. The east bicycle area stays open until eight and can be reached from the side gate on Pine Street.\n\nCars may drop passengers outside the main gate, but drivers cannot wait there. The nearest public car park is a five-minute walk away. Its fee is not included in the fair ticket. Please allow extra time if you need to walk back after parking.\n\nVisitors using wheelchairs may enter through the level side gate. The main gate has steps. Volunteers at both entrances can explain the routes, but they cannot move or store visitors' vehicles. The path beside the stage must remain clear.\n\nThe fair runs from five to seven thirty. The food stalls stop taking orders at seven, while the information desk remains open until the fair ends. Before leaving, collect any items placed at the desk; the school does not provide overnight storage.",
+          "explanation": "東區可停，餐飲須七點前點單。",
+          "id": "d87-q5",
+          "options": [
+            "Park a bicycle in the east area and finish food orders before seven.",
+            "Ask a gate volunteer to store a car.",
+            "Leave a bicycle in the west area until eight.",
+            "Leave a collected item at the desk until tomorrow."
+          ],
+          "prompt": "Which plan follows the notice?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "EVENING FAIR TRAVEL NOTICE: The west bicycle area will close at four for stage equipment. Bicycles parked there earlier must be moved before closing. The east bicycle area stays open until eight and can be reached from the side gate on Pine Street.\n\nCars may drop passengers outside the main gate, but drivers cannot wait there. The nearest public car park is a five-minute walk away. Its fee is not included in the fair ticket. Please allow extra time if you need to walk back after parking.\n\nVisitors using wheelchairs may enter through the level side gate. The main gate has steps. Volunteers at both entrances can explain the routes, but they cannot move or store visitors' vehicles. The path beside the stage must remain clear.\n\nThe fair runs from five to seven thirty. The food stalls stop taking orders at seven, while the information desk remains open until the fair ends. Before leaving, collect any items placed at the desk; the school does not provide overnight storage.",
+          "explanation": "公告重點包括交通入口及各服務截止差異。",
+          "id": "d87-q6",
+          "options": [
+            "A list of performers and songs.",
+            "Travel, accessible entry, and different closing times.",
+            "The overnight schedule of the car park.",
+            "Only the price of every food item."
+          ],
+          "prompt": "What does the notice help visitors coordinate?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "EVENING FAIR TRAVEL NOTICE: The west bicycle area will close at four for stage equipment. Bicycles parked there earlier must be moved before closing. The east bicycle area stays open until eight and can be reached from the side gate on Pine Street.\n\nCars may drop passengers outside the main gate, but drivers cannot wait there. The nearest public car park is a five-minute walk away. Its fee is not included in the fair ticket. Please allow extra time if you need to walk back after parking.\n\nVisitors using wheelchairs may enter through the level side gate. The main gate has steps. Volunteers at both entrances can explain the routes, but they cannot move or store visitors' vehicles. The path beside the stage must remain clear.\n\nThe fair runs from five to seven thirty. The food stalls stop taking orders at seven, while the information desk remains open until the fair ends. Before leaving, collect any items placed at the desk; the school does not provide overnight storage.",
+      "title": "Parking for the Evening Fair",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "EVENING FAIR TRAVEL NOTICE: The west bicycle area will close at four for stage equipment.",
+          "meaning": "器材",
+          "word": "equipment"
+        },
+        {
+          "example": "Cars may drop passengers outside the main gate, but drivers cannot wait there.",
+          "meaning": "乘客",
+          "word": "passengers"
+        },
+        {
+          "example": "Volunteers at both entrances can explain the routes, but they cannot move or store visitors' vehicles.",
+          "meaning": "車輛",
+          "word": "vehicles"
+        },
+        {
+          "example": "Visitors using wheelchairs may enter through the level side gate.",
+          "meaning": "平坦的",
+          "word": "level"
+        },
+        {
+          "example": "Before leaving, collect any items placed at the desk; the school does not provide overnight storage.",
+          "meaning": "過夜",
+          "word": "overnight"
+        }
+      ]
+    }
+  ]
+}

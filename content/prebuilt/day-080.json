@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-20",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 80,
+      "goal": "判斷投稿資格、字數與公開選項。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "報名費",
+          "phrase": "entry fee"
+        },
+        {
+          "meaning": "保留副本",
+          "phrase": "keep a copy"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "COMMUNITY STORY WALL: Share a memory of our neighborhood in one hundred to one hundred and fifty words. The memory should describe something you personally experienced. You may write in English or Chinese. Please avoid including another person's private contact details in your story.",
+          "explanation": "公告限定一百至一百五十字。",
+          "id": "d80-q1",
+          "options": [
+            "Exactly two hundred.",
+            "One hundred to one hundred and fifty.",
+            "Fifty to one hundred.",
+            "Any length under five hundred."
+          ],
+          "prompt": "What word range is requested?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Send your text by Friday evening. Volunteers may correct obvious spelling mistakes but will ask before changing the meaning. Selected stories will appear on the wall next month. Submission does not guarantee selection, and there is no entry fee or cash prize.",
+          "explanation": "明顯拼字可校正，改意義前須詢問。",
+          "id": "d80-q2",
+          "options": [
+            "The writer's naming preference.",
+            "Obvious spelling mistakes.",
+            "Every opinion they dislike.",
+            "The entire remembered event."
+          ],
+          "prompt": "What can volunteers correct without changing the meaning?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "You may choose to show your first name or remain unnamed. Tell us your preference when submitting. Keep a copy of your original text because printed pages sent to the office will not be returned. Digital submissions are also welcome.",
+          "explanation": "送交紙本不退還，故需自留。",
+          "id": "d80-q3",
+          "options": [
+            "Digital submissions are forbidden.",
+            "Every story will be sold.",
+            "Printed submissions will not be returned.",
+            "Volunteers erase all stories immediately."
+          ],
+          "prompt": "Why should writers keep a copy?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Send your text by Friday evening. Volunteers may correct obvious spelling mistakes but will ask before changing the meaning. Selected stories will appear on the wall next month. Submission does not guarantee selection, and there is no entry fee or cash prize.",
+          "explanation": "投稿不保證一定獲選。",
+          "id": "d80-q4",
+          "options": [
+            "Write in two languages.",
+            "Invite someone to a desk.",
+            "Correct a spelling mistake.",
+            "Make certain that something will happen."
+          ],
+          "prompt": "What does 'guarantee' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "COMMUNITY STORY WALL: Share a memory of our neighborhood in one hundred to one hundred and fifty words. The memory should describe something you personally experienced. You may write in English or Chinese. Please avoid including another person's private contact details in your story.\n\nSend your text by Friday evening. Volunteers may correct obvious spelling mistakes but will ask before changing the meaning. Selected stories will appear on the wall next month. Submission does not guarantee selection, and there is no entry fee or cash prize.\n\nYou may choose to show your first name or remain unnamed. Tell us your preference when submitting. Keep a copy of your original text because printed pages sent to the office will not be returned. Digital submissions are also welcome.\n\nIf a story mentions a living person in an identifiable way, check that they are comfortable with public display before submitting. For questions, visit the community desk on Tuesday afternoon. The volunteers can explain the process but cannot promise which stories will be chosen.",
+          "explanation": "字數、親身經驗及公開署名選擇均符合。",
+          "id": "d80-q5",
+          "options": [
+            "A paid entry demanding guaranteed selection.",
+            "A 120-word personal memory with a stated naming preference.",
+            "A 220-word copied story with private phone numbers.",
+            "A story requiring all printed pages to be returned."
+          ],
+          "prompt": "Which submission fits the notice?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "COMMUNITY STORY WALL: Share a memory of our neighborhood in one hundred to one hundred and fifty words. The memory should describe something you personally experienced. You may write in English or Chinese. Please avoid including another person's private contact details in your story.\n\nSend your text by Friday evening. Volunteers may correct obvious spelling mistakes but will ask before changing the meaning. Selected stories will appear on the wall next month. Submission does not guarantee selection, and there is no entry fee or cash prize.\n\nYou may choose to show your first name or remain unnamed. Tell us your preference when submitting. Keep a copy of your original text because printed pages sent to the office will not be returned. Digital submissions are also welcome.\n\nIf a story mentions a living person in an identifiable way, check that they are comfortable with public display before submitting. For questions, visit the community desk on Tuesday afternoon. The volunteers can explain the process but cannot promise which stories will be chosen.",
+          "explanation": "署名可選，入選仍需審選不保證。",
+          "id": "d80-q6",
+          "options": [
+            "They can choose naming options, but selection is not assured.",
+            "Every submitted story must show a full name.",
+            "The Tuesday desk promises a place on the wall.",
+            "Paying more improves selection chances."
+          ],
+          "prompt": "What should applicants understand?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "COMMUNITY STORY WALL: Share a memory of our neighborhood in one hundred to one hundred and fifty words. The memory should describe something you personally experienced. You may write in English or Chinese. Please avoid including another person's private contact details in your story.\n\nSend your text by Friday evening. Volunteers may correct obvious spelling mistakes but will ask before changing the meaning. Selected stories will appear on the wall next month. Submission does not guarantee selection, and there is no entry fee or cash prize.\n\nYou may choose to show your first name or remain unnamed. Tell us your preference when submitting. Keep a copy of your original text because printed pages sent to the office will not be returned. Digital submissions are also welcome.\n\nIf a story mentions a living person in an identifiable way, check that they are comfortable with public display before submitting. For questions, visit the community desk on Tuesday afternoon. The volunteers can explain the process but cannot promise which stories will be chosen.",
+      "title": "The Community Story Wall",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "The memory should describe something you personally experienced.",
+          "meaning": "親身地",
+          "word": "personally"
+        },
+        {
+          "example": "Submission does not guarantee selection, and there is no entry fee or cash prize.",
+          "meaning": "投稿",
+          "word": "submission"
+        },
+        {
+          "example": "Submission does not guarantee selection, and there is no entry fee or cash prize.",
+          "meaning": "保證",
+          "word": "guarantee"
+        },
+        {
+          "example": "Tell us your preference when submitting.",
+          "meaning": "偏好",
+          "word": "preference"
+        },
+        {
+          "example": "If a story mentions a living person in an identifiable way, check that they are comfortable with public display before submitting.",
+          "meaning": "可辨識身分的",
+          "word": "identifiable"
+        }
+      ]
+    }
+  ]
+}

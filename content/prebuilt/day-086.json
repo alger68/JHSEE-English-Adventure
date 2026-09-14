@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-26",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 86,
+      "goal": "辨識缺失資料，避免把未測量當零。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在……結束時",
+          "phrase": "at the end of"
+        },
+        {
+          "meaning": "完全",
+          "phrase": "at all"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "The school garden team weighs collected leaves at the end of each afternoon. Their chart lists Monday, Tuesday, Wednesday, Thursday, and Friday. The recorded amounts are two, three, blank, four, and one kilograms. A storm kept the team indoors on Wednesday, so no collection or measurement was made.",
+          "explanation": "暴風雨使團隊留在室內，未收集測量。",
+          "id": "d86-q1",
+          "options": [
+            "The scale showed one kilogram.",
+            "Friday's leaves were counted twice.",
+            "The team weighed exactly zero kilograms.",
+            "No collection or measurement took place."
+          ],
+          "prompt": "Why is Wednesday's box blank?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "They label Wednesday no measurement and keep the other four values. The total actually collected on the measured days is ten kilograms. They do not estimate Wednesday's possible amount without explaining a method and labeling it as an estimate.",
+          "explanation": "2＋3＋4＋1＝10 公斤。",
+          "id": "d86-q2",
+          "options": [
+            "Eleven kilograms.",
+            "Ten kilograms.",
+            "Four kilograms.",
+            "Eight kilograms."
+          ],
+          "prompt": "What total was actually collected on measured days?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "When making a weekly graph, Iris enters zero for Wednesday because the box is empty. Her partner asks whether zero means they measured nothing or did not measure at all. Those two situations may look similar on paper but mean different things.",
+          "explanation": "零值像是測得零，實際是沒有測量。",
+          "id": "d86-q3",
+          "options": [
+            "Zero is not a number.",
+            "It may imply a measurement that never occurred.",
+            "Every blank must represent four kilograms.",
+            "Wednesday was outside the school week."
+          ],
+          "prompt": "Why is labeling Wednesday zero misleading?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "They label Wednesday no measurement and keep the other four values. The total actually collected on the measured days is ten kilograms. They do not estimate Wednesday's possible amount without explaining a method and labeling it as an estimate.",
+          "explanation": "估值有方法但不是實測精確值。",
+          "id": "d86-q4",
+          "options": [
+            "A label for every storm.",
+            "An approximate value based on an explained method.",
+            "The total of Friday's leaves only.",
+            "An exact measurement automatically found in a blank."
+          ],
+          "prompt": "What is an 'estimate'?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The school garden team weighs collected leaves at the end of each afternoon. Their chart lists Monday, Tuesday, Wednesday, Thursday, and Friday. The recorded amounts are two, three, blank, four, and one kilograms. A storm kept the team indoors on Wednesday, so no collection or measurement was made.\n\nWhen making a weekly graph, Iris enters zero for Wednesday because the box is empty. Her partner asks whether zero means they measured nothing or did not measure at all. Those two situations may look similar on paper but mean different things.\n\nThey label Wednesday no measurement and keep the other four values. The total actually collected on the measured days is ten kilograms. They do not estimate Wednesday's possible amount without explaining a method and labeling it as an estimate.\n\nThe teacher asks readers what the chart can answer. It shows the recorded collection, but it cannot tell how many leaves fell across the whole week. Some leaves may have remained in the garden or blown away before the team returned.",
+          "explanation": "資料只直接支持四天收集紀錄。",
+          "id": "d86-q5",
+          "options": [
+            "The weight of leaves blown out of the garden.",
+            "The amount the team recorded collecting on four days.",
+            "The amount collected on Wednesday.",
+            "The exact number of leaves that fell all week."
+          ],
+          "prompt": "What can the chart directly support?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "The school garden team weighs collected leaves at the end of each afternoon. Their chart lists Monday, Tuesday, Wednesday, Thursday, and Friday. The recorded amounts are two, three, blank, four, and one kilograms. A storm kept the team indoors on Wednesday, so no collection or measurement was made.\n\nWhen making a weekly graph, Iris enters zero for Wednesday because the box is empty. Her partner asks whether zero means they measured nothing or did not measure at all. Those two situations may look similar on paper but mean different things.\n\nThey label Wednesday no measurement and keep the other four values. The total actually collected on the measured days is ten kilograms. They do not estimate Wednesday's possible amount without explaining a method and labeling it as an estimate.\n\nThe teacher asks readers what the chart can answer. It shows the recorded collection, but it cannot tell how many leaves fell across the whole week. Some leaves may have remained in the garden or blown away before the team returned.",
+          "explanation": "核心是未測、測為零與估值不可混同。",
+          "id": "d86-q6",
+          "options": [
+            "Avoid labeling uncertain parts of a graph.",
+            "Distinguish missing data from a measured zero.",
+            "Replace every missing value with the largest one.",
+            "Treat collected leaves as all leaves that ever fell."
+          ],
+          "prompt": "What is the main lesson?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The school garden team weighs collected leaves at the end of each afternoon. Their chart lists Monday, Tuesday, Wednesday, Thursday, and Friday. The recorded amounts are two, three, blank, four, and one kilograms. A storm kept the team indoors on Wednesday, so no collection or measurement was made.\n\nWhen making a weekly graph, Iris enters zero for Wednesday because the box is empty. Her partner asks whether zero means they measured nothing or did not measure at all. Those two situations may look similar on paper but mean different things.\n\nThey label Wednesday no measurement and keep the other four values. The total actually collected on the measured days is ten kilograms. They do not estimate Wednesday's possible amount without explaining a method and labeling it as an estimate.\n\nThe teacher asks readers what the chart can answer. It shows the recorded collection, but it cannot tell how many leaves fell across the whole week. Some leaves may have remained in the garden or blown away before the team returned.",
+      "title": "A Chart with a Missing Afternoon",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "The recorded amounts are two, three, blank, four, and one kilograms.",
+          "meaning": "記錄的",
+          "word": "recorded"
+        },
+        {
+          "example": "A storm kept the team indoors on Wednesday, so no collection or measurement was made.",
+          "meaning": "測量",
+          "word": "measurement"
+        },
+        {
+          "example": "They do not estimate Wednesday's possible amount without explaining a method and labeling it as an estimate.",
+          "meaning": "估計",
+          "word": "estimate"
+        },
+        {
+          "example": "They label Wednesday no measurement and keep the other four values.",
+          "meaning": "數值",
+          "word": "values"
+        },
+        {
+          "example": "Some leaves may have remained in the garden or blown away before the team returned.",
+          "meaning": "留下",
+          "word": "remained"
+        }
+      ]
+    }
+  ]
+}

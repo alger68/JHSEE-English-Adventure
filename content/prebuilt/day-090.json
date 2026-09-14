@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-30",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 90,
+      "goal": "以實際需求解讀分工，避免把選角當總能力評價。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "整體能力",
+          "phrase": "overall ability"
+        },
+        {
+          "meaning": "具體選擇",
+          "phrase": "specific choices"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "When the class records an audio play, Ella wants the narrator's role because it has the most lines. She reads quickly and clearly, but the story needs a calm voice between noisy scenes. During practice, her classmate Ren naturally leaves useful pauses between sentences.",
+          "explanation": "旁白需在吵雜場景間平穩引導並適當停頓。",
+          "id": "d90-q1",
+          "options": [
+            "The fastest speech possible.",
+            "No spoken lines.",
+            "A calm voice with useful pauses.",
+            "The loudest market sound."
+          ],
+          "prompt": "What quality does the narrator's role need?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The group asks Ren to narrate and gives Ella a lively shopkeeper's role. Ella feels disappointed and assumes they think she is a poor reader. The director explains that choosing a voice for one role is not the same as ranking everyone's overall ability.",
+          "explanation": "她獲選活潑店家的角色。",
+          "id": "d90-q2",
+          "options": [
+            "A lively shopkeeper.",
+            "The director.",
+            "An actor with no lines.",
+            "The narrator."
+          ],
+          "prompt": "Which role does Ella receive?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "She plays two short recordings for the group and asks them to describe what each scene needs. Ella hears how the pauses help listeners follow a change of place. She also notices that the shopkeeper's quick speech makes the busy market sound convincing.",
+          "explanation": "讓學生聽具體片段與角色需求的對應。",
+          "id": "d90-q3",
+          "options": [
+            "To connect feedback with the needs of particular scenes.",
+            "To remove all pauses from the play.",
+            "To prove Ella is always a poor reader.",
+            "To choose the student with the most equipment."
+          ],
+          "prompt": "Why does the director play two recordings?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The group asks Ren to narrate and gives Ella a lively shopkeeper's role. Ella feels disappointed and assumes they think she is a poor reader. The director explains that choosing a voice for one role is not the same as ranking everyone's overall ability.",
+          "explanation": "把整體能力排高低就是 ranking。",
+          "id": "d90-q4",
+          "options": [
+            "Dividing a script into paragraphs.",
+            "Putting people in order by judged ability.",
+            "Pausing before a name.",
+            "Recording a busy market."
+          ],
+          "prompt": "What does 'ranking' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "When the class records an audio play, Ella wants the narrator's role because it has the most lines. She reads quickly and clearly, but the story needs a calm voice between noisy scenes. During practice, her classmate Ren naturally leaves useful pauses between sentences.\n\nThe group asks Ren to narrate and gives Ella a lively shopkeeper's role. Ella feels disappointed and assumes they think she is a poor reader. The director explains that choosing a voice for one role is not the same as ranking everyone's overall ability.\n\nShe plays two short recordings for the group and asks them to describe what each scene needs. Ella hears how the pauses help listeners follow a change of place. She also notices that the shopkeeper's quick speech makes the busy market sound convincing.\n\nBy the final recording, Ella enjoys her part and helps Ren pronounce a difficult name. The two students contribute different strengths. The group writes feedback about specific choices, so each actor knows what worked instead of receiving only a general label.",
+          "explanation": "Ren 擅節奏，Ella 協助難字發音。",
+          "id": "d90-q5",
+          "options": [
+            "Ren supplies pacing, while Ella helps with pronunciation.",
+            "The director erases all individual feedback.",
+            "Ella narrates every scene while Ren leaves.",
+            "Both use exactly the same voice."
+          ],
+          "prompt": "Which evidence shows the students helping each other with different strengths?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "When the class records an audio play, Ella wants the narrator's role because it has the most lines. She reads quickly and clearly, but the story needs a calm voice between noisy scenes. During practice, her classmate Ren naturally leaves useful pauses between sentences.\n\nThe group asks Ren to narrate and gives Ella a lively shopkeeper's role. Ella feels disappointed and assumes they think she is a poor reader. The director explains that choosing a voice for one role is not the same as ranking everyone's overall ability.\n\nShe plays two short recordings for the group and asks them to describe what each scene needs. Ella hears how the pauses help listeners follow a change of place. She also notices that the shopkeeper's quick speech makes the busy market sound convincing.\n\nBy the final recording, Ella enjoys her part and helps Ren pronounce a difficult name. The two students contribute different strengths. The group writes feedback about specific choices, so each actor knows what worked instead of receiving only a general label.",
+          "explanation": "回饋對應特定任務表現，不把一次選角等同整體評價。",
+          "id": "d90-q6",
+          "options": [
+            "Assign every large role to the fastest speaker.",
+            "Judge overall ability from one role alone.",
+            "Avoid explaining why a performance works.",
+            "Describe how a choice serves a task rather than turning it into a label about a person."
+          ],
+          "prompt": "What is the main lesson about feedback?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "When the class records an audio play, Ella wants the narrator's role because it has the most lines. She reads quickly and clearly, but the story needs a calm voice between noisy scenes. During practice, her classmate Ren naturally leaves useful pauses between sentences.\n\nThe group asks Ren to narrate and gives Ella a lively shopkeeper's role. Ella feels disappointed and assumes they think she is a poor reader. The director explains that choosing a voice for one role is not the same as ranking everyone's overall ability.\n\nShe plays two short recordings for the group and asks them to describe what each scene needs. Ella hears how the pauses help listeners follow a change of place. She also notices that the shopkeeper's quick speech makes the busy market sound convincing.\n\nBy the final recording, Ella enjoys her part and helps Ren pronounce a difficult name. The two students contribute different strengths. The group writes feedback about specific choices, so each actor knows what worked instead of receiving only a general label.",
+      "title": "A Role That Fits the Voice",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "When the class records an audio play, Ella wants the narrator's role because it has the most lines.",
+          "meaning": "旁白者",
+          "word": "narrator"
+        },
+        {
+          "example": "During practice, her classmate Ren naturally leaves useful pauses between sentences.",
+          "meaning": "停頓",
+          "word": "pauses"
+        },
+        {
+          "example": "Ella feels disappointed and assumes they think she is a poor reader.",
+          "meaning": "失望的",
+          "word": "disappointed"
+        },
+        {
+          "example": "The director explains that choosing a voice for one role is not the same as ranking everyone's overall ability.",
+          "meaning": "排名",
+          "word": "ranking"
+        },
+        {
+          "example": "She also notices that the shopkeeper's quick speech makes the busy market sound convincing.",
+          "meaning": "令人信服的",
+          "word": "convincing"
+        }
+      ]
+    }
+  ]
+}

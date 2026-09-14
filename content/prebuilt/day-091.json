@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-01",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 91,
+      "goal": "整合每日表與例外條件，避免重複執行。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "只有在……時",
+          "phrase": "only if"
+        },
+        {
+          "meaning": "做兩次",
+          "phrase": "done twice"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Before leaving for a three-day trip, the Wu family asks their neighbor Rosa to check two balcony plants. The instruction card says to check the soil each morning and water only if the top layer feels dry. It does not tell her to add water automatically every day.",
+          "explanation": "每日必做的是檢查，澆水需符合乾燥條件。",
+          "id": "d91-q1",
+          "options": [
+            "Call another neighbor.",
+            "Check the soil.",
+            "Move both plants indoors.",
+            "Give every pot a full cup."
+          ],
+          "prompt": "What does the card require every morning?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Rosa's son reads only the heading Daily Plant Care and thinks both pots need a full cup each morning. Rosa shows him the sentence below it. One pot is already wet from overnight rain, while the other is sheltered under the balcony roof.",
+          "explanation": "第二段說夜間雨使一盆已濕。",
+          "id": "d91-q2",
+          "options": [
+            "Rosa's son always filled it.",
+            "The family left a hose running.",
+            "It received overnight rain.",
+            "The chart was placed inside it."
+          ],
+          "prompt": "Why is one pot already wet?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "They mark a simple chart with checked, watered, or still damp for each pot. When Mr. Wu sends a message offering to ask another neighbor for help, Rosa replies with a photo of the chart so the same job will not be done twice.",
+          "explanation": "共享實際執行狀況可避免重複澆水。",
+          "id": "d91-q3",
+          "options": [
+            "To prevent another helper from repeating the job unknowingly.",
+            "To replace all written instructions.",
+            "To prove every plant has been watered daily.",
+            "To ask him to buy two more pots."
+          ],
+          "prompt": "Why send Mr. Wu a chart photo?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Before leaving for a three-day trip, the Wu family asks their neighbor Rosa to check two balcony plants. The instruction card says to check the soil each morning and water only if the top layer feels dry. It does not tell her to add water automatically every day.",
+          "explanation": "不經條件判斷就每天固定添加水。",
+          "id": "d91-q4",
+          "options": [
+            "By sending a photo first.",
+            "With help from a balcony roof.",
+            "Only after reading the soil chart.",
+            "Without checking whether the condition is met."
+          ],
+          "prompt": "What does 'automatically' mean in the first paragraph?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Before leaving for a three-day trip, the Wu family asks their neighbor Rosa to check two balcony plants. The instruction card says to check the soil each morning and water only if the top layer feels dry. It does not tell her to add water automatically every day.\n\nRosa's son reads only the heading Daily Plant Care and thinks both pots need a full cup each morning. Rosa shows him the sentence below it. One pot is already wet from overnight rain, while the other is sheltered under the balcony roof.\n\nThey mark a simple chart with checked, watered, or still damp for each pot. When Mr. Wu sends a message offering to ask another neighbor for help, Rosa replies with a photo of the chart so the same job will not be done twice.\n\nAt the end of the trip, the family thanks Rosa for following the conditions, not just the heading. The chart makes clear that checking daily and watering daily are two different instructions, even when they appear on the same card.",
+          "explanation": "檢查後仍濕則不加水，符合 only if 條件。",
+          "id": "d91-q5",
+          "options": [
+            "Watered without checking because of the heading.",
+            "Given two cups because two neighbors visited.",
+            "Checked and still damp, with no water added.",
+            "Left unchecked for all three days."
+          ],
+          "prompt": "Which record can follow the instruction for a damp pot?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Before leaving for a three-day trip, the Wu family asks their neighbor Rosa to check two balcony plants. The instruction card says to check the soil each morning and water only if the top layer feels dry. It does not tell her to add water automatically every day.\n\nRosa's son reads only the heading Daily Plant Care and thinks both pots need a full cup each morning. Rosa shows him the sentence below it. One pot is already wet from overnight rain, while the other is sheltered under the balcony roof.\n\nThey mark a simple chart with checked, watered, or still damp for each pot. When Mr. Wu sends a message offering to ask another neighbor for help, Rosa replies with a photo of the chart so the same job will not be done twice.\n\nAt the end of the trip, the family thanks Rosa for following the conditions, not just the heading. The chart makes clear that checking daily and watering daily are two different instructions, even when they appear on the same card.",
+          "explanation": "不能只看每日照料標題就忽略細則。",
+          "id": "d91-q6",
+          "options": [
+            "Treating a heading as if it replaces the detailed condition.",
+            "Reading a sentence before acting.",
+            "Checking separate items individually.",
+            "Using charts to communicate completed work."
+          ],
+          "prompt": "What reading error does the story warn about?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Before leaving for a three-day trip, the Wu family asks their neighbor Rosa to check two balcony plants. The instruction card says to check the soil each morning and water only if the top layer feels dry. It does not tell her to add water automatically every day.\n\nRosa's son reads only the heading Daily Plant Care and thinks both pots need a full cup each morning. Rosa shows him the sentence below it. One pot is already wet from overnight rain, while the other is sheltered under the balcony roof.\n\nThey mark a simple chart with checked, watered, or still damp for each pot. When Mr. Wu sends a message offering to ask another neighbor for help, Rosa replies with a photo of the chart so the same job will not be done twice.\n\nAt the end of the trip, the family thanks Rosa for following the conditions, not just the heading. The chart makes clear that checking daily and watering daily are two different instructions, even when they appear on the same card.",
+      "title": "Watering While They Are Away",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "The instruction card says to check the soil each morning and water only if the top layer feels dry.",
+          "meaning": "土壤",
+          "word": "soil"
+        },
+        {
+          "example": "The instruction card says to check the soil each morning and water only if the top layer feels dry.",
+          "meaning": "層",
+          "word": "layer"
+        },
+        {
+          "example": "One pot is already wet from overnight rain, while the other is sheltered under the balcony roof.",
+          "meaning": "有遮蔽的",
+          "word": "sheltered"
+        },
+        {
+          "example": "It does not tell her to add water automatically every day.",
+          "meaning": "自動地",
+          "word": "automatically"
+        },
+        {
+          "example": "At the end of the trip, the family thanks Rosa for following the conditions, not just the heading.",
+          "meaning": "條件",
+          "word": "conditions"
+        }
+      ]
+    }
+  ]
+}

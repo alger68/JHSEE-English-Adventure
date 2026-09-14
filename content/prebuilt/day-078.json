@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-18",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 78,
+      "goal": "理解採訪問題與回答資料是否對應。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "親眼見過",
+          "phrase": "personally seen"
+        },
+        {
+          "meaning": "褒貶兼有的意見",
+          "phrase": "mixed opinion"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "History group chat: Our talk asks why the old market matters to local residents. We will interview two shopkeepers tomorrow. Please ask about changes they have personally seen. We should distinguish their experiences from facts that need checking in the town records.",
+          "explanation": "明日採訪兩位店家。",
+          "id": "d78-q1",
+          "options": [
+            "The town bus drivers.",
+            "Every county mayor.",
+            "Only its classmates.",
+            "Two shopkeepers."
+          ],
+          "prompt": "Whom will the group interview?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Nina: Can I ask whether the market is the oldest one in the county? Teacher: You can ask what they know, but one person's memory will not establish that claim. For the talk, check the official historical record before describing it as the oldest.",
+          "explanation": "老師要求查正式歷史紀錄。",
+          "id": "d78-q2",
+          "options": [
+            "The official historical record.",
+            "Only one shopkeeper's memory.",
+            "The group's favorite photograph.",
+            "Bo's positive question."
+          ],
+          "prompt": "What should support the oldest-market claim?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Bo: My first question is, Do you love this wonderful market? Nina: That sounds as if we want only a positive answer. How about, What do you value about working here, and what would you change?",
+          "explanation": "先稱 wonderful 並問 love，容易引導正面答覆。",
+          "id": "d78-q3",
+          "options": [
+            "It asks about too many different markets.",
+            "It has no connection to the place.",
+            "Its wording encourages praise rather than an open response.",
+            "It cannot be spoken aloud."
+          ],
+          "prompt": "Why is Bo's first question problematic?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Teacher: Better. Ask permission before recording, and offer to take notes instead. When using a quotation, keep its meaning intact. We can explain a mixed opinion without turning it into either complete praise or complete dislike.",
+          "explanation": "引用應保留原意完整性。",
+          "id": "d78-q4",
+          "options": [
+            "Preserved without changing the meaning.",
+            "Shortened until all criticism disappears.",
+            "Repeated without the speaker's permission.",
+            "Translated into a different opinion."
+          ],
+          "prompt": "What does 'intact' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "History group chat: Our talk asks why the old market matters to local residents. We will interview two shopkeepers tomorrow. Please ask about changes they have personally seen. We should distinguish their experiences from facts that need checking in the town records.\n\nNina: Can I ask whether the market is the oldest one in the county? Teacher: You can ask what they know, but one person's memory will not establish that claim. For the talk, check the official historical record before describing it as the oldest.\n\nBo: My first question is, Do you love this wonderful market? Nina: That sounds as if we want only a positive answer. How about, What do you value about working here, and what would you change?\n\nTeacher: Better. Ask permission before recording, and offer to take notes instead. When using a quotation, keep its meaning intact. We can explain a mixed opinion without turning it into either complete praise or complete dislike.",
+          "explanation": "開放式詢問、徵錄音同意並忠實呈現。",
+          "id": "d78-q5",
+          "options": [
+            "Ask about valued features and desired changes, with recording permission.",
+            "Replace mixed opinions with a simple yes.",
+            "Treat memories as proof of every historical claim.",
+            "Record secretly and keep only praise."
+          ],
+          "prompt": "Which interview approach follows the advice?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "History group chat: Our talk asks why the old market matters to local residents. We will interview two shopkeepers tomorrow. Please ask about changes they have personally seen. We should distinguish their experiences from facts that need checking in the town records.\n\nNina: Can I ask whether the market is the oldest one in the county? Teacher: You can ask what they know, but one person's memory will not establish that claim. For the talk, check the official historical record before describing it as the oldest.\n\nBo: My first question is, Do you love this wonderful market? Nina: That sounds as if we want only a positive answer. How about, What do you value about working here, and what would you change?\n\nTeacher: Better. Ask permission before recording, and offer to take notes instead. When using a quotation, keep its meaning intact. We can explain a mixed opinion without turning it into either complete praise or complete dislike.",
+          "explanation": "採訪需對應目標並避免引導或扭曲。",
+          "id": "d78-q6",
+          "options": [
+            "Prove in advance that every resident loves the market.",
+            "Replace official records with attractive slogans.",
+            "Make every interview answer identical.",
+            "Gather useful evidence without leading or distorting responses."
+          ],
+          "prompt": "What is the main purpose of the chat?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "History group chat: Our talk asks why the old market matters to local residents. We will interview two shopkeepers tomorrow. Please ask about changes they have personally seen. We should distinguish their experiences from facts that need checking in the town records.\n\nNina: Can I ask whether the market is the oldest one in the county? Teacher: You can ask what they know, but one person's memory will not establish that claim. For the talk, check the official historical record before describing it as the oldest.\n\nBo: My first question is, Do you love this wonderful market? Nina: That sounds as if we want only a positive answer. How about, What do you value about working here, and what would you change?\n\nTeacher: Better. Ask permission before recording, and offer to take notes instead. When using a quotation, keep its meaning intact. We can explain a mixed opinion without turning it into either complete praise or complete dislike.",
+      "title": "The Interview We Can Actually Use",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "History group chat: Our talk asks why the old market matters to local residents.",
+          "meaning": "居民",
+          "word": "residents"
+        },
+        {
+          "example": "We should distinguish their experiences from facts that need checking in the town records.",
+          "meaning": "區分",
+          "word": "distinguish"
+        },
+        {
+          "example": "Teacher: You can ask what they know, but one person's memory will not establish that claim.",
+          "meaning": "確立",
+          "word": "establish"
+        },
+        {
+          "example": "When using a quotation, keep its meaning intact.",
+          "meaning": "引述",
+          "word": "quotation"
+        },
+        {
+          "example": "When using a quotation, keep its meaning intact.",
+          "meaning": "完整的",
+          "word": "intact"
+        }
+      ]
+    }
+  ]
+}

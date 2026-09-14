@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-28",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 88,
+      "goal": "以不同交通方案的總時間決定可行選項。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "預留五分鐘",
+          "phrase": "allow five minutes"
+        },
+        {
+          "meaning": "依列出的時間",
+          "phrase": "under the listed times"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "SHOW DETAILS: A school play begins at six. Audience members must be seated ten minutes earlier. Tickets have already been collected online. Jo leaves home at five ten with her grandmother, who needs a level entrance and walks at the same pace used in the route estimates.",
+          "explanation": "演出六點，須提前十分鐘就座。",
+          "id": "d88-q1",
+          "options": [
+            "5:15.",
+            "5:40.",
+            "6:00.",
+            "5:50."
+          ],
+          "prompt": "By what time must Jo and her grandmother be seated?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "ROUTE CARD: Bus A leaves their stop at five fifteen, reaches the main gate at five thirty-five, and requires a twelve-minute walk around to the level side gate. Bus B leaves at five twenty and reaches the side gate at five forty-five.",
+          "explanation": "路線中指定側門為平坦入口。",
+          "id": "d88-q2",
+          "options": [
+            "A gate beyond the ticket office.",
+            "Only the bus depot.",
+            "The main gate steps.",
+            "The side gate."
+          ],
+          "prompt": "Which gate has the level entrance they need?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "SHOW DETAILS: A school play begins at six. Audience members must be seated ten minutes earlier. Tickets have already been collected online. Jo leaves home at five ten with her grandmother, who needs a level entrance and walks at the same pace used in the route estimates.\n\nROUTE CARD: Bus A leaves their stop at five fifteen, reaches the main gate at five thirty-five, and requires a twelve-minute walk around to the level side gate. Bus B leaves at five twenty and reaches the side gate at five forty-five.\n\nARRIVAL NOTE: From either side-gate arrival, allow five minutes to reach the seats. Walking from home to the bus stop takes four minutes. Neither bus requires a transfer. The route estimates already include ordinary traffic, but unexpected delays are still possible.\n\nJo compares the complete trips. She chooses Bus B because it reaches the level entrance directly and meets the seating deadline under the listed times. She keeps the school's contact number ready and avoids assuming that a bus's arrival at a gate means she is already seated.",
+          "explanation": "5:10 加四分鐘＝5:14。",
+          "id": "d88-q3",
+          "options": [
+            "5:15.",
+            "5:10.",
+            "5:20.",
+            "5:14."
+          ],
+          "prompt": "When do they reach the bus stop if they leave as planned?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "SHOW DETAILS: A school play begins at six. Audience members must be seated ten minutes earlier. Tickets have already been collected online. Jo leaves home at five ten with her grandmother, who needs a level entrance and walks at the same pace used in the route estimates.\n\nROUTE CARD: Bus A leaves their stop at five fifteen, reaches the main gate at five thirty-five, and requires a twelve-minute walk around to the level side gate. Bus B leaves at five twenty and reaches the side gate at five forty-five.\n\nARRIVAL NOTE: From either side-gate arrival, allow five minutes to reach the seats. Walking from home to the bus stop takes four minutes. Neither bus requires a transfer. The route estimates already include ordinary traffic, but unexpected delays are still possible.\n\nJo compares the complete trips. She chooses Bus B because it reaches the level entrance directly and meets the seating deadline under the listed times. She keeps the school's contact number ready and avoids assuming that a bus's arrival at a gate means she is already seated.",
+          "explanation": "需加上到側門與入座的後續步行。",
+          "id": "d88-q4",
+          "options": [
+            "Bus A leaves after the play.",
+            "The main gate is already their seat.",
+            "They still need to walk to the level gate and then the seats.",
+            "Bus A requires two transfers."
+          ],
+          "prompt": "Why isn't Bus A's earlier gate arrival enough to decide?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "ARRIVAL NOTE: From either side-gate arrival, allow five minutes to reach the seats. Walking from home to the bus stop takes four minutes. Neither bus requires a transfer. The route estimates already include ordinary traffic, but unexpected delays are still possible.",
+          "explanation": "ARRIVAL NOTE 要求預留五分鐘。",
+          "id": "d88-q5",
+          "options": [
+            "Four minutes.",
+            "Twelve minutes.",
+            "Five minutes.",
+            "Ten minutes."
+          ],
+          "prompt": "How long is the walk from the side gate to the seats?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "SHOW DETAILS: A school play begins at six. Audience members must be seated ten minutes earlier. Tickets have already been collected online. Jo leaves home at five ten with her grandmother, who needs a level entrance and walks at the same pace used in the route estimates.\n\nROUTE CARD: Bus A leaves their stop at five fifteen, reaches the main gate at five thirty-five, and requires a twelve-minute walk around to the level side gate. Bus B leaves at five twenty and reaches the side gate at five forty-five.\n\nARRIVAL NOTE: From either side-gate arrival, allow five minutes to reach the seats. Walking from home to the bus stop takes four minutes. Neither bus requires a transfer. The route estimates already include ordinary traffic, but unexpected delays are still possible.\n\nJo compares the complete trips. She chooses Bus B because it reaches the level entrance directly and meets the seating deadline under the listed times. She keeps the school's contact number ready and avoids assuming that a bus's arrival at a gate means she is already seated.",
+          "explanation": "5:35＋12＋5＝5:52。",
+          "id": "d88-q6",
+          "options": [
+            "5:50.",
+            "5:35.",
+            "5:52.",
+            "5:47."
+          ],
+          "prompt": "What seating time does Route A produce?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "ARRIVAL NOTE: From either side-gate arrival, allow five minutes to reach the seats. Walking from home to the bus stop takes four minutes. Neither bus requires a transfer. The route estimates already include ordinary traffic, but unexpected delays are still possible.",
+          "explanation": "一般估計以外未預期的延誤。",
+          "id": "d88-q7",
+          "options": [
+            "Not predicted in the ordinary plan.",
+            "Required for every passenger.",
+            "Already included as a fixed twelve-minute walk.",
+            "Guaranteed to happen at six."
+          ],
+          "prompt": "What does 'unexpected' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "SHOW DETAILS: A school play begins at six. Audience members must be seated ten minutes earlier. Tickets have already been collected online. Jo leaves home at five ten with her grandmother, who needs a level entrance and walks at the same pace used in the route estimates.\n\nROUTE CARD: Bus A leaves their stop at five fifteen, reaches the main gate at five thirty-five, and requires a twelve-minute walk around to the level side gate. Bus B leaves at five twenty and reaches the side gate at five forty-five.\n\nARRIVAL NOTE: From either side-gate arrival, allow five minutes to reach the seats. Walking from home to the bus stop takes four minutes. Neither bus requires a transfer. The route estimates already include ordinary traffic, but unexpected delays are still possible.\n\nJo compares the complete trips. She chooses Bus B because it reaches the level entrance directly and meets the seating deadline under the listed times. She keeps the school's contact number ready and avoids assuming that a bus's arrival at a gate means she is already seated.",
+          "explanation": "5:45 到側門，再五分鐘恰好期限，沒有緩衝。",
+          "id": "d88-q8",
+          "options": [
+            "It reaches the seats at 5:20 with thirty minutes left.",
+            "Its bus stop walk takes twelve minutes.",
+            "5:45 plus five minutes equals the 5:50 seating deadline.",
+            "It skips the required level entrance."
+          ],
+          "prompt": "Why does Route B meet the requirement only narrowly?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "SHOW DETAILS: A school play begins at six. Audience members must be seated ten minutes earlier. Tickets have already been collected online. Jo leaves home at five ten with her grandmother, who needs a level entrance and walks at the same pace used in the route estimates.\n\nROUTE CARD: Bus A leaves their stop at five fifteen, reaches the main gate at five thirty-five, and requires a twelve-minute walk around to the level side gate. Bus B leaves at five twenty and reaches the side gate at five forty-five.\n\nARRIVAL NOTE: From either side-gate arrival, allow five minutes to reach the seats. Walking from home to the bus stop takes four minutes. Neither bus requires a transfer. The route estimates already include ordinary traffic, but unexpected delays are still possible.\n\nJo compares the complete trips. She chooses Bus B because it reaches the level entrance directly and meets the seating deadline under the listed times. She keeps the school's contact number ready and avoids assuming that a bus's arrival at a gate means she is already seated.",
+          "explanation": "計畫按估時可行，但非無條件保證。",
+          "id": "d88-q9",
+          "options": [
+            "Both routes place them in their seats by 5:35.",
+            "Bus B fits the listed schedule, while a delay could still make them late.",
+            "Bus B guarantees timely seating in all traffic.",
+            "Bus A is better solely because it reaches a gate earlier."
+          ],
+          "prompt": "Which conclusion is justified?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "SHOW DETAILS: A school play begins at six. Audience members must be seated ten minutes earlier. Tickets have already been collected online. Jo leaves home at five ten with her grandmother, who needs a level entrance and walks at the same pace used in the route estimates.\n\nROUTE CARD: Bus A leaves their stop at five fifteen, reaches the main gate at five thirty-five, and requires a twelve-minute walk around to the level side gate. Bus B leaves at five twenty and reaches the side gate at five forty-five.\n\nARRIVAL NOTE: From either side-gate arrival, allow five minutes to reach the seats. Walking from home to the bus stop takes four minutes. Neither bus requires a transfer. The route estimates already include ordinary traffic, but unexpected delays are still possible.\n\nJo compares the complete trips. She chooses Bus B because it reaches the level entrance directly and meets the seating deadline under the listed times. She keeps the school's contact number ready and avoids assuming that a bus's arrival at a gate means she is already seated.",
+      "title": "Boss: Arriving Before the Curtain",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "Audience members must be seated ten minutes earlier.",
+          "meaning": "觀眾",
+          "word": "audience"
+        },
+        {
+          "example": "Audience members must be seated ten minutes earlier.",
+          "meaning": "就座",
+          "word": "seated"
+        },
+        {
+          "example": "Jo leaves home at five ten with her grandmother, who needs a level entrance and walks at the same pace used in the route estimates.",
+          "meaning": "估計時間",
+          "word": "estimates"
+        },
+        {
+          "example": "Neither bus requires a transfer.",
+          "meaning": "轉乘",
+          "word": "transfer"
+        },
+        {
+          "example": "The route estimates already include ordinary traffic, but unexpected delays are still possible.",
+          "meaning": "未預期的",
+          "word": "unexpected"
+        }
+      ]
+    }
+  ]
+}

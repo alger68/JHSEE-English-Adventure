@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-11-29",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 89,
+      "goal": "用精確字詞描述紀錄、估計與時間限制。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而不是",
+          "phrase": "rather than"
+        },
+        {
+          "meaning": "沒有階梯",
+          "phrase": "no steps"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "A message from the ticket company accepting a date change is a confirmation. A travel time calculated from ordinary conditions is an estimate. A passenger changing from one bus to another makes a transfer. A flat entrance with no steps is level.",
+          "explanation": "確認是公司已接受變更的訊息。",
+          "id": "d89-q1",
+          "options": [
+            "A family's request alone.",
+            "The company's message accepting the change.",
+            "A guess about the weather.",
+            "A traffic estimate."
+          ],
+          "prompt": "What confirms a changed booking?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "A message from the ticket company accepting a date change is a confirmation. A travel time calculated from ordinary conditions is an estimate. A passenger changing from one bus to another makes a transfer. A flat entrance with no steps is level.",
+          "explanation": "轉乘指從一班車换到另一班。",
+          "id": "d89-q2",
+          "options": [
+            "Receiving a ticket message.",
+            "Entering through a flat gate.",
+            "Changing from one bus to another.",
+            "Meeting an unknown road closure."
+          ],
+          "prompt": "Which note describes a transfer?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The final note describes a road closure that was not known when the plan was made. Students choose unexpected. One pair first uses estimate, but then notices that the sentence describes a new event rather than an approximate amount of time.",
+          "explanation": "線索描述未料到的事件，不是估計數量。",
+          "id": "d89-q3",
+          "options": [
+            "Every estimated time is exactly correct.",
+            "The note names an unforeseen event, not an approximate travel time.",
+            "The journey has already ended.",
+            "Roads cannot close during a journey."
+          ],
+          "prompt": "Why is estimate wrong for the road-closure note?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "A message from the ticket company accepting a date change is a confirmation. A travel time calculated from ordinary conditions is an estimate. A passenger changing from one bus to another makes a transfer. A flat entrance with no steps is level.",
+          "explanation": "入口無階梯，level 在此指平坦。",
+          "id": "d89-q4",
+          "options": [
+            "A score on a reading test.",
+            "The number of buses in a route.",
+            "Flat rather than reached by steps.",
+            "A higher ticket price."
+          ],
+          "prompt": "What does 'level' mean in the entrance note?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Before finishing, each student writes a question asking what remains uncertain after a booking is confirmed. The answers mention traffic and weather. A confirmed reservation does not confirm every detail of the journey, and the group underlines that distinction in its notes.",
+          "explanation": "訂位確認未保證未來路況。",
+          "id": "d89-q5",
+          "options": [
+            "Traffic conditions on the journey.",
+            "The existence of the confirmation already received.",
+            "Whether the company accepted that specific change.",
+            "The wording of the acceptance message."
+          ],
+          "prompt": "What can remain uncertain after a confirmed booking?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "The review club places five cards on the board: confirmation, estimate, level, transfer, and unexpected. Students must match them with short notes from a pretend journey. The teacher says the notes describe different kinds of information, even though they all belong to one trip.\n\nA message from the ticket company accepting a date change is a confirmation. A travel time calculated from ordinary conditions is an estimate. A passenger changing from one bus to another makes a transfer. A flat entrance with no steps is level.\n\nThe final note describes a road closure that was not known when the plan was made. Students choose unexpected. One pair first uses estimate, but then notices that the sentence describes a new event rather than an approximate amount of time.\n\nBefore finishing, each student writes a question asking what remains uncertain after a booking is confirmed. The answers mention traffic and weather. A confirmed reservation does not confirm every detail of the journey, and the group underlines that distinction in its notes.",
+          "explanation": "同一行程資訊的確定程度不同。",
+          "id": "d89-q6",
+          "options": [
+            "Confirmed details, estimates, and possible surprises.",
+            "Printed notes from all electronic files.",
+            "The size of buses and classrooms.",
+            "Every booking from every type of ticket price."
+          ],
+          "prompt": "What does the activity help distinguish?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The review club places five cards on the board: confirmation, estimate, level, transfer, and unexpected. Students must match them with short notes from a pretend journey. The teacher says the notes describe different kinds of information, even though they all belong to one trip.\n\nA message from the ticket company accepting a date change is a confirmation. A travel time calculated from ordinary conditions is an estimate. A passenger changing from one bus to another makes a transfer. A flat entrance with no steps is level.\n\nThe final note describes a road closure that was not known when the plan was made. Students choose unexpected. One pair first uses estimate, but then notices that the sentence describes a new event rather than an approximate amount of time.\n\nBefore finishing, each student writes a question asking what remains uncertain after a booking is confirmed. The answers mention traffic and weather. A confirmed reservation does not confirm every detail of the journey, and the group underlines that distinction in its notes.",
+      "title": "The Missing Number Review",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "The review club places five cards on the board: confirmation, estimate, level, transfer, and unexpected.",
+          "meaning": "確認通知",
+          "word": "confirmation"
+        },
+        {
+          "example": "The review club places five cards on the board: confirmation, estimate, level, transfer, and unexpected.",
+          "meaning": "估計",
+          "word": "estimate"
+        },
+        {
+          "example": "The review club places five cards on the board: confirmation, estimate, level, transfer, and unexpected.",
+          "meaning": "平坦的",
+          "word": "level"
+        },
+        {
+          "example": "The review club places five cards on the board: confirmation, estimate, level, transfer, and unexpected.",
+          "meaning": "轉乘",
+          "word": "transfer"
+        },
+        {
+          "example": "The review club places five cards on the board: confirmation, estimate, level, transfer, and unexpected.",
+          "meaning": "未預期的",
+          "word": "unexpected"
+        }
+      ]
+    }
+  ]
+}
