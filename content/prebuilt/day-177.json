@@ -12,12 +12,12 @@
   "lessons": [
     {
       "day": 177,
-      "goal": "辨識主觀評價、標籤影響及小型活動的推論限制。",
+      "goal": "比較作答版面、回答長度與內容品質，辨識可能影響。",
       "minutes": 10,
       "phrases": [
         {
-          "meaning": "直到之後",
-          "phrase": "until afterward"
+          "meaning": "字數限制",
+          "phrase": "word limit"
         },
         {
           "meaning": "後續活動",
@@ -27,121 +27,121 @@
       "questions": [
         {
           "answer": 3,
-          "evidence": "In a fictional classroom activity, a teacher pours the same apple juice into two identical cups. She labels one 'Garden Choice' and the other 'Regular Juice.' Students know they are joining a lesson about descriptions, but they are not told that both cups contain the same drink until afterward.",
-          "explanation": "活動設定同種果汁與相同杯子，只標籤不同。",
+          "evidence": "In a fictional classroom activity, two groups receive the same prompt: describe the school garden. One sheet provides two lines for an answer, while the other provides half a page. Neither gives a word limit. The teacher wants to explore whether the space offered may affect responses.",
+          "explanation": "兩張題目相同，只回答欄大小不同。",
           "id": "d177-q1",
           "options": [
-            "The source of the liquid.",
-            "The kind of juice.",
-            "The cup size.",
-            "Their labels."
+            "The name of the school.",
+            "The question about the garden.",
+            "A stated word limit.",
+            "The space provided for an answer."
           ],
-          "prompt": "What differs between the two cups?",
+          "prompt": "What differs between the two sheets?",
           "skill": "細節理解",
           "tier": 1
         },
         {
           "answer": 1,
-          "evidence": "Several students say Garden Choice tastes fresher. Others notice no difference, and a few prefer Regular Juice. The class records these reports without treating one person's taste as a mistake. The labels, rather than the liquid, were different.",
-          "explanation": "有人偏好另一杯，也有人沒感覺差異。",
+          "evidence": "Students using the larger box generally write more, but their answers vary. Some add useful observations, while others repeat a point. The class separates answer length from the amount of information. More words do not automatically mean a better description.",
+          "explanation": "有人增加觀察，有人只是重複。",
           "id": "d177-q2",
           "options": [
-            "Yes; every student chose it.",
-            "No; preferences varied.",
-            "No; everyone preferred Regular Juice.",
-            "The class recorded no preferences."
+            "Yes; every extra word added a new fact.",
+            "No; some repeated a point.",
+            "No; all long answers were unrelated.",
+            "The class read no responses."
           ],
-          "prompt": "Did all students prefer Garden Choice?",
+          "prompt": "Did every longer response add useful information?",
           "skill": "細節理解",
           "tier": 1
         },
         {
           "answer": 1,
-          "evidence": "After explaining the setup, the teacher asks whether the activity proves that everyone is influenced by labels in the same way. The students say no. Their small class gave varied answers, and the order of tasting may also have affected the reports.",
-          "explanation": "學生發現順序也可能影響感受，尚不能排除。",
+          "evidence": "After discussing the setup, students ask whether the groups already differed in writing habits or garden knowledge. They suggest a follow-up with neutral wording and a more careful comparison of the writers. The activity raises a question about presentation; it does not prove that a larger box improves every answer or that every short response lacks detail.",
+          "explanation": "組員背景也可能影響回答，不能全歸因欄位大小。",
           "id": "d177-q3",
           "options": [
-            "It proves the liquids were different.",
-            "It is another possible influence on reports.",
-            "It determines every shopper's choice.",
-            "It replaces the need to explain the setup."
+            "They prove the larger box has no effect.",
+            "They could also influence the groups' responses.",
+            "They eliminate the need to read answers.",
+            "They make the prompts different."
           ],
-          "prompt": "Why is tasting order mentioned?",
+          "prompt": "Why discuss earlier writing habits and garden knowledge?",
           "skill": "推論判讀",
           "tier": 1
         },
         {
           "answer": 0,
-          "evidence": "For a follow-up, they suggest using neutral labels and changing the tasting order between groups. Their goal is to separate possible influences more carefully, not to turn one classroom activity into a rule about all shoppers.",
-          "explanation": "中性標籤避免先用好壞描述引導評價。",
+          "evidence": "After discussing the setup, students ask whether the groups already differed in writing habits or garden knowledge. They suggest a follow-up with neutral wording and a more careful comparison of the writers. The activity raises a question about presentation; it does not prove that a larger box improves every answer or that every short response lacks detail.",
+          "explanation": "中性用語避免先引導學生朝偏好的答案寫。",
           "id": "d177-q4",
           "options": [
-            "Avoiding descriptions that favor one sample.",
-            "Promising a fresher taste.",
-            "Printed only in green.",
-            "Naming the more expensive juice."
+            "Not pushing writers toward a favored kind of answer.",
+            "Adding a strict minimum of one page.",
+            "Giving the correct description in advance.",
+            "Requiring only praise for the garden."
           ],
-          "prompt": "What does 'neutral' mean for the new labels?",
+          "prompt": "What does 'neutral' mean for the wording?",
           "skill": "字義推測",
           "tier": 1
         },
         {
           "answer": 2,
-          "evidence": "In a fictional classroom activity, a teacher pours the same apple juice into two identical cups. She labels one 'Garden Choice' and the other 'Regular Juice.' Students know they are joining a lesson about descriptions, but they are not told that both cups contain the same drink until afterward.\n\nSeveral students say Garden Choice tastes fresher. Others notice no difference, and a few prefer Regular Juice. The class records these reports without treating one person's taste as a mistake. The labels, rather than the liquid, were different.\n\nAfter explaining the setup, the teacher asks whether the activity proves that everyone is influenced by labels in the same way. The students say no. Their small class gave varied answers, and the order of tasting may also have affected the reports.\n\nFor a follow-up, they suggest using neutral labels and changing the tasting order between groups. Their goal is to separate possible influences more carefully, not to turn one classroom activity into a rule about all shoppers.",
-          "explanation": "只能報告本班此安排下不同反應，不能推及全部人或宣稱果汁不同。",
+          "evidence": "In a fictional classroom activity, two groups receive the same prompt: describe the school garden. One sheet provides two lines for an answer, while the other provides half a page. Neither gives a word limit. The teacher wants to explore whether the space offered may affect responses.\n\nStudents using the larger box generally write more, but their answers vary. Some add useful observations, while others repeat a point. The class separates answer length from the amount of information. More words do not automatically mean a better description.\n\nAfter discussing the setup, students ask whether the groups already differed in writing habits or garden knowledge. They suggest a follow-up with neutral wording and a more careful comparison of the writers. The activity raises a question about presentation; it does not prove that a larger box improves every answer or that every short response lacks detail.",
+          "explanation": "本次觀察只支持較長回答，不等同品質必然提升。",
           "id": "d177-q5",
           "options": [
-            "Tasting order had no possible effect.",
-            "All shoppers prefer a garden label.",
-            "Students gave different opinions about identical juice under different labels.",
-            "The Garden Choice liquid was chemically fresher."
+            "The two groups had identical earlier knowledge.",
+            "Larger boxes always produce better descriptions.",
+            "The larger-box group generally wrote more, but length did not guarantee information quality.",
+            "Short responses never contain useful observations."
           ],
-          "prompt": "Which conclusion stays within the reported results?",
+          "prompt": "Which conclusion is supported by the described activity?",
           "skill": "推論判讀",
           "tier": 2
         },
         {
           "answer": 2,
-          "evidence": "For a follow-up, they suggest using neutral labels and changing the tasting order between groups. Their goal is to separate possible influences more carefully, not to turn one classroom activity into a rule about all shoppers.",
-          "explanation": "後續設計試圖分開標籤與品嚐順序等可能影響。",
+          "evidence": "After discussing the setup, students ask whether the groups already differed in writing habits or garden knowledge. They suggest a follow-up with neutral wording and a more careful comparison of the writers. The activity raises a question about presentation; it does not prove that a larger box improves every answer or that every short response lacks detail.",
+          "explanation": "需進一步區分版面與背景因素的影響。",
           "id": "d177-q6",
           "options": [
-            "To repeat an advertising claim as a fact.",
-            "To prove students who disagree have bad taste.",
-            "To distinguish possible influences more carefully.",
-            "To eliminate all differences among people."
+            "To stop students from writing short answers.",
+            "To prove the first interpretation without checking alternatives.",
+            "To separate layout from other possible influences on responses.",
+            "To replace observations with a desired result."
           ],
-          "prompt": "Why does the class plan a follow-up?",
+          "prompt": "Why plan a more careful follow-up?",
           "skill": "主旨統整",
           "tier": 3
         }
       ],
-      "story": "In a fictional classroom activity, a teacher pours the same apple juice into two identical cups. She labels one 'Garden Choice' and the other 'Regular Juice.' Students know they are joining a lesson about descriptions, but they are not told that both cups contain the same drink until afterward.\n\nSeveral students say Garden Choice tastes fresher. Others notice no difference, and a few prefer Regular Juice. The class records these reports without treating one person's taste as a mistake. The labels, rather than the liquid, were different.\n\nAfter explaining the setup, the teacher asks whether the activity proves that everyone is influenced by labels in the same way. The students say no. Their small class gave varied answers, and the order of tasting may also have affected the reports.\n\nFor a follow-up, they suggest using neutral labels and changing the tasting order between groups. Their goal is to separate possible influences more carefully, not to turn one classroom activity into a rule about all shoppers.",
-      "title": "The Two Cups with Different Labels",
+      "story": "In a fictional classroom activity, two groups receive the same prompt: describe the school garden. One sheet provides two lines for an answer, while the other provides half a page. Neither gives a word limit. The teacher wants to explore whether the space offered may affect responses.\n\nStudents using the larger box generally write more, but their answers vary. Some add useful observations, while others repeat a point. The class separates answer length from the amount of information. More words do not automatically mean a better description.\n\nAfter discussing the setup, students ask whether the groups already differed in writing habits or garden knowledge. They suggest a follow-up with neutral wording and a more careful comparison of the writers. The activity raises a question about presentation; it does not prove that a larger box improves every answer or that every short response lacks detail.",
+      "title": "The Answer Box That Looked Too Small",
       "type": "科普閱讀",
       "words": [
         {
-          "example": "In a fictional classroom activity, a teacher pours the same apple juice into two identical cups.",
-          "meaning": "完全相同的",
-          "word": "identical"
+          "example": "In a fictional classroom activity, two groups receive the same prompt: describe the school garden.",
+          "meaning": "作答提示",
+          "word": "prompt"
         },
         {
-          "example": "Several students say Garden Choice tastes fresher.",
-          "meaning": "更新鮮的",
-          "word": "fresher"
+          "example": "Some add useful observations, while others repeat a point.",
+          "meaning": "觀察",
+          "word": "observations"
         },
         {
-          "example": "After explaining the setup, the teacher asks whether the activity proves that everyone is influenced by labels in the same way.",
+          "example": "After discussing the setup, students ask whether the groups already differed in writing habits or garden knowledge.",
           "meaning": "活動安排",
           "word": "setup"
         },
         {
-          "example": "Their small class gave varied answers, and the order of tasting may also have affected the reports.",
-          "meaning": "多樣的",
-          "word": "varied"
+          "example": "The teacher wants to explore whether the space offered may affect responses.",
+          "meaning": "回答",
+          "word": "responses"
         },
         {
-          "example": "For a follow-up, they suggest using neutral labels and changing the tasting order between groups.",
+          "example": "They suggest a follow-up with neutral wording and a more careful comparison of the writers.",
           "meaning": "中性的",
           "word": "neutral"
         }

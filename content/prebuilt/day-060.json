@@ -28,7 +28,7 @@
         {
           "answer": 0,
           "evidence": "LUNCH MENU: Rice boxes cost fifty dollars each; vegetable wraps cost forty. Every rice box contains chicken. Wraps contain no meat. Orders of four hundred dollars or more receive free delivery. Smaller orders have a thirty-dollar delivery fee, with no other charges.",
-          "explanation": "菜单明說 wraps 無肉，飯盒含雞肉。",
+          "explanation": "菜單明說 wraps 無肉，飯盒含雞肉。",
           "id": "d60-q1",
           "options": [
             "The vegetable wrap.",

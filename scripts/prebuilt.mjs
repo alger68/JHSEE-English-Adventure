@@ -98,6 +98,37 @@ export function prepareRelease(published, documents, date) {
   return {action:'create-daily',filename:`content/daily/${date}.json`,data:{version:2,publishDate:date,lessons:structuredClone(doc.lessons)}};
 }
 
+// Resolve reminders against every published daily or prebuilt lesson.
+// Completion ends content generation; it does not erase the reading schedule.
+export function prepareDailyTask(root,date=taipeiDate()) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isFinite(Date.parse(date)) || new Date(date).toISOString().slice(0,10)!==date) fail('Invalid reminder date');
+  const published=loadContent(root);
+  const existing=new Map(published.lessons.map(l=>[l.day,l]));
+  const dailyFile=path.join(root,'content/daily',date+'.json');
+  if(fs.existsSync(dailyFile)){
+    const doc=JSON.parse(fs.readFileSync(dailyFile,'utf8'));
+    const lesson=doc.lessons[0];
+    if(!isDeepStrictEqual(existing.get(lesson.day),lesson)) fail('Daily reminder differs from published content');
+    return {action:'reuse-published',reminderDate:date,lesson:structuredClone(lesson)};
+  }
+  const directory=path.join(root,'content/prebuilt');
+  const docs=fs.existsSync(directory)?fs.readdirSync(directory).filter(n=>/^day-\d{3}\.json$/.test(n)).sort().map(n=>JSON.parse(fs.readFileSync(path.join(directory,n),'utf8'))):[];
+  const matching=docs.filter(d=>d.plannedPublishDate===date && existing.has(d.lessons?.[0]?.day));
+  if(matching.length>1) fail('Ambiguous published reminder date');
+  if(matching.length){
+    const lesson=matching[0].lessons[0];
+    if(!isDeepStrictEqual(existing.get(lesson.day),lesson)) fail('Prebuilt reminder differs from published content');
+    return {action:'reuse-published',reminderDate:date,lesson:structuredClone(lesson)};
+  }
+  if(published.lessons.length===250){
+    const dates=docs.filter(d=>existing.has(d.lessons?.[0]?.day)).map(d=>d.plannedPublishDate).filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)).sort();
+    const end=dates.at(-1)||published.lastPublishDate||date;
+    const offset=Math.max(0,Math.floor((Date.parse(date)-Date.parse(end))/86400000)-1);
+    return {action:'review-only',reminderDate:date,courseComplete:true,lesson:structuredClone(published.lessons[offset%250])};
+  }
+  return prepareRelease(published,readBatch(root),date);
+}
+
 function main() {
   const root = fileURLToPath(new URL('../',import.meta.url));
   const published = loadContent(root);
@@ -112,7 +143,7 @@ function main() {
     console.log(JSON.stringify(report,null,2));
   } else {
     const docs = readBatch(root);
-    const output = args[0]==='--release'?prepareRelease(published,docs,taipeiDate()):validateBatch(published,docs);
+    const output = args[0]==='--release'?prepareDailyTask(root,taipeiDate()):validateBatch(published,docs);
     console.log(JSON.stringify(output,null,2));
   }
 }

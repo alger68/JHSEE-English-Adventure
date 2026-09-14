@@ -28,7 +28,7 @@
         {
           "answer": 0,
           "evidence": "SHARED PRINTER NOTICE: The library printer handles ordinary student jobs in the order received. A job enters the queue only after the desk has checked the file and confirmed the page count. Uploading a file by itself does not reserve a place.",
-          "explanation": "審檔並確認頁数後才入列。",
+          "explanation": "審檔並確認頁數後才入列。",
           "id": "d136-q1",
           "options": [
             "After the file check and page-count confirmation.",

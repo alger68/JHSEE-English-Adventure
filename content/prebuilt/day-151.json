@@ -118,7 +118,7 @@
         {
           "answer": 3,
           "evidence": "BOOK CARDS: Harbor Secret is an illustrated mystery story with eighty pages. Animals Nearby is a factual guide with one hundred and twenty pages, maps, and animal photographs. Beyond the Clouds is a ninety-page factual space guide with no pictures. All three are available from the library.",
-          "explanation": "與pictures/illustrations語境对应有插圖。",
+          "explanation": "與pictures/illustrations語境對應有插圖。",
           "id": "d151-q7",
           "options": [
             "Written only as a list of facts.",

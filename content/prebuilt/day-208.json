@@ -88,7 +88,7 @@
         {
           "answer": 3,
           "evidence": "For the museum game, Rafi must cite clues supporting a location. He rejects the storage room even though it is dry and has a clock, because it fails the visitor-access requirement. Meeting two of three requirements is not enough. At the end, he checks each answer against every relevant condition and underlines any step that depends on information the passage never supplied.",
-          "explanation": "必要條件需全數满足，少一項就可能選錯。",
+          "explanation": "必要條件需全數滿足，少一項就可能選錯。",
           "id": "d208-q5",
           "options": [
             "He would prove all locations are equally suitable.",

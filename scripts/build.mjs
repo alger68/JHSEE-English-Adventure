@@ -4,9 +4,10 @@ import vm from 'node:vm';
 import crypto from 'node:crypto';
 import {loadContent} from './content.mjs';
 import {loadExams} from './exams.mjs';
+import {renderCourse} from './export-course.mjs';
 const root=path.resolve(import.meta.dirname,'..');
 const {lessons,revision,lastPublishDate,lastDailyPublishDate,questionCount}=loadContent(root);
-const meta={version:'3.1',revision,lessonCount:lessons.length,questionCount,targetLessonCount:250,accessMode:'all-published',lastPublishDate,lastDailyPublishDate};
+const meta={version:'3.2',revision,lessonCount:lessons.length,questionCount,targetLessonCount:250,accessMode:'all-published',lastPublishDate,lastDailyPublishDate};
 const data='// Generated from seed, daily content and explicit release manifests.\nconst lessonMeta = '+JSON.stringify(meta)+';\nconst lessons = '+JSON.stringify(lessons,null,2)+';\n';
 fs.writeFileSync(path.join(root,'data.js'),data);
 const exams=loadExams(root);
@@ -24,5 +25,15 @@ for(const f of ['style.css',...scripts]){
 fs.writeFileSync(path.join(root,'dist','index.html'),html);
 fs.writeFileSync(path.join(root,'dist','catalog.json'),JSON.stringify(meta,null,2)+'\n');
 fs.writeFileSync(path.join(root,'dist','.nojekyll'),'');
+if (lessons.length===250) {
+ const directory=path.join(root,'dist','downloads');
+ fs.mkdirSync(directory,{recursive:true});
+ fs.mkdirSync(path.join(root,'downloads'),{recursive:true});
+ for(const [name,content] of Object.entries(renderCourse(lessons,meta))) {
+  fs.writeFileSync(path.join(directory,name),content);
+  fs.writeFileSync(path.join(root,'downloads',name),content);
+ }
+}
+
 console.log(`Built ${lessons.length} lessons, ${questionCount} questions; latest publication: ${lastPublishDate||'seed week'}; access: all-published; revision ${revision}.`);
 console.log(`Included ${exams.length} official English reading papers, ${exams.reduce((n,e)=>n+e.questionCount,0)} questions.`);
