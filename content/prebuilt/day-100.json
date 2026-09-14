@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-10",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 100,
+      "goal": "辨認比例的分母，避免只比件數。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在……之中",
+          "phrase": "out of"
+        },
+        {
+          "meaning": "每項一次",
+          "phrase": "each item once"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "During a school waste-sorting activity, two classes inspect their recycling bins before collection. Class A finds twenty correctly sorted items out of twenty-five. Class B finds twenty-four correctly sorted items out of forty. The classes use the same sorting checklist and count each item once.",
+          "explanation": "Class A 共檢查二十五件。",
+          "id": "d100-q1",
+          "options": [
+            "Forty.",
+            "Twenty.",
+            "Twenty-five.",
+            "Twenty-four."
+          ],
+          "prompt": "How many items does Class A check?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "During a school waste-sorting activity, two classes inspect their recycling bins before collection. Class A finds twenty correctly sorted items out of twenty-five. Class B finds twenty-four correctly sorted items out of forty. The classes use the same sorting checklist and count each item once.",
+          "explanation": "24 大於20，單看件數 B 多。",
+          "id": "d100-q2",
+          "options": [
+            "Class B.",
+            "Neither has any.",
+            "Class A.",
+            "Both have twenty."
+          ],
+          "prompt": "Which class has more correctly sorted items by count?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "A student says Class B did better because twenty-four is larger than twenty. Another asks to consider how many items were checked in each class. Having more correct items does not necessarily mean a larger share of the bin was sorted correctly.",
+          "explanation": "分母不同，需用比例比較正確分類程度。",
+          "id": "d100-q3",
+          "options": [
+            "Every recycling item has the same price.",
+            "The checklist changes for each item.",
+            "Percentages remove the need for any count.",
+            "The classes inspect different total numbers of items."
+          ],
+          "prompt": "Why compare shares as well as counts?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "A student says Class B did better because twenty-four is larger than twenty. Another asks to consider how many items were checked in each class. Having more correct items does not necessarily mean a larger share of the bin was sorted correctly.",
+          "explanation": "此處指正確項目占全部檢查項目的比例。",
+          "id": "d100-q4",
+          "options": [
+            "An equal lunch portion.",
+            "A message sent online.",
+            "An object borrowed from another class.",
+            "The proportion belonging to a category."
+          ],
+          "prompt": "What does 'share' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "During a school waste-sorting activity, two classes inspect their recycling bins before collection. Class A finds twenty correctly sorted items out of twenty-five. Class B finds twenty-four correctly sorted items out of forty. The classes use the same sorting checklist and count each item once.\n\nA student says Class B did better because twenty-four is larger than twenty. Another asks to consider how many items were checked in each class. Having more correct items does not necessarily mean a larger share of the bin was sorted correctly.\n\nClass A's share is eighty percent, while Class B's is sixty percent. The report includes both counts and percentages. It describes only the bins examined on that day, since neither group has kept a long-term record of its usual sorting habits.\n\nBoth classes choose one common mistake from their own bin and make a clearer label for the following week. The goal is to improve decisions at the bin, not turn one small check into a permanent label about which class is more responsible.",
+          "explanation": "A 20/25＝80%；B 24/40＝60%。",
+          "id": "d100-q5",
+          "options": [
+            "Both have 80% correct because their counts exceed twenty.",
+            "B has 100% correct because twenty-four is larger.",
+            "A has 80% correct and B has 60% correct.",
+            "A has 60% correct and B has 80% correct."
+          ],
+          "prompt": "Which comparison is accurate?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Both classes choose one common mistake from their own bin and make a clearer label for the following week. The goal is to improve decisions at the bin, not turn one small check into a permanent label about which class is more responsible.",
+          "explanation": "把當次資料轉成改善項目，不貼永久標籤。",
+          "id": "d100-q6",
+          "options": [
+            "Improve specific sorting decisions without judging a class forever.",
+            "Stop checking once percentages are printed.",
+            "Call one class permanently irresponsible.",
+            "Assume one inspection describes all future bins."
+          ],
+          "prompt": "What use of the results fits the final paragraph?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "During a school waste-sorting activity, two classes inspect their recycling bins before collection. Class A finds twenty correctly sorted items out of twenty-five. Class B finds twenty-four correctly sorted items out of forty. The classes use the same sorting checklist and count each item once.\n\nA student says Class B did better because twenty-four is larger than twenty. Another asks to consider how many items were checked in each class. Having more correct items does not necessarily mean a larger share of the bin was sorted correctly.\n\nClass A's share is eighty percent, while Class B's is sixty percent. The report includes both counts and percentages. It describes only the bins examined on that day, since neither group has kept a long-term record of its usual sorting habits.\n\nBoth classes choose one common mistake from their own bin and make a clearer label for the following week. The goal is to improve decisions at the bin, not turn one small check into a permanent label about which class is more responsible.",
+      "title": "Two Bins, Different Groups",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "During a school waste-sorting activity, two classes inspect their recycling bins before collection.",
+          "meaning": "回收",
+          "word": "recycling"
+        },
+        {
+          "example": "Class A finds twenty correctly sorted items out of twenty-five.",
+          "meaning": "正確地",
+          "word": "correctly"
+        },
+        {
+          "example": "Having more correct items does not necessarily mean a larger share of the bin was sorted correctly.",
+          "meaning": "比例",
+          "word": "share"
+        },
+        {
+          "example": "The report includes both counts and percentages.",
+          "meaning": "百分比",
+          "word": "percentages"
+        },
+        {
+          "example": "The goal is to improve decisions at the bin, not turn one small check into a permanent label about which class is more responsible.",
+          "meaning": "永久的",
+          "word": "permanent"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-04",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 94,
+      "goal": "從節目表、語言及進場條件選擇場次。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "至少",
+          "phrase": "at least"
+        },
+        {
+          "meaning": "而不是",
+          "phrase": "rather than"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "PLANETARIUM SATURDAY PROGRAM: Sky Stories begins at ten and lasts forty minutes. It is presented in Chinese with English subtitles. Moon Mission begins at eleven and lasts fifty minutes. Its narration is English, with a Chinese summary sheet available at the entrance.",
+          "explanation": "Moon Mission 英語旁白；Sky Stories 中文配英字幕。",
+          "id": "d94-q1",
+          "options": [
+            "Sky Stories.",
+            "The free exhibition hall.",
+            "Both programs.",
+            "Moon Mission."
+          ],
+          "prompt": "Which program has English narration?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Pick up a printed ticket at least ten minutes before the first booked program. Online payment alone is not the printed ticket. The pickup desk opens at nine thirty. Please keep phones silent during programs and avoid using a bright screen in the theater.",
+          "explanation": "線上付款後仍需先領紙票。",
+          "id": "d94-q2",
+          "options": [
+            "A cafe receipt.",
+            "A printed ticket.",
+            "An unlimited-entry card.",
+            "A lunch reservation."
+          ],
+          "prompt": "What must visitors collect before a booked show?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "PLANETARIUM SATURDAY PROGRAM: Sky Stories begins at ten and lasts forty minutes. It is presented in Chinese with English subtitles. Moon Mission begins at eleven and lasts fifty minutes. Its narration is English, with a Chinese summary sheet available at the entrance.\n\nEach program costs eighty dollars per visitor. A same-day ticket for both costs one hundred and forty. Tickets are for named sessions, not unlimited entry. Doors close when a program starts, and late visitors must book another available session rather than enter in darkness.\n\nPick up a printed ticket at least ten minutes before the first booked program. Online payment alone is not the printed ticket. The pickup desk opens at nine thirty. Please keep phones silent during programs and avoid using a bright screen in the theater.\n\nThe exhibition hall is free and opens from nine to five. It can be visited without a program ticket. The cafe is closed this Saturday, so bring water and plan lunch elsewhere. The information desk can provide a map of nearby public dining areas.",
+          "explanation": "需提前十分鐘取票，且開始即關門。",
+          "id": "d94-q3",
+          "options": [
+            "Doors close at the start and ticket pickup is required earlier.",
+            "Online payment cancels all sessions.",
+            "The exhibition closes at ten.",
+            "The programs can start only after everyone eats."
+          ],
+          "prompt": "Why is arriving at the starting time risky?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The exhibition hall is free and opens from nine to five. It can be visited without a program ticket. The cafe is closed this Saturday, so bring water and plan lunch elsewhere. The information desk can provide a map of nearby public dining areas.",
+          "explanation": "咖啡店關閉，午餐須另外安排地點。",
+          "id": "d94-q4",
+          "options": [
+            "During the dark program.",
+            "At another place.",
+            "Inside the closed cafe.",
+            "At no charge."
+          ],
+          "prompt": "What does 'elsewhere' mean in the lunch advice?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Each program costs eighty dollars per visitor. A same-day ticket for both costs one hundred and forty. Tickets are for named sessions, not unlimited entry. Doors close when a program starts, and late visitors must book another available session rather than enter in darkness.",
+          "explanation": "80×2－140＝20。",
+          "id": "d94-q5",
+          "options": [
+            "Sixty dollars.",
+            "Twenty dollars.",
+            "Forty dollars.",
+            "Eighty dollars."
+          ],
+          "prompt": "How much does the two-program ticket save against two single tickets?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "The exhibition hall is free and opens from nine to five. It can be visited without a program ticket. The cafe is closed this Saturday, so bring water and plan lunch elsewhere. The information desk can provide a map of nearby public dining areas.",
+          "explanation": "免費展覽館不需要節目票。",
+          "id": "d94-q6",
+          "options": [
+            "Eat at the cafe this Saturday.",
+            "Enter either show after the doors close.",
+            "Use unlimited theater entry.",
+            "Visit the exhibition hall during its open hours."
+          ],
+          "prompt": "What can a visitor do without buying a program ticket?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "PLANETARIUM SATURDAY PROGRAM: Sky Stories begins at ten and lasts forty minutes. It is presented in Chinese with English subtitles. Moon Mission begins at eleven and lasts fifty minutes. Its narration is English, with a Chinese summary sheet available at the entrance.\n\nEach program costs eighty dollars per visitor. A same-day ticket for both costs one hundred and forty. Tickets are for named sessions, not unlimited entry. Doors close when a program starts, and late visitors must book another available session rather than enter in darkness.\n\nPick up a printed ticket at least ten minutes before the first booked program. Online payment alone is not the printed ticket. The pickup desk opens at nine thirty. Please keep phones silent during programs and avoid using a bright screen in the theater.\n\nThe exhibition hall is free and opens from nine to five. It can be visited without a program ticket. The cafe is closed this Saturday, so bring water and plan lunch elsewhere. The information desk can provide a map of nearby public dining areas.",
+      "title": "Planetarium Visit Options",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "It is presented in Chinese with English subtitles.",
+          "meaning": "字幕",
+          "word": "subtitles"
+        },
+        {
+          "example": "Its narration is English, with a Chinese summary sheet available at the entrance.",
+          "meaning": "旁白",
+          "word": "narration"
+        },
+        {
+          "example": "Tickets are for named sessions, not unlimited entry.",
+          "meaning": "場次",
+          "word": "session"
+        },
+        {
+          "example": "Its narration is English, with a Chinese summary sheet available at the entrance.",
+          "meaning": "入口",
+          "word": "entrance"
+        },
+        {
+          "example": "The cafe is closed this Saturday, so bring water and plan lunch elsewhere.",
+          "meaning": "其他地方",
+          "word": "elsewhere"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-08",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 98,
+      "goal": "核對日期來源與溝通方式，避免替人猜測。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "這次",
+          "phrase": "this time"
+        },
+        {
+          "meaning": "星期幾",
+          "phrase": "day of the week"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Her uncle asks her to pause. The family sometimes uses different calendars, and a traditional-calendar birthday does not necessarily fall on the same date in the calendar printed on Rae's phone each year. They need to confirm which celebration date her grandmother prefers this time.",
+          "explanation": "訊息來自不同曆法，未必有一個錯。",
+          "id": "d98-q1",
+          "options": [
+            "The family canceled every birthday.",
+            "They use different calendars.",
+            "Rae has no phone calendar.",
+            "Both were sent by strangers."
+          ],
+          "prompt": "Why do the old messages show different dates?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Instead of asking directly about a surprise party, Rae checks with her mother, who has already discussed the year's plan with her grandmother. The family agrees on the Saturday lunch that suits her. Rae sends one clear message naming both the date and the day of the week.",
+          "explanation": "第三段說母親先與祖母討論過。",
+          "id": "d98-q2",
+          "options": [
+            "Rae's classmate.",
+            "A restaurant owner.",
+            "Rae's mother.",
+            "Only the uncle's neighbor."
+          ],
+          "prompt": "Who has already discussed the celebration plan with the grandmother?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "She also labels it celebration meal rather than official birthday date. That distinction helps relatives understand what is being arranged. The meal succeeds because Rae verifies the plan, not because she wins an argument about which old message looked more certain.",
+          "explanation": "區分聚餐日期與生日日期的不同意義。",
+          "id": "d98-q3",
+          "options": [
+            "It guarantees all birthdays occur on Saturday.",
+            "It states the event being arranged without claiming to redefine the birthday.",
+            "It hides the time from relatives.",
+            "It proves both old messages were false."
+          ],
+          "prompt": "Why label the message celebration meal?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Instead of asking directly about a surprise party, Rae checks with her mother, who has already discussed the year's plan with her grandmother. The family agrees on the Saturday lunch that suits her. Rae sends one clear message naming both the date and the day of the week.",
+          "explanation": "這個週六午餐時間適合祖母。",
+          "id": "d98-q4",
+          "options": [
+            "Matches a type of clothing.",
+            "Changes the name of a month.",
+            "Works well for someone's needs.",
+            "Proves a calendar is ancient."
+          ],
+          "prompt": "What does 'suits' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Instead of asking directly about a surprise party, Rae checks with her mother, who has already discussed the year's plan with her grandmother. The family agrees on the Saturday lunch that suits her. Rae sends one clear message naming both the date and the day of the week.",
+          "explanation": "共同確認日期並加星期，有利核對聚會安排。",
+          "id": "d98-q5",
+          "options": [
+            "An unlabeled number with no month.",
+            "The agreed date and weekday together.",
+            "A claim that one relative is always wrong.",
+            "Only a photo of an old calendar."
+          ],
+          "prompt": "Which message detail helps avoid practical confusion?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "Rae plans a surprise meal for her grandmother and finds two different birthday dates in the family chat. One message says March twelve, while another lists a date in a traditional calendar. Rae assumes one message must be wrong and begins correcting everyone's calendar entries.\n\nHer uncle asks her to pause. The family sometimes uses different calendars, and a traditional-calendar birthday does not necessarily fall on the same date in the calendar printed on Rae's phone each year. They need to confirm which celebration date her grandmother prefers this time.\n\nInstead of asking directly about a surprise party, Rae checks with her mother, who has already discussed the year's plan with her grandmother. The family agrees on the Saturday lunch that suits her. Rae sends one clear message naming both the date and the day of the week.\n\nShe also labels it celebration meal rather than official birthday date. That distinction helps relatives understand what is being arranged. The meal succeeds because Rae verifies the plan, not because she wins an argument about which old message looked more certain.",
+          "explanation": "先弄清日期意義与本人選擇再溝通。",
+          "id": "d98-q6",
+          "options": [
+            "The oldest chat message is always final.",
+            "Surprise meals require changing official birthdays.",
+            "Verify the intended event and preferred plan before correcting others.",
+            "Every different date must be a careless error."
+          ],
+          "prompt": "What does Rae learn?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Rae plans a surprise meal for her grandmother and finds two different birthday dates in the family chat. One message says March twelve, while another lists a date in a traditional calendar. Rae assumes one message must be wrong and begins correcting everyone's calendar entries.\n\nHer uncle asks her to pause. The family sometimes uses different calendars, and a traditional-calendar birthday does not necessarily fall on the same date in the calendar printed on Rae's phone each year. They need to confirm which celebration date her grandmother prefers this time.\n\nInstead of asking directly about a surprise party, Rae checks with her mother, who has already discussed the year's plan with her grandmother. The family agrees on the Saturday lunch that suits her. Rae sends one clear message naming both the date and the day of the week.\n\nShe also labels it celebration meal rather than official birthday date. That distinction helps relatives understand what is being arranged. The meal succeeds because Rae verifies the plan, not because she wins an argument about which old message looked more certain.",
+      "title": "A Birthday in Two Calendars",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "One message says March twelve, while another lists a date in a traditional calendar.",
+          "meaning": "傳統的",
+          "word": "traditional"
+        },
+        {
+          "example": "The family sometimes uses different calendars, and a traditional-calendar birthday does not necessarily fall on the same date in the calendar printed on Rae's phone each year.",
+          "meaning": "必然",
+          "word": "necessarily"
+        },
+        {
+          "example": "They need to confirm which celebration date her grandmother prefers this time.",
+          "meaning": "確認",
+          "word": "confirm"
+        },
+        {
+          "example": "They need to confirm which celebration date her grandmother prefers this time.",
+          "meaning": "偏好",
+          "word": "prefers"
+        },
+        {
+          "example": "The family agrees on the Saturday lunch that suits her.",
+          "meaning": "適合",
+          "word": "suits"
+        }
+      ]
+    }
+  ]
+}

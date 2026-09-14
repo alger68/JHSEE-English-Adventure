@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-15",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 105,
+      "goal": "辨識一次性費用與持續費用，計算指定期間總額。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "每本一次",
+          "phrase": "once per notebook"
+        },
+        {
+          "meaning": "而不是",
+          "phrase": "instead of"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "Two printing shops advertise notebook-binding services. Shop Green charges thirty dollars to set up a design and ten dollars for each bound notebook. Shop Blue has no setup fee but charges fifteen dollars per notebook. Both use the same paper that the customer supplies.",
+          "explanation": "兩店都由客戶提供同樣紙張。",
+          "id": "d105-q1",
+          "options": [
+            "The setup fee for Blue.",
+            "The worker's tools.",
+            "The paper.",
+            "The binding machine."
+          ],
+          "prompt": "What does the customer supply at both shops?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Green's total for eight notebooks is one hundred and ten dollars. Blue's is one hundred and twenty. Riko confirms that the setup fee is paid once for the shared design, not once per notebook. She also asks whether the quoted totals include all binding charges.",
+          "explanation": "三十元設計設定只收一次。",
+          "id": "d105-q2",
+          "options": [
+            "Only after every twenty orders.",
+            "Once for every notebook.",
+            "Once for each page.",
+            "Once for the shared design."
+          ],
+          "prompt": "How is Green's setup fee applied?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Two printing shops advertise notebook-binding services. Shop Green charges thirty dollars to set up a design and ten dollars for each bound notebook. Shop Blue has no setup fee but charges fifteen dollars per notebook. Both use the same paper that the customer supplies.\n\nRiko needs eight notebooks for a club gift project. A friend says Green must be more expensive because its sign shows an extra thirty-dollar fee. Riko writes down both complete calculations instead of comparing only the largest number on each small advertisement.\n\nGreen's total for eight notebooks is one hundred and ten dollars. Blue's is one hundred and twenty. Riko confirms that the setup fee is paid once for the shared design, not once per notebook. She also asks whether the quoted totals include all binding charges.\n\nThe club chooses Green for this order. Riko does not conclude that Green is cheaper for every order size. With fewer notebooks, the one-time fee could change the comparison. She saves the two price rules, not merely today's winning shop name.",
+          "explanation": "需合計固定費與單本費才可比較。",
+          "id": "d105-q3",
+          "options": [
+            "Every binding service is free.",
+            "The club needs no notebooks.",
+            "The same fee appears at both shops.",
+            "The per-notebook prices also affect the full total."
+          ],
+          "prompt": "Why is looking only at the setup fee misleading?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The club chooses Green for this order. Riko does not conclude that Green is cheaper for every order size. With fewer notebooks, the one-time fee could change the comparison. She saves the two price rules, not merely today's winning shop name.",
+          "explanation": "同一設計一次收取的費用。",
+          "id": "d105-q4",
+          "options": [
+            "Charged once for the order's design.",
+            "Charged every minute.",
+            "Charged separately for each page.",
+            "Charged only if nothing is made."
+          ],
+          "prompt": "What does 'one-time' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Two printing shops advertise notebook-binding services. Shop Green charges thirty dollars to set up a design and ten dollars for each bound notebook. Shop Blue has no setup fee but charges fifteen dollars per notebook. Both use the same paper that the customer supplies.\n\nRiko needs eight notebooks for a club gift project. A friend says Green must be more expensive because its sign shows an extra thirty-dollar fee. Riko writes down both complete calculations instead of comparing only the largest number on each small advertisement.\n\nGreen's total for eight notebooks is one hundred and ten dollars. Blue's is one hundred and twenty. Riko confirms that the setup fee is paid once for the shared design, not once per notebook. She also asks whether the quoted totals include all binding charges.\n\nThe club chooses Green for this order. Riko does not conclude that Green is cheaper for every order size. With fewer notebooks, the one-time fee could change the comparison. She saves the two price rules, not merely today's winning shop name.",
+          "explanation": "Green 30＋2×10＝50；Blue 2×15＝30。",
+          "id": "d105-q5",
+          "options": [
+            "Green 20 dollars and Blue 60 dollars.",
+            "Both 30 dollars.",
+            "Green 60 dollars and Blue 50 dollars.",
+            "Green 50 dollars and Blue 30 dollars."
+          ],
+          "prompt": "What would each shop charge for only two notebooks?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "The club chooses Green for this order. Riko does not conclude that Green is cheaper for every order size. With fewer notebooks, the one-time fee could change the comparison. She saves the two price rules, not merely today's winning shop name.",
+          "explanation": "不同數量可能改變最划算方案。",
+          "id": "d105-q6",
+          "options": [
+            "The club must always choose Green.",
+            "A different order size could produce a different cheaper choice.",
+            "The setup fee disappears from every later shop.",
+            "A price rule cannot be used twice."
+          ],
+          "prompt": "Why save the pricing rules rather than only the shop name?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Two printing shops advertise notebook-binding services. Shop Green charges thirty dollars to set up a design and ten dollars for each bound notebook. Shop Blue has no setup fee but charges fifteen dollars per notebook. Both use the same paper that the customer supplies.\n\nRiko needs eight notebooks for a club gift project. A friend says Green must be more expensive because its sign shows an extra thirty-dollar fee. Riko writes down both complete calculations instead of comparing only the largest number on each small advertisement.\n\nGreen's total for eight notebooks is one hundred and ten dollars. Blue's is one hundred and twenty. Riko confirms that the setup fee is paid once for the shared design, not once per notebook. She also asks whether the quoted totals include all binding charges.\n\nThe club chooses Green for this order. Riko does not conclude that Green is cheaper for every order size. With fewer notebooks, the one-time fee could change the comparison. She saves the two price rules, not merely today's winning shop name.",
+      "title": "The Price on the Small Card",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "Two printing shops advertise notebook-binding services.",
+          "meaning": "裝訂",
+          "word": "binding"
+        },
+        {
+          "example": "Shop Blue has no setup fee but charges fifteen dollars per notebook.",
+          "meaning": "初始設定",
+          "word": "setup"
+        },
+        {
+          "example": "Both use the same paper that the customer supplies.",
+          "meaning": "供應",
+          "word": "supplies"
+        },
+        {
+          "example": "She also asks whether the quoted totals include all binding charges.",
+          "meaning": "報價的",
+          "word": "quoted"
+        },
+        {
+          "example": "With fewer notebooks, the one-time fee could change the comparison.",
+          "meaning": "一次性的",
+          "word": "one-time"
+        }
+      ]
+    }
+  ]
+}

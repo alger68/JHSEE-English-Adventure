@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-14",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 104,
+      "goal": "理解練習策略與回饋證據的關係。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "回放時",
+          "phrase": "on playback"
+        },
+        {
+          "meaning": "從頭",
+          "phrase": "from the beginning"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "During band practice, Inez can play most of a short piece smoothly, but one difficult bar keeps interrupting the melody. She starts from the beginning each time she makes a mistake. After twenty minutes, she has played the easy opening many times and the hard bar only a few.",
+          "explanation": "每次重頭，容易片段重複多，難小節反而少。",
+          "id": "d104-q1",
+          "options": [
+            "She practices only silence.",
+            "She repeats easy sections much more than the difficult bar.",
+            "She never plays the opening.",
+            "She changes the whole piece every time."
+          ],
+          "prompt": "What problem does Inez's first practice method create?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "On playback, she hears that the notes are now correct but the pause before them is too long. She works on the transition and records again. This time she listens for the specific pause instead of simply deciding whether the entire performance feels good.",
+          "explanation": "回放發現難段前停頓太久。",
+          "id": "d104-q2",
+          "options": [
+            "The opening has no melody.",
+            "The recording is missing entirely.",
+            "Every note is louder than allowed.",
+            "The pause before them is too long."
+          ],
+          "prompt": "What remains wrong after the notes become correct?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Her teacher suggests marking the troublesome notes and practicing that bar slowly. Inez then adds the bar before it and the bar after it, so the difficult movement connects with the rest of the piece. She records a short attempt rather than the whole rehearsal.",
+          "explanation": "需讓難段能順利接前後內容。",
+          "id": "d104-q3",
+          "options": [
+            "To avoid the hard notes forever.",
+            "To practice the connection with surrounding music.",
+            "To replace feedback with speed.",
+            "To make the piece exactly three bars long."
+          ],
+          "prompt": "Why add the bars before and after the difficult one?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "At the end, Inez plays the complete piece once. She still has work to do, but her notes describe exactly what improved and what needs another attempt. Focused feedback has turned a vague feeling of failure into a manageable next step.",
+          "explanation": "整體『失敗』感很籠統，尚未指出可改處。",
+          "id": "d104-q4",
+          "options": [
+            "Written in musical notes.",
+            "Loud enough to hear.",
+            "Unclear or not specific.",
+            "Perfectly measured."
+          ],
+          "prompt": "What does 'vague' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "During band practice, Inez can play most of a short piece smoothly, but one difficult bar keeps interrupting the melody. She starts from the beginning each time she makes a mistake. After twenty minutes, she has played the easy opening many times and the hard bar only a few.\n\nHer teacher suggests marking the troublesome notes and practicing that bar slowly. Inez then adds the bar before it and the bar after it, so the difficult movement connects with the rest of the piece. She records a short attempt rather than the whole rehearsal.\n\nOn playback, she hears that the notes are now correct but the pause before them is too long. She works on the transition and records again. This time she listens for the specific pause instead of simply deciding whether the entire performance feels good.\n\nAt the end, Inez plays the complete piece once. She still has work to do, but her notes describe exactly what improved and what needs another attempt. Focused feedback has turned a vague feeling of failure into a manageable next step.",
+          "explanation": "具體指出已對部分與下一個需要修正的停頓。",
+          "id": "d104-q5",
+          "options": [
+            "Everything is bad and cannot improve.",
+            "The notes are right, but the pause before the bar needs shortening.",
+            "A longer rehearsal always proves success.",
+            "Only the easy opening matters."
+          ],
+          "prompt": "Which feedback would best match the improved method?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "During band practice, Inez can play most of a short piece smoothly, but one difficult bar keeps interrupting the melody. She starts from the beginning each time she makes a mistake. After twenty minutes, she has played the easy opening many times and the hard bar only a few.\n\nHer teacher suggests marking the troublesome notes and practicing that bar slowly. Inez then adds the bar before it and the bar after it, so the difficult movement connects with the rest of the piece. She records a short attempt rather than the whole rehearsal.\n\nOn playback, she hears that the notes are now correct but the pause before them is too long. She works on the transition and records again. This time she listens for the specific pause instead of simply deciding whether the entire performance feels good.\n\nAt the end, Inez plays the complete piece once. She still has work to do, but her notes describe exactly what improved and what needs another attempt. Focused feedback has turned a vague feeling of failure into a manageable next step.",
+          "explanation": "聚焦問題、逐項回饋，讓下一步可操作。",
+          "id": "d104-q6",
+          "options": [
+            "Judging every attempt with a single overall label.",
+            "Avoiding recordings of small sections.",
+            "Restarting automatically after every mistake.",
+            "Working on a specific difficulty and checking a specific result."
+          ],
+          "prompt": "What makes practice more useful in the story?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "During band practice, Inez can play most of a short piece smoothly, but one difficult bar keeps interrupting the melody. She starts from the beginning each time she makes a mistake. After twenty minutes, she has played the easy opening many times and the hard bar only a few.\n\nHer teacher suggests marking the troublesome notes and practicing that bar slowly. Inez then adds the bar before it and the bar after it, so the difficult movement connects with the rest of the piece. She records a short attempt rather than the whole rehearsal.\n\nOn playback, she hears that the notes are now correct but the pause before them is too long. She works on the transition and records again. This time she listens for the specific pause instead of simply deciding whether the entire performance feels good.\n\nAt the end, Inez plays the complete piece once. She still has work to do, but her notes describe exactly what improved and what needs another attempt. Focused feedback has turned a vague feeling of failure into a manageable next step.",
+      "title": "A Practice Plan with One Hard Bar",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "During band practice, Inez can play most of a short piece smoothly, but one difficult bar keeps interrupting the melody.",
+          "meaning": "旋律",
+          "word": "melody"
+        },
+        {
+          "example": "Her teacher suggests marking the troublesome notes and practicing that bar slowly.",
+          "meaning": "難處理的",
+          "word": "troublesome"
+        },
+        {
+          "example": "She works on the transition and records again.",
+          "meaning": "銜接",
+          "word": "transition"
+        },
+        {
+          "example": "Focused feedback has turned a vague feeling of failure into a manageable next step.",
+          "meaning": "模糊的",
+          "word": "vague"
+        },
+        {
+          "example": "Focused feedback has turned a vague feeling of failure into a manageable next step.",
+          "meaning": "可處理的",
+          "word": "manageable"
+        }
+      ]
+    }
+  ]
+}

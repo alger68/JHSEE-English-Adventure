@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-03",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 93,
+      "goal": "辨識樣本觀察與普遍結論的差距。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "直立拿著",
+          "phrase": "held upright"
+        },
+        {
+          "meaning": "保留……空間",
+          "phrase": "leaving room for"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "The class gently presses ten seeds against each surface once, then lifts the surface. Seven remain on the wool, one on the plastic, and two on the paper. Students count only seeds still attached after the surface is held upright for ten seconds.",
+          "explanation": "羊毛布七顆最多。",
+          "id": "d93-q1",
+          "options": [
+            "Plain paper.",
+            "Wool cloth.",
+            "All three equally.",
+            "Smooth plastic."
+          ],
+          "prompt": "Which surface holds the most seeds in this demonstration?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The class gently presses ten seeds against each surface once, then lifts the surface. Seven remain on the wool, one on the plastic, and two on the paper. Students count only seeds still attached after the surface is held upright for ten seconds.",
+          "explanation": "定義是在直立十秒後仍附著才計數。",
+          "id": "d93-q2",
+          "options": [
+            "Only after every seed falls.",
+            "After holding the surface upright for ten seconds.",
+            "Before any seed touches a surface.",
+            "After walking for ten hours."
+          ],
+          "prompt": "When are the attached seeds counted?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "One student says the test proves every seed travels on wool. Mira points to the hooked seeds in their sample. They have not tested other shapes, and the pressing method is only a simple demonstration, not a record of every trip through a field.",
+          "explanation": "只測一種鉤狀樣本，不能推廣到所有種子。",
+          "id": "d93-q3",
+          "options": [
+            "Wool held fewer seeds than plastic.",
+            "The class used no seeds.",
+            "The activity measured every field journey.",
+            "Only one hooked seed sample has been tested."
+          ],
+          "prompt": "Why is the every-seed claim too broad?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The class draws the hooks and the cloth fibers they can see. They suggest that these features help explain this result, while leaving room for another test. Their report names both the sample and the procedure so another group can try the same activity.",
+          "explanation": "報告記錄怎樣操作，讓另一組可重做。",
+          "id": "d93-q4",
+          "options": [
+            "The price of the materials.",
+            "A promise about every seed.",
+            "The names of all protected gardens.",
+            "The steps used to carry out the activity."
+          ],
+          "prompt": "What does 'procedure' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The class gently presses ten seeds against each surface once, then lifts the surface. Seven remain on the wool, one on the plastic, and two on the paper. Students count only seeds still attached after the surface is held upright for ten seconds.",
+          "explanation": "7＋1＋2＝10。",
+          "id": "d93-q5",
+          "options": [
+            "Thirty.",
+            "Seven.",
+            "Twenty.",
+            "Ten."
+          ],
+          "prompt": "How many of the thirty tested seeds remain attached altogether?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "After walking beside a field, Mira finds several small hooked seeds attached to her socks. For a classroom demonstration, she brings collected seeds and three equal-size surfaces: wool cloth, smooth plastic, and plain paper. She does not collect new seeds from the protected school garden.\n\nThe class gently presses ten seeds against each surface once, then lifts the surface. Seven remain on the wool, one on the plastic, and two on the paper. Students count only seeds still attached after the surface is held upright for ten seconds.\n\nOne student says the test proves every seed travels on wool. Mira points to the hooked seeds in their sample. They have not tested other shapes, and the pressing method is only a simple demonstration, not a record of every trip through a field.\n\nThe class draws the hooks and the cloth fibers they can see. They suggest that these features help explain this result, while leaving room for another test. Their report names both the sample and the procedure so another group can try the same activity.",
+          "explanation": "樣本、程序與結果都清楚才便於比較與重複。",
+          "id": "d93-q6",
+          "options": [
+            "It replaces all counts with a universal claim.",
+            "It assumes every material behaves like wool.",
+            "It hides how long surfaces were held upright.",
+            "It describes the sample and method along with the results."
+          ],
+          "prompt": "What makes the report useful to another group?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "After walking beside a field, Mira finds several small hooked seeds attached to her socks. For a classroom demonstration, she brings collected seeds and three equal-size surfaces: wool cloth, smooth plastic, and plain paper. She does not collect new seeds from the protected school garden.\n\nThe class gently presses ten seeds against each surface once, then lifts the surface. Seven remain on the wool, one on the plastic, and two on the paper. Students count only seeds still attached after the surface is held upright for ten seconds.\n\nOne student says the test proves every seed travels on wool. Mira points to the hooked seeds in their sample. They have not tested other shapes, and the pressing method is only a simple demonstration, not a record of every trip through a field.\n\nThe class draws the hooks and the cloth fibers they can see. They suggest that these features help explain this result, while leaving room for another test. Their report names both the sample and the procedure so another group can try the same activity.",
+      "title": "Seeds on the Wool Square",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "After walking beside a field, Mira finds several small hooked seeds attached to her socks.",
+          "meaning": "附著的",
+          "word": "attached"
+        },
+        {
+          "example": "For a classroom demonstration, she brings collected seeds and three equal-size surfaces: wool cloth, smooth plastic, and plain paper.",
+          "meaning": "表面",
+          "word": "surfaces"
+        },
+        {
+          "example": "The class gently presses ten seeds against each surface once, then lifts the surface.",
+          "meaning": "輕輕地",
+          "word": "gently"
+        },
+        {
+          "example": "Mira points to the hooked seeds in their sample.",
+          "meaning": "樣本",
+          "word": "sample"
+        },
+        {
+          "example": "Their report names both the sample and the procedure so another group can try the same activity.",
+          "meaning": "步驟程序",
+          "word": "procedure"
+        }
+      ]
+    }
+  ]
+}

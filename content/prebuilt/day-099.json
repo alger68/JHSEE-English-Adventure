@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-09",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 99,
+      "goal": "追蹤條件式安排及最後通知的效力。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在那時",
+          "phrase": "at that time"
+        },
+        {
+          "meaning": "除非有新通知",
+          "phrase": "unless a new notice appears"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Band chat: We plan to practice in the courtyard tomorrow at four. If rain is falling at three thirty, we will move to Room 102. Please check the teacher's message at that time. A morning forecast alone will not decide which space we use.",
+          "explanation": "第一段指定三點半看老師通知。",
+          "id": "d99-q1",
+          "options": [
+            "At four the previous morning.",
+            "At 3:30.",
+            "Only after practice ends.",
+            "Whenever any app updates."
+          ],
+          "prompt": "When is the location decision checked?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "At three thirty, the teacher posts: It is raining now. Use Room 102 and bring only instruments that fit through its narrow doorway. Large drums will stay in the music room, and we will practice their parts with a small drum instead.",
+          "explanation": "門窄，大鼓留音樂教室改小鼓練聲部。",
+          "id": "d99-q2",
+          "options": [
+            "Only large drums enter Room 102.",
+            "A small drum replaces the large drums for practice.",
+            "Every instrument is replaced by a phone.",
+            "All instruments are left outside."
+          ],
+          "prompt": "Which equipment changes in the indoor plan?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Felix: The weather app shows rain, so I told my friend to go straight to Room 102. Leader: Please correct that message. The room is only our backup until the teacher checks the conditions. We want everyone to use the same final instruction.",
+          "explanation": "早上預報不足以把備案當正式安排。",
+          "id": "d99-q3",
+          "options": [
+            "The courtyard has no address.",
+            "The teacher has canceled all practice.",
+            "He treated a backup as the final decision too early.",
+            "Room 102 can never be used."
+          ],
+          "prompt": "Why should Felix correct his earlier message?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Felix: The weather app shows rain, so I told my friend to go straight to Room 102. Leader: Please correct that message. The room is only our backup until the teacher checks the conditions. We want everyone to use the same final instruction.",
+          "explanation": "下雨才啟用的替代地點。",
+          "id": "d99-q4",
+          "options": [
+            "A second teacher who never sends messages.",
+            "An alternative used if the main plan cannot proceed.",
+            "A recording from last year's concert.",
+            "A permanent ban on outdoor practice."
+          ],
+          "prompt": "What does 'backup' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Band chat: We plan to practice in the courtyard tomorrow at four. If rain is falling at three thirty, we will move to Room 102. Please check the teacher's message at that time. A morning forecast alone will not decide which space we use.\n\nFelix: The weather app shows rain, so I told my friend to go straight to Room 102. Leader: Please correct that message. The room is only our backup until the teacher checks the conditions. We want everyone to use the same final instruction.\n\nAt three thirty, the teacher posts: It is raining now. Use Room 102 and bring only instruments that fit through its narrow doorway. Large drums will stay in the music room, and we will practice their parts with a small drum instead.\n\nFelix forwards the complete message rather than only the room number. He adds that tomorrow's outdoor plan remains unchanged unless a new notice appears. The group now knows today's location, the equipment adjustment, and where to look for the next update.",
+          "explanation": "地點之外還有器材限制，不能只傳教室號碼。",
+          "id": "d99-q5",
+          "options": [
+            "It makes tomorrow's plan automatically indoor.",
+            "It cancels the check time for every future day.",
+            "The room number alone leaves out equipment instructions.",
+            "It proves forecasts never help."
+          ],
+          "prompt": "Why forward the complete final message?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Band chat: We plan to practice in the courtyard tomorrow at four. If rain is falling at three thirty, we will move to Room 102. Please check the teacher's message at that time. A morning forecast alone will not decide which space we use.\n\nFelix: The weather app shows rain, so I told my friend to go straight to Room 102. Leader: Please correct that message. The room is only our backup until the teacher checks the conditions. We want everyone to use the same final instruction.\n\nAt three thirty, the teacher posts: It is raining now. Use Room 102 and bring only instruments that fit through its narrow doorway. Large drums will stay in the music room, and we will practice their parts with a small drum instead.\n\nFelix forwards the complete message rather than only the room number. He adds that tomorrow's outdoor plan remains unchanged unless a new notice appears. The group now knows today's location, the equipment adjustment, and where to look for the next update.",
+          "explanation": "對話強調不同狀態資訊的效力。",
+          "id": "d99-q6",
+          "options": [
+            "The teacher's phone from the weather app's logo.",
+            "A forecast, a conditional backup, and a confirmed instruction.",
+            "Every morning message from every unrelated photograph.",
+            "All rooms from all types of instruments only."
+          ],
+          "prompt": "What should members distinguish?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Band chat: We plan to practice in the courtyard tomorrow at four. If rain is falling at three thirty, we will move to Room 102. Please check the teacher's message at that time. A morning forecast alone will not decide which space we use.\n\nFelix: The weather app shows rain, so I told my friend to go straight to Room 102. Leader: Please correct that message. The room is only our backup until the teacher checks the conditions. We want everyone to use the same final instruction.\n\nAt three thirty, the teacher posts: It is raining now. Use Room 102 and bring only instruments that fit through its narrow doorway. Large drums will stay in the music room, and we will practice their parts with a small drum instead.\n\nFelix forwards the complete message rather than only the room number. He adds that tomorrow's outdoor plan remains unchanged unless a new notice appears. The group now knows today's location, the equipment adjustment, and where to look for the next update.",
+      "title": "When the Practice Moves Indoors",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Band chat: We plan to practice in the courtyard tomorrow at four.",
+          "meaning": "中庭",
+          "word": "courtyard"
+        },
+        {
+          "example": "A morning forecast alone will not decide which space we use.",
+          "meaning": "預報",
+          "word": "forecast"
+        },
+        {
+          "example": "The room is only our backup until the teacher checks the conditions.",
+          "meaning": "備用安排",
+          "word": "backup"
+        },
+        {
+          "example": "Use Room 102 and bring only instruments that fit through its narrow doorway.",
+          "meaning": "狹窄的",
+          "word": "narrow"
+        },
+        {
+          "example": "The group now knows today's location, the equipment adjustment, and where to look for the next update.",
+          "meaning": "調整",
+          "word": "adjustment"
+        }
+      ]
+    }
+  ]
+}

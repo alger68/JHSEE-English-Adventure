@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-02",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 92,
+      "goal": "比對運動紀錄的距離與時間，避免只看數字大小。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "以及",
+          "phrase": "as well as"
+        },
+        {
+          "meaning": "而不是",
+          "phrase": "rather than"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Running club chat: I finished today's practice in twelve minutes, two minutes faster than last week. I think my speed has improved a lot. The message includes a photo of a watch, but no route description or distance is shown beside it.",
+          "explanation": "原訊息有時間，沒有距離及路線。",
+          "id": "d92-q1",
+          "options": [
+            "A comparison with last week.",
+            "The distance and route details.",
+            "The finishing time.",
+            "A watch photo."
+          ],
+          "prompt": "What is missing from the first message?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Coach: Was today's route the same length? Runner: Last week we used four laps of the track. Today the inside lane was closed, so we ran three laps and then stopped at the side gate. I did not measure the final distance.",
+          "explanation": "上週使用四圈。",
+          "id": "d92-q2",
+          "options": [
+            "Two.",
+            "Four.",
+            "Twelve.",
+            "Three."
+          ],
+          "prompt": "How many track laps did last week's practice use?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Running club chat: I finished today's practice in twelve minutes, two minutes faster than last week. I think my speed has improved a lot. The message includes a photo of a watch, but no route description or distance is shown beside it.\n\nCoach: Was today's route the same length? Runner: Last week we used four laps of the track. Today the inside lane was closed, so we ran three laps and then stopped at the side gate. I did not measure the final distance.\n\nCoach: Then the shorter time alone cannot show a faster pace. Record distance as well as duration next time. You can still note that you completed today's planned session; just avoid comparing two different routes as if they were equal.\n\nAnother teammate offers to draw the next route and mark its start and finish. The group agrees to keep weather and any interruptions in their notes too. A useful record gives enough context for a comparison, rather than only the most impressive number.",
+          "explanation": "距離不同，時間較少不一定速度較快。",
+          "id": "d92-q3",
+          "options": [
+            "Today's distance may be shorter.",
+            "The watch always loses time.",
+            "The coach forbids all comparisons.",
+            "The runner completed no activity."
+          ],
+          "prompt": "Why can't twelve minutes alone prove improved pace?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Coach: Then the shorter time alone cannot show a faster pace. Record distance as well as duration next time. You can still note that you completed today's planned session; just avoid comparing two different routes as if they were equal.",
+          "explanation": "duration 是時間長度，與 distance 對照。",
+          "id": "d92-q4",
+          "options": [
+            "How far a route extends.",
+            "The color of the closed lane.",
+            "How long an activity lasts.",
+            "The position of a gate."
+          ],
+          "prompt": "What does 'duration' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Running club chat: I finished today's practice in twelve minutes, two minutes faster than last week. I think my speed has improved a lot. The message includes a photo of a watch, but no route description or distance is shown beside it.\n\nCoach: Was today's route the same length? Runner: Last week we used four laps of the track. Today the inside lane was closed, so we ran three laps and then stopped at the side gate. I did not measure the final distance.\n\nCoach: Then the shorter time alone cannot show a faster pace. Record distance as well as duration next time. You can still note that you completed today's planned session; just avoid comparing two different routes as if they were equal.\n\nAnother teammate offers to draw the next route and mark its start and finish. The group agrees to keep weather and any interruptions in their notes too. A useful record gives enough context for a comparison, rather than only the most impressive number.",
+          "explanation": "完整測量與條件有助合理比較。",
+          "id": "d92-q5",
+          "options": [
+            "A gate photo with no measurement.",
+            "Only the smallest time on the watch.",
+            "Distance, time, route, and relevant interruptions.",
+            "A teammate's guess about the runner's mood."
+          ],
+          "prompt": "Which future record would support a better comparison?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Running club chat: I finished today's practice in twelve minutes, two minutes faster than last week. I think my speed has improved a lot. The message includes a photo of a watch, but no route description or distance is shown beside it.\n\nCoach: Was today's route the same length? Runner: Last week we used four laps of the track. Today the inside lane was closed, so we ran three laps and then stopped at the side gate. I did not measure the final distance.\n\nCoach: Then the shorter time alone cannot show a faster pace. Record distance as well as duration next time. You can still note that you completed today's planned session; just avoid comparing two different routes as if they were equal.\n\nAnother teammate offers to draw the next route and mark its start and finish. The group agrees to keep weather and any interruptions in their notes too. A useful record gives enough context for a comparison, rather than only the most impressive number.",
+          "explanation": "保留足夠條件，讓表現主張有意義。",
+          "id": "d92-q6",
+          "options": [
+            "Treat every shorter session as faster running.",
+            "Use weather as a replacement for distance.",
+            "Discard practice whenever routes differ.",
+            "Record enough information to make a claim meaningful."
+          ],
+          "prompt": "What does the coach encourage?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Running club chat: I finished today's practice in twelve minutes, two minutes faster than last week. I think my speed has improved a lot. The message includes a photo of a watch, but no route description or distance is shown beside it.\n\nCoach: Was today's route the same length? Runner: Last week we used four laps of the track. Today the inside lane was closed, so we ran three laps and then stopped at the side gate. I did not measure the final distance.\n\nCoach: Then the shorter time alone cannot show a faster pace. Record distance as well as duration next time. You can still note that you completed today's planned session; just avoid comparing two different routes as if they were equal.\n\nAnother teammate offers to draw the next route and mark its start and finish. The group agrees to keep weather and any interruptions in their notes too. A useful record gives enough context for a comparison, rather than only the most impressive number.",
+      "title": "A Faster Practice, or a Shorter One?",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "The message includes a photo of a watch, but no route description or distance is shown beside it.",
+          "meaning": "距離",
+          "word": "distance"
+        },
+        {
+          "example": "Record distance as well as duration next time.",
+          "meaning": "持續時間",
+          "word": "duration"
+        },
+        {
+          "example": "Coach: Then the shorter time alone cannot show a faster pace.",
+          "meaning": "速度節奏",
+          "word": "pace"
+        },
+        {
+          "example": "The group agrees to keep weather and any interruptions in their notes too.",
+          "meaning": "中斷",
+          "word": "interruptions"
+        },
+        {
+          "example": "A useful record gives enough context for a comparison, rather than only the most impressive number.",
+          "meaning": "背景條件",
+          "word": "context"
+        }
+      ]
+    }
+  ]
+}

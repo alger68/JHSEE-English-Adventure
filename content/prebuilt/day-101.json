@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-11",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 101,
+      "goal": "區分費用、押金、付款與退還條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "報到時",
+          "phrase": "at check-in"
+        },
+        {
+          "meaning": "以現金",
+          "phrase": "in cash"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "WOODCRAFT WORKSHOP: A two-hour session costs one hundred and twenty dollars, including wood and basic tools. Each participant also leaves a fifty-dollar tool deposit at check-in. The deposit is returned when all borrowed tools are checked back in at the end of the session.",
+          "explanation": "120 元課程費，50 元另為可退押金。",
+          "id": "d101-q1",
+          "options": [
+            "Seventy dollars.",
+            "One hundred and seventy dollars.",
+            "Fifty dollars.",
+            "One hundred and twenty dollars."
+          ],
+          "prompt": "What is the session fee excluding the refundable deposit?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Book online by Wednesday. Payment for the session is due at booking, while the deposit is paid in cash on arrival. Cancellations before Wednesday evening receive the session fee back. Later cancellations do not receive a refund, although the participant may request another date if a place is available.",
+          "explanation": "抵達報到時付現金押金。",
+          "id": "d101-q2",
+          "options": [
+            "After taking tools home.",
+            "Only when booking online.",
+            "On arrival.",
+            "Seven days after the workshop."
+          ],
+          "prompt": "When is the cash deposit paid?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Bring a bag to carry your finished work home. The workshop keeps unfinished pieces for seven days only. After that period, staff may reuse the wood. Taking a tool home by mistake delays the deposit return until the missing tool comes back.",
+          "explanation": "押金須借用品全部歸還才退。",
+          "id": "d101-q3",
+          "options": [
+            "Every finished object belongs to the staff.",
+            "All borrowed tools must be checked back in first.",
+            "The workshop never returns deposits.",
+            "The fee changes whenever a bag is used."
+          ],
+          "prompt": "Why does taking a tool home delay the deposit return?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Book online by Wednesday. Payment for the session is due at booking, while the deposit is paid in cash on arrival. Cancellations before Wednesday evening receive the session fee back. Later cancellations do not receive a refund, although the participant may request another date if a place is available.",
+          "explanation": "取消符合條件時返還已付費用。",
+          "id": "d101-q4",
+          "options": [
+            "A second borrowed tool.",
+            "A required pair of shoes.",
+            "Money returned after a payment.",
+            "A label on unfinished wood."
+          ],
+          "prompt": "What is a 'refund'?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Participants must be at least fourteen and wear closed shoes. Students younger than sixteen need a parent to sign the registration form, but the parent does not have to join the workshop. The instructor will demonstrate tool use before anyone starts cutting.",
+          "explanation": "未滿16需家長簽表；鞋子要求封閉鞋。",
+          "id": "d101-q5",
+          "options": [
+            "No signature but two extra tools.",
+            "An adult-only membership card.",
+            "A parent's signature and closed shoes.",
+            "A parent attending every minute and sandals."
+          ],
+          "prompt": "What does a fifteen-year-old need besides payment?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Book online by Wednesday. Payment for the session is due at booking, while the deposit is paid in cash on arrival. Cancellations before Wednesday evening receive the session fee back. Later cancellations do not receive a refund, although the participant may request another date if a place is available.",
+          "explanation": "晚取消不退課費，可詢有位時另改日期。",
+          "id": "d101-q6",
+          "options": [
+            "A new date is guaranteed with no availability check.",
+            "The session fee is not refunded, but another date may be requested if available.",
+            "The full deposit and fee are always refunded immediately.",
+            "Unfinished work is stored forever."
+          ],
+          "prompt": "What is true of a cancellation after Wednesday evening?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "WOODCRAFT WORKSHOP: A two-hour session costs one hundred and twenty dollars, including wood and basic tools. Each participant also leaves a fifty-dollar tool deposit at check-in. The deposit is returned when all borrowed tools are checked back in at the end of the session.\n\nParticipants must be at least fourteen and wear closed shoes. Students younger than sixteen need a parent to sign the registration form, but the parent does not have to join the workshop. The instructor will demonstrate tool use before anyone starts cutting.\n\nBook online by Wednesday. Payment for the session is due at booking, while the deposit is paid in cash on arrival. Cancellations before Wednesday evening receive the session fee back. Later cancellations do not receive a refund, although the participant may request another date if a place is available.\n\nBring a bag to carry your finished work home. The workshop keeps unfinished pieces for seven days only. After that period, staff may reuse the wood. Taking a tool home by mistake delays the deposit return until the missing tool comes back.",
+      "title": "The Workshop Deposit",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "Each participant also leaves a fifty-dollar tool deposit at check-in.",
+          "meaning": "押金",
+          "word": "deposit"
+        },
+        {
+          "example": "Each participant also leaves a fifty-dollar tool deposit at check-in.",
+          "meaning": "參加者",
+          "word": "participant"
+        },
+        {
+          "example": "Students younger than sixteen need a parent to sign the registration form, but the parent does not have to join the workshop.",
+          "meaning": "報名",
+          "word": "registration"
+        },
+        {
+          "example": "Later cancellations do not receive a refund, although the participant may request another date if a place is available.",
+          "meaning": "退款",
+          "word": "refund"
+        },
+        {
+          "example": "The workshop keeps unfinished pieces for seven days only.",
+          "meaning": "未完成的",
+          "word": "unfinished"
+        }
+      ]
+    }
+  ]
+}

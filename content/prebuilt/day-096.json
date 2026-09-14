@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-06",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 96,
+      "goal": "在新情境中辨別期限、時長與預留時間。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "容易受延誤影響",
+          "phrase": "sensitive to delay"
+        },
+        {
+          "meaning": "依所列時間",
+          "phrase": "under the stated times"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "For the weekly review, five cards read duration, procedure, subtitles, combined, and buffer. The last word is new, so the teacher adds a clue: a few spare minutes between finishing lunch and catching a bus. This extra time can absorb a small delay.",
+          "explanation": "多餘的預留時間可吸收小延誤。",
+          "id": "d96-q1",
+          "options": [
+            "The printed words on a screen.",
+            "The show's entire length.",
+            "The cost of two tickets.",
+            "Spare minutes before catching a bus."
+          ],
+          "prompt": "What does the teacher use to explain buffer?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The group uses duration for how long a show lasts. Procedure belongs beside the steps for collecting tickets. Subtitles are written words on the screen, while a combined ticket covers two named programs under one purchase. Students explain each match with a short example.",
+          "explanation": "duration 對應節目持續多久。",
+          "id": "d96-q2",
+          "options": [
+            "Combined.",
+            "Subtitles.",
+            "Procedure.",
+            "Duration."
+          ],
+          "prompt": "Which word refers to a show's length?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A second exercise gives a plan that ends at exactly the bus departure time. It fits the listed times but has no buffer. One student wants to call the plan guaranteed. Her partner asks what would happen if ordering lunch took two extra minutes.",
+          "explanation": "恰好壓線沒有緩衝，稍延誤即錯過。",
+          "id": "d96-q3",
+          "options": [
+            "The plan contains no times.",
+            "A small delay could make the bus impossible to catch.",
+            "A buffer always makes people late.",
+            "The students have no tickets."
+          ],
+          "prompt": "Why is guaranteed an unsuitable label for the second plan?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "For the weekly review, five cards read duration, procedure, subtitles, combined, and buffer. The last word is new, so the teacher adds a clue: a few spare minutes between finishing lunch and catching a bus. This extra time can absorb a small delay.",
+          "explanation": "語境提供 spare minutes 與 absorb delay。",
+          "id": "d96-q4",
+          "options": [
+            "The exact length of the main program.",
+            "A written translation on a screen.",
+            "A fee for late ticket pickup.",
+            "Extra time kept available for small delays."
+          ],
+          "prompt": "What does 'buffer' mean in this review?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The group writes two separate judgments: mathematically possible under the stated times, but sensitive to delay. They keep that wording because it says more than simply good or bad. A precise explanation should show both what works and which condition could change the result.",
+          "explanation": "數學上可行不代表有緩衝或保證不遲到。",
+          "id": "d96-q5",
+          "options": [
+            "Subtitles are spoken narration and printed tickets.",
+            "A schedule fits the estimates and still has no spare time.",
+            "A plan is guaranteed and fails under the listed times.",
+            "A procedure is both a duration and a seat."
+          ],
+          "prompt": "Which pair of judgments can both be true?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "The group writes two separate judgments: mathematically possible under the stated times, but sensitive to delay. They keep that wording because it says more than simply good or bad. A precise explanation should show both what works and which condition could change the result.",
+          "explanation": "結論說明可行條件與會改變結果的因素。",
+          "id": "d96-q6",
+          "options": [
+            "Giving conclusions that include their conditions.",
+            "Replacing explanations with a single positive label.",
+            "Treating all travel estimates as guarantees.",
+            "Ignoring two-minute changes."
+          ],
+          "prompt": "What does the group practice?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "For the weekly review, five cards read duration, procedure, subtitles, combined, and buffer. The last word is new, so the teacher adds a clue: a few spare minutes between finishing lunch and catching a bus. This extra time can absorb a small delay.\n\nThe group uses duration for how long a show lasts. Procedure belongs beside the steps for collecting tickets. Subtitles are written words on the screen, while a combined ticket covers two named programs under one purchase. Students explain each match with a short example.\n\nA second exercise gives a plan that ends at exactly the bus departure time. It fits the listed times but has no buffer. One student wants to call the plan guaranteed. Her partner asks what would happen if ordering lunch took two extra minutes.\n\nThe group writes two separate judgments: mathematically possible under the stated times, but sensitive to delay. They keep that wording because it says more than simply good or bad. A precise explanation should show both what works and which condition could change the result.",
+      "title": "Before, After, and Enough",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "For the weekly review, five cards read duration, procedure, subtitles, combined, and buffer.",
+          "meaning": "時長",
+          "word": "duration"
+        },
+        {
+          "example": "For the weekly review, five cards read duration, procedure, subtitles, combined, and buffer.",
+          "meaning": "程序",
+          "word": "procedure"
+        },
+        {
+          "example": "For the weekly review, five cards read duration, procedure, subtitles, combined, and buffer.",
+          "meaning": "字幕",
+          "word": "subtitles"
+        },
+        {
+          "example": "For the weekly review, five cards read duration, procedure, subtitles, combined, and buffer.",
+          "meaning": "合併的",
+          "word": "combined"
+        },
+        {
+          "example": "For the weekly review, five cards read duration, procedure, subtitles, combined, and buffer.",
+          "meaning": "緩衝",
+          "word": "buffer"
+        }
+      ]
+    }
+  ]
+}

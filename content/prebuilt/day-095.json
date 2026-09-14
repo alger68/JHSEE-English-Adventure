@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-05",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 95,
+      "goal": "串連節目、移動、取票與預算條件。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "至少十分鐘",
+          "phrase": "at least ten minutes"
+        },
+        {
+          "meaning": "付款之前",
+          "phrase": "before paying"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "VISIT PLAN: Four students want to attend Sky Stories at ten and Moon Mission at eleven. The first lasts forty minutes and the second fifty. The theaters are a ten-minute walk apart. Each student's ticket for both programs costs one hundred and forty dollars.",
+          "explanation": "Sky Stories 時長四十分鐘。",
+          "id": "d95-q1",
+          "options": [
+            "Ten minutes.",
+            "Twenty-five minutes.",
+            "Forty minutes.",
+            "Fifty minutes."
+          ],
+          "prompt": "How long does the first show last?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "VISIT PLAN: Four students want to attend Sky Stories at ten and Moon Mission at eleven. The first lasts forty minutes and the second fifty. The theaters are a ten-minute walk apart. Each student's ticket for both programs costs one hundred and forty dollars.",
+          "explanation": "兩節目聯票每人140。",
+          "id": "d95-q2",
+          "options": [
+            "One hundred and sixty dollars.",
+            "One hundred and forty dollars.",
+            "Two hundred and fifty dollars.",
+            "Eighty dollars."
+          ],
+          "prompt": "What is the combined ticket price per student?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "ARRIVAL CARD: Their bus reaches the planetarium at nine thirty-five. Walking from the bus stop to the ticket desk takes five minutes. Ticket pickup takes five more. Printed tickets must be collected at least ten minutes before the first show begins.",
+          "explanation": "9:35 到站＋走5＋取5＝9:45。",
+          "id": "d95-q3",
+          "options": [
+            "9:45.",
+            "9:55.",
+            "9:35.",
+            "9:40."
+          ],
+          "prompt": "When do the students finish ticket pickup?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "VISIT PLAN: Four students want to attend Sky Stories at ten and Moon Mission at eleven. The first lasts forty minutes and the second fifty. The theaters are a ten-minute walk apart. Each student's ticket for both programs costs one hundred and forty dollars.",
+          "explanation": "10:40 結束，走十分鐘到10:50，尚未11:00。",
+          "id": "d95-q4",
+          "options": [
+            "Both theaters are the same room.",
+            "The first ends at 10:40 and the walk ends at 10:50.",
+            "The second starts before the first.",
+            "Walking time is included inside both shows."
+          ],
+          "prompt": "Why can they move between the two shows without overlapping them?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "VISIT PLAN: Four students want to attend Sky Stories at ten and Moon Mission at eleven. The first lasts forty minutes and the second fifty. The theaters are a ten-minute walk apart. Each student's ticket for both programs costs one hundred and forty dollars.",
+          "explanation": "11:00 加五十分鐘＝11:50。",
+          "id": "d95-q5",
+          "options": [
+            "11:50.",
+            "11:40.",
+            "12:00.",
+            "12:15."
+          ],
+          "prompt": "When does Moon Mission end?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "AFTER THE SHOWS: The students need fifteen minutes to walk from the second theater to a lunch shop. Their return bus leaves from the stop beside that shop at twelve thirty. Lunch needs twenty-five minutes, including ordering and paying, and the shop is open when they arrive.",
+          "explanation": "AFTER THE SHOWS 說公車站在午餐店旁。",
+          "id": "d95-q6",
+          "options": [
+            "At a shop thirty minutes away.",
+            "At the ticket desk.",
+            "Beside the lunch shop.",
+            "Inside the first theater."
+          ],
+          "prompt": "Where is the return bus stop?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "BUDGET NOTE: Each student has two hundred and fifty dollars. The round-trip bus fare is forty dollars, and the planned lunch is sixty. They will buy the combined ticket rather than two eighty-dollar single tickets, then check the complete schedule before paying.",
+          "explanation": "票價涵蓋去程與回程。",
+          "id": "d95-q7",
+          "options": [
+            "Two rides in the same direction only.",
+            "Travel to the destination and back.",
+            "One walk between shows.",
+            "A circular theater seat."
+          ],
+          "prompt": "What does 'round-trip' describe?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "VISIT PLAN: Four students want to attend Sky Stories at ten and Moon Mission at eleven. The first lasts forty minutes and the second fifty. The theaters are a ten-minute walk apart. Each student's ticket for both programs costs one hundred and forty dollars.\n\nARRIVAL CARD: Their bus reaches the planetarium at nine thirty-five. Walking from the bus stop to the ticket desk takes five minutes. Ticket pickup takes five more. Printed tickets must be collected at least ten minutes before the first show begins.\n\nAFTER THE SHOWS: The students need fifteen minutes to walk from the second theater to a lunch shop. Their return bus leaves from the stop beside that shop at twelve thirty. Lunch needs twenty-five minutes, including ordering and paying, and the shop is open when they arrive.\n\nBUDGET NOTE: Each student has two hundred and fifty dollars. The round-trip bus fare is forty dollars, and the planned lunch is sixty. They will buy the combined ticket rather than two eighty-dollar single tickets, then check the complete schedule before paying.",
+          "explanation": "11:50＋步行15＋用餐25＝12:30，無緩衝。",
+          "id": "d95-q8",
+          "options": [
+            "It ends at 12:30, exactly the listed departure time.",
+            "It ends at 12:40, ten minutes late.",
+            "It ends at 12:05, leaving twenty-five minutes.",
+            "It ends at 12:15, leaving fifteen minutes."
+          ],
+          "prompt": "Does the planned lunch finish in time for the return bus?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "VISIT PLAN: Four students want to attend Sky Stories at ten and Moon Mission at eleven. The first lasts forty minutes and the second fifty. The theaters are a ten-minute walk apart. Each student's ticket for both programs costs one hundred and forty dollars.\n\nARRIVAL CARD: Their bus reaches the planetarium at nine thirty-five. Walking from the bus stop to the ticket desk takes five minutes. Ticket pickup takes five more. Printed tickets must be collected at least ten minutes before the first show begins.\n\nAFTER THE SHOWS: The students need fifteen minutes to walk from the second theater to a lunch shop. Their return bus leaves from the stop beside that shop at twelve thirty. Lunch needs twenty-five minutes, including ordering and paying, and the shop is open when they arrive.\n\nBUDGET NOTE: Each student has two hundred and fifty dollars. The round-trip bus fare is forty dollars, and the planned lunch is sixty. They will buy the combined ticket rather than two eighty-dollar single tickets, then check the complete schedule before paying.",
+          "explanation": "140＋40＋60＝240，剩10；用餐結束恰為發車時間。",
+          "id": "d95-q9",
+          "options": [
+            "Each student exceeds the budget by ten dollars and has a long wait.",
+            "The combined ticket makes the entire visit cost 140 dollars.",
+            "The budget is exact and lunch ends thirty minutes early.",
+            "Each student has ten dollars left, but the lunch plan has no time buffer."
+          ],
+          "prompt": "Which evaluation of money and time is accurate?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "VISIT PLAN: Four students want to attend Sky Stories at ten and Moon Mission at eleven. The first lasts forty minutes and the second fifty. The theaters are a ten-minute walk apart. Each student's ticket for both programs costs one hundred and forty dollars.\n\nARRIVAL CARD: Their bus reaches the planetarium at nine thirty-five. Walking from the bus stop to the ticket desk takes five minutes. Ticket pickup takes five more. Printed tickets must be collected at least ten minutes before the first show begins.\n\nAFTER THE SHOWS: The students need fifteen minutes to walk from the second theater to a lunch shop. Their return bus leaves from the stop beside that shop at twelve thirty. Lunch needs twenty-five minutes, including ordering and paying, and the shop is open when they arrive.\n\nBUDGET NOTE: Each student has two hundred and fifty dollars. The round-trip bus fare is forty dollars, and the planned lunch is sixty. They will buy the combined ticket rather than two eighty-dollar single tickets, then check the complete schedule before paying.",
+      "title": "Boss: A Morning Under the Stars",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "They will buy the combined ticket rather than two eighty-dollar single tickets, then check the complete schedule before paying.",
+          "meaning": "合併的",
+          "word": "combined"
+        },
+        {
+          "example": "Printed tickets must be collected at least ten minutes before the first show begins.",
+          "meaning": "領取的",
+          "word": "collected"
+        },
+        {
+          "example": "The round-trip bus fare is forty dollars, and the planned lunch is sixty.",
+          "meaning": "往返的",
+          "word": "round-trip"
+        },
+        {
+          "example": "Lunch needs twenty-five minutes, including ordering and paying, and the shop is open when they arrive.",
+          "meaning": "包含",
+          "word": "including"
+        },
+        {
+          "example": "Their return bus leaves from the stop beside that shop at twelve thirty.",
+          "meaning": "在旁邊",
+          "word": "beside"
+        }
+      ]
+    }
+  ]
+}

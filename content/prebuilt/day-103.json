@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-13",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 103,
+      "goal": "區分暫付、永久費用與當下可用金額。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在特定時刻",
+          "phrase": "at a specific point"
+        },
+        {
+          "meaning": "暫時保管的",
+          "phrase": "held temporarily"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "At the review table, students sort five cards: backup, share, deposit, refundable, and balance. A short scenario describes a student paying for a class, leaving money for tools, and receiving that tool money back after returning everything. The class fee itself is not returned.",
+          "explanation": "第一段說課程費不返還。",
+          "id": "d103-q1",
+          "options": [
+            "The class fee.",
+            "Every refundable amount.",
+            "The tool deposit after complete return.",
+            "All cash the student brought."
+          ],
+          "prompt": "Which money is not returned in the scenario?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "They finish by drawing a three-step cash timeline with no prices filled in. Another pair supplies numbers and explains every change. The task is complete only when both groups agree which money is spent, which is held temporarily, and which can actually be used now.",
+          "explanation": "最後製作三步現金時間線。",
+          "id": "d103-q2",
+          "options": [
+            "A list of classmates ranked by wealth.",
+            "A map of every bus route.",
+            "A picture of outdoor rain.",
+            "A three-step cash timeline."
+          ],
+          "prompt": "What does the group draw at the end?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "En puts deposit beside the temporary payment and refundable beside the condition that allows it to come back. For balance, she writes how much cash is available at a specific point. Her partner notices that this amount changes before and after the deposit is returned.",
+          "explanation": "付押金與取回時可用現金不同。",
+          "id": "d103-q3",
+          "options": [
+            "Available cash changes when a deposit is paid or returned.",
+            "The class fee is refunded each minute.",
+            "A balance measures only the number of tools.",
+            "All money has the same value at every step."
+          ],
+          "prompt": "Why must a balance be tied to a specific time?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "En puts deposit beside the temporary payment and refundable beside the condition that allows it to come back. For balance, she writes how much cash is available at a specific point. Her partner notices that this amount changes before and after the deposit is returned.",
+          "explanation": "依規定有機會退還，非一律免費。",
+          "id": "d103-q4",
+          "options": [
+            "Equal to the full course price.",
+            "Able to be returned under stated conditions.",
+            "Free of every condition.",
+            "Already spent permanently."
+          ],
+          "prompt": "What does 'refundable' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A separate sentence uses share for correctly sorted items as a proportion of all inspected items. Backup belongs in a plan for using an indoor room if rain prevents outdoor practice. The group discusses why the same word may need a different context from yesterday's story.",
+          "explanation": "第三段指定 share 為比例用法。",
+          "id": "d103-q5",
+          "options": [
+            "The fee already paid for a class.",
+            "Correct items as a proportion of all checked items.",
+            "A rainy-day indoor plan.",
+            "Cash held until tools return."
+          ],
+          "prompt": "Which use of share matches this review?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "They finish by drawing a three-step cash timeline with no prices filled in. Another pair supplies numbers and explains every change. The task is complete only when both groups agree which money is spent, which is held temporarily, and which can actually be used now.",
+          "explanation": "要分清金錢狀態與變化才能正確計算。",
+          "id": "d103-q6",
+          "options": [
+            "Ignoring what happens after a payment.",
+            "Adding every money amount without considering direction.",
+            "Treating deposits as permanent expenses every time.",
+            "Distinguishing spent, temporarily held, and currently available money."
+          ],
+          "prompt": "What understanding completes the task?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At the review table, students sort five cards: backup, share, deposit, refundable, and balance. A short scenario describes a student paying for a class, leaving money for tools, and receiving that tool money back after returning everything. The class fee itself is not returned.\n\nEn puts deposit beside the temporary payment and refundable beside the condition that allows it to come back. For balance, she writes how much cash is available at a specific point. Her partner notices that this amount changes before and after the deposit is returned.\n\nA separate sentence uses share for correctly sorted items as a proportion of all inspected items. Backup belongs in a plan for using an indoor room if rain prevents outdoor practice. The group discusses why the same word may need a different context from yesterday's story.\n\nThey finish by drawing a three-step cash timeline with no prices filled in. Another pair supplies numbers and explains every change. The task is complete only when both groups agree which money is spent, which is held temporarily, and which can actually be used now.",
+      "title": "Money Words That Change the Answer",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "At the review table, students sort five cards: backup, share, deposit, refundable, and balance.",
+          "meaning": "備案",
+          "word": "backup"
+        },
+        {
+          "example": "At the review table, students sort five cards: backup, share, deposit, refundable, and balance.",
+          "meaning": "比例",
+          "word": "share"
+        },
+        {
+          "example": "At the review table, students sort five cards: backup, share, deposit, refundable, and balance.",
+          "meaning": "押金",
+          "word": "deposit"
+        },
+        {
+          "example": "At the review table, students sort five cards: backup, share, deposit, refundable, and balance.",
+          "meaning": "可退還的",
+          "word": "refundable"
+        },
+        {
+          "example": "At the review table, students sort five cards: backup, share, deposit, refundable, and balance.",
+          "meaning": "餘額",
+          "word": "balance"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-07",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 97,
+      "goal": "追蹤一般規則與經核准的例外。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "只有當",
+          "phrase": "only when"
+        },
+        {
+          "meaning": "拍攝之後",
+          "phrase": "after taking"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "In Class Nine, phones usually stay in a numbered box during lessons. A notice says students may retrieve a device for a learning task only when the teacher gives permission. The rule is meant to reduce interruptions without preventing a planned activity that needs a camera or timer.",
+          "explanation": "通常放編號手機盒。",
+          "id": "d97-q1",
+          "options": [
+            "In the science model.",
+            "In the hallway on the floor.",
+            "In a numbered box.",
+            "With every student's friend."
+          ],
+          "prompt": "Where do phones usually stay during lessons?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "During a science lesson, Dan sees Mina using her phone and says she is breaking the rule. Mina has been asked to photograph the group's model. Dan did not hear the instruction because he was helping carry materials from the storage room.",
+          "explanation": "例外只授權拍攝模型。",
+          "id": "d97-q2",
+          "options": [
+            "Send unrelated messages all lesson.",
+            "Ignore every classroom rule.",
+            "Photograph the group's model.",
+            "Keep the phone until next week."
+          ],
+          "prompt": "What is Mina permitted to do?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "During a science lesson, Dan sees Mina using her phone and says she is breaking the rule. Mina has been asked to photograph the group's model. Dan did not hear the instruction because he was helping carry materials from the storage room.",
+          "explanation": "Dan 搬材料時沒聽到授權指示。",
+          "id": "d97-q3",
+          "options": [
+            "The teacher never spoke to Mina.",
+            "The rule allows no exceptions at all.",
+            "He missed the instruction while carrying materials.",
+            "Mina hides the model from everyone."
+          ],
+          "prompt": "Why does Dan initially misunderstand?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Instead of arguing about what must have happened, Dan asks the teacher to clarify. She explains the limited permission and reminds Mina to return the device after taking the pictures. The permission does not allow unrelated messaging during the rest of the lesson.",
+          "explanation": "他請老師說清楚當下規則與授權。",
+          "id": "d97-q4",
+          "options": [
+            "Punish someone without listening.",
+            "Make the situation easier to understand.",
+            "Remove all numbers from the box.",
+            "Photograph a different model."
+          ],
+          "prompt": "What does 'clarify' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Instead of arguing about what must have happened, Dan asks the teacher to clarify. She explains the limited permission and reminds Mina to return the device after taking the pictures. The permission does not allow unrelated messaging during the rest of the lesson.",
+          "explanation": "老師要求拍完就歸還，不是整節自由使用。",
+          "id": "d97-q5",
+          "options": [
+            "After finishing the model photographs.",
+            "Only when Dan apologizes.",
+            "Whenever she decides at home.",
+            "After using every app."
+          ],
+          "prompt": "When should Mina return the device under the permission?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "In Class Nine, phones usually stay in a numbered box during lessons. A notice says students may retrieve a device for a learning task only when the teacher gives permission. The rule is meant to reduce interruptions without preventing a planned activity that needs a camera or timer.\n\nDuring a science lesson, Dan sees Mina using her phone and says she is breaking the rule. Mina has been asked to photograph the group's model. Dan did not hear the instruction because he was helping carry materials from the storage room.\n\nInstead of arguing about what must have happened, Dan asks the teacher to clarify. She explains the limited permission and reminds Mina to return the device after taking the pictures. The permission does not allow unrelated messaging during the rest of the lesson.\n\nLater, the teacher writes the approved task and its ending point on the board. Dan apologizes for making a public accusation before checking the situation. A general rule still matters, but applying it fairly requires knowing whether a specific exception has actually been authorized.",
+          "explanation": "先核對行為事實、許可範圍，再適用規則。",
+          "id": "d97-q6",
+          "options": [
+            "Making an accusation before asking about permission.",
+            "Removing every general rule after one exception.",
+            "Checking the facts and the limits of any authorized exception.",
+            "Assuming every visible phone use has the same purpose."
+          ],
+          "prompt": "What supports fair application of the rule?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In Class Nine, phones usually stay in a numbered box during lessons. A notice says students may retrieve a device for a learning task only when the teacher gives permission. The rule is meant to reduce interruptions without preventing a planned activity that needs a camera or timer.\n\nDuring a science lesson, Dan sees Mina using her phone and says she is breaking the rule. Mina has been asked to photograph the group's model. Dan did not hear the instruction because he was helping carry materials from the storage room.\n\nInstead of arguing about what must have happened, Dan asks the teacher to clarify. She explains the limited permission and reminds Mina to return the device after taking the pictures. The permission does not allow unrelated messaging during the rest of the lesson.\n\nLater, the teacher writes the approved task and its ending point on the board. Dan apologizes for making a public accusation before checking the situation. A general rule still matters, but applying it fairly requires knowing whether a specific exception has actually been authorized.",
+      "title": "The Phone Box Exception",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "A notice says students may retrieve a device for a learning task only when the teacher gives permission.",
+          "meaning": "取回",
+          "word": "retrieve"
+        },
+        {
+          "example": "A notice says students may retrieve a device for a learning task only when the teacher gives permission.",
+          "meaning": "許可",
+          "word": "permission"
+        },
+        {
+          "example": "The rule is meant to reduce interruptions without preventing a planned activity that needs a camera or timer.",
+          "meaning": "干擾",
+          "word": "interruptions"
+        },
+        {
+          "example": "Instead of arguing about what must have happened, Dan asks the teacher to clarify.",
+          "meaning": "澄清",
+          "word": "clarify"
+        },
+        {
+          "example": "A general rule still matters, but applying it fairly requires knowing whether a specific exception has actually been authorized.",
+          "meaning": "例外",
+          "word": "exception"
+        }
+      ]
+    }
+  ]
+}

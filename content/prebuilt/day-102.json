@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-12",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 102,
+      "goal": "將押金現金流與課程前後時間分開計算。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "提前十五分鐘",
+          "phrase": "fifteen minutes early"
+        },
+        {
+          "meaning": "在它退還之前",
+          "phrase": "before it is returned"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "BOOKING CARD: Kira and Dan have booked a woodcraft session from one to three. Each has already paid the one-hundred-and-twenty-dollar fee online. They must arrive fifteen minutes early for check-in and each leave a fifty-dollar cash deposit for borrowed tools.",
+          "explanation": "一點課程，提前十五分鐘即12:45。",
+          "id": "d102-q1",
+          "options": [
+            "12:30.",
+            "1:00.",
+            "12:15.",
+            "12:45."
+          ],
+          "prompt": "What time is the required arrival for check-in?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "BOOKING CARD: Kira and Dan have booked a woodcraft session from one to three. Each has already paid the one-hundred-and-twenty-dollar fee online. They must arrive fifteen minutes early for check-in and each leave a fifty-dollar cash deposit for borrowed tools.",
+          "explanation": "押金每人五十元。",
+          "id": "d102-q2",
+          "options": [
+            "Seventy dollars.",
+            "Sixty dollars.",
+            "One hundred and twenty dollars.",
+            "Fifty dollars."
+          ],
+          "prompt": "How much cash must each leave as a deposit?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "BOOKING CARD: Kira and Dan have booked a woodcraft session from one to three. Each has already paid the one-hundred-and-twenty-dollar fee online. They must arrive fifteen minutes early for check-in and each leave a fifty-dollar cash deposit for borrowed tools.\n\nTRAVEL PLAN: Bus C reaches the workshop stop at twelve thirty. The walk to the door takes ten minutes. Bus D arrives at twelve forty, followed by the same walk. The students carry seventy dollars each in cash and do not need to pay another bus fare.\n\nRETURN NOTE: After the session ends, checking tools back in takes ten minutes. The fifty-dollar deposit is then returned if every tool is present. A snack stand beside the return stop sells sandwiches for sixty dollars. The return bus leaves at three thirty-five.\n\nThe walk from the workshop door to the return stop takes ten minutes. Buying a sandwich needs five minutes, including waiting and payment. Kira writes a timeline and a separate cash balance so she does not count refundable money as a permanent fee or spend it before it is returned.",
+          "explanation": "C 12:30＋10＝12:40；D 到門12:50太晚。",
+          "id": "d102-q3",
+          "options": [
+            "Both buses.",
+            "Neither bus.",
+            "Bus C only.",
+            "Bus D only."
+          ],
+          "prompt": "Which bus reaches the door before the check-in deadline?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "BOOKING CARD: Kira and Dan have booked a woodcraft session from one to three. Each has already paid the one-hundred-and-twenty-dollar fee online. They must arrive fifteen minutes early for check-in and each leave a fifty-dollar cash deposit for borrowed tools.\n\nTRAVEL PLAN: Bus C reaches the workshop stop at twelve thirty. The walk to the door takes ten minutes. Bus D arrives at twelve forty, followed by the same walk. The students carry seventy dollars each in cash and do not need to pay another bus fare.\n\nRETURN NOTE: After the session ends, checking tools back in takes ten minutes. The fifty-dollar deposit is then returned if every tool is present. A snack stand beside the return stop sells sandwiches for sixty dollars. The return bus leaves at three thirty-five.\n\nThe walk from the workshop door to the return stop takes ten minutes. Buying a sandwich needs five minutes, including waiting and payment. Kira writes a timeline and a separate cash balance so she does not count refundable money as a permanent fee or spend it before it is returned.",
+          "explanation": "費用是支出，押金依歸還條件回收。",
+          "id": "d102-q4",
+          "options": [
+            "Deposits may be spent while held by staff.",
+            "The fee has not been paid at all.",
+            "Both amounts are free gifts.",
+            "The deposit may return, while the session fee is the cost of attending."
+          ],
+          "prompt": "Why keep fee and deposit separate?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "BOOKING CARD: Kira and Dan have booked a woodcraft session from one to three. Each has already paid the one-hundred-and-twenty-dollar fee online. They must arrive fifteen minutes early for check-in and each leave a fifty-dollar cash deposit for borrowed tools.\n\nTRAVEL PLAN: Bus C reaches the workshop stop at twelve thirty. The walk to the door takes ten minutes. Bus D arrives at twelve forty, followed by the same walk. The students carry seventy dollars each in cash and do not need to pay another bus fare.\n\nRETURN NOTE: After the session ends, checking tools back in takes ten minutes. The fifty-dollar deposit is then returned if every tool is present. A snack stand beside the return stop sells sandwiches for sixty dollars. The return bus leaves at three thirty-five.\n\nThe walk from the workshop door to the return stop takes ten minutes. Buying a sandwich needs five minutes, including waiting and payment. Kira writes a timeline and a separate cash balance so she does not count refundable money as a permanent fee or spend it before it is returned.",
+          "explanation": "原現金70－押金50＝20。",
+          "id": "d102-q5",
+          "options": [
+            "One hundred and twenty dollars.",
+            "Twenty dollars.",
+            "Seventy dollars.",
+            "Fifty dollars."
+          ],
+          "prompt": "How much cash does each have during the workshop after paying the deposit?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "RETURN NOTE: After the session ends, checking tools back in takes ten minutes. The fifty-dollar deposit is then returned if every tool is present. A snack stand beside the return stop sells sandwiches for sixty dollars. The return bus leaves at three thirty-five.",
+          "explanation": "工具完整歸還才退。",
+          "id": "d102-q6",
+          "options": [
+            "Every borrowed tool is checked back in.",
+            "The bus arrives early.",
+            "The finished object is painted.",
+            "The student buys a sandwich."
+          ],
+          "prompt": "What condition allows the deposit to be returned?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The walk from the workshop door to the return stop takes ten minutes. Buying a sandwich needs five minutes, including waiting and payment. Kira writes a timeline and a separate cash balance so she does not count refundable money as a permanent fee or spend it before it is returned.",
+          "explanation": "cash balance 指某一時刻現金餘額。",
+          "id": "d102-q7",
+          "options": [
+            "The length of the bus route.",
+            "The amount of money currently left.",
+            "A way to stand on one leg.",
+            "The weight of the finished wood."
+          ],
+          "prompt": "What does 'balance' mean in the last paragraph?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "BOOKING CARD: Kira and Dan have booked a woodcraft session from one to three. Each has already paid the one-hundred-and-twenty-dollar fee online. They must arrive fifteen minutes early for check-in and each leave a fifty-dollar cash deposit for borrowed tools.\n\nTRAVEL PLAN: Bus C reaches the workshop stop at twelve thirty. The walk to the door takes ten minutes. Bus D arrives at twelve forty, followed by the same walk. The students carry seventy dollars each in cash and do not need to pay another bus fare.\n\nRETURN NOTE: After the session ends, checking tools back in takes ten minutes. The fifty-dollar deposit is then returned if every tool is present. A snack stand beside the return stop sells sandwiches for sixty dollars. The return bus leaves at three thirty-five.\n\nThe walk from the workshop door to the return stop takes ten minutes. Buying a sandwich needs five minutes, including waiting and payment. Kira writes a timeline and a separate cash balance so she does not count refundable money as a permanent fee or spend it before it is returned.",
+          "explanation": "3:00＋歸還10＋步行10＋購買5＝3:25。",
+          "id": "d102-q8",
+          "options": [
+            "At 3:45.",
+            "At 3:10.",
+            "At 3:25.",
+            "At 3:35."
+          ],
+          "prompt": "When can sandwich buying be finished after normal tool return?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "BOOKING CARD: Kira and Dan have booked a woodcraft session from one to three. Each has already paid the one-hundred-and-twenty-dollar fee online. They must arrive fifteen minutes early for check-in and each leave a fifty-dollar cash deposit for borrowed tools.\n\nTRAVEL PLAN: Bus C reaches the workshop stop at twelve thirty. The walk to the door takes ten minutes. Bus D arrives at twelve forty, followed by the same walk. The students carry seventy dollars each in cash and do not need to pay another bus fare.\n\nRETURN NOTE: After the session ends, checking tools back in takes ten minutes. The fifty-dollar deposit is then returned if every tool is present. A snack stand beside the return stop sells sandwiches for sixty dollars. The return bus leaves at three thirty-five.\n\nThe walk from the workshop door to the return stop takes ten minutes. Buying a sandwich needs five minutes, including waiting and payment. Kira writes a timeline and a separate cash balance so she does not count refundable money as a permanent fee or spend it before it is returned.",
+          "explanation": "20＋押金退50－三明治60＝10。",
+          "id": "d102-q9",
+          "options": [
+            "Ten dollars.",
+            "Zero dollars.",
+            "Twenty dollars.",
+            "Sixty dollars."
+          ],
+          "prompt": "After a complete deposit return and one sandwich, how much cash remains per student?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "BOOKING CARD: Kira and Dan have booked a woodcraft session from one to three. Each has already paid the one-hundred-and-twenty-dollar fee online. They must arrive fifteen minutes early for check-in and each leave a fifty-dollar cash deposit for borrowed tools.\n\nTRAVEL PLAN: Bus C reaches the workshop stop at twelve thirty. The walk to the door takes ten minutes. Bus D arrives at twelve forty, followed by the same walk. The students carry seventy dollars each in cash and do not need to pay another bus fare.\n\nRETURN NOTE: After the session ends, checking tools back in takes ten minutes. The fifty-dollar deposit is then returned if every tool is present. A snack stand beside the return stop sells sandwiches for sixty dollars. The return bus leaves at three thirty-five.\n\nThe walk from the workshop door to the return stop takes ten minutes. Buying a sandwich needs five minutes, including waiting and payment. Kira writes a timeline and a separate cash balance so she does not count refundable money as a permanent fee or spend it before it is returned.",
+      "title": "Boss: Workshop Money and Minutes",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "Kira writes a timeline and a separate cash balance so she does not count refundable money as a permanent fee or spend it before it is returned.",
+          "meaning": "餘額",
+          "word": "balance"
+        },
+        {
+          "example": "Kira writes a timeline and a separate cash balance so she does not count refundable money as a permanent fee or spend it before it is returned.",
+          "meaning": "可退還的",
+          "word": "refundable"
+        },
+        {
+          "example": "Kira writes a timeline and a separate cash balance so she does not count refundable money as a permanent fee or spend it before it is returned.",
+          "meaning": "永久的",
+          "word": "permanent"
+        },
+        {
+          "example": "The fifty-dollar deposit is then returned if every tool is present.",
+          "meaning": "在場齊全的",
+          "word": "present"
+        },
+        {
+          "example": "Kira writes a timeline and a separate cash balance so she does not count refundable money as a permanent fee or spend it before it is returned.",
+          "meaning": "時間線",
+          "word": "timeline"
+        }
+      ]
+    }
+  ]
+}
