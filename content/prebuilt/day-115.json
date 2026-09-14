@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-25",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 115,
+      "goal": "理解自助導覽的路線、安全與使用方式。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "不停留",
+          "phrase": "without stops"
+        },
+        {
+          "meaning": "考慮在內",
+          "phrase": "in mind"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "NEIGHBORHOOD AUDIO WALK: Download the six recordings before leaving the community center. The route begins at the old fountain and ends at the reading garden. Each recording describes one stopping point. You may pause, repeat, or skip a recording and still follow the printed route map.",
+          "explanation": "第一段寫六段錄音。",
+          "id": "d115-q1",
+          "options": [
+            "Six.",
+            "Forty.",
+            "Two.",
+            "Eighteen."
+          ],
+          "prompt": "How many recordings are in the audio walk?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Listen only while standing at a marked stopping point, not while crossing a street. Keep enough awareness of the surroundings to hear people nearby. If a path is closed, follow the posted detour and use the map; an old recording may still describe the usual route.",
+          "explanation": "要求站在指定停留點聽。",
+          "id": "d115-q2",
+          "options": [
+            "At any closed path entrance.",
+            "While crossing a street.",
+            "At a marked stopping point.",
+            "Only in a moving car."
+          ],
+          "prompt": "Where should visitors listen?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Listen only while standing at a marked stopping point, not while crossing a street. Keep enough awareness of the surroundings to hear people nearby. If a path is closed, follow the posted detour and use the map; an old recording may still describe the usual route.",
+          "explanation": "錄音可能描述舊常態，現場改道需依地圖與公告。",
+          "id": "d115-q3",
+          "options": [
+            "The map changes the garden's closing time.",
+            "Every recording removes a street.",
+            "The route has no destination.",
+            "A current path closure may differ from the usual recorded route."
+          ],
+          "prompt": "Why might the printed map and signs be needed even with recordings?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Listen only while standing at a marked stopping point, not while crossing a street. Keep enough awareness of the surroundings to hear people nearby. If a path is closed, follow the posted detour and use the map; an old recording may still describe the usual route.",
+          "explanation": "道路關閉時改走的替代路徑。",
+          "id": "d115-q4",
+          "options": [
+            "The price of a printed map.",
+            "A required finishing time.",
+            "A recording played twice.",
+            "An alternative way around a blocked route."
+          ],
+          "prompt": "What is a 'detour'?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The complete route is about two kilometers and usually takes forty minutes without stops. The recordings add eighteen minutes altogether. Your total visit will be longer if you pause to draw, rest, or talk. The route is not a timed race, and no finish time is required.",
+          "explanation": "步行40＋錄音18＝58 分鐘。",
+          "id": "d115-q5",
+          "options": [
+            "Forty minutes.",
+            "Fifty-eight minutes.",
+            "Sixty-eight minutes.",
+            "Eighteen minutes."
+          ],
+          "prompt": "What is the estimated duration with every recording and no other stops?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "NEIGHBORHOOD AUDIO WALK: Download the six recordings before leaving the community center. The route begins at the old fountain and ends at the reading garden. Each recording describes one stopping point. You may pause, repeat, or skip a recording and still follow the printed route map.\n\nThe complete route is about two kilometers and usually takes forty minutes without stops. The recordings add eighteen minutes altogether. Your total visit will be longer if you pause to draw, rest, or talk. The route is not a timed race, and no finish time is required.\n\nListen only while standing at a marked stopping point, not while crossing a street. Keep enough awareness of the surroundings to hear people nearby. If a path is closed, follow the posted detour and use the map; an old recording may still describe the usual route.\n\nThe free printed map is available at the front desk until four. Downloading the recordings is also free. The reading garden closes at five, so plan your departure time with any extra stops in mind.",
+          "explanation": "額外停留增加時間，須注意終點花園五點關。",
+          "id": "d115-q6",
+          "options": [
+            "The garden's five o'clock closing time.",
+            "A compulsory race deadline.",
+            "A rule against resting anywhere.",
+            "A fee for pausing the audio."
+          ],
+          "prompt": "What should someone planning many extra stops consider?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "NEIGHBORHOOD AUDIO WALK: Download the six recordings before leaving the community center. The route begins at the old fountain and ends at the reading garden. Each recording describes one stopping point. You may pause, repeat, or skip a recording and still follow the printed route map.\n\nThe complete route is about two kilometers and usually takes forty minutes without stops. The recordings add eighteen minutes altogether. Your total visit will be longer if you pause to draw, rest, or talk. The route is not a timed race, and no finish time is required.\n\nListen only while standing at a marked stopping point, not while crossing a street. Keep enough awareness of the surroundings to hear people nearby. If a path is closed, follow the posted detour and use the map; an old recording may still describe the usual route.\n\nThe free printed map is available at the front desk until four. Downloading the recordings is also free. The reading garden closes at five, so plan your departure time with any extra stops in mind.",
+      "title": "An Audio Walk You Can Pause",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "NEIGHBORHOOD AUDIO WALK: Download the six recordings before leaving the community center.",
+          "meaning": "錄音",
+          "word": "recordings"
+        },
+        {
+          "example": "The route begins at the old fountain and ends at the reading garden.",
+          "meaning": "路線",
+          "word": "route"
+        },
+        {
+          "example": "The recordings add eighteen minutes altogether.",
+          "meaning": "總共",
+          "word": "altogether"
+        },
+        {
+          "example": "If a path is closed, follow the posted detour and use the map; an old recording may still describe the usual route.",
+          "meaning": "改道",
+          "word": "detour"
+        },
+        {
+          "example": "The reading garden closes at five, so plan your departure time with any extra stops in mind.",
+          "meaning": "出發",
+          "word": "departure"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-18",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 108,
+      "goal": "整合場館票卡與活動場次的適用範圍。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "同一天",
+          "phrase": "on the same date"
+        },
+        {
+          "meaning": "視……而定",
+          "phrase": "subject to"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "EXHIBIT EXPLORER CARD: A one-day card costs one hundred dollars and allows entry to the history gallery and the craft gallery until five. Keep the card for reentry on the same date. It does not include the guided storage-room tour, which requires a separate reservation.",
+          "explanation": "一日卡涵蓋兩個公開展廳。",
+          "id": "d108-q1",
+          "options": [
+            "The history and craft galleries.",
+            "The storage room and every school tour.",
+            "Only the craft gallery.",
+            "Every museum for one week."
+          ],
+          "prompt": "Which areas does the basic card cover?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The storage-room tour costs forty dollars and starts at two. Only card holders aged twelve or older may reserve it. Meet at the history gallery desk ten minutes before the tour. Bags larger than a school notebook must stay in the free lockers.",
+          "explanation": "兩點導覽須提前十分鐘集合。",
+          "id": "d108-q2",
+          "options": [
+            "At 2:00.",
+            "At 1:50.",
+            "At 2:10.",
+            "At 4:30."
+          ],
+          "prompt": "When should a reserved storage-tour participant meet?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The card desk stops sales at four thirty. Buying a card near closing does not extend its validity into tomorrow. Lost cards cannot be replaced without the purchase receipt. Please photograph the receipt or keep the paper copy somewhere separate from the card.",
+          "explanation": "卡遺失仍有購買證明可辦補發。",
+          "id": "d108-q3",
+          "options": [
+            "It helps prove the purchase if the card is lost.",
+            "It lets children ignore the age limit.",
+            "It makes lockers paid instead of free.",
+            "It extends the card into the next day."
+          ],
+          "prompt": "Why keep the receipt separately from the card?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The card desk stops sales at four thirty. Buying a card near closing does not extend its validity into tomorrow. Lost cards cannot be replaced without the purchase receipt. Please photograph the receipt or keep the paper copy somewhere separate from the card.",
+          "explanation": "最後一段談卡片使用期限。",
+          "id": "d108-q4",
+          "options": [
+            "The period when the card can be used.",
+            "The number of locker keys.",
+            "The size of a visitor's bag.",
+            "The history of the building."
+          ],
+          "prompt": "What does 'validity' refer to?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "EXHIBIT EXPLORER CARD: A one-day card costs one hundred dollars and allows entry to the history gallery and the craft gallery until five. Keep the card for reentry on the same date. It does not include the guided storage-room tour, which requires a separate reservation.\n\nThe storage-room tour costs forty dollars and starts at two. Only card holders aged twelve or older may reserve it. Meet at the history gallery desk ten minutes before the tour. Bags larger than a school notebook must stay in the free lockers.\n\nChildren under twelve may enter the two public galleries free with an adult card holder. They cannot join the storage-room tour, even with an adult. School groups may request a different tour on another date, subject to staff availability.\n\nThe card desk stops sales at four thirty. Buying a card near closing does not extend its validity into tomorrow. Lost cards cannot be replaced without the purchase receipt. Please photograph the receipt or keep the paper copy somewhere separate from the card.",
+          "explanation": "基本卡100＋另付導覽40＝140。",
+          "id": "d108-q5",
+          "options": [
+            "One hundred dollars.",
+            "Forty dollars.",
+            "One hundred and eighty dollars.",
+            "One hundred and forty dollars."
+          ],
+          "prompt": "What must a thirteen-year-old pay for a card and the reserved tour?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Children under twelve may enter the two public galleries free with an adult card holder. They cannot join the storage-room tour, even with an adult. School groups may request a different tour on another date, subject to staff availability.",
+          "explanation": "未滿12與持卡成人可免費逛公開廳，不能參加庫房導覽。",
+          "id": "d108-q6",
+          "options": [
+            "The child must buy two full-price cards.",
+            "A receipt removes the storage-tour age rule.",
+            "Both public galleries and the storage tour are free.",
+            "Public gallery entry can be free, but the storage tour is unavailable."
+          ],
+          "prompt": "Which statement about an eleven-year-old with an adult is correct?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "EXHIBIT EXPLORER CARD: A one-day card costs one hundred dollars and allows entry to the history gallery and the craft gallery until five. Keep the card for reentry on the same date. It does not include the guided storage-room tour, which requires a separate reservation.\n\nThe storage-room tour costs forty dollars and starts at two. Only card holders aged twelve or older may reserve it. Meet at the history gallery desk ten minutes before the tour. Bags larger than a school notebook must stay in the free lockers.\n\nChildren under twelve may enter the two public galleries free with an adult card holder. They cannot join the storage-room tour, even with an adult. School groups may request a different tour on another date, subject to staff availability.\n\nThe card desk stops sales at four thirty. Buying a card near closing does not extend its validity into tomorrow. Lost cards cannot be replaced without the purchase receipt. Please photograph the receipt or keep the paper copy somewhere separate from the card.",
+      "title": "The Exhibit Explorer Card",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "Keep the card for reentry on the same date.",
+          "meaning": "再次入場",
+          "word": "reentry"
+        },
+        {
+          "example": "It does not include the guided storage-room tour, which requires a separate reservation.",
+          "meaning": "另外的",
+          "word": "separate"
+        },
+        {
+          "example": "Only card holders aged twelve or older may reserve it.",
+          "meaning": "預約",
+          "word": "reserve"
+        },
+        {
+          "example": "Buying a card near closing does not extend its validity into tomorrow.",
+          "meaning": "有效期",
+          "word": "validity"
+        },
+        {
+          "example": "Lost cards cannot be replaced without the purchase receipt.",
+          "meaning": "收據",
+          "word": "receipt"
+        }
+      ]
+    }
+  ]
+}

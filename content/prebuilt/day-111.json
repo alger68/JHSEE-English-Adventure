@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-21",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 111,
+      "goal": "使標題強度符合實際研究證據。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "更不用說",
+          "phrase": "much less"
+        },
+        {
+          "meaning": "而非更少",
+          "phrase": "rather than less"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "Her teammate argues that the title promises more than their work shows. They have compared only three designs, all made from the same paper and tested with the same blocks. They have not tested every paper bridge, much less every real bridge.",
+          "explanation": "只比較三種摺法設計。",
+          "id": "d111-q1",
+          "options": [
+            "One hundred.",
+            "Every design in the world.",
+            "Three.",
+            "Eighteen."
+          ],
+          "prompt": "How many bridge designs did the group compare?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The science fair team has tested three paper bridges made with different folds. Their best bridge holds eighteen small blocks in the classroom test. Nori wants the display title to read The Strongest Bridge in the World because she thinks visitors will notice it immediately.",
+          "explanation": "最佳紙橋承受十八小積木。",
+          "id": "d111-q2",
+          "options": [
+            "Every classroom book.",
+            "Three students.",
+            "Eighteen small blocks.",
+            "A real car."
+          ],
+          "prompt": "What did the best bridge hold in the test?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Her teammate argues that the title promises more than their work shows. They have compared only three designs, all made from the same paper and tested with the same blocks. They have not tested every paper bridge, much less every real bridge.",
+          "explanation": "小範圍比較無法推論世界最強。",
+          "id": "d111-q3",
+          "options": [
+            "The experiment covers a limited set, not every bridge.",
+            "Visitors dislike every strong title.",
+            "The team has no measurements at all.",
+            "All designs used different kinds of concrete."
+          ],
+          "prompt": "Why is Nori's first title unsupported?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "At the fair, a visitor asks whether thicker paper would change the ranking. The students say that would require another test. Their honest answer leads to a useful discussion, and Nori realizes that a careful claim can make a project more interesting rather than less.",
+          "explanation": "此處指展板對結果所做的主張。",
+          "id": "d111-q4",
+          "options": [
+            "A statement presented as true.",
+            "The last block removed.",
+            "A folded edge of paper.",
+            "A visitor's admission ticket."
+          ],
+          "prompt": "What does 'claim' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "At the fair, a visitor asks whether thicker paper would change the ranking. The students say that would require another test. Their honest answer leads to a useful discussion, and Nori realizes that a careful claim can make a project more interesting rather than less.",
+          "explanation": "未測紙厚，不能預先斷定名次。",
+          "id": "d111-q5",
+          "options": [
+            "It is certain to preserve the same ranking.",
+            "It may change the result, but this test does not establish how.",
+            "It must make every bridge weaker.",
+            "The current test already used every thickness."
+          ],
+          "prompt": "What is the proper answer about thicker paper?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "The science fair team has tested three paper bridges made with different folds. Their best bridge holds eighteen small blocks in the classroom test. Nori wants the display title to read The Strongest Bridge in the World because she thinks visitors will notice it immediately.\n\nHer teammate argues that the title promises more than their work shows. They have compared only three designs, all made from the same paper and tested with the same blocks. They have not tested every paper bridge, much less every real bridge.\n\nThe group proposes A Fold That Helped Our Paper Bridge Hold More. It sounds less dramatic, but it invites a question the team can answer with its measurements. They add photos of all three designs and explain what happened when each bridge finally bent.\n\nAt the fair, a visitor asks whether thicker paper would change the ranking. The students say that would require another test. Their honest answer leads to a useful discussion, and Nori realizes that a careful claim can make a project more interesting rather than less.",
+          "explanation": "保留探究吸引力，同時使結論與證據範圍一致。",
+          "id": "d111-q6",
+          "options": [
+            "An interesting statement whose scope matches the evidence.",
+            "A universal proof about every bridge.",
+            "A replacement for all photos and data.",
+            "A promise that no further questions are needed."
+          ],
+          "prompt": "What does the final title achieve?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The science fair team has tested three paper bridges made with different folds. Their best bridge holds eighteen small blocks in the classroom test. Nori wants the display title to read The Strongest Bridge in the World because she thinks visitors will notice it immediately.\n\nHer teammate argues that the title promises more than their work shows. They have compared only three designs, all made from the same paper and tested with the same blocks. They have not tested every paper bridge, much less every real bridge.\n\nThe group proposes A Fold That Helped Our Paper Bridge Hold More. It sounds less dramatic, but it invites a question the team can answer with its measurements. They add photos of all three designs and explain what happened when each bridge finally bent.\n\nAt the fair, a visitor asks whether thicker paper would change the ranking. The students say that would require another test. Their honest answer leads to a useful discussion, and Nori realizes that a careful claim can make a project more interesting rather than less.",
+      "title": "The Science Fair Title Debate",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "The science fair team has tested three paper bridges made with different folds.",
+          "meaning": "摺法",
+          "word": "folds"
+        },
+        {
+          "example": "It sounds less dramatic, but it invites a question the team can answer with its measurements.",
+          "meaning": "誇張醒目的",
+          "word": "dramatic"
+        },
+        {
+          "example": "It sounds less dramatic, but it invites a question the team can answer with its measurements.",
+          "meaning": "測量結果",
+          "word": "measurements"
+        },
+        {
+          "example": "At the fair, a visitor asks whether thicker paper would change the ranking.",
+          "meaning": "排名",
+          "word": "ranking"
+        },
+        {
+          "example": "Their honest answer leads to a useful discussion, and Nori realizes that a careful claim can make a project more interesting rather than less.",
+          "meaning": "主張",
+          "word": "claim"
+        }
+      ]
+    }
+  ]
+}

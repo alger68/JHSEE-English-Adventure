@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-16",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 106,
+      "goal": "核對引述前後文，分辨刪節是否改變原意。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "很適合",
+          "phrase": "works well for"
+        },
+        {
+          "meaning": "刊登之前",
+          "phrase": "before publication"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Editor: What did she say next? Writer: She said, It is too small for large group talks, but it works well for quiet individual reading. She also suggested keeping group events in the old hall because that space has movable chairs.",
+          "explanation": "她認為新室適合安靜個別閱讀。",
+          "id": "d106-q1",
+          "options": [
+            "Every event needing movable chairs.",
+            "Quiet individual reading.",
+            "Large group talks.",
+            "Outdoor music practice."
+          ],
+          "prompt": "What activity does the librarian say the new room suits?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Editor: What did she say next? Writer: She said, It is too small for large group talks, but it works well for quiet individual reading. She also suggested keeping group events in the old hall because that space has movable chairs.",
+          "explanation": "原廳有可移動椅，適合團體活動。",
+          "id": "d106-q2",
+          "options": [
+            "In the old hall.",
+            "At the newsletter office.",
+            "In every new reading seat.",
+            "Inside the smallest corner."
+          ],
+          "prompt": "Where does she suggest holding group events?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Editor: Then quoting only the first sentence could make readers think she dislikes the room for every use. Include the condition about large groups and her positive point about individual reading. A shorter quote should still preserve the view she expressed.",
+          "explanation": "刪掉適用條件與正面看法會變成全面否定。",
+          "id": "d106-q3",
+          "options": [
+            "It leaves out the uses for which her judgment applies.",
+            "No permission was obtained for recording.",
+            "It changes the room's physical size.",
+            "The interview never took place."
+          ],
+          "prompt": "Why is the first short quote potentially misleading?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Editor: Then quoting only the first sentence could make readers think she dislikes the room for every use. Include the condition about large groups and her positive point about individual reading. A shorter quote should still preserve the view she expressed.",
+          "explanation": "短引文仍應保留說話者原意。",
+          "id": "d106-q4",
+          "options": [
+            "Remove all criticism.",
+            "Publish only one word.",
+            "Make the room larger.",
+            "Keep the original meaning."
+          ],
+          "prompt": "What does 'preserve' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Newsletter chat: I want to quote the librarian saying, The new reading room is too small. It will make a strong opening for our article about the renovation. The quote comes from the interview we recorded yesterday after getting her permission.\n\nEditor: What did she say next? Writer: She said, It is too small for large group talks, but it works well for quiet individual reading. She also suggested keeping group events in the old hall because that space has movable chairs.\n\nEditor: Then quoting only the first sentence could make readers think she dislikes the room for every use. Include the condition about large groups and her positive point about individual reading. A shorter quote should still preserve the view she expressed.\n\nWriter: I will introduce both uses and check the recording again before publication. We can ask whether the layout fits each activity instead of deciding that the whole room is simply good or bad. The headline should reflect that question too.",
+          "explanation": "完整意見依用途不同評估空間。",
+          "id": "d106-q5",
+          "options": [
+            "All Group Events Move into the Small Room.",
+            "Librarian Says Every New Room Is Useless.",
+            "Old Hall Must Close Immediately.",
+            "A Reading Room That Fits Some Activities Better Than Others."
+          ],
+          "prompt": "Which headline best reflects the complete view?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "Newsletter chat: I want to quote the librarian saying, The new reading room is too small. It will make a strong opening for our article about the renovation. The quote comes from the interview we recorded yesterday after getting her permission.\n\nEditor: What did she say next? Writer: She said, It is too small for large group talks, but it works well for quiet individual reading. She also suggested keeping group events in the old hall because that space has movable chairs.\n\nEditor: Then quoting only the first sentence could make readers think she dislikes the room for every use. Include the condition about large groups and her positive point about individual reading. A shorter quote should still preserve the view she expressed.\n\nWriter: I will introduce both uses and check the recording again before publication. We can ask whether the layout fits each activity instead of deciding that the whole room is simply good or bad. The headline should reflect that question too.",
+          "explanation": "保留重要條件，不能為醒目而扭曲。",
+          "id": "d106-q6",
+          "options": [
+            "Avoid checking recordings once a headline is written.",
+            "Use the strongest fragment regardless of context.",
+            "Shorten text without removing conditions essential to its meaning.",
+            "Treat a partial quote as the entire interview."
+          ],
+          "prompt": "What editing principle is illustrated?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Newsletter chat: I want to quote the librarian saying, The new reading room is too small. It will make a strong opening for our article about the renovation. The quote comes from the interview we recorded yesterday after getting her permission.\n\nEditor: What did she say next? Writer: She said, It is too small for large group talks, but it works well for quiet individual reading. She also suggested keeping group events in the old hall because that space has movable chairs.\n\nEditor: Then quoting only the first sentence could make readers think she dislikes the room for every use. Include the condition about large groups and her positive point about individual reading. A shorter quote should still preserve the view she expressed.\n\nWriter: I will introduce both uses and check the recording again before publication. We can ask whether the layout fits each activity instead of deciding that the whole room is simply good or bad. The headline should reflect that question too.",
+      "title": "The Quote with a Missing Sentence",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Newsletter chat: I want to quote the librarian saying, The new reading room is too small.",
+          "meaning": "引用",
+          "word": "quote"
+        },
+        {
+          "example": "It will make a strong opening for our article about the renovation.",
+          "meaning": "整修",
+          "word": "renovation"
+        },
+        {
+          "example": "Writer: She said, It is too small for large group talks, but it works well for quiet individual reading.",
+          "meaning": "個別的",
+          "word": "individual"
+        },
+        {
+          "example": "A shorter quote should still preserve the view she expressed.",
+          "meaning": "保留",
+          "word": "preserve"
+        },
+        {
+          "example": "Writer: I will introduce both uses and check the recording again before publication.",
+          "meaning": "刊登",
+          "word": "publication"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-27",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 117,
+      "goal": "綜合本週字詞理解核對與判斷。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "公開",
+          "phrase": "made public"
+        },
+        {
+          "meaning": "僅因為",
+          "phrase": "merely because"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "The review group prepares five cards: renewal, steady, detour, hidden, and handover. Their task is to explain the words through short actions. A reader must be able to understand the situation without seeing the lesson from which the word originally came.",
+          "explanation": "新情境須獨立可理解，不依賴看原課。",
+          "id": "d117-q1",
+          "options": [
+            "The original lesson being visible.",
+            "The five word cards themselves.",
+            "Any action in the sentence.",
+            "A reader who knows English."
+          ],
+          "prompt": "What must the explanations work without?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A student waiting for a later library due date is checking a renewal. Someone keeping a page from moving holds it steady. A walker using an alternate path around roadwork follows a detour. The group keeps each explanation focused on the action that matters.",
+          "explanation": "保持紙張不動即 steady。",
+          "id": "d117-q2",
+          "options": [
+            "Checking a later due date.",
+            "Keeping a page from moving.",
+            "Returning a bag to an owner.",
+            "Changing a route around roadwork."
+          ],
+          "prompt": "Which action illustrates steady?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "For hidden, they describe a bag detail that has not been made public. Handover belongs beside the moment a checked item is returned to its owner. One student says the act of finding a bag is already a handover, but a partner points out that no receiver is involved yet.",
+          "explanation": "交付須有接收對象，找到物品尚未交接。",
+          "id": "d117-q3",
+          "options": [
+            "No item has been given to a receiver.",
+            "Every found item must remain hidden.",
+            "The finder has no map.",
+            "The bag is not green."
+          ],
+          "prompt": "Why is finding a bag not yet a handover?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For hidden, they describe a bag detail that has not been made public. Handover belongs beside the moment a checked item is returned to its owner. One student says the act of finding a bag is already a handover, but a partner points out that no receiver is involved yet.",
+          "explanation": "此處是尚未對外公布的特徵。",
+          "id": "d117-q4",
+          "options": [
+            "Impossible for the owner to know.",
+            "Written in the largest letters.",
+            "Not disclosed to the public.",
+            "Placed on every notice."
+          ],
+          "prompt": "What does 'hidden' mean in the review example?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The review group prepares five cards: renewal, steady, detour, hidden, and handover. Their task is to explain the words through short actions. A reader must be able to understand the situation without seeing the lesson from which the word originally came.\n\nA student waiting for a later library due date is checking a renewal. Someone keeping a page from moving holds it steady. A walker using an alternate path around roadwork follows a detour. The group keeps each explanation focused on the action that matters.\n\nFor hidden, they describe a bag detail that has not been made public. Handover belongs beside the moment a checked item is returned to its owner. One student says the act of finding a bag is already a handover, but a partner points out that no receiver is involved yet.\n\nThe students add a receiver to the sentence and read it again. They finish by asking what extra detail makes each word fit. This small habit helps them avoid choosing an answer merely because it belongs to the general topic of the passage.",
+          "explanation": "handover 必須有交给接收者的動作。",
+          "id": "d117-q5",
+          "options": [
+            "Steady—moving a page constantly.",
+            "Renewal—forgetting a book's title.",
+            "Detour—standing still at the usual starting point.",
+            "Handover—giving a checked item to its owner."
+          ],
+          "prompt": "Which match includes the key action?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "The students add a receiver to the sentence and read it again. They finish by asking what extra detail makes each word fit. This small habit helps them avoid choosing an answer merely because it belongs to the general topic of the passage.",
+          "explanation": "同屬主題不代表語义合適，需核對動作細節。",
+          "id": "d117-q6",
+          "options": [
+            "Ignore the difference between finding and returning.",
+            "Check the specific action, not only the general topic.",
+            "Choose any word related to a bag story.",
+            "Use the original lesson title as the only clue."
+          ],
+          "prompt": "What strategy does the group recommend?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The review group prepares five cards: renewal, steady, detour, hidden, and handover. Their task is to explain the words through short actions. A reader must be able to understand the situation without seeing the lesson from which the word originally came.\n\nA student waiting for a later library due date is checking a renewal. Someone keeping a page from moving holds it steady. A walker using an alternate path around roadwork follows a detour. The group keeps each explanation focused on the action that matters.\n\nFor hidden, they describe a bag detail that has not been made public. Handover belongs beside the moment a checked item is returned to its owner. One student says the act of finding a bag is already a handover, but a partner points out that no receiver is involved yet.\n\nThe students add a receiver to the sentence and read it again. They finish by asking what extra detail makes each word fit. This small habit helps them avoid choosing an answer merely because it belongs to the general topic of the passage.",
+      "title": "One Detail Is Not the Whole Picture",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "The review group prepares five cards: renewal, steady, detour, hidden, and handover.",
+          "meaning": "續借",
+          "word": "renewal"
+        },
+        {
+          "example": "The review group prepares five cards: renewal, steady, detour, hidden, and handover.",
+          "meaning": "穩定的",
+          "word": "steady"
+        },
+        {
+          "example": "The review group prepares five cards: renewal, steady, detour, hidden, and handover.",
+          "meaning": "改道",
+          "word": "detour"
+        },
+        {
+          "example": "The review group prepares five cards: renewal, steady, detour, hidden, and handover.",
+          "meaning": "未公開的",
+          "word": "hidden"
+        },
+        {
+          "example": "The review group prepares five cards: renewal, steady, detour, hidden, and handover.",
+          "meaning": "交付",
+          "word": "handover"
+        }
+      ]
+    }
+  ]
+}

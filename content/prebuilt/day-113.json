@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-23",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 113,
+      "goal": "核對借閱延期成功與可續借條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "仍然適用",
+          "phrase": "still applies"
+        },
+        {
+          "meaning": "候補名單",
+          "phrase": "waiting list"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "Librarian: Please check the loans page again. A renewal is complete only when a new due date is displayed. Books requested by another reader cannot be renewed. If your request failed, the original return date still applies.",
+          "explanation": "新到期日出現才算續借成功。",
+          "id": "d113-q1",
+          "options": [
+            "A spinning circle.",
+            "Clicking the button alone.",
+            "Closing the page early.",
+            "A new due date on the loans page."
+          ],
+          "prompt": "What shows that a renewal has succeeded?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Student: The page still shows tomorrow, and there is a message saying another reader is waiting. Librarian: Then please return the book by tomorrow. You may join the waiting list to borrow it again, but that does not extend the current loan.",
+          "explanation": "頁面通知已有其他讀者等候。",
+          "id": "d113-q2",
+          "options": [
+            "The library has no waiting list.",
+            "The student has already returned it.",
+            "All renewals are forbidden.",
+            "Another reader has requested it."
+          ],
+          "prompt": "Why is this book not renewed?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Student: I will finish my notes tonight and bring it back before lunch. Librarian: Good. Save the title and page references in your notes so you can find the relevant part later without assuming the book will always remain available.",
+          "explanation": "記下頁碼可日後查找，不是延期資格。",
+          "id": "d113-q3",
+          "options": [
+            "They help locate relevant material when the book is available again.",
+            "They count as a replacement for returning the book.",
+            "They automatically extend the loan.",
+            "They remove another reader's request."
+          ],
+          "prompt": "Why save page references in personal notes?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Student: The page still shows tomorrow, and there is a message saying another reader is waiting. Librarian: Then please return the book by tomorrow. You may join the waiting list to borrow it again, but that does not extend the current loan.",
+          "explanation": "extend current loan 指延長當次借期。",
+          "id": "d113-q4",
+          "options": [
+            "Write a shorter title.",
+            "Display a spinning circle.",
+            "Return a different book.",
+            "Make the allowed period longer."
+          ],
+          "prompt": "What does 'extend' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Library chat: I clicked Renew on my borrowed book this morning. Does that mean I can keep it for another two weeks? The website showed a spinning circle, and I closed the page before any result appeared. My original due date is tomorrow.\n\nLibrarian: Please check the loans page again. A renewal is complete only when a new due date is displayed. Books requested by another reader cannot be renewed. If your request failed, the original return date still applies.\n\nStudent: The page still shows tomorrow, and there is a message saying another reader is waiting. Librarian: Then please return the book by tomorrow. You may join the waiting list to borrow it again, but that does not extend the current loan.\n\nStudent: I will finish my notes tonight and bring it back before lunch. Librarian: Good. Save the title and page references in your notes so you can find the relevant part later without assuming the book will always remain available.",
+          "explanation": "續借未成功則照原期限歸還，可另候補。",
+          "id": "d113-q5",
+          "options": [
+            "Return by the original deadline and join the list for a future loan if needed.",
+            "Keep the book because Renew was clicked.",
+            "Treat joining the waiting list as a new due date.",
+            "Erase the waiting-reader message before closing."
+          ],
+          "prompt": "Which action follows the librarian's advice?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Library chat: I clicked Renew on my borrowed book this morning. Does that mean I can keep it for another two weeks? The website showed a spinning circle, and I closed the page before any result appeared. My original due date is tomorrow.\n\nLibrarian: Please check the loans page again. A renewal is complete only when a new due date is displayed. Books requested by another reader cannot be renewed. If your request failed, the original return date still applies.\n\nStudent: The page still shows tomorrow, and there is a message saying another reader is waiting. Librarian: Then please return the book by tomorrow. You may join the waiting list to borrow it again, but that does not extend the current loan.\n\nStudent: I will finish my notes tonight and bring it back before lunch. Librarian: Good. Save the title and page references in your notes so you can find the relevant part later without assuming the book will always remain available.",
+          "explanation": "操作發起不代表申請已完成或批准。",
+          "id": "d113-q6",
+          "options": [
+            "Starting a request differs from having it accepted.",
+            "A title reference equals a renewed loan.",
+            "Finishing notes cancels a return requirement.",
+            "Every displayed date changes when clicked."
+          ],
+          "prompt": "What distinction matters most in the chat?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Library chat: I clicked Renew on my borrowed book this morning. Does that mean I can keep it for another two weeks? The website showed a spinning circle, and I closed the page before any result appeared. My original due date is tomorrow.\n\nLibrarian: Please check the loans page again. A renewal is complete only when a new due date is displayed. Books requested by another reader cannot be renewed. If your request failed, the original return date still applies.\n\nStudent: The page still shows tomorrow, and there is a message saying another reader is waiting. Librarian: Then please return the book by tomorrow. You may join the waiting list to borrow it again, but that does not extend the current loan.\n\nStudent: I will finish my notes tonight and bring it back before lunch. Librarian: Good. Save the title and page references in your notes so you can find the relevant part later without assuming the book will always remain available.",
+      "title": "Renewed, but Not Forever",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "A renewal is complete only when a new due date is displayed.",
+          "meaning": "續借",
+          "word": "renewal"
+        },
+        {
+          "example": "A renewal is complete only when a new due date is displayed.",
+          "meaning": "顯示的",
+          "word": "displayed"
+        },
+        {
+          "example": "My original due date is tomorrow.",
+          "meaning": "到期的",
+          "word": "due"
+        },
+        {
+          "example": "You may join the waiting list to borrow it again, but that does not extend the current loan.",
+          "meaning": "延長",
+          "word": "extend"
+        },
+        {
+          "example": "Save the title and page references in your notes so you can find the relevant part later without assuming the book will always remain available.",
+          "meaning": "參照資訊",
+          "word": "references"
+        }
+      ]
+    }
+  ]
+}

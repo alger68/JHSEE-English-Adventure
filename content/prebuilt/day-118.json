@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-28",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 118,
+      "goal": "區分未回覆、無意見與反對的資料意義。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "截止時",
+          "phrase": "at the deadline"
+        },
+        {
+          "meaning": "尚未收到",
+          "phrase": "not yet received"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "The student council asks each class whether it wants a lunchtime chess corner. The form offers yes, no, and need more information. At the deadline, twenty classes have replied and four have not. The council secretary puts the missing four under no to make the table complete.",
+          "explanation": "截止時二十班已回，四班未回。",
+          "id": "d118-q1",
+          "options": [
+            "Four.",
+            "Three.",
+            "One.",
+            "Twenty."
+          ],
+          "prompt": "How many classes have not replied at the first deadline?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The student council asks each class whether it wants a lunchtime chess corner. The form offers yes, no, and need more information. At the deadline, twenty classes have replied and four have not. The council secretary puts the missing four under no to make the table complete.",
+          "explanation": "她最初把未回列為 no。",
+          "id": "d118-q2",
+          "options": [
+            "Under no.",
+            "In a separate final category.",
+            "Under yes.",
+            "Under need more information."
+          ],
+          "prompt": "Where does the secretary first put missing replies?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "During the meeting, Pia asks whether those classes actually rejected the idea. Nobody has received their answers. Some may have missed the message or not held a discussion yet. An empty box does not tell the council what the class thinks.",
+          "explanation": "未收到回答不能等同反對。",
+          "id": "d118-q3",
+          "options": [
+            "All missing classes certainly support it.",
+            "A chart cannot have more than two categories.",
+            "The deadline never existed.",
+            "There is no evidence those classes rejected the idea."
+          ],
+          "prompt": "Why does Pia challenge that classification?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The secretary adds a separate not yet received category and sends the four classes a short reminder. The council reports the answers it has, together with the response count. It also lists the questions raised by classes needing more information.",
+          "explanation": "category 指資料分類群組。",
+          "id": "d118-q4",
+          "options": [
+            "A room where chess is played.",
+            "A new lunchtime rule.",
+            "A group used for classifying information.",
+            "A student chosen as a leader."
+          ],
+          "prompt": "What does 'category' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "By the next day, three missing classes respond and one still has no answer. The final announcement keeps that distinction visible. The council can decide how to proceed under its rules, but it should not invent an opinion to make a chart look finished.",
+          "explanation": "原四班未回，新增三班回覆，剩一班。",
+          "id": "d118-q5",
+          "options": [
+            "One.",
+            "Four.",
+            "Three.",
+            "Seven."
+          ],
+          "prompt": "After three missing classes respond, how many answers are still missing?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "The student council asks each class whether it wants a lunchtime chess corner. The form offers yes, no, and need more information. At the deadline, twenty classes have replied and four have not. The council secretary puts the missing four under no to make the table complete.\n\nDuring the meeting, Pia asks whether those classes actually rejected the idea. Nobody has received their answers. Some may have missed the message or not held a discussion yet. An empty box does not tell the council what the class thinks.\n\nThe secretary adds a separate not yet received category and sends the four classes a short reminder. The council reports the answers it has, together with the response count. It also lists the questions raised by classes needing more information.\n\nBy the next day, three missing classes respond and one still has no answer. The final announcement keeps that distinction visible. The council can decide how to proceed under its rules, but it should not invent an opinion to make a chart look finished.",
+          "explanation": "保留未回与實際意見的差別，誠實表達資料。",
+          "id": "d118-q6",
+          "options": [
+            "Hide the response count once a decision is made.",
+            "Treat silence as agreement whenever convenient.",
+            "Fill every blank with an invented opinion.",
+            "Represent received answers and missing information accurately."
+          ],
+          "prompt": "What principle guides the final announcement?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "The student council asks each class whether it wants a lunchtime chess corner. The form offers yes, no, and need more information. At the deadline, twenty classes have replied and four have not. The council secretary puts the missing four under no to make the table complete.\n\nDuring the meeting, Pia asks whether those classes actually rejected the idea. Nobody has received their answers. Some may have missed the message or not held a discussion yet. An empty box does not tell the council what the class thinks.\n\nThe secretary adds a separate not yet received category and sends the four classes a short reminder. The council reports the answers it has, together with the response count. It also lists the questions raised by classes needing more information.\n\nBy the next day, three missing classes respond and one still has no answer. The final announcement keeps that distinction visible. The council can decide how to proceed under its rules, but it should not invent an opinion to make a chart look finished.",
+      "title": "The Survey Box Left Blank",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "The student council asks each class whether it wants a lunchtime chess corner.",
+          "meaning": "自治會",
+          "word": "council"
+        },
+        {
+          "example": "During the meeting, Pia asks whether those classes actually rejected the idea.",
+          "meaning": "拒絕了",
+          "word": "rejected"
+        },
+        {
+          "example": "The secretary adds a separate not yet received category and sends the four classes a short reminder.",
+          "meaning": "類別",
+          "word": "category"
+        },
+        {
+          "example": "The council reports the answers it has, together with the response count.",
+          "meaning": "回覆",
+          "word": "response"
+        },
+        {
+          "example": "The final announcement keeps that distinction visible.",
+          "meaning": "區別",
+          "word": "distinction"
+        }
+      ]
+    }
+  ]
+}

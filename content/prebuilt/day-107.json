@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-17",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 107,
+      "goal": "判斷資料可支持的結論及未控制變因。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而不是",
+          "phrase": "instead of"
+        },
+        {
+          "meaning": "在這些條件下",
+          "phrase": "under these conditions"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "After fifteen minutes, the reading under the black square is thirty-five degrees Celsius, while the white square reads thirty-one. Both began at twenty-eight degrees. The group records the starting and ending values instead of reporting only the higher final number.",
+          "explanation": "兩個起始讀值均28度。",
+          "id": "d107-q1",
+          "options": [
+            "Fifteen degrees.",
+            "Thirty-five degrees.",
+            "Twenty-eight degrees.",
+            "Thirty-one degrees."
+          ],
+          "prompt": "What is the starting temperature of both squares' sensors?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "In a classroom scenario, a team compares two cloth squares under a sunny window. One is black cotton and the other is white cotton. The squares have the same size and thickness. The teacher places a temperature sensor beneath each and starts the observation together.",
+          "explanation": "第一段說感測器放布方塊下。",
+          "id": "d107-q2",
+          "options": [
+            "On the classroom roof.",
+            "Inside a glass of water.",
+            "Beneath the squares.",
+            "Behind the door."
+          ],
+          "prompt": "Where are the sensors placed?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "They repeat the comparison after switching the squares' left and right positions. This helps them check whether one part of the windowsill receives different sunlight. They keep the same observation time and use the same two sensors throughout the activity.",
+          "explanation": "位置可能日照不同，交換位置可檢查此影響。",
+          "id": "d107-q3",
+          "options": [
+            "To guarantee identical readings.",
+            "To make the black square turn white.",
+            "To check whether position affects exposure to sunlight.",
+            "To remove the need for timing."
+          ],
+          "prompt": "Why switch the left and right positions?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "In a classroom scenario, a team compares two cloth squares under a sunny window. One is black cotton and the other is white cotton. The squares have the same size and thickness. The teacher places a temperature sensor beneath each and starts the observation together.",
+          "explanation": "beneath 表示在下方。",
+          "id": "d107-q4",
+          "options": [
+            "Under.",
+            "Beside but above.",
+            "Far away from.",
+            "Inside the color."
+          ],
+          "prompt": "What does 'beneath' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "After fifteen minutes, the reading under the black square is thirty-five degrees Celsius, while the white square reads thirty-one. Both began at twenty-eight degrees. The group records the starting and ending values instead of reporting only the higher final number.",
+          "explanation": "35－28＝7；31－28＝3。",
+          "id": "d107-q5",
+          "options": [
+            "Both four degrees.",
+            "Black thirty-five degrees; white thirty-one degrees.",
+            "Black four degrees; white seven degrees.",
+            "Black seven degrees; white three degrees."
+          ],
+          "prompt": "What are the first-round temperature increases?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "In a classroom scenario, a team compares two cloth squares under a sunny window. One is black cotton and the other is white cotton. The squares have the same size and thickness. The teacher places a temperature sensor beneath each and starts the observation together.\n\nAfter fifteen minutes, the reading under the black square is thirty-five degrees Celsius, while the white square reads thirty-one. Both began at twenty-eight degrees. The group records the starting and ending values instead of reporting only the higher final number.\n\nThey repeat the comparison after switching the squares' left and right positions. This helps them check whether one part of the windowsill receives different sunlight. They keep the same observation time and use the same two sensors throughout the activity.\n\nThe first round suggests a difference under these conditions, but the team avoids a claim about all black and white objects everywhere. Other materials, locations, or weather could change the results. The report includes the setup so readers can understand what the numbers actually compare.",
+          "explanation": "只就此材料、環境與程序下的結果陳述。",
+          "id": "d107-q6",
+          "options": [
+            "Starting readings have no value.",
+            "These squares showed different changes in the stated setup.",
+            "Position can never affect a window experiment.",
+            "Every black object is always four degrees warmer."
+          ],
+          "prompt": "Which conclusion stays within the evidence?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a classroom scenario, a team compares two cloth squares under a sunny window. One is black cotton and the other is white cotton. The squares have the same size and thickness. The teacher places a temperature sensor beneath each and starts the observation together.\n\nAfter fifteen minutes, the reading under the black square is thirty-five degrees Celsius, while the white square reads thirty-one. Both began at twenty-eight degrees. The group records the starting and ending values instead of reporting only the higher final number.\n\nThey repeat the comparison after switching the squares' left and right positions. This helps them check whether one part of the windowsill receives different sunlight. They keep the same observation time and use the same two sensors throughout the activity.\n\nThe first round suggests a difference under these conditions, but the team avoids a claim about all black and white objects everywhere. Other materials, locations, or weather could change the results. The report includes the setup so readers can understand what the numbers actually compare.",
+      "title": "The Sunlit Cloth Squares",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "The squares have the same size and thickness.",
+          "meaning": "厚度",
+          "word": "thickness"
+        },
+        {
+          "example": "The teacher places a temperature sensor beneath each and starts the observation together.",
+          "meaning": "感測器",
+          "word": "sensor"
+        },
+        {
+          "example": "The teacher places a temperature sensor beneath each and starts the observation together.",
+          "meaning": "在……下面",
+          "word": "beneath"
+        },
+        {
+          "example": "The group records the starting and ending values instead of reporting only the higher final number.",
+          "meaning": "數值",
+          "word": "values"
+        },
+        {
+          "example": "They repeat the comparison after switching the squares' left and right positions.",
+          "meaning": "交換",
+          "word": "switching"
+        }
+      ]
+    }
+  ]
+}

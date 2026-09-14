@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-20",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 110,
+      "goal": "藉搭配與句中功能辨別抽象字義。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而不是",
+          "phrase": "rather than"
+        },
+        {
+          "meaning": "即使當",
+          "phrase": "even when"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "This week's review cards are preserve, beneath, validity, donor, and restore. The class has used them in quotations, experiments, visitor notices, and exhibit records. Their teacher now asks students to match the words with fresh sentences rather than copying the examples they already remember.",
+          "explanation": "老師改用新句子測理解。",
+          "id": "d110-q1",
+          "options": [
+            "Reading only familiar titles.",
+            "Removing all clues permanently.",
+            "Writing the longest translation.",
+            "Matching words with fresh sentences."
+          ],
+          "prompt": "What task replaces copying old examples?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "One sentence describes keeping a speaker's intended meaning in a shorter quote. Preserve fits. Another places a measuring device under a cloth square, making beneath the right choice. The students explain that the first word names an action, while the second shows a position.",
+          "explanation": "beneath 表示在下方。",
+          "id": "d110-q2",
+          "options": [
+            "Donor.",
+            "Beneath.",
+            "Preserve.",
+            "Restore."
+          ],
+          "prompt": "Which word identifies a position?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The final challenge removes one clue from each sentence. Pairs discuss whether the answer is still clear and which added detail would help. They discover that knowing how a word works in a sentence can support reading even when its topic is unfamiliar.",
+          "explanation": "看缺少哪些條件會變模糊，理解線索作用。",
+          "id": "d110-q3",
+          "options": [
+            "To reduce the number of students.",
+            "To make every word mean the same thing.",
+            "To prove clues are never useful.",
+            "To examine what information makes its answer clear."
+          ],
+          "prompt": "Why discuss a sentence after removing a clue?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "A card about how long a pass remains usable needs validity. A person giving an object to a collection is a donor. To put a missing name back from a trusted record is to restore it. Students identify the clues before checking the cards.",
+          "explanation": "給收藏提供物件的人是捐贈者。",
+          "id": "d110-q4",
+          "options": [
+            "Someone who gives an object or resource.",
+            "A damaged label on an object.",
+            "Someone who checks a ticket date.",
+            "A cloth placed over a sensor."
+          ],
+          "prompt": "What does 'donor' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "This week's review cards are preserve, beneath, validity, donor, and restore. The class has used them in quotations, experiments, visitor notices, and exhibit records. Their teacher now asks students to match the words with fresh sentences rather than copying the examples they already remember.\n\nOne sentence describes keeping a speaker's intended meaning in a shorter quote. Preserve fits. Another places a measuring device under a cloth square, making beneath the right choice. The students explain that the first word names an action, while the second shows a position.\n\nA card about how long a pass remains usable needs validity. A person giving an object to a collection is a donor. To put a missing name back from a trusted record is to restore it. Students identify the clues before checking the cards.\n\nThe final challenge removes one clue from each sentence. Pairs discuss whether the answer is still clear and which added detail would help. They discover that knowing how a word works in a sentence can support reading even when its topic is unfamiliar.",
+          "explanation": "preserve 留住原意；restore 補回缺漏。",
+          "id": "d110-q5",
+          "options": [
+            "Donor a device's position; preserve a ticket price only.",
+            "Beneath a quotation's intention; donor a time limit.",
+            "Validity a missing name; restore an object's year by guessing.",
+            "Preserve a meaning; restore missing information."
+          ],
+          "prompt": "Which pair of uses is correct?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "The final challenge removes one clue from each sentence. Pairs discuss whether the answer is still clear and which added detail would help. They discover that knowing how a word works in a sentence can support reading even when its topic is unfamiliar.",
+          "explanation": "句中功能與語境仍可支持字義判断。",
+          "id": "d110-q6",
+          "options": [
+            "Assuming all new topics require new meanings.",
+            "Recognizing a word's role and its surrounding clues.",
+            "Ignoring the sentence and choosing by spelling length.",
+            "Using only the topic to guess every word."
+          ],
+          "prompt": "What can help when a topic is unfamiliar?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "This week's review cards are preserve, beneath, validity, donor, and restore. The class has used them in quotations, experiments, visitor notices, and exhibit records. Their teacher now asks students to match the words with fresh sentences rather than copying the examples they already remember.\n\nOne sentence describes keeping a speaker's intended meaning in a shorter quote. Preserve fits. Another places a measuring device under a cloth square, making beneath the right choice. The students explain that the first word names an action, while the second shows a position.\n\nA card about how long a pass remains usable needs validity. A person giving an object to a collection is a donor. To put a missing name back from a trusted record is to restore it. Students identify the clues before checking the cards.\n\nThe final challenge removes one clue from each sentence. Pairs discuss whether the answer is still clear and which added detail would help. They discover that knowing how a word works in a sentence can support reading even when its topic is unfamiliar.",
+      "title": "A Word's Job in the Sentence",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "This week's review cards are preserve, beneath, validity, donor, and restore.",
+          "meaning": "保留",
+          "word": "preserve"
+        },
+        {
+          "example": "This week's review cards are preserve, beneath, validity, donor, and restore.",
+          "meaning": "在下方",
+          "word": "beneath"
+        },
+        {
+          "example": "This week's review cards are preserve, beneath, validity, donor, and restore.",
+          "meaning": "有效期",
+          "word": "validity"
+        },
+        {
+          "example": "This week's review cards are preserve, beneath, validity, donor, and restore.",
+          "meaning": "捐贈者",
+          "word": "donor"
+        },
+        {
+          "example": "This week's review cards are preserve, beneath, validity, donor, and restore.",
+          "meaning": "恢復補回",
+          "word": "restore"
+        }
+      ]
+    }
+  ]
+}

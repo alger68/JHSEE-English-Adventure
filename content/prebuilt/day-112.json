@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-22",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 112,
+      "goal": "區分總價與單位價格，將需求納入購買。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "依照",
+          "phrase": "according to"
+        },
+        {
+          "meaning": "每支替芯",
+          "phrase": "per refill"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "At a stationery shop, Mei compares two refill packs for her pen. A small pack contains four refills and costs sixty dollars. A large pack contains ten and costs one hundred and thirty. Both contain the same type of refill, and each refill fits her pen.",
+          "explanation": "小包四支。",
+          "id": "d112-q1",
+          "options": [
+            "Three.",
+            "Ten.",
+            "Four.",
+            "Six."
+          ],
+          "prompt": "How many refills are in the small pack?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The large pack has a lower price per refill, but Mei needs only three before the school year ends. She will change to a different pen next year, so extra refills may not be useful. Her budget for today's purchase is one hundred dollars.",
+          "explanation": "本次預算為100元。",
+          "id": "d112-q2",
+          "options": [
+            "One hundred dollars.",
+            "One hundred and thirty dollars.",
+            "Sixty dollars.",
+            "Fifty-two dollars."
+          ],
+          "prompt": "What is Mei's purchase budget?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "At a stationery shop, Mei compares two refill packs for her pen. A small pack contains four refills and costs sixty dollars. A large pack contains ten and costs one hundred and thirty. Both contain the same type of refill, and each refill fits her pen.\n\nThe large pack has a lower price per refill, but Mei needs only three before the school year ends. She will change to a different pen next year, so extra refills may not be useful. Her budget for today's purchase is one hundred dollars.\n\nA friend offers to share the large pack and take six refills while Mei keeps four. They agree to divide its price according to the number each receives. The shop will sell the sealed pack to them together; they can separate the refills after paying.\n\nMei calculates her share before agreeing. Buying more is not automatically a saving, but a planned split can change the comparison. She checks that her friend really wants the same refill type and writes their agreement down.",
+          "explanation": "130超預算且多餘替芯未必用得上。",
+          "id": "d112-q3",
+          "options": [
+            "It exceeds her budget and includes refills she may not need.",
+            "Its refills do not fit her current pen.",
+            "Its unit price is higher than the small pack's.",
+            "The shop forbids buying ten refills."
+          ],
+          "prompt": "Why might buying the large pack alone be unsuitable?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A friend offers to share the large pack and take six refills while Mei keeps four. They agree to divide its price according to the number each receives. The shop will sell the sealed pack to them together; they can separate the refills after paying.",
+          "explanation": "店家只整包販售，付完才能拆分。",
+          "id": "d112-q4",
+          "options": [
+            "Given away without payment.",
+            "Closed as a complete package.",
+            "Already divided into four parts.",
+            "Made for a different pen."
+          ],
+          "prompt": "What does 'sealed' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "At a stationery shop, Mei compares two refill packs for her pen. A small pack contains four refills and costs sixty dollars. A large pack contains ten and costs one hundred and thirty. Both contain the same type of refill, and each refill fits her pen.\n\nThe large pack has a lower price per refill, but Mei needs only three before the school year ends. She will change to a different pen next year, so extra refills may not be useful. Her budget for today's purchase is one hundred dollars.\n\nA friend offers to share the large pack and take six refills while Mei keeps four. They agree to divide its price according to the number each receives. The shop will sell the sealed pack to them together; they can separate the refills after paying.\n\nMei calculates her share before agreeing. Buying more is not automatically a saving, but a planned split can change the comparison. She checks that her friend really wants the same refill type and writes their agreement down.",
+          "explanation": "130÷10×4＝52。",
+          "id": "d112-q5",
+          "options": [
+            "Seventy-eight dollars.",
+            "One hundred dollars.",
+            "Fifty-two dollars.",
+            "Sixty dollars."
+          ],
+          "prompt": "What is Mei's cost if she receives four tenths of the large pack?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "At a stationery shop, Mei compares two refill packs for her pen. A small pack contains four refills and costs sixty dollars. A large pack contains ten and costs one hundred and thirty. Both contain the same type of refill, and each refill fits her pen.\n\nThe large pack has a lower price per refill, but Mei needs only three before the school year ends. She will change to a different pen next year, so extra refills may not be useful. Her budget for today's purchase is one hundred dollars.\n\nA friend offers to share the large pack and take six refills while Mei keeps four. They agree to divide its price according to the number each receives. The shop will sell the sealed pack to them together; they can separate the refills after paying.\n\nMei calculates her share before agreeing. Buying more is not automatically a saving, but a planned split can change the comparison. She checks that her friend really wants the same refill type and writes their agreement down.",
+          "explanation": "先確定分配與需求，才能合理享較低單位價。",
+          "id": "d112-q6",
+          "options": [
+            "Any larger package saves money regardless of use.",
+            "A confirmed split gives Mei the needed type and quantity at a lower cost.",
+            "The shop changes the small pack's price automatically.",
+            "The friend pays everything without keeping refills."
+          ],
+          "prompt": "What makes the shared purchase a possible saving?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At a stationery shop, Mei compares two refill packs for her pen. A small pack contains four refills and costs sixty dollars. A large pack contains ten and costs one hundred and thirty. Both contain the same type of refill, and each refill fits her pen.\n\nThe large pack has a lower price per refill, but Mei needs only three before the school year ends. She will change to a different pen next year, so extra refills may not be useful. Her budget for today's purchase is one hundred dollars.\n\nA friend offers to share the large pack and take six refills while Mei keeps four. They agree to divide its price according to the number each receives. The shop will sell the sealed pack to them together; they can separate the refills after paying.\n\nMei calculates her share before agreeing. Buying more is not automatically a saving, but a planned split can change the comparison. She checks that her friend really wants the same refill type and writes their agreement down.",
+      "title": "The Refill Pack Comparison",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "A small pack contains four refills and costs sixty dollars.",
+          "meaning": "替芯",
+          "word": "refills"
+        },
+        {
+          "example": "A small pack contains four refills and costs sixty dollars.",
+          "meaning": "含有",
+          "word": "contains"
+        },
+        {
+          "example": "The shop will sell the sealed pack to them together; they can separate the refills after paying.",
+          "meaning": "密封的",
+          "word": "sealed"
+        },
+        {
+          "example": "They agree to divide its price according to the number each receives.",
+          "meaning": "分攤",
+          "word": "divide"
+        },
+        {
+          "example": "Buying more is not automatically a saving, but a planned split can change the comparison.",
+          "meaning": "自動地",
+          "word": "automatically"
+        }
+      ]
+    }
+  ]
+}

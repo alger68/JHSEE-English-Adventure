@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-24",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 114,
+      "goal": "區分看見的影像與物件本身的變化。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "將鏡片放到一旁",
+          "phrase": "setting the lens aside"
+        },
+        {
+          "meaning": "同樣空間",
+          "phrase": "the same space"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "The teacher asks whether the printed letter itself has grown. Bao measures its height with a ruler after setting the lens aside. The ink still occupies the same space on the page. What changed was the view through the lens, not the physical size of the printing.",
+          "explanation": "放下鏡片後用尺量印字高度。",
+          "id": "d114-q1",
+          "options": [
+            "The cost of the page.",
+            "The sound of a ruler.",
+            "The teacher's drawing speed.",
+            "The printed letter's height."
+          ],
+          "prompt": "What does Bao measure without the lens?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The class records the lens position for each drawing. Students try to keep the page and their viewing position steady while changing the lens distance. They describe the image before offering an explanation, and they do not use a drawing as a direct measurement of the ink.",
+          "explanation": "第三段記錄各圖對應鏡片位置。",
+          "id": "d114-q2",
+          "options": [
+            "The student's birthday.",
+            "The lens position.",
+            "Every classroom window.",
+            "Only the ink price."
+          ],
+          "prompt": "What does the class record for each drawing?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The teacher asks whether the printed letter itself has grown. Bao measures its height with a ruler after setting the lens aside. The ink still occupies the same space on the page. What changed was the view through the lens, not the physical size of the printing.",
+          "explanation": "尺量印字未變，變的是經鏡片看到的影像。",
+          "id": "d114-q3",
+          "options": [
+            "The class refuses to inspect the paper.",
+            "Every ruler makes ink smaller.",
+            "The ink occupies the same measured space without the lens.",
+            "The original page has no letters."
+          ],
+          "prompt": "Why doesn't the larger view prove the printed letter grew?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The class records the lens position for each drawing. Students try to keep the page and their viewing position steady while changing the lens distance. They describe the image before offering an explanation, and they do not use a drawing as a direct measurement of the ink.",
+          "explanation": "盡量固定紙與觀察位置。",
+          "id": "d114-q4",
+          "options": [
+            "Printed in a bright color.",
+            "Moved as quickly as possible.",
+            "Measured only in darkness.",
+            "Kept still and stable."
+          ],
+          "prompt": "What does 'steady' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "In a classroom demonstration, Bao places a printed letter on the desk and looks at it through a handheld magnifier. At one position, the letter appears larger. He sketches what he sees, then moves the lens slightly and notices that the view changes.\n\nThe teacher asks whether the printed letter itself has grown. Bao measures its height with a ruler after setting the lens aside. The ink still occupies the same space on the page. What changed was the view through the lens, not the physical size of the printing.\n\nThe class records the lens position for each drawing. Students try to keep the page and their viewing position steady while changing the lens distance. They describe the image before offering an explanation, and they do not use a drawing as a direct measurement of the ink.\n\nBao adds two labels to his notes: object and observed image. The distinction helps him explain why a larger-looking letter does not require a larger printed page. Careful observation includes recognizing what the tool changes about the way something is seen.",
+          "explanation": "有鏡視圖與直接量測對照才能區分。",
+          "id": "d114-q5",
+          "options": [
+            "Use only the largest sketch as the ink's exact height.",
+            "Move page, viewer, and lens randomly without notes.",
+            "Assume all drawings are physical changes.",
+            "Compare the lens view with the letter measured directly."
+          ],
+          "prompt": "Which comparison helps distinguish object from image?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "In a classroom demonstration, Bao places a printed letter on the desk and looks at it through a handheld magnifier. At one position, the letter appears larger. He sketches what he sees, then moves the lens slightly and notices that the view changes.\n\nThe teacher asks whether the printed letter itself has grown. Bao measures its height with a ruler after setting the lens aside. The ink still occupies the same space on the page. What changed was the view through the lens, not the physical size of the printing.\n\nThe class records the lens position for each drawing. Students try to keep the page and their viewing position steady while changing the lens distance. They describe the image before offering an explanation, and they do not use a drawing as a direct measurement of the ink.\n\nBao adds two labels to his notes: object and observed image. The distinction helps him explain why a larger-looking letter does not require a larger printed page. Careful observation includes recognizing what the tool changes about the way something is seen.",
+          "explanation": "理解工具影響觀察方式，不把影像變化當物體變化。",
+          "id": "d114-q6",
+          "options": [
+            "Assume every enlarged image means a growing object.",
+            "Ignore the setup when sketching a result.",
+            "Recognize whether a tool changes the view rather than the object itself.",
+            "Replace all measurements with impressions."
+          ],
+          "prompt": "What is the central observation skill?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a classroom demonstration, Bao places a printed letter on the desk and looks at it through a handheld magnifier. At one position, the letter appears larger. He sketches what he sees, then moves the lens slightly and notices that the view changes.\n\nThe teacher asks whether the printed letter itself has grown. Bao measures its height with a ruler after setting the lens aside. The ink still occupies the same space on the page. What changed was the view through the lens, not the physical size of the printing.\n\nThe class records the lens position for each drawing. Students try to keep the page and their viewing position steady while changing the lens distance. They describe the image before offering an explanation, and they do not use a drawing as a direct measurement of the ink.\n\nBao adds two labels to his notes: object and observed image. The distinction helps him explain why a larger-looking letter does not require a larger printed page. Careful observation includes recognizing what the tool changes about the way something is seen.",
+      "title": "The Letter Behind the Lens",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "In a classroom demonstration, Bao places a printed letter on the desk and looks at it through a handheld magnifier.",
+          "meaning": "放大鏡",
+          "word": "magnifier"
+        },
+        {
+          "example": "At one position, the letter appears larger.",
+          "meaning": "看起來",
+          "word": "appears"
+        },
+        {
+          "example": "What changed was the view through the lens, not the physical size of the printing.",
+          "meaning": "實際物理的",
+          "word": "physical"
+        },
+        {
+          "example": "Students try to keep the page and their viewing position steady while changing the lens distance.",
+          "meaning": "穩定的",
+          "word": "steady"
+        },
+        {
+          "example": "Bao adds two labels to his notes: object and observed image.",
+          "meaning": "觀察到的",
+          "word": "observed"
+        }
+      ]
+    }
+  ]
+}

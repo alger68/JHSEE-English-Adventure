@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-29",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 119,
+      "goal": "用清單驗證二手物品，區分描述與確認。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "每組十個",
+          "phrase": "groups of ten"
+        },
+        {
+          "meaning": "購買之前",
+          "phrase": "before buying"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "At a neighborhood secondhand sale, Amos finds a puzzle box labeled complete. The picture has one hundred large pieces, and the seller says her family finished it last winter. Amos wants it for his younger cousin, who enjoys puzzles but becomes frustrated when a piece is missing.",
+          "explanation": "盒面標示一百片。",
+          "id": "d119-q1",
+          "options": [
+            "Ninety-nine.",
+            "One hundred and ten.",
+            "One hundred.",
+            "Ten."
+          ],
+          "prompt": "How many pieces should the puzzle contain?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The box has been opened since that winter. Amos asks whether they can count the pieces together before buying. The seller agrees and spreads them across a clean table in groups of ten. They count ninety-nine pieces, then find one more under the folded instruction sheet.",
+          "explanation": "第100片在摺起說明紙下。",
+          "id": "d119-q2",
+          "options": [
+            "In the seller's pocket.",
+            "At Amos's school.",
+            "Inside a different unopened box.",
+            "Under the folded instruction sheet."
+          ],
+          "prompt": "Where is the final counted piece found?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Now they have the stated one hundred pieces, but Amos knows counting alone cannot prove every piece belongs to that picture. The seller offers a photo of the family's completed puzzle and says he may return it the same afternoon if a mismatch is found.",
+          "explanation": "片數對也可能混入別組，須核對相符性。",
+          "id": "d119-q3",
+          "options": [
+            "The cousin never finishes puzzles.",
+            "Every one-hundred-piece puzzle is identical.",
+            "A counted piece might belong to a different puzzle.",
+            "Numbers cannot be used for objects."
+          ],
+          "prompt": "Why doesn't counting alone prove completeness of this picture?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Now they have the stated one hundred pieces, but Amos knows counting alone cannot prove every piece belongs to that picture. The seller offers a photo of the family's completed puzzle and says he may return it the same afternoon if a mismatch is found.",
+          "explanation": "mismatch 指與應有組合不合的情形。",
+          "id": "d119-q4",
+          "options": [
+            "A group containing ten objects.",
+            "A price written on a label.",
+            "A completed picture in a photo.",
+            "Something that does not fit the expected set."
+          ],
+          "prompt": "What is a 'mismatch'?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Now they have the stated one hundred pieces, but Amos knows counting alone cannot prove every piece belongs to that picture. The seller offers a photo of the family's completed puzzle and says he may return it the same afternoon if a mismatch is found.",
+          "explanation": "店主允許當日下午發現不符可退，提供查驗機會。",
+          "id": "d119-q5",
+          "options": [
+            "A return only before any pieces are counted.",
+            "A promise that every used puzzle is perfect forever.",
+            "A same-afternoon return if a mismatch is found.",
+            "An instruction to ignore the box picture."
+          ],
+          "prompt": "What additional arrangement reduces Amos's uncertainty?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "At a neighborhood secondhand sale, Amos finds a puzzle box labeled complete. The picture has one hundred large pieces, and the seller says her family finished it last winter. Amos wants it for his younger cousin, who enjoys puzzles but becomes frustrated when a piece is missing.\n\nThe box has been opened since that winter. Amos asks whether they can count the pieces together before buying. The seller agrees and spreads them across a clean table in groups of ten. They count ninety-nine pieces, then find one more under the folded instruction sheet.\n\nNow they have the stated one hundred pieces, but Amos knows counting alone cannot prove every piece belongs to that picture. The seller offers a photo of the family's completed puzzle and says he may return it the same afternoon if a mismatch is found.\n\nAmos buys it after confirming the return arrangement and the seller's table number. He checks it at home with his cousin. The label was useful, but asking respectful questions gave him a clearer basis for deciding.",
+          "explanation": "標示是起點，再查驗並確認退回條件。",
+          "id": "d119-q6",
+          "options": [
+            "Assuming one missing piece cannot matter.",
+            "Treating the seller's old memory as a current count.",
+            "A label followed by checks and a clear return agreement.",
+            "Trusting the label without asking anything."
+          ],
+          "prompt": "What supports Amos's decision?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At a neighborhood secondhand sale, Amos finds a puzzle box labeled complete. The picture has one hundred large pieces, and the seller says her family finished it last winter. Amos wants it for his younger cousin, who enjoys puzzles but becomes frustrated when a piece is missing.\n\nThe box has been opened since that winter. Amos asks whether they can count the pieces together before buying. The seller agrees and spreads them across a clean table in groups of ten. They count ninety-nine pieces, then find one more under the folded instruction sheet.\n\nNow they have the stated one hundred pieces, but Amos knows counting alone cannot prove every piece belongs to that picture. The seller offers a photo of the family's completed puzzle and says he may return it the same afternoon if a mismatch is found.\n\nAmos buys it after confirming the return arrangement and the seller's table number. He checks it at home with his cousin. The label was useful, but asking respectful questions gave him a clearer basis for deciding.",
+      "title": "The Used Puzzle Check",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "At a neighborhood secondhand sale, Amos finds a puzzle box labeled complete.",
+          "meaning": "二手的",
+          "word": "secondhand"
+        },
+        {
+          "example": "Amos wants it for his younger cousin, who enjoys puzzles but becomes frustrated when a piece is missing.",
+          "meaning": "挫折的",
+          "word": "frustrated"
+        },
+        {
+          "example": "Now they have the stated one hundred pieces, but Amos knows counting alone cannot prove every piece belongs to that picture.",
+          "meaning": "標明的",
+          "word": "stated"
+        },
+        {
+          "example": "The seller offers a photo of the family's completed puzzle and says he may return it the same afternoon if a mismatch is found.",
+          "meaning": "不相符",
+          "word": "mismatch"
+        },
+        {
+          "example": "Amos buys it after confirming the return arrangement and the seller's table number.",
+          "meaning": "安排",
+          "word": "arrangement"
+        }
+      ]
+    }
+  ]
+}

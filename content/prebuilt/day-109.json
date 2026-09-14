@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2026-12-19",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 109,
+      "goal": "交叉比對清單與物件特徵，找出唯一配對。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "只依年份",
+          "phrase": "by year alone"
+        },
+        {
+          "meaning": "磨掉",
+          "phrase": "rubbed away"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "COLLECTION LOG: A brass bell was donated by Ms. Lin in 2014. A wooden kite frame came from Mr. Chen in 2018. A clay bowl was donated by Ms. Wu in 2014. These are the only three objects on the demonstration table today.",
+          "explanation": "收藏紀錄列風箏骨架來自 Mr. Chen。",
+          "id": "d109-q1",
+          "options": [
+            "Ms. Wu.",
+            "Ms. Lin.",
+            "The cleaning student.",
+            "Mr. Chen."
+          ],
+          "prompt": "Who donated the kite frame?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "COLLECTION LOG: A brass bell was donated by Ms. Lin in 2014. A wooden kite frame came from Mr. Chen in 2018. A clay bowl was donated by Ms. Wu in 2014. These are the only three objects on the demonstration table today.",
+          "explanation": "碗的材質是 clay。",
+          "id": "d109-q2",
+          "options": [
+            "Wood.",
+            "Brass.",
+            "Paper.",
+            "Clay."
+          ],
+          "prompt": "Which material is the bowl made from?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "COLLECTION LOG: A brass bell was donated by Ms. Lin in 2014. A wooden kite frame came from Mr. Chen in 2018. A clay bowl was donated by Ms. Wu in 2014. These are the only three objects on the demonstration table today.",
+          "explanation": "鐘與碗皆2014，風箏骨架2018。",
+          "id": "d109-q3",
+          "options": [
+            "The kite frame and every object.",
+            "The bell and bowl.",
+            "None of the three.",
+            "The bell and kite frame."
+          ],
+          "prompt": "Which two objects arrived in the same year?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "STUDENT PLAN: Match each label with the collection log before attaching it. Do not match by year alone when two objects share a year. The bell and bowl have the same arrival year but different donors, materials, and uses.",
+          "explanation": "2014 同時可對應兩個物件。",
+          "id": "d109-q4",
+          "options": [
+            "Every donor has the same name.",
+            "Two objects share that year.",
+            "No object arrived in 2014.",
+            "The year belongs to the cleaning schedule."
+          ],
+          "prompt": "Why can't 2014 alone identify a label's object at the start?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "LABEL PROBLEM: During cleaning, their loose labels were mixed up. One label still shows Mr. Chen and 2018. A second shows Ms. Lin, but its year is covered by a stain. The third shows only 2014 because its donor's name has been rubbed away.",
+          "explanation": "第二段說年份被污漬蓋住。",
+          "id": "d109-q5",
+          "options": [
+            "A wooden frame.",
+            "A stain.",
+            "A missing donor.",
+            "A new price tag."
+          ],
+          "prompt": "What damage hides the year on Ms. Lin's label?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "COLLECTION LOG: A brass bell was donated by Ms. Lin in 2014. A wooden kite frame came from Mr. Chen in 2018. A clay bowl was donated by Ms. Wu in 2014. These are the only three objects on the demonstration table today.\n\nLABEL PROBLEM: During cleaning, their loose labels were mixed up. One label still shows Mr. Chen and 2018. A second shows Ms. Lin, but its year is covered by a stain. The third shows only 2014 because its donor's name has been rubbed away.\n\nSTUDENT PLAN: Match each label with the collection log before attaching it. Do not match by year alone when two objects share a year. The bell and bowl have the same arrival year but different donors, materials, and uses.\n\nThe students first identify the kite frame, then the bell using Ms. Lin's name. The remaining label belongs to the bowl. Before displaying it, they make a replacement that restores Ms. Wu's name from the log and note that the old label was damaged.",
+          "explanation": "捐贈者姓名能唯一對應黃銅鐘。",
+          "id": "d109-q6",
+          "options": [
+            "An object not listed in the log.",
+            "The brass bell.",
+            "The clay bowl.",
+            "The wooden kite frame."
+          ],
+          "prompt": "Which object matches the label showing Ms. Lin?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The students first identify the kite frame, then the bell using Ms. Lin's name. The remaining label belongs to the bowl. Before displaying it, they make a replacement that restores Ms. Wu's name from the log and note that the old label was damaged.",
+          "explanation": "依紀錄補回原本缺失姓名。",
+          "id": "d109-q7",
+          "options": [
+            "Puts missing information back correctly.",
+            "Changes the bowl's material.",
+            "Moves the year into the future.",
+            "Invents a new donor."
+          ],
+          "prompt": "What does 'restores' mean in the final paragraph?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "COLLECTION LOG: A brass bell was donated by Ms. Lin in 2014. A wooden kite frame came from Mr. Chen in 2018. A clay bowl was donated by Ms. Wu in 2014. These are the only three objects on the demonstration table today.\n\nLABEL PROBLEM: During cleaning, their loose labels were mixed up. One label still shows Mr. Chen and 2018. A second shows Ms. Lin, but its year is covered by a stain. The third shows only 2014 because its donor's name has been rubbed away.\n\nSTUDENT PLAN: Match each label with the collection log before attaching it. Do not match by year alone when two objects share a year. The bell and bowl have the same arrival year but different donors, materials, and uses.\n\nThe students first identify the kite frame, then the bell using Ms. Lin's name. The remaining label belongs to the bowl. Before displaying it, they make a replacement that restores Ms. Wu's name from the log and note that the old label was damaged.",
+          "explanation": "限定只有三件，兩件已配對，再以紀錄確認剩餘件。",
+          "id": "d109-q8",
+          "options": [
+            "The other two have been matched, and the log confirms the remaining 2014 donor.",
+            "Every clay object has a damaged label.",
+            "The bowl is the largest object.",
+            "Ms. Lin donated all three objects."
+          ],
+          "prompt": "Why can the final label be assigned to the bowl?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "COLLECTION LOG: A brass bell was donated by Ms. Lin in 2014. A wooden kite frame came from Mr. Chen in 2018. A clay bowl was donated by Ms. Wu in 2014. These are the only three objects on the demonstration table today.\n\nLABEL PROBLEM: During cleaning, their loose labels were mixed up. One label still shows Mr. Chen and 2018. A second shows Ms. Lin, but its year is covered by a stain. The third shows only 2014 because its donor's name has been rubbed away.\n\nSTUDENT PLAN: Match each label with the collection log before attaching it. Do not match by year alone when two objects share a year. The bell and bowl have the same arrival year but different donors, materials, and uses.\n\nThe students first identify the kite frame, then the bell using Ms. Lin's name. The remaining label belongs to the bowl. Before displaying it, they make a replacement that restores Ms. Wu's name from the log and note that the old label was damaged.",
+          "explanation": "多項特徵交叉核對，並註明修復資訊來源。",
+          "id": "d109-q9",
+          "options": [
+            "Guess from appearance and hide the damage.",
+            "Replace all donor names with the cleaner's name.",
+            "Use multiple identifying details and document the label correction.",
+            "Use only the shared year for every match."
+          ],
+          "prompt": "Which practice makes the repaired display reliable?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "COLLECTION LOG: A brass bell was donated by Ms. Lin in 2014. A wooden kite frame came from Mr. Chen in 2018. A clay bowl was donated by Ms. Wu in 2014. These are the only three objects on the demonstration table today.\n\nLABEL PROBLEM: During cleaning, their loose labels were mixed up. One label still shows Mr. Chen and 2018. A second shows Ms. Lin, but its year is covered by a stain. The third shows only 2014 because its donor's name has been rubbed away.\n\nSTUDENT PLAN: Match each label with the collection log before attaching it. Do not match by year alone when two objects share a year. The bell and bowl have the same arrival year but different donors, materials, and uses.\n\nThe students first identify the kite frame, then the bell using Ms. Lin's name. The remaining label belongs to the bowl. Before displaying it, they make a replacement that restores Ms. Wu's name from the log and note that the old label was damaged.",
+      "title": "Boss: The Misplaced Exhibit Labels",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "COLLECTION LOG: A brass bell was donated by Ms.",
+          "meaning": "黃銅",
+          "word": "brass"
+        },
+        {
+          "example": "COLLECTION LOG: A brass bell was donated by Ms.",
+          "meaning": "捐贈了",
+          "word": "donated"
+        },
+        {
+          "example": "Lin, but its year is covered by a stain.",
+          "meaning": "污漬",
+          "word": "stain"
+        },
+        {
+          "example": "The third shows only 2014 because its donor's name has been rubbed away.",
+          "meaning": "捐贈者",
+          "word": "donor"
+        },
+        {
+          "example": "Before displaying it, they make a replacement that restores Ms.",
+          "meaning": "補回",
+          "word": "restores"
+        }
+      ]
+    }
+  ]
+}
