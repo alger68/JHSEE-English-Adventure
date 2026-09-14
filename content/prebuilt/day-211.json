@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-31",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 211,
+      "goal": "辨識暫定資訊與確定安排，推論標記的功能。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在那之前",
+          "phrase": "until then"
+        },
+        {
+          "meaning": "打字錯誤",
+          "phrase": "typing mistake"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "[Band chat] Elise: The rehearsal calendar says 'Thursday 4:00?' Is that confirmed? Tao: I copied it into my phone without the question mark. I assumed the mark was just a typing mistake. Elise: The room request is still being checked.",
+          "explanation": "Elise 說教室申請仍在確認。",
+          "id": "d211-q1",
+          "options": [
+            "The band's name.",
+            "The room request.",
+            "The price of a phone.",
+            "The number of calendar pages."
+          ],
+          "prompt": "What is still being checked?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Band chat] Elise: The rehearsal calendar says 'Thursday 4:00?' Is that confirmed? Tao: I copied it into my phone without the question mark. I assumed the mark was just a typing mistake. Elise: The room request is still being checked.",
+          "explanation": "Tao 以為問號只是筆誤而刪掉。",
+          "id": "d211-q2",
+          "options": [
+            "It meant rehearsal was canceled.",
+            "It added another hour.",
+            "It was an unimportant typing error.",
+            "It showed the drummer had confirmed."
+          ],
+          "prompt": "What did Tao incorrectly assume about the question mark?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Tao: Then I shouldn't tell everyone it is final. Elise: Right. The coordinator will confirm both the room and time tomorrow. Until then, keep it as a possible slot. We also need to ask whether the drummer can attend.",
+          "explanation": "協調人將於隔天確認。",
+          "id": "d211-q3",
+          "options": [
+            "Only Tao's family.",
+            "The phone seller.",
+            "Every audience member.",
+            "The coordinator."
+          ],
+          "prompt": "Who will confirm the room and time?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Tao changes his calendar entry to 'provisional' and posts a correction where he shared the earlier message. When confirmation arrives, he will replace the tentative entry rather than create a second event. The small question mark carried important meaning. Removing it made the message look cleaner, but it also removed the uncertainty that other members needed when planning their afternoon.",
+          "explanation": "日程尚待確定，先列暫定。",
+          "id": "d211-q4",
+          "options": [
+            "Canceled permanently.",
+            "Already completed.",
+            "Repeated every day.",
+            "Temporary and awaiting confirmation."
+          ],
+          "prompt": "What does 'provisional' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Tao changes his calendar entry to 'provisional' and posts a correction where he shared the earlier message. When confirmation arrives, he will replace the tentative entry rather than create a second event. The small question mark carried important meaning. Removing it made the message look cleaner, but it also removed the uncertainty that other members needed when planning their afternoon.",
+          "explanation": "誤收確定訊息的人需要收到更正。",
+          "id": "d211-q5",
+          "options": [
+            "A new event automatically removes every old message.",
+            "People who received the certainty need to see the correction.",
+            "Only private calendars can ever be changed.",
+            "The question mark proves no rehearsal is possible."
+          ],
+          "prompt": "Why should Tao correct the place where he shared the earlier message?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "[Band chat] Elise: The rehearsal calendar says 'Thursday 4:00?' Is that confirmed? Tao: I copied it into my phone without the question mark. I assumed the mark was just a typing mistake. Elise: The room request is still being checked.\n\nTao: Then I shouldn't tell everyone it is final. Elise: Right. The coordinator will confirm both the room and time tomorrow. Until then, keep it as a possible slot. We also need to ask whether the drummer can attend.\n\nTao changes his calendar entry to 'provisional' and posts a correction where he shared the earlier message. When confirmation arrives, he will replace the tentative entry rather than create a second event. The small question mark carried important meaning. Removing it made the message look cleaner, but it also removed the uncertainty that other members needed when planning their afternoon.",
+          "explanation": "問號承載未定語意，不能只為整潔而刪。",
+          "id": "d211-q6",
+          "options": [
+            "Tentative plans should be treated as final.",
+            "Cleaner text always communicates more accurately.",
+            "Removing a small marker can change a message's certainty.",
+            "Punctuation never changes a schedule's meaning."
+          ],
+          "prompt": "What does the episode show about editing information?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Band chat] Elise: The rehearsal calendar says 'Thursday 4:00?' Is that confirmed? Tao: I copied it into my phone without the question mark. I assumed the mark was just a typing mistake. Elise: The room request is still being checked.\n\nTao: Then I shouldn't tell everyone it is final. Elise: Right. The coordinator will confirm both the room and time tomorrow. Until then, keep it as a possible slot. We also need to ask whether the drummer can attend.\n\nTao changes his calendar entry to 'provisional' and posts a correction where he shared the earlier message. When confirmation arrives, he will replace the tentative entry rather than create a second event. The small question mark carried important meaning. Removing it made the message look cleaner, but it also removed the uncertainty that other members needed when planning their afternoon.",
+      "title": "The Date with a Question Mark",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "' Is that confirmed?",
+          "meaning": "已確認的",
+          "word": "confirmed"
+        },
+        {
+          "example": "Until then, keep it as a possible slot.",
+          "meaning": "時段",
+          "word": "slot"
+        },
+        {
+          "example": "Tao changes his calendar entry to 'provisional' and posts a correction where he shared the earlier message.",
+          "meaning": "暫定的",
+          "word": "provisional"
+        },
+        {
+          "example": "When confirmation arrives, he will replace the tentative entry rather than create a second event.",
+          "meaning": "尚未確定的",
+          "word": "tentative"
+        },
+        {
+          "example": "Removing it made the message look cleaner, but it also removed the uncertainty that other members needed when planning their afternoon.",
+          "meaning": "不確定性",
+          "word": "uncertainty"
+        }
+      ]
+    }
+  ]
+}

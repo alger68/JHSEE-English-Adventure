@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-01",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 212,
+      "goal": "區分未記錄與數值零，判斷缺失資料的影響。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "關閉",
+          "phrase": "switched off"
+        },
+        {
+          "meaning": "無資料",
+          "phrase": "no data"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "A class keeps a daily sheet of rainfall readings from a model weather station. Monday shows four units, Tuesday shows zero, and Wednesday is blank. The note below Wednesday says the recorder was switched off during the observation period.",
+          "explanation": "文章分辨週二有測量而數值零。",
+          "id": "d212-q1",
+          "options": [
+            "A measured zero.",
+            "No observation.",
+            "Four units.",
+            "A broken chart."
+          ],
+          "prompt": "What does Tuesday's sheet show?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "A class keeps a daily sheet of rainfall readings from a model weather station. Monday shows four units, Tuesday shows zero, and Wednesday is blank. The note below Wednesday says the recorder was switched off during the observation period.",
+          "explanation": "註記說觀察期間記錄器關閉。",
+          "id": "d212-q2",
+          "options": [
+            "The recorder was off during observation.",
+            "The class measured exactly zero.",
+            "The weather was certainly dry.",
+            "Faye erased a known four."
+          ],
+          "prompt": "Why is Wednesday blank?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Faye enters zero for Wednesday while preparing a chart. Her partner asks whether a blank caused by missing observation means no rain. Faye checks the note and realizes that Tuesday and Wednesday represent different situations: one was measured, while the other was not.",
+          "explanation": "未測得資料與測得零不同。",
+          "id": "d212-q3",
+          "options": [
+            "Tuesday and Wednesday must have equal rainfall.",
+            "Charts cannot contain numbers.",
+            "Missing measurement does not establish a zero amount.",
+            "Zero can never be a valid reading."
+          ],
+          "prompt": "Why is entering zero for Wednesday unsupported?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "They leave Wednesday marked 'no data' and explain the gap below the chart. They can total the recorded Monday and Tuesday amounts, but cannot claim that this is the complete total for all three days. The class learns that an empty space can contain important information about how much is known. Replacing it with a convenient number would create a result the observations never supplied.",
+          "explanation": "圖下說明的是缺漏的觀察資料。",
+          "id": "d212-q4",
+          "options": [
+            "The difference between every two units.",
+            "A physical hole in the station.",
+            "An extra measured day.",
+            "A missing part of the record."
+          ],
+          "prompt": "What does 'gap' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "A class keeps a daily sheet of rainfall readings from a model weather station. Monday shows four units, Tuesday shows zero, and Wednesday is blank. The note below Wednesday says the recorder was switched off during the observation period.\n\nFaye enters zero for Wednesday while preparing a chart. Her partner asks whether a blank caused by missing observation means no rain. Faye checks the note and realizes that Tuesday and Wednesday represent different situations: one was measured, while the other was not.\n\nThey leave Wednesday marked 'no data' and explain the gap below the chart. They can total the recorded Monday and Tuesday amounts, but cannot claim that this is the complete total for all three days. The class learns that an empty space can contain important information about how much is known. Replacing it with a convenient number would create a result the observations never supplied.",
+          "explanation": "4 + 0 = 4，但只涵蓋有記錄的兩天。",
+          "id": "d212-q5",
+          "options": [
+            "Zero units for Wednesday.",
+            "Eight units for the full week.",
+            "Four recorded units for those two days.",
+            "Four units as a complete three-day total."
+          ],
+          "prompt": "What can the class validly total from Monday and Tuesday?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "A class keeps a daily sheet of rainfall readings from a model weather station. Monday shows four units, Tuesday shows zero, and Wednesday is blank. The note below Wednesday says the recorder was switched off during the observation period.\n\nFaye enters zero for Wednesday while preparing a chart. Her partner asks whether a blank caused by missing observation means no rain. Faye checks the note and realizes that Tuesday and Wednesday represent different situations: one was measured, while the other was not.\n\nThey leave Wednesday marked 'no data' and explain the gap below the chart. They can total the recorded Monday and Tuesday amounts, but cannot claim that this is the complete total for all three days. The class learns that an empty space can contain important information about how much is known. Replacing it with a convenient number would create a result the observations never supplied.",
+          "explanation": "保留未知標記才能忠實呈現證據範圍。",
+          "id": "d212-q6",
+          "options": [
+            "A complete-looking chart is always more accurate.",
+            "Missing data proves an event did not happen.",
+            "Every blank should be filled with the easiest number.",
+            "Unknown values should remain distinguishable from measured values."
+          ],
+          "prompt": "What principle does the chart illustrate?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "A class keeps a daily sheet of rainfall readings from a model weather station. Monday shows four units, Tuesday shows zero, and Wednesday is blank. The note below Wednesday says the recorder was switched off during the observation period.\n\nFaye enters zero for Wednesday while preparing a chart. Her partner asks whether a blank caused by missing observation means no rain. Faye checks the note and realizes that Tuesday and Wednesday represent different situations: one was measured, while the other was not.\n\nThey leave Wednesday marked 'no data' and explain the gap below the chart. They can total the recorded Monday and Tuesday amounts, but cannot claim that this is the complete total for all three days. The class learns that an empty space can contain important information about how much is known. Replacing it with a convenient number would create a result the observations never supplied.",
+      "title": "Blank Hours on the Weather Sheet",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "A class keeps a daily sheet of rainfall readings from a model weather station.",
+          "meaning": "降雨量",
+          "word": "rainfall"
+        },
+        {
+          "example": "Monday shows four units, Tuesday shows zero, and Wednesday is blank.",
+          "meaning": "空白的",
+          "word": "blank"
+        },
+        {
+          "example": "The note below Wednesday says the recorder was switched off during the observation period.",
+          "meaning": "記錄器",
+          "word": "recorder"
+        },
+        {
+          "example": "They leave Wednesday marked 'no data' and explain the gap below the chart.",
+          "meaning": "缺口",
+          "word": "gap"
+        },
+        {
+          "example": "Replacing it with a convenient number would create a result the observations never supplied.",
+          "meaning": "方便的",
+          "word": "convenient"
+        }
+      ]
+    }
+  ]
+}

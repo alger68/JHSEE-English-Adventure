@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-13",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 224,
+      "goal": "整合取件與諮詢流程，推論不同等候順序的原因。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "排到……前面",
+          "phrase": "gone ahead of"
+        },
+        {
+          "meaning": "抽號碼牌",
+          "phrase": "take a number"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "At a community repair desk, Max takes a number and waits with his broken lamp. A woman who arrives later walks to another counter and leaves almost immediately with a repaired radio. Max feels that she has unfairly gone ahead of him.",
+          "explanation": "Max 帶壞燈等候新維修評估。",
+          "id": "d224-q1",
+          "options": [
+            "A new counter sign.",
+            "A broken lamp.",
+            "A repaired radio.",
+            "A receipt for completed work."
+          ],
+          "prompt": "What is Max bringing for a new repair request?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Before complaining, he reads the two signs. His counter says 'New repair requests: take a number.' The other says 'Collection of completed items: show your receipt.' The woman was collecting work arranged on an earlier visit, not joining the queue for a new assessment.",
+          "explanation": "另一櫃檯辦理已修物件領取。",
+          "id": "d224-q2",
+          "options": [
+            "Collecting a completed repair.",
+            "Asking for the first assessment of her radio.",
+            "Joining the new-request queue.",
+            "Replacing Max's number."
+          ],
+          "prompt": "What is the woman's purpose?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Before complaining, he reads the two signs. His counter says 'New repair requests: take a number.' The other says 'Collection of completed items: show your receipt.' The woman was collecting work arranged on an earlier visit, not joining the queue for a new assessment.",
+          "explanation": "兩人所辦服務不同，不是同一新案队伍。",
+          "id": "d224-q3",
+          "options": [
+            "The desk ignores every waiting number.",
+            "She repaired Max's lamp.",
+            "She is using a different service.",
+            "Arrival order never matters anywhere."
+          ],
+          "prompt": "Why does her later arrival not prove she cut Max's queue?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Before complaining, he reads the two signs. His counter says 'New repair requests: take a number.' The other says 'Collection of completed items: show your receipt.' The woman was collecting work arranged on an earlier visit, not joining the queue for a new assessment.",
+          "explanation": "文中指等候服務的隊伍。",
+          "id": "d224-q4",
+          "options": [
+            "A receipt for an old repair.",
+            "A completed assessment.",
+            "A shelf of broken objects.",
+            "A line of people waiting for a service."
+          ],
+          "prompt": "What is a 'queue'?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "At a community repair desk, Max takes a number and waits with his broken lamp. A woman who arrives later walks to another counter and leaves almost immediately with a repaired radio. Max feels that she has unfairly gone ahead of him.\n\nBefore complaining, he reads the two signs. His counter says 'New repair requests: take a number.' The other says 'Collection of completed items: show your receipt.' The woman was collecting work arranged on an earlier visit, not joining the queue for a new assessment.\n\nMax asks the helper to confirm which line he needs and keeps his number. He still hopes the wait will be short, but he no longer treats the woman's quick departure as evidence of unfairness. The room contains two services with different steps. Seeing who arrived first was not enough to understand which order applied to each person.",
+          "explanation": "新維修需抽號碼牌，Max 應留在此流程。",
+          "id": "d224-q5",
+          "options": [
+            "Use the collection counter without a completed item.",
+            "Take a number for a new repair request.",
+            "Leave because every later arrival is unfair.",
+            "Show another person's receipt."
+          ],
+          "prompt": "Which action follows the signs for Max's current purpose?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "At a community repair desk, Max takes a number and waits with his broken lamp. A woman who arrives later walks to another counter and leaves almost immediately with a repaired radio. Max feels that she has unfairly gone ahead of him.\n\nBefore complaining, he reads the two signs. His counter says 'New repair requests: take a number.' The other says 'Collection of completed items: show your receipt.' The woman was collecting work arranged on an earlier visit, not joining the queue for a new assessment.\n\nMax asks the helper to confirm which line he needs and keeps his number. He still hopes the wait will be short, but he no longer treats the woman's quick departure as evidence of unfairness. The room contains two services with different steps. Seeing who arrived first was not enough to understand which order applied to each person.",
+          "explanation": "流程背景使他不再只用到場時間判斷公平。",
+          "id": "d224-q6",
+          "options": [
+            "Finding out that the woman arrived first after all.",
+            "Learning the service rules behind the visible arrival order.",
+            "Receiving an automatic repair without assessment.",
+            "Deciding signs are less useful than first impressions."
+          ],
+          "prompt": "What changes Max's understanding?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At a community repair desk, Max takes a number and waits with his broken lamp. A woman who arrives later walks to another counter and leaves almost immediately with a repaired radio. Max feels that she has unfairly gone ahead of him.\n\nBefore complaining, he reads the two signs. His counter says 'New repair requests: take a number.' The other says 'Collection of completed items: show your receipt.' The woman was collecting work arranged on an earlier visit, not joining the queue for a new assessment.\n\nMax asks the helper to confirm which line he needs and keeps his number. He still hopes the wait will be short, but he no longer treats the woman's quick departure as evidence of unfairness. The room contains two services with different steps. Seeing who arrived first was not enough to understand which order applied to each person.",
+      "title": "The Queue with Two Different Signs",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "A woman who arrives later walks to another counter and leaves almost immediately with a repaired radio.",
+          "meaning": "櫃檯",
+          "word": "counter"
+        },
+        {
+          "example": "Max feels that she has unfairly gone ahead of him.",
+          "meaning": "不公平地",
+          "word": "unfairly"
+        },
+        {
+          "example": "' The woman was collecting work arranged on an earlier visit, not joining the queue for a new assessment.",
+          "meaning": "評估",
+          "word": "assessment"
+        },
+        {
+          "example": "' The woman was collecting work arranged on an earlier visit, not joining the queue for a new assessment.",
+          "meaning": "隊伍",
+          "word": "queue"
+        },
+        {
+          "example": "He still hopes the wait will be short, but he no longer treats the woman's quick departure as evidence of unfairness.",
+          "meaning": "離開",
+          "word": "departure"
+        }
+      ]
+    }
+  ]
+}

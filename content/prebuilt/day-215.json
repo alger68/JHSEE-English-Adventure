@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-04",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 215,
+      "goal": "複習暫定、空白與未排序資料，避免自行補足未知。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而非",
+          "phrase": "rather than"
+        },
+        {
+          "meaning": "超出證據的強度",
+          "phrase": "stronger than the evidence"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "Emi's review has five key words: provisional, blank, respondents, ranked, and absent. She sorts mistakes into two types: removing information that was present and adding information that was never provided. Some mistakes, she discovers, do both.",
+          "explanation": "首段說刪去原有資訊及增加未提供資訊。",
+          "id": "d215-q1",
+          "options": [
+            "Reading dates and reading titles.",
+            "Counting students and counting teachers.",
+            "Choosing short words and long words.",
+            "Removing supplied information and adding unsupported information."
+          ],
+          "prompt": "What are Emi's two mistake types?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Deleting a question mark from a provisional rehearsal time removes uncertainty. Turning a blank weather entry into zero adds an unsupported measurement. Emi keeps the date tentative and labels the unmeasured day clearly so later readers can distinguish what is known.",
+          "explanation": "暫定狀態含尚未確認的資訊，需保留。",
+          "id": "d215-q2",
+          "options": [
+            "The room is already booked forever.",
+            "It has not been confirmed.",
+            "Every rehearsal is always canceled.",
+            "The question mark is decorative."
+          ],
+          "prompt": "Why keep the rehearsal date tentative?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The workshop survey has fifty respondents and seventy selections. Emi does not mistake selections for people or assume choices were ranked. Reasons for the choices are absent, so she leaves them unexplained rather than inventing a story. Her final check asks whether a summary preserves the original meaning, including limits. A shorter report can be useful, but only if shortening it has not made its claims stronger than the evidence.",
+          "explanation": "五十是填答者，七十是總勾選數。",
+          "id": "d215-q3",
+          "options": [
+            "Thirty for the whole survey.",
+            "Fifty.",
+            "Seventy.",
+            "Twenty-five for the whole survey."
+          ],
+          "prompt": "Which number represents people in the survey?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The workshop survey has fifty respondents and seventy selections. Emi does not mistake selections for people or assume choices were ranked. Reasons for the choices are absent, so she leaves them unexplained rather than inventing a story. Her final check asks whether a summary preserves the original meaning, including limits. A shorter report can be useful, but only if shortening it has not made its claims stronger than the evidence.",
+          "explanation": "未問選擇理由，因此資料未提供。",
+          "id": "d215-q4",
+          "options": [
+            "More popular.",
+            "Not supplied.",
+            "Already disproved.",
+            "Clearly ranked first."
+          ],
+          "prompt": "What does 'absent' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The workshop survey has fifty respondents and seventy selections. Emi does not mistake selections for people or assume choices were ranked. Reasons for the choices are absent, so she leaves them unexplained rather than inventing a story. Her final check asks whether a summary preserves the original meaning, including limits. A shorter report can be useful, but only if shortening it has not made its claims stronger than the evidence.",
+          "explanation": "沒有原因資料，就不能自行編出動機。",
+          "id": "d215-q5",
+          "options": [
+            "Every respondent chose for the same reason.",
+            "The form contains no such reasons.",
+            "The topic counts are all equal.",
+            "A report must never contain explanations."
+          ],
+          "prompt": "Why should Emi avoid explaining why students chose each topic?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "Emi's review has five key words: provisional, blank, respondents, ranked, and absent. She sorts mistakes into two types: removing information that was present and adding information that was never provided. Some mistakes, she discovers, do both.\n\nDeleting a question mark from a provisional rehearsal time removes uncertainty. Turning a blank weather entry into zero adds an unsupported measurement. Emi keeps the date tentative and labels the unmeasured day clearly so later readers can distinguish what is known.\n\nThe workshop survey has fifty respondents and seventy selections. Emi does not mistake selections for people or assume choices were ranked. Reasons for the choices are absent, so she leaves them unexplained rather than inventing a story. Her final check asks whether a summary preserves the original meaning, including limits. A shorter report can be useful, but only if shortening it has not made its claims stronger than the evidence.",
+          "explanation": "精簡仍需保留原意與限制，不可增強結論。",
+          "id": "d215-q6",
+          "options": [
+            "It makes all results sound decisive.",
+            "It turns tentative information into a confident statement.",
+            "It preserves meaning and uncertainty while reducing length.",
+            "It fills every unknown with a plausible number."
+          ],
+          "prompt": "What is Emi's standard for a useful summary?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Emi's review has five key words: provisional, blank, respondents, ranked, and absent. She sorts mistakes into two types: removing information that was present and adding information that was never provided. Some mistakes, she discovers, do both.\n\nDeleting a question mark from a provisional rehearsal time removes uncertainty. Turning a blank weather entry into zero adds an unsupported measurement. Emi keeps the date tentative and labels the unmeasured day clearly so later readers can distinguish what is known.\n\nThe workshop survey has fifty respondents and seventy selections. Emi does not mistake selections for people or assume choices were ranked. Reasons for the choices are absent, so she leaves them unexplained rather than inventing a story. Her final check asks whether a summary preserves the original meaning, including limits. A shorter report can be useful, but only if shortening it has not made its claims stronger than the evidence.",
+      "title": "The Missing Mark and the Missing Number",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "Emi's review has five key words: provisional, blank, respondents, ranked, and absent.",
+          "meaning": "暫定的",
+          "word": "provisional"
+        },
+        {
+          "example": "Emi's review has five key words: provisional, blank, respondents, ranked, and absent.",
+          "meaning": "空白的",
+          "word": "blank"
+        },
+        {
+          "example": "Emi's review has five key words: provisional, blank, respondents, ranked, and absent.",
+          "meaning": "填答者",
+          "word": "respondents"
+        },
+        {
+          "example": "Emi's review has five key words: provisional, blank, respondents, ranked, and absent.",
+          "meaning": "有排序的",
+          "word": "ranked"
+        },
+        {
+          "example": "Emi's review has five key words: provisional, blank, respondents, ranked, and absent.",
+          "meaning": "不存在的",
+          "word": "absent"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-02",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 213,
+      "goal": "理解多選投票規則及票數與人數的差異。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "最多兩個",
+          "phrase": "up to two"
+        },
+        {
+          "meaning": "合計為",
+          "phrase": "add up to"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "WORKSHOP INTEREST FORM: The student center is planning next month's activities. Choose up to two topics you would be interested in attending. You may choose only one if that is all you want. Do not select the same topic twice.",
+          "explanation": "可只選一個，最多兩個且不能重複。",
+          "id": "d213-q1",
+          "options": [
+            "The same topic twice.",
+            "Exactly three.",
+            "One or two.",
+            "Any number."
+          ],
+          "prompt": "How many topics may one student choose?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The form records interest, not a booking. A popular topic may receive a workshop if a suitable teacher and room can be found. No date or place is guaranteed by submitting the form. We will announce confirmed sessions separately.",
+          "explanation": "表單是興趣調查，不是預約。",
+          "id": "d213-q2",
+          "options": [
+            "Yes, if the topic is popular.",
+            "Yes, for every selected topic.",
+            "No; it records interest only.",
+            "Only the first listed topic is booked."
+          ],
+          "prompt": "Does submitting reserve a workshop place?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The form records interest, not a booking. A popular topic may receive a workshop if a suitable teacher and room can be found. No date or place is guaranteed by submitting the form. We will announce confirmed sessions separately.",
+          "explanation": "舉辦仍需找到合適教師與教室。",
+          "id": "d213-q3",
+          "options": [
+            "A second identical form from every student.",
+            "A suitable teacher and room.",
+            "A ranked order on the current form.",
+            "Only a high vote count."
+          ],
+          "prompt": "What is needed before a popular topic can become a workshop?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Results will show the number of students selecting each topic and the total number of respondents. Because one person may select two topics, topic counts may add up to more than the number of people. The order of your choices does not indicate first and second preference. Submit only one form so the results do not count your interest more than once.",
+          "explanation": "respondents 指實際填表作答者。",
+          "id": "d213-q4",
+          "options": [
+            "The topics listed on the form.",
+            "Only the workshop teachers.",
+            "People who have booked confirmed sessions.",
+            "People who answer the form."
+          ],
+          "prompt": "Who are the 'respondents'?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Results will show the number of students selecting each topic and the total number of respondents. Because one person may select two topics, topic counts may add up to more than the number of people. The order of your choices does not indicate first and second preference. Submit only one form so the results do not count your interest more than once.",
+          "explanation": "多選制讓一個人可在兩個主題各計一次。",
+          "id": "d213-q5",
+          "options": [
+            "Every student selects the same topic twice.",
+            "Teachers are always counted as students.",
+            "A student may select two different topics.",
+            "The form must contain duplicate submissions."
+          ],
+          "prompt": "Why can topic counts exceed the number of students?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "WORKSHOP INTEREST FORM: The student center is planning next month's activities. Choose up to two topics you would be interested in attending. You may choose only one if that is all you want. Do not select the same topic twice.\n\nThe form records interest, not a booking. A popular topic may receive a workshop if a suitable teacher and room can be found. No date or place is guaranteed by submitting the form. We will announce confirmed sessions separately.\n\nResults will show the number of students selecting each topic and the total number of respondents. Because one person may select two topics, topic counts may add up to more than the number of people. The order of your choices does not indicate first and second preference. Submit only one form so the results do not count your interest more than once.",
+          "explanation": "資料屬未排序興趣，未等於排課、訂位或第一志願。",
+          "id": "d213-q6",
+          "options": [
+            "The first listed choice is every student's favorite.",
+            "Results measure unranked interests and still require planning decisions.",
+            "More topic selections prove more unique respondents.",
+            "Every popular topic is already scheduled."
+          ],
+          "prompt": "Which interpretation follows the notice?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "WORKSHOP INTEREST FORM: The student center is planning next month's activities. Choose up to two topics you would be interested in attending. You may choose only one if that is all you want. Do not select the same topic twice.\n\nThe form records interest, not a booking. A popular topic may receive a workshop if a suitable teacher and room can be found. No date or place is guaranteed by submitting the form. We will announce confirmed sessions separately.\n\nResults will show the number of students selecting each topic and the total number of respondents. Because one person may select two topics, topic counts may add up to more than the number of people. The order of your choices does not indicate first and second preference. Submit only one form so the results do not count your interest more than once.",
+      "title": "Choose Up to Two Workshop Topics",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "Choose up to two topics you would be interested in attending.",
+          "meaning": "主題",
+          "word": "topics"
+        },
+        {
+          "example": "Results will show the number of students selecting each topic and the total number of respondents.",
+          "meaning": "填答者",
+          "word": "respondents"
+        },
+        {
+          "example": "The order of your choices does not indicate first and second preference.",
+          "meaning": "偏好",
+          "word": "preference"
+        },
+        {
+          "example": "No date or place is guaranteed by submitting the form.",
+          "meaning": "被保證",
+          "word": "guaranteed"
+        },
+        {
+          "example": "We will announce confirmed sessions separately.",
+          "meaning": "另外地",
+          "word": "separately"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-08",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 219,
+      "goal": "區分期末數值與變化量，連同起點比較成長。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "最後",
+          "phrase": "at the end"
+        },
+        {
+          "meaning": "起始值",
+          "phrase": "starting values"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "In a fictional classroom record, Plant A begins a week at two centimeters and ends at eight. Plant B begins at six and ends at ten. Both are measured from the soil line to the highest point using the same method over the same seven days.",
+          "explanation": "B 十公分高於 A 八公分。",
+          "id": "d219-q1",
+          "options": [
+            "Plant B.",
+            "Plant A.",
+            "Neither has a final measurement.",
+            "They are equally tall."
+          ],
+          "prompt": "Which plant is taller at the end?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "A student says Plant B grew more because it is taller at the end. Her partner calculates the changes: A gained six centimeters, while B gained four. The final height and the amount of growth answer different questions.",
+          "explanation": "8 − 2 = 6 公分。",
+          "id": "d219-q2",
+          "options": [
+            "Six centimeters.",
+            "Ten centimeters.",
+            "Eight centimeters.",
+            "Two centimeters."
+          ],
+          "prompt": "How much did Plant A grow?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A student says Plant B grew more because it is taller at the end. Her partner calculates the changes: A gained six centimeters, while B gained four. The final height and the amount of growth answer different questions.",
+          "explanation": "10 − 6 = 4 公分。",
+          "id": "d219-q3",
+          "options": [
+            "Six centimeters.",
+            "Four centimeters.",
+            "Ten centimeters.",
+            "Two centimeters."
+          ],
+          "prompt": "How much did Plant B grow?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "A student says Plant B grew more because it is taller at the end. Her partner calculates the changes: A gained six centimeters, while B gained four. The final height and the amount of growth answer different questions.",
+          "explanation": "gained 描述身高增加量。",
+          "id": "d219-q4",
+          "options": [
+            "Increased by.",
+            "Started at.",
+            "Stayed equal to.",
+            "Lost through measurement."
+          ],
+          "prompt": "What does 'gained' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The class labels two columns, 'final height' and 'change in height,' instead of placing every number under 'best plant.' They also avoid claiming that one plant type always grows faster from this pair alone. The record can describe these two plants during this week. Keeping the starting values makes that description more informative and prevents a larger final number from hiding a smaller change.",
+          "explanation": "最佳缺乏明確比較標準，末高與成長量不是同一指標。",
+          "id": "d219-q5",
+          "options": [
+            "No numbers were recorded.",
+            "A plant can never be measured.",
+            "Both plants have identical measurements.",
+            "It does not specify whether height or growth is being compared."
+          ],
+          "prompt": "Why is 'best plant' a poor column heading here?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "In a fictional classroom record, Plant A begins a week at two centimeters and ends at eight. Plant B begins at six and ends at ten. Both are measured from the soil line to the highest point using the same method over the same seven days.\n\nA student says Plant B grew more because it is taller at the end. Her partner calculates the changes: A gained six centimeters, while B gained four. The final height and the amount of growth answer different questions.\n\nThe class labels two columns, 'final height' and 'change in height,' instead of placing every number under 'best plant.' They also avoid claiming that one plant type always grows faster from this pair alone. The record can describe these two plants during this week. Keeping the starting values makes that description more informative and prevents a larger final number from hiding a smaller change.",
+          "explanation": "本週 A 增六大於 B 增四，但 B 末高十仍較高。",
+          "id": "d219-q6",
+          "options": [
+            "B grew more because its final number is larger.",
+            "Starting heights are unnecessary for comparing growth.",
+            "A grew more during the recorded week, although B ended taller.",
+            "A's plant type always grows faster everywhere."
+          ],
+          "prompt": "Which conclusion is supported?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "In a fictional classroom record, Plant A begins a week at two centimeters and ends at eight. Plant B begins at six and ends at ten. Both are measured from the soil line to the highest point using the same method over the same seven days.\n\nA student says Plant B grew more because it is taller at the end. Her partner calculates the changes: A gained six centimeters, while B gained four. The final height and the amount of growth answer different questions.\n\nThe class labels two columns, 'final height' and 'change in height,' instead of placing every number under 'best plant.' They also avoid claiming that one plant type always grows faster from this pair alone. The record can describe these two plants during this week. Keeping the starting values makes that description more informative and prevents a larger final number from hiding a smaller change.",
+      "title": "The Shorter Plant That Grew More",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "Both are measured from the soil line to the highest point using the same method over the same seven days.",
+          "meaning": "土壤",
+          "word": "soil"
+        },
+        {
+          "example": "Her partner calculates the changes: A gained six centimeters, while B gained four.",
+          "meaning": "增加了",
+          "word": "gained"
+        },
+        {
+          "example": "The final height and the amount of growth answer different questions.",
+          "meaning": "成長",
+          "word": "growth"
+        },
+        {
+          "example": "The class labels two columns, 'final height' and 'change in height,' instead of placing every number under 'best plant.",
+          "meaning": "欄",
+          "word": "columns"
+        },
+        {
+          "example": "Keeping the starting values makes that description more informative and prevents a larger final number from hiding a smaller change.",
+          "meaning": "提供充分資訊的",
+          "word": "informative"
+        }
+      ]
+    }
+  ]
+}

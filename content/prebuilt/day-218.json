@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-07",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 218,
+      "goal": "利用對話及任務描述推測片語的非字面意思。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "流程演練",
+          "phrase": "dry run"
+        },
+        {
+          "meaning": "逐步演練",
+          "phrase": "walk through"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "[Event chat] Luca: Please arrive at three for a dry run of the welcome ceremony. Wen: Should I bring running shoes? Is it outdoors? Luca: Sorry, 'dry run' means a practice of the procedure. We will walk through the introductions and check the microphones in the hall.",
+          "explanation": "Luca 說在禮堂檢查麥克風與介紹程序。",
+          "id": "d218-q1",
+          "options": [
+            "On an outdoor running track.",
+            "In a shoe shop.",
+            "At guests' homes.",
+            "In the hall."
+          ],
+          "prompt": "Where will the dry run occur?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Wen: So guests are not attending yet? Luca: Right. We will use classmates as pretend guests. If a step is confusing, we can stop and adjust it. The real ceremony starts at five, after we have made any needed changes.",
+          "explanation": "同學假扮來賓進行演練。",
+          "id": "d218-q2",
+          "options": [
+            "Classmates.",
+            "No one, because guests are forbidden.",
+            "Only experienced organizers.",
+            "The actual invited guests."
+          ],
+          "prompt": "Who will act as guests during practice?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Wen: So guests are not attending yet? Luca: Right. We will use classmates as pretend guests. If a step is confusing, we can stop and adjust it. The real ceremony starts at five, after we have made any needed changes.",
+          "explanation": "演練時可停下來修改不清楚步驟。",
+          "id": "d218-q3",
+          "options": [
+            "To adjust confusing steps.",
+            "To begin the real ceremony early.",
+            "To replace every volunteer.",
+            "To avoid testing microphones."
+          ],
+          "prompt": "Why may the team stop during the practice?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Event chat] Luca: Please arrive at three for a dry run of the welcome ceremony. Wen: Should I bring running shoes? Is it outdoors? Luca: Sorry, 'dry run' means a practice of the procedure. We will walk through the introductions and check the microphones in the hall.",
+          "explanation": "Luca 在對話中直接解釋為流程排練。",
+          "id": "d218-q4",
+          "options": [
+            "A ceremony with no microphones.",
+            "An outdoor race without water.",
+            "A practice of a planned procedure.",
+            "A walk that must avoid every guest."
+          ],
+          "prompt": "What does 'dry run' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Wen adds a plain-language explanation beneath the original reminder. Another new volunteer thanks her because he had been unsure too. Luca realizes that a phrase familiar to experienced organizers may be unclear to others. The practice is useful before anyone enters the hall: it reveals a communication problem while there is still time to fix it.",
+          "explanation": "另一新志工也不懂，提問揭露共同疑惑。",
+          "id": "d218-q5",
+          "options": [
+            "Wen's question helped more than one person understand.",
+            "Only Wen misunderstood the phrase.",
+            "All volunteers had already attended the ceremony.",
+            "The original message needed no explanation."
+          ],
+          "prompt": "What does the other volunteer's thanks suggest?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "[Event chat] Luca: Please arrive at three for a dry run of the welcome ceremony. Wen: Should I bring running shoes? Is it outdoors? Luca: Sorry, 'dry run' means a practice of the procedure. We will walk through the introductions and check the microphones in the hall.\n\nWen: So guests are not attending yet? Luca: Right. We will use classmates as pretend guests. If a step is confusing, we can stop and adjust it. The real ceremony starts at five, after we have made any needed changes.\n\nWen adds a plain-language explanation beneath the original reminder. Another new volunteer thanks her because he had been unsure too. Luca realizes that a phrase familiar to experienced organizers may be unclear to others. The practice is useful before anyone enters the hall: it reveals a communication problem while there is still time to fix it.",
+          "explanation": "有經驗者熟悉的用语不代表新手也懂。",
+          "id": "d218-q6",
+          "options": [
+            "Explain familiar specialist phrases when the audience may not know them.",
+            "Treat every practice as an athletic event.",
+            "Use more unfamiliar phrases to save time.",
+            "Assume silence proves understanding."
+          ],
+          "prompt": "Which lesson does Luca learn?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Event chat] Luca: Please arrive at three for a dry run of the welcome ceremony. Wen: Should I bring running shoes? Is it outdoors? Luca: Sorry, 'dry run' means a practice of the procedure. We will walk through the introductions and check the microphones in the hall.\n\nWen: So guests are not attending yet? Luca: Right. We will use classmates as pretend guests. If a step is confusing, we can stop and adjust it. The real ceremony starts at five, after we have made any needed changes.\n\nWen adds a plain-language explanation beneath the original reminder. Another new volunteer thanks her because he had been unsure too. Luca realizes that a phrase familiar to experienced organizers may be unclear to others. The practice is useful before anyone enters the hall: it reveals a communication problem while there is still time to fix it.",
+      "title": "The Run That Needed No Running",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Luca: Sorry, 'dry run' means a practice of the procedure.",
+          "meaning": "流程",
+          "word": "procedure"
+        },
+        {
+          "example": "We will walk through the introductions and check the microphones in the hall.",
+          "meaning": "介紹",
+          "word": "introductions"
+        },
+        {
+          "example": "We will use classmates as pretend guests.",
+          "meaning": "假扮的",
+          "word": "pretend"
+        },
+        {
+          "example": "If a step is confusing, we can stop and adjust it.",
+          "meaning": "調整",
+          "word": "adjust"
+        },
+        {
+          "example": "Luca realizes that a phrase familiar to experienced organizers may be unclear to others.",
+          "meaning": "有經驗的",
+          "word": "experienced"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-03",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 214,
+      "goal": "統整多選調查數據、填答人數與可支持的結論。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "一個或兩個",
+          "phrase": "either one or two"
+        },
+        {
+          "meaning": "最喜歡",
+          "phrase": "liked best"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "[Form rules] Each respondent selected either one or two different workshop topics. Choices were not ranked. Each student submitted exactly one valid form. The center surveyed fifty students and received a response from every one of them.",
+          "explanation": "五十位各交一份有效回應。",
+          "id": "d214-q1",
+          "options": [
+            "Thirty.",
+            "Seventy.",
+            "Twenty-five.",
+            "Fifty."
+          ],
+          "prompt": "How many unique respondents were there?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Results] Art received thirty selections, Science received twenty-five, and Games received fifteen. These seventy selections came from the fifty respondents. The form did not ask why they chose a topic or which selected topic they liked best.",
+          "explanation": "Art 三十票是最多。",
+          "id": "d214-q2",
+          "options": [
+            "Art.",
+            "Games.",
+            "All three equally.",
+            "Science."
+          ],
+          "prompt": "Which topic received the most selections?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Results] Art received thirty selections, Science received twenty-five, and Games received fifteen. These seventy selections came from the fifty respondents. The form did not ask why they chose a topic or which selected topic they liked best.",
+          "explanation": "結果列 Games 十五票。",
+          "id": "d214-q3",
+          "options": [
+            "An unlisted topic.",
+            "Science.",
+            "Art.",
+            "Games."
+          ],
+          "prompt": "Which topic received fifteen selections?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Form rules] Each respondent selected either one or two different workshop topics. Choices were not ranked. Each student submitted exactly one valid form. The center surveyed fifty students and received a response from every one of them.\n\n[Results] Art received thirty selections, Science received twenty-five, and Games received fifteen. These seventy selections came from the fifty respondents. The form did not ask why they chose a topic or which selected topic they liked best.\n\n[Planning note] Art has the largest count, but a session still depends on finding a teacher and room. The center will contact possible teachers before announcing any booking. Interest is evidence for planning, not a promise that a workshop will run.\n\nThe team checks both counts and wording before writing its report. It can compare selections and calculate how many people chose two topics, but it cannot invent ranked preferences or reasons absent from the form.",
+          "explanation": "總選擇 70 − 每人一次的 50 = 20。",
+          "id": "d214-q4",
+          "options": [
+            "Thirty.",
+            "Twenty.",
+            "Seventy.",
+            "Fifty."
+          ],
+          "prompt": "How many selections exceed one per respondent?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Form rules] Each respondent selected either one or two different workshop topics. Choices were not ranked. Each student submitted exactly one valid form. The center surveyed fifty students and received a response from every one of them.\n\n[Results] Art received thirty selections, Science received twenty-five, and Games received fifteen. These seventy selections came from the fifty respondents. The form did not ask why they chose a topic or which selected topic they liked best.\n\n[Planning note] Art has the largest count, but a session still depends on finding a teacher and room. The center will contact possible teachers before announcing any booking. Interest is evidence for planning, not a promise that a workshop will run.\n\nThe team checks both counts and wording before writing its report. It can compare selections and calculate how many people chose two topics, but it cannot invent ranked preferences or reasons absent from the form.",
+          "explanation": "選項未排序，也未另問最愛。",
+          "id": "d214-q5",
+          "options": [
+            "The center recorded no selections.",
+            "No one selected Art.",
+            "The form allowed only one topic for everyone.",
+            "The choices were not ranked."
+          ],
+          "prompt": "Why doesn't the result show each person's favorite?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Planning note] Art has the largest count, but a session still depends on finding a teacher and room. The center will contact possible teachers before announcing any booking. Interest is evidence for planning, not a promise that a workshop will run.",
+          "explanation": "興趣高仍需教師及教室可配合。",
+          "id": "d214-q6",
+          "options": [
+            "The center must arrange a suitable teacher and room.",
+            "Games must be removed automatically.",
+            "Every respondent must submit twice.",
+            "Art's count must be changed to fifty."
+          ],
+          "prompt": "What must happen before announcing a booking?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The team checks both counts and wording before writing its report. It can compare selections and calculate how many people chose two topics, but it cannot invent ranked preferences or reasons absent from the form.",
+          "explanation": "表單沒有提供的理由與順位，屬缺少的資訊。",
+          "id": "d214-q7",
+          "options": [
+            "Not present in the information.",
+            "Opposed by every student.",
+            "Printed in a smaller font.",
+            "Already confirmed by a teacher."
+          ],
+          "prompt": "What does 'absent' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Form rules] Each respondent selected either one or two different workshop topics. Choices were not ranked. Each student submitted exactly one valid form. The center surveyed fifty students and received a response from every one of them.\n\n[Results] Art received thirty selections, Science received twenty-five, and Games received fifteen. These seventy selections came from the fifty respondents. The form did not ask why they chose a topic or which selected topic they liked best.\n\n[Planning note] Art has the largest count, but a session still depends on finding a teacher and room. The center will contact possible teachers before announcing any booking. Interest is evidence for planning, not a promise that a workshop will run.\n\nThe team checks both counts and wording before writing its report. It can compare selections and calculate how many people chose two topics, but it cannot invent ranked preferences or reasons absent from the form.",
+          "explanation": "每人一或兩項，較五十次基本選擇多出的二十次各來自一位雙選者。",
+          "id": "d214-q8",
+          "options": [
+            "Thirty-five.",
+            "Thirty.",
+            "Forty.",
+            "Twenty."
+          ],
+          "prompt": "How many respondents selected two topics?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "[Form rules] Each respondent selected either one or two different workshop topics. Choices were not ranked. Each student submitted exactly one valid form. The center surveyed fifty students and received a response from every one of them.\n\n[Results] Art received thirty selections, Science received twenty-five, and Games received fifteen. These seventy selections came from the fifty respondents. The form did not ask why they chose a topic or which selected topic they liked best.\n\n[Planning note] Art has the largest count, but a session still depends on finding a teacher and room. The center will contact possible teachers before announcing any booking. Interest is evidence for planning, not a promise that a workshop will run.\n\nThe team checks both counts and wording before writing its report. It can compare selections and calculate how many people chose two topics, but it cannot invent ranked preferences or reasons absent from the form.",
+          "explanation": "可說三十人有選 Art，不能推論順位、原因或確定開課。",
+          "id": "d214-q9",
+          "options": [
+            "Thirty students ranked Art first.",
+            "Art is certain to run next month.",
+            "Thirty of fifty respondents included Art among their choices.",
+            "Twenty-five students selected Science because of its teacher."
+          ],
+          "prompt": "Which statement stays within the results?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "[Form rules] Each respondent selected either one or two different workshop topics. Choices were not ranked. Each student submitted exactly one valid form. The center surveyed fifty students and received a response from every one of them.\n\n[Results] Art received thirty selections, Science received twenty-five, and Games received fifteen. These seventy selections came from the fifty respondents. The form did not ask why they chose a topic or which selected topic they liked best.\n\n[Planning note] Art has the largest count, but a session still depends on finding a teacher and room. The center will contact possible teachers before announcing any booking. Interest is evidence for planning, not a promise that a workshop will run.\n\nThe team checks both counts and wording before writing its report. It can compare selections and calculate how many people chose two topics, but it cannot invent ranked preferences or reasons absent from the form.",
+      "title": "Boss: Seventy Selections from Fifty Students",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "Choices were not ranked.",
+          "meaning": "有排序的",
+          "word": "ranked"
+        },
+        {
+          "example": "Each student submitted exactly one valid form.",
+          "meaning": "有效的",
+          "word": "valid"
+        },
+        {
+          "example": "[Results] Art received thirty selections, Science received twenty-five, and Games received fifteen.",
+          "meaning": "選擇項目",
+          "word": "selections"
+        },
+        {
+          "example": "It can compare selections and calculate how many people chose two topics, but it cannot invent ranked preferences or reasons absent from the form.",
+          "meaning": "不存在的",
+          "word": "absent"
+        },
+        {
+          "example": "It can compare selections and calculate how many people chose two topics, but it cannot invent ranked preferences or reasons absent from the form.",
+          "meaning": "計算",
+          "word": "calculate"
+        }
+      ]
+    }
+  ]
+}

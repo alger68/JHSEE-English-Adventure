@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-05",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 216,
+      "goal": "從對話與行動區分意見批評及人際否定。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "一部分",
+          "phrase": "part of"
+        },
+        {
+          "meaning": "取捨",
+          "phrase": "trade-offs"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "During a class meeting, Huan questions his friend Lea's plan to spend the whole activity budget on one large concert. He asks what would remain for students who prefer smaller workshops. Lea becomes quiet and avoids him after the meeting.",
+          "explanation": "他擔心所有經費都用在同一活動。",
+          "id": "d216-q1",
+          "options": [
+            "Whether Lea worked hard.",
+            "The date of their friendship.",
+            "Whether music should ever be allowed.",
+            "Using the entire activity budget for one concert."
+          ],
+          "prompt": "What does Huan question?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Huan later says he likes the idea of a concert but is uncertain about using every available dollar. He suggests keeping part of the budget for other activities. Lea admits she had heard his question as a rejection of her effort, not as a concern about the plan.",
+          "explanation": "Lea 起初把方案疑慮理解成對付出的否定。",
+          "id": "d216-q2",
+          "options": [
+            "He refuses to explain his question.",
+            "The class has already chosen workshops only.",
+            "She hears his concern as a rejection of her effort.",
+            "He has canceled the concert himself."
+          ],
+          "prompt": "Why does Lea avoid Huan at first?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "They review the proposal together and prepare two versions with different spending patterns. The class can now compare trade-offs instead of choosing between total approval and total rejection. Lea still hopes for a concert, and Huan still wants room for workshops. Their friendship does not require identical opinions; it becomes easier when they explain what they are questioning and why.",
+          "explanation": "他們提出兩個支出配置版本供比較。",
+          "id": "d216-q3",
+          "options": [
+            "A rule against workshops.",
+            "Two identical concert posters.",
+            "An apology without any budget discussion.",
+            "Two spending versions."
+          ],
+          "prompt": "What do they prepare together?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "They review the proposal together and prepare two versions with different spending patterns. The class can now compare trade-offs instead of choosing between total approval and total rejection. Lea still hopes for a concert, and Huan still wants room for workshops. Their friendship does not require identical opinions; it becomes easier when they explain what they are questioning and why.",
+          "explanation": "文中與 rejection 相對，指對提案的贊成。",
+          "id": "d216-q4",
+          "options": [
+            "Agreement with a plan.",
+            "A written list of friends.",
+            "The cost of a ticket.",
+            "A change in room size."
+          ],
+          "prompt": "What does 'approval' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "They review the proposal together and prepare two versions with different spending patterns. The class can now compare trade-offs instead of choosing between total approval and total rejection. Lea still hopes for a concert, and Huan still wants room for workshops. Their friendship does not require identical opinions; it becomes easier when they explain what they are questioning and why.",
+          "explanation": "不同配置具體呈現取捨，而非只能全盤接受或否定。",
+          "id": "d216-q5",
+          "options": [
+            "They hide the amount of money available.",
+            "They let the class compare choices with different consequences.",
+            "They guarantee everyone has the same preference.",
+            "They remove every need for discussion."
+          ],
+          "prompt": "Why are two versions useful?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "During a class meeting, Huan questions his friend Lea's plan to spend the whole activity budget on one large concert. He asks what would remain for students who prefer smaller workshops. Lea becomes quiet and avoids him after the meeting.\n\nHuan later says he likes the idea of a concert but is uncertain about using every available dollar. He suggests keeping part of the budget for other activities. Lea admits she had heard his question as a rejection of her effort, not as a concern about the plan.\n\nThey review the proposal together and prepare two versions with different spending patterns. The class can now compare trade-offs instead of choosing between total approval and total rejection. Lea still hopes for a concert, and Huan still wants room for workshops. Their friendship does not require identical opinions; it becomes easier when they explain what they are questioning and why.",
+          "explanation": "澄清批評對象及理由，有助維持不同意見下的合作。",
+          "id": "d216-q6",
+          "options": [
+            "Explaining a concern guarantees everyone will agree.",
+            "A budget question always means dislike of its author.",
+            "Friends must support every proposal unchanged.",
+            "Clear reasons can allow different views without treating them as personal rejection."
+          ],
+          "prompt": "What does the story suggest about friendship and disagreement?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "During a class meeting, Huan questions his friend Lea's plan to spend the whole activity budget on one large concert. He asks what would remain for students who prefer smaller workshops. Lea becomes quiet and avoids him after the meeting.\n\nHuan later says he likes the idea of a concert but is uncertain about using every available dollar. He suggests keeping part of the budget for other activities. Lea admits she had heard his question as a rejection of her effort, not as a concern about the plan.\n\nThey review the proposal together and prepare two versions with different spending patterns. The class can now compare trade-offs instead of choosing between total approval and total rejection. Lea still hopes for a concert, and Huan still wants room for workshops. Their friendship does not require identical opinions; it becomes easier when they explain what they are questioning and why.",
+      "title": "Disagreeing with a Friend's Proposal",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "During a class meeting, Huan questions his friend Lea's plan to spend the whole activity budget on one large concert.",
+          "meaning": "預算",
+          "word": "budget"
+        },
+        {
+          "example": "Huan later says he likes the idea of a concert but is uncertain about using every available dollar.",
+          "meaning": "不確定的",
+          "word": "uncertain"
+        },
+        {
+          "example": "Lea admits she had heard his question as a rejection of her effort, not as a concern about the plan.",
+          "meaning": "否定",
+          "word": "rejection"
+        },
+        {
+          "example": "They review the proposal together and prepare two versions with different spending patterns.",
+          "meaning": "提案",
+          "word": "proposal"
+        },
+        {
+          "example": "The class can now compare trade-offs instead of choosing between total approval and total rejection.",
+          "meaning": "贊成",
+          "word": "approval"
+        }
+      ]
+    }
+  ]
+}

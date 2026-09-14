@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-10",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 221,
+      "goal": "跨標籤整合最小需求、可用空間與重新測量條件。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "至少",
+          "phrase": "at least"
+        },
+        {
+          "meaning": "再次檢查",
+          "phrase": "check again"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "[Available space] In this planning exercise, Yuna's balcony receives four hours of direct light on the measured day. Her container is twenty-five centimeters wide. She will choose only a packet whose listed minimum requirements are met.",
+          "explanation": "現有條件列出四小時直射光。",
+          "id": "d221-q1",
+          "options": [
+            "Twenty-five hours.",
+            "Six hours.",
+            "Four hours.",
+            "Three hours."
+          ],
+          "prompt": "How much light was measured on Yuna's balcony?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Available space] In this planning exercise, Yuna's balcony receives four hours of direct light on the measured day. Her container is twenty-five centimeters wide. She will choose only a packet whose listed minimum requirements are met.",
+          "explanation": "容器寬二十五公分。",
+          "id": "d221-q2",
+          "options": [
+            "Twenty-five centimeters.",
+            "Four centimeters.",
+            "Thirty centimeters.",
+            "Twenty centimeters."
+          ],
+          "prompt": "How wide is her container?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Available space] In this planning exercise, Yuna's balcony receives four hours of direct light on the measured day. Her container is twenty-five centimeters wide. She will choose only a packet whose listed minimum requirements are met.\n\n[Packet labels] Red Mix: at least six hours of light and a container at least twenty centimeters wide. Blue Mix: at least three hours and thirty centimeters. Gold Mix: at least four hours and twenty-five centimeters. Each packet is free, and Yuna may take one.\n\n[Helper's note] These labels are the requirements for this exercise. One day's light observation may not describe every season. Check again if conditions change, and do not assume a packet guarantees identical results in all homes.\n\nYuna compares both columns rather than choosing the prettiest picture. She finds one packet that fits her present measurements. If she moves the container to a different spot, she will measure there before applying the same decision rule. A match depends on the actual conditions being compared.",
+          "explanation": "紅包需至少六小時，現有四小時不足。",
+          "id": "d221-q3",
+          "options": [
+            "It needs a wider container than thirty centimeters.",
+            "It forbids balcony use.",
+            "It needs more light.",
+            "It is not free."
+          ],
+          "prompt": "Why doesn't Red Mix fit the current measurements?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Available space] In this planning exercise, Yuna's balcony receives four hours of direct light on the measured day. Her container is twenty-five centimeters wide. She will choose only a packet whose listed minimum requirements are met.\n\n[Packet labels] Red Mix: at least six hours of light and a container at least twenty centimeters wide. Blue Mix: at least three hours and thirty centimeters. Gold Mix: at least four hours and twenty-five centimeters. Each packet is free, and Yuna may take one.\n\n[Helper's note] These labels are the requirements for this exercise. One day's light observation may not describe every season. Check again if conditions change, and do not assume a packet guarantees identical results in all homes.\n\nYuna compares both columns rather than choosing the prettiest picture. She finds one packet that fits her present measurements. If she moves the container to a different spot, she will measure there before applying the same decision rule. A match depends on the actual conditions being compared.",
+          "explanation": "藍包需三十公分，現有二十五不足。",
+          "id": "d221-q4",
+          "options": [
+            "Its label contains no requirements.",
+            "It requires payment.",
+            "Its minimum container width is greater than hers.",
+            "Its light requirement is greater than six hours."
+          ],
+          "prompt": "Why doesn't Blue Mix fit?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Available space] In this planning exercise, Yuna's balcony receives four hours of direct light on the measured day. Her container is twenty-five centimeters wide. She will choose only a packet whose listed minimum requirements are met.\n\n[Packet labels] Red Mix: at least six hours of light and a container at least twenty centimeters wide. Blue Mix: at least three hours and thirty centimeters. Gold Mix: at least four hours and twenty-five centimeters. Each packet is free, and Yuna may take one.\n\n[Helper's note] These labels are the requirements for this exercise. One day's light observation may not describe every season. Check again if conditions change, and do not assume a packet guarantees identical results in all homes.\n\nYuna compares both columns rather than choosing the prettiest picture. She finds one packet that fits her present measurements. If she moves the container to a different spot, she will measure there before applying the same decision rule. A match depends on the actual conditions being compared.",
+          "explanation": "金包最低四小時、二十五公分，兩項均達到。",
+          "id": "d221-q5",
+          "options": [
+            "Red Mix.",
+            "Blue Mix.",
+            "Gold Mix.",
+            "All three."
+          ],
+          "prompt": "Which packet meets both current requirements?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Packet labels] Red Mix: at least six hours of light and a container at least twenty centimeters wide. Blue Mix: at least three hours and thirty centimeters. Gold Mix: at least four hours and twenty-five centimeters. Each packet is free, and Yuna may take one.",
+          "explanation": "標籤段明說一次可取一包。",
+          "id": "d221-q6",
+          "options": [
+            "One.",
+            "As many as fit.",
+            "Three.",
+            "Two."
+          ],
+          "prompt": "How many packets may Yuna take?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Available space] In this planning exercise, Yuna's balcony receives four hours of direct light on the measured day. Her container is twenty-five centimeters wide. She will choose only a packet whose listed minimum requirements are met.",
+          "explanation": "最低需求表示不可低於的門檻。",
+          "id": "d221-q7",
+          "options": [
+            "An optional number to ignore.",
+            "The largest amount allowed.",
+            "The amount in every home.",
+            "The smallest amount required."
+          ],
+          "prompt": "What does 'minimum' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Yuna compares both columns rather than choosing the prettiest picture. She finds one packet that fits her present measurements. If she moves the container to a different spot, she will measure there before applying the same decision rule. A match depends on the actual conditions being compared.",
+          "explanation": "環境改變就需重新核對條件。",
+          "id": "d221-q8",
+          "options": [
+            "Choose by the picture because the container moved.",
+            "Treat the earlier match as permanent proof.",
+            "Measure the new location before checking the requirements again.",
+            "Assume every balcony spot has four hours of light."
+          ],
+          "prompt": "What should Yuna do after moving the container elsewhere?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "[Available space] In this planning exercise, Yuna's balcony receives four hours of direct light on the measured day. Her container is twenty-five centimeters wide. She will choose only a packet whose listed minimum requirements are met.\n\n[Packet labels] Red Mix: at least six hours of light and a container at least twenty centimeters wide. Blue Mix: at least three hours and thirty centimeters. Gold Mix: at least four hours and twenty-five centimeters. Each packet is free, and Yuna may take one.\n\n[Helper's note] These labels are the requirements for this exercise. One day's light observation may not describe every season. Check again if conditions change, and do not assume a packet guarantees identical results in all homes.\n\nYuna compares both columns rather than choosing the prettiest picture. She finds one packet that fits her present measurements. If she moves the container to a different spot, she will measure there before applying the same decision rule. A match depends on the actual conditions being compared.",
+          "explanation": "紅、金光照不足；藍仍欠容器寬度，因此都不符合。",
+          "id": "d221-q9",
+          "options": [
+            "None of the three.",
+            "Red Mix.",
+            "Gold Mix.",
+            "Blue Mix."
+          ],
+          "prompt": "If the new spot has three hours of light and the same container, which packet qualifies?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "[Available space] In this planning exercise, Yuna's balcony receives four hours of direct light on the measured day. Her container is twenty-five centimeters wide. She will choose only a packet whose listed minimum requirements are met.\n\n[Packet labels] Red Mix: at least six hours of light and a container at least twenty centimeters wide. Blue Mix: at least three hours and thirty centimeters. Gold Mix: at least four hours and twenty-five centimeters. Each packet is free, and Yuna may take one.\n\n[Helper's note] These labels are the requirements for this exercise. One day's light observation may not describe every season. Check again if conditions change, and do not assume a packet guarantees identical results in all homes.\n\nYuna compares both columns rather than choosing the prettiest picture. She finds one packet that fits her present measurements. If she moves the container to a different spot, she will measure there before applying the same decision rule. A match depends on the actual conditions being compared.",
+      "title": "Boss: A Packet for the Narrow Balcony",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "She will choose only a packet whose listed minimum requirements are met.",
+          "meaning": "最低的",
+          "word": "minimum"
+        },
+        {
+          "example": "She will choose only a packet whose listed minimum requirements are met.",
+          "meaning": "需求",
+          "word": "requirements"
+        },
+        {
+          "example": "[Available space] In this planning exercise, Yuna's balcony receives four hours of direct light on the measured day.",
+          "meaning": "測得的",
+          "word": "measured"
+        },
+        {
+          "example": "Check again if conditions change, and do not assume a packet guarantees identical results in all homes.",
+          "meaning": "相同的",
+          "word": "identical"
+        },
+        {
+          "example": "If she moves the container to a different spot, she will measure there before applying the same decision rule.",
+          "meaning": "運用",
+          "word": "applying"
+        }
+      ]
+    }
+  ]
+}

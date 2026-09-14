@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-06",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 217,
+      "goal": "理解談話目的與回應方式如何配合對方需求。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "過一會兒",
+          "phrase": "after a while"
+        },
+        {
+          "meaning": "下一步",
+          "phrase": "next step"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "After a disappointing school day, Ellis tells his older cousin about a group project that went badly. His cousin immediately offers five ways to reorganize the team. Ellis stops talking and says, 'I know there are things to try. I just wanted you to understand why I'm upset.'",
+          "explanation": "她一開始立即提供五個重整方法。",
+          "id": "d217-q1",
+          "options": [
+            "Refuses to discuss the project.",
+            "Calls every teammate.",
+            "Offers several ways to reorganize the team.",
+            "Asks what kind of support Ellis wants."
+          ],
+          "prompt": "What does the cousin do immediately?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "After a disappointing school day, Ellis tells his older cousin about a group project that went badly. His cousin immediately offers five ways to reorganize the team. Ellis stops talking and says, 'I know there are things to try. I just wanted you to understand why I'm upset.'",
+          "explanation": "Ellis 明說先希望對方理解自己為何難過。",
+          "id": "d217-q2",
+          "options": [
+            "He wants his feelings understood before advice.",
+            "He dislikes all forms of help.",
+            "The cousin has no suggestions.",
+            "He has already solved every problem."
+          ],
+          "prompt": "Why does Ellis stop talking?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "After a while, Ellis asks for help planning a conversation with his teammates. This time, they discuss one next step together. The cousin's earlier suggestions were not necessarily useless; their timing did not match his immediate purpose. She learns to ask what kind of support is wanted, and Ellis learns that stating his need can help another person respond more usefully.",
+          "explanation": "過一會兒他主動要求協助規劃與組員談話。",
+          "id": "d217-q3",
+          "options": [
+            "Help planning a conversation with teammates.",
+            "Five unrelated project topics.",
+            "Someone to complete the project for him.",
+            "A promise never to discuss school."
+          ],
+          "prompt": "What does Ellis ask for later?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "After a while, Ellis asks for help planning a conversation with his teammates. This time, they discuss one next step together. The cousin's earlier suggestions were not necessarily useless; their timing did not match his immediate purpose. She learns to ask what kind of support is wanted, and Ellis learns that stating his need can help another person respond more usefully.",
+          "explanation": "此處指當下談話想達成的目的。",
+          "id": "d217-q4",
+          "options": [
+            "The reason for having the conversation.",
+            "The school project's title.",
+            "The number of suggestions offered.",
+            "The cousin's timetable."
+          ],
+          "prompt": "What does 'purpose' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The cousin puts down her notebook and asks whether Ellis wants advice now or someone to listen first. He chooses listening. She asks what part felt hardest and repeats his concern to check that she has understood it.",
+          "explanation": "她藉重述確認有沒有聽懂。",
+          "id": "d217-q5",
+          "options": [
+            "To make him repeat the entire project.",
+            "To check her understanding.",
+            "To prove every suggestion was correct.",
+            "To end the conversation quickly."
+          ],
+          "prompt": "Why does the cousin repeat Ellis's concern?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "After a disappointing school day, Ellis tells his older cousin about a group project that went badly. His cousin immediately offers five ways to reorganize the team. Ellis stops talking and says, 'I know there are things to try. I just wanted you to understand why I'm upset.'\n\nThe cousin puts down her notebook and asks whether Ellis wants advice now or someone to listen first. He chooses listening. She asks what part felt hardest and repeats his concern to check that she has understood it.\n\nAfter a while, Ellis asks for help planning a conversation with his teammates. This time, they discuss one next step together. The cousin's earlier suggestions were not necessarily useless; their timing did not match his immediate purpose. She learns to ask what kind of support is wanted, and Ellis learns that stating his need can help another person respond more usefully.",
+          "explanation": "建議未必無用，但需符合需求與時機。",
+          "id": "d217-q6",
+          "options": [
+            "A good suggestion must be accepted immediately.",
+            "Advice is always less useful than listening.",
+            "Helpful support depends partly on the person's need and timing.",
+            "A listener should never ask questions."
+          ],
+          "prompt": "What is the main lesson?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "After a disappointing school day, Ellis tells his older cousin about a group project that went badly. His cousin immediately offers five ways to reorganize the team. Ellis stops talking and says, 'I know there are things to try. I just wanted you to understand why I'm upset.'\n\nThe cousin puts down her notebook and asks whether Ellis wants advice now or someone to listen first. He chooses listening. She asks what part felt hardest and repeats his concern to check that she has understood it.\n\nAfter a while, Ellis asks for help planning a conversation with his teammates. This time, they discuss one next step together. The cousin's earlier suggestions were not necessarily useless; their timing did not match his immediate purpose. She learns to ask what kind of support is wanted, and Ellis learns that stating his need can help another person respond more usefully.",
+      "title": "Do You Want Advice or a Listener?",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "After a disappointing school day, Ellis tells his older cousin about a group project that went badly.",
+          "meaning": "令人失望的",
+          "word": "disappointing"
+        },
+        {
+          "example": "His cousin immediately offers five ways to reorganize the team.",
+          "meaning": "重新安排",
+          "word": "reorganize"
+        },
+        {
+          "example": "I just wanted you to understand why I'm upset.",
+          "meaning": "難過的",
+          "word": "upset"
+        },
+        {
+          "example": "She asks what part felt hardest and repeats his concern to check that she has understood it.",
+          "meaning": "擔心的事",
+          "word": "concern"
+        },
+        {
+          "example": "The cousin's earlier suggestions were not necessarily useless; their timing did not match his immediate purpose.",
+          "meaning": "目的",
+          "word": "purpose"
+        }
+      ]
+    }
+  ]
+}

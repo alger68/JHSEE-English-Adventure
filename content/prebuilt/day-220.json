@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-09",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 220,
+      "goal": "辨識贈與、回饋邀請及包裝說明中的條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "而非",
+          "phrase": "rather than"
+        },
+        {
+          "meaning": "選擇之前",
+          "phrase": "before choosing"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "COMMUNITY SEED LIBRARY: Take one free packet to try growing something at home. You do not need to return the same number of seeds later. Sharing seeds from a successful harvest is welcome, but it is an invitation rather than a debt.",
+          "explanation": "公告明說不必歸還同數種子。",
+          "id": "d220-q1",
+          "options": [
+            "No.",
+            "Only when they take one packet.",
+            "Yes, after exactly one week.",
+            "Only if they read the label."
+          ],
+          "prompt": "Must users return an equal number of seeds?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Each packet lists its suggested light conditions, container space, and expected range of growth. Read the label before choosing. The photographs show examples, not a promise that every plant will look identical. Ask a helper if you are unsure how a label fits your available space.",
+          "explanation": "標籤列光照、容器空間及生長範圍供核對。",
+          "id": "d220-q2",
+          "options": [
+            "To check whether its conditions fit their space.",
+            "To guarantee identical results.",
+            "To reserve every remaining packet.",
+            "To learn another user's private address."
+          ],
+          "prompt": "Why should users read the packet label?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Please write the packet name in the borrowing notebook so the center can track which supplies need replacing. This record does not reserve more packets for you. If your first attempt fails, you may describe what happened to the helper. The library encourages learning and honest records, not pretending that every seed grew successfully.",
+          "explanation": "借取紀錄協助管理補貨。",
+          "id": "d220-q3",
+          "options": [
+            "To prove every seed grew.",
+            "To reserve future packets automatically.",
+            "To create a debt of equal seeds.",
+            "To help track supplies that need replacing."
+          ],
+          "prompt": "Why record the packet name?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "COMMUNITY SEED LIBRARY: Take one free packet to try growing something at home. You do not need to return the same number of seeds later. Sharing seeds from a successful harvest is welcome, but it is an invitation rather than a debt.",
+          "explanation": "與邀請對照，debt 指必須償還的負欠。",
+          "id": "d220-q4",
+          "options": [
+            "A printed plant photograph.",
+            "A first growing attempt.",
+            "Something owed that must be repaid.",
+            "A voluntary shared harvest."
+          ],
+          "prompt": "What does 'debt' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Each packet lists its suggested light conditions, container space, and expected range of growth. Read the label before choosing. The photographs show examples, not a promise that every plant will look identical. Ask a helper if you are unsure how a label fits your available space.",
+          "explanation": "公告把照片界定為示例而非成果保證。",
+          "id": "d220-q5",
+          "options": [
+            "A promise that all users will get the same growth.",
+            "Examples of possible appearance, not guaranteed identical results.",
+            "Proof that conditions never matter.",
+            "The exact number of seeds users must return."
+          ],
+          "prompt": "What do the photographs establish?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "COMMUNITY SEED LIBRARY: Take one free packet to try growing something at home. You do not need to return the same number of seeds later. Sharing seeds from a successful harvest is welcome, but it is an invitation rather than a debt.\n\nEach packet lists its suggested light conditions, container space, and expected range of growth. Read the label before choosing. The photographs show examples, not a promise that every plant will look identical. Ask a helper if you are unsure how a label fits your available space.\n\nPlease write the packet name in the borrowing notebook so the center can track which supplies need replacing. This record does not reserve more packets for you. If your first attempt fails, you may describe what happened to the helper. The library encourages learning and honest records, not pretending that every seed grew successfully.",
+          "explanation": "活動重視學習、可行時回饋與真實紀錄。",
+          "id": "d220-q6",
+          "options": [
+            "Claiming success to keep borrowing.",
+            "Choosing only by the most attractive photograph.",
+            "Trying, sharing when possible, and reporting honestly.",
+            "Treating a free packet as a fixed repayment obligation."
+          ],
+          "prompt": "What attitude does the library encourage?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "COMMUNITY SEED LIBRARY: Take one free packet to try growing something at home. You do not need to return the same number of seeds later. Sharing seeds from a successful harvest is welcome, but it is an invitation rather than a debt.\n\nEach packet lists its suggested light conditions, container space, and expected range of growth. Read the label before choosing. The photographs show examples, not a promise that every plant will look identical. Ask a helper if you are unsure how a label fits your available space.\n\nPlease write the packet name in the borrowing notebook so the center can track which supplies need replacing. This record does not reserve more packets for you. If your first attempt fails, you may describe what happened to the helper. The library encourages learning and honest records, not pretending that every seed grew successfully.",
+      "title": "The Seed Library Is an Invitation",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "Sharing seeds from a successful harvest is welcome, but it is an invitation rather than a debt.",
+          "meaning": "收成",
+          "word": "harvest"
+        },
+        {
+          "example": "Sharing seeds from a successful harvest is welcome, but it is an invitation rather than a debt.",
+          "meaning": "債務",
+          "word": "debt"
+        },
+        {
+          "example": "Each packet lists its suggested light conditions, container space, and expected range of growth.",
+          "meaning": "容器",
+          "word": "container"
+        },
+        {
+          "example": "Please write the packet name in the borrowing notebook so the center can track which supplies need replacing.",
+          "meaning": "物資",
+          "word": "supplies"
+        },
+        {
+          "example": "If your first attempt fails, you may describe what happened to the helper.",
+          "meaning": "嘗試",
+          "word": "attempt"
+        }
+      ]
+    }
+  ]
+}

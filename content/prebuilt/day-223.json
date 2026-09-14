@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-12",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 223,
+      "goal": "比較前後書面紀錄，推論學習進展與目標修訂。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "卡住",
+          "phrase": "get stuck"
+        },
+        {
+          "meaning": "尋找",
+          "phrase": "look for"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "At the end of term, the teacher returns envelopes students sealed a year earlier. Inside, each student wrote one hope and one worry. June's note says she hopes to speak perfectly in front of the class and worries that one mistake will make everyone laugh.",
+          "explanation": "首段交代一個希望與一個擔憂。",
+          "id": "d223-q1",
+          "options": [
+            "Three presentation scores.",
+            "A completed exam.",
+            "A list of classmates' mistakes.",
+            "One hope and one worry."
+          ],
+          "prompt": "What were students asked to put in the envelopes?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "June has given three short presentations since then. She made mistakes in all of them, but she also answered questions and learned to continue after losing a word. Her old goal now seems both understandable and impossible to measure fairly.",
+          "explanation": "第二段明說三次。",
+          "id": "d223-q2",
+          "options": [
+            "None.",
+            "Three.",
+            "Two.",
+            "One."
+          ],
+          "prompt": "How many short presentations has June given since writing the first note?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "June has given three short presentations since then. She made mistakes in all of them, but she also answered questions and learned to continue after losing a word. Her old goal now seems both understandable and impossible to measure fairly.",
+          "explanation": "犯錯後仍能持續與互動，修正她對完美的期待。",
+          "id": "d223-q3",
+          "options": [
+            "Every listener always laughed.",
+            "She made mistakes but could continue and answer questions.",
+            "She never made a mistake.",
+            "She stopped presenting entirely."
+          ],
+          "prompt": "What experience challenges June's old fear?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "She writes a new note: 'I want to explain one idea clearly, check whether listeners understand, and recover when I get stuck.' This promise does not sound as grand as perfection. It gives her actions she can practice and evidence she can look for. June keeps both notes because the difference between them shows something her presentation scores alone would not reveal: how her understanding of improvement has changed.",
+          "explanation": "卡住時能恢復並接續表達。",
+          "id": "d223-q4",
+          "options": [
+            "Regain the ability to continue.",
+            "Repeat every sentence perfectly.",
+            "Get back a sealed envelope.",
+            "Avoid ever speaking again."
+          ],
+          "prompt": "What does 'recover' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "She writes a new note: 'I want to explain one idea clearly, check whether listeners understand, and recover when I get stuck.' This promise does not sound as grand as perfection. It gives her actions she can practice and evidence she can look for. June keeps both notes because the difference between them shows something her presentation scores alone would not reveal: how her understanding of improvement has changed.",
+          "explanation": "清楚解釋、確認理解及卡住後恢復皆可實際練習與觀察。",
+          "id": "d223-q5",
+          "options": [
+            "It guarantees the highest score.",
+            "It depends on classmates making no mistakes.",
+            "It names observable actions rather than undefined perfection.",
+            "It removes all speaking tasks."
+          ],
+          "prompt": "Why is the new goal easier to use for practice?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "At the end of term, the teacher returns envelopes students sealed a year earlier. Inside, each student wrote one hope and one worry. June's note says she hopes to speak perfectly in front of the class and worries that one mistake will make everyone laugh.\n\nJune has given three short presentations since then. She made mistakes in all of them, but she also answered questions and learned to continue after losing a word. Her old goal now seems both understandable and impossible to measure fairly.\n\nShe writes a new note: 'I want to explain one idea clearly, check whether listeners understand, and recover when I get stuck.' This promise does not sound as grand as perfection. It gives her actions she can practice and evidence she can look for. June keeps both notes because the difference between them shows something her presentation scores alone would not reveal: how her understanding of improvement has changed.",
+          "explanation": "兩份文字呈現她對進步的理解如何改變。",
+          "id": "d223-q6",
+          "options": [
+            "They show a change in how she understands improvement.",
+            "They replace every presentation record.",
+            "They prove her old goal was already achieved perfectly.",
+            "They show that scores can never contain useful information."
+          ],
+          "prompt": "Why does June keep both notes?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At the end of term, the teacher returns envelopes students sealed a year earlier. Inside, each student wrote one hope and one worry. June's note says she hopes to speak perfectly in front of the class and worries that one mistake will make everyone laugh.\n\nJune has given three short presentations since then. She made mistakes in all of them, but she also answered questions and learned to continue after losing a word. Her old goal now seems both understandable and impossible to measure fairly.\n\nShe writes a new note: 'I want to explain one idea clearly, check whether listeners understand, and recover when I get stuck.' This promise does not sound as grand as perfection. It gives her actions she can practice and evidence she can look for. June keeps both notes because the difference between them shows something her presentation scores alone would not reveal: how her understanding of improvement has changed.",
+      "title": "The Promise in Last Year's Envelope",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "At the end of term, the teacher returns envelopes students sealed a year earlier.",
+          "meaning": "封好的",
+          "word": "sealed"
+        },
+        {
+          "example": "June's note says she hopes to speak perfectly in front of the class and worries that one mistake will make everyone laugh.",
+          "meaning": "完美地",
+          "word": "perfectly"
+        },
+        {
+          "example": "She writes a new note: 'I want to explain one idea clearly, check whether listeners understand, and recover when I get stuck.",
+          "meaning": "恢復",
+          "word": "recover"
+        },
+        {
+          "example": "' This promise does not sound as grand as perfection.",
+          "meaning": "宏大的",
+          "word": "grand"
+        },
+        {
+          "example": "June keeps both notes because the difference between them shows something her presentation scores alone would not reveal: how her understanding of improvement has changed.",
+          "meaning": "進步",
+          "word": "improvement"
+        }
+      ]
+    }
+  ]
+}

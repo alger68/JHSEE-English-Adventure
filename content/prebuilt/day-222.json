@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-04-11",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 222,
+      "goal": "複習演練、成長量及最低門檻，精準判讀限制詞。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "至少",
+          "phrase": "at least"
+        },
+        {
+          "meaning": "不能證明",
+          "phrase": "does not prove"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "Five words appear in Nao's review: procedure, growth, debt, minimum, and measured. She first explains that a dry run practices a procedure rather than testing running speed. A phrase can be misleading when its words are read without their setting.",
+          "explanation": "演練是在練流程，不是字面的跑步。",
+          "id": "d222-q1",
+          "options": [
+            "A procedure.",
+            "Seed repayment.",
+            "Plant growth.",
+            "Only running speed."
+          ],
+          "prompt": "What is practiced in a dry run?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For the plant record, Nao separates final height from growth. A plant moving from two to eight centimeters grew six, even if another ended taller. She also remembers that the seed library invites sharing without creating a debt to return equal seeds.",
+          "explanation": "8 − 2 = 6。",
+          "id": "d222-q2",
+          "options": [
+            "Ten centimeters.",
+            "Eight centimeters.",
+            "Six centimeters.",
+            "Two centimeters."
+          ],
+          "prompt": "What growth occurs from two to eight centimeters?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "For the plant record, Nao separates final height from growth. A plant moving from two to eight centimeters grew six, even if another ended taller. She also remembers that the seed library invites sharing without creating a debt to return equal seeds.",
+          "explanation": "回饋是邀請，不是固定償還義務。",
+          "id": "d222-q3",
+          "options": [
+            "Every seed must be returned.",
+            "Borrowers must buy all packets.",
+            "No harvest can ever be shared.",
+            "The library invites it without requiring equal repayment."
+          ],
+          "prompt": "Why is seed sharing not a debt?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The final task compares a measured four hours of light with a minimum requirement of four. Nao says the light condition is met, then checks container width separately. Equality satisfies 'at least,' but one suitable condition does not prove every requirement is met. Her review ends with a habit of circling limit words before choosing an option, especially when several numbers look close.",
+          "explanation": "minimum 與至少配合，指必須達到的下限。",
+          "id": "d222-q4",
+          "options": [
+            "An upper limit that must not be exceeded.",
+            "A lower limit that must be reached.",
+            "A result measured in every season.",
+            "An amount chosen without a rule."
+          ],
+          "prompt": "What does 'minimum' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The final task compares a measured four hours of light with a minimum requirement of four. Nao says the light condition is met, then checks container width separately. Equality satisfies 'at least,' but one suitable condition does not prove every requirement is met. Her review ends with a habit of circling limit words before choosing an option, especially when several numbers look close.",
+          "explanation": "至少四小時包含恰好四小時，但仍須查其他條件。",
+          "id": "d222-q5",
+          "options": [
+            "No, because equality never counts.",
+            "Yes, for that light condition.",
+            "Yes, so all other conditions can be ignored.",
+            "Only if the maximum is three."
+          ],
+          "prompt": "Does exactly four hours satisfy a minimum of four hours?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "Five words appear in Nao's review: procedure, growth, debt, minimum, and measured. She first explains that a dry run practices a procedure rather than testing running speed. A phrase can be misleading when its words are read without their setting.\n\nFor the plant record, Nao separates final height from growth. A plant moving from two to eight centimeters grew six, even if another ended taller. She also remembers that the seed library invites sharing without creating a debt to return equal seeds.\n\nThe final task compares a measured four hours of light with a minimum requirement of four. Nao says the light condition is met, then checks container width separately. Equality satisfies 'at least,' but one suitable condition does not prove every requirement is met. Her review ends with a habit of circling limit words before choosing an option, especially when several numbers look close.",
+          "explanation": "圈出至少、最低等限制詞，可避免只比相近數字。",
+          "id": "d222-q6",
+          "options": [
+            "Reading a phrase in its context.",
+            "Using any numbers in a passage.",
+            "Ignoring boundary words when comparing close numbers.",
+            "Distinguishing growth from final height."
+          ],
+          "prompt": "What does Nao's final habit help prevent?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Five words appear in Nao's review: procedure, growth, debt, minimum, and measured. She first explains that a dry run practices a procedure rather than testing running speed. A phrase can be misleading when its words are read without their setting.\n\nFor the plant record, Nao separates final height from growth. A plant moving from two to eight centimeters grew six, even if another ended taller. She also remembers that the seed library invites sharing without creating a debt to return equal seeds.\n\nThe final task compares a measured four hours of light with a minimum requirement of four. Nao says the light condition is met, then checks container width separately. Equality satisfies 'at least,' but one suitable condition does not prove every requirement is met. Her review ends with a habit of circling limit words before choosing an option, especially when several numbers look close.",
+      "title": "Minimum Does Not Mean Maximum",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "Five words appear in Nao's review: procedure, growth, debt, minimum, and measured.",
+          "meaning": "流程",
+          "word": "procedure"
+        },
+        {
+          "example": "Five words appear in Nao's review: procedure, growth, debt, minimum, and measured.",
+          "meaning": "成長",
+          "word": "growth"
+        },
+        {
+          "example": "Five words appear in Nao's review: procedure, growth, debt, minimum, and measured.",
+          "meaning": "債務",
+          "word": "debt"
+        },
+        {
+          "example": "Five words appear in Nao's review: procedure, growth, debt, minimum, and measured.",
+          "meaning": "最低值",
+          "word": "minimum"
+        },
+        {
+          "example": "Five words appear in Nao's review: procedure, growth, debt, minimum, and measured.",
+          "meaning": "測得的",
+          "word": "measured"
+        }
+      ]
+    }
+  ]
+}
