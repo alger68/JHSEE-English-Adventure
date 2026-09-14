@@ -33,23 +33,66 @@ function save() {
 }
 function showStorage() { const box = $('#storageWarning'); box.hidden = !storageMessage; box.textContent = storageMessage; }
 function toast(message) { clearTimeout(toastTimer); $('#toast').textContent = message; $('#toast').hidden = false; toastTimer = setTimeout(() => $('#toast').hidden = true, 4000); }
-let readingRate = .85, currentSpeech = null;
-function stopSpeech() { currentSpeech = null; if ('speechSynthesis' in window) window.speechSynthesis.cancel(); }
-function say(text, rate = readingRate, kind = 'word') {
-  if (!('speechSynthesis' in window) || !('SpeechSynthesisUtterance' in window)) { toast('此瀏覽器不支援英文朗讀，請使用 Safari、Chrome 或 Edge。'); return; }
-  stopSpeech(); const u = new SpeechSynthesisUtterance(text); u.lang = 'en-US'; u.rate = rate;
-  const voice = window.speechSynthesis.getVoices().find(v => v.lang === 'en-US'); if (voice) u.voice = voice;
-  currentSpeech = {utterance:u,text,kind};
-  u.onend = () => { if(currentSpeech?.utterance === u) currentSpeech = null; };
-  u.onerror = event => { if(currentSpeech?.utterance !== u) return; currentSpeech = null; if (!['interrupted','canceled'].includes(event.error)) toast('朗讀暫時無法播放，請確認裝置音量與語音服務。'); };
-  window.speechSynthesis.speak(u);
+const S = EnglishSpeech;
+const SPEECH_KEY = 'jhseeSpeechPreferencesV1';
+let speechPreferences;
+try { speechPreferences = S.preferences(JSON.parse(localStorage.getItem(SPEECH_KEY))); }
+catch { speechPreferences = S.preferences(); }
+let readingRate = speechPreferences.rate;
+const voicePlayer = S.createPlayer({
+  synthesis: window.speechSynthesis, Utterance: window.SpeechSynthesisUtterance,
+  onVoices: refreshVoiceControls,
+  onWaiting: () => toast('正在載入裝置的英文聲音…'),
+  onError: error => toast(error === 'unsupported'
+    ? '此瀏覽器不支援英文朗讀，請使用 Safari、Chrome 或 Edge。'
+    : error === 'no-english-voice'
+    ? '尚未找到可用的英文聲音。請在裝置的語音設定加入英文聲音，再重新整理網頁。'
+    : '朗讀暫時無法播放，請試選另一個英文聲音，並確認裝置音量。')
+});
+voicePlayer.setVoice(speechPreferences.voice);
+function stopSpeech() { voicePlayer.stop(); }
+function say(text, rate = readingRate, kind = 'word') { voicePlayer.speak(text, rate, kind); }
+function saveSpeechPreferences() {
+  try { localStorage.setItem(SPEECH_KEY, JSON.stringify(speechPreferences)); return true; }
+  catch { return false; }
+}
+function voiceOptions() {
+  const options = voicePlayer.voices();
+  const savedAvailable = options.some(v => S.voiceKey(v) === speechPreferences.voice);
+  return `<option value="" ${!speechPreferences.voice?'selected':''}>自動選擇英文聲音</option>`
+    + (speechPreferences.voice && !savedAvailable ? `<option value="${esc(speechPreferences.voice)}" selected>已記住的聲音暫不可用，先自動選擇</option>` : '')
+    + options.map(v => `<option value="${esc(S.voiceKey(v))}" ${S.voiceKey(v)===speechPreferences.voice?'selected':''}>${esc(v.name)} · ${esc(S.language(v))}</option>`).join('');
+}
+function voiceHint() {
+  if (!voicePlayer.supported) return '此瀏覽器不支援朗讀，請改用 Safari、Chrome 或 Edge。';
+  const voice = voicePlayer.selected();
+  return voice ? `目前聲音：${voice.name}（${S.language(voice)}）。`
+    : '聲音清單尚未就緒；按試聽會重新嘗試載入。若仍無聲音，請在裝置設定加入英文聲音。';
+}
+function speechControls() {
+  return `<section class="speech-controls" aria-label="英文朗讀設定"><div class="speech-settings"><label class="voice-field" for="speechVoice">英文聲音<select id="speechVoice" aria-describedby="speechVoiceHint">${voiceOptions()}</select></label><label for="speechRate">速度<select id="speechRate" aria-describedby="speechRateHint">${[[.6,'0.6× 慢速'],[.85,'0.85× 稍慢'],[1,'1× 正常'],[1.25,'1.25× 快速']].map(([rate,label])=>`<option value="${rate}" ${readingRate===rate?'selected':''}>${label}</option>`).join('')}</select></label><button data-action="preview-voice">試聽聲音</button><button data-action="stop-speech" aria-label="停止朗讀">停止</button></div><p id="speechVoiceHint" class="small" role="status">${esc(voiceHint())}</p><p id="speechRateHint" class="small muted">可先用 1× 試聽；播放中換聲音或調速，會從頭重播。文章與單字共用設定，聲音選項依裝置而異。</p></section>`;
+}
+function refreshVoiceControls() {
+  const select = $('#speechVoice'), hint = $('#speechVoiceHint');
+  if (select) select.innerHTML = voiceOptions();
+  if (hint) hint.textContent = voiceHint();
 }
 function changeReadingRate(rate) {
-  if(![.6,.85,1,1.25].includes(rate)) return;
-  readingRate = rate;
-  const story = currentSpeech?.kind === 'story' ? currentSpeech.text : null;
-  if(story) { say(story,rate,'story'); toast(`已改為 ${rate}×，從文章開頭重新朗讀。`); }
-  else toast(`朗讀速度已設為 ${rate}×，按「朗讀文章」即可播放。`);
+  if (!S.RATES.includes(rate)) return;
+  const current = voicePlayer.current();
+  readingRate = rate; speechPreferences.rate = rate;
+  const saved = saveSpeechPreferences();
+  if (current) say(current.text, rate, current.kind);
+  toast(`已改為 ${rate}×${current?'，從頭重新朗讀':''}。${saved?'':'此瀏覽器暫時無法記住設定。'}`);
+}
+function changeReadingVoice(key) {
+  if (key && !voicePlayer.voices().some(v => S.voiceKey(v) === key)) return;
+  const current = voicePlayer.current();
+  speechPreferences.voice = key; voicePlayer.setVoice(key);
+  const saved = saveSpeechPreferences();
+  refreshVoiceControls();
+  if (current) say(current.text, readingRate, current.kind);
+  toast(`已切換英文聲音${current?'，從頭重新朗讀':'，可按「試聽聲音」'}。${saved?'':'此瀏覽器暫時無法記住設定。'}`);
 }
 function syncStats() {
   const done = C.completedDays(state).filter(d => lessons.some(l => l.day === d)).length;
@@ -109,7 +152,7 @@ function lessonView(day,showLast=false,reset=false) {
     currentAnswers = {...(quizResult?.answers || state.drafts[`${day}:${active.tier}`] || {})}; startedAt = Date.now();
   }
   const qs = C.questions(l,active.tier);
-  main.innerHTML=`<a class="back-link" href="#home">← 返回冒險地圖</a><div class="lesson-header"><div><span class="chip">DAY ${l.day} · ${esc(l.type)}</span><h1 lang="en">${esc(l.title)}</h1><p>${esc(l.goal)} · ${l.story.split(/\s+/).length} 字 · 約 ${l.minutes} 分鐘</p></div><div class="lesson-tools"><button data-action="speak-story">朗讀文章</button><button data-action="stop-speech" aria-label="停止朗讀">停止</button><label class="small" for="speechRate">速度</label><select id="speechRate" aria-describedby="speechRateHint">${[[.6,"0.6× 慢速"],[.85,"0.85× 稍慢"],[1,"1× 正常"],[1.25,"1.25× 快速"]].map(([r,label])=>`<option value="${r}" ${readingRate===r?"selected":""}>${label}</option>`).join("")}</select><span id="speechRateHint" class="small">播放中調速，會從頭重播。</span></div></div>
+  main.innerHTML=`<a class="back-link" href="#home">← 返回冒險地圖</a><div class="lesson-header"><div><span class="chip">DAY ${l.day} · ${esc(l.type)}</span><h1 lang="en">${esc(l.title)}</h1><p>${esc(l.goal)} · ${l.story.split(/\s+/).length} 字 · 約 ${l.minutes} 分鐘</p></div><div class="lesson-tools"><button data-action="speak-story">朗讀文章</button></div></div>${speechControls()}
   <div class="reading-layout"><section class="panel reading-panel"><div class="eyebrow">READ & DISCOVER</div><div class="story" lang="en">${storyHTML(l)}</div></section><aside class="reading-side"><section class="panel"><h3>今日核心單字</h3><div class="word-list">${l.words.map(w=>`<div class="word-row"><strong lang="en">${esc(w.word)}</strong><span>${esc(w.meaning)}</span></div>`).join('')}</div></section><section class="panel"><h3>好用片語</h3>${l.phrases.map(p=>`<div class="phrase"><b lang="en">${esc(p.phrase)}</b><p>${esc(p.meaning)}</p></div>`).join('')}</section><div class="tip">先看懂大意，再回文章找支持答案的那一句。交卷後才會揭曉答案與解析。</div></aside></div>
   <section class="panel quiz-panel"><div class="quiz-intro"><div><h2>${bossLesson(l)?'每週 Boss Challenge':'輪到你找線索了'}</h2><p class="muted small">${qs.length} 題 · 每題只有一個最佳答案</p></div><div class="settings-row"><label for="lessonTier">練習難度</label><select id="lessonTier" ${quizResult?'disabled':''}>${[1,2,3].map(t=>`<option value="${t}" ${active.tier===t?'selected':''}>${tiers[t]} · ${C.questions(l,t).length} 題</option>`).join('')}</select></div></div><p class="difficulty-note">各級使用同一篇文章；切換後會在文末增加題目。基礎：核心題＋字義偵探；進階：加一題；挑戰：再加一題綜合練習。這是本站練習分級，並非會考成績預測。</p>
   ${!quizResult&&active.tier<3?`<div class="review-choice"><button type="button" data-action="all-questions">顯示本篇全部 ${l.questions.length} 題</button><span class="small muted">保留已選答案，加入進階與挑戰題。</span></div>`:''}
@@ -123,6 +166,7 @@ function wordsView(reset=false,all=false){
   if(reset||!wordSession){wordSession={queue:all?C.vocabulary(lessons,state):C.dueWords(lessons,state),index:0,flipped:false,known:0,again:0,all};}
   const s=wordSession,w=s.queue[s.index],due=C.dueWords(lessons,state).length;
   main.innerHTML=`<div class="page-heading"><div><div class="eyebrow">VOCABULARY STATION</div><h1>單字補給站</h1><p>先想意思，再翻卡。讓單字從眼熟變成記得。</p></div><span class="chip">${due} 個待複習</span></div><div class="review-choice"><button data-action="words-due" aria-pressed="${!s.all}">今日待複習</button> <button data-action="words-all" aria-pressed="${s.all}">全部單字</button></div>`;
+  main.innerHTML += speechControls();
   if(!w){main.innerHTML+=empty(s.queue.length?'這一輪複習完成了。':'今日單字都複習過了。',s.queue.length?`記得 ${s.known} 個，還要再看 ${s.again} 個。記住的單字會在 1、3、7 天後依序回來。`:'明天再來，或切換「全部單字」多練一次。','#home','回到冒險地圖');if(due)main.innerHTML+=`<div class="flashcard-actions"><button class="primary" data-action="words-due">再練待複習的 ${due} 個單字</button></div>`;return;}
   main.innerHTML+=`<div class="flashcard-wrap"><div class="review-top"><span>${s.all?'自由複習':'今日複習'} · ${s.index+1} / ${s.queue.length}</span><span>出自 Day ${w.day}</span></div><section class="flashcard"><div class="eyebrow">WHAT DOES IT MEAN?</div><div class="word-big" lang="en">${esc(w.word)}</div><button data-action="speak-word" aria-label="朗讀 ${esc(w.word)}">朗讀單字</button>${s.flipped?`<p class="meaning">${esc(w.meaning)}</p><p class="example" lang="en">${esc(w.example)}</p>`:`<button class="secondary flip-btn" data-action="flip">我想好了，翻開意思</button>`}</section>${s.flipped?`<div class="flashcard-actions"><button data-action="word-again">還不熟，再看一次</button><button class="primary" data-action="word-known">記住了 ✓</button></div>`:`<p class="muted small" style="text-align:center;margin-top:19px">說出意思，或在心裡造一句英文。</p>`}</div>`;
 }
@@ -197,6 +241,7 @@ main.addEventListener('change',e=>{
   if(t.matches('#transferForm input[type=radio]')&&transferSession)transferSession.selected=Number(t.value);
   if(t.id==='lessonTier'){state.difficulty=Number(t.value);save();lessonView(active.day,false,true);toast(`已切換為 ${tiers[active.tier]} · ${C.questions(lessons.find(l=>l.day===active.day),active.tier).length} 題；文章相同，請往下看題目。`);}
   if(t.id==='speechRate')changeReadingRate(Number(t.value));
+  if(t.id==='speechVoice')changeReadingVoice(t.value);
   if(t.id==='chapterSelect'){selectedChapter=Number(t.value);home();}
   if(t.id==='lessonSelect'&&t.value)location.hash='lesson/'+Number(t.value);
   if(t.id==='defaultTier'){state.difficulty=Number(t.value);save();toast('已更新預設練習難度。');}
@@ -205,6 +250,7 @@ main.addEventListener('click',e=>{
   const button=e.target.closest('[data-action]');if(!button)return;const action=button.dataset.action;
   if(action==='speak-story')say(lessons.find(l=>l.day===active.day).story,readingRate,'story');
   else if(action==='stop-speech')stopSpeech();
+  else if(action==='preview-voice')say('Hello! Let’s read a short story together. Take your time and enjoy learning English.',readingRate,'preview');
   else if(action==='all-questions'&&active&&!quizResult){const day=active.day;state.drafts[day+':3']={...(state.drafts[day+':3']||{}),...currentAnswers};state.difficulty=3;save();lessonView(day,false,true);toast('已顯示本篇全部題目，先前選擇已保留。');}
   else if(action==='retry'){const day=active.day;delete state.drafts[day+':'+active.tier];save();if(location.hash.startsWith('#result/'))location.hash='lesson/'+day;else{lessonView(day,false,true);$('#quizForm').scrollIntoView({behavior:'smooth'});}}
   else if(action==='words-due')wordsView(true,false);else if(action==='words-all')wordsView(true,true);
@@ -247,3 +293,4 @@ $('#updateStatus').textContent=`已收錄 ${lessons.length} 篇 · 最新補給 
 window.addEventListener('focus',()=>checkContentUpdate());
 setInterval(checkContentUpdate,300000);
 checkContentUpdate();
+

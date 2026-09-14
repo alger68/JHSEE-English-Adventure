@@ -1,10 +1,10 @@
 {
-  "accessMode": "all-published",
-  "lastDailyPublishDate": "2026-09-13",
-  "lastPublishDate": "2026-09-14",
+  "version": "3.2.1",
+  "revision": "e6fcb63ac0df3565",
   "lessonCount": 250,
   "questionCount": 1608,
-  "revision": "e6fcb63ac0df3565",
   "targetLessonCount": 250,
-  "version": "3.2"
+  "accessMode": "all-published",
+  "lastPublishDate": "2026-09-14",
+  "lastDailyPublishDate": "2026-09-13"
 }

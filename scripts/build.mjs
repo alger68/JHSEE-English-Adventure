@@ -7,12 +7,12 @@ import {loadExams} from './exams.mjs';
 import {renderCourse} from './export-course.mjs';
 const root=path.resolve(import.meta.dirname,'..');
 const {lessons,revision,lastPublishDate,lastDailyPublishDate,questionCount}=loadContent(root);
-const meta={version:'3.2',revision,lessonCount:lessons.length,questionCount,targetLessonCount:250,accessMode:'all-published',lastPublishDate,lastDailyPublishDate};
+const meta={version:'3.2.1',revision,lessonCount:lessons.length,questionCount,targetLessonCount:250,accessMode:'all-published',lastPublishDate,lastDailyPublishDate};
 const data='// Generated from seed, daily content and explicit release manifests.\nconst lessonMeta = '+JSON.stringify(meta)+';\nconst lessons = '+JSON.stringify(lessons,null,2)+';\n';
 fs.writeFileSync(path.join(root,'data.js'),data);
 const exams=loadExams(root);
 fs.writeFileSync(path.join(root,'exam-data.js'),'// Official answer keys and source links; generated from content/official-exams.json.\nconst officialExams = '+JSON.stringify(exams,null,2)+';\n');
-const scripts=['data.js','core.js','exam-data.js','exam-core.js','exams.js','transfer-data.js','app.js'];
+const scripts=['data.js','core.js','exam-data.js','exam-core.js','exams.js','transfer-data.js','speech.js','app.js'];
 for(const f of scripts)new vm.Script(fs.readFileSync(path.join(root,f),'utf8'),{filename:f});
 fs.mkdirSync(path.join(root,'dist'),{recursive:true});
 for(const f of ['style.css',...scripts])fs.copyFileSync(path.join(root,f),path.join(root,'dist',f));
@@ -37,3 +37,4 @@ if (lessons.length===250) {
 
 console.log(`Built ${lessons.length} lessons, ${questionCount} questions; latest publication: ${lastPublishDate||'seed week'}; access: all-published; revision ${revision}.`);
 console.log(`Included ${exams.length} official English reading papers, ${exams.reduce((n,e)=>n+e.questionCount,0)} questions.`);
+

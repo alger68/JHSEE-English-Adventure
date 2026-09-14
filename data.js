@@ -1,5 +1,5 @@
 // Generated from seed, daily content and explicit release manifests.
-const lessonMeta = {"version":"3.2","revision":"e6fcb63ac0df3565","lessonCount":250,"questionCount":1608,"targetLessonCount":250,"accessMode":"all-published","lastPublishDate":"2026-09-14","lastDailyPublishDate":"2026-09-13"};
+const lessonMeta = {"version":"3.2.1","revision":"e6fcb63ac0df3565","lessonCount":250,"questionCount":1608,"targetLessonCount":250,"accessMode":"all-published","lastPublishDate":"2026-09-14","lastDailyPublishDate":"2026-09-13"};
 const lessons = [
   {
     "day": 1,

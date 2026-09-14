@@ -1,4 +1,5 @@
 const test=require('node:test');
+require('./speech.test.cjs');
 const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const C=require('../core.js');
