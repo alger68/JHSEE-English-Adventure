@@ -19,7 +19,10 @@
     return s;
   }
   function unlockAt(state, day) { return Date.parse(addDays(state.startDate, day - 1) + 'T20:00:00+08:00'); }
-  function isUnlocked(state, day, now = new Date()) { return day === 1 || state.legacyDone.includes(day) || !!state.completions[day] || new Date(now).getTime() >= unlockAt(state, day); }
+  // Publication determines availability. The UI resolves a day in the actual
+  // lesson catalog before calling this rule; no calendar wait is required.
+  // Keep the old signature so existing callers and saved V2 state still work.
+  function isUnlocked(state, day, now = new Date()) { return Number.isInteger(day) && day >= 1 && day <= 250; }
   function completedDays(s) { return [...new Set([...s.legacyDone, ...Object.keys(s.completions).map(Number)])]; }
   function addActivity(s, now) { const d = dateKey(now); if (!s.activityDates.includes(d)) s.activityDates.push(d); s.activityDates.sort(); }
   function streak(s, now = new Date()) {
@@ -36,7 +39,7 @@
     return { score, total: items.length, percent: Math.round(score / items.length * 100), items };
   }
   function submit(s, lesson, answers, tier = 1, now = new Date(), seconds = 0) {
-    if (!isUnlocked(s, lesson.day, now)) throw new Error('這一關尚未解鎖。');
+    if (!isUnlocked(s, lesson.day, now)) throw new Error('這不是有效的關卡。');
     if (![1, 2, 3].includes(tier)) throw new Error('難度設定無效。');
     const result = grade(lesson, answers, tier);
     const first = !s.completions[lesson.day];

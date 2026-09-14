@@ -5,17 +5,19 @@ const C=require('../core.js');
 const lessons=JSON.parse(fs.readFileSync(require('node:path').join(__dirname,'../content/week-01.json'),'utf8')).lessons;
 const start=new Date('2026-09-09T11:00:00Z');
 const perfect=(l,t=1)=>Object.fromEntries(C.questions(l,t).map(q=>[q.id,q.answer]));
-test('Taipei dates and 20:00 release boundary, without locking past lessons',()=>{
+test('Taipei dates remain correct while published lessons no longer wait for a calendar date',()=>{
  const s=C.fresh(start);assert.equal(s.startDate,'2026-09-09');assert.equal(C.dateKey('2026-09-09T16:00:00Z'),'2026-09-10');
- assert.ok(C.isUnlocked(s,1,start));assert.equal(C.isUnlocked(s,2,'2026-09-10T11:59:59Z'),false);assert.equal(C.isUnlocked(s,2,'2026-09-10T12:00:00Z'),true);assert.ok(C.isUnlocked(s,7,'2026-12-01T00:00:00Z'));
+ for(const l of lessons)assert.ok(C.isUnlocked(s,l.day,start));
+ assert.ok(C.isUnlocked(s,35,start));assert.ok(C.isUnlocked(s,35,'2026-09-08T00:00:00Z'));
+ for(const day of [0,-1,251,1.5,'35',NaN])assert.equal(C.isUnlocked(s,day,start),false);
 });
 test('V1 migration retains actual XP and completion, without inventing dates',()=>{
  const s=C.migrate({xp:30,streak:8,done:[1,1]},start);assert.equal(s.xp,30);assert.deepEqual(s.legacyDone,[1]);assert.equal(C.streak(s,start),0);
  assert.equal(C.submit(s,lessons[0],perfect(lessons[0]),1,start).gain,0);assert.equal(s.xp,30);
 });
-test('Incomplete or locked submissions cannot mutate progress',()=>{
+test('Incomplete answers and invalid lesson IDs cannot mutate progress',()=>{
  const s=C.fresh(start),before=JSON.stringify(s);assert.throws(()=>C.submit(s,lessons[0],{},1,start));assert.equal(JSON.stringify(s),before);
- assert.throws(()=>C.submit(s,lessons[1],perfect(lessons[1]),1,start));assert.equal(JSON.stringify(s),before);
+ assert.throws(()=>C.submit(s,{...lessons[1],day:0},perfect(lessons[1]),1,start));assert.equal(JSON.stringify(s),before);
 });
 test('Retries do not farm EXP or change first accuracy; lesson retries keep scheduled mistakes',()=>{
  const s=C.fresh(start),l=lessons[0],a=perfect(l);a[l.questions[0].id]=0;
@@ -30,7 +32,7 @@ test('Wrong-question review requires a selection and correct recall schedules th
  assert.throws(()=>C.reviewQuestion(s,l,q.id,null,start));assert.equal(C.reviewQuestion(s,l,q.id,0,start),false);assert.equal(Object.keys(s.wrong).length,1);assert.equal(C.reviewQuestion(s,l,q.id,q.answer,start),true);assert.equal(Object.keys(s.wrong).length,1);
 });
 test('Vocabulary spacing promotes once per day, permits same-day recovery, and returns forgotten words',()=>{
- const s=C.fresh(start);assert.equal(C.vocabulary(lessons,s,start).length,5);
+ const s=C.fresh(start);assert.equal(C.vocabulary(lessons,s,start).length,new Set(lessons.flatMap(l=>l.words.map(w=>w.word.toLowerCase()))).size);
  C.reviewWord(s,'wallet',false,start);assert.equal(s.wordProgress.wallet.due,'2026-09-09');C.reviewWord(s,'wallet',true,start);assert.equal(s.wordProgress.wallet.stage,1);assert.equal(s.wordProgress.wallet.due,'2026-09-10');C.reviewWord(s,'wallet',true,start);assert.equal(s.wordProgress.wallet.stage,1);
  C.reviewWord(s,'wallet',true,'2026-09-10T08:00:00Z');assert.equal(s.wordProgress.wallet.stage,2);assert.equal(s.wordProgress.wallet.due,'2026-09-13');C.reviewWord(s,'wallet',false,'2026-09-10T08:00:00Z');assert.equal(s.wordProgress.wallet.stage,0);assert.equal(s.wordProgress.wallet.due,'2026-09-10');
 });

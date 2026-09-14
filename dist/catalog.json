@@ -1,6 +1,10 @@
 {
-  "version": "3.0",
-  "revision": "eb674fe10cc6e785",
-  "lessonCount": 8,
-  "lastPublishDate": "2026-09-09"
+  "version": "3.1",
+  "revision": "0a8747bbcdf0998d",
+  "lessonCount": 35,
+  "questionCount": 225,
+  "targetLessonCount": 250,
+  "accessMode": "all-published",
+  "lastPublishDate": "2026-09-14",
+  "lastDailyPublishDate": "2026-09-13"
 }

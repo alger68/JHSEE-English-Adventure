@@ -10,3 +10,4 @@
 .update-bar button{flex-shrink:0}.review-summary{display:flex;gap:24px;flex-wrap:wrap;background:#eaf0fb;color:#182443;border-radius:12px;padding:18px;margin-bottom:20px}
 .review-summary b{font-size:24px;margin-left:8px}.review-choice{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:16px 0}.explanation li{margin:8px 0;line-height:1.7}.explanation ul{padding-left:20px}.review-choice [aria-pressed=true]{background:#182443;color:white}
 @media(max-width:640px){.update-bar{padding:10px 18px}.update-bar span{flex:1;min-width:180px}.review-summary{gap:14px}.review-choice select{max-width:100%}}
+.bank-summary{margin-bottom:24px}.bank-summary h2{margin:8px 0 12px;font-size:22px}.bank-summary p{color:var(--muted);line-height:1.8}.bank-summary .settings-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.bank-summary select{width:min(100%,520px);max-width:100%;min-width:0}.bank-summary .review-choice{display:flex;flex-wrap:wrap;gap:20px}

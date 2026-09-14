@@ -42,7 +42,7 @@ test('Stories, IDs, vocabulary, quoted evidence, and question tiers satisfy the 
     assert(l.story.trim().split(/\s+/).length>=120 && l.story.trim().split(/\s+/).length<=180);
   }
 });
-test('Prebuilt files do not unlock future days in the published content loader',()=>{
+test('Released prebuilt days appear in the published content loader',()=>{
   const published=loadContent(root);
   const report=validateBatch(published,readBatch(root));
   assert.equal(report.publishedLessons,published.lessons.length);

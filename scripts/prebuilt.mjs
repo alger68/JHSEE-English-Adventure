@@ -86,12 +86,16 @@ export function readBatch(root) {
 export function prepareRelease(published, documents, date) {
   validateBatch(published,documents);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isFinite(Date.parse(date)) || new Date(date).toISOString().slice(0,10)!==date) fail('Invalid release date');
+  const reminder=documents.find(d=>d.plannedPublishDate===date);
+  if(reminder&&published.lessons.some(l=>l.day===reminder.lessons[0].day)){
+    return {action:'reuse-published',reminderDate:date,lesson:structuredClone(reminder.lessons[0])};
+  }
   if (published.lastPublishDate && date<=published.lastPublishDate) fail('Date already published or older than the latest publication');
   const nextDay = published.lessons.at(-1).day+1;
   const doc = documents.find(d=>d.lessons[0].day===nextDay);
   if (!doc) fail(`No prebuilt lesson for Day ${nextDay}`);
   if (doc.plannedPublishDate!==date) fail(`Date mismatch: Day ${nextDay} is planned for ${doc.plannedPublishDate}, not ${date}. Stop and replan; do not backdate.`);
-  return {filename:`content/daily/${date}.json`,data:{version:2,publishDate:date,lessons:structuredClone(doc.lessons)}};
+  return {action:'create-daily',filename:`content/daily/${date}.json`,data:{version:2,publishDate:date,lessons:structuredClone(doc.lessons)}};
 }
 
 function main() {
