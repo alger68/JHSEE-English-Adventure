@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-04",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 184,
+      "goal": "比較相同畫面下不同背景資訊對解讀的影響。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "事先",
+          "phrase": "beforehand"
+        },
+        {
+          "meaning": "望向",
+          "phrase": "look toward"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "The first group often describes him as nervous. The second often calls him excited. Both groups saw the same clip, and the actor had been asked only to stand and look toward the door. The stories supplied beforehand shaped many interpretations.",
+          "explanation": "老師說演員只被要求站著看向門口。",
+          "id": "d184-q1",
+          "options": [
+            "Celebrate a real birthday.",
+            "Read an exam result aloud.",
+            "Show one required emotion.",
+            "Stand and look toward the door."
+          ],
+          "prompt": "What was the actor asked to do?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "A media class watches a silent ten-second clip of a boy waiting beside a door. Before showing it, the teacher tells half the class that the boy is waiting for an exam result. The other half hears that he is waiting for a surprise birthday guest.",
+          "explanation": "兩組分別聽到等成績及等生日訪客。",
+          "id": "d184-q2",
+          "options": [
+            "They showed different actors.",
+            "They gave different reasons for the boy's waiting.",
+            "They used different clip lengths.",
+            "They changed the door in the image."
+          ],
+          "prompt": "How did the two groups' introductions differ?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Some students in each group choose different words, so the teacher avoids saying that background information controls every viewer. The class compares reports and marks which details were visible and which came from the introduction.",
+          "explanation": "每組仍有不同回答，不能說背景必然控制每個人。",
+          "id": "d184-q3",
+          "options": [
+            "Nobody watched the clip.",
+            "The boy explained his real feelings.",
+            "The introductions were identical.",
+            "Students' interpretations were not all the same."
+          ],
+          "prompt": "Why does the teacher avoid a claim about every viewer?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "The first group often describes him as nervous. The second often calls him excited. Both groups saw the same clip, and the actor had been asked only to stand and look toward the door. The stories supplied beforehand shaped many interpretations.",
+          "explanation": "不同情绪判讀是對相同畫面的不同解讀。",
+          "id": "d184-q4",
+          "options": [
+            "Ways of understanding what the scene means.",
+            "Instructions given only to the actor.",
+            "Copies of the video file.",
+            "Times when the door was opened."
+          ],
+          "prompt": "What are 'interpretations' here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "A media class watches a silent ten-second clip of a boy waiting beside a door. Before showing it, the teacher tells half the class that the boy is waiting for an exam result. The other half hears that he is waiting for a surprise birthday guest.\n\nThe first group often describes him as nervous. The second often calls him excited. Both groups saw the same clip, and the actor had been asked only to stand and look toward the door. The stories supplied beforehand shaped many interpretations.\n\nSome students in each group choose different words, so the teacher avoids saying that background information controls every viewer. The class compares reports and marks which details were visible and which came from the introduction.\n\nFor their next film review, students plan to describe gestures before naming emotions. They can still make an interpretation, but they should explain its basis and consider alternatives. The activity shows how a small piece of surrounding information can change the story a viewer builds from an unchanged image.",
+          "explanation": "先描述可見動作，再標明依背景所作的可能推論。",
+          "id": "d184-q5",
+          "options": [
+            "He looks toward the door; he may be anxious, given the exam introduction.",
+            "He is definitely waiting for his actual exam score.",
+            "The actor's visible score proves he failed.",
+            "Every viewer sees excitement because the door is closed."
+          ],
+          "prompt": "Which report best separates observation from interpretation?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "A media class watches a silent ten-second clip of a boy waiting beside a door. Before showing it, the teacher tells half the class that the boy is waiting for an exam result. The other half hears that he is waiting for a surprise birthday guest.\n\nThe first group often describes him as nervous. The second often calls him excited. Both groups saw the same clip, and the actor had been asked only to stand and look toward the door. The stories supplied beforehand shaped many interpretations.\n\nSome students in each group choose different words, so the teacher avoids saying that background information controls every viewer. The class compares reports and marks which details were visible and which came from the introduction.\n\nFor their next film review, students plan to describe gestures before naming emotions. They can still make an interpretation, but they should explain its basis and consider alternatives. The activity shows how a small piece of surrounding information can change the story a viewer builds from an unchanged image.",
+          "explanation": "不同引言影響對同片段的情緒歸因，但推論仍可有依據。",
+          "id": "d184-q6",
+          "options": [
+            "Viewers should never offer interpretations.",
+            "Surrounding information can influence the meaning assigned to an image.",
+            "Facial expressions always prove one exact emotion.",
+            "A silent clip has no information at all."
+          ],
+          "prompt": "What is the activity mainly about?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "A media class watches a silent ten-second clip of a boy waiting beside a door. Before showing it, the teacher tells half the class that the boy is waiting for an exam result. The other half hears that he is waiting for a surprise birthday guest.\n\nThe first group often describes him as nervous. The second often calls him excited. Both groups saw the same clip, and the actor had been asked only to stand and look toward the door. The stories supplied beforehand shaped many interpretations.\n\nSome students in each group choose different words, so the teacher avoids saying that background information controls every viewer. The class compares reports and marks which details were visible and which came from the introduction.\n\nFor their next film review, students plan to describe gestures before naming emotions. They can still make an interpretation, but they should explain its basis and consider alternatives. The activity shows how a small piece of surrounding information can change the story a viewer builds from an unchanged image.",
+      "title": "The Silent Scene Experiment",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "A media class watches a silent ten-second clip of a boy waiting beside a door.",
+          "meaning": "短片",
+          "word": "clip"
+        },
+        {
+          "example": "The first group often describes him as nervous.",
+          "meaning": "緊張的",
+          "word": "nervous"
+        },
+        {
+          "example": "The stories supplied beforehand shaped many interpretations.",
+          "meaning": "提供的",
+          "word": "supplied"
+        },
+        {
+          "example": "The stories supplied beforehand shaped many interpretations.",
+          "meaning": "解讀",
+          "word": "interpretations"
+        },
+        {
+          "example": "For their next film review, students plan to describe gestures before naming emotions.",
+          "meaning": "動作姿態",
+          "word": "gestures"
+        }
+      ]
+    }
+  ]
+}

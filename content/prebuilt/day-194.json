@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-14",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 194,
+      "goal": "複習來源歸屬、誤差與資格，練習限制推論範圍。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "超出",
+          "phrase": "go beyond"
+        },
+        {
+          "meaning": "在底部",
+          "phrase": "at the bottom"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "Sia marks a quotation only when it uses a speaker's actual words. She keeps Omar's reaction separate from Pia's. In the sorting activity, she reports both speed and errors, because choosing only one measurement hides part of the performance.",
+          "explanation": "直接引語需使用說話者原話。",
+          "id": "d194-q1",
+          "options": [
+            "When three viewers agree.",
+            "When the review has a title.",
+            "When it uses a speaker's actual words.",
+            "When it sounds more formal."
+          ],
+          "prompt": "When does Sia mark something as a quotation?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Sia marks a quotation only when it uses a speaker's actual words. She keeps Omar's reaction separate from Pia's. In the sorting activity, she reports both speed and errors, because choosing only one measurement hides part of the performance.",
+          "explanation": "只看速度或錯誤都會忽略另一面。",
+          "id": "d194-q2",
+          "options": [
+            "Errors determine the room assignment.",
+            "The task recorded no time.",
+            "Either alone leaves out part of performance.",
+            "Every fast result has no mistakes."
+          ],
+          "prompt": "Why does she report both speed and errors?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For the skill exchange, she counts a starter credit and one confirmed teaching session. A future offer does not increase the current total. She also checks whether two selected sessions overlap instead of assuming that enough credits guarantee a workable schedule.",
+          "explanation": "1 + 1 = 2，未來提案不加點。",
+          "id": "d194-q3",
+          "options": [
+            "Four.",
+            "Three.",
+            "Two.",
+            "One."
+          ],
+          "prompt": "How many current credits come from one starter credit and one confirmed session?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "For the skill exchange, she counts a starter credit and one confirmed teaching session. A future offer does not increase the current total. She also checks whether two selected sessions overlap instead of assuming that enough credits guarantee a workable schedule.",
+          "explanation": "檢查時程是否部分同時進行。",
+          "id": "d194-q4",
+          "options": [
+            "Happen at the same time for some period.",
+            "Occur in different months.",
+            "Have the same title.",
+            "Require different materials."
+          ],
+          "prompt": "What does 'overlap' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For the skill exchange, she counts a starter credit and one confirmed teaching session. A future offer does not increase the current total. She also checks whether two selected sessions overlap instead of assuming that enough credits guarantee a workable schedule.",
+          "explanation": "點數符合仍可能有時間衝突。",
+          "id": "d194-q5",
+          "options": [
+            "Only future credits may be used.",
+            "Every participant must take all sessions.",
+            "The chosen sessions might occur at conflicting times.",
+            "A confirmation number buys unlimited time."
+          ],
+          "prompt": "Why are enough credits not sufficient for a workable plan?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "At the weekly review, Sia receives five words: quotation, errors, overlap, confirmed, and current. Her task is to explain why an answer that sounds reasonable may still go beyond a passage. She begins with a review that makes three viewers sound like an entire audience.\n\nSia marks a quotation only when it uses a speaker's actual words. She keeps Omar's reaction separate from Pia's. In the sorting activity, she reports both speed and errors, because choosing only one measurement hides part of the performance.\n\nFor the skill exchange, she counts a starter credit and one confirmed teaching session. A future offer does not increase the current total. She also checks whether two selected sessions overlap instead of assuming that enough credits guarantee a workable schedule.\n\nSia writes her own reminder at the bottom: 'Check the source, the measurement, and the rule that connects facts to an answer.' These questions take a little time, but they help her avoid turning a partial truth into an unsupported conclusion.",
+          "explanation": "來源、量測與規則共同決定證據能支持的答案。",
+          "id": "d194-q6",
+          "options": [
+            "Choosing whichever fact appears first.",
+            "Making all speakers agree in a summary.",
+            "Checking the limits and relationships behind plausible answers.",
+            "Ignoring one measurement to save reading time."
+          ],
+          "prompt": "What connects Sia's review tasks?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "At the weekly review, Sia receives five words: quotation, errors, overlap, confirmed, and current. Her task is to explain why an answer that sounds reasonable may still go beyond a passage. She begins with a review that makes three viewers sound like an entire audience.\n\nSia marks a quotation only when it uses a speaker's actual words. She keeps Omar's reaction separate from Pia's. In the sorting activity, she reports both speed and errors, because choosing only one measurement hides part of the performance.\n\nFor the skill exchange, she counts a starter credit and one confirmed teaching session. A future offer does not increase the current total. She also checks whether two selected sessions overlap instead of assuming that enough credits guarantee a workable schedule.\n\nSia writes her own reminder at the bottom: 'Check the source, the measurement, and the rule that connects facts to an answer.' These questions take a little time, but they help her avoid turning a partial truth into an unsupported conclusion.",
+      "title": "From One Comment to a Whole Claim",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "At the weekly review, Sia receives five words: quotation, errors, overlap, confirmed, and current.",
+          "meaning": "引文",
+          "word": "quotation"
+        },
+        {
+          "example": "At the weekly review, Sia receives five words: quotation, errors, overlap, confirmed, and current.",
+          "meaning": "錯誤",
+          "word": "errors"
+        },
+        {
+          "example": "At the weekly review, Sia receives five words: quotation, errors, overlap, confirmed, and current.",
+          "meaning": "重疊",
+          "word": "overlap"
+        },
+        {
+          "example": "At the weekly review, Sia receives five words: quotation, errors, overlap, confirmed, and current.",
+          "meaning": "已確認的",
+          "word": "confirmed"
+        },
+        {
+          "example": "At the weekly review, Sia receives five words: quotation, errors, overlap, confirmed, and current.",
+          "meaning": "目前的",
+          "word": "current"
+        }
+      ]
+    }
+  ]
+}

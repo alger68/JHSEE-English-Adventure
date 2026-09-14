@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-16",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 196,
+      "goal": "理解食譜份量與用量比例，辨識不能直接推得的資訊。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "半杯",
+          "phrase": "half a cup"
+        },
+        {
+          "meaning": "分階段",
+          "phrase": "in stages"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "Aron finds a fruit-salad recipe that serves four. It calls for two apples, two bananas, and one cup of yogurt. Only Aron and his sister will eat it, so he decides to prepare half the recipe rather than store two extra servings.",
+          "explanation": "只有 Aron 與妹妹共兩人。",
+          "id": "d196-q1",
+          "options": [
+            "Six.",
+            "Two.",
+            "Four.",
+            "One."
+          ],
+          "prompt": "How many people will eat Aron's salad?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Aron finds a fruit-salad recipe that serves four. It calls for two apples, two bananas, and one cup of yogurt. Only Aron and his sister will eat it, so he decides to prepare half the recipe rather than store two extra servings.\n\nHe writes a new list with one apple, one banana, and half a cup of yogurt. His sister points out that they have small bowls. Aron says the number of bowls does not change the ingredient ratio; they can divide the mixture between bowls after making it.\n\nThey also read the final instruction: add yogurt gradually and stop when the texture is right for the fruit being used. The printed amount is a guide for that recipe, not a requirement to empty a container. Aron measures a half-cup portion but adds it in stages. The two follow both the scaled quantities and the writer's instruction about checking the result.",
+          "explanation": "原配方一杯，減半為半杯。",
+          "id": "d196-q2",
+          "options": [
+            "Two cups.",
+            "A quarter of a cup.",
+            "One cup.",
+            "Half a cup."
+          ],
+          "prompt": "What is half of the original yogurt amount?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "He writes a new list with one apple, one banana, and half a cup of yogurt. His sister points out that they have small bowls. Aron says the number of bowls does not change the ingredient ratio; they can divide the mixture between bowls after making it.",
+          "explanation": "碗是分裝方式，混合比例不因此改變。",
+          "id": "d196-q3",
+          "options": [
+            "Small bowls automatically double every ingredient.",
+            "The recipe forbids using more than one bowl.",
+            "Each bowl must contain four servings.",
+            "The prepared mixture can be divided afterward."
+          ],
+          "prompt": "Why don't small bowls change the ingredient ratio?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "They also read the final instruction: add yogurt gradually and stop when the texture is right for the fruit being used. The printed amount is a guide for that recipe, not a requirement to empty a container. Aron measures a half-cup portion but adds it in stages. The two follow both the scaled quantities and the writer's instruction about checking the result.",
+          "explanation": "加入優格時檢查水果混合物的質地。",
+          "id": "d196-q4",
+          "options": [
+            "How the mixture feels or is formed.",
+            "The color of the serving bowl.",
+            "The length of the shopping list.",
+            "The number printed on the recipe."
+          ],
+          "prompt": "What does 'texture' refer to?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Aron finds a fruit-salad recipe that serves four. It calls for two apples, two bananas, and one cup of yogurt. Only Aron and his sister will eat it, so he decides to prepare half the recipe rather than store two extra servings.\n\nHe writes a new list with one apple, one banana, and half a cup of yogurt. His sister points out that they have small bowls. Aron says the number of bowls does not change the ingredient ratio; they can divide the mixture between bowls after making it.\n\nThey also read the final instruction: add yogurt gradually and stop when the texture is right for the fruit being used. The printed amount is a guide for that recipe, not a requirement to empty a container. Aron measures a half-cup portion but adds it in stages. The two follow both the scaled quantities and the writer's instruction about checking the result.",
+          "explanation": "所有材料一致減半才能維持比例。",
+          "id": "d196-q5",
+          "options": [
+            "Half an apple, one banana, one cup of yogurt.",
+            "One apple, two bananas, one cup of yogurt.",
+            "One apple, one banana, half a cup of yogurt.",
+            "Two apples, one banana, half a cup of yogurt."
+          ],
+          "prompt": "Which scaled list matches the original ratio?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "They also read the final instruction: add yogurt gradually and stop when the texture is right for the fruit being used. The printed amount is a guide for that recipe, not a requirement to empty a container. Aron measures a half-cup portion but adds it in stages. The two follow both the scaled quantities and the writer's instruction about checking the result.",
+          "explanation": "除比例外還須依最後指示漸加並觀察質地。",
+          "id": "d196-q6",
+          "options": [
+            "The full half cup must always be discarded.",
+            "The ingredient list has no amounts.",
+            "A smaller bowl proves less fruit is needed.",
+            "The recipe asks him to check texture while adding."
+          ],
+          "prompt": "Why does Aron add the measured yogurt in stages?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "Aron finds a fruit-salad recipe that serves four. It calls for two apples, two bananas, and one cup of yogurt. Only Aron and his sister will eat it, so he decides to prepare half the recipe rather than store two extra servings.\n\nHe writes a new list with one apple, one banana, and half a cup of yogurt. His sister points out that they have small bowls. Aron says the number of bowls does not change the ingredient ratio; they can divide the mixture between bowls after making it.\n\nThey also read the final instruction: add yogurt gradually and stop when the texture is right for the fruit being used. The printed amount is a guide for that recipe, not a requirement to empty a container. Aron measures a half-cup portion but adds it in stages. The two follow both the scaled quantities and the writer's instruction about checking the result.",
+      "title": "Four Servings and a Smaller Bowl",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "Only Aron and his sister will eat it, so he decides to prepare half the recipe rather than store two extra servings.",
+          "meaning": "份數",
+          "word": "servings"
+        },
+        {
+          "example": "Aron says the number of bowls does not change the ingredient ratio; they can divide the mixture between bowls after making it.",
+          "meaning": "比例",
+          "word": "ratio"
+        },
+        {
+          "example": "Aron says the number of bowls does not change the ingredient ratio; they can divide the mixture between bowls after making it.",
+          "meaning": "混合物",
+          "word": "mixture"
+        },
+        {
+          "example": "They also read the final instruction: add yogurt gradually and stop when the texture is right for the fruit being used.",
+          "meaning": "口感與質地",
+          "word": "texture"
+        },
+        {
+          "example": "Aron measures a half-cup portion but adds it in stages.",
+          "meaning": "階段",
+          "word": "stages"
+        }
+      ]
+    }
+  ]
+}

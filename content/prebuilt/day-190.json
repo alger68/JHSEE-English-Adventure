@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-10",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 190,
+      "goal": "區分直接引語、改寫與群體立場的歸屬。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "把一則意見變成",
+          "phrase": "turn one comment into"
+        },
+        {
+          "meaning": "誰說了什麼",
+          "phrase": "who said what"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "[Review team] Tess: I wrote, 'Everyone found the play confusing.' Is that fair? Omar: I said the opening scene was confusing, but the ending helped me understand it. Pia: I enjoyed it throughout. Please don't turn one comment into the whole group's opinion.",
+          "explanation": "Omar 只說開頭難懂，結尾幫助了理解。",
+          "id": "d190-q1",
+          "options": [
+            "The entire play permanently.",
+            "Pia's review.",
+            "The opening scene.",
+            "The ticket instructions."
+          ],
+          "prompt": "What did Omar find confusing?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Review team] Tess: I wrote, 'Everyone found the play confusing.' Is that fair? Omar: I said the opening scene was confusing, but the ending helped me understand it. Pia: I enjoyed it throughout. Please don't turn one comment into the whole group's opinion.",
+          "explanation": "Pia 意見不同，Omar 的看法也有範圍限制。",
+          "id": "d190-q2",
+          "options": [
+            "All three people used identical words.",
+            "Only Tess was allowed to comment.",
+            "Nobody watched the play.",
+            "Pia enjoyed the play and Omar's reaction was limited."
+          ],
+          "prompt": "Why is 'Everyone' inaccurate?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Tess: I'll write that some viewers needed time to understand the opening. Omar: Can you say that this was my experience? We only asked three people. Pia: And if you quote me, use my actual words. A summary is fine, but it shouldn't look like an exact quotation.",
+          "explanation": "Pia 要求引用時保留原話。",
+          "id": "d190-q3",
+          "options": [
+            "Use her actual words.",
+            "Replace her words with Omar's.",
+            "Describe the whole class as agreeing.",
+            "Remove quotation marks from every review."
+          ],
+          "prompt": "What does Pia request for a direct quote?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Tess revises the review. She attributes the opening-scene comment to Omar, includes Pia's different reaction, and marks her own summary clearly. The piece now contains disagreement without becoming untidy. Its readers can tell who said what and how much the report supports. Tess learns that making a group sound united can remove information readers need.",
+          "explanation": "修訂後清楚將開場評論歸於 Omar。",
+          "id": "d190-q4",
+          "options": [
+            "Identifies the person responsible for a statement.",
+            "Changes a negative opinion into praise.",
+            "Makes a statement longer.",
+            "Hides the speaker's identity."
+          ],
+          "prompt": "What does 'attributes' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Tess: I'll write that some viewers needed time to understand the opening. Omar: Can you say that this was my experience? We only asked three people. Pia: And if you quote me, use my actual words. A summary is fine, but it shouldn't look like an exact quotation.",
+          "explanation": "僅訪三人，指明來源能避免暗示更廣泛支持。",
+          "id": "d190-q5",
+          "options": [
+            "It removes the need to report Pia's view.",
+            "It makes the review an exact transcript.",
+            "It shows the precise source within a very small set of comments.",
+            "It proves all viewers agreed with him."
+          ],
+          "prompt": "Why is naming Omar better than saying 'some viewers' here?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 3,
+          "evidence": "Tess revises the review. She attributes the opening-scene comment to Omar, includes Pia's different reaction, and marks her own summary clearly. The piece now contains disagreement without becoming untidy. Its readers can tell who said what and how much the report supports. Tess learns that making a group sound united can remove information readers need.",
+          "explanation": "修訂後讀者能分辨誰的話、哪段是改寫及不同看法。",
+          "id": "d190-q6",
+          "options": [
+            "The review no longer contains any interpretation.",
+            "All reactions are presented as direct quotations.",
+            "Every participant appears to agree.",
+            "Readers can distinguish sources, summaries, and differing views."
+          ],
+          "prompt": "What improves in the revised review?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Review team] Tess: I wrote, 'Everyone found the play confusing.' Is that fair? Omar: I said the opening scene was confusing, but the ending helped me understand it. Pia: I enjoyed it throughout. Please don't turn one comment into the whole group's opinion.\n\nTess: I'll write that some viewers needed time to understand the opening. Omar: Can you say that this was my experience? We only asked three people. Pia: And if you quote me, use my actual words. A summary is fine, but it shouldn't look like an exact quotation.\n\nTess revises the review. She attributes the opening-scene comment to Omar, includes Pia's different reaction, and marks her own summary clearly. The piece now contains disagreement without becoming untidy. Its readers can tell who said what and how much the report supports. Tess learns that making a group sound united can remove information readers need.",
+      "title": "Whose Words Are in the Review?",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "Pia: I enjoyed it throughout.",
+          "meaning": "從頭到尾",
+          "word": "throughout"
+        },
+        {
+          "example": "A summary is fine, but it shouldn't look like an exact quotation.",
+          "meaning": "引文",
+          "word": "quotation"
+        },
+        {
+          "example": "She attributes the opening-scene comment to Omar, includes Pia's different reaction, and marks her own summary clearly.",
+          "meaning": "歸屬於",
+          "word": "attributes"
+        },
+        {
+          "example": "She attributes the opening-scene comment to Omar, includes Pia's different reaction, and marks her own summary clearly.",
+          "meaning": "反應",
+          "word": "reaction"
+        },
+        {
+          "example": "Tess learns that making a group sound united can remove information readers need.",
+          "meaning": "一致的",
+          "word": "united"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-15",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 195,
+      "goal": "整合事件順序與規則更新，推論合作失誤原因。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "劃掉",
+          "phrase": "crosses out"
+        },
+        {
+          "meaning": "依賴",
+          "phrase": "relied on"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "A plant beside the classroom window receives water from two students on the same morning. Both believe they are following the care plan. Taro points to a paper sign assigning Mondays to him. Nia shows a newer message assigning that day to her.\n\nThe class had changed the schedule after Taro joined an early practice, but nobody removed the old sign. Nia assumed the message had reached everyone. Taro rarely checked the chat before school and relied on the sign beside the plant.\n\nThe teacher asks the class to compare the plans rather than blame either student first. They choose one shared record beside the window and write the date of each update on it. Chat messages will announce changes but direct readers back to that record. Taro crosses out the old assignment, and Nia marks today's watering as completed. The next helper can now see both who is responsible and what has already been done.",
+          "explanation": "兩人各依紙條與新訊息中的不同排班。",
+          "id": "d195-q1",
+          "options": [
+            "Neither has seen any instruction.",
+            "They follow different versions of the plan.",
+            "The teacher requested two waterings.",
+            "They are competing for a prize."
+          ],
+          "prompt": "Why do both students water the plant?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The class had changed the schedule after Taro joined an early practice, but nobody removed the old sign. Nia assumed the message had reached everyone. Taro rarely checked the chat before school and relied on the sign beside the plant.",
+          "explanation": "Taro 新增晨間練習，因此調整安排。",
+          "id": "d195-q2",
+          "options": [
+            "The paper sign was wet.",
+            "The plant moved to another school.",
+            "Taro joined an early practice.",
+            "Nia stopped attending class."
+          ],
+          "prompt": "Why was the schedule changed?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The teacher asks the class to compare the plans rather than blame either student first. They choose one shared record beside the window and write the date of each update on it. Chat messages will announce changes but direct readers back to that record. Taro crosses out the old assignment, and Nia marks today's watering as completed. The next helper can now see both who is responsible and what has already been done.",
+          "explanation": "先查是否資訊版本不一致，不能逕自怪學生。",
+          "id": "d195-q3",
+          "options": [
+            "Both students must be deliberately disobeying.",
+            "A chat message is always wrong.",
+            "The plant no longer needs a care plan.",
+            "The conflict may come from inconsistent information."
+          ],
+          "prompt": "Why does the teacher compare the plans first?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The teacher asks the class to compare the plans rather than blame either student first. They choose one shared record beside the window and write the date of each update on it. Chat messages will announce changes but direct readers back to that record. Taro crosses out the old assignment, and Nia marks today's watering as completed. The next helper can now see both who is responsible and what has already been done.",
+          "explanation": "紀錄指出誰負責照顧工作。",
+          "id": "d195-q4",
+          "options": [
+            "Unable to read a message.",
+            "Finished with every school activity.",
+            "Assigned to take care of the task.",
+            "Blamed for a problem without evidence."
+          ],
+          "prompt": "What does 'responsible' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The teacher asks the class to compare the plans rather than blame either student first. They choose one shared record beside the window and write the date of each update on it. Chat messages will announce changes but direct readers back to that record. Taro crosses out the old assignment, and Nia marks today's watering as completed. The next helper can now see both who is responsible and what has already been done.",
+          "explanation": "負責人與執行狀態是不同資訊，兩者都需清楚。",
+          "id": "d195-q5",
+          "options": [
+            "It removes the need for any future plan.",
+            "It proves both old schedules were identical.",
+            "A responsibility list alone does not show whether the action happened.",
+            "The date makes watering unnecessary."
+          ],
+          "prompt": "Why mark today's watering as completed as well as name the helper?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "A plant beside the classroom window receives water from two students on the same morning. Both believe they are following the care plan. Taro points to a paper sign assigning Mondays to him. Nia shows a newer message assigning that day to her.\n\nThe class had changed the schedule after Taro joined an early practice, but nobody removed the old sign. Nia assumed the message had reached everyone. Taro rarely checked the chat before school and relied on the sign beside the plant.\n\nThe teacher asks the class to compare the plans rather than blame either student first. They choose one shared record beside the window and write the date of each update on it. Chat messages will announce changes but direct readers back to that record. Taro crosses out the old assignment, and Nia marks today's watering as completed. The next helper can now see both who is responsible and what has already been done.",
+          "explanation": "統一具日期的紀錄可減少版本衝突並追蹤完成情況。",
+          "id": "d195-q6",
+          "options": [
+            "Leaving both signs unchanged.",
+            "Keeping one dated shared record and directing updates to it.",
+            "Sending more conflicting messages.",
+            "Asking everyone to water whenever uncertain."
+          ],
+          "prompt": "What change most directly prevents the same confusion?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "A plant beside the classroom window receives water from two students on the same morning. Both believe they are following the care plan. Taro points to a paper sign assigning Mondays to him. Nia shows a newer message assigning that day to her.\n\nThe class had changed the schedule after Taro joined an early practice, but nobody removed the old sign. Nia assumed the message had reached everyone. Taro rarely checked the chat before school and relied on the sign beside the plant.\n\nThe teacher asks the class to compare the plans rather than blame either student first. They choose one shared record beside the window and write the date of each update on it. Chat messages will announce changes but direct readers back to that record. Taro crosses out the old assignment, and Nia marks today's watering as completed. The next helper can now see both who is responsible and what has already been done.",
+      "title": "The Plant with Two Watering Signs",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "Taro points to a paper sign assigning Mondays to him.",
+          "meaning": "分派",
+          "word": "assigning"
+        },
+        {
+          "example": "Nia assumed the message had reached everyone.",
+          "meaning": "以為",
+          "word": "assumed"
+        },
+        {
+          "example": "Taro rarely checked the chat before school and relied on the sign beside the plant.",
+          "meaning": "依賴",
+          "word": "relied"
+        },
+        {
+          "example": "The next helper can now see both who is responsible and what has already been done.",
+          "meaning": "負責的",
+          "word": "responsible"
+        },
+        {
+          "example": "Taro crosses out the old assignment, and Nia marks today's watering as completed.",
+          "meaning": "已完成的",
+          "word": "completed"
+        }
+      ]
+    }
+  ]
+}

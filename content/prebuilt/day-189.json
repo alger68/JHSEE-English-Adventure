@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-09",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 189,
+      "goal": "從人物對物品的態度變化理解對比與象徵。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "縫上",
+          "phrase": "sew on"
+        },
+        {
+          "meaning": "在學校",
+          "phrase": "at school"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 0,
+          "evidence": "Lena's umbrella develops a small tear just before a week of rain. She wants to replace it, but her older brother offers to sew on a waterproof patch from his repair kit. The only patch he has is bright yellow, while the umbrella is dark blue.",
+          "explanation": "首段說雨傘有小裂口。",
+          "id": "d189-q1",
+          "options": [
+            "It has a small tear.",
+            "It cannot be opened at all.",
+            "Its handle is missing.",
+            "Its frame is completely broken."
+          ],
+          "prompt": "What is wrong with Lena's umbrella?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Lena's umbrella develops a small tear just before a week of rain. She wants to replace it, but her older brother offers to sew on a waterproof patch from his repair kit. The only patch he has is bright yellow, while the umbrella is dark blue.",
+          "explanation": "黃補片與深藍傘面形成明顯對比。",
+          "id": "d189-q2",
+          "options": [
+            "It is the same color as the fabric.",
+            "It covers every part of the umbrella.",
+            "It is bright yellow on a dark blue umbrella.",
+            "It has Lena's full name in red."
+          ],
+          "prompt": "Why is the patch noticeable?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "Lena worries that the repair will look strange. She agrees to try it because the frame and handle are still sound. Her brother explains what he can fix, and they test the repaired area with water before she carries it outside.",
+          "explanation": "骨架與把手仍完好，因此小處修補有可行性。",
+          "id": "d189-q3",
+          "options": [
+            "The main structure is still in good condition.",
+            "The patch will become invisible immediately.",
+            "She wants to copy every classmate's umbrella.",
+            "She has been told all objects can be repaired."
+          ],
+          "prompt": "Why does Lena agree to try the repair?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Lena worries that the repair will look strange. She agrees to try it because the frame and handle are still sound. Her brother explains what he can fix, and they test the repaired area with water before she carries it outside.",
+          "explanation": "frame and handle are still sound 指結構健全。",
+          "id": "d189-q4",
+          "options": [
+            "Brightly colored.",
+            "Making a loud noise.",
+            "Difficult to carry.",
+            "In good condition."
+          ],
+          "prompt": "What does 'sound' mean in the second paragraph?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "At school, a friend says the yellow shape looks like a little sun. Later, when several blue umbrellas crowd the stand, Lena finds hers immediately. The mark she wanted to hide has become both useful and personal.",
+          "explanation": "一群藍傘中，她能靠補片立即辨識自己的傘。",
+          "id": "d189-q5",
+          "options": [
+            "It changes the weather.",
+            "It makes every blue umbrella waterproof.",
+            "It helps Lena identify her umbrella.",
+            "It removes the need to test the repair."
+          ],
+          "prompt": "How does the yellow patch become useful beyond covering the tear?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "Lena's umbrella develops a small tear just before a week of rain. She wants to replace it, but her older brother offers to sew on a waterproof patch from his repair kit. The only patch he has is bright yellow, while the umbrella is dark blue.\n\nLena worries that the repair will look strange. She agrees to try it because the frame and handle are still sound. Her brother explains what he can fix, and they test the repaired area with water before she carries it outside.\n\nAt school, a friend says the yellow shape looks like a little sun. Later, when several blue umbrellas crowd the stand, Lena finds hers immediately. The mark she wanted to hide has become both useful and personal.\n\nShe does not decide that every broken object should always be repaired. This umbrella had a small problem that the available method could solve. By Friday, she is no longer comparing it with a perfect new one. She likes the story of its repair and the bright shape that made it hers.",
+          "explanation": "補片既修復功能，也成為物品的獨特故事。",
+          "id": "d189-q6",
+          "options": [
+            "A workable repair can add personal value to an object.",
+            "A repaired item must look exactly new to be useful.",
+            "Visible repairs always make belongings less desirable.",
+            "Every damaged object should be kept regardless of function."
+          ],
+          "prompt": "Which statement best fits Lena's final view?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Lena's umbrella develops a small tear just before a week of rain. She wants to replace it, but her older brother offers to sew on a waterproof patch from his repair kit. The only patch he has is bright yellow, while the umbrella is dark blue.\n\nLena worries that the repair will look strange. She agrees to try it because the frame and handle are still sound. Her brother explains what he can fix, and they test the repaired area with water before she carries it outside.\n\nAt school, a friend says the yellow shape looks like a little sun. Later, when several blue umbrellas crowd the stand, Lena finds hers immediately. The mark she wanted to hide has become both useful and personal.\n\nShe does not decide that every broken object should always be repaired. This umbrella had a small problem that the available method could solve. By Friday, she is no longer comparing it with a perfect new one. She likes the story of its repair and the bright shape that made it hers.",
+      "title": "The Umbrella with the Bright Patch",
+      "type": "日常生活",
+      "words": [
+        {
+          "example": "Lena's umbrella develops a small tear just before a week of rain.",
+          "meaning": "裂口",
+          "word": "tear"
+        },
+        {
+          "example": "She wants to replace it, but her older brother offers to sew on a waterproof patch from his repair kit.",
+          "meaning": "補片",
+          "word": "patch"
+        },
+        {
+          "example": "She agrees to try it because the frame and handle are still sound.",
+          "meaning": "骨架",
+          "word": "frame"
+        },
+        {
+          "example": "She agrees to try it because the frame and handle are still sound.",
+          "meaning": "完好的",
+          "word": "sound"
+        },
+        {
+          "example": "This umbrella had a small problem that the available method could solve.",
+          "meaning": "可取得的",
+          "word": "available"
+        }
+      ]
+    }
+  ]
+}

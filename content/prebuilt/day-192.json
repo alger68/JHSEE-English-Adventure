@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-12",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 192,
+      "goal": "閱讀技能交換規則，分辨點數用途與參與條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "已舉行",
+          "phrase": "took place"
+        },
+        {
+          "meaning": "換成現金",
+          "phrase": "exchanged for cash"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "SATURDAY SKILL EXCHANGE: Teach a short skill and learn another. Each approved fifteen-minute teaching session earns one learning credit after it is completed. Offering a session on the sign-up sheet does not earn credit immediately. The coordinator must confirm that it took place.",
+          "explanation": "需核准課程實際完成且經確認。",
+          "id": "d192-q1",
+          "options": [
+            "When another person promises to attend.",
+            "After preparing for any fifteen minutes.",
+            "When an idea is written on the sheet.",
+            "After an approved session is completed and confirmed."
+          ],
+          "prompt": "When is a teaching credit earned?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "One credit books one learning session, regardless of the number of minutes you previously spent preparing. Credits cannot be exchanged for cash or transferred to another person. You may attend several sessions if you have enough credits and the times do not overlap.",
+          "explanation": "每一點可預約一場學習。",
+          "id": "d192-q2",
+          "options": [
+            "Fifteen minutes of preparation.",
+            "One session.",
+            "A cash payment.",
+            "Any number of sessions in one day."
+          ],
+          "prompt": "What does one learning credit book?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "New participants receive one starter credit so they can try learning before teaching. Unused credits remain available for next month's exchange. If a teacher cancels a booked session, the learner's credit is returned. Please check the updated timetable on Friday; the list printed earlier in the week may no longer show the final rooms.",
+          "explanation": "新參與者可先體驗再教學。",
+          "id": "d192-q3",
+          "options": [
+            "To replace the timetable.",
+            "To pay all teachers in cash.",
+            "To allow unlimited free sessions.",
+            "To let newcomers try learning before teaching."
+          ],
+          "prompt": "Why is there a starter credit?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "One credit books one learning session, regardless of the number of minutes you previously spent preparing. Credits cannot be exchanged for cash or transferred to another person. You may attend several sessions if you have enough credits and the times do not overlap.",
+          "explanation": "時間重疊會使課程衝突。",
+          "id": "d192-q4",
+          "options": [
+            "Last exactly fifteen minutes.",
+            "Take place in different rooms.",
+            "Occur partly or fully at the same time.",
+            "Require different credits."
+          ],
+          "prompt": "What does 'overlap' mean for session times?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "New participants receive one starter credit so they can try learning before teaching. Unused credits remain available for next month's exchange. If a teacher cancels a booked session, the learner's credit is returned. Please check the updated timetable on Friday; the list printed earlier in the week may no longer show the final rooms.",
+          "explanation": "公告明說老師取消時退還學員點數。",
+          "id": "d192-q5",
+          "options": [
+            "The learner gets the credit back.",
+            "The credit becomes cash.",
+            "The learner loses all unused credits.",
+            "The learner must teach twice."
+          ],
+          "prompt": "What happens if a teacher cancels a booked session?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "New participants receive one starter credit so they can try learning before teaching. Unused credits remain available for next month's exchange. If a teacher cancels a booked session, the learner's credit is returned. Please check the updated timetable on Friday; the list printed earlier in the week may no longer show the final rooms.",
+          "explanation": "早先印出的表可能不是最後教室安排。",
+          "id": "d192-q6",
+          "options": [
+            "Credits expire every Friday.",
+            "The exchange occurs on Friday instead of Saturday.",
+            "Room assignments may have changed.",
+            "All earlier registrations are automatically canceled."
+          ],
+          "prompt": "Why should participants check Friday's timetable?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "SATURDAY SKILL EXCHANGE: Teach a short skill and learn another. Each approved fifteen-minute teaching session earns one learning credit after it is completed. Offering a session on the sign-up sheet does not earn credit immediately. The coordinator must confirm that it took place.\n\nOne credit books one learning session, regardless of the number of minutes you previously spent preparing. Credits cannot be exchanged for cash or transferred to another person. You may attend several sessions if you have enough credits and the times do not overlap.\n\nNew participants receive one starter credit so they can try learning before teaching. Unused credits remain available for next month's exchange. If a teacher cancels a booked session, the learner's credit is returned. Please check the updated timetable on Friday; the list printed earlier in the week may no longer show the final rooms.",
+      "title": "The Saturday Skill Exchange",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "Each approved fifteen-minute teaching session earns one learning credit after it is completed.",
+          "meaning": "核准的",
+          "word": "approved"
+        },
+        {
+          "example": "The coordinator must confirm that it took place.",
+          "meaning": "協調人",
+          "word": "coordinator"
+        },
+        {
+          "example": "One credit books one learning session, regardless of the number of minutes you previously spent preparing.",
+          "meaning": "不論",
+          "word": "regardless"
+        },
+        {
+          "example": "You may attend several sessions if you have enough credits and the times do not overlap.",
+          "meaning": "重疊",
+          "word": "overlap"
+        },
+        {
+          "example": "Unused credits remain available for next month's exchange.",
+          "meaning": "未使用的",
+          "word": "unused"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-03",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 183,
+      "goal": "辨識不同用途的同意範圍並追蹤修改方案。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "在視野內",
+          "phrase": "in view"
+        },
+        {
+          "meaning": "按照原先約定",
+          "phrase": "as originally agreed"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "[Volunteer chat] Kim: I took a group photograph after our cleanup. May I send it here? Everyone: Yes. Kim: Great. I'll also put it on the public project page. Rena: I agreed to this private group, but not to a public page.",
+          "explanation": "Rena 說原先僅同意群組內分享。",
+          "id": "d183-q1",
+          "options": [
+            "Using her face in every future event.",
+            "Posting on the public page.",
+            "Listing her personal details.",
+            "Sharing in the private group."
+          ],
+          "prompt": "What use did Rena originally agree to?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Kim: Thanks for telling me. I thought one yes covered both places. Rena: Could the public page show our collected materials instead? I am happy for people to see the work. I just don't want my face posted there.",
+          "explanation": "她願讓人看見成果，但不願公開臉部照片。",
+          "id": "d183-q2",
+          "options": [
+            "She wants the original photo deleted from every place.",
+            "She dislikes the materials being sorted.",
+            "It can show the work without showing her face.",
+            "She wants the cleanup hidden completely."
+          ],
+          "prompt": "Why does Rena suggest photographing the materials?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "Kim checks with the other volunteers and takes a new photograph of the sorted materials without anyone in view. She writes a caption thanking the whole team without listing personal details. The group photograph stays in the private chat as originally agreed.",
+          "explanation": "Kim 重拍無人在鏡頭內的分類材料。",
+          "id": "d183-q3",
+          "options": [
+            "Only Rena's face.",
+            "The original group with every name.",
+            "Sorted materials without people.",
+            "A list of private chat members."
+          ],
+          "prompt": "What appears in the new public photograph?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "Kim: Thanks for telling me. I thought one yes covered both places. Rena: Could the public page show our collected materials instead? I am happy for people to see the work. I just don't want my face posted there.",
+          "explanation": "Kim 原以為一次同意涵蓋兩種分享地點。",
+          "id": "d183-q4",
+          "options": [
+            "Paid the cost of.",
+            "Included permission for.",
+            "Physically hid.",
+            "Replaced a photograph with."
+          ],
+          "prompt": "What does 'covered' mean in Kim's reply?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Volunteer chat] Kim: I took a group photograph after our cleanup. May I send it here? Everyone: Yes. Kim: Great. I'll also put it on the public project page. Rena: I agreed to this private group, but not to a public page.\n\nKim: Thanks for telling me. I thought one yes covered both places. Rena: Could the public page show our collected materials instead? I am happy for people to see the work. I just don't want my face posted there.\n\nKim checks with the other volunteers and takes a new photograph of the sorted materials without anyone in view. She writes a caption thanking the whole team without listing personal details. The group photograph stays in the private chat as originally agreed.\n\nAt the next event, Kim asks two separate questions before taking pictures: who is comfortable being photographed, and where each picture may be shared. She learns that respecting a limit does not prevent a project from telling its story; it changes which picture tells that story.",
+          "explanation": "應針對具體圖片及公開用途取得清楚回應。",
+          "id": "d183-q5",
+          "options": [
+            "Do you like photographs of volunteers?",
+            "May this specific picture be shared on the public project page?",
+            "May I send this only in our private chat?",
+            "Did everyone enjoy today's cleanup?"
+          ],
+          "prompt": "Which question would best clarify the public use before posting?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "[Volunteer chat] Kim: I took a group photograph after our cleanup. May I send it here? Everyone: Yes. Kim: Great. I'll also put it on the public project page. Rena: I agreed to this private group, but not to a public page.\n\nKim: Thanks for telling me. I thought one yes covered both places. Rena: Could the public page show our collected materials instead? I am happy for people to see the work. I just don't want my face posted there.\n\nKim checks with the other volunteers and takes a new photograph of the sorted materials without anyone in view. She writes a caption thanking the whole team without listing personal details. The group photograph stays in the private chat as originally agreed.\n\nAt the next event, Kim asks two separate questions before taking pictures: who is comfortable being photographed, and where each picture may be shared. She learns that respecting a limit does not prevent a project from telling its story; it changes which picture tells that story.",
+          "explanation": "文章區分拍攝與分享範圍，呈現替代的成果紀錄方式。",
+          "id": "d183-q6",
+          "options": [
+            "Respecting a sharing limit makes project reporting impossible.",
+            "A yes to one use automatically permits every use.",
+            "Permission should be understood in relation to its intended use.",
+            "Public project pages must always include faces."
+          ],
+          "prompt": "What does Kim learn?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Volunteer chat] Kim: I took a group photograph after our cleanup. May I send it here? Everyone: Yes. Kim: Great. I'll also put it on the public project page. Rena: I agreed to this private group, but not to a public page.\n\nKim: Thanks for telling me. I thought one yes covered both places. Rena: Could the public page show our collected materials instead? I am happy for people to see the work. I just don't want my face posted there.\n\nKim checks with the other volunteers and takes a new photograph of the sorted materials without anyone in view. She writes a caption thanking the whole team without listing personal details. The group photograph stays in the private chat as originally agreed.\n\nAt the next event, Kim asks two separate questions before taking pictures: who is comfortable being photographed, and where each picture may be shared. She learns that respecting a limit does not prevent a project from telling its story; it changes which picture tells that story.",
+      "title": "A Photo for the Group Page",
+      "type": "對話／訊息",
+      "words": [
+        {
+          "example": "I'll also put it on the public project page.",
+          "meaning": "公開的",
+          "word": "public"
+        },
+        {
+          "example": "I thought one yes covered both places.",
+          "meaning": "涵蓋",
+          "word": "covered"
+        },
+        {
+          "example": "Rena: Could the public page show our collected materials instead?",
+          "meaning": "材料",
+          "word": "materials"
+        },
+        {
+          "example": "Kim checks with the other volunteers and takes a new photograph of the sorted materials without anyone in view.",
+          "meaning": "分類好的",
+          "word": "sorted"
+        },
+        {
+          "example": "She learns that respecting a limit does not prevent a project from telling its story; it changes which picture tells that story.",
+          "meaning": "尊重",
+          "word": "respecting"
+        }
+      ]
+    }
+  ]
+}

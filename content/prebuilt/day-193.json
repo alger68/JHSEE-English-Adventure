@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-13",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 193,
+      "goal": "整合點數、完成紀錄與課程時間衝突。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "尚有名額",
+          "phrase": "places available"
+        },
+        {
+          "meaning": "預約之前",
+          "phrase": "before booking"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "[Rules] One confirmed teaching session earns one credit. One credit books one learning session. New participants receive one starter credit. Credits are personal, and sessions cannot overlap. An uncompleted teaching offer earns nothing yet.",
+          "explanation": "新參與者取得一點起始點數。",
+          "id": "d193-q1",
+          "options": [
+            "Two.",
+            "Three.",
+            "One.",
+            "None."
+          ],
+          "prompt": "How many starter credits does Nina receive?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Rules] One confirmed teaching session earns one credit. One credit books one learning session. New participants receive one starter credit. Credits are personal, and sessions cannot overlap. An uncompleted teaching offer earns nothing yet.\n\n[Nina's record] Nina is new. She completed one approved teaching session in the morning, confirmed by the coordinator. She also offered to teach another next month. Her friend has an unused credit and offers to give it to her.\n\n[Afternoon list] Paper Flowers runs from 1:00 to 1:30. Simple Knots runs from 1:15 to 1:45. Phone Photography runs from 1:40 to 2:10. All have places available. Nina wants exactly two sessions, including Paper Flowers.\n\nThe coordinator helps Nina count credits and check the clock before booking. Preparation time and future promises do not add current credits. A generous friend cannot change the personal-credit rule. Nina chooses a plan supported by both her completed record and the timetable.",
+          "explanation": "一點新手點數加一點已完成教學，共兩點。",
+          "id": "d193-q2",
+          "options": [
+            "One.",
+            "Two.",
+            "Four.",
+            "Three."
+          ],
+          "prompt": "How many usable credits does Nina currently have?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Rules] One confirmed teaching session earns one credit. One credit books one learning session. New participants receive one starter credit. Credits are personal, and sessions cannot overlap. An uncompleted teaching offer earns nothing yet.\n\n[Nina's record] Nina is new. She completed one approved teaching session in the morning, confirmed by the coordinator. She also offered to teach another next month. Her friend has an unused credit and offers to give it to her.\n\n[Afternoon list] Paper Flowers runs from 1:00 to 1:30. Simple Knots runs from 1:15 to 1:45. Phone Photography runs from 1:40 to 2:10. All have places available. Nina wants exactly two sessions, including Paper Flowers.\n\nThe coordinator helps Nina count credits and check the clock before booking. Preparation time and future promises do not add current credits. A generous friend cannot change the personal-credit rule. Nina chooses a plan supported by both her completed record and the timetable.",
+          "explanation": "提出未來教學不等於已完成。",
+          "id": "d193-q3",
+          "options": [
+            "Future teaching is forbidden.",
+            "Preparation always earns cash instead.",
+            "It has not been completed and confirmed.",
+            "Nina has already spent that credit."
+          ],
+          "prompt": "Why doesn't next month's teaching offer add credit now?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Rules] One confirmed teaching session earns one credit. One credit books one learning session. New participants receive one starter credit. Credits are personal, and sessions cannot overlap. An uncompleted teaching offer earns nothing yet.",
+          "explanation": "點數限本人，不能轉讓。",
+          "id": "d193-q4",
+          "options": [
+            "Yes, because the friend is generous.",
+            "No, credits are personal.",
+            "Yes, if both attend Paper Flowers.",
+            "Only if the session is fifteen minutes."
+          ],
+          "prompt": "Can Nina accept her friend's credit under these rules?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Afternoon list] Paper Flowers runs from 1:00 to 1:30. Simple Knots runs from 1:15 to 1:45. Phone Photography runs from 1:40 to 2:10. All have places available. Nina wants exactly two sessions, including Paper Flowers.",
+          "explanation": "1:15–1:30 兩堂同時進行。",
+          "id": "d193-q5",
+          "options": [
+            "Both require two credits each.",
+            "Their times overlap.",
+            "Neither has places.",
+            "Both finish after 2:10."
+          ],
+          "prompt": "Why can't she combine Paper Flowers with Simple Knots?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Afternoon list] Paper Flowers runs from 1:00 to 1:30. Simple Knots runs from 1:15 to 1:45. Phone Photography runs from 1:40 to 2:10. All have places available. Nina wants exactly two sessions, including Paper Flowers.",
+          "explanation": "Paper Flowers 1:30 結束，攝影 1:40 開始。",
+          "id": "d193-q6",
+          "options": [
+            "Phone Photography.",
+            "Simple Knots.",
+            "Another simultaneous Paper Flowers session.",
+            "Any session starting before 1:30."
+          ],
+          "prompt": "Which session can follow Paper Flowers without overlap?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The coordinator helps Nina count credits and check the clock before booking. Preparation time and future promises do not add current credits. A generous friend cannot change the personal-credit rule. Nina chooses a plan supported by both her completed record and the timetable.",
+          "explanation": "文中指目前已可使用的點數。",
+          "id": "d193-q7",
+          "options": [
+            "Owned by a friend.",
+            "Available at the present time.",
+            "Promised for next month.",
+            "Used during preparation."
+          ],
+          "prompt": "What does 'current' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Afternoon list] Paper Flowers runs from 1:00 to 1:30. Simple Knots runs from 1:15 to 1:45. Phone Photography runs from 1:40 to 2:10. All have places available. Nina wants exactly two sessions, including Paper Flowers.",
+          "explanation": "1:30 到 1:40 為十分鐘。",
+          "id": "d193-q8",
+          "options": [
+            "Fifteen minutes.",
+            "Thirty minutes.",
+            "Five minutes.",
+            "Ten minutes."
+          ],
+          "prompt": "How much time is between her two suitable sessions?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "[Rules] One confirmed teaching session earns one credit. One credit books one learning session. New participants receive one starter credit. Credits are personal, and sessions cannot overlap. An uncompleted teaching offer earns nothing yet.\n\n[Nina's record] Nina is new. She completed one approved teaching session in the morning, confirmed by the coordinator. She also offered to teach another next month. Her friend has an unused credit and offers to give it to her.\n\n[Afternoon list] Paper Flowers runs from 1:00 to 1:30. Simple Knots runs from 1:15 to 1:45. Phone Photography runs from 1:40 to 2:10. All have places available. Nina wants exactly two sessions, including Paper Flowers.\n\nThe coordinator helps Nina count credits and check the clock before booking. Preparation time and future promises do not add current credits. A generous friend cannot change the personal-credit rule. Nina chooses a plan supported by both her completed record and the timetable.",
+          "explanation": "可用兩點、每堂一點，且兩堂時間不衝突。",
+          "id": "d193-q9",
+          "options": [
+            "Two valid credits cover Paper Flowers and Phone Photography, whose times do not overlap.",
+            "The future offer pays for every available session.",
+            "One starter credit covers two sessions because both are short.",
+            "Her friend's credit lets her ignore overlapping times."
+          ],
+          "prompt": "Which complete explanation supports Nina's choice?",
+          "skill": "資訊整合",
+          "tier": 3
+        }
+      ],
+      "story": "[Rules] One confirmed teaching session earns one credit. One credit books one learning session. New participants receive one starter credit. Credits are personal, and sessions cannot overlap. An uncompleted teaching offer earns nothing yet.\n\n[Nina's record] Nina is new. She completed one approved teaching session in the morning, confirmed by the coordinator. She also offered to teach another next month. Her friend has an unused credit and offers to give it to her.\n\n[Afternoon list] Paper Flowers runs from 1:00 to 1:30. Simple Knots runs from 1:15 to 1:45. Phone Photography runs from 1:40 to 2:10. All have places available. Nina wants exactly two sessions, including Paper Flowers.\n\nThe coordinator helps Nina count credits and check the clock before booking. Preparation time and future promises do not add current credits. A generous friend cannot change the personal-credit rule. Nina chooses a plan supported by both her completed record and the timetable.",
+      "title": "Boss: Planning a Skill-Swap Afternoon",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "[Rules] One confirmed teaching session earns one credit.",
+          "meaning": "已確認的",
+          "word": "confirmed"
+        },
+        {
+          "example": "Credits are personal, and sessions cannot overlap.",
+          "meaning": "個人的",
+          "word": "personal"
+        },
+        {
+          "example": "An uncompleted teaching offer earns nothing yet.",
+          "meaning": "未完成的",
+          "word": "uncompleted"
+        },
+        {
+          "example": "A generous friend cannot change the personal-credit rule.",
+          "meaning": "慷慨的",
+          "word": "generous"
+        },
+        {
+          "example": "Preparation time and future promises do not add current credits.",
+          "meaning": "目前的",
+          "word": "current"
+        }
+      ]
+    }
+  ]
+}

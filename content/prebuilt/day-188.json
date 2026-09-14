@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-08",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 188,
+      "goal": "根據連續行動推論領導方式與人物成長。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "指出",
+          "phrase": "pointing out"
+        },
+        {
+          "meaning": "來自",
+          "phrase": "come from"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "When the class chooses a captain for its puzzle race, everyone expects loud, quick-speaking Rex to lead. Instead, the teacher asks quiet Nori to try. Rex looks disappointed and says the team may waste time if nobody gives immediate orders.",
+          "explanation": "教師指定 Nori 試任隊長。",
+          "id": "d188-q1",
+          "options": [
+            "The student at the final station.",
+            "The quickest runner.",
+            "Nori.",
+            "Rex."
+          ],
+          "prompt": "Who is asked to lead the team?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "When the class chooses a captain for its puzzle race, everyone expects loud, quick-speaking Rex to lead. Instead, the teacher asks quiet Nori to try. Rex looks disappointed and says the team may waste time if nobody gives immediate orders.",
+          "explanation": "Rex 擔心沒人立即下令會浪費時間。",
+          "id": "d188-q2",
+          "options": [
+            "He dislikes every class activity.",
+            "He associates leadership with quick, direct orders.",
+            "He knows none of the puzzles have answers.",
+            "He has already led the winning team."
+          ],
+          "prompt": "Why is Rex initially doubtful?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The team loses a minute testing a wrong pattern, then corrects it because someone feels comfortable pointing out the mistake. Nori thanks that student instead of defending the first idea. Rex begins asking questions too, and the last station goes smoothly.",
+          "explanation": "Nori 感謝指出錯誤的人而非捍衛原想法。",
+          "id": "d188-q3",
+          "options": [
+            "She insists the first idea must be right.",
+            "She thanks the student who points it out.",
+            "She stops the race entirely.",
+            "She removes that student from the team."
+          ],
+          "prompt": "How does Nori respond when a mistake is identified?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "They finish second. On the way back, Rex says winning would have been nice, but he had not expected so many useful ideas to come from listening. Nori smiles and asks him to lead the next practice using the same approach. The captain's job, they discover, can be to make other people's thinking visible.",
+          "explanation": "文中指傾聽、提問並檢驗想法的方法。",
+          "id": "d188-q4",
+          "options": [
+            "A way of working.",
+            "A score given for speed.",
+            "A hidden word in the puzzle.",
+            "The physical entrance to a station."
+          ],
+          "prompt": "What does 'approach' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The team loses a minute testing a wrong pattern, then corrects it because someone feels comfortable pointing out the mistake. Nori thanks that student instead of defending the first idea. Rex begins asking questions too, and the last station goes smoothly.",
+          "explanation": "Rex 後來也開始提問，顯示採納合作方法。",
+          "id": "d188-q5",
+          "options": [
+            "He expects immediate orders.",
+            "He finds one shortcut at the first station.",
+            "He begins asking questions too.",
+            "He remains the original captain."
+          ],
+          "prompt": "What shows Rex's attitude has changed before the race ends?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "When the class chooses a captain for its puzzle race, everyone expects loud, quick-speaking Rex to lead. Instead, the teacher asks quiet Nori to try. Rex looks disappointed and says the team may waste time if nobody gives immediate orders.\n\nAt the first station, Nori asks each member what they notice. One sees a number pattern, another spots a word hidden in the instructions, and Rex finds a shortcut between two clues. Nori repeats the ideas clearly and asks which ones can be checked.\n\nThe team loses a minute testing a wrong pattern, then corrects it because someone feels comfortable pointing out the mistake. Nori thanks that student instead of defending the first idea. Rex begins asking questions too, and the last station goes smoothly.\n\nThey finish second. On the way back, Rex says winning would have been nice, but he had not expected so many useful ideas to come from listening. Nori smiles and asks him to lead the next practice using the same approach. The captain's job, they discover, can be to make other people's thinking visible.",
+          "explanation": "隊長促進每人想法被看見、驗證及修正。",
+          "id": "d188-q6",
+          "options": [
+            "Giving orders faster than anyone else.",
+            "Preventing teammates from mentioning mistakes.",
+            "Helping the team express and check its ideas.",
+            "Measuring success only by finishing first."
+          ],
+          "prompt": "What kind of leadership does the story emphasize?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "When the class chooses a captain for its puzzle race, everyone expects loud, quick-speaking Rex to lead. Instead, the teacher asks quiet Nori to try. Rex looks disappointed and says the team may waste time if nobody gives immediate orders.\n\nAt the first station, Nori asks each member what they notice. One sees a number pattern, another spots a word hidden in the instructions, and Rex finds a shortcut between two clues. Nori repeats the ideas clearly and asks which ones can be checked.\n\nThe team loses a minute testing a wrong pattern, then corrects it because someone feels comfortable pointing out the mistake. Nori thanks that student instead of defending the first idea. Rex begins asking questions too, and the last station goes smoothly.\n\nThey finish second. On the way back, Rex says winning would have been nice, but he had not expected so many useful ideas to come from listening. Nori smiles and asks him to lead the next practice using the same approach. The captain's job, they discover, can be to make other people's thinking visible.",
+      "title": "A Different Kind of Team Captain",
+      "type": "校園故事",
+      "words": [
+        {
+          "example": "When the class chooses a captain for its puzzle race, everyone expects loud, quick-speaking Rex to lead.",
+          "meaning": "隊長",
+          "word": "captain"
+        },
+        {
+          "example": "Rex looks disappointed and says the team may waste time if nobody gives immediate orders.",
+          "meaning": "立即的",
+          "word": "immediate"
+        },
+        {
+          "example": "One sees a number pattern, another spots a word hidden in the instructions, and Rex finds a shortcut between two clues.",
+          "meaning": "規律",
+          "word": "pattern"
+        },
+        {
+          "example": "Nori thanks that student instead of defending the first idea.",
+          "meaning": "辯護",
+          "word": "defending"
+        },
+        {
+          "example": "Nori smiles and asks him to lead the next practice using the same approach.",
+          "meaning": "方法",
+          "word": "approach"
+        }
+      ]
+    }
+  ]
+}

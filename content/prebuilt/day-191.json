@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-11",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 191,
+      "goal": "結合完成時間與錯誤數判讀活動表現。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "盡可能快",
+          "phrase": "as fast as possible"
+        },
+        {
+          "meaning": "只有速度",
+          "phrase": "speed alone"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 3,
+          "evidence": "In a classroom investigation, pairs sort picture cards into four groups. In the first round, they are told to finish as fast as possible. In the second, they are told to check every card before stopping. Each round uses a different set with the same number of cards.",
+          "explanation": "第二回合要求逐卡檢查。",
+          "id": "d191-q1",
+          "options": [
+            "Finish without checking.",
+            "Use fewer cards.",
+            "Sort into only two groups.",
+            "Check every card before stopping."
+          ],
+          "prompt": "What instruction was given in the second round?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "One pair finishes the first round in forty seconds with five mistakes. Their second round takes seventy seconds with one mistake. Jun calls the first result better because it is faster. His partner asks whether speed alone is the goal.",
+          "explanation": "第一回合四十秒且錯五張。",
+          "id": "d191-q2",
+          "options": [
+            "Seventy.",
+            "Five.",
+            "One.",
+            "Four."
+          ],
+          "prompt": "How many mistakes occurred in the first round?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "One pair finishes the first round in forty seconds with five mistakes. Their second round takes seventy seconds with one mistake. Jun calls the first result better because it is faster. His partner asks whether speed alone is the goal.",
+          "explanation": "評估表現需同時考慮正確性。",
+          "id": "d191-q3",
+          "options": [
+            "Time was never recorded.",
+            "The first round took longer.",
+            "Both rounds had no mistakes.",
+            "Faster completion does not describe accuracy."
+          ],
+          "prompt": "Why does Jun's partner question his judgment?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The class reports both time and errors. They also note that the second set may have been easier or harder, and practice from the first round may have helped. Their results describe what happened under these conditions. A further comparison could vary the order between groups to examine the instructions more fairly.",
+          "explanation": "後續可改變不同組的進行順序。",
+          "id": "d191-q4",
+          "options": [
+            "Measure in seconds.",
+            "Hide.",
+            "Change.",
+            "Repeat without change."
+          ],
+          "prompt": "What does 'vary' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "One pair finishes the first round in forty seconds with five mistakes. Their second round takes seventy seconds with one mistake. Jun calls the first result better because it is faster. His partner asks whether speed alone is the goal.",
+          "explanation": "70 − 40 = 30 秒；5 − 1 = 4 個錯誤。",
+          "id": "d191-q5",
+          "options": [
+            "Both time and mistakes increased.",
+            "Time increased by thirty seconds and mistakes decreased by four.",
+            "Time decreased by thirty seconds and mistakes increased by four.",
+            "Time increased by seventy seconds and mistakes decreased by five."
+          ],
+          "prompt": "What changed between the pair's two results?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 2,
+          "evidence": "The class reports both time and errors. They also note that the second set may have been easier or harder, and practice from the first round may have helped. Their results describe what happened under these conditions. A further comparison could vary the order between groups to examine the instructions more fairly.",
+          "explanation": "卡片難度與練習效應也可能影響結果。",
+          "id": "d191-q6",
+          "options": [
+            "Checking always causes mistakes.",
+            "The number of cards was never equal.",
+            "Card difficulty and practice may also differ.",
+            "Only one round was completed."
+          ],
+          "prompt": "Why can't the class attribute every difference solely to the instructions?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "In a classroom investigation, pairs sort picture cards into four groups. In the first round, they are told to finish as fast as possible. In the second, they are told to check every card before stopping. Each round uses a different set with the same number of cards.\n\nOne pair finishes the first round in forty seconds with five mistakes. Their second round takes seventy seconds with one mistake. Jun calls the first result better because it is faster. His partner asks whether speed alone is the goal.\n\nThe class reports both time and errors. They also note that the second set may have been easier or harder, and practice from the first round may have helped. Their results describe what happened under these conditions. A further comparison could vary the order between groups to examine the instructions more fairly.",
+      "title": "Fast Sorting, Careful Sorting",
+      "type": "科普閱讀",
+      "words": [
+        {
+          "example": "In a classroom investigation, pairs sort picture cards into four groups.",
+          "meaning": "探究",
+          "word": "investigation"
+        },
+        {
+          "example": "In the first round, they are told to finish as fast as possible.",
+          "meaning": "回合",
+          "word": "round"
+        },
+        {
+          "example": "The class reports both time and errors.",
+          "meaning": "錯誤",
+          "word": "errors"
+        },
+        {
+          "example": "A further comparison could vary the order between groups to examine the instructions more fairly.",
+          "meaning": "改變",
+          "word": "vary"
+        },
+        {
+          "example": "A further comparison could vary the order between groups to examine the instructions more fairly.",
+          "meaning": "公平地",
+          "word": "fairly"
+        }
+      ]
+    }
+  ]
+}

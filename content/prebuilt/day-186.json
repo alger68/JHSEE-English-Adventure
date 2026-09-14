@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-06",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 186,
+      "goal": "結合路程時間、導覽內容與器材期限安排活動。",
+      "minutes": 15,
+      "phrases": [
+        {
+          "meaning": "在四點四十五分以前",
+          "phrase": "by 4:45"
+        },
+        {
+          "meaning": "大約五點",
+          "phrase": "at about five"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "[Visit rules] Old Street has six audio stops. Visitors may choose any stops. Printed transcripts tell the same stories. Borrowed players must return to the desk by 4:45; downloaded recordings on personal phones have no equipment return deadline.",
+          "explanation": "規定借用器材 4:45 前歸還。",
+          "id": "d186-q1",
+          "options": [
+            "By 5:00.",
+            "By 4:45.",
+            "Forty minutes after borrowing, regardless of time.",
+            "Whenever all six stops are finished."
+          ],
+          "prompt": "When must borrowed players be returned?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Time estimates] From the desk, a visit to Stops 1 and 2 and back takes twenty minutes, including both recordings. Stops 3 and 4 and back take thirty minutes. All six stops and the return take forty minutes. These are complete route times, not times for each stop.",
+          "explanation": "表列已包含兩段錄音與往返，共二十分鐘。",
+          "id": "d186-q2",
+          "options": [
+            "Thirty minutes.",
+            "Forty minutes.",
+            "Ten minutes per stop plus an unknown walk.",
+            "Twenty minutes."
+          ],
+          "prompt": "How long is the complete Stops 1 and 2 route?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "[Visit rules] Old Street has six audio stops. Visitors may choose any stops. Printed transcripts tell the same stories. Borrowed players must return to the desk by 4:45; downloaded recordings on personal phones have no equipment return deadline.\n\n[Time estimates] From the desk, a visit to Stops 1 and 2 and back takes twenty minutes, including both recordings. Stops 3 and 4 and back take thirty minutes. All six stops and the return take forty minutes. These are complete route times, not times for each stop.\n\n[Visitors] Aki arrives at 4:15 and borrows a player. She wants a ten-minute margin before returning it. Ben arrives at 4:20 with downloaded recordings on his own phone and wants all six stops. Cara wants to read the stories without listening.\n\nThe helper suggests Stops 1 and 2 for Aki. Ben can finish his full walk at about five, and Cara can collect a transcript before the desk closes at five. Each visitor gets a useful experience by matching the plan to a different condition.",
+          "explanation": "4:15 加二十分鐘為 4:35。",
+          "id": "d186-q3",
+          "options": [
+            "4:45.",
+            "4:25.",
+            "4:35.",
+            "4:55."
+          ],
+          "prompt": "When should Aki return after the recommended route?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Visit rules] Old Street has six audio stops. Visitors may choose any stops. Printed transcripts tell the same stories. Borrowed players must return to the desk by 4:45; downloaded recordings on personal phones have no equipment return deadline.\n\n[Time estimates] From the desk, a visit to Stops 1 and 2 and back takes twenty minutes, including both recordings. Stops 3 and 4 and back take thirty minutes. All six stops and the return take forty minutes. These are complete route times, not times for each stop.\n\n[Visitors] Aki arrives at 4:15 and borrows a player. She wants a ten-minute margin before returning it. Ben arrives at 4:20 with downloaded recordings on his own phone and wants all six stops. Cara wants to read the stories without listening.\n\nThe helper suggests Stops 1 and 2 for Aki. Ben can finish his full walk at about five, and Cara can collect a transcript before the desk closes at five. Each visitor gets a useful experience by matching the plan to a different condition.",
+          "explanation": "4:35 到 4:45 留十分鐘餘裕。",
+          "id": "d186-q4",
+          "options": [
+            "It removes the player return rule.",
+            "It includes all six stops.",
+            "It finishes exactly at five.",
+            "It leaves ten minutes before the equipment deadline."
+          ],
+          "prompt": "Why does that route fit Aki's request?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Visit rules] Old Street has six audio stops. Visitors may choose any stops. Printed transcripts tell the same stories. Borrowed players must return to the desk by 4:45; downloaded recordings on personal phones have no equipment return deadline.\n\n[Time estimates] From the desk, a visit to Stops 1 and 2 and back takes twenty minutes, including both recordings. Stops 3 and 4 and back take thirty minutes. All six stops and the return take forty minutes. These are complete route times, not times for each stop.\n\n[Visitors] Aki arrives at 4:15 and borrows a player. She wants a ten-minute margin before returning it. Ben arrives at 4:20 with downloaded recordings on his own phone and wants all six stops. Cara wants to read the stories without listening.\n\nThe helper suggests Stops 1 and 2 for Aki. Ben can finish his full walk at about five, and Cara can collect a transcript before the desk closes at five. Each visitor gets a useful experience by matching the plan to a different condition.",
+          "explanation": "4:20 加四十分鐘約五點。",
+          "id": "d186-q5",
+          "options": [
+            "About 5:00.",
+            "About 4:40.",
+            "About 4:45.",
+            "About 5:20."
+          ],
+          "prompt": "When will Ben finish the full route if the estimate holds?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "[Visitors] Aki arrives at 4:15 and borrows a player. She wants a ten-minute margin before returning it. Ben arrives at 4:20 with downloaded recordings on his own phone and wants all six stops. Cara wants to read the stories without listening.",
+          "explanation": "Cara 想讀不想聽，逐字稿含同樣故事。",
+          "id": "d186-q6",
+          "options": [
+            "A printed transcript.",
+            "A borrowed player she will not use.",
+            "A shorter story unavailable in print.",
+            "A list of return penalties."
+          ],
+          "prompt": "What should Cara collect?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "[Visitors] Aki arrives at 4:15 and borrows a player. She wants a ten-minute margin before returning it. Ben arrives at 4:20 with downloaded recordings on his own phone and wants all six stops. Cara wants to read the stories without listening.",
+          "explanation": "Aki 要在歸還截止前保留十分鐘緩衝。",
+          "id": "d186-q7",
+          "options": [
+            "An additional ticket price.",
+            "Extra time kept before a deadline.",
+            "The width of a printed page.",
+            "The number of stops in a route."
+          ],
+          "prompt": "What does 'margin' mean here?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "[Visit rules] Old Street has six audio stops. Visitors may choose any stops. Printed transcripts tell the same stories. Borrowed players must return to the desk by 4:45; downloaded recordings on personal phones have no equipment return deadline.\n\n[Time estimates] From the desk, a visit to Stops 1 and 2 and back takes twenty minutes, including both recordings. Stops 3 and 4 and back take thirty minutes. All six stops and the return take forty minutes. These are complete route times, not times for each stop.\n\n[Visitors] Aki arrives at 4:15 and borrows a player. She wants a ten-minute margin before returning it. Ben arrives at 4:20 with downloaded recordings on his own phone and wants all six stops. Cara wants to read the stories without listening.\n\nThe helper suggests Stops 1 and 2 for Aki. Ben can finish his full walk at about five, and Cara can collect a transcript before the desk closes at five. Each visitor gets a useful experience by matching the plan to a different condition.",
+          "explanation": "4:15 加三十分鐘為 4:45，雖未逾期但無十分鐘餘裕。",
+          "id": "d186-q8",
+          "options": [
+            "It is available only with a personal phone.",
+            "It returns after the desk closes at five.",
+            "It takes thirty minutes for each of two stops.",
+            "It returns at 4:45 without her requested margin."
+          ],
+          "prompt": "Why does the thirty-minute route fail Aki's preference even if completed on time?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 0,
+          "evidence": "[Visit rules] Old Street has six audio stops. Visitors may choose any stops. Printed transcripts tell the same stories. Borrowed players must return to the desk by 4:45; downloaded recordings on personal phones have no equipment return deadline.\n\n[Time estimates] From the desk, a visit to Stops 1 and 2 and back takes twenty minutes, including both recordings. Stops 3 and 4 and back take thirty minutes. All six stops and the return take forty minutes. These are complete route times, not times for each stop.\n\n[Visitors] Aki arrives at 4:15 and borrows a player. She wants a ten-minute margin before returning it. Ben arrives at 4:20 with downloaded recordings on his own phone and wants all six stops. Cara wants to read the stories without listening.\n\nThe helper suggests Stops 1 and 2 for Aki. Ben can finish his full walk at about five, and Cara can collect a transcript before the desk closes at five. Each visitor gets a useful experience by matching the plan to a different condition.",
+          "explanation": "三人不同器材、時間與閱讀需求對應不同方案。",
+          "id": "d186-q9",
+          "options": [
+            "Choose routes and formats according to each visitor's constraints.",
+            "Give every visitor the longest possible route.",
+            "Assume personal phones follow the borrowing deadline.",
+            "Treat route totals as times for individual stops."
+          ],
+          "prompt": "Which planning principle is illustrated?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "[Visit rules] Old Street has six audio stops. Visitors may choose any stops. Printed transcripts tell the same stories. Borrowed players must return to the desk by 4:45; downloaded recordings on personal phones have no equipment return deadline.\n\n[Time estimates] From the desk, a visit to Stops 1 and 2 and back takes twenty minutes, including both recordings. Stops 3 and 4 and back take thirty minutes. All six stops and the return take forty minutes. These are complete route times, not times for each stop.\n\n[Visitors] Aki arrives at 4:15 and borrows a player. She wants a ten-minute margin before returning it. Ben arrives at 4:20 with downloaded recordings on his own phone and wants all six stops. Cara wants to read the stories without listening.\n\nThe helper suggests Stops 1 and 2 for Aki. Ben can finish his full walk at about five, and Cara can collect a transcript before the desk closes at five. Each visitor gets a useful experience by matching the plan to a different condition.",
+      "title": "Boss: A Shorter Old Street Visit",
+      "type": "每週 Boss",
+      "words": [
+        {
+          "example": "[Time estimates] From the desk, a visit to Stops 1 and 2 and back takes twenty minutes, including both recordings.",
+          "meaning": "估計",
+          "word": "estimates"
+        },
+        {
+          "example": "These are complete route times, not times for each stop.",
+          "meaning": "路線",
+          "word": "route"
+        },
+        {
+          "example": "She wants a ten-minute margin before returning it.",
+          "meaning": "餘裕",
+          "word": "margin"
+        },
+        {
+          "example": "Each visitor gets a useful experience by matching the plan to a different condition.",
+          "meaning": "配合",
+          "word": "matching"
+        },
+        {
+          "example": "Each visitor gets a useful experience by matching the plan to a different condition.",
+          "meaning": "條件",
+          "word": "condition"
+        }
+      ]
+    }
+  ]
+}

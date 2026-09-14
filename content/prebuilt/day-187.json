@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-07",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 187,
+      "goal": "複習同意範圍、解讀與時間餘裕，找出關鍵條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "準時",
+          "phrase": "on time"
+        },
+        {
+          "meaning": "在它下面",
+          "phrase": "below it"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 2,
+          "evidence": "Jin's review sheet uses five words from the week: public, interpretations, transcript, margin, and condition. A large sentence appears at the top of each card, while a smaller line below it adds information. Jin must read both before deciding what action is reasonable.",
+          "explanation": "任務要求兩部分都讀後再判斷。",
+          "id": "d187-q1",
+          "options": [
+            "The large sentence if it sounds true.",
+            "Only the first word.",
+            "Both the large sentence and the smaller line.",
+            "Only the heading."
+          ],
+          "prompt": "What must Jin read on each card?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "One card says a group approved a photograph. The smaller line says approval was for a private chat. Jin rejects a plan to post it publicly. Another card describes a boy as nervous; its lower line reveals that viewers heard an exam story before watching.",
+          "explanation": "同意範圍僅限私人群組，不能延伸為公開。",
+          "id": "d187-q2",
+          "options": [
+            "The picture had no people.",
+            "The approval covered only a private chat.",
+            "Public photographs are always forbidden.",
+            "The group refused every kind of sharing."
+          ],
+          "prompt": "Why does Jin reject public posting?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "A walking-tour card says the route takes thirty minutes. Below it, the borrower arrives at 4:15, must return a player at 4:45, and wants a ten-minute margin. Jin explains that finishing on time would still fail that preference.",
+          "explanation": "4:15 + 30 分鐘 = 4:45，沒有餘裕。",
+          "id": "d187-q3",
+          "options": [
+            "Ten minutes.",
+            "Thirty minutes.",
+            "None.",
+            "Fifteen minutes."
+          ],
+          "prompt": "How much margin remains after a thirty-minute route starting at 4:15 with a 4:45 deadline?",
+          "skill": "資訊整合",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "For a visitor who wants the stories without audio, Jin selects a transcript. He notices that the smaller lines are not always unimportant details. A condition can change which answer is best, even when the largest sentence on the page remains completely true.",
+          "explanation": "想讀故事而不聽時使用的文字版本。",
+          "id": "d187-q4",
+          "options": [
+            "A private photograph collection.",
+            "A rule about returning equipment.",
+            "A written version of spoken content.",
+            "A longer route through the street."
+          ],
+          "prompt": "What is a 'transcript'?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 0,
+          "evidence": "One card says a group approved a photograph. The smaller line says approval was for a private chat. Jin rejects a plan to post it publicly. Another card describes a boy as nervous; its lower line reveals that viewers heard an exam story before watching.",
+          "explanation": "先給考試背景可能影響觀眾對表情的判斷。",
+          "id": "d187-q5",
+          "options": [
+            "It may have influenced the viewers' interpretation.",
+            "It changes the length of the silent clip.",
+            "It shows all viewers had identical reactions.",
+            "It proves the actor received a real exam result."
+          ],
+          "prompt": "Why does the exam introduction matter to the nervous-boy description?",
+          "skill": "推論判讀",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "Jin's review sheet uses five words from the week: public, interpretations, transcript, margin, and condition. A large sentence appears at the top of each card, while a smaller line below it adds information. Jin must read both before deciding what action is reasonable.\n\nOne card says a group approved a photograph. The smaller line says approval was for a private chat. Jin rejects a plan to post it publicly. Another card describes a boy as nervous; its lower line reveals that viewers heard an exam story before watching.\n\nA walking-tour card says the route takes thirty minutes. Below it, the borrower arrives at 4:15, must return a player at 4:45, and wants a ten-minute margin. Jin explains that finishing on time would still fail that preference.\n\nFor a visitor who wants the stories without audio, Jin selects a transcript. He notices that the smaller lines are not always unimportant details. A condition can change which answer is best, even when the largest sentence on the page remains completely true.",
+          "explanation": "版面字體大小不等於資訊重要性，條件可能改變答案。",
+          "id": "d187-q6",
+          "options": [
+            "A true main sentence makes every proposed action valid.",
+            "Small-print conditions may determine the best action.",
+            "Large text always contains all necessary information.",
+            "Lower lines should be ignored in timed reading."
+          ],
+          "prompt": "What does Jin learn about page layout?",
+          "skill": "主旨統整",
+          "tier": 3
+        }
+      ],
+      "story": "Jin's review sheet uses five words from the week: public, interpretations, transcript, margin, and condition. A large sentence appears at the top of each card, while a smaller line below it adds information. Jin must read both before deciding what action is reasonable.\n\nOne card says a group approved a photograph. The smaller line says approval was for a private chat. Jin rejects a plan to post it publicly. Another card describes a boy as nervous; its lower line reveals that viewers heard an exam story before watching.\n\nA walking-tour card says the route takes thirty minutes. Below it, the borrower arrives at 4:15, must return a player at 4:45, and wants a ten-minute margin. Jin explains that finishing on time would still fail that preference.\n\nFor a visitor who wants the stories without audio, Jin selects a transcript. He notices that the smaller lines are not always unimportant details. A condition can change which answer is best, even when the largest sentence on the page remains completely true.",
+      "title": "The Condition Under the Main Sentence",
+      "type": "單字與錯題復活",
+      "words": [
+        {
+          "example": "Jin's review sheet uses five words from the week: public, interpretations, transcript, margin, and condition.",
+          "meaning": "公開的",
+          "word": "public"
+        },
+        {
+          "example": "Jin's review sheet uses five words from the week: public, interpretations, transcript, margin, and condition.",
+          "meaning": "解讀",
+          "word": "interpretations"
+        },
+        {
+          "example": "Jin's review sheet uses five words from the week: public, interpretations, transcript, margin, and condition.",
+          "meaning": "逐字稿",
+          "word": "transcript"
+        },
+        {
+          "example": "Jin's review sheet uses five words from the week: public, interpretations, transcript, margin, and condition.",
+          "meaning": "餘裕",
+          "word": "margin"
+        },
+        {
+          "example": "Jin's review sheet uses five words from the week: public, interpretations, transcript, margin, and condition.",
+          "meaning": "條件",
+          "word": "condition"
+        }
+      ]
+    }
+  ]
+}

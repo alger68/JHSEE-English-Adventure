@@ -1,0 +1,151 @@
+{
+  "version": 2,
+  "status": "prebuilt",
+  "batchId": "day-036-250-v1",
+  "plannedPublishDate": "2027-03-05",
+  "provenance": {
+    "kind": "ai_original",
+    "officialExam": false,
+    "review": "automated_validation_and_assistant_review",
+    "humanReviewed": false
+  },
+  "lessons": [
+    {
+      "day": 185,
+      "goal": "整合導覽使用方式、替代閱讀及路線安全條件。",
+      "minutes": 10,
+      "phrases": [
+        {
+          "meaning": "以任意順序",
+          "phrase": "in any order"
+        },
+        {
+          "meaning": "保持門口暢通",
+          "phrase": "keep doorways clear"
+        }
+      ],
+      "questions": [
+        {
+          "answer": 1,
+          "evidence": "OLD STREET AUDIO WALK: Explore six marked stops with short recordings about local shops and buildings. You may follow the stops in any order. Scan the code on each marker; downloading all recordings at the visitor desk before starting is another option.",
+          "explanation": "公告允許任意順序。",
+          "id": "d185-q1",
+          "options": [
+            "Only borrowed-player users may change order.",
+            "No, any order is allowed.",
+            "Yes, all six must be followed in order.",
+            "Only Stop 4 may be skipped."
+          ],
+          "prompt": "Must visitors follow stops in numerical order?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 2,
+          "evidence": "The complete walk takes about forty minutes, including listening and walking. If you have less time, choose individual stops. A printed transcript is available free at the desk and contains the same stories. Bringing headphones is recommended, but listening aloud near homes is not allowed.",
+          "explanation": "逐字稿提供相同故事內容。",
+          "id": "d185-q2",
+          "options": [
+            "A list of headphone brands.",
+            "Only shop opening hours.",
+            "The same stories as the recordings.",
+            "A different shorter history."
+          ],
+          "prompt": "What does the printed transcript contain?",
+          "skill": "細節理解",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "Stop 4 stands across a busy road. Use the marked crossing even if another route looks shorter. The recording is designed to be heard while standing beside the marker, not while crossing.",
+          "explanation": "公告指定在標記旁站定聆聽，過路需走行穿線。",
+          "id": "d185-q3",
+          "options": [
+            "The visitor desk controls road traffic.",
+            "Stop 4 has no written story.",
+            "All other stops must be completed first.",
+            "The recording is not meant to be heard while crossing the busy road."
+          ],
+          "prompt": "Why should a visitor pause beside Stop 4's marker to listen?",
+          "skill": "推論判讀",
+          "tier": 1
+        },
+        {
+          "answer": 1,
+          "evidence": "The visitor desk closes at five, but the outdoor markers remain accessible. Borrowed audio players must be returned by 4:45. Visitors using their own phones and downloaded recordings may finish later. Please respect residents and keep doorways clear throughout your visit.",
+          "explanation": "音量與門口規定是為尊重當地居住者。",
+          "id": "d185-q4",
+          "options": [
+            "The buildings being described.",
+            "People who live in the area.",
+            "Only the tour's staff.",
+            "People who borrow every player."
+          ],
+          "prompt": "What does 'residents' mean?",
+          "skill": "字義推測",
+          "tier": 1
+        },
+        {
+          "answer": 3,
+          "evidence": "The visitor desk closes at five, but the outdoor markers remain accessible. Borrowed audio players must be returned by 4:45. Visitors using their own phones and downloaded recordings may finish later. Please respect residents and keep doorways clear throughout your visit.",
+          "explanation": "自備手機及下載內容可晚點完成，借用播放器須 4:45 歸還。",
+          "id": "d185-q5",
+          "options": [
+            "Anyone who promises to return a player next week.",
+            "A visitor keeping a borrowed player until six.",
+            "Someone who has not returned a borrowed player by 4:45.",
+            "A visitor using a personal phone with downloaded recordings."
+          ],
+          "prompt": "Who may continue after the desk closes without keeping borrowed equipment?",
+          "skill": "資訊整合",
+          "tier": 2
+        },
+        {
+          "answer": 1,
+          "evidence": "The complete walk takes about forty minutes, including listening and walking. If you have less time, choose individual stops. A printed transcript is available free at the desk and contains the same stories. Bringing headphones is recommended, but listening aloud near homes is not allowed.",
+          "explanation": "逐字稿與錄音同內容，可直接閱讀。",
+          "id": "d185-q6",
+          "options": [
+            "Listen aloud near residents' doors.",
+            "Collect the free printed transcript.",
+            "Skip all six stories.",
+            "Ask another visitor to lend headphones."
+          ],
+          "prompt": "Which alternative provides the stories without audio?",
+          "skill": "推論判讀",
+          "tier": 3
+        }
+      ],
+      "story": "OLD STREET AUDIO WALK: Explore six marked stops with short recordings about local shops and buildings. You may follow the stops in any order. Scan the code on each marker; downloading all recordings at the visitor desk before starting is another option.\n\nThe complete walk takes about forty minutes, including listening and walking. If you have less time, choose individual stops. A printed transcript is available free at the desk and contains the same stories. Bringing headphones is recommended, but listening aloud near homes is not allowed.\n\nStop 4 stands across a busy road. Use the marked crossing even if another route looks shorter. The recording is designed to be heard while standing beside the marker, not while crossing.\n\nThe visitor desk closes at five, but the outdoor markers remain accessible. Borrowed audio players must be returned by 4:45. Visitors using their own phones and downloaded recordings may finish later. Please respect residents and keep doorways clear throughout your visit.",
+      "title": "Listen to the Old Street",
+      "type": "公告／資訊閱讀",
+      "words": [
+        {
+          "example": "If you have less time, choose individual stops.",
+          "meaning": "個別的",
+          "word": "individual"
+        },
+        {
+          "example": "A printed transcript is available free at the desk and contains the same stories.",
+          "meaning": "逐字稿",
+          "word": "transcript"
+        },
+        {
+          "example": "Bringing headphones is recommended, but listening aloud near homes is not allowed.",
+          "meaning": "建議的",
+          "word": "recommended"
+        },
+        {
+          "example": "Please respect residents and keep doorways clear throughout your visit.",
+          "meaning": "居民",
+          "word": "residents"
+        },
+        {
+          "example": "Please respect residents and keep doorways clear throughout your visit.",
+          "meaning": "門口",
+          "word": "doorways"
+        }
+      ]
+    }
+  ]
+}
