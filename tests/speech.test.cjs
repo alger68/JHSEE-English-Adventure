@@ -82,7 +82,7 @@ function app(storage = new Map(), initialVoices = [us,uk]) {
   function node(selector){if(!nodes.has(selector))nodes.set(selector,{innerHTML:'',textContent:'',hidden:false,style:{},handlers:{},addEventListener(n,f){this.handlers[n]=f;},focus(){},scrollIntoView(){}});return nodes.get(selector);}
   const window={speechSynthesis:d.synthesis,SpeechSynthesisUtterance:d.options.Utterance,addEventListener(){},scrollTo(){}};
   const lessons=JSON.parse(fs.readFileSync(path.join(__dirname,'../content/week-01.json'),'utf8')).lessons;
-  const context=vm.createContext({AdventureCore:require('../core.js'),EnglishSpeech:S,window,document:{querySelector:node,querySelectorAll:()=>[],visibilityState:'visible'},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash:'#lesson/1',protocol:'file:'},lessons,lessonMeta:{version:'test'},ExamPage:{leave(){}},setTimeout:()=>1,clearTimeout(){},setInterval(){}});
+  const context=vm.createContext({AdventureCore:require('../core.js'),AdaptiveCore:require('../adaptive-core.js'),EnglishSpeech:S,window,document:{querySelector:node,querySelectorAll:()=>[],visibilityState:'visible'},localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},location:{hash:'#lesson/1',protocol:'file:'},lessons,lessonMeta:{version:'test'},ExamPage:{leave(){}},setTimeout:()=>1,clearTimeout(){},setInterval(){}});
   vm.runInContext(fs.readFileSync(path.join(__dirname,'../app.js'),'utf8'),context);
   return {d,context,node,storage,change(id,value){node('#main').handlers.change({target:{id,value,matches:()=>false}});},click(action){node('#main').handlers.click({target:{closest:()=>({dataset:{action}})}});}};
 }
