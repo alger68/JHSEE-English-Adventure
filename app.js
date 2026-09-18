@@ -1,5 +1,6 @@
 'use strict';
 const C = AdventureCore;
+const A = AdaptiveCore;
 const $ = s => document.querySelector(s);
 const main = $('#main');
 const KEY = 'jhseeStateV2';
@@ -126,8 +127,17 @@ function setNav(view) {
   $('#breadcrumb').textContent = '我的學習基地 / ' + (labels[view] || '閱讀闖關');
 }
 function storyHTML(l) { return l.story.split(/\n\s*\n/).map(p => `<p>${esc(p).replace(/\n/g,'<br>')}</p>`).join(''); }
+function adaptiveHomeHTML(plan){
+  const focus=plan.topSkills.length?plan.topSkills.map(x=>`${esc(x.skill)} <b>${x.weakness}</b>`).join(' · '):'完成幾題後，系統會開始建立個人弱點排序。';
+  return `<section class="panel adaptive-home" aria-label="今日自適應練習"><div class="adaptive-home-head"><div><div class="eyebrow">ADAPTIVE PRACTICE · AUTO TUNED</div><h2>今天的 ${plan.count} 題，依錯題自動配比</h2><p>不是固定亂抽；會依核心能力、錯誤次數、到期複習與熟練度重新計算。</p></div><a class="text-link nowrap" href="#dashboard">看弱點分析 →</a></div><div class="adaptive-plan">${plan.distribution.map(x=>`<div class="adaptive-plan-item"><strong>${x.count}</strong><span>${esc(x.label)}</span></div>`).join('')}</div><p class="adaptive-focus">今日優先：${focus}</p></section>`;
+}
+function adaptiveDashboardHTML(rows,weights){
+  if(!rows.length)return `<p class="muted small">目前還沒有足夠的逐題紀錄；開始作答後會自動建立能力弱點。</p>`;
+  return `<div class="adaptive-skill-list">${rows.map(v=>{const route=A.trainingRoute(v);return `<div class="adaptive-skill-card ${v.status}"><div class="adaptive-skill-head"><strong>${esc(v.skill)}</strong><span>${v.severity.code} · ${esc(v.severity.label)}</span></div><div class="adaptive-numbers"><span>弱點 <b>${v.weakness}</b></span><span>熟練 <b>${v.mastery}%</b></span><span>今日權重 <b>${weights[v.skill]||0}%</b></span><span>Level <b>${route.level}</b></span></div><div class="progress"><i style="width:${v.mastery}%"></i></div><p>${esc(route.message)}</p></div>`}).join('')}</div>`;
+}
 function home() {
   const done = C.completedDays(state), opened = lessons;
+  const adaptivePlan = A.dailyPlan(state,lessons,20);
   const next = opened.find(l => !done.includes(l.day));
   const featured = next || opened[opened.length-1] || lessons[0];
   const todayDone = state.activityDates.includes(C.dateKey());
@@ -139,6 +149,7 @@ function home() {
   $('#sidebarChapter').textContent = `第 ${chapter} 章`;
   main.innerHTML = `<div class="page-heading"><div><div class="eyebrow">YOUR DAILY ADVENTURE</div><h1>${done.length ? '歡迎回來，繼續冒險。' : '今天，從一個小故事開始。'}</h1><p>讀一篇、找線索、闖一關。把 10 分鐘留給英文。</p></div><span class="date">${new Intl.DateTimeFormat('zh-TW',{timeZone:'Asia/Taipei',month:'long',day:'numeric',weekday:'long'}).format(new Date())}</span></div>
   <section class="panel bank-summary" aria-label="已上線題庫"><div><div class="eyebrow">ALL PUBLISHED LESSONS · OPEN NOW</div><h2>已上線 ${lessons.length} / ${lessonMeta.targetLessonCount||250} 天 · ${lessons.reduce((n,l)=>n+l.questions.length,0)} 道閱讀題</h2><p>所有已收錄關卡都能立即練習。可以按順序，也可以直接選關。</p></div><div class="settings-row"><label for="lessonSelect">直接選關</label><select id="lessonSelect"><option value="">選擇一篇文章</option>${lessons.map(l=>`<option value="${l.day}">Day ${l.day} · ${esc(l.title)}</option>`).join('')}</select></div><div class="review-choice"><a class="text-link" href="downloads/index.html">完整 250 天教材與下載 →</a><a class="text-link" href="#exams">官方歷屆 ${officialExams.reduce((n,e)=>n+e.questionCount,0)} 題 →</a><a class="text-link" href="#transfer/${encodeURIComponent('細節理解')}">相似練習 ${transferQuestions.length} 題 →</a></div></section>
+  ${adaptiveHomeHTML(adaptivePlan)}
   <div class="home-top"><section class="mission"><span class="mission-num" aria-hidden="true">${String(featured.day).padStart(2,'0')}</span><div class="eyebrow">${next ? 'YOUR NEXT MISSION' : 'KEEP THE ADVENTURE GOING'}</div><span class="chip">DAY ${featured.day} · ${esc(featured.type)}</span><h2 lang="en">${esc(featured.title)}</h2><p>${esc(featured.goal)} · 約 ${featured.minutes} 分鐘</p><a class="primary-link" href="#lesson/${featured.day}">${next ? '開始今天的冒險' : '再挑戰一次'} <span aria-hidden="true">→</span></a></section>
   <section class="panel daily-goal"><p><a class="text-link" href="#mistakes">先複習 ${C.reviewQueue(state).length} 題到期錯題 →</a></p><div class="eyebrow">DAILY CHECK-IN</div><h2>今天的小目標</h2><div class="goal-main"><div class="ring" style="--progress:${todayDone?100:0}"><div>${todayDone?1:0}<small>/ 1 次學習</small></div></div><div><strong>${todayDone?'今日已打卡':'完成一次練習'}</strong><p>${todayDone?'閱讀或複習，都算進步。':'交卷或複習一張單字。'}</p></div></div><p class="goal-note">${due ? `還有 ${due} 個單字等你複習。` : '今日到期單字已複習完成。'} <a class="text-link" href="#words">前往補給站 →</a></p></section></div>
   <div class="section-heading"><div class="chapter-meta"><h2>第 ${chapter} 章 · ${chapter === 1 ? "日常裡的發現" : "新的線索，新的發現"}</h2><span class="chip">${chapterDone} / ${chapterLessons.length} 已完成</span></div><div class="settings-row"><label for="chapterSelect">冒險章節</label><select id="chapterSelect">${Array.from({length:totalChapters},(_,i)=>`<option value="${i+1}" ${chapter===i+1?"selected":""}>第 ${i+1} 章 · Day ${i*7+1}–${Math.min((i+1)*7,lessons.length)}</option>`).join("")}</select></div></div>
@@ -205,14 +216,17 @@ function mistakesView(reset=false){
   }
   const answers={};if(s.selected!==null)answers[q.id]=s.selected;
   const progress=state.wrong[l.day+':'+q.id];
-  main.innerHTML+=`<section class="panel"><div class="review-top"><span>第 ${s.index+1} / ${s.queue.length} 題 · ${esc(q.skill)}</span><span>DAY ${l.day}</span></div><p class="small">答錯 ${progress.misses} 次 · 階段 ${progress.stage}/5 · ${progress.stage===5?'間隔複習完成':`複習日 ${progress.due}`}</p><h2 lang="en">${esc(l.title)}</h2><details><summary>打開原文，重新找線索</summary><div class="story" lang="en">${storyHTML(l)}</div></details><form id="wrongForm">${renderQuestion(q,0,answers,s.result)}<div id="reviewError" class="error-text" role="alert"></div><div class="quiz-actions">${s.result?`<button type="button" class="primary" data-action="wrong-next">${s.index+1===s.queue.length?'完成這一輪':'下一題'} →</button><a class="text-link" href="#transfer/${encodeURIComponent(q.skill)}">同能力新題目 →</a>`:`<button type="submit" class="primary">確認答案</button>`}</div></form></section>`;
+  const adaptiveStat=A.skillStats(state,lessons)[q.skill];
+  const severity=A.severityFromWrongCount(progress.misses);
+  const route=A.trainingRoute(adaptiveStat);
+  main.innerHTML+=`<section class="panel"><div class="review-top"><span>第 ${s.index+1} / ${s.queue.length} 題 · ${esc(q.skill)}</span><span>DAY ${l.day}</span></div><p class="small">答錯 ${progress.misses} 次 · ${severity.code} ${severity.label} · 階段 ${progress.stage}/5 · ${progress.stage===5?'間隔複習完成':`複習日 ${progress.due}`}</p><div class="adaptive-route"><b>下一步 Level ${route.level} · ${route.label}</b><span>${esc(route.message)}</span></div><h2 lang="en">${esc(l.title)}</h2><details><summary>打開原文，重新找線索</summary><div class="story" lang="en">${storyHTML(l)}</div></details><form id="wrongForm">${renderQuestion(q,0,answers,s.result)}<div id="reviewError" class="error-text" role="alert"></div><div class="quiz-actions">${s.result?`<button type="button" class="primary" data-action="wrong-next">${s.index+1===s.queue.length?'完成這一輪':'下一題'} →</button><a class="text-link" href="#transfer/${encodeURIComponent(q.skill)}">同能力新題目 →</a>`:`<button type="submit" class="primary">確認答案</button>`}</div></form></section>`;
   if(!s.result)$('#wrongForm').addEventListener('submit',e=>{e.preventDefault();try{const correct=C.reviewQuestion(state,l,q.id,s.selected);s.result={items:[{questionId:q.id,selected:s.selected,correct}]};if(correct)s.fixed++;save();syncStats();mistakesView();}catch(err){$('#reviewError').textContent=err.message;}});
 }
 function transferView(skill='細節理解',reset=false){
   const bank=transferQuestions.filter(q=>q.skill===skill);
   if(!bank.length){main.innerHTML=empty('尚無這類驗收題','請先回到錯題分類選擇其他能力。','#mistakes','回到複習');return;}
   if(reset||!transferSession||transferSession.skill!==skill){
-    const q=[...bank].sort((a,b)=>(state.transfer[a.id]?.attempts||0)-(state.transfer[b.id]?.attempts||0))[0];
+    const q=A.selectTransferQuestion(bank,state,skill);
     transferSession={skill,q,selected:null,result:null};
   }
   const t=transferSession,q=t.q, answers={};if(t.selected!==null)answers[q.id]=t.selected;
@@ -222,6 +236,8 @@ function transferView(skill='細節理解',reset=false){
 }
 function dashboard(){
   const done=C.completedDays(state),accuracy=C.firstAccuracy(state),suggestion=C.recommendation(state);
+  const adaptivePlan=A.dailyPlan(state,lessons,20),adaptiveStats=adaptivePlan.stats,adaptiveWeights=adaptivePlan.weights;
+  const adaptiveRows=Object.values(adaptiveStats).sort((a,b)=>b.weakness-a.weakness||b.wrongCount-a.wrongCount);
   const learned=Object.values(state.wordProgress).filter(w=>w.stage>0).length;
   const skillData={};Object.values(state.completions).forEach(c=>c.first.items.forEach(i=>{skillData[i.skill]||={total:0,right:0};skillData[i.skill].total++;if(i.correct)skillData[i.skill].right++;}));
   const recent=Array.from({length:7},(_,i)=>C.addDays(C.dateKey(),i-6));
@@ -230,6 +246,7 @@ function dashboard(){
   <div class="metrics"><section class="panel metric"><div class="metric-label">完成關卡</div><strong>${done.length}<span class="small"> / ${lessons.length}</span></strong><p>包含已保留的 V1 進度</p></section><section class="panel metric"><div class="metric-label">首次作答正確率</div><strong>${accuracy===null?'—':accuracy+'%'}</strong><p>${accuracy===null?'完成第一關後開始記錄':'重做不會改寫首次表現'}</p></section><section class="panel metric"><div class="metric-label">已記得的單字</div><strong>${learned}</strong><p>依單字卡的自評紀錄</p></section><section class="panel metric"><div class="metric-label">連續學習</div><strong>${C.streak(state)}<span class="small"> 天</span></strong><p>閱讀交卷與複習都計入</p></section></div>
   <div class="dashboard-grid"><section class="panel"><h2>七天學習足跡</h2><p class="muted small">每天完成一次有效練習，就留下一格足跡。</p><div class="bars" role="img" aria-label="最近七天：${recent.map(d=>`${d} ${state.activityDates.includes(d)?'已學習':'未學習'}`).join('；')}">${recent.map(d=>{const yes=state.activityDates.includes(d);return `<div class="bar-column"><strong>${yes?'✓':'—'}</strong><div class="bar-track"><div class="bar-fill" style="height:${yes?100:0}%"></div></div><small>${Number(d.slice(5,7))}/${Number(d.slice(8))}</small></div>`;}).join('')}</div><p class="difficulty-note">累積作答用時 ${minutes.toFixed(1)} 分鐘（從進入文章到交卷，單次最多計 30 分鐘）。</p></section>
   <section class="panel"><h2>閱讀能力觀察</h2>${Object.keys(skillData).length?Object.entries(skillData).map(([name,v])=>`<div class="skill-row"><div><span>${esc(name)}</span><span>${v.right} / ${v.total}</span></div><div class="progress"><i style="width:${v.right/v.total*100}%"></i></div></div>`).join(''):'<p class="muted small">完成閱讀題後，這裡會顯示細節理解、推論與字義等題型的表現。</p>'}<p class="difficulty-note">僅統計本站首次作答，不代表正式會考能力量尺。</p></section></div>
+  <section class="panel adaptive-dashboard" style="margin-top:24px"><div class="section-heading" style="margin-top:0"><div><h2>核心能力動態權重</h2><p>錯越多、連錯越多、最近又錯，權重會上升；間隔複習成功後會下降。</p></div><span class="chip">AUTO</span></div>${adaptiveDashboardHTML(adaptiveRows,adaptiveWeights)}</section>
   <section class="panel" style="margin-top:24px"><div class="section-heading" style="margin-top:0"><h2>關卡成績</h2><span class="muted small">首答與最佳分數分開保留</span></div><div class="table-wrap"><table><thead><tr><th>關卡</th><th>首次</th><th>最佳</th><th>難度</th><th>解析</th></tr></thead><tbody>${lessons.map(l=>{const c=state.completions[l.day];return `<tr><td><b>Day ${l.day}</b> <span lang="en">${esc(l.title)}</span></td><td>${c?`${c.first.score}/${c.first.total}`:done.includes(l.day)?'V1 未記錄':'—'}</td><td>${c?c.best+'%':'—'}</td><td>${c?tiers[c.last.tier]:'—'}</td><td>${c?`<a class="text-link" href="#result/${l.day}">上次解析</a>`:'—'}</td></tr>`;}).join('')}</tbody></table></div></section>
   <section class="panel" style="margin-top:24px"><h2>錯題回顧與新題驗收</h2><p>今日到期 ${C.reviewQueue(state).length} 題 · 間隔複習完成 ${Object.values(state.wrong).filter(w=>w.stage===5).length} 題</p><p>新題首次答對 ${Object.values(state.transfer).filter(t=>t.first).length} / ${Object.keys(state.transfer).length} 題；重做保留首次結果。</p><div class="review-choice">${['細節理解','推論判讀','字義推測','主旨統整','資訊整合'].map(skill=>{const entries=Object.values(state.transfer).filter(t=>t.skill===skill);return `<a class="text-link" href="#transfer/${encodeURIComponent(skill)}">${skill} ${entries.filter(t=>t.first).length}/${entries.length} →</a>`;}).join('')}</div><p class="difficulty-note">少量練習只用來找下一個練習方向，不推估會考等級。</p></section>
   <section class="panel" style="margin-top:24px"><h2>下一步怎麼練？</h2><p class="small">目前建議：<b>${tiers[suggestion]}</b>。${suggestion===1?'先穩定完成核心題，練習用文章證據回答。':suggestion===2?'核心題已漸漸穩定，可以增加一題推論挑戰。':'試試跨句整合與綜合挑戰，並繼續複習失分題。'}</p><div class="settings-row"><label for="defaultTier">預設練習難度</label><select id="defaultTier">${[1,2,3].map(t=>`<option value="${t}" ${state.difficulty===t?'selected':''}>${tiers[t]}</option>`).join('')}</select><button data-action="use-suggestion">使用建議難度</button></div><p class="difficulty-note">完成 3 關且首次總正確率 ≥80%，建議進階；完成 5 關且 ≥90%，建議挑戰。也可自行選擇。分級只調整本站題目，不推估會考級分。</p></section>
