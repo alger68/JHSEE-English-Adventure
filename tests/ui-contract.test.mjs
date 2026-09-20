@@ -28,4 +28,14 @@ describe('English Adventure UI contract', () => {
     ]) assert.ok(html.includes(url));
     assert.match(html, /class=["'][^"']*mobile-bottom-nav/);
   });
+  it('uses canonical professional learning surface hooks', () => {
+    const app = readFileSync('app.js','utf8');
+    const css = readFileSync('style.css','utf8');
+    assert.match(app, /jh-hero/);
+    assert.match(app, /jh-card/);
+    assert.match(app, /jh-primary-cta/);
+    assert.match(css, /\.jh-hero/);
+    assert.doesNotMatch(css, /\.mission h2\{font-family:Georgia/);
+  });
+
 });
