@@ -1,0 +1,18 @@
+name: Feature UI validation
+on:
+  push:
+    branches: [feat/unified-ui-english-adventure]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate learning and UI contracts
+        run: node --test tests/core.test.cjs tests/content.test.mjs tests/exams.test.cjs tests/ui-contract.test.mjs
+      - name: Build complete content
+        run: node scripts/build.mjs
