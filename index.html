@@ -2,35 +2,68 @@
 <html lang="zh-Hant">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#182443"><meta name="description" content="國三會考英文每天十分鐘：閱讀闖關、單字複習、錯題復活與學習紀錄。">
+  <meta name="theme-color" content="#D97706"><meta name="description" content="國三會考英文每天十分鐘：閱讀闖關、單字複習、錯題復活與學習紀錄。">
   <title>會考英文每日冒險 · V3.3.0 · 自適應弱點訓練</title>
+  <link rel="stylesheet" href="design-tokens.css">
   <link rel="stylesheet" href="style.css">
   <script src="data.js" defer></script><script src="core.js" defer></script><script src="adaptive-core.js" defer></script><script src="exam-data.js" defer></script><script src="exam-core.js" defer></script><script src="exams.js" defer></script><script src="transfer-data.js" defer></script><script src="speech.js" defer></script><script src="app.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#main">跳至學習內容</a>
   <aside class="sidebar">
-    <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">Aa</span><span>ENGLISH<br><b>ADVENTURE</b></span></a>
-    <p class="sidebar-label">我的學習基地</p>
+    <div class="suite-brand">
+      <span class="suite-family">JHSEE</span>
+      <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">Aa</span><span><b>English Adventure</b><small>116 會考準備</small></span></a>
+    </div>
+    <p class="sidebar-label">學習工具</p>
     <nav aria-label="主要導覽" id="nav">
-      <a href="#home" data-view="home"><span aria-hidden="true">◈</span>冒險地圖</a>
-      <a href="#words" data-view="words"><span aria-hidden="true">Aa</span>單字補給站<span id="wordBadge" class="count"></span></a>
-      <a href="#mistakes" data-view="mistakes"><span aria-hidden="true">↻</span>錯題復活賽<span id="mistakeBadge" class="count"></span></a>
+      <a href="#home" data-view="home"><span aria-hidden="true">⌂</span>今日學習</a>
+      <a href="#words" data-view="words"><span aria-hidden="true">Aa</span>單字複習<span id="wordBadge" class="count"></span></a>
+      <a href="#mistakes" data-view="mistakes"><span aria-hidden="true">↻</span>錯題複習<span id="mistakeBadge" class="count"></span></a>
       <a href="#exams" data-view="exams"><span aria-hidden="true">▤</span>歷屆試題</a>
       <a href="#dashboard" data-view="dashboard"><span aria-hidden="true">▥</span>學習紀錄</a>
     </nav>
-    <div class="sidebar-bottom"><span class="tiny-tag" id="sidebarChapter">第一章</span><strong>Small acts.<br>Big discoveries.</strong><p>先讀懂，再往前一步。</p><div class="mini-progress"><i id="sidebarProgress"></i></div><small id="sidebarDone">0 / 7 關完成</small></div>
+    <div class="sidebar-bottom"><span class="tiny-tag" id="sidebarChapter">第一章</span><strong>每天一點，穩定進步。</strong><p>閱讀、單字、錯題，系統會依學習紀錄調整。</p><div class="mini-progress"><i id="sidebarProgress"></i></div><small id="sidebarDone">0 / 7 關完成</small></div>
   </aside>
+
   <div class="workspace">
-    <header class="topbar"><a class="mobile-brand" href="#home">Aa <b>英文冒險</b></a><span class="breadcrumb" id="breadcrumb">我的學習基地 / 冒險地圖</span><div class="player-stats"><span><b id="streak">0</b> 天連續</span><span class="xp-pill"><b id="xp">0</b> EXP</span><span class="level-pill" id="level">Lv. 1</span></div></header>
+    <header class="topbar jh-topbar">
+      <div class="jh-title-block"><span class="jh-family-name">JHSEE</span><strong>English Adventure</strong><span class="breadcrumb" id="breadcrumb">學習中心 / 今日</span></div>
+      <nav class="jh-app-switcher" aria-label="切換 JHSEE 產品">
+        <a href="https://alger68.github.io/JHSEE-Study-Planner/">Study Planner</a>
+        <a href="https://alger68.github.io/JHSEE-All-Subjects/">All Subjects</a>
+        <a href="https://alger68.github.io/JHSEE-English-Adventure/" aria-current="page">English Adventure</a>
+      </nav>
+      <div class="player-stats"><span><b id="streak">0</b> 天連續</span><span class="xp-pill"><b id="xp">0</b> EXP</span><span class="level-pill" id="level">Lv. 1</span></div>
+    </header>
+
     <div id="storageWarning" class="notice" role="status" hidden></div>
-    <div id="contentUpdate" class="notice" role="status" hidden>有新課程了。<button id="refreshLessons">更新冒險地圖</button></div>
+    <div id="contentUpdate" class="notice" role="status" hidden>有新課程了。<button id="refreshLessons">更新學習內容</button></div>
     <div class="update-bar"><span id="updateStatus" role="status"></span><button id="checkUpdates">檢查更新</button></div>
     <main id="main" tabindex="-1"></main>
     <footer>JHSEE English Adventure <span>V3.3.0 · 自適應弱點訓練。</span></footer>
   </div>
+
+  <nav class="mobile-bottom-nav" aria-label="手機主要導覽">
+    <a href="#home" data-mobile-view="home">今日</a>
+    <a href="#home" id="mobileChallengeLink" data-mobile-view="lesson">闖關</a>
+    <a href="#mistakes" data-mobile-view="mistakes">錯題</a>
+    <details class="mobile-more">
+      <summary>更多</summary>
+      <div class="mobile-more-panel">
+        <a href="#words">單字</a>
+        <a href="#exams">歷屆試題</a>
+        <a href="#dashboard">學習紀錄</a>
+        <hr>
+        <strong>JHSEE Learning Suite</strong>
+        <a href="https://alger68.github.io/JHSEE-Study-Planner/">Study Planner</a>
+        <a href="https://alger68.github.io/JHSEE-All-Subjects/">All Subjects</a>
+        <a href="https://alger68.github.io/JHSEE-English-Adventure/">English Adventure</a>
+      </div>
+    </details>
+  </nav>
+
   <div id="toast" role="status" aria-live="polite" hidden></div>
   <noscript><p>請開啟 JavaScript，才能閱讀、作答與保存進度。</p></noscript>
 </body>
 </html>
-
