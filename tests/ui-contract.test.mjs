@@ -38,4 +38,13 @@ describe('English Adventure UI contract', () => {
     assert.doesNotMatch(css, /\.mission h2\{font-family:Georgia/);
   });
 
+
+  it('keeps narrow-screen stats and mobile controls resilient', () => {
+    const css = readFileSync('style.css','utf8');
+    assert.match(css, /\.player-stats\{[^}]*flex-wrap:wrap/s);
+    assert.match(css, /\.mobile-bottom-nav>a[^}]*min-height:48px/s);
+    assert.match(css, /overflow-wrap:anywhere/);
+    assert.match(css, /prefers-reduced-motion:reduce/);
+  });
+
 });
