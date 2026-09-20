@@ -119,12 +119,16 @@ function syncStats() {
   $('#sidebarProgress').style.width = Math.round(done / lessons.length * 100) + '%'; $('#sidebarDone').textContent = `${done} / ${lessons.length} 關完成`;
   const due = C.dueWords(lessons,state).length, wrong = C.reviewQueue(state).length;
   $('#wordBadge').textContent = due || ''; $('#mistakeBadge').textContent = wrong || '';
+  const nextLesson = lessons.find(l => !C.completedDays(state).includes(l.day)) || lessons[lessons.length-1];
+  const challengeLink = $('#mobileChallengeLink');
+  if (challengeLink && nextLesson) challengeLink.href = '#lesson/' + nextLesson.day;
   showStorage();
 }
 function setNav(view) {
   const labels = {home:'冒險地圖',words:'單字補給站',mistakes:'錯題復活賽',dashboard:'學習紀錄',exams:'官方歷屆試題',transfer:'相似題驗收'};
   document.querySelectorAll('#nav a').forEach(a => {const yes = a.dataset.view === view; a.classList.toggle('active',yes); if (yes) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current');});
-  $('#breadcrumb').textContent = '我的學習基地 / ' + (labels[view] || '閱讀闖關');
+  document.querySelectorAll('.mobile-bottom-nav [data-mobile-view]').forEach(a => { const key=a.dataset.mobileView; const yes=(key==='lesson'&&['lesson','result'].includes(view))||key===view; a.classList.toggle('active',yes); if(yes)a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
+  $('#breadcrumb').textContent = '學習中心 / ' + (labels[view] || '閱讀闖關');
 }
 function storyHTML(l) { return l.story.split(/\n\s*\n/).map(p => `<p>${esc(p).replace(/\n/g,'<br>')}</p>`).join(''); }
 function adaptiveHomeHTML(plan){
