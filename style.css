@@ -99,3 +99,8 @@ body{background:var(--jh-bg);color:var(--jh-text)}
   .mission.jh-hero{min-height:auto;padding:24px}
   .mission.jh-hero .mission-num{font-size:72px}
 }
+
+/* Responsive resilience */
+.player-stats{flex-wrap:wrap;min-width:0}
+.jh-title-block,.page-heading,.lesson-header,.section-heading,.lesson-card,.panel{min-width:0}
+.jh-title-block strong,.breadcrumb,.page-heading h1,.page-heading p,.lesson-card h3,.lesson-card p,.panel h2,.panel h3{overflow-wrap:anywhere}
