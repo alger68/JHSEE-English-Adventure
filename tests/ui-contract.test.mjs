@@ -10,4 +10,12 @@ describe('English Adventure UI contract', () => {
       assert.match(html, new RegExp(`id=["']${id}["']`));
     }
   });
+
+  it('loads canonical JHSEE tokens before product styles', () => {
+    const tokens = readFileSync('design-tokens.css','utf8');
+    assert.ok(html.indexOf('design-tokens.css') >= 0);
+    assert.ok(html.indexOf('design-tokens.css') < html.indexOf('style.css'));
+    assert.match(tokens, /--jh-primary:\s*#D97706/);
+    assert.match(tokens, /JHSEE Design System v1\.0/);
+  });
 });
