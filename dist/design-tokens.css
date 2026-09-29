@@ -1,0 +1,17 @@
+/* JHSEE Design System v1.0 */
+:root{
+  --jh-bg:#F7F7F5;
+  --jh-surface:#FFFFFF;
+  --jh-surface-muted:#FAF3E8;
+  --jh-text:#1F2A44;
+  --jh-muted:#667085;
+  --jh-border:#E6E2DA;
+  --jh-primary:#D97706;
+  --jh-primary-strong:#B45309;
+  --jh-primary-soft:#FFF7ED;
+  --jh-success:#15803D;
+  --jh-warning:#B45309;
+  --jh-danger:#B91C1C;
+  --jh-radius-card:18px;
+  --jh-radius-control:12px;
+}

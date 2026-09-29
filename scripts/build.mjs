@@ -13,12 +13,13 @@ fs.writeFileSync(path.join(root,'data.js'),data);
 const exams=loadExams(root);
 fs.writeFileSync(path.join(root,'exam-data.js'),'// Official answer keys and source links; generated from content/official-exams.json.\nconst officialExams = '+JSON.stringify(exams,null,2)+';\n');
 const scripts=['data.js','core.js','adaptive-core.js','exam-data.js','exam-core.js','exams.js','transfer-data.js','speech.js','app.js'];
+const assets=['design-tokens.css','style.css',...scripts];
 for(const f of scripts)new vm.Script(fs.readFileSync(path.join(root,f),'utf8'),{filename:f});
 fs.mkdirSync(path.join(root,'dist'),{recursive:true});
-for(const f of ['style.css',...scripts])fs.copyFileSync(path.join(root,f),path.join(root,'dist',f));
+for(const f of assets)fs.copyFileSync(path.join(root,f),path.join(root,'dist',f));
 let html=fs.readFileSync(path.join(root,'index.html'),'utf8');
 // Version each referenced asset so a new article cannot leave a cached old data.js behind.
-for(const f of ['style.css',...scripts]){
+for(const f of assets){
  const hash=crypto.createHash('sha256').update(fs.readFileSync(path.join(root,f))).digest('hex').slice(0,12);
  html=html.replaceAll('"'+f+'"','"'+f+'?v='+hash+'"');
 }
@@ -37,4 +38,3 @@ if (lessons.length===250) {
 
 console.log(`Built ${lessons.length} lessons, ${questionCount} questions; latest publication: ${lastPublishDate||'seed week'}; access: all-published; revision ${revision}.`);
 console.log(`Included ${exams.length} official English reading papers, ${exams.reduce((n,e)=>n+e.questionCount,0)} questions.`);
-

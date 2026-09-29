@@ -19,6 +19,18 @@ describe('English Adventure UI contract', () => {
     assert.match(tokens, /JHSEE Design System v1\.0/);
   });
 
+  it('ships every stylesheet linked by the published page', () => {
+    const published = readFileSync('dist/index.html','utf8');
+    const styles = [...published.matchAll(/<link[^>]+href="([^\"]+\.css(?:\?[^\"]*)?)"/g)]
+      .map(([, href]) => href.split('?')[0]);
+    assert.deepEqual(styles, ['design-tokens.css', 'style.css']);
+    for (const stylesheet of styles) {
+      const css = readFileSync(`dist/${stylesheet}`,'utf8');
+      assert.ok(css.length > 0, `${stylesheet} must contain its CSS`);
+    }
+    assert.match(readFileSync('dist/design-tokens.css','utf8'), /--jh-primary:\s*#D97706/);
+  });
+
   it('exposes the unified family shell and mobile navigation', () => {
     for (const label of ['JHSEE','English Adventure','今日','闖關','錯題','更多']) assert.ok(html.includes(label));
     for (const url of [
